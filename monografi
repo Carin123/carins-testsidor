@@ -31,17 +31,17 @@ Testdata: marc/Isbd (länkad entitet)
 
 ●	Beskrivningsnivå (000/05)
 - länkning till entiteter
-Testdata:  CIP-post (finns i förhandspost), ändra till nationalbibliografisk/fullständig nivå
+Testdata:  CIP-post, ändra till nationalbibliografisk/fullständig nivå
 
 ### Instans
 ●	Utgivningssätt
 - val från lista
-Testdata: Monografisk resurs (finns i förhandspost)
+Testdata: Monografisk resurs
 
 ●	Har titel/Titel/Huvudtitel (245 #a)
 Testdata: Under cover (finns i förhandspost)
 Har titel/Titel/Huvudtitel/Övrig titelinformation (245 #b)
-Testdata: livet som underrättelseagent åt MI5 (finns i förhandspost)
+Testdata: livet som underrättelseagent åt MI5
 
 ●	Upphovsuppgift
 Testdata: Tom Marcus ; översättning: Svante Skoglund
@@ -49,9 +49,9 @@ Testdata: Tom Marcus ; översättning: Svante Skoglund
 ●	Identifikator/Typ
 Testdata: ISBN
 Identifikator/Typ/Värde (020 #a)
-Testdata: 9789188107213 (finns i förhandspost)
+Testdata: 9789188107213
 Identifikator/Bestämning (020 #q)
-Testdata: inbunden (finns i förhandspost)
+Testdata: inbunden
 
 ●	Upplageuppgift
 Testdata: Första upplagan
@@ -60,12 +60,12 @@ Testdata: Första upplagan
 - plats/Benämning (264 -/1 #a)
 Testdata: [Göteborg]
 - agent/Benämning (264 -/1 #b)
-Testdata: NoNa (finns i förhandspost)
+Testdata: NoNa
 - datum (264 -/1 #c)
-Testdata: 2017 (finns i förhandspost)
+Testdata: 2017
 Typ av utgivningsdatum/utgivningsstatus (008/06)
 - länkning till entitet
-Testdata: s (= ett årtal) (finns i förhandspost) 
+Testdata: s (= ett årtal)
 
 ●	Tillverkning
 - plats/Benämning (264 -/3 #a)
@@ -79,25 +79,24 @@ Testdata: 2017____  (finns i förhandspost)
 
 ●	Utgivningsland (008/15-17)
 - länkning till entitet
-Testdata: Sverige (sw) (finns i förhandspost)
+Testdata: Sverige (sw)
 
 ●	Medietyp (337 #b)
 - länkning till entitet
-Testdata:  n (= unmediated) (finns i förhandspost)
+Testdata:  n (= unmediated)
 
 ●	Bärartyp (338 #b)
 - länkning till entitet
-Testdata:  nc (= volume) (finns i förhandspost)
+Testdata:  nc (= volume)
 
 ●	Form för katalogiserat objekt (008/23)
 - länkning till entitet
-Testdata: - (= ingen av följande) (finns i förhandspost)
-
+Testdata: - (= ingen av följande)
 ●	Omfång/Benämning
-Testdata: 319 sidor (finns i förhandspost)
+Testdata: 319 sidor
 
 ●	Mått/Benämning
-Testdata: 24 cm (finns i förhandspost)
+Testdata: 24 cm 
 
 ### Verk
 ●	Instans av Verk/Text
@@ -108,12 +107,12 @@ Testdata:  Soldier spy
 ●	Medverkan och funktion/Primär medverkan/Agent/Person (100 1/- #a)
 - lokal entitet
 Medverkan och funktion/Primär medverkan/Agent/Person/Familjenamn
-Testdata: Marcus (finns i förhandspost)
+Testdata: Marcus
 Medverkan och funktion/Primär medverkan/Agent/Person/Förnamn
-Testdata: Tom (finns i förhandspost)
+Testdata: Tom 
 -Medverkan och funktion/Medverkan/Agent/Funktion (100 #4)
 - länkning till entitet
-Testdata: relator/author (= författare) (finns i förhandspost)
+Testdata: relator/author (= författare)
 
 ●	Medverkan och funktion/Medverkan/Agent/Person (700 1/- #a)
 - länkad entitet
@@ -176,5 +175,5 @@ Testdata: engelska (eng)
 
 ●	Innehållstyp (336 #b)
 - länkning till entiteter
-Testdata: text (txt) (finns i förhandspost)
+Testdata: text (txt)
 
