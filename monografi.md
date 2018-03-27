@@ -50,6 +50,7 @@ Exempel:  *CIP-post, ändra till biblioteksnivå*
 * Har titel/Titel/Huvudtitel (245 ‡a)
 
 *Exempel: Under cover*
+
 Har titel/Titel/Huvudtitel/Övrig titelinformation (245 ‡b)
 
 *Exempel: livet som underrättelseagent åt MI5*
@@ -60,9 +61,11 @@ Exempel: Tom Marcus ; översättning: Svante Skoglund
 * Identifikator/Typ
 
 *Exempel: ISBN*
+
 Identifikator/Typ/Värde (020 ‡a)
 
-Exempel: 9789188107213
+*Exempel: 9789188107213*
+
 Identifikator/Bestämning (020 ‡q)
 
 *Exempel: inbunden*
@@ -81,6 +84,7 @@ Identifikator/Bestämning (020 ‡q)
 - datum (264 -/1 ‡c)
 
 *Exempel: 2017*
+
 Typ av utgivningsdatum/utgivningsstatus (008/06)
 - länkning till entitet
 
@@ -97,6 +101,7 @@ Typ av utgivningsdatum/utgivningsstatus (008/06)
 * Kronologisk täckning (008/11-17)
 
 *Exempel: 2017____* 
+
 (jfr datum …)
 
 * Utgivningsland (008/15-17)
@@ -112,7 +117,7 @@ Typ av utgivningsdatum/utgivningsstatus (008/06)
 * Bärartyp (338 ‡b)
 - länkning till entitet
 
-Exempel:  nc (= volume)
+*Exempel:  nc (= volume)*
 
 * Form för katalogiserat objekt (008/23)
 - länkning till entitet
@@ -139,9 +144,11 @@ Exempel:  nc (= volume)
 Medverkan och funktion/Primär medverkan/Agent/Person/Familjenamn
 
 *Exempel: Marcus*
+
 Medverkan och funktion/Primär medverkan/Agent/Person/Förnamn
 
 *Exempel: Tom*
+
 -Medverkan och funktion/Medverkan/Agent/Funktion (100 ‡4)
 - länkning till entitet
 
@@ -151,6 +158,7 @@ Medverkan och funktion/Primär medverkan/Agent/Person/Förnamn
 - länkad entitet
 
 *Exempel: Skoglund, Svante, 1960- (i förhandspost: Skoglund, Svante)*
+
 -Medverkan och funktion/Medverkan/Agent/Funktion (700 ‡4)
 - länkning till entitet
 
@@ -159,6 +167,7 @@ Medverkan och funktion/Primär medverkan/Agent/Person/Förnamn
 * Klassifikation/DDK-klassifikation/Kod (082 0/4 ‡a)
 
 *Exempel: 327.12092*
+
 Klassifikation/DDK-klassifikation/Kod/Klassifikationsupplaga (082 ‡2)
 
 *Exempel: 23/swe*
@@ -170,9 +179,11 @@ Klassifikation/DDK-klassifikation/Kod/Klassifikationsupplaga (082 ‡2)
 Klassifikation/Termlista/Termlista (084 ‡2)
 
 *Exempel: kssb*
+
 Klassifikation/Termlista/Termlista/Version (084 ‡2)
 
 *Exempel: 8*
+
 Klassifikation/Termlista/Termlista/Samma sak som (084 ‡2)
 - länkad entitet
 
@@ -183,6 +194,7 @@ Klassifikation/Termlista/Termlista/Samma sak som (084 ‡2)
 Ämne/Agent/Person/Familjenamn
 
 *Exempel: Marcus*
+
 Ämne/Agent/Person/Förnamn
 
 *Exempel: Tom*
@@ -191,6 +203,7 @@ Klassifikation/Termlista/Termlista/Samma sak som (084 ‡2)
 - lokal entitet
 
 *Exempel: Storbritannien*
+
 Ämne/Agent/Jurisdiktion/Namn på underordnad enhet (610 ‡b)
 
 *Exempel: MI5*
@@ -198,12 +211,15 @@ Klassifikation/Termlista/Termlista/Samma sak som (084 ‡2)
 - länkning till entitet - sao-term (650 -7- ‡a, ‡2 sao)
 
 *Exempel: Säkerhetspolitik*
+
 - länkning till entitet - sao-term (650 -7- ‡a, ‡2 sao)
 
 *Exempel: Spionage*
+
 - länkning till entitet - sao-term (650 -7- ‡a, ‡2 sao)
 
 *Exempel: Terrorismbekämpning*
+
 - länkning till entiteter - geografiskt ämnesord (651 -/4 ‡a)
 
 *Exempel: Storbritannien*
@@ -212,9 +228,11 @@ Klassifikation/Termlista/Termlista/Samma sak som (084 ‡2)
 - länkning till entiteter – saogf-termer (655 ‡a, ‡2 saogf)
 
 *Exempel: Självbiografier*
+
 - länkning till entitet – litterär genre (008/33)
 
 *Exempel: 0 ( = marc/NotFictionNotFurtherSpecified = Ej skönlitterärt verk)*
+
 - länkning till entitet – biografiskt material (008/34)
 
 *Exempel: a (= autobiography = självbiografi)*
@@ -223,6 +241,7 @@ Klassifikation/Termlista/Termlista/Samma sak som (084 ‡2)
 - länkning till entiteter
 
 *Exempel: svenska (swe)*
+
 * Översättning av/Verk/Språk (041 ‡h)
 - länkning till entitet
 
