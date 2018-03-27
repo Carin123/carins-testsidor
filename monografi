@@ -1,15 +1,13 @@
 Här testar jag att lägga in ett scenario/testfall och anpassa det till hjälptext.
 
-Scenario/Testfall – Libris katalogisering
+## Skapa ny – Bok tryckt monografi
 
-Skapa ny – Tryckt monografi
+**Exempel:** Under cover, ISBN 9789188107213, Voyager BibID 19775078
 
-Exempel: Under cover, ISBN 9789188107213, Voyager BibID 19775078
-Förutsättning: Förhandspost från Bokinfo (sigel BOKR) finns.
-Adminmetadata
+### Adminmetadata
 ●	Skapad av/Organisation/Namn (040 #a)
 - förval: den sigel som skapat posten. Ska inte gå att redigera.
-Testdata: BOKR (finns i förhandspost)
+Testdata: BOKR
 
 ●	Uppgraderad eller importerad av/Organisation/Namn (040 #d)
 Testdata: S
@@ -35,7 +33,7 @@ Testdata: marc/Isbd (länkad entitet)
 - länkning till entiteter
 Testdata:  CIP-post (finns i förhandspost), ändra till nationalbibliografisk/fullständig nivå
 
-Instans
+### Instans
 ●	Utgivningssätt
 - val från lista
 Testdata: Monografisk resurs (finns i förhandspost)
@@ -101,7 +99,7 @@ Testdata: 319 sidor (finns i förhandspost)
 ●	Mått/Benämning
 Testdata: 24 cm (finns i förhandspost)
 
-Verk
+### Verk
 ●	Instans av Verk/Text
 
 ●	Har titel/Titel/Huvudtitel (240 1-/0 #a)
