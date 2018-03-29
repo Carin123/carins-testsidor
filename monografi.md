@@ -8,7 +8,7 @@ Exempel: Under cover, ISBN 9789188107213, Voyager BibID 19775078
 ### Adminmetadata
 * Skapad av/Organisation/Namn (040 ‡a)
   
-  Förval: den sigel som skapat posten. Ska inte gå att redigera.
+  Förval: den sigel som skapat posten
 
 *Exempel: BOKR*
 
@@ -31,7 +31,7 @@ Exempel: (BOKR)9789188107213
 
 * Katalogiseringsregler (040 ‡e)
 - länkning till entiteter + skapa lokal entitet. RDA finns inte som länkbar entitet.
-Förval: länkning till entitet: marc/isbd + lokalt skapad entitet med Kod: rda (eller kan vi skapa en länkbar entitet för rda?)
+Förval: länkning till entitet: marc/isbd + lokalt skapad entitet med Kod: rda
 
 *Exempel: marc/Isbd (länkad entitet)*
 + Kod: rda
@@ -157,7 +157,7 @@ Medverkan och funktion/Primär medverkan/Agent/Person/Förnamn
 * Medverkan och funktion/Medverkan/Agent/Person (700 1/- ‡a)
 - länkad entitet
 
-*Exempel: Skoglund, Svante, 1960- (i förhandspost: Skoglund, Svante)*
+*Exempel: Skoglund, Svante, 1960-*
 
 -Medverkan och funktion/Medverkan/Agent/Funktion (700 ‡4)
 - länkning till entitet
