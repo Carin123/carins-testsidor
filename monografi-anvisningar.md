@@ -10,7 +10,6 @@ Exempel: Under cover, ISBN 9789188107213, Voyager BibID 19775078
   
   Förval: den sigel som skapat posten
 
-*Exempel: BOKR*
 
 * Uppgraderad eller importerad av/Organisation/Namn (040 ‡d)
 
@@ -18,7 +17,7 @@ Exempel: Under cover, ISBN 9789188107213, Voyager BibID 19775078
 
 * Bibliografi/Bibliotek/Sigel (042 ‡9)
 
-*Exempel: NB*
+Ange sigel eller bibliografikod
 
 * Identifikator/Systemnummer/Värde
 Exempel: (BOKR)9789188107213
