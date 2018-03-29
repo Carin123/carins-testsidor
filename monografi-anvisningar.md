@@ -17,13 +17,12 @@ Exempel: Under cover, ISBN 9789188107213, Voyager BibID 19775078
 
 * Bibliografi/Bibliotek/Sigel (042 ‡9)
 
-Ange bibliografikod genom att skriva in sigel. För att söka fram sigel/koder, se [I'm an inline-style link with title](https://www.google.com "Google's Homepage")
-
-[Biblioteksdatabasen](https://biblioteksdatabasen.libris.kb.se/ "Biblioteksdatabasen")
+Ange bibliografikod genom att skriva in sigel. För att söka fram sigel, se [Biblioteksdatabasen](https://biblioteksdatabasen.libris.kb.se/ "Biblioteksdatabasen")
 
 * Identifikator/Systemnummer/Värde
-Exempel: (BOKR)9789188107213
-(Bokinfos systemnummer som följer med vid postimport, ska inte ändras)
+
+
+Om ett systemnummer finns i förhandspost, till exempel Bokinfos systemnummer, låt det vara kvar oförändrat.
 
 * Katalogiseringsspråk (040 ‡b)
 - länkning till entitet
@@ -31,8 +30,10 @@ Exempel: (BOKR)9789188107213
 *Exempel: svenska (swe)*
 
 * Katalogiseringsregler (040 ‡e)
-- länkning till entiteter + skapa lokal entitet. RDA finns inte som länkbar entitet.
-Förval: länkning till entitet: marc/isbd + lokalt skapad entitet med Kod: rda
+För post katalogiserad enligt RDA, länka till Länka till entitet: marc/isbd samt skapa lokal entitet med Kod: rda
+
+RDA finns inte som länkbar entitet.
+
 
 *Exempel: marc/Isbd (länkad entitet)*
 + Kod: rda
