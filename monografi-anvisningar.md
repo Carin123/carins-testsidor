@@ -30,15 +30,15 @@ Exempel: Under cover, ISBN 9789188107213, Voyager BibID 19775078
 
 * Beskrivningsnivå (000/05)  
   Länkning till entitet  
-  *Exempel:  *CIP-post, ändra till biblioteksnivå*
+  *Exempel: CIP-post, ändra till biblioteksnivå*
 
 ### Instans
 * Utgivningssätt  
 Val från lista  
 *Exempel: Monografisk resurs*
 
-* Har titel/Titel/Huvudtitel (245 ‡a) 
-*Exempel: Under cover*
+* Har titel/Titel/Huvudtitel (245 ‡a)   
+  *Exempel: Under cover*
 
 Har titel/Titel/Huvudtitel/Övrig titelinformation (245 ‡b)  
 *Exempel: livet som underrättelseagent åt MI5*
