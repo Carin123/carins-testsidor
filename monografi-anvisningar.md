@@ -20,7 +20,7 @@ Exempel: Under cover, ISBN 9789188107213, Voyager BibID 19775078
   Om ett systemnummer finns i förhandspost, till exempel Bokinfos systemnummer, låt det vara kvar oförändrat.
 
 * Katalogiseringsspråk (040 ‡b)  
-  Länkning till entitet  
+  Länkning till entitet.  
   *Exempel: svenska (swe)*
 
 * Katalogiseringsregler (040 ‡e)
@@ -29,33 +29,31 @@ Exempel: Under cover, ISBN 9789188107213, Voyager BibID 19775078
   *Exempel: marc/Isbd (länkad entitet)* + lokal entitet, Kod: rda
 
 * Beskrivningsnivå (000/05)  
-  Länkning till entitet  
+  Länkning till entitet.  
   *Exempel: CIP-post, ändra till biblioteksnivå*
 
 ### Instans
 * Utgivningssätt  
-Val från lista  
-*Exempel: Monografisk resurs*
-
+  Val från lista.  
+  *Exempel: Monografisk resurs*
+  
 * Har titel/Titel/Huvudtitel (245 ‡a)   
-  *Exempel: Under cover*
+*Exempel: Under cover*
 
-Har titel/Titel/Huvudtitel/Övrig titelinformation (245 ‡b)  
+* Har titel/Titel/Huvudtitel/Övrig titelinformation (245 ‡b)  
 *Exempel: livet som underrättelseagent åt MI5*
 
 * Upphovsuppgift  
 *Exempel: Tom Marcus ; översättning: Svante Skoglund*
 
-* Identifikator/Typ
-
+* Identifikator/Typ  
 *Exempel: ISBN*
 
 Identifikator/Typ/Värde (020 ‡a)
 
 *Exempel: 9789188107213*
 
-Identifikator/Bestämning (020 ‡q)
-
+Identifikator/Bestämning (020 ‡q)  
 *Exempel: inbunden*
 
 * Upplageuppgift
