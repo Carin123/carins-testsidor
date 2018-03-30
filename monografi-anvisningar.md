@@ -20,7 +20,7 @@ Exempel: Under cover, ISBN 9789188107213, Voyager BibID 19775078
   Om ett systemnummer finns i förhandspost, till exempel Bokinfos systemnummer, låt det vara kvar oförändrat.
 
 * Katalogiseringsspråk (040 ‡b)  
-  länkning till entitet  
+  Länkning till entitet  
   *Exempel: svenska (swe)*
 
 * Katalogiseringsregler (040 ‡e)
