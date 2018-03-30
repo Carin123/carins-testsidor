@@ -9,11 +9,12 @@ Exempel: Under cover, ISBN 9789188107213, Voyager BibID 19775078
 * Skapad av/Organisation/Namn (040 ‡a)
   
   Förval: den sigel som skapat posten. Ska inte ändras.
-
+  
+*Exempel: BOKR*
 
 * Uppgraderad eller importerad av/Organisation/Namn (040 ‡d)
 
-
+Skriv in sigel som har uppgraderat (ändrat nivå) eller importerat posten. För att söka fram sigel, se [Biblioteksdatabasen](https://biblioteksdatabasen.libris.kb.se/ "Biblioteksdatabasen")
 
 * Bibliografi/Bibliotek/Sigel (042 ‡9)
 
@@ -28,7 +29,7 @@ Om ett systemnummer finns i förhandspost, till exempel Bokinfos systemnummer, l
 *Exempel: svenska (swe)*
 
 * Katalogiseringsregler (040 ‡e)
-För post katalogiserad enligt RDA, länka till Länka till entitet: marc/isbd samt skapa lokal entitet med Kod: rda
+För post katalogiserad enligt RDA, länka till entitet: marc/Isbd samt skapa lokal entitet med Kod: rda
 
 RDA finns inte som länkbar entitet.
 
