@@ -10,13 +10,11 @@ Exempel: Under cover, ISBN 9789188107213, Voyager BibID 19775078
   Förval: den sigel som skapat posten. Ska inte ändras.  
   *Exempel: BOKR*
 
-* Uppgraderad eller importerad av/Organisation/Namn (040 ‡d)
+* Uppgraderad eller importerad av/Organisation/Namn (040 ‡d)  
+  Skriv in sigel som har uppgraderat (ändrat nivå) eller importerat posten. För att söka fram sigel, se [Biblioteksdatabasen](https://biblioteksdatabasen.libris.kb.se/ "Biblioteksdatabasen")
 
-Skriv in sigel som har uppgraderat (ändrat nivå) eller importerat posten. För att söka fram sigel, se [Biblioteksdatabasen](https://biblioteksdatabasen.libris.kb.se/ "Biblioteksdatabasen")
-
-* Bibliografi/Bibliotek/Sigel (042 ‡9)
-
-Ange bibliografikod genom att skriva in sigel. För att söka fram sigel, se [Biblioteksdatabasen](https://biblioteksdatabasen.libris.kb.se/ "Biblioteksdatabasen")
+* Bibliografi/Bibliotek/Sigel (042 ‡9)  
+  Ange bibliografikod genom att skriva in sigel. För att söka fram sigel, se [Biblioteksdatabasen](https://biblioteksdatabasen.libris.kb.se/ "Biblioteksdatabasen")
 
 * Identifikator/Systemnummer/Värde
 Om ett systemnummer finns i förhandspost, till exempel Bokinfos systemnummer, låt det vara kvar oförändrat.
