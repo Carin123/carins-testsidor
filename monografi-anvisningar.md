@@ -16,44 +16,35 @@ Exempel: Under cover, ISBN 9789188107213, Voyager BibID 19775078
 * Bibliografi/Bibliotek/Sigel (042 ‡9)  
   Ange bibliografikod genom att skriva in sigel. För att söka fram sigel, se [Biblioteksdatabasen](https://biblioteksdatabasen.libris.kb.se/ "Biblioteksdatabasen")
 
-* Identifikator/Systemnummer/Värde
-Om ett systemnummer finns i förhandspost, till exempel Bokinfos systemnummer, låt det vara kvar oförändrat.
+* Identifikator/Systemnummer/Värde  
+  Om ett systemnummer finns i förhandspost, till exempel Bokinfos systemnummer, låt det vara kvar oförändrat.
 
-* Katalogiseringsspråk (040 ‡b)
-- länkning till entitet
-
-*Exempel: svenska (swe)*
+* Katalogiseringsspråk (040 ‡b)  
+  länkning till entitet  
+  *Exempel: svenska (swe)*
 
 * Katalogiseringsregler (040 ‡e)
-För post katalogiserad enligt RDA, länka till entitet: marc/Isbd samt skapa lokal entitet med Kod: rda
+  För post katalogiserad enligt RDA, länka till entitet: marc/Isbd samt skapa lokal entitet med Kod: rda  
+  RDA finns inte som länkbar entitet.  
+  *Exempel: marc/Isbd (länkad entitet)* + lokal entitet, Kod: rda
 
-RDA finns inte som länkbar entitet.
-
-
-*Exempel: marc/Isbd (länkad entitet)*
-+ Kod: rda
-
-* Beskrivningsnivå (000/05)
-- länkning till entiteter
-
-Exempel:  *CIP-post, ändra till biblioteksnivå*
+* Beskrivningsnivå (000/05)  
+  Länkning till entitet  
+  *Exempel:  *CIP-post, ändra till biblioteksnivå*
 
 ### Instans
-* Utgivningssätt
-- val från lista
-
+* Utgivningssätt  
+Val från lista  
 *Exempel: Monografisk resurs*
 
-* Har titel/Titel/Huvudtitel (245 ‡a)
-
+* Har titel/Titel/Huvudtitel (245 ‡a) 
 *Exempel: Under cover*
 
-Har titel/Titel/Huvudtitel/Övrig titelinformation (245 ‡b)
-
+Har titel/Titel/Huvudtitel/Övrig titelinformation (245 ‡b)  
 *Exempel: livet som underrättelseagent åt MI5*
 
-* Upphovsuppgift
-Exempel: Tom Marcus ; översättning: Svante Skoglund
+* Upphovsuppgift  
+*Exempel: Tom Marcus ; översättning: Svante Skoglund*
 
 * Identifikator/Typ
 
