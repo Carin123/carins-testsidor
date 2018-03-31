@@ -47,7 +47,7 @@ Exempel: Under cover, ISBN 9789188107213, Voyager BibID 19775078
 ```Exempel: Tom Marcus ; översättning: Svante Skoglund```
 
 * Identifikator/Typ  
-Välj från lista. 
+Välj från lista.  
 ```Exempel: ISBN```
 
 Identifikator/Typ/Värde (020 ‡a)  
@@ -105,64 +105,64 @@ Typ av utgivningsdatum/utgivningsstatus (008/06)
 * Bärartyp (338 ‡b)
 - länkning till entitet
 
-*Exempel:  nc (= volume)*
+```Exempel:  nc (= volume)```
 
 * Form för katalogiserat objekt (008/23)
 - länkning till entitet
 
-*Exempel: - (= ingen av följande)*
+```Exempel: - (= ingen av följande)```
 
 * Omfång/Benämning
 
-*Exempel: 319 sidor*
+```Exempel: 319 sidor```
 
 * Mått/Benämning
 
-*Exempel: 24 cm*
+```Exempel: 24 cm```
 
 ### Verk
 * Instans av Verk/Text
 
 * Har titel/Titel/Huvudtitel (240 1-/0 ‡a)
 
-*Exempel:  Soldier spy*
+```Exempel:  Soldier spy```
 
 * Medverkan och funktion/Primär medverkan/Agent/Person (100 1/- ‡a)
 - lokal entitet
 Medverkan och funktion/Primär medverkan/Agent/Person/Familjenamn
 
-*Exempel: Marcus*
+```Exempel: Marcus```
 
 Medverkan och funktion/Primär medverkan/Agent/Person/Förnamn
 
-*Exempel: Tom*
+```Exempel: Tom```
 
 -Medverkan och funktion/Medverkan/Agent/Funktion (100 ‡4)
 - länkning till entitet
 
-*Exempel: relator/author (= författare)*
+```Exempel: relator/author (= författare)```
 
 * Medverkan och funktion/Medverkan/Agent/Person (700 1/- ‡a)
 - länkad entitet
 
-*Exempel: Skoglund, Svante, 1960-*
+```Exempel: Skoglund, Svante, 1960-```
 
 -Medverkan och funktion/Medverkan/Agent/Funktion (700 ‡4)
 - länkning till entitet
 
-*Exempel: relator/trl (= översättare)*
+```Exempel: relator/trl (= översättare)```
 
 * Klassifikation/DDK-klassifikation/Kod (082 0/4 ‡a)
 
-*Exempel: 327.12092*
+```Exempel: 327.12092```
 
 Klassifikation/DDK-klassifikation/Kod/Klassifikationsupplaga (082 ‡2)
 
-*Exempel: 23/swe*
+```Exempel: 23/swe```
 
 * Klassifikation/Kod (084 0/4 ‡a)
 
-*Exempel: Sei-e*
+```Exempel: Sei-e```
 
 Klassifikation/Termlista/Termlista (084 ‡2)
 
@@ -170,72 +170,72 @@ Klassifikation/Termlista/Termlista (084 ‡2)
 
 Klassifikation/Termlista/Termlista/Version (084 ‡2)
 
-*Exempel: 8*
+```Exempel: 8```
 
 Klassifikation/Termlista/Termlista/Samma sak som (084 ‡2)
 - länkad entitet
 
-*Exempel: term/kssb/8*
+```Exempel: term/kssb/8```
 
 * Ämne/Agent/Person (600 1/- ‡a)
 - lokal entitet
 Ämne/Agent/Person/Familjenamn
 
-*Exempel: Marcus*
+```xempel: Marcus```
 
 Ämne/Agent/Person/Förnamn
 
-*Exempel: Tom*
+```Exempel: Tom```
 
 Ämne/Agent/Jurisdiktion/Är del av/Jurisdiktion/Namn (610 1/4 ‡a)
 - lokal entitet
 
-*Exempel: Storbritannien*
+```xempel: Storbritannien```
 
 Ämne/Agent/Jurisdiktion/Namn på underordnad enhet (610 ‡b)
 
-*Exempel: MI5*
+```Exempel: MI5```
 
 - länkning till entitet - sao-term (650 -7- ‡a, ‡2 sao)
 
-*Exempel: Säkerhetspolitik*
+```Exempel: Säkerhetspolitik```
 
 - länkning till entitet - sao-term (650 -7- ‡a, ‡2 sao)
 
-*Exempel: Spionage*
+```Exempel: Spionage```
 
 - länkning till entitet - sao-term (650 -7- ‡a, ‡2 sao)
 
-*Exempel: Terrorismbekämpning*
+``Exempel: Terrorismbekämpning```
 
 - länkning till entiteter - geografiskt ämnesord (651 -/4 ‡a)
 
-*Exempel: Storbritannien*
+```Exempel: Storbritannien```
 
 * Genre/form
 - länkning till entiteter – saogf-termer (655 ‡a, ‡2 saogf)
 
-*Exempel: Självbiografier*
+```Exempel: Självbiografier```
 
 - länkning till entitet – litterär genre (008/33)
 
-*Exempel: 0 ( = marc/NotFictionNotFurtherSpecified = Ej skönlitterärt verk)*
+```Exempel: 0 ( = marc/NotFictionNotFurtherSpecified = Ej skönlitterärt verk)```
 
 - länkning till entitet – biografiskt material (008/34)
 
-*Exempel: a (= autobiography = självbiografi)*
+```Exempel: a (= autobiography = självbiografi)```
 
 * Språk (008/35-37) (+ även i 041 ‡a, om relationen Översättning av finns)
 - länkning till entiteter
 
-*Exempel: svenska (swe)*
+```Exempel: svenska (swe)```
 
 * Översättning av/Verk/Språk (041 ‡h)
 - länkning till entitet
 
-*Exempel: engelska (eng)*
+```Exempel: engelska (eng)```
 
 * Innehållstyp (336 ‡b)
 - länkning till entiteter
 
-*Exempel: text (txt)*
+```Exempel: text (txt)```
