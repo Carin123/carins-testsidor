@@ -8,7 +8,7 @@ Exempel: Under cover, ISBN 9789188107213, Voyager BibID 19775078
 ### Adminmetadata
 * Skapad av/Organisation/Namn (040 ‡a)  
   Förval: den sigel som skapat posten. Ska inte ändras.  
-  *Exempel: BOKR*
+  ```Exempel: BOKR```
 
 * Uppgraderad eller importerad av/Organisation/Namn (040 ‡d)  
   Skriv in sigel som har uppgraderat (ändrat nivå) eller importerat posten. För att söka fram sigel, se [Biblioteksdatabasen](https://biblioteksdatabasen.libris.kb.se/ "Biblioteksdatabasen")
