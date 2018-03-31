@@ -47,19 +47,19 @@ Exempel: Under cover, ISBN 9789188107213, Voyager BibID 19775078
 ```Exempel: Tom Marcus ; översättning: Svante Skoglund```
 
 * Identifikator/Typ  
-Välj från lista.
+Välj från lista. 
 ```Exempel: ISBN```
 
 Identifikator/Typ/Värde (020 ‡a)  
-Skriv in uppgiften.
+Skriv in uppgiften.  
 ```Exempel: 9789188107213```
 
 Identifikator/Bestämning (020 ‡q)  
-Skriv in uppgiften.
+Skriv in uppgiften.  
 ```Exempel: inbunden```
 
 * Upplageuppgift
-Skriv in uppgiften.
+Skriv in uppgiften.  
 ```Exempel: Första upplagan```
 
 * Utgivning
@@ -95,12 +95,12 @@ Typ av utgivningsdatum/utgivningsstatus (008/06)
 * Utgivningsland (008/15-17)
 - länkning till entitet
 
-*Exempel: Sverige (sw)*
+```Exempel: Sverige (sw)```
 
 * Medietyp (337 ‡b)
 - länkning till entitet
 
-*Exempel:  n (= unmediated)*
+```Exempel:  n (= unmediated)```
 
 * Bärartyp (338 ‡b)
 - länkning till entitet
