@@ -34,7 +34,7 @@ Exempel: Under cover, ISBN 9789188107213, Voyager BibID 19775078
 
 ### Instans
 * Utgivningssätt  
-  Val från lista.  
+  Välj från lista.  
   ```Exempel: Monografisk resurs```
   
 * Har titel/Titel/Huvudtitel (245 ‡a)   
