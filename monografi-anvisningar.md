@@ -23,7 +23,7 @@ Exempel: Under cover, ISBN 9789188107213, Voyager BibID 19775078
   Länkning till entitet.  
   ```Exempel: svenska (swe)```
 
-* Katalogiseringsregler (040 ‡e)
+* Katalogiseringsregler (040 ‡e)  
   För post katalogiserad enligt RDA, länka till entitet: marc/Isbd samt skapa lokal entitet med Kod: rda  
   RDA finns inte som länkbar entitet.  
   ```Exempel: marc/Isbd (länkad entitet) + lokal entitet, Kod: rda```
