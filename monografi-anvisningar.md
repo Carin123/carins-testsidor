@@ -21,74 +21,74 @@ Exempel: Under cover, ISBN 9789188107213, Voyager BibID 19775078
 
 * Katalogiseringsspråk (040 ‡b)  
   Länkning till entitet.  
-  *Exempel: svenska (swe)*
+  ```Exempel: svenska (swe)```
 
 * Katalogiseringsregler (040 ‡e)
   För post katalogiserad enligt RDA, länka till entitet: marc/Isbd samt skapa lokal entitet med Kod: rda  
   RDA finns inte som länkbar entitet.  
-  *Exempel: marc/Isbd (länkad entitet)* + lokal entitet, Kod: rda
+  ```Exempel: marc/Isbd (länkad entitet) + lokal entitet, Kod: rda```
 
 * Beskrivningsnivå (000/05)  
   Länkning till entitet.  
-  *Exempel: CIP-post, ändra till biblioteksnivå*
+  ```Exempel: CIP-post, ändra till biblioteksnivå```
 
 ### Instans
 * Utgivningssätt  
   Val från lista.  
-  *Exempel: Monografisk resurs*
+  ```Exempel: Monografisk resurs```
   
 * Har titel/Titel/Huvudtitel (245 ‡a)   
-*Exempel: Under cover*
+```Exempel: Under cover```
 
 * Har titel/Titel/Huvudtitel/Övrig titelinformation (245 ‡b)  
-*Exempel: livet som underrättelseagent åt MI5*
+```Exempel: livet som underrättelseagent åt MI5```
 
 * Upphovsuppgift  
-*Exempel: Tom Marcus ; översättning: Svante Skoglund*
+```Exempel: Tom Marcus ; översättning: Svante Skoglund```
 
 * Identifikator/Typ  
 Välj från lista.
-*Exempel: ISBN*
+```Exempel: ISBN```
 
 Identifikator/Typ/Värde (020 ‡a)  
 Skriv in uppgiften.
-*Exempel: 9789188107213*
+```Exempel: 9789188107213```
 
 Identifikator/Bestämning (020 ‡q)  
 Skriv in uppgiften.
-*Exempel: inbunden*
+```Exempel: inbunden```
 
 * Upplageuppgift
 Skriv in uppgiften.
-*Exempel: Första upplagan*
+```Exempel: Första upplagan```
 
 * Utgivning
 - plats/Benämning (264 -/1 ‡a)
 
-*Exempel: [Göteborg]*
+```Exempel: [Göteborg]```
 - agent/Benämning (264 -/1 ‡b)
 
-*Exempel: NoNa*
+```Exempel: NoNa```
 - datum (264 -/1 ‡c)
 
-*Exempel: 2017*
+```Exempel: 2017```
 
 Typ av utgivningsdatum/utgivningsstatus (008/06)
 - länkning till entitet
 
-*Exempel: s (= ett årtal)* 
+```Exempel: s (= ett årtal)```
 
 * Tillverkning
 - plats/Benämning (264 -/3 ‡a)
 
-*Exempel: Falun*
+```Exempel: Falun```
 - agent/Benämning (264 -/3 ‡b)
 
-*Exempel: Scandbook*
+```Exempel: Scandbook```
 
 * Kronologisk täckning (008/11-17)
 
-*Exempel: 2017____* 
+```Exempel: 2017____```
 
 (jfr datum …)
 
