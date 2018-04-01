@@ -12,12 +12,14 @@ Exempel: Under cover, ISBN 9789188107213, Voyager BibID 19775078
 
 * Uppgraderad eller importerad av/Organisation/Namn (040 ‡d)  
   Skriv in sigel som har uppgraderat (ändrat nivå) eller importerat posten. För att söka fram sigel, se [Biblioteksdatabasen](https://biblioteksdatabasen.libris.kb.se/ "Biblioteksdatabasen")
+  ```Exempel: S```
 
 * Bibliografi/Bibliotek/Sigel (042 ‡9)  
   Ange bibliografikod genom att skriva in sigel. För att söka fram sigel, se [Biblioteksdatabasen](https://biblioteksdatabasen.libris.kb.se/ "Biblioteksdatabasen")
 
 * Identifikator/Systemnummer/Värde  
-  Om ett systemnummer finns i förhandspost, till exempel Bokinfos systemnummer, låt det vara kvar oförändrat.
+  Om ett systemnummer finns i förhandspost, till exempel Bokinfos systemnummer, låt det vara kvar oförändrat.  
+   ```Exempel: (BOKR)9789188107213```
 
 * Katalogiseringsspråk (040 ‡b)  
   Länka till entitet.  
