@@ -65,7 +65,7 @@ Exempel: Under cover, ISBN 9789188107213, Voyager BibID 19775078
   ```Exempel: Första upplagan```
 
 * Utgivning   
- * Plats/Benämning (264 -/1 ‡a)  
+  * Plats/Benämning (264 -/1 ‡a)  
   Skriv in uppgiften.  
   ```Exempel: [Göteborg]```  
   * Agent/Benämning (264 -/1 ‡b)  
@@ -73,7 +73,7 @@ Exempel: Under cover, ISBN 9789188107213, Voyager BibID 19775078
   ```Exempel: NoNa```  
   * Datum (264 -/1 ‡c)  
   Skriv in uppgiften.  
-  ```Exempel: 2017```
+  ```Exempel: 2017```  
 
 * Typ av utgivningsdatum/utgivningsstatus (008/06)  OBS. FINNS DET MED?  
   Länka till entitet.  
