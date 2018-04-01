@@ -37,19 +37,19 @@ Exempel: Under cover, ISBN 9789188107213, Voyager BibID 19775078
   ```Exempel: Monografisk resurs```
   
 * Har titel/Titel/Huvudtitel (245 ‡a)  
-  Skriv in uppgiften. 
+  Skriv in uppgiften.  
   ```Exempel: Under cover```
 
 * Har titel/Titel/Huvudtitel/Övrig titelinformation (245 ‡b)  
-  Skriv in uppgiften. 
+  Skriv in uppgiften.  
   ```Exempel: livet som underrättelseagent åt MI5```
 
 * Upphovsuppgift  
-  Skriv in uppgiften. 
+  Skriv in uppgiften.  
   ```Exempel: Tom Marcus ; översättning: Svante Skoglund```
 
 * Identifikator/Typ  
-  Välj från lista.  
+  Välj från lista.    
   ```Exempel: ISBN```
 
 * Identifikator/Typ/Värde (020 ‡a)  
@@ -69,10 +69,10 @@ Exempel: Under cover, ISBN 9789188107213, Voyager BibID 19775078
   Skriv in uppgiften. 
   ```Exempel: [Göteborg]```
 - agent/Benämning (264 -/1 ‡b)
-  Skriv in uppgiften. 
+  Skriv in uppgiften.  
 ```Exempel: NoNa```
 - datum (264 -/1 ‡c)
-  Skriv in uppgiften. 
+  Skriv in uppgiften.  
 ```Exempel: 2017```
 
 * Typ av utgivningsdatum/utgivningsstatus (008/06)  
@@ -80,21 +80,18 @@ Exempel: Under cover, ISBN 9789188107213, Voyager BibID 19775078
   ```Exempel: s (= ett årtal)```
 
 * Tillverkning
-- plats/Benämning (264 -/3 ‡a)
-
+- plats/Benämning (264 -/3 ‡a)  
 ```Exempel: Falun```  
-  * agent/Benämning (264 -/3 ‡b)
-  Skriv in uppgiften. 
+  * agent/Benämning (264 -/3 ‡b)  
+  Skriv in uppgiften.   
   ```Exempel: Scandbook```
 
 * Kronologisk täckning (008/11-17)
-  Skriv in uppgiften. 
+  Skriv in uppgiften.  
   ```Exempel: 2017____```
 
-(jfr datum …)
-
 * Utgivningsland (008/15-17)  
-  Länka till entitet.
+  Länka till entitet.  
   ```Exempel: Sverige (sw)```
 
 * Medietyp (337 ‡b)  
@@ -110,11 +107,11 @@ Exempel: Under cover, ISBN 9789188107213, Voyager BibID 19775078
   ```Exempel: - (= ingen av följande)```
 
 * Omfång/Benämning  
-  Skriv in uppgiften. 
+  Skriv in uppgiften.  
   ```Exempel: 319 sidor```
 
 * Mått/Benämning  
-  Skriv in uppgiften. 
+  Skriv in uppgiften.  
   ```Exempel: 24 cm```
 
 ### Verk
