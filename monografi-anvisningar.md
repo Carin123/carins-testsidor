@@ -75,7 +75,7 @@ Exempel: Under cover, ISBN 9789188107213, Voyager BibID 19775078
   Skriv in uppgiften.  
   ```Exempel: 2017```
 
-* Typ av utgivningsdatum/utgivningsstatus (008/06)  
+* Typ av utgivningsdatum/utgivningsstatus (008/06)  OBS. FINNS DET MED?
   Länka till entitet.  
   ```Exempel: s (= ett årtal)```
 
@@ -86,7 +86,7 @@ Exempel: Under cover, ISBN 9789188107213, Voyager BibID 19775078
   Skriv in uppgiften.   
   ```Exempel: Scandbook```
 
-* Kronologisk täckning (008/11-17)  
+* Kronologisk täckning (008/11-17)  OBS. FINNS DET MED?
   Skriv in uppgiften.  
   ```Exempel: 2017____```
 
@@ -102,7 +102,7 @@ Exempel: Under cover, ISBN 9789188107213, Voyager BibID 19775078
   Länka till entitet.  
 ```Exempel:  nc (= volume)```
 
-* Form för katalogiserat objekt (008/23)  
+* Form för katalogiserat objekt (008/23)  OBS. FINNS DET MED?
   Länka till entitet.  
   ```Exempel: - (= ingen av följande)```
 
