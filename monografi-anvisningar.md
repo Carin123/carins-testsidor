@@ -119,9 +119,8 @@ Exempel: Under cover, ISBN 9789188107213, Voyager BibID 19775078
 ### Verk
 * Instans av Verk/Text
 
-* Har titel/Titel/Huvudtitel (240 1-/0 ‡a)
-
-```Exempel:  Soldier spy```
+* Har titel/Titel/Huvudtitel (240 1-/0 ‡a)  
+  ```Exempel:  Soldier spy```
 
 * Medverkan och funktion/Primär medverkan/Agent/Person (100 1/- ‡a)  
   Skapa lokal entitet.
@@ -132,34 +131,28 @@ Medverkan och funktion/Primär medverkan/Agent/Person/Förnamn
   ```Exempel: Tom```
 
 * Medverkan och funktion/Medverkan/Agent/Funktion (100 ‡4)  
-  Länka till entitet.
-
-```Exempel: relator/author (= författare)```
+  Länka till entitet.  
+  ```Exempel: relator/author (= författare)```
 
 * Medverkan och funktion/Medverkan/Agent/Person (700 1/- ‡a)  
-  Länka till entitet.
-
-```Exempel: Skoglund, Svante, 1960-```
+  Länka till entitet.  
+  ```Exempel: Skoglund, Svante, 1960-```
 
 * Medverkan och funktion/Medverkan/Agent/Funktion (700 ‡4)  
-  Länka till entitet.
-
-```Exempel: relator/trl (= översättare)```
+  Länka till entitet.  
+  ```Exempel: relator/trl (= översättare)```
 
 * Klassifikation/DDK-klassifikation/Kod (082 0/4 ‡a)  
-  Skriv in uppgiften. 
-
-```Exempel: 327.12092```
+  Skriv in uppgiften.  
+  ```Exempel: 327.12092```
 
 * Klassifikation/DDK-klassifikation/Kod/Klassifikationsupplaga (082 ‡2)  
-  Skriv in uppgiften. 
-
-```Exempel: 23/swe```
+  Skriv in uppgiften.  
+  ```Exempel: 23/swe```
 
 * Klassifikation/Kod (084 0/4 ‡a)  
-  Skriv in uppgiften. 
-
-```Exempel: Sei-e```
+  Skriv in uppgiften.  
+  ```Exempel: Sei-e```
 
 Klassifikation/Termlista/Termlista (084 ‡2)
 
@@ -178,7 +171,7 @@ Klassifikation/Termlista/Termlista/Samma sak som (084 ‡2)
 - lokal entitet
 Ämne/Agent/Person/Familjenamn
 
-```xempel: Marcus```
+```Exempel: Marcus```
 
 Ämne/Agent/Person/Förnamn
 
@@ -187,7 +180,7 @@ Klassifikation/Termlista/Termlista/Samma sak som (084 ‡2)
 Ämne/Agent/Jurisdiktion/Är del av/Jurisdiktion/Namn (610 1/4 ‡a)
 - lokal entitet
 
-```xempel: Storbritannien```
+```Exempel: Storbritannien```
 
 Ämne/Agent/Jurisdiktion/Namn på underordnad enhet (610 ‡b)
 
