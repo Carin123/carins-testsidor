@@ -36,90 +36,86 @@ Exempel: Under cover, ISBN 9789188107213, Voyager BibID 19775078
   Välj från lista.  
   ```Exempel: Monografisk resurs```
   
-* Har titel/Titel/Huvudtitel (245 ‡a)   
-```Exempel: Under cover```
+* Har titel/Titel/Huvudtitel (245 ‡a)  
+  Skriv in uppgiften. 
+  ```Exempel: Under cover```
 
 * Har titel/Titel/Huvudtitel/Övrig titelinformation (245 ‡b)  
-```Exempel: livet som underrättelseagent åt MI5```
+  Skriv in uppgiften. 
+  ```Exempel: livet som underrättelseagent åt MI5```
 
 * Upphovsuppgift  
-```Exempel: Tom Marcus ; översättning: Svante Skoglund```
+  Skriv in uppgiften. 
+  ```Exempel: Tom Marcus ; översättning: Svante Skoglund```
 
 * Identifikator/Typ  
-Välj från lista.  
-```Exempel: ISBN```
+  Välj från lista.  
+  ```Exempel: ISBN```
 
-Identifikator/Typ/Värde (020 ‡a)  
-Skriv in uppgiften.  
-```Exempel: 9789188107213```
+* Identifikator/Typ/Värde (020 ‡a)  
+  Skriv in uppgiften.  
+  ```Exempel: 9789188107213```
 
-Identifikator/Bestämning (020 ‡q)  
-Skriv in uppgiften.  
-```Exempel: inbunden```
+* Identifikator/Bestämning (020 ‡q)  
+  Skriv in uppgiften.  
+  ```Exempel: inbunden```
 
-* Upplageuppgift
-Skriv in uppgiften.  
-```Exempel: Första upplagan```
+* Upplageuppgift  
+  Skriv in uppgiften.  
+  ```Exempel: Första upplagan```
 
 * Utgivning
-- plats/Benämning (264 -/1 ‡a)
-
-```Exempel: [Göteborg]```
+- plats/Benämning (264 -/1 ‡a)  
+  Skriv in uppgiften. 
+  ```Exempel: [Göteborg]```
 - agent/Benämning (264 -/1 ‡b)
-
+  Skriv in uppgiften. 
 ```Exempel: NoNa```
 - datum (264 -/1 ‡c)
-
+  Skriv in uppgiften. 
 ```Exempel: 2017```
 
 * Typ av utgivningsdatum/utgivningsstatus (008/06)  
-  Länka till entitet
-
-```Exempel: s (= ett årtal)```
+  Länka till entitet.  
+  ```Exempel: s (= ett årtal)```
 
 * Tillverkning
 - plats/Benämning (264 -/3 ‡a)
 
-```Exempel: Falun```
-- agent/Benämning (264 -/3 ‡b)
-
-```Exempel: Scandbook```
+```Exempel: Falun```  
+  * agent/Benämning (264 -/3 ‡b)
+  Skriv in uppgiften. 
+  ```Exempel: Scandbook```
 
 * Kronologisk täckning (008/11-17)
-
-```Exempel: 2017____```
+  Skriv in uppgiften. 
+  ```Exempel: 2017____```
 
 (jfr datum …)
 
 * Utgivningsland (008/15-17)  
   Länka till entitet.
-
-```Exempel: Sverige (sw)```
+  ```Exempel: Sverige (sw)```
 
 * Medietyp (337 ‡b)  
-  Länka till entitet.
-
-```Exempel:  n (= unmediated)```
+  Länka till entitet.  
+  ```Exempel:  n (= unmediated)```
 
 * Bärartyp (338 ‡b)  
-  Länka till entitet.
-
+  Länka till entitet.  
 ```Exempel:  nc (= volume)```
 
 * Form för katalogiserat objekt (008/23)  
-  Länka till entitet.
-
-```Exempel: - (= ingen av följande)```
+  Länka till entitet.  
+  ```Exempel: - (= ingen av följande)```
 
 * Omfång/Benämning  
   Skriv in uppgiften. 
-
-```Exempel: 319 sidor```
+  ```Exempel: 319 sidor```
 
 * Mått/Benämning  
   Skriv in uppgiften. 
-
-```Exempel: 24 cm```
+  ```Exempel: 24 cm```
 
 ### Verk
 * Instans av Verk/Text
