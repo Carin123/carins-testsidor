@@ -86,7 +86,7 @@ Exempel: Under cover, ISBN 9789188107213, Voyager BibID 19775078
   Skriv in uppgiften.   
   ```Exempel: Scandbook```
 
-* Kronologisk täckning (008/11-17)
+* Kronologisk täckning (008/11-17)  
   Skriv in uppgiften.  
   ```Exempel: 2017____```
 
