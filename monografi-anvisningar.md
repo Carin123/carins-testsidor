@@ -20,16 +20,15 @@ Exempel: Under cover, ISBN 9789188107213, Voyager BibID 19775078
   Om ett systemnummer finns i förhandspost, till exempel Bokinfos systemnummer, låt det vara kvar oförändrat.
 
 * Katalogiseringsspråk (040 ‡b)  
-  Länkning till entitet.  
+  Länka till entitet.  
   ```Exempel: svenska (swe)```
 
 * Katalogiseringsregler (040 ‡e)  
-  För post katalogiserad enligt RDA, länka till entitet: marc/Isbd samt skapa lokal entitet med Kod: rda  
-  RDA finns inte som länkbar entitet.  
+  För post katalogiserad enligt RDA, länka till entitet: marc/Isbd samt skapa lokal entitet med Kod: rda    
   ```Exempel: marc/Isbd (länkad entitet) + lokal entitet, Kod: rda```
 
 * Beskrivningsnivå (000/05)  
-  Länkning till entitet.  
+  Länka till entitet.  
   ```Exempel: CIP-post, ändra till biblioteksnivå```
 
 ### Instans
@@ -73,8 +72,8 @@ Skriv in uppgiften.
 
 ```Exempel: 2017```
 
-Typ av utgivningsdatum/utgivningsstatus (008/06)
-- länkning till entitet
+* Typ av utgivningsdatum/utgivningsstatus (008/06)  
+  Länka till entitet
 
 ```Exempel: s (= ett årtal)```
 
@@ -92,31 +91,33 @@ Typ av utgivningsdatum/utgivningsstatus (008/06)
 
 (jfr datum …)
 
-* Utgivningsland (008/15-17)
-- länkning till entitet
+* Utgivningsland (008/15-17)  
+  Länka till entitet.
 
 ```Exempel: Sverige (sw)```
 
-* Medietyp (337 ‡b)
-- länkning till entitet
+* Medietyp (337 ‡b)  
+  Länka till entitet.
 
 ```Exempel:  n (= unmediated)```
 
-* Bärartyp (338 ‡b)
-- länkning till entitet
+* Bärartyp (338 ‡b)  
+  Länka till entitet.
 
 ```Exempel:  nc (= volume)```
 
-* Form för katalogiserat objekt (008/23)
-- länkning till entitet
+* Form för katalogiserat objekt (008/23)  
+  Länka till entitet.
 
 ```Exempel: - (= ingen av följande)```
 
-* Omfång/Benämning
+* Omfång/Benämning  
+  Skriv in uppgiften. 
 
 ```Exempel: 319 sidor```
 
-* Mått/Benämning
+* Mått/Benämning  
+  Skriv in uppgiften. 
 
 ```Exempel: 24 cm```
 
@@ -127,40 +128,41 @@ Typ av utgivningsdatum/utgivningsstatus (008/06)
 
 ```Exempel:  Soldier spy```
 
-* Medverkan och funktion/Primär medverkan/Agent/Person (100 1/- ‡a)
-- lokal entitet
-Medverkan och funktion/Primär medverkan/Agent/Person/Familjenamn
+* Medverkan och funktion/Primär medverkan/Agent/Person (100 1/- ‡a)  
+  Skapa lokal entitet.
+* Medverkan och funktion/Primär medverkan/Agent/Person/Familjenamn  
+  ```Exempel: Marcus```
 
-```Exempel: Marcus```
+Medverkan och funktion/Primär medverkan/Agent/Person/Förnamn  
+  ```Exempel: Tom```
 
-Medverkan och funktion/Primär medverkan/Agent/Person/Förnamn
-
-```Exempel: Tom```
-
--Medverkan och funktion/Medverkan/Agent/Funktion (100 ‡4)
-- länkning till entitet
+* Medverkan och funktion/Medverkan/Agent/Funktion (100 ‡4)  
+  Länka till entitet.
 
 ```Exempel: relator/author (= författare)```
 
-* Medverkan och funktion/Medverkan/Agent/Person (700 1/- ‡a)
-- länkad entitet
+* Medverkan och funktion/Medverkan/Agent/Person (700 1/- ‡a)  
+  Länka till entitet.
 
 ```Exempel: Skoglund, Svante, 1960-```
 
--Medverkan och funktion/Medverkan/Agent/Funktion (700 ‡4)
-- länkning till entitet
+* Medverkan och funktion/Medverkan/Agent/Funktion (700 ‡4)  
+  Länka till entitet.
 
 ```Exempel: relator/trl (= översättare)```
 
-* Klassifikation/DDK-klassifikation/Kod (082 0/4 ‡a)
+* Klassifikation/DDK-klassifikation/Kod (082 0/4 ‡a)  
+  Skriv in uppgiften. 
 
 ```Exempel: 327.12092```
 
-Klassifikation/DDK-klassifikation/Kod/Klassifikationsupplaga (082 ‡2)
+* Klassifikation/DDK-klassifikation/Kod/Klassifikationsupplaga (082 ‡2)  
+  Skriv in uppgiften. 
 
 ```Exempel: 23/swe```
 
-* Klassifikation/Kod (084 0/4 ‡a)
+* Klassifikation/Kod (084 0/4 ‡a)  
+  Skriv in uppgiften. 
 
 ```Exempel: Sei-e```
 
