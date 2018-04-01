@@ -80,9 +80,9 @@ Exempel: Under cover, ISBN 9789188107213, Voyager BibID 19775078
   ```Exempel: s (= ett årtal)```
 
 * Tillverkning
-* plats/Benämning (264 -/3 ‡a)  
+  Plats/Benämning (264 -/3 ‡a)  
 ```Exempel: Falun```  
-* agent/Benämning (264 -/3 ‡b)  
+  Agent/Benämning (264 -/3 ‡b)  
   Skriv in uppgiften.   
   ```Exempel: Scandbook```
 
