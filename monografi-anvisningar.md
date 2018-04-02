@@ -123,7 +123,7 @@ Exempel: Under cover, ISBN 9789188107213, Voyager BibID 19775078
   ```Exempel:  Soldier spy```
 
 * Medverkan och funktion/Primär medverkan/Agent/Person (100 1/- ‡a)  
-  Skapa lokal entitet.
+  Skapa lokal entitet.  
 * Medverkan och funktion/Primär medverkan/Agent/Person/Familjenamn  
   ```Exempel: Marcus```
 
