@@ -188,29 +188,29 @@ Exempel: Under cover, ISBN 9789188107213, Voyager BibID 19775078
 
 ```Exempel: Spionage```
 
-- länkning till entitet - sao-term (650 -7- ‡a, ‡2 sao)
+- Länka till entitet. - sao-term (650 -7- ‡a, ‡2 sao)
 
 ``Exempel: Terrorismbekämpning```
 
-- länkning till entiteter - geografiskt ämnesord (651 -/4 ‡a)
+- Skapa lokal entitet. - geografiskt ämnesord (651 -/4 ‡a)
 
 ```Exempel: Storbritannien```
 
 * Genre/form
-- länkning till entiteter – saogf-termer (655 ‡a, ‡2 saogf)
+- Länka till entitet. – saogf-termer (655 ‡a, ‡2 saogf)
 
 ```Exempel: Självbiografier```
 
-- länkning till entitet – litterär genre (008/33)
+- Länka till entitet – litterär genre (008/33)
 
 ```Exempel: 0 ( = marc/NotFictionNotFurtherSpecified = Ej skönlitterärt verk)```
 
-- länkning till entitet – biografiskt material (008/34)
+- Länka till entitet. – biografiskt material (008/34)
 
 ```Exempel: a (= autobiography = självbiografi)```
 
 * Språk (008/35-37) (+ även i 041 ‡a, om relationen Översättning av finns)
-- länkning till entiteter
+- Länka till entitet.
 
 ```Exempel: svenska (swe)```
 
@@ -220,6 +220,6 @@ Exempel: Under cover, ISBN 9789188107213, Voyager BibID 19775078
 ```Exempel: engelska (eng)```
 
 * Innehållstyp (336 ‡b)
-- länkning till entiteter
+- Länka till entitet.
 
 ```Exempel: text (txt)```
