@@ -123,7 +123,8 @@ Exempel: Under cover, ISBN 9789188107213, Voyager BibID 19775078
   ```Exempel:  Soldier spy```
 
 * Medverkan och funktion/Primär medverkan/Agent/Person (100 1/- ‡a)  
-  Skapa lokal entitet. Skriv in uppgiften. 
+  Länka till entitet.
+  I undantagsfall, skapa lokal entitet. Skriv in uppgiften. 
 * Medverkan och funktion/Primär medverkan/Agent/Person/Familjenamn  
   ```Exempel: Marcus```
 
@@ -164,8 +165,9 @@ Exempel: Under cover, ISBN 9789188107213, Voyager BibID 19775078
   Länka till entitet.  
   ```Exempel: term/kssb/8```
 
-* Ämne/Agent/Person (600 1/- ‡a)
-  Skapa lokal entitet. Skriv in uppgiften. 
+* Ämne/Agent/Person (600 1/- ‡a)  
+  Länka till entitet. 
+  I undantagsfall, skapa lokal entitet. Skriv in uppgiften. 
 
 * Ämne/Agent/Person/Familjenamn  
   ```Exempel: Marcus```
@@ -174,8 +176,9 @@ Exempel: Under cover, ISBN 9789188107213, Voyager BibID 19775078
   ```Exempel: Tom```
 
 * Ämne/Agent/Jurisdiktion/Är del av/Jurisdiktion/Namn (610 1/4 ‡a)  
-    Skapa lokal entitet. Skriv in uppgiften. 
-  ```Exempel: Storbritannien```
+    Länka till entitet.  
+    I undantagsfall, skapa lokal entitet. Skriv in uppgiften.  
+    ```Exempel: Storbritannien```
 
 * Ämne/Agent/Jurisdiktion/Namn på underordnad enhet (610 ‡b)  
   ```Exempel: MI5```  
@@ -209,17 +212,14 @@ Exempel: Under cover, ISBN 9789188107213, Voyager BibID 19775078
 
 ```Exempel: a (= autobiography = självbiografi)```
 
-* Språk (008/35-37) (+ även i 041 ‡a, om relationen Översättning av finns)
-- Länka till entitet.
+* Språk (008/35-37) (+ även i 041 ‡a, om relationen Översättning av finns)  
+  Länka till entitet.  
+  ```Exempel: svenska (swe)```
 
-```Exempel: svenska (swe)```
+* Översättning av/Verk/Språk (041 ‡h)  
+  Länka till entitet.  
+  ```Exempel: engelska (eng)```
 
-* Översättning av/Verk/Språk (041 ‡h)
-- länkning till entitet
-
-```Exempel: engelska (eng)```
-
-* Innehållstyp (336 ‡b)
-- Länka till entitet.
-
-```Exempel: text (txt)```
+* Innehållstyp (336 ‡b)  
+  Länka till entitet.  
+  ```Exempel: text (txt)```
