@@ -123,11 +123,11 @@ Exempel: Under cover, ISBN 9789188107213, Voyager BibID 19775078
   ```Exempel:  Soldier spy```
 
 * Medverkan och funktion/Primär medverkan/Agent/Person (100 1/- ‡a)  
-  Skapa lokal entitet.  
+  Skapa lokal entitet. Skriv in uppgiften. 
 * Medverkan och funktion/Primär medverkan/Agent/Person/Familjenamn  
   ```Exempel: Marcus```
 
-Medverkan och funktion/Primär medverkan/Agent/Person/Förnamn  
+* Medverkan och funktion/Primär medverkan/Agent/Person/Förnamn  
   ```Exempel: Tom```
 
 * Medverkan och funktion/Medverkan/Agent/Funktion (100 ‡4)  
@@ -154,39 +154,33 @@ Medverkan och funktion/Primär medverkan/Agent/Person/Förnamn
   Skriv in uppgiften.  
   ```Exempel: Sei-e```
 
-Klassifikation/Termlista/Termlista (084 ‡2)
+* Klassifikation/Termlista/Termlista (084 ‡2)  
+ ```Exempel: kssb ```
 
-*Exempel: kssb*
-
-Klassifikation/Termlista/Termlista/Version (084 ‡2)
-
+* Klassifikation/Termlista/Termlista/Version (084 ‡2)  
 ```Exempel: 8```
 
-Klassifikation/Termlista/Termlista/Samma sak som (084 ‡2)
-- länkad entitet
-
-```Exempel: term/kssb/8```
+* Klassifikation/Termlista/Termlista/Samma sak som (084 ‡2)  
+  Länka till entitet.  
+  ```Exempel: term/kssb/8```
 
 * Ämne/Agent/Person (600 1/- ‡a)
-- lokal entitet
-Ämne/Agent/Person/Familjenamn
+  Skapa lokal entitet. Skriv in uppgiften. 
 
-```Exempel: Marcus```
+* Ämne/Agent/Person/Familjenamn  
+  ```Exempel: Marcus```
 
-Ämne/Agent/Person/Förnamn
+* Ämne/Agent/Person/Förnamn  
+  ```Exempel: Tom```
 
-```Exempel: Tom```
+* Ämne/Agent/Jurisdiktion/Är del av/Jurisdiktion/Namn (610 1/4 ‡a)  
+    Skapa lokal entitet. Skriv in uppgiften. 
+  ```Exempel: Storbritannien```
 
-Ämne/Agent/Jurisdiktion/Är del av/Jurisdiktion/Namn (610 1/4 ‡a)
-- lokal entitet
-
-```Exempel: Storbritannien```
-
-Ämne/Agent/Jurisdiktion/Namn på underordnad enhet (610 ‡b)
-
-```Exempel: MI5```
-
-- länkning till entitet - sao-term (650 -7- ‡a, ‡2 sao)
+* Ämne/Agent/Jurisdiktion/Namn på underordnad enhet (610 ‡b)  
+  ```Exempel: MI5```  
+  
+    Länka till entitet - sao-term (650 -7- ‡a, ‡2 sao)
 
 ```Exempel: Säkerhetspolitik```
 
