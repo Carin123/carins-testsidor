@@ -98,11 +98,11 @@ Exempel: Under cover, ISBN 9789188107213, Voyager BibID 19775078
 
 * Medietyp (337 ‡b)  
   Länka till entitet.  
-  ```Exempel:  n (= unmediated)```
+  ```Exempel:  n (= omedierad)```
 
 * Bärartyp (338 ‡b)  
   Länka till entitet.  
-```Exempel:  nc (= volume)```
+```Exempel:  nc (= volym)```
 
 * Form för katalogiserat objekt (008/23)  OBS. FINNS DET MED?  
   Länka till entitet.  
