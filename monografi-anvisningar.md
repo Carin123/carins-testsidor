@@ -197,14 +197,13 @@ Exempel: Under cover, ISBN 9789188107213, Voyager BibID 19775078
   Länka till entitet.  
   ```Exempel: Terrorismbekämpning```
 
-- Skapa lokal entitet. - geografiskt ämnesord (651 -/4 ‡a)
+* Geografiskt ämnesord (651 -/4 ‡a)  
+  Skapa lokal entitet. Skriv in uppgiften.  
+  ```Exempel: Storbritannien```
 
-```Exempel: Storbritannien```
-
-* Genre/form
-- Länka till entitet. – saogf-termer (655 ‡a, ‡2 saogf)
-
-```Exempel: Självbiografier```
+* Genre/form – saogf-termer (655 ‡a, ‡2 saogf)
+  Länka till entitet.  
+  ```Exempel: Självbiografier```
 
 - Länka till entitet – litterär genre (008/33)
 
