@@ -157,15 +157,9 @@ Exempel: Under cover, ISBN 9789188107213, Voyager BibID 19775078
   Skriv in uppgiften.  
   ```Exempel: Sei-e```
 
-* Klassifikation/Termlista/Termlista (084 ‡2)  
- ```Exempel: kssb ```
-
-* Klassifikation/Termlista/Termlista/Version (084 ‡2)  
-```Exempel: 8```
-
-* Klassifikation/Termlista/Termlista/Samma sak som (084 ‡2)  
-  Länka till entitet.  
-  ```Exempel: term/kssb/8```
+* Klassifikation/Termlista/Termlista/ID (084 ‡2)  
+  Skriv in uppgiften. 
+ ```Exempel: https://id.kb.se/term/kssb/8```
 
 * Ämne/Agent/Person (600 1/- ‡a)  
   Länka till entitet. 
