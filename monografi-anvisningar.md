@@ -185,17 +185,17 @@ Exempel: Under cover, ISBN 9789188107213, Voyager BibID 19775078
 * Ämne/Agent/Jurisdiktion/Namn på underordnad enhet (610 ‡b)  
   ```Exempel: MI5```  
   
-    Länka till entitet - sao-term (650 -7- ‡a, ‡2 sao)
+* Ämne - sao-term (650 -7- ‡a, ‡2 sao)  
+  Länka till entitet.  
+  ```Exempel: Säkerhetspolitik```
 
-```Exempel: Säkerhetspolitik```
+* Ämne - sao-term (650 -7- ‡a, ‡2 sao)  
+  Länka till entitet.  
+  ```Exempel: Spionage```
 
-- länkning till entitet - sao-term (650 -7- ‡a, ‡2 sao)
-
-```Exempel: Spionage```
-
-- Länka till entitet. - sao-term (650 -7- ‡a, ‡2 sao)
-
-``Exempel: Terrorismbekämpning```
+* Ämne - sao-term (650 -7- ‡a, ‡2 sao)  
+  Länka till entitet.  
+  ```Exempel: Terrorismbekämpning```
 
 - Skapa lokal entitet. - geografiskt ämnesord (651 -/4 ‡a)
 
