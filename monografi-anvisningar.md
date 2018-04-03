@@ -120,11 +120,12 @@ Exempel: Under cover, ISBN 9789188107213, Voyager BibID 19775078
 * Instans av Verk/Text
 
 * Har titel/Titel/Huvudtitel (240 1-/0 ‡a)  
+  Skriv in uppgiften.
   ```Exempel:  Soldier spy```
 
 * Medverkan och funktion/Primär medverkan/Agent/Person (100 1/- ‡a)  
   Länka till entitet.
-  I undantagsfall, skapa lokal entitet. Skriv in uppgiften. 
+  I undantagsfall, skapa lokal entitet och skriv in uppgiften. 
 * Medverkan och funktion/Primär medverkan/Agent/Person/Familjenamn  
   ```Exempel: Marcus```
 
@@ -137,6 +138,7 @@ Exempel: Under cover, ISBN 9789188107213, Voyager BibID 19775078
 
 * Medverkan och funktion/Medverkan/Agent/Person (700 1/- ‡a)  
   Länka till entitet.  
+  I undantagsfall, skapa lokal entitet och skriv in uppgiften. 
   ```Exempel: Skoglund, Svante, 1960-```
 
 * Medverkan och funktion/Medverkan/Agent/Funktion (700 ‡4)  
