@@ -201,19 +201,19 @@ Exempel: Under cover, ISBN 9789188107213, Voyager BibID 19775078
   Skapa lokal entitet. Skriv in uppgiften.  
   ```Exempel: Storbritannien```
 
-* Genre/form – saogf-termer (655 ‡a, ‡2 saogf)
+* Genre/form – saogf-termer (655 ‡a, ‡2 saogf)  
   Länka till entitet.  
   ```Exempel: Självbiografier```
 
-- Länka till entitet – litterär genre (008/33)
+* Genre/form – litterär genre (008/33)  
+  Länka till entitet.  
+  ```Exempel: 0 ( = Ej skönlitterärt verk)```
 
-```Exempel: 0 ( = marc/NotFictionNotFurtherSpecified = Ej skönlitterärt verk)```
+* Genre/form – biografiskt material (008/34)  
+  Länka till entitet.  
+  ```Exempel: a (= självbiografi)```
 
-- Länka till entitet. – biografiskt material (008/34)
-
-```Exempel: a (= autobiography = självbiografi)```
-
-* Språk (008/35-37) (+ även i 041 ‡a, om relationen Översättning av finns)  
+* Språk (008/35-37) (+ även i 041 ‡a, om relationen Översättning av finns)  KOLLA, EV ÄNDRA HÄR
   Länka till entitet.  
   ```Exempel: svenska (swe)```
 
