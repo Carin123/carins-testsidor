@@ -6,3 +6,9 @@ Testdata: BOKR
 
 Testar bild
 ![Image of Yaktocat](https://octodex.github.com/images/yaktocat.png)
+
+
+First Header | 
+------------ | 
+![Image of Yaktocat](https://octodex.github.com/images/yaktocat.png) |
+Content in the first column |
