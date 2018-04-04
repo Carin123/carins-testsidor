@@ -97,7 +97,9 @@ Exempel: Under cover, ISBN 9789188107213, Voyager BibID 19775078
 
 * Utgivningsland (008/15-17)  
   Länka till entitet.  
-  ```Exempel: Sverige (sw)```
+  ```Exempel: Sverige (sw)```  
+  
+* Serieuppgift FYLL PÅ HÄR
 
 * Medietyp (337 ‡b)  
   Länka till entitet.  
