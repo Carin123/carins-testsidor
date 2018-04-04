@@ -1,7 +1,7 @@
 UNDER ARBETE
 Här testar jag att lägga in ett scenario/testfall och anpassa det till hjälptext.
 
-Hjälptexten utgår från formuläret Skapa ny - tryckt monografi. För instruktioner om att länka entitet, skapa lokal entitet och om hur formuläret fungerar, se Redigering i vänstermenyn. För information om katalogregler, skrivregler och övriga katalogiseringsanvisningar, se Anvisningar för katalogisering (RDA).
+Hjälptexten utgår från formuläret Skapa ny - tryckt monografi. För instruktioner om att länka entitet, skapa lokal entitet och om hur formuläret fungerar, se Redigering i vänstermenyn. För information om katalogregler, skrivregler och övriga katalogiseringsanvisningar, se [Anvisningar för katalogisering - RDA](http://www.kb.se/rdakatalogisering/ "Anvisningar för katalogisering - RDA").
 
 ## Skapa ny – Tryckt monografi
 
