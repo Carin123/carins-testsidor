@@ -17,7 +17,7 @@ Exempel: Under cover, ISBN 9789188107213, Voyager BibID 19775078
 * Bibliografi/Bibliotek/Sigel (042 ‡9)  
   Ange bibliografikod genom att skriva in sigel. För att söka fram sigel, se [Biblioteksdatabasen](https://biblioteksdatabasen.libris.kb.se/ "Biblioteksdatabasen")
 
-* Identifikator/Systemnummer/Värde  
+* Identifikator/Systemnummer/Värde  (035 ‡a)
   Om ett systemnummer finns i förhandspost, till exempel Bokinfos systemnummer, låt det vara kvar oförändrat.  
    ```Exempel: (BOKR)9789188107213```
 
