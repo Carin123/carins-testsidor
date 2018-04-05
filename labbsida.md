@@ -9,4 +9,4 @@ Testar bild
 
 
 Testar BIBFRAME-bild med absolut sökväg  
-![BIBFRAME]([Libris](http://www.kb.se/Dokument/BibframeSvenskTerminologi_10.jpg)
+![BIBFRAME](http://www.kb.se/Dokument/BibframeSvenskTerminologi_10.jpg)
