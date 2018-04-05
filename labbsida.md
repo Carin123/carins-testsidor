@@ -8,5 +8,5 @@ Testar bild
 ![Libris](http://libris.kb.se/images/libris_logotyp.gif)
 
 
-Testar BIBFRAME-bild med absolut sökväg
-![BIBFRAME](![Libris](http://www.kb.se/Dokument/BibframeSvenskTerminologi_10.jpg)
+Testar BIBFRAME-bild med absolut sökväg  
+![BIBFRAME]([Libris](http://www.kb.se/Dokument/BibframeSvenskTerminologi_10.jpg)
