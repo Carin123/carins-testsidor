@@ -7,6 +7,10 @@ Hjälptexten utgår från formuläret Skapa ny - tryckt monografi. För instrukt
 
 Exempel: Under cover, ISBN 9789188107213, Voyager BibID 19775078
 
+[Adminmetadata](#adminmetadata)  
+[Instans](#instans)  
+[Verk](#verk)  
+
 
 ### Adminmetadata
 * Skapad av/Organisation/Namn (040 ‡a)  
