@@ -1,4 +1,10 @@
 
+Innehåll:
+[Adminmetadata](#Adminmetadata)
+[Instans](#Instans)
+[Verk](#Verk)
+
+
 ### Adminmetadata
 * Skapad av/Organisation/Namn (040 ‡a)
 - förval: den sigel som skapat posten. Ska inte gå att redigera.
@@ -10,3 +16,9 @@ Testar bild
 
 BIBFRAME Svensk terminologi  
 ![BIBFRAME](http://www.kb.se/Dokument/BibframeSvenskTerminologi_10.jpg)
+
+### Adminmetadata
+
+### Instans
+
+### Verk
