@@ -42,127 +42,126 @@ Förutsättning: ingen förhandspost. Post gjord av annat bibliotek kan finnas.
 Adminmetadata
 Skapad av/Organisation/Namn (040 #a)
 - förval: den sigel som skapat posten. Ska inte gå att redigera.
-Testdata: S
+```Exempel: S```
 
 
 Bibliografi/Bibliotek/Sigel (042 #9)
-Testdata: NB
+```Exempel: NB```
 
 
 Katalogiseringsspråk (040 #b)
 - länkning till entitet
-Testdata: svenska (swe)
+```Exempel: svenska (swe)```
 
 
 Katalogiseringsregler (040 #e)
 - länkning till entiteter + skapa lokal entitet. RDA finns inte som länkbar entitet.
 Förval: länkning till entitet: marc/isbd + lokalt skapad entitet med Kod: rda (eller kan vi skapa en länkbar entitet för rda?)
-Testdata: marc/Isbd (länkad entitet)
+```Exempel: marc/Isbd (länkad entitet)```
 + Kod: rda
 
 
 Beskrivningsnivå (000/05)
 - länkning till entiteter
-Testdata:  nationalbibliografisk/fullständig nivå
+```Exempel: nationalbibliografisk/fullständig nivå```
 
 Instans
 Utgivningssätt
 - val från lista
-Testdata: Seriell resurs
+```Exempel: Seriell resurs```
 
 
 Har titel/Titel/Huvudtitel (245 #a)
-Testdata: Kammarmusik-nytt
+```Exempel: Kammarmusik-nytt```
 Har titel/Titel/Huvudtitel/Övrig titelinformation (245 #b)
-Testdata: Kammarmusikförbundets tidskrift
+```Exempel: Kammarmusikförbundets tidskrift```
 
 
 Identifikator/Typ
-Testdata: ISSN
+```Exempel: ISSN```
 Identifikator/Typ/Värde (022 #a)
-Testdata: 2001-2721
+```Exempel: 2001-2721```
 
 Identifikator/Källa (022 #f)
-Testdata: Nationell ISSN-central f (= ISSN Sverige)
+```Exempel: Nationell ISSN-central f (= ISSN Sverige)```
 Identifikator/Internationellt intresse
-Testdata: Ja (True)
+```Exempel: Ja (True)```
 Identifikator/Felaktigt ISSN (022 #y)
-Testdata: 1653-2945
+```Exempel: 1653-2945```
 
 
 Utgivning
 - plats/Benämning (264 -/1 #a)
-Testdata: Brämhult
+```Exempel: Brämhult```
 
 - agent/Benämning (264 -/1 #b)
-Testdata: Kammarmusikförbundet
+```Exempel: Kammarmusikförbundet```
 
 - datum (264 -/1 #c)
-Testdata: 2011-2013
+```Exempel: 2011-2013```
 Typ av utgivningsdatum/utgivningsstatus (008/06)
 - länkning till entitet
-Testdata: d (= utgivning avslutad)
+```Exempel: d (= utgivning avslutad)```
 
 
 Tillverkning
 - plats/Benämning (264 -/3 #a)
-Testdata: Söderköping
+```Exempel: Söderköping```
 - agent/Benämning (264 -/3 #b)
-Testdata: Brämhult
+```Exempel: Brämhult```
 
 
 Kronologisk täckning (008/11-17)
-Testdata: 2011-2013
+```Exempel: 2011-2013```
 (jfr datum …)
 
 
 Utgivningsland (008/15-17)
 - länkning till entitet
-Testdata: Sverige (sw)
+```Exempel: Sverige (sw)```
 
 
 Frekvens
 - frekvensterm (länkning till entitet) (008/18)
 - regelbundenhet (länkning till entitet) (008/19)
-Testdata: var tredje månad (q = quarterly)
-Testdata: regelbunden (r = regular)
-
+```Exempel: var tredje månad (q = quarterly)```
+```Exempel: regelbunden (r = regular)
+```
 
 Numrering av seriella resurser/Benämning (362 0/- #a)
-Testdata: 2011: 4-2013: 2
+```Exempel: 2011: 4-2013: 2```
 
 
 Medietyp (337 #b)
 - länkning till entitet
-Testdata:  n (= unmediated)
+```Exempel:  n (= unmediated)```
 
 
 Bärartyp (338 #b)
 - länkning till entitet
-Testdata:  nc (= volume)
-
+```Exempel:  nc (= volume)```
 
 Form för katalogiserat objekt (008/23)
 - länkning till entitet
-Testdata: - = ingen av följande)
+```Exempel: - = ingen av följande)```
 
 
 Relaterad till/Dokument/URI (856 4/8 #u)
-Testdata:  http://www.kammarmusikforbundet.se
+```Exempel:  http://www.kammarmusikforbundet.se```
 Relaterad till/Dokument/Anmärkning/Anmärkning (856 #z)
-Testdata:  Förbundets webbplats
+```Exempel:  Förbundets webbplats```
 
 
 Utgiven med/Verk/Har titel/Titel/Titel (780 #t)
-Testdata: Musikant (Stockholm. 2011)
+```Exempel: Musikant (Stockholm. 2011)```
 Utgiven med/Verk/Identifikator/Typ
-Testdata:  ISSN
+```Exempel:  ISSN```
 Utgiven med/Verk/Identifikator/Typ/Värde (780 #x)
-Testdata:  2001-273X
+```Exempel:  2001-273X```
 Utgiven med/Verk/Beskriven av/Post/Kontrollnummer (780 0/1 #w)
-Testdata: 12683514
+```Exempel: 12683514```
 Utgiven med/Verk/Inledande anmärkning - Marc:displayText (unhandled term)
-Testdata: 2011:4-2013:2 omvänt sammanhäftad med
+```Exempel: 2011:4-2013:2 omvänt sammanhäftad med```
 
 
 Verk
@@ -170,82 +169,82 @@ Instans av Verk/Text
 
 
 Har titel/Nyckeltitel/Huvudtitel (222 -/0 #a)
-Testdata:  Kammarmusik-nytt 
+```Exempel:  Kammarmusik-nytt```
 Har titel/Nyckeltitel/Huvudtitel/Särskiljande tillägg (222 #b)
-Testdata:  (Brämhult)
+```Exempel:  (Brämhult)```
 
 
 
 Medverkan och funktion/Medverkan/Agent (710 2/- #a)
 - länkning till entitet
-Testdata: Riksförbundet Sveriges kammarmusikarrangörer
+```Exempel: Riksförbundet Sveriges kammarmusikarrangörer```
 -Medverkan och funktion/Medverkan/Agent/Funktion (710 #4)
 - länkning till entitet
-Testdata:  Utgivare (pbl = publisher)
+```Exempel:  Utgivare (pbl = publisher)```
 
 
 Klassifikation/DDK-klassifikation/Kod (082 0/4 #a)
-Testdata: 785.005
+```Exempel: 785.005```
 Klassifikation/DDK-klassifikation/Kod/Klassifikationsupplaga (082 #2)
-Testdata: 23/swe
+```Exempel: 23/swe```
 
 
 Ämne
 - länkning till entitet - agent - organisation (610 2/- #a)
-Testdata: Riksförbundet Sveriges kammarmusikarrangörer
+```Exempel: Riksförbundet Sveriges kammarmusikarrangörer```
 - länkning till entitet - sao-term (650 -7- #a, #2 sao)
-Testdata: Kammarmusik
+```Exempel: Kammarmusik```
 - länkning till entiteter - geografiskt ämnesord (651 -/4 #a)
-Testdata: Sverige
+```Exempel: Sverige```
 
 
 Genre/form
 - länkning till entiteter – saogf-termer (655 #a, #2 saogf)
-Testdata: Organisationspress
-Testdata: Musiktidskrifter
+```Exempel: Organisationspress```
+```Exempel: Musiktidskrifter```
 - länkning till entitet – typ av fortlöpande resurs (008/21)
-Testdata: p ( = marc/Periodical)
+```Exempel: p ( = marc/Periodical)```
 - länkning till entitet - konferenspublikation (008/29)
-Testdata: 0 (= inte konferenspublikation)
+```Exempel: 0 (= inte konferenspublikation)```
 
 
 Språk (008/35-37)
 - länkning till entiteter
-Testdata: svenska (swe)
+```Exempel: svenska (swe)```
 
 
 Innehållstyp (336 #b)
 - länkning till entiteter
-Testdata: text (txt)
+```Exempel: text (txt)```
 
 
 Relaterade verk/Fortsätter delvis/Verk/Har titel/Titel/Titel (780 #t)
-Testdata: Musikant och kammarmusik-nytt
+```Exempel: Musikant och kammarmusik-nytt```
 Relaterade verk/Fortsätter delvis/Verk/Identifikator/Typ
-Testdata:  ISSN
+```Exempel:  ISSN```
 Relaterade verk/Fortsätter delvis/Verk/Identifikator/Typ/Värde (780 #x)
-Testdata:  1653-2945
+```Exempel:  1653-2945```
 Relaterade verk/Fortsätter delvis/Verk/Beskriven av/Post/Kontrollnummer (780 0/1 #w)
-Testdata: 9955452
+```Exempel: 9955452```
 
 
 
 Relaterade verk/Fortsättes av/Verk/Har titel/Titel/Titel (785 #t)
-Testdata: Kammarmusik-nytt (Brämhult. Online)
+```Exempel: Kammarmusik-nytt (Brämhult. Online)```
 Relaterade verk/Fortsättes av/Verk/Identifikator/Typ
-Testdata:  ISSN
+```Exempel:  ISSN```
 Relaterade verk/Fortsättes av/Verk/Identifikator/Typ/Värde (785 #x)
-Testdata:  2001-6921
+```Exempel:  2001-6921```
 Relaterade verk/Fortsättes av/Verk/Beskriven av/Post/Kontrollnummer (785 0/0 #w)
-Testdata: 14697501
+```Exempel: 14697501```
 
 
 
 Alfabet/skriftart (008/33)
 - länkning till entiteter
-Testdata: b (= Extended roman = Latinskt alfabet med diakriter och specialtecken (a-ö))
+```Exempel: b (= Extended roman = Latinskt alfabet med diakriter och specialtecken (a-ö))```
 
 
 Behandling vid titeländring (008/34)
 - länkning till entiteter
-Testdata: 0 (= Successive entry = Titeländring ger upphov till ny post)
+```Exempel: 0 (= Successive entry = Titeländring ger upphov till ny post)```
