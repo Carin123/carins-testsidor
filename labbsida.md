@@ -209,11 +209,11 @@ Exempel: Kammarmusik-nytt, ISSN 2001-2721, Voyager BibID 12683491
   ```Exempel: Ij-c:bf Riksförbundet Sveriges kammarmusikarrangörer(p)```
 
 * Klassifikation/Termlista/Termlista/ID (084 ‡2)  
-  Skriv in uppgiften. 
+  Skriv in uppgiften.  
  ```Exempel: https://id.kb.se/term/kssb/8```
 
 * Ämne/Agent/Organisation (610 2/- #a)  
-  Länka till entitet. 
+  Länka till entitet.  
   I undantagsfall, skapa lokal entitet och skriv in uppgiften.   
   ```Exempel: Riksförbundet Sveriges kammarmusikarrangörer``` 
   
