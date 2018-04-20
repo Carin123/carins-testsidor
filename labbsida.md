@@ -56,7 +56,7 @@ Exempel: Kammarmusik-nytt, ISSN 2001-2721, Voyager BibID 12683491
   Länka till entitet.  
   ```Exempel: svenska (swe)```  
 
-#* Katalogiseringsregler (040 ‡e)  
+* Katalogiseringsregler (040 ‡e)  
   För post katalogiserad enligt RDA, länka till entitet: marc/Isbd samt skapa lokal entitet med Kod: rda    
   ```Exempel: marc/Isbd (länkad entitet) + lokal entitet, Kod: rda```
 
