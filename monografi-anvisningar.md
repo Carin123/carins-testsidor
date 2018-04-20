@@ -3,7 +3,7 @@ Här testar jag att lägga in ett scenario/testfall och anpassa det till hjälpt
 
 Hjälptexten beskriver ett antal vanligt förekommande fält, med utgångspunkt från exempel. För instruktioner om att länka till entitet, skapa lokal entitet och om hur formuläret fungerar i övrigt, se Redigering i vänstermenyn. För information om katalogregler, skrivregler och övriga katalogiseringsanvisningar, se [Anvisningar för katalogisering - RDA](http://www.kb.se/rdakatalogisering/ "Anvisningar för katalogisering - RDA").
 
-## Skapa ny – Tryckt monografi
+## Bok – Tryckt monografi
 
 Exempel - hämtade från: Under cover, ISBN 9789188107213, Voyager BibID 19775078 samt  
 Kjellström, Rolf: Nybyggarliv i Vilhelmina. 1. Träd och växter som resurs, Voyager BibID 13457927
