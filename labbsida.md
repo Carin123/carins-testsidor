@@ -41,7 +41,7 @@ Exempel: Kammarmusik-nytt, ISSN 2001-2721, Voyager BibID 12683491
 
 
 ### Adminmetadata  
-* Skapad av/Organisation/Namn (040 ‡a)  
+* Skapad av/Organisation/Namn (040 ‡a)   
   Förval: den sigel som skapat posten. Ska inte ändras. 
   ```Exempel: S```  
   
