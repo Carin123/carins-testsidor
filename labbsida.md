@@ -113,7 +113,7 @@ Exempel: Kammarmusik-nytt, ISSN 2001-2721, Voyager BibID 12683491
   ```Exempel: d (= utgivning avslutad)```
 
 * Kronologisk täckning (008/11-17)  
-  Skriv in uppgiften.  
+  Skriv in uppgiften.   
   ```Exempel: 2011-2013```  
 
 * Utgivningsland (008/15-17)  
@@ -121,12 +121,12 @@ Exempel: Kammarmusik-nytt, ISSN 2001-2721, Voyager BibID 12683491
   ```Exempel: Sverige (sw)```  
 
 * Frekvens  
-  * frekvensterm (008/18)  
+  * Frekvensterm (008/18)  
     Länka till entitet.  
     ```Exempel: var tredje månad (q = quarterly)```  
-  * regelbundenhet (008/19)  
+  * Regelbundenhet (008/19)  
     Länka till entitet.  
-```Exempel: regelbunden (r = regular)```
+    ```Exempel: regelbunden (r = regular)```
 
 FORTSÄTT HÄR
 
