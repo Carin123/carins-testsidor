@@ -1,11 +1,12 @@
 UNDER ARBETE
 Här testar jag att lägga in ett scenario/testfall och anpassa det till hjälptext.
 
-Hjälptexten utgår från formuläret Skapa ny - tryckt monografi. För instruktioner om att länka till entitet, skapa lokal entitet och om hur formuläret fungerar i övrigt, se Redigering i vänstermenyn. För information om katalogregler, skrivregler och övriga katalogiseringsanvisningar, se [Anvisningar för katalogisering - RDA](http://www.kb.se/rdakatalogisering/ "Anvisningar för katalogisering - RDA").
+Hjälptexten beskriver ett antal vanligt förekommande fält, med utgångspunkt från exempel. För instruktioner om att länka till entitet, skapa lokal entitet och om hur formuläret fungerar i övrigt, se Redigering i vänstermenyn. För information om katalogregler, skrivregler och övriga katalogiseringsanvisningar, se [Anvisningar för katalogisering - RDA](http://www.kb.se/rdakatalogisering/ "Anvisningar för katalogisering - RDA").
 
 ## Skapa ny – Tryckt monografi
 
-Exempel: Under cover, ISBN 9789188107213, Voyager BibID 19775078
+Exempel - hämtade från: Under cover, ISBN 9789188107213, Voyager BibID 19775078 samt  
+Kjellström, Rolf: Nybyggarliv i Vilhelmina. 1. Träd och växter som resurs, Voyager BibID 13457927
 
 [Adminmetadata](#adminmetadata)  
 [Instans](#instans)  
@@ -103,8 +104,15 @@ Exempel: Under cover, ISBN 9789188107213, Voyager BibID 19775078
   Länka till entitet.  
   ```Exempel: Sverige (sw)```  
   
-* Serieuppgift FYLL PÅ HÄR
+* Serieuppgift  
+  Skriv in uppgiften.  
+  ```Exempel: Acta Academiae Regiae Gustavi Adolphi, 0065-0897 ; 119```  
 
+* Har serie  ELLER SERIEMEDLEMSKAP ???????
+  Länka till entitet. 
+  I undantagsfall, skapa lokal entitet. Skriv in uppgiften. Skriv in uppgiften.  
+  ```Exempel: ?????????????????????????? KOLLA - VAR HAMNAR SERIENS TITEL? HUR FÖRHÅLLER DET SIG TILL SERIEUPPGIFT? ISSN? NUMRERING INOM SERIE?```  
+  
 * Medietyp (337 ‡b)  
   Länka till entitet.  
   ```Exempel:  n (= omedierad)```
