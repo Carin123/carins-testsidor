@@ -249,7 +249,7 @@ Exempel: Kammarmusik-nytt, ISSN 2001-2721, Voyager BibID 12683491
 
 * Relaterade verk/Fortsätter delvis/Verk/Har titel/Titel/Titel (780 #t)  
   Länka till entitet.  
-  I undantagsfall, skapa lokal entitet och skriv in uppgiften. 
+  I undantagsfall, skapa lokal entitet och skriv in uppgiften.  
   ```Exempel: Musikant och kammarmusik-nytt```  
   
 * Relaterade verk/Fortsätter delvis/Verk/Identifikator/Typ  
