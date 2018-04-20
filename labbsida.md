@@ -40,43 +40,42 @@ Tryckt seriell resurs
 Exempel: Kammarmusik-nytt, ISSN 2001-2721, Voyager BibID 12683491
 
 
-Adminmetadata  
-### Skapad av/Organisation/Namn (040 #a)  
-- förval: den sigel som skapat posten. Ska inte gå att redigera.
-```Exempel: S```
+### Adminmetadata  
+* Skapad av/Organisation/Namn (040 ‡a)  
+  Förval: den sigel som skapat posten. Ska inte ändras. 
+  ```Exempel: S```  
+  
+* Uppgraderad eller importerad av/Organisation/Namn (040 ‡d)  
+  Skriv in sigel som har uppgraderat (ändrat nivå) eller importerat posten. För att söka fram sigel, se [Biblioteksdatabasen](https://biblioteksdatabasen.libris.kb.se/ "Biblioteksdatabasen")
+  ```Exempel: U```
 
+* Bibliografi/Bibliotek/Sigel (042 ‡9)  
+  Ange bibliografikod genom att skriva in sigel. För att söka fram sigel, se [Biblioteksdatabasen](https://biblioteksdatabasen.libris.kb.se/ "Biblioteksdatabasen")
 
-### Bibliografi/Bibliotek/Sigel (042 #9)  
-```Exempel: NB```
+* Katalogiseringsspråk (040 ‡b)  
+  Länka till entitet.  
+  ```Exempel: svenska (swe)```  
 
+#* Katalogiseringsregler (040 ‡e)  
+  För post katalogiserad enligt RDA, länka till entitet: marc/Isbd samt skapa lokal entitet med Kod: rda    
+  ```Exempel: marc/Isbd (länkad entitet) + lokal entitet, Kod: rda```
 
-### Katalogiseringsspråk (040 #b)  
-- länkning till entitet  
-```Exempel: svenska (swe)```
+* Beskrivningsnivå (000/05)  
+  Länka till entitet.  
+  ```Exempel: nationalbibliografisk/fullständig nivå```
 
+### Instans
+* Utgivningssätt  
+  Välj från lista.  
+  ```Exempel: Seriell resurs```
 
-### Katalogiseringsregler (040 #e)  
-- länkning till entiteter + skapa lokal entitet. RDA finns inte som länkbar entitet.  
-Förval: länkning till entitet: marc/isbd + lokalt skapad entitet med Kod: rda (eller kan vi skapa en länkbar entitet för rda?)  
-```Exempel: marc/Isbd (länkad entitet)```  
-+ Kod: rda
-
-
-### Beskrivningsnivå (000/05)  
-- länkning till entiteter  
-```Exempel: nationalbibliografisk/fullständig nivå```
-
-Instans  
-Utgivningssätt  
-- val från lista  
-```Exempel: Seriell resurs```
-
-
-### Har titel/Titel/Huvudtitel (245 #a)  
-```Exempel: Kammarmusik-nytt```  
-Har titel/Titel/Huvudtitel/Övrig titelinformation (245 #b)  
-```Exempel: Kammarmusikförbundets tidskrift```
-
+* Har titel/Titel/Huvudtitel (245 #a)  
+  Skriv in uppgiften.  
+  ```Exempel: Kammarmusik-nytt```  
+* Har titel/Titel/Huvudtitel/Övrig titelinformation (245 #b)  
+  Skriv in uppgiften.  
+  ```Exempel: Kammarmusikförbundets tidskrift```
+FORTSÄTT HÄR
 
 ### Identifikator/Typ  
 ```Exempel: ISSN```  
