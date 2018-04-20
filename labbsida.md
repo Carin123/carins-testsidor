@@ -218,7 +218,7 @@ Exempel: Kammarmusik-nytt, ISSN 2001-2721, Voyager BibID 12683491
   ```Exempel: Riksförbundet Sveriges kammarmusikarrangörer``` 
   
  * Ämne/Sao-term (650 -7- #a, #2 sao)   
-   Länka till entitet. 
+   Länka till entitet.  
    ```Exempel: Kammarmusik```  
    
  * Geografiskt ämnesord (651 -/4 ‡a)  
