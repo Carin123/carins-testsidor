@@ -110,7 +110,7 @@ Kjellström, Rolf: Nybyggarliv i Vilhelmina. 1. Träd och växter som resurs, Vo
 
 * Har serie  ELLER SERIEMEDLEMSKAP ???????
   Länka till entitet. 
-  I undantagsfall, skapa lokal entitet. Skriv in uppgiften. Skriv in uppgiften.  
+  I undantagsfall, skapa lokal entitet. Skriv in uppgiften.   
   ```Exempel: ?????????????????????????? KOLLA - VAR HAMNAR SERIENS TITEL? HUR FÖRHÅLLER DET SIG TILL SERIEUPPGIFT? ISSN? NUMRERING INOM SERIE? LÄNKA TILL ENTITET?```  
   
 * Medietyp (337 ‡b)  
