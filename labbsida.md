@@ -33,7 +33,8 @@ The anchor link for that heading is the lowercase heading name with dashes where
 -------------------
 HÄR TESTAR JAG ATT KLISTRA IN TESTFALLET SERIELL RESURS
 ----
-Scenario/Testfall – Libris katalogisering
+Scenario/Testfall – Libris katalogisering  
+UNDER ARBETE  
 
 Tryckt seriell resurs
 
@@ -42,7 +43,7 @@ Exempel: Kammarmusik-nytt, ISSN 2001-2721, Voyager BibID 12683491
 
 ### Adminmetadata  
 * Skapad av/Organisation/Namn (040 ‡a)   
-  Förval: den sigel som skapat posten. Ska inte ändras. 
+  Förval: den sigel som skapat posten. Ska inte ändras.  
   ```Exempel: S```  
   
 * Uppgraderad eller importerad av/Organisation/Namn (040 ‡d)  
