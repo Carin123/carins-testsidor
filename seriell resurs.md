@@ -1,8 +1,9 @@
+UNDER ARBETE
 Här testar jag att lägga in ett scenario/testfall och anpassa det till hjälptext.
 
-UNDER ARBETE  
+Hjälptexten beskriver ett antal vanligt förekommande fält, med utgångspunkt från exempel. För instruktioner om att länka till entitet, skapa lokal entitet och om hur formuläret fungerar i övrigt, se Redigering i vänstermenyn. För information om katalogregler, skrivregler och övriga katalogiseringsanvisningar, se [Anvisningar för katalogisering - RDA](http://www.kb.se/rdakatalogisering/ "Anvisningar för katalogisering - RDA").
 
-Tryckt seriell resurs
+## Tryckt seriell resurs
 
 Exempel: Kammarmusik-nytt, ISSN 2001-2721, Voyager BibID 12683491
 
