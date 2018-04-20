@@ -72,61 +72,62 @@ Exempel: Kammarmusik-nytt, ISSN 2001-2721, Voyager BibID 12683491
 * Har titel/Titel/Huvudtitel (245 #a)  
   Skriv in uppgiften.  
   ```Exempel: Kammarmusik-nytt```  
+  
 * Har titel/Titel/Huvudtitel/Övrig titelinformation (245 #b)  
   Skriv in uppgiften.  
   ```Exempel: Kammarmusikförbundets tidskrift```
+
+* Identifikator/Typ  
+  Välj från lista.  
+  ```Exempel: ISSN```  
+  
+* Identifikator/Typ/Värde (022 ‡a)  
+  Skriv in uppgiften.  
+  ```Exempel: 2001-2721```
+
+* Identifikator/Källa (022 #f)  
+  Skriv in uppgiften.  
+  ```Exempel: Nationell ISSN-central f (= ISSN Sverige)```  
+  
+* Identifikator/Internationellt intresse  
+  Markera rätt alternativ. KOLLA!!  
+  ```Exempel: Ja (True)```  
+  
+* Identifikator/Felaktigt ISSN (022 #y)   
+  Skriv in uppgiften.   
+  ```Exempel: 1653-2945```
+
+* Utgivning   
+  * Plats/Benämning (264 -/1 ‡a)  
+  Skriv in uppgiften.  
+  ```Exempel: Brämhult```  
+  * Agent/Benämning (264 -/1 ‡b)  
+  Skriv in uppgiften.  
+  ```Exempel: Kammarmusikförbundet```  
+  * Datum (264 -/1 ‡c)  
+  Skriv in uppgiften.  
+  ```Exempel: 2011-2013```  
+* Typ av utgivningsdatum/utgivningsstatus (008/06)  
+  Länka till entitet.  
+  ```Exempel: d (= utgivning avslutad)```
+
+* Kronologisk täckning (008/11-17)  
+  Skriv in uppgiften.  
+  ```Exempel: 2011-2013```  
+
+* Utgivningsland (008/15-17)  
+  Länka till entitet.  
+  ```Exempel: Sverige (sw)```  
+
+* Frekvens  
+  * frekvensterm (008/18)  
+    Länka till entitet.  
+    ```Exempel: var tredje månad (q = quarterly)```  
+  * regelbundenhet (008/19)  
+    Länka till entitet.  
+```Exempel: regelbunden (r = regular)```
+
 FORTSÄTT HÄR
-
-### Identifikator/Typ  
-```Exempel: ISSN```  
-Identifikator/Typ/Värde (022 #a)  
-```Exempel: 2001-2721```
-
-### Identifikator/Källa (022 #f)  
-```Exempel: Nationell ISSN-central f (= ISSN Sverige)```  
-### Identifikator/Internationellt intresse  
-```Exempel: Ja (True)```  
-### Identifikator/Felaktigt ISSN (022 #y)  
-```Exempel: 1653-2945```
-
-
-### Utgivning  
-- plats/Benämning (264 -/1 #a)  
-```Exempel: Brämhult```
-
-- agent/Benämning (264 -/1 #b)  
-```Exempel: Kammarmusikförbundet```
-
-- datum (264 -/1 #c)  
-```Exempel: 2011-2013```  
-### Typ av utgivningsdatum/utgivningsstatus (008/06)  
-- länkning till entitet  
-```Exempel: d (= utgivning avslutad)```
-
-
-### Tillverkning  
-- plats/Benämning (264 -/3 #a)  
-```Exempel: Söderköping```  
-- agent/Benämning (264 -/3 #b)  
-```Exempel: Brämhult```
-
-
-### Kronologisk täckning (008/11-17)  
-```Exempel: 2011-2013```  
-(jfr datum …)
-
-
-### Utgivningsland (008/15-17)  
-- länkning till entitet  
-```Exempel: Sverige (sw)```
-
-
-### Frekvens  
-- frekvensterm (länkning till entitet) (008/18)  
-- regelbundenhet (länkning till entitet) (008/19)  
-```Exempel: var tredje månad (q = quarterly)```  
-```Exempel: regelbunden (r = regular)
-```
 
 ### Numrering av seriella resurser/Benämning (362 0/- #a)  
 ```Exempel: 2011: 4-2013: 2```
