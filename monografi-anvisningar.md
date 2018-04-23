@@ -81,17 +81,20 @@ Kjellström, Rolf: Nybyggarliv i Vilhelmina. 1. Träd och växter som resurs, Vo
 * Upplageuppgift  
   Skriv in uppgiften.  
   ```Exempel: Första upplagan```
+  INNEHÅLLER UPPLAGEBETECKNING OCH EVENTUELL UPPLAGESPECIFIK UPPHOVSUPPGIFT - SKRIV OM. MED INTERPUNKTION.
+  SKRIV NÅGOT OM PÅFÖLJANDE UPPLAGEUPPGIFT. NGT OM EVENTUELL INTERPUNKTION.
 
 * Utgivning   
-  * Plats/Benämning (264 -/1 ‡a)  
+  * Plats/Benämning (= Utgivningsort) (264 -/1 ‡a)  
   Skriv in uppgiften.  
   ```Exempel: [Göteborg]```  
-  * Agent/Benämning (264 -/1 ‡b)  
+  * Agent/Benämning (= Utgivarnamn) (264 -/1 ‡b)  
   Skriv in uppgiften.  
   ```Exempel: NoNa```  
-  * Datum (264 -/1 ‡c)  
+  * Datum (= Utgivningstid) (264 -/1 ‡c)  
   Skriv in uppgiften.  
   ```Exempel: 2017```  
+  SKRIV NÅGOT OM ATT DET INTE ÄR LÄNKADE AGENTER
 
 * Typ av utgivningsdatum/utgivningsstatus (008/06)  OBS. FINNS DET MED?  
   Länka till entitet.  
