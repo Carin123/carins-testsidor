@@ -67,7 +67,11 @@ med flera exempel.
   Skriv in uppgiften.    
   
 * Omslagstitel, Ryggtitel, Rubriktitel etc - lägg till Har titel och välj typ. För typ av varianttitel som saknas i listan, välj   Varianttitel och lägg därefter till Typanmärkning (= 246 ‡i). Lägg därefter till Huvudtitel och eventuell Övrig titelinformation.  
-   ```Exempel: Titelrubrik: #a Disney's Nalle Puh ```
+   ```Exempel:  
+  Har titel/Varianttitel/Typanmärkning  
+  Titelrubrik:  
+  Har titel/Varianttitel/Huvudtitel  
+  Disney's Nalle Puh ```
 
 * Upphovsuppgift  
   Skriv in uppgiften.  
