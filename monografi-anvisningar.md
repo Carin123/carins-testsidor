@@ -3,6 +3,8 @@ Här testar jag att lägga in ett scenario/testfall och anpassa det till hjälpt
 
 Hjälptexten beskriver ett antal vanligt förekommande fält, med utgångspunkt från exempel. För instruktioner om att länka till entitet, skapa lokal entitet och om hur formuläret fungerar i övrigt, se Redigering i vänstermenyn. För information om katalogregler, skrivregler och övriga katalogiseringsanvisningar, se [Anvisningar för katalogisering - RDA](http://www.kb.se/rdakatalogisering/ "Anvisningar för katalogisering - RDA").
 
+NGT OM ATT IBLAND ANVÄNDA ISBD-INTERPUNKTION OCH KLAMRAR ...
+
 ## Bok – Tryckt monografi
 
 Exempel - hämtade från: Under cover, ISBN 9789188107213, Voyager BibID 19775078 samt  
@@ -57,6 +59,8 @@ Kjellström, Rolf: Nybyggarliv i Vilhelmina. 1. Träd och växter som resurs, Vo
 * Har titel/Titel/Huvudtitel/Övrig titelinformation (245 ‡b)  
   Skriv in uppgiften.  
   ```Exempel: livet som underrättelseagent åt MI5```
+  OM FLERA UNDERTITLAR, SKRIV IN MED ISBD-INTERPUNKTION ...? KOLLA
+  En arbetsdag i skriftsamhället : ett etnografiskt perspektiv på skriftanvändning i vanliga yrken : småskrift utarbetad av Språkrådet REDIGERA OM  TILL RESP. FÄLT
 
 * Upphovsuppgift  
   Skriv in uppgiften.  
