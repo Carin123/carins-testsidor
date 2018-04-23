@@ -10,6 +10,7 @@ I de flesta fall ska informationen delas upp i olika fält och delfält. I någr
 
 Exempel - hämtade från: Under cover, ISBN 9789188107213, Voyager BibID 19775078 samt  
 Kjellström, Rolf: Nybyggarliv i Vilhelmina. 1. Träd och växter som resurs, Voyager BibID 13457927
+med flera exempel.
 
 [Adminmetadata](#adminmetadata)  
 [Instans](#instans)  
@@ -154,7 +155,7 @@ Kjellström, Rolf: Nybyggarliv i Vilhelmina. 1. Träd och växter som resurs, Vo
   
 * Anmärkning/Benämning  
   Skriv in uppgiften.  
-  Anmärkningar om specifika fält skrivs in i respektive avsnitt, när ett sådant anmärkningsfält finns. Skriv in allmänna      anmärkningar i fältet Anmärkning, fristående från respektive avsnitt.
+  Skriv in allmänna anmärkningar här. Anmärkningar om specifika fält skrivs in i Anmärkning/Benämning under respektive avsnitt, när sådana specifika anmärkningsfält finns. 
 
 ### Verk
 * Instans av Verk/Text
