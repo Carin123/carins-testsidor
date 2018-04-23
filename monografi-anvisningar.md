@@ -66,9 +66,7 @@ med flera exempel.
 * Har titel/Varianttitel/Huvudtitel/Övrig titelinformation (= Undertitel) (246 ‡b)  
   Skriv in uppgiften.    
   
-  VARIANTTITEL SKRIV MER HÄR ...
-  lägg till huvudtitel, typanmärkning, anmärkning ... etc FÖRKLARA
-  ANMÄRKNINGAR I RESPEKTIVE FÄLT ELLER ALLMÄNNA ANMÄRKNINGAR
+* Omslagstitel, Ryggtitel, Rubriktitel etc - lägg till Har titel och välj typ. För typ av varianttitel som saknas i listan, välj Varianttitel och lägg därefter till Typanmärkning (= 246 ‡i). Lägg därefter till Huvudtitel och eventuell Övrig titelinformation.  
 
 * Upphovsuppgift  
   Skriv in uppgiften.  
@@ -88,7 +86,7 @@ med flera exempel.
 
 * Upplageuppgift  
   Skriv in uppgiften.  
-  ```Exempel: Första upplagan```
+  ```Exempel: Första upplagan```  
   INNEHÅLLER UPPLAGEBETECKNING OCH EVENTUELL UPPLAGESPECIFIK UPPHOVSUPPGIFT - SKRIV OM. MED INTERPUNKTION.
   SKRIV NÅGOT OM PÅFÖLJANDE UPPLAGEUPPGIFT. NGT OM EVENTUELL INTERPUNKTION.
 
