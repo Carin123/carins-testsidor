@@ -55,7 +55,7 @@ Kjellström, Rolf: Nybyggarliv i Vilhelmina. 1. Träd och växter som resurs, Vo
   ```Exempel: En arbetsdag i skriftsamhället```
 
 * Har titel/Titel/Huvudtitel/Övrig titelinformation (= Undertitel) (245 ‡b)  
-  Skriv in uppgiften. Om det finns flera undertitlar, skriv in dessa efter varandra i samma fält, åtskilda av mellanslag, kolon, mellanslag.
+  Skriv in uppgiften. Om det finns flera undertitlar, skriv in dessa efter varandra i samma fält, åtskilda av mellanslag, kolon, mellanslag.  
   ```Exempel: livet som underrättelseagent åt MI5```  
   ```Exempel: ett etnografiskt perspektiv på skriftanvändning i vanliga yrken : småskrift utarbetad av Språkrådet```
     
