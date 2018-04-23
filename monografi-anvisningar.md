@@ -71,7 +71,7 @@ med flera exempel.
   Har titel/Varianttitel/Typanmärkning  
   Titelrubrik:  
   Har titel/Varianttitel/Huvudtitel  
-  Disney's Nalle Puh ```
+  Disney's Nalle Puh```
 
 * Upphovsuppgift  
   Skriv in uppgiften.  
