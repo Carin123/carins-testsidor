@@ -49,6 +49,10 @@ Kjellström, Rolf: Nybyggarliv i Vilhelmina. 1. Träd och växter som resurs, Vo
 * Har titel/Titel/Huvudtitel (245 ‡a)  
   Skriv in uppgiften.  
   ```Exempel: Under cover```
+  
+  VARIANTTITEL SKRIV MER HÄR ...
+  lägg till huvudtitel, typanmärkning, anmärkning ... etc FÖRKLARA
+  ANMÄRKNINGAR I RESPEKTIVE FÄLT ELLER ALLMÄNNA ANMÄRKNINGAR
 
 * Har titel/Titel/Huvudtitel/Övrig titelinformation (245 ‡b)  
   Skriv in uppgiften.  
@@ -107,6 +111,7 @@ Kjellström, Rolf: Nybyggarliv i Vilhelmina. 1. Träd och växter som resurs, Vo
 * Serieuppgift  
   Skriv in uppgiften.  
   ```Exempel: Acta Academiae Regiae Gustavi Adolphi, 0065-0897 ; 119```  
+  KOLLA - SKA ISBD-INTERPUNKTION VARA MED, OM UPPHOVSUPPGIFT? SKA ISSN HÄMTAT UTANFÖR RESURSEN KLAMRAS?
 
 * Har serie  ELLER SERIEMEDLEMSKAP ???????
   Länka till entitet. 
