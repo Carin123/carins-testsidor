@@ -5,6 +5,7 @@ Hjälptexten beskriver ett antal vanligt förekommande fält, med utgångspunkt 
 
 I de flesta fall ska informationen delas upp i olika fält och delfält. I några undantagsfall är det nödvändigt att använda ISBD-interpunktion inom fält, för att separera uppgifter. Dessa fall visas genom exempel nedan. Använd vid behov också klamrar inom fält, enligt Anvisningar för katalogisering - RDA.
 
+
 ## Bok – Tryckt monografi
 
 Exempel - hämtade från: Under cover, ISBN 9789188107213, Voyager BibID 19775078 samt  
@@ -50,17 +51,23 @@ Kjellström, Rolf: Nybyggarliv i Vilhelmina. 1. Träd och växter som resurs, Vo
   
 * Har titel/Titel/Huvudtitel (245 ‡a)  
   Skriv in uppgiften.  
-  ```Exempel: Under cover```
+  ```Exempel: Under cover```  
+  ```Exempel: En arbetsdag i skriftsamhället```
+
+* Har titel/Titel/Huvudtitel/Övrig titelinformation (= Undertitel) (245 ‡b)  
+  Skriv in uppgiften. Om det finns flera undertitlar, skriv in dessa efter varandra i samma fält, åtskilda av mellanslag, kolon, mellanslag.
+  ```Exempel: livet som underrättelseagent åt MI5```  
+  ```Exempel: ett etnografiskt perspektiv på skriftanvändning i vanliga yrken : småskrift utarbetad av Språkrådet```
+    
+* Har titel/Varianttitel/Titel/Huvudtitel (246 ‡a)  
+  Skriv in uppgiften.
+  
+* Har titel/Varianttitel/Huvudtitel/Övrig titelinformation (= Undertitel) (246 ‡b)  
+  Skriv in uppgiften.    
   
   VARIANTTITEL SKRIV MER HÄR ...
   lägg till huvudtitel, typanmärkning, anmärkning ... etc FÖRKLARA
   ANMÄRKNINGAR I RESPEKTIVE FÄLT ELLER ALLMÄNNA ANMÄRKNINGAR
-
-* Har titel/Titel/Huvudtitel/Övrig titelinformation (245 ‡b)  
-  Skriv in uppgiften.  
-  ```Exempel: livet som underrättelseagent åt MI5```
-  OM FLERA UNDERTITLAR, SKRIV IN MED ISBD-INTERPUNKTION ...? KOLLA
-  En arbetsdag i skriftsamhället : ett etnografiskt perspektiv på skriftanvändning i vanliga yrken : småskrift utarbetad av Språkrådet REDIGERA OM  TILL RESP. FÄLT
 
 * Upphovsuppgift  
   Skriv in uppgiften.  
@@ -144,6 +151,10 @@ Kjellström, Rolf: Nybyggarliv i Vilhelmina. 1. Träd och växter som resurs, Vo
 * Mått/Benämning  
   Skriv in uppgiften.  
   ```Exempel: 24 cm```
+  
+* Anmärkning/Benämning  
+  Skriv in uppgiften.  
+  Anmärkningar om specifika fält skrivs in i respektive avsnitt, när ett sådant anmärkningsfält finns. Skriv in allmänna      anmärkningar i fältet Anmärkning, fristående från respektive avsnitt.
 
 ### Verk
 * Instans av Verk/Text
