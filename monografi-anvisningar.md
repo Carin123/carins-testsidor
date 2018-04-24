@@ -95,12 +95,11 @@ med flera exempel.
   Skriv in uppgiften.  
   ```Exempel: [Göteborg]```  
   * Agent/Benämning (= Utgivarnamn) (264 -/1 ‡b)  
-  Skriv in uppgiften.  
+  Skriv in uppgiften.  Utgivarnamn ska inte länkas som entitet.  
   ```Exempel: NoNa```  
   * Datum (= Utgivningstid) (264 -/1 ‡c)  
   Skriv in uppgiften.  
   ```Exempel: 2017```  
-  SKRIV NÅGOT OM ATT DET INTE ÄR LÄNKADE AGENTER
 
 * Typ av utgivningsdatum/utgivningsstatus (008/06)  OBS. FINNS DET MED?  
   Länka till entitet.  
