@@ -132,7 +132,7 @@ med flera exempel.
   Skriv in uppgiften.  
   ```Exempel: 1103-498X```    
   
-* Seriemedlemskap/Ingår i serie/Instans av Verk/Verk/Har titel/Titel/Huvudtitel
+* Seriemedlemskap/Ingår i serie/Instans av Verk/Verk/Har titel/Titel/Huvudtitel  
   Skriv in uppgiften.  
   ```Exempel: Årstasällskapets för Fredrika Bremer-studier skriftserie```    
  
