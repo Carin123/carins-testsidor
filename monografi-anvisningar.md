@@ -120,19 +120,19 @@ med flera exempel.
   Länka till entitet.  
   ```Exempel: Sverige (sw)```  
   
-* Seriemedlemskap/Ingår i serie/Serieuppgift  
+* Seriemedlemskap/Ingår i serie/Serieuppgift (490 ‡a)    
   Skriv in uppgiften.  
   ```Exempel: Årstasällskapets skriftserie```  
   
-* Seriemedlemskap/Numrering inom serie  
+* Seriemedlemskap/Numrering inom serie  (490 ‡v, 830 ‡v)  
   Skriv in uppgiften.  
   ```Exempel: 8```  
    
-* Seriemedlemskap/Ingår i serie/Instans/Identifikator/ISSN/Värde  
+* Seriemedlemskap/Ingår i serie/Instans/Identifikator/ISSN/Värde (490 ‡x, 830 ‡x)  
   Skriv in uppgiften.  
   ```Exempel: 1103-498X```    
   
-* Seriemedlemskap/Ingår i serie/Instans av Verk/Verk/Har titel/Titel/Huvudtitel  
+* Seriemedlemskap/Ingår i serie/Instans av Verk/Verk/Har titel/Titel/Huvudtitel (830 ‡a)
   Skriv in uppgiften.  
   ```Exempel: Årstasällskapets för Fredrika Bremer-studier skriftserie```    
  
