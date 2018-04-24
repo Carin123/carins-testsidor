@@ -9,7 +9,7 @@ I de flesta fall ska informationen delas upp i olika fält och delfält. I någr
 ## Bok – Tryckt monografi
 
 Exempel - hämtade från: Under cover, ISBN 9789188107213, Voyager BibID 19775078 samt  
-Kjellström, Rolf: Nybyggarliv i Vilhelmina. 1. Träd och växter som resurs, Voyager BibID 13457927
+30 år med Fredrika Bremer i forskning och idédebatt, Voyager BibID 22431305
 med flera exempel.
 
 [Adminmetadata](#adminmetadata)  
@@ -120,16 +120,22 @@ med flera exempel.
   Länka till entitet.  
   ```Exempel: Sverige (sw)```  
   
-* Serieuppgift  
+* Seriemedlemskap/Ingår i serie/Serieuppgift  
   Skriv in uppgiften.  
-  ```Exempel: Acta Academiae Regiae Gustavi Adolphi, 0065-0897 ; 119```  
-  KOLLA - SKA ISBD-INTERPUNKTION VARA MED, OM UPPHOVSUPPGIFT? SKA ISSN HÄMTAT UTANFÖR RESURSEN KLAMRAS?
-
-* Har serie  ELLER SERIEMEDLEMSKAP ???????
-  Länka till entitet. 
-  I undantagsfall, skapa lokal entitet. Skriv in uppgiften.   
-  ```Exempel: ?????????????????????????? KOLLA - VAR HAMNAR SERIENS TITEL? HUR FÖRHÅLLER DET SIG TILL SERIEUPPGIFT? ISSN? NUMRERING INOM SERIE? LÄNKA TILL ENTITET?```  
+  ```Exempel: Årstasällskapets skriftserie```  
   
+* Seriemedlemskap/Numrering inom serie  
+  Skriv in uppgiften.  
+  ```Exempel: 8```  
+   
+* Seriemedlemskap/Ingår i serie/Instans/Identifikator/ISSN/Värde  
+  Skriv in uppgiften.  
+  ```Exempel: 1103-498X```    
+  
+* Seriemedlemskap/Ingår i serie/Instans av Verk/Verk/Har titel/Titel/Huvudtitel
+  Skriv in uppgiften.  
+  ```Exempel: Årstasällskapets för Fredrika Bremer-studier skriftserie```    
+ 
 * Medietyp (337 ‡b)  
   Länka till entitet.  
   ```Exempel:  n (= omedierad)```
