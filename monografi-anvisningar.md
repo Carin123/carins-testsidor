@@ -66,7 +66,7 @@ med flera exempel.
 * Har titel/Varianttitel/Huvudtitel/Övrig titelinformation (= Undertitel) (246 ‡b)  
   Skriv in uppgiften.    
   
-* Omslagstitel, Ryggtitel, Rubriktitel etc - lägg till Har titel och välj typ. För typ av varianttitel som saknas i listan, välj   Varianttitel och lägg därefter till Typanmärkning (= 246 ‡i). Lägg därefter till Huvudtitel och eventuell Övrig titelinformation.  
+* Omslagstitel, Ryggtitel, Rubriktitel etc - lägg till Har titel och välj typ. För typ av varianttitel som saknas i listan, välj Varianttitel och lägg därefter till Typanmärkning (= 246 ‡i). Lägg därefter till Huvudtitel och eventuell Övrig titelinformation.  
    
 * Upphovsuppgift  
   Skriv in uppgiften.  
@@ -120,6 +120,10 @@ med flera exempel.
   Länka till entitet.  
   ```Exempel: Sverige (sw)```  
   
+* Seriemedlemskap/Ingår i serie  
+  Länka till entitet.  
+  I undantagsfall, skapa lokal entitet och skriv in uppgiften. 
+  
 * Seriemedlemskap/Ingår i serie/Serieuppgift (490 ‡a)    
   Skriv in uppgiften.  
   ```Exempel: Årstasällskapets skriftserie```  
@@ -133,7 +137,7 @@ med flera exempel.
   ```Exempel: 1103-498X```    
   
 * Seriemedlemskap/Ingår i serie/Instans av Verk/Verk/Har titel/Titel/Huvudtitel (830 ‡a)  
-  Skriv in uppgiften.  
+  Skriv in uppgiften.   
   ```Exempel: Årstasällskapets för Fredrika Bremer-studier skriftserie```    
  
 * Medietyp (337 ‡b)  
