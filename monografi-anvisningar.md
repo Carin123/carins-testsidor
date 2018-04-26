@@ -95,7 +95,7 @@ med flera exempel.
   SKRIV NÅGOT OM PÅFÖLJANDE UPPLAGEUPPGIFT. NGT OM EVENTUELL INTERPUNKTION.
  
 * Utgivning  
-  Välj typ från lista. För monografier, välj Primär utgivning. (= Typ av utgivningsdatum/utgivningsstatus) (008/06-14)  
+  Välj typ från lista. För monografier, välj Primär utgivning. (= Typ av utgivningsdatum/utgivningsstatus) (008/06)  
    
   * Utgivningsland (008/15-17)  
   Länka till entitet.  
@@ -106,7 +106,7 @@ med flera exempel.
   * Agent/Benämning (= Utgivarnamn) (264 -/1 ‡b)  
   Skriv in uppgiften.  Utgivarnamn ska inte länkas som entitet.  
   ```Exempel: NoNa```  
-  * Datum (= Utgivningstid) (264 -/1 ‡c)  
+  * Datum (= Utgivningstid) (008/07-10), 264 -/1 ‡c)  
   Skriv in uppgiften.  
   ```Exempel: 2017```  
 
