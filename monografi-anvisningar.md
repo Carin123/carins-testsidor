@@ -132,8 +132,8 @@ med flera exempel.
   Skriv in uppgiften.  
   ```Exempel: 8```  
   
-  * Seriemedlemskap/Seriebiuppslag (490 i1: 0/1)  
-  Ange seriebiuppslag, om Instans av verk anges.
+* Seriemedlemskap/Seriebiuppslag (490 i1: 0/1)  
+  Ange seriebiuppslag, om Instans av verk anges.  
   Skriv in uppgiften.  
   ```Exempel: 1``  
    
