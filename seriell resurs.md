@@ -86,11 +86,9 @@ Exempel: Kammarmusik-nytt, ISSN 2001-2721, Voyager BibID 12683491
 * Typ av utgivningsdatum/utgivningsstatus (008/06)  
   Länka till entitet.  
   ```Exempel: d (= utgivning avslutad)```
+ * Startdatum  (008/7-10)  
+ * Slutdatum  (008/11-14)  
 SKRIV NÅGOT OM UPPREPADE UTGIVNINGSUPPGIFTER
-
-* Kronologisk täckning (008/11-17)  
-  Skriv in uppgiften.   
-  ```Exempel: 2011-2013```  
 
 * Utgivningsland (008/15-17)  
   Länka till entitet.  
