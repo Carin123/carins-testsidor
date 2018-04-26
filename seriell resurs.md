@@ -36,6 +36,15 @@ Exempel: Kammarmusik-nytt, ISSN 2001-2721, Voyager BibID 12683491
 * Utgivningssätt  
   Välj från lista.  
   ```Exempel: Seriell resurs```
+  
+* Har titel/Nyckeltitel/Huvudtitel (222 -/0 #a)  
+  Länka till entitet.
+  I undantagsfall, skapa lokal entitet och skriv in uppgiften.  
+  ```Exempel:  Kammarmusik-nytt```  
+
+* Har titel/Nyckeltitel/Huvudtitel/Särskiljande tillägg (222 #b)  
+  Skriv in uppgiften.  
+  ```Exempel:  (Brämhult)```
 
 * Har titel/Titel/Huvudtitel (245 #a)  
   Skriv in uppgiften.  
@@ -156,14 +165,10 @@ SKRIV NÅGOT OM UPPREPADE UTGIVNINGSUPPGIFTER
 ### Verk
 * Instans av Verk/Text
 
-* Har titel/Nyckeltitel/Huvudtitel (222 -/0 #a)  
-  Länka till entitet.
-  I undantagsfall, skapa lokal entitet och skriv in uppgiften.  
-  ```Exempel:  Kammarmusik-nytt```  
-
-* Har titel/Nyckeltitel/Huvudtitel/Särskiljande tillägg (222 #b)  
+* Har titel/Huvudtitel (130 0/- #a)  
   Skriv in uppgiften.  
-  ```Exempel:  (Brämhult)```
+  ```Exempel:  Architecture (Paris. 1888)```  
+  KOLLA: SKA SÄRSKILJANDE TILLÄGG LIGGA HÄR ELLER I SÄRSKILJANDE TILLÄGG?
   
 * Medverkan och funktion/Medverkan/Agent (710 2/- #a)  
   Länka till entitet.  
