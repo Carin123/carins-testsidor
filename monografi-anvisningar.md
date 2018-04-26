@@ -131,6 +131,11 @@ med flera exempel.
 * Seriemedlemskap/Numrering inom serie  (490 ‡v, 830 ‡v)  
   Skriv in uppgiften.  
   ```Exempel: 8```  
+  
+  * Seriemedlemskap/Seriebiuppslag (490 i1: 0/1)  
+  Ange seriebiuppslag, om Instans av verk anges.
+  Skriv in uppgiften.  
+  ```Exempel: 1``  
    
 * Seriemedlemskap/Ingår i serie/Instans/Identifikator/ISSN/Värde (= identifiedBy/ISSN/Value) (490 ‡x, 830 ‡x)  
   Skriv in uppgiften.  
