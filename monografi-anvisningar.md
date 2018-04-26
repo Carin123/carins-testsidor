@@ -165,7 +165,7 @@ med flera exempel.
   Skriv in uppgiften.  
   ```Exempel: 24 cm```
   
-* Anmärkning/Benämning (= hasNote/Note/label) (500 ‡a)
+* Anmärkning/Benämning (= hasNote/Note/label) (500 ‡a)  
   Skriv in uppgiften.  
   Skriv in allmänna anmärkningar här. Anmärkningar om specifika fält skrivs in i Anmärkning (note) under respektive fält, när sådana specifika anmärkningsfält finns. 
 
