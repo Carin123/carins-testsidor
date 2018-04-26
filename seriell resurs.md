@@ -80,8 +80,6 @@ Exempel: Kammarmusik-nytt, ISSN 2001-2721, Voyager BibID 12683491
   * Utgivningsland (008/15-17)  
   Länka till entitet.  
   ```Exempel: Sverige (sw)```  
-
-* Utgivning   
   * Plats/Benämning (264 -/1 ‡a)  
   Skriv in uppgiften.  
   ```Exempel: Brämhult```  
@@ -91,7 +89,6 @@ Exempel: Kammarmusik-nytt, ISSN 2001-2721, Voyager BibID 12683491
   * Datum (264 -/1 ‡c)  
   Skriv in uppgiften.  
   ```Exempel: 2011-2013```  
-
  * Startdatum  (008/7-10)    
  * Slutdatum  (008/11-14)  
 SKRIV NÅGOT OM UPPREPADE UTGIVNINGSUPPGIFTER
