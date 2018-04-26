@@ -132,10 +132,10 @@ med flera exempel.
   Skriv in uppgiften.  
   ```Exempel: 8```  
   
-* Seriemedlemskap/Seriebiuppslag (490 i1: 0/1)  
+* Seriemedlemskap/Seriebiuppslag (490 i1: 1)  
   Ange seriebiuppslag, om Instans av verk anges.  
   Skriv in uppgiften.  
-  ```Exempel: 1``  
+  ```Exempel: 1```
    
 * Seriemedlemskap/Ingår i serie/Instans/Identifikator/ISSN/Värde (= identifiedBy/ISSN/Value) (490 ‡x, 830 ‡x)  
   Skriv in uppgiften.  
