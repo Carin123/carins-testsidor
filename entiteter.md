@@ -34,7 +34,7 @@ FRÅN EVA-KARIN
 
 UNDER ARBETE
 
-## L‰nka entiteter
+## Länka entiteter
 
 * Gäller för: Se även  
   För att lägga till fält: Klicka på +-ikonen under egenskapen Se även, välj typen Person i sökrutan till vänster. 
