@@ -83,7 +83,7 @@ Exempel: Kammarmusik-nytt, ISSN 2001-2721, Voyager BibID 12683491
   ```Exempel: 1653-2945```
 
 * Utgivning  
-  Välj typ från lista. För seriell resurs, välj Nvarande utgivningsperiod eller Avslutad utgivningsperiod.  
+  Välj typ från lista. För seriell resurs, välj Pågående utgivningsperiod eller Avslutad utgivningsperiod.  
   (= Typ av utgivningsdatum/utgivningsstatus) (008/06)    
    
   * Utgivningsland (008/15-17)  
