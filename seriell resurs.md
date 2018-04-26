@@ -119,6 +119,10 @@ SKRIV NÅGOT OM UPPREPADE UTGIVNINGSUPPGIFTER
 * Form för katalogiserat objekt (008/23)  OBS. FINNS DET MED?  
   Länka till entitet.  
   ```Exempel: - (= ingen av följande)```
+  
+* Anmärkning/Benämning (= hasNote/label)  
+  Skriv in uppgiften.  
+  Skriv in allmänna anmärkningar här. Anmärkningar om specifika fält skrivs in i Anmärkning/Benämning under respektive fält, när sådana specifika anmärkningsfält finns. 
 
 * Relaterad till/Dokument/URI (856 4/8 #u)  
    Skriv in uppgiften.  
