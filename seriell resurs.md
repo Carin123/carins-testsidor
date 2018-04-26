@@ -82,7 +82,7 @@ Exempel: Kammarmusik-nytt, ISSN 2001-2721, Voyager BibID 12683491
   Skriv in uppgiften.   
   ```Exempel: 1653-2945```
 
- * Utgivning  
+* Utgivning  
   Välj typ från lista. För seriell resurs, välj Nvarande utgivningsperiod eller Avslutad utgivningsperiod.  
   (= Typ av utgivningsdatum/utgivningsstatus) (008/06)    
    
@@ -98,8 +98,8 @@ Exempel: Kammarmusik-nytt, ISSN 2001-2721, Voyager BibID 12683491
   * Datum (264 -/1 ‡c)  
   Skriv in uppgiften.  
   ```Exempel: 2011-2013```  
- * Startdatum  (008/7-10)    
- * Slutdatum  (008/11-14)  
+  * Startdatum  (008/7-10)    
+  * Slutdatum  (008/11-14)  
 SKRIV NÅGOT OM UPPREPADE UTGIVNINGSUPPGIFTER
  
 * Frekvens  
