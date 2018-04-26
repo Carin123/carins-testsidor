@@ -124,7 +124,7 @@ med flera exempel.
   Länka till entitet.  
   I undantagsfall, skapa lokal entitet och skriv in uppgiften. 
   
-* Seriemedlemskap/Ingår i serie/Serieuppgift (490 ‡a)    
+* Seriemedlemskap/Serieuppgift (490 ‡a)    
   Skriv in uppgiften.  
   ```Exempel: Årstasällskapets skriftserie```  
   
@@ -132,7 +132,7 @@ med flera exempel.
   Skriv in uppgiften.  
   ```Exempel: 8```  
    
-* Seriemedlemskap/Ingår i serie/Instans/Identifikator/ISSN/Värde (490 ‡x, 830 ‡x)  
+* Seriemedlemskap/Ingår i serie/Instans/Identifikator/ISSN/Värde (= identifiedBy/ISSN/Value) (490 ‡x, 830 ‡x)  
   Skriv in uppgiften.  
   ```Exempel: 1103-498X```    
   
