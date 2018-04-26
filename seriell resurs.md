@@ -114,7 +114,7 @@ SKRIV NÅGOT OM UPPREPADE UTGIVNINGSUPPGIFTER
   Länka till entitet.  
 ```Exempel:  nc (= volym)```
 
-* Bärartyp/Bokformat (= Form för katalogiserat objekt) (008/23)
+* Bärartyp/Bokformat (= Form för katalogiserat objekt) (008/23)  
   Länka till entitet.  
   ```Exempel: - (= ingen av följande)```
   
