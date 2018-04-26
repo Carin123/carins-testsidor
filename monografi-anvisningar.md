@@ -157,19 +157,15 @@ med flera exempel.
   Länka till entitet.  
 ```Exempel:  nc (= volym)```
 
-* Form för katalogiserat objekt (008/23)  OBS. FINNS DET MED?  
-  Länka till entitet.  
-  ```Exempel: - (= ingen av följande)```
-
-* Omfång/Benämning  
+* Omfång/Benämning (300 ‡a)  
   Skriv in uppgiften.  
   ```Exempel: 319 sidor```
 
-* Mått/Benämning  
+* Mått/Benämning (300 ‡c)  
   Skriv in uppgiften.  
   ```Exempel: 24 cm```
   
-* Anmärkning/Benämning (= hasNote/Note/label)  
+* Anmärkning/Benämning (= hasNote/Note/label) (500 ‡a)
   Skriv in uppgiften.  
   Skriv in allmänna anmärkningar här. Anmärkningar om specifika fält skrivs in i Anmärkning (note) under respektive fält, när sådana specifika anmärkningsfält finns. 
 
