@@ -94,7 +94,7 @@ med flera exempel.
   INNEHÅLLER UPPLAGEBETECKNING OCH EVENTUELL UPPLAGESPECIFIK UPPHOVSUPPGIFT - SKRIV OM.  
   SKRIV NÅGOT OM PÅFÖLJANDE UPPLAGEUPPGIFT. NGT OM EVENTUELL INTERPUNKTION.
  
- * Utgivning 
+ * Utgivning  
   Välj typ från lista. För monografier, välj Primär utgivning. (= Typ av utgivningsdatum/utgivningsstatus) (008/06-14)  
    
   * Utgivningsland (008/15-17)  
