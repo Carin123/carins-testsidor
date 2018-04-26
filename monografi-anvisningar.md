@@ -80,9 +80,13 @@ med flera exempel.
   Skriv in uppgiften.  
   ```Exempel: 9789188107213```
 
-* Identifikator/Bestämning (020 ‡q)  
+* Identifikator/Särskiljande tillägg (= Bestämning) (020 ‡q)  
   Skriv in uppgiften.  
   ```Exempel: inbunden```
+  
+ * Identifikator/Ogiltigt värde (020 ‡z)  
+  Skriv in uppgiften.  
+  ```Exempel: 97891881072```
 
 * Upplageuppgift  
   Skriv in uppgiften.  
