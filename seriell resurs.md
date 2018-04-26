@@ -44,7 +44,15 @@ Exempel: Kammarmusik-nytt, ISSN 2001-2721, Voyager BibID 12683491
 * Har titel/Titel/Huvudtitel/Övrig titelinformation (245 #b)  
   Skriv in uppgiften.  
   ```Exempel: Kammarmusikförbundets tidskrift```
-
+  
+* Har titel/Varianttitel/Huvudtitel (246 #a)  
+  Skriv in uppgiften.  
+  ```Exempel: Hushållningssällskapets magasin```  
+  
+* Har titel/Varianttitel/Täckning eler tillkomst (246 #f)  
+  Skriv in uppgiften.  
+  ```Exempel: 2011, nr 4-2012, nr 4``` 
+  
 * Identifikator/Typ  
   Välj från lista.  
   ```Exempel: ISSN```  
