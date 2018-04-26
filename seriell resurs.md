@@ -95,11 +95,7 @@ Exempel: Kammarmusik-nytt, ISSN 2001-2721, Voyager BibID 12683491
  * Startdatum  (008/7-10)    
  * Slutdatum  (008/11-14)  
 SKRIV NÅGOT OM UPPREPADE UTGIVNINGSUPPGIFTER
-
-* Utgivningsland (008/15-17)  
-  Länka till entitet.  
-  ```Exempel: Sverige (sw)```  
-
+ 
 * Frekvens  
   * Frekvensterm (008/18)  
     Länka till entitet.  
