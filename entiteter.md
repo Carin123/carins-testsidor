@@ -28,3 +28,23 @@ Om du får fram ett sökresultat där du identifierar en entitet att ersätta de
 
 **Skapa och länka entitet:** 
 Om du inte identifierar relevant entitet att ersätta med, kan du istället “Skapa och länka entitet”. Det betyder att du skapar en länk av din lokala entitet. All information från denna följer då med och blir till en egen post med ett eget ID. Efter att ha sparat posten kan du gå in i länken och redigera den i den nyskapade posten.
+
+--
+FRÅN EVA-KARIN
+UNDER ARBETE
+
+## L‰nka entiteter
+
+* Gäller för: Se även  
+  För att lägga till fält: Klicka på +-ikonen under egenskapen Se även, välj typen Person i sökrutan till vänster. 
+Sök efter auktoriserad namnform och klicka pÂ Lägg till-rutan till höger. 
+
+
+* Gäller för: VerksamhetsomrÂde och Har yrke eller sysselsättning  
+  Länka i första hand termen frÂn en kontrollerad vokabulär som Svenska ämnesord.  
+  Fˆr att l‰gga till fält: Klicka på +-ikonen under egenskapen Har yrke eller sysselsättning, välj Allmänt ämnesord som typ och sök i rutan till vänster, välj önskad term och klicka på den gröna Lägg till-rutan till höger. (Skapa lokal entitet anv‰nds endast då det inte finns auktoriserad entitet att länka till.)
+  
+
+* Gäller för: Nationalitet/verksamhetsland (nationality = 043 #a)   
+  I mallen ligger nationalitetskoden för Sverige (e-sw---) förifylld. Vid behov kan denna raderas.  
+  För att lägga till fält: Klicka på +-ikonen under egenskapen Nationalitet/verksamhetsland. Välj Nationalitet som typ och sök i rutan till vänster. Välj önskad nationalitet och klicka pÂ den gröna Lägg till-rutan till höger. (Skapa lokal entitet används endast då det inte finns auktoriserad entitet att länka till.)
