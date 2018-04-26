@@ -106,7 +106,7 @@ med flera exempel.
   * Agent/Benämning (= Utgivarnamn) (264 -/1 ‡b)  
   Skriv in uppgiften.  Utgivarnamn ska inte länkas som entitet.  
   ```Exempel: NoNa```  
-  * Datum (= Utgivningstid) (008/07-10), 264 -/1 ‡c)  
+  * Datum (= Utgivningstid) (008/07-10, 264 -/1 ‡c)  
   Skriv in uppgiften.  
   ```Exempel: 2017```  
 
