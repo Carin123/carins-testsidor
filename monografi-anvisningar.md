@@ -171,7 +171,7 @@ med flera exempel.
   
 * Anmärkning/Benämning (= hasNote/label)  
   Skriv in uppgiften.  
-  Skriv in allmänna anmärkningar här. Anmärkningar om specifika fält skrivs in i Anmärkning/Benämning under respektive fält, när sådana specifika anmärkningsfält finns. 
+  Skriv in allmänna anmärkningar här. Anmärkningar om specifika fält skrivs in i Anmärkning (note) under respektive fält, när sådana specifika anmärkningsfält finns. 
 
 ### Verk
 * Instans av Verk/Text
