@@ -37,24 +37,24 @@ Exempel: Kammarmusik-nytt, ISSN 2001-2721, Voyager BibID 12683491
   Välj från lista.  
   ```Exempel: Seriell resurs```
   
-* Har titel/Nyckeltitel/Huvudtitel (222 -/0 #a)  
+* Har titel/Nyckeltitel/Huvudtitel (222 -/0 ‡a)  
   Länka till entitet.
   I undantagsfall, skapa lokal entitet och skriv in uppgiften.  
   ```Exempel:  Kammarmusik-nytt```  
 
-* Har titel/Nyckeltitel/Huvudtitel/Särskiljande tillägg (222 #b)  
+* Har titel/Nyckeltitel/Huvudtitel/Särskiljande tillägg (222 ‡b)  
   Skriv in uppgiften.  
   ```Exempel:  (Brämhult)```
 
-* Har titel/Titel/Huvudtitel (245 #a)  
+* Har titel/Titel/Huvudtitel (245 ‡a)  
   Skriv in uppgiften.  
   ```Exempel: Kammarmusik-nytt```  
   
-* Har titel/Titel/Huvudtitel/Övrig titelinformation (245 #b)  
+* Har titel/Titel/Huvudtitel/Övrig titelinformation (245 ‡b)  
   Skriv in uppgiften.  
   ```Exempel: Kammarmusikförbundets tidskrift```
   
-* Har titel/Varianttitel/Huvudtitel (246 #a)  
+* Har titel/Varianttitel/Huvudtitel (246 ‡a)  
   Skriv in uppgiften.  
   ```Exempel: Hushållningssällskapets magasin```  
   
@@ -78,7 +78,7 @@ Exempel: Kammarmusik-nytt, ISSN 2001-2721, Voyager BibID 12683491
   Markera rätt alternativ. KOLLA!!  
   ```Exempel: Ja (True)```  
   
-* Identifikator/Felaktigt ISSN (022 #y)   
+* Identifikator/Felaktigt ISSN (022 ‡y)   
   Skriv in uppgiften.   
   ```Exempel: 1653-2945```
 
@@ -110,7 +110,7 @@ SKRIV NÅGOT OM UPPREPADE UTGIVNINGSUPPGIFTER
     Länka till entitet.  
     ```Exempel: regelbunden (r = regular)```
 
-* Numrering av seriella resurser/Benämning (362 0/- #a)  
+* Numrering av seriella resurser/Benämning (362 0/- ‡a)  
   Skriv in uppgiften.  
   ```Exempel: 2011: 4-2013: 2```
 
@@ -126,18 +126,18 @@ SKRIV NÅGOT OM UPPREPADE UTGIVNINGSUPPGIFTER
   Länka till entitet.  
   ```Exempel: - (= ingen av följande)```
   
-* Anmärkning/Benämning (= hasNote/label)  
+* Anmärkning/Benämning (= hasNote/Note/label) (500 ‡a)  
   Skriv in uppgiften.  
-  Skriv in allmänna anmärkningar här. Anmärkningar om specifika fält skrivs in i Anmärkning/Benämning under respektive fält, när sådana specifika anmärkningsfält finns. 
+  Skriv in allmänna anmärkningar här. Anmärkningar om specifika fält skrivs in i Anmärkning (note) under respektive fält, när sådana specifika anmärkningsfält finns. 
 
-* Relaterad till/Dokument/URI (856 4/8 #u)  
+* Relaterad till/Dokument/URI (856 4/8 ‡u)  
    Skriv in uppgiften.  
    ```Exempel:  http://www.kammarmusikforbundet.se```  
-* Relaterad till/Dokument/Anmärkning/Anmärkning (856 #z)  
+* Relaterad till/Dokument/Anmärkning/Anmärkning (856 ‡z)  
    Skriv in uppgiften. 
   ```Exempel:  Förbundets webbplats```
 
-* Utgiven med/Verk/Har titel/Titel/Titel (780 #t)  
+* Utgiven med/Verk/Har titel/Titel/Titel (780 ‡t)  
   Länka till entitet.
   I undantagsfall, skapa lokal entitet och skriv in uppgiften.  
   ```Exempel: Musikant (Stockholm. 2011)```  
@@ -147,17 +147,17 @@ SKRIV NÅGOT OM UPPREPADE UTGIVNINGSUPPGIFTER
   I undantagsfall, skapa lokal entitet och skriv in uppgiften.  
   ```Exempel:  ISSN```  
   
-* Utgiven med/Verk/Identifikator/Typ/Värde (780 #x)  
+* Utgiven med/Verk/Identifikator/Typ/Värde (780 ‡x)  
   Länka till entitet.
   I undantagsfall, skapa lokal entitet och skriv in uppgiften.  
   ```Exempel:  2001-273X```  
   
-* Utgiven med/Verk/Beskriven av/Post/Kontrollnummer (780 0/1 #w)  
+* Utgiven med/Verk/Beskriven av/Post/Kontrollnummer (780 0/1 ‡w)  
   Länka till entitet.
   I undantagsfall, skapa lokal entitet och skriv in uppgiften.  
   ```Exempel: 12683514```  
   
-* Utgiven med/Verk/Inledande anmärkning - Marc:displayText (unhandled term)  
+* Utgiven med/Verk/Inledande anmärkning - Marc:displayText (unhandled term) (777 0/8 ‡i)
   Länka till entitet.
   I undantagsfall, skapa lokal entitet och skriv in uppgiften.  
   ```Exempel: 2011:4-2013:2 omvänt sammanhäftad med```
@@ -165,16 +165,16 @@ SKRIV NÅGOT OM UPPREPADE UTGIVNINGSUPPGIFTER
 ### Verk
 * Instans av Verk/Text
 
-* Har titel/Huvudtitel (130 0/- #a)  
+* Har titel/Huvudtitel (130 0/- ‡a)  
   Skriv in uppgiften.  
   ```Exempel:  Architecture (Paris. 1888)```  
   KOLLA: SKA SÄRSKILJANDE TILLÄGG LIGGA HÄR ELLER I SÄRSKILJANDE TILLÄGG?
   
-* Medverkan och funktion/Medverkan/Agent (710 2/- #a)  
+* Medverkan och funktion/Medverkan/Agent (710 2/- ‡a)  
   Länka till entitet.  
   I undantagsfall, skapa lokal entitet och skriv in uppgiften.  
   ```Exempel: Riksförbundet Sveriges kammarmusikarrangörer```  
-* Medverkan och funktion/Medverkan/Agent/Funktion (710 #4)   
+* Medverkan och funktion/Medverkan/Agent/Funktion (710 ‡4)   
   Länka till entitet.   
   ```Exempel:  Utgivare (pbl = publisher)```
 
@@ -194,12 +194,12 @@ SKRIV NÅGOT OM UPPREPADE UTGIVNINGSUPPGIFTER
   Skriv in uppgiften.  
  ```Exempel: https://id.kb.se/term/kssb/8```
 
-* Ämne/Agent/Organisation (610 2/- #a)  
+* Ämne/Agent/Organisation (610 2/- ‡a)  
   Länka till entitet.  
   I undantagsfall, skapa lokal entitet och skriv in uppgiften.   
   ```Exempel: Riksförbundet Sveriges kammarmusikarrangörer``` 
   
- * Ämne/Sao-term (650 -7- #a, #2 sao)   
+ * Ämne/Sao-term (650 -7- ‡a, ‡2 sao)   
    Länka till entitet.  
    ```Exempel: Kammarmusik```  
    
@@ -229,7 +229,7 @@ SKRIV NÅGOT OM UPPREPADE UTGIVNINGSUPPGIFTER
   Länka till entitet.  
   ```Exempel: text (txt)```
 
-* Relaterade verk/Fortsätter delvis/Verk/Har titel/Titel/Titel (780 #t)  
+* Relaterade verk/Fortsätter delvis/Verk/Har titel/Titel/Titel (780 ‡t)  
   Länka till entitet.  
   I undantagsfall, skapa lokal entitet och skriv in uppgiften.  
   ```Exempel: Musikant och kammarmusik-nytt```  
@@ -239,17 +239,17 @@ SKRIV NÅGOT OM UPPREPADE UTGIVNINGSUPPGIFTER
   I undantagsfall, skapa lokal entitet och skriv in uppgiften.  
   ```Exempel:  ISSN```  
   
-* Relaterade verk/Fortsätter delvis/Verk/Identifikator/Typ/Värde (780 #x)  
+* Relaterade verk/Fortsätter delvis/Verk/Identifikator/Typ/Värde (780 ‡x)  
    Länka till entitet. 
   I undantagsfall, skapa lokal entitet och skriv in uppgiften.  
   ```Exempel:  1653-2945```  
   
-* Relaterade verk/Fortsätter delvis/Verk/Beskriven av/Post/Kontrollnummer (780 0/1 #w)  
+* Relaterade verk/Fortsätter delvis/Verk/Beskriven av/Post/Kontrollnummer (780 0/1 ‡w)  
   Länka till entitet.  
   I undantagsfall, skapa lokal entitet och skriv in uppgiften.  
   ```Exempel: 9955452```
 
-* Relaterade verk/Fortsättes av/Verk/Har titel/Titel/Titel (785 #t)  
+* Relaterade verk/Fortsättes av/Verk/Har titel/Titel/Titel (785 ‡t)  
   Länka till entitet.  
   I undantagsfall, skapa lokal entitet och skriv in uppgiften.  
   ```Exempel: Kammarmusik-nytt (Brämhult. Online)```  
@@ -259,12 +259,12 @@ SKRIV NÅGOT OM UPPREPADE UTGIVNINGSUPPGIFTER
    I undantagsfall, skapa lokal entitet och skriv in uppgiften.  
    ```Exempel:  ISSN```  
    
-* Relaterade verk/Fortsättes av/Verk/Identifikator/Typ/Värde (785 #x)  
+* Relaterade verk/Fortsättes av/Verk/Identifikator/Typ/Värde (785 ‡x)  
   Länka till entitet.  
   I undantagsfall, skapa lokal entitet och skriv in uppgiften.  
   ```Exempel:  2001-6921```  
   
-* Relaterade verk/Fortsättes av/Verk/Beskriven av/Post/Kontrollnummer (785 0/0 #w)  
+* Relaterade verk/Fortsättes av/Verk/Beskriven av/Post/Kontrollnummer (785 0/0 ‡w)  
   Länka till entitet.  
   I undantagsfall, skapa lokal entitet och skriv in uppgiften.  
   ```Exempel: 14697501```  
