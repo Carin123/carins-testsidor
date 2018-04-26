@@ -93,8 +93,14 @@ med flera exempel.
   ```Exempel: Första upplagan```  
   INNEHÅLLER UPPLAGEBETECKNING OCH EVENTUELL UPPLAGESPECIFIK UPPHOVSUPPGIFT - SKRIV OM.  
   SKRIV NÅGOT OM PÅFÖLJANDE UPPLAGEUPPGIFT. NGT OM EVENTUELL INTERPUNKTION.
-
-* Utgivning   
+ 
+ * Utgivning 
+  Välj typ från lista. För monografier, välj Primär utgivning. (= Typ av utgivningsdatum/utgivningsstatus) (008/06-14)  
+   
+  * Utgivningsland (008/15-17)  
+  Länka till entitet.  
+  ```Exempel: Sverige (sw)```  
+ 
   * Plats/Benämning (= Utgivningsort) (264 -/1 ‡a)  
   Skriv in uppgiften.  
   ```Exempel: [Göteborg]```  
@@ -104,10 +110,6 @@ med flera exempel.
   * Datum (= Utgivningstid) (264 -/1 ‡c)  
   Skriv in uppgiften.  
   ```Exempel: 2017```  
-
-* Typ av utgivningsdatum/utgivningsstatus (008/06)  OBS. FINNS DET MED?  
-  Länka till entitet.  
-  ```Exempel: s (= ett årtal)```
 
 * Tillverkning   
   * Plats/Benämning (264 -/3 ‡a)  
@@ -119,10 +121,6 @@ med flera exempel.
 * Kronologisk täckning (008/11-17)  OBS. FINNS DET MED?  
   Skriv in uppgiften.  
   ```Exempel: 2017____```
-
-* Utgivningsland (008/15-17)  
-  Länka till entitet.  
-  ```Exempel: Sverige (sw)```  
   
 * Seriemedlemskap/Ingår i serie  
   Länka till entitet.  
@@ -136,8 +134,8 @@ med flera exempel.
   Skriv in uppgiften.  
   ```Exempel: 8```  
   
-* Seriemedlemskap/Seriebiuppslag (490 i1: 1)  
-  Ange seriebiuppslag, om Instans av verk anges.  
+* Seriemedlemskap/Indikator för seriebiuppslag (490 i1: 0/1)  
+  Ange indikator för seriebiuppslag: 1 om Instans av verk anges, 0 om Instans av verk inte anges. 
   Skriv in uppgiften.  
   ```Exempel: 1```
    
