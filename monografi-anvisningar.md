@@ -68,11 +68,11 @@ med flera exempel.
   
 * Omslagstitel, Ryggtitel, Rubriktitel etc - lägg till Har titel och välj typ. För typ av varianttitel som saknas i listan, välj Varianttitel och lägg därefter till Typanmärkning (= 246 ‡i). Lägg därefter till Huvudtitel och eventuell Övrig titelinformation.  
    
-* Upphovsuppgift  
+* Upphovsuppgift (= 245 ‡c)  
   Skriv in uppgiften.  
   ```Exempel: Tom Marcus ; översättning: Svante Skoglund```
 
-* Identifikator/Typ  
+* Identifikator/Typ  (= 020 ‡a)
   Välj från lista.    
   ```Exempel: ISBN```
 
@@ -88,7 +88,7 @@ med flera exempel.
   Skriv in uppgiften.  
   ```Exempel: 97891881072```
 
-* Upplageuppgift  
+* Upplageuppgift  (= 250 ‡a)  
   Skriv in uppgiften.  
   ```Exempel: Första upplagan```  
   INNEHÅLLER UPPLAGEBETECKNING OCH EVENTUELL UPPLAGESPECIFIK UPPHOVSUPPGIFT - SKRIV OM.  
