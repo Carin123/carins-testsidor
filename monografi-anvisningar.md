@@ -51,75 +51,75 @@ samt exempel hämtade från andra poster.
   ```Exempel: Under cover```  
   ```Exempel: En arbetsdag i skriftsamhället```
 
-* Har titel/Titel/Huvudtitel/Övrig titelinformation (= Undertitel) (hasTitle/Title/subTitle = 245 ‡b)  
+* Har titel/Titel/Övrig titelinformation (= Undertitel) (hasTitle/Title/subTitle = 245 ‡b)  
   Skriv in uppgiften. Om det finns flera undertitlar, skriv in dessa efter varandra i samma fält, åtskilda av mellanslag, kolon, mellanslag.  
   ```Exempel: livet som underrättelseagent åt MI5```  
   ```Exempel: ett etnografiskt perspektiv på skriftanvändning i vanliga yrken : småskrift utarbetad av Språkrådet```
     
-* Har titel/Varianttitel/Titel/Huvudtitel (246 ‡a)  
+* Har titel/Varianttitel/Huvudtitel (hasTitle/VariantTitle/mainTitle = 246 ‡a)  
   Skriv in uppgiften.
   
-* Har titel/Varianttitel/Huvudtitel/Övrig titelinformation (= Undertitel) (246 ‡b)  
+* Har titel/Varianttitel/Övrig titelinformation (= Undertitel) (hasTitle/VariantTitle/subTitle = 246 ‡b)  
   Skriv in uppgiften.    
   
 * Omslagstitel, Ryggtitel, Rubriktitel etc - lägg till Har titel och välj typ. För typ av varianttitel som saknas i listan, välj Varianttitel och lägg därefter till Typanmärkning (= 246 ‡i). Lägg därefter till Huvudtitel och eventuell Övrig titelinformation.  
    
-* Upphovsuppgift (= 245 ‡c)  
+* Upphovsuppgift (responsibilityStatement = 245 ‡c)  
   Skriv in uppgiften.  
   ```Exempel: Tom Marcus ; översättning: Svante Skoglund```
 
-* Identifikator/Typ  (= 020 ‡a)
+* Identifikator/Typ (identifiedBy = 020 ‡a)
   Välj från lista.    
   ```Exempel: ISBN```
 
-* Identifikator/Typ/Värde (020 ‡a)  
+* Identifikator/Typ/Värde (identifiedBy/value = 020 ‡a)  
   Skriv in uppgiften.  
   ```Exempel: 9789188107213```
 
-* Identifikator/Särskiljande tillägg (= Bestämning) (020 ‡q)  
+* Identifikator/Särskiljande tillägg (= Bestämning) (identifiedBy/qualifier = 020 ‡q)  
   Skriv in uppgiften.  
   ```Exempel: inbunden```
   
- * Identifikator/Ogiltigt värde (020 ‡z)  
+ * Identifikator/Ogiltigt värde (identifiedBy/marc:hiddenValue = 020 ‡z)  
   Skriv in uppgiften.  
   ```Exempel: 97891881072```
 
-* Upplageuppgift  (= 250 ‡a)  
+* Upplageuppgift (editionStatement = 250 ‡a)  
   Skriv in upplagebeteckning här.  
   ```Exempel: Första upplagan```  
   
-* Utgivning  
+* Utgivning (publication)
   Välj typ från lista. För monografier, välj Primär utgivning. (= Typ av utgivningsdatum/utgivningsstatus) (008/06)  
    
-  * Utgivningsland (008/15-17)  
+  * Utgivningsland (country = 008/15-17)  
   Länka till entitet.  
   ```Exempel: Sverige (sw)```  
-  * Plats/Benämning (= Utgivningsort) (264 -/1 ‡a)  
+  * Plats/Benämning (= Utgivningsort) (place/label = 264 -/1 ‡a)  
   Skriv in uppgiften.  
   ```Exempel: [Göteborg]```  
-  * Agent/Benämning (= Utgivarnamn) (264 -/1 ‡b)  
+  * Agent/Benämning (= Utgivarnamn) (agent/label = 264 -/1 ‡b)  
   Skriv in uppgiften.  Utgivarnamn ska inte länkas som entitet.  
   ```Exempel: NoNa```  
-  * Datum (= Utgivningstid) (008/07-10, 264 -/1 ‡c)  
+  * Datum (= Utgivningstid) (date = 008/07-10, 264 -/1 ‡c)  
   Skriv in uppgiften.  
   ```Exempel: 2017```  
 
-* Tillverkning   
-  * Plats/Benämning (264 -/3 ‡a)  
+* Tillverkning (= manufacture)  
+  * Plats/Benämning (place/label = 264 -/3 ‡a)  
   ```Exempel: Falun```  
-  * Agent/Benämning (264 -/3 ‡b)  
+  * Agent/Benämning (agent/label = 264 -/3 ‡b)  
   Skriv in uppgiften.   
   ```Exempel: Scandbook```
   
-* Seriemedlemskap/Ingår i serie  
+* Seriemedlemskap/Ingår i serie (seriesMembership)  
   Länka till entitet.  
   I undantagsfall, skapa lokal entitet och skriv in uppgiften. 
   
-* Seriemedlemskap/Serieuppgift (490 ‡a)    
+* Seriemedlemskap/Serieuppgift (seriesMembership/seriesStatement = 490 ‡a)  
   Skriv in uppgiften.  
   ```Exempel: Årstasällskapets skriftserie```  
   
-* Seriemedlemskap/Numrering inom serie  (490 ‡v, 830 ‡v)  
+* Seriemedlemskap/Numrering inom serie (seriesMembership/seriesEnumeration = 490 ‡v, 830 ‡v)  
   Skriv in uppgiften.  
   ```Exempel: 8```  
   
@@ -128,7 +128,7 @@ samt exempel hämtade från andra poster.
   Skriv in uppgiften.  
   ```Exempel: 1```
    
-* Seriemedlemskap/Ingår i serie/Instans/Identifikator/ISSN/Värde (= identifiedBy/ISSN/Value) (490 ‡x, 830 ‡x)  
+* Seriemedlemskap/Ingår i serie/Instans/Identifikator/ISSN/Värde (seriesMembership/inSeries/Instance/identifiedBy/ISSN/Value) (490 ‡x, 830 ‡x)  
   Skriv in uppgiften.  
   ```Exempel: 1103-498X```    
   
