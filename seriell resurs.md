@@ -104,7 +104,6 @@ samt andra poster.
   * Slutdatum  (008/11-14)  
   Skriv in uppgiften.  
   ```Exempel: 2013```  
-SKRIV NÅGOT OM UPPREPADE UTGIVNINGSUPPGIFTER
  
 * Frekvens  
   * Frekvensterm (008/18)  
