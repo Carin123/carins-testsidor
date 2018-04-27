@@ -211,7 +211,7 @@ samt andra poster.
   I undantagsfall, skapa lokal entitet och skriv in uppgiften.  
   ```Exempel: 2011:4-2013:2 omvänt sammanhäftad med```
   
-* Utgiven med/Verk/Har titel/Titel/Titel (780 ‡t)  
+* Utgiven med/Verk/Har titel/Titel/Titel (777 ‡t)  
   Länka till entitet.
   I undantagsfall, skapa lokal entitet och skriv in uppgiften.  
   ```Exempel: Musikant (Stockholm. 2011)```  
@@ -221,18 +221,15 @@ samt andra poster.
   I undantagsfall, skapa lokal entitet och skriv in uppgiften.  
   ```Exempel:  ISSN```  
   
-* Utgiven med/Verk/Identifikator/Typ/Värde (780 ‡x)  
+* Utgiven med/Verk/Identifikator/Typ/Värde (777 ‡x)  
   Länka till entitet.
   I undantagsfall, skapa lokal entitet och skriv in uppgiften.  
   ```Exempel:  2001-273X```  
   
-* Utgiven med/Verk/Beskriven av/Post/Kontrollnummer (780 0/1 ‡w)  
+* Utgiven med/Verk/Beskriven av/Post/Kontrollnummer (777 0/1 ‡w)  
   Länka till entitet.
   I undantagsfall, skapa lokal entitet och skriv in uppgiften.  
   ```Exempel: 12683514```  
-
-
-
 
 * Relaterade verk/Fortsätter delvis/Verk/Har instans/Instans/Har titel/Titel/Huvudtitel (780 ‡t)  
   Länka till entitet.  
