@@ -113,7 +113,7 @@ samt andra poster.
     Länka till entitet.  
     ```Exempel: regelbunden (r = regular)```
 
-* Numrering av seriella resurser/Benämning (362 0/- ‡a)  
+* Har numrering av seriell resurs/Benämning (362 0/- ‡a)  
   Skriv in uppgiften.  
   ```Exempel: 2011: 4-2013: 2```
 
