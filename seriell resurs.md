@@ -136,8 +136,8 @@ samt andra poster.
 * Relaterad till/Dokument/URI (856 4/8 ‡u)  
    Skriv in uppgiften.  
    ```Exempel:  http://www.kammarmusikforbundet.se```  
-* Relaterad till/Dokument/Anmärkning/Anmärkning (856 ‡z)  
-   Skriv in uppgiften. 
+* Relaterad till/Dokument/Anmärkning/Anmärkning (856 ‡z)    
+   Skriv in uppgiften.  
   ```Exempel:  Förbundets webbplats```
 
 ### Verk
