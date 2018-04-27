@@ -206,18 +206,18 @@ samt andra poster.
   Länka till entitet.  
   ```Exempel: text (txt)```
   
-* Utgiven med/Verk/Inledande anmärkning - Marc:displayText (unhandled term) (777 0/8 ‡i)
-  Länka till entitet.
+* Utgiven med/Verk/Inledande anmärkning - Marc:displayText (unhandled term) (777 0/8 ‡i)  
+  Länka till entitet.  
   I undantagsfall, skapa lokal entitet och skriv in uppgiften.  
   ```Exempel: 2011:4-2013:2 omvänt sammanhäftad med```
   
 * Utgiven med/Verk/Har titel/Titel/Titel (777 ‡t)  
-  Länka till entitet.
-  I undantagsfall, skapa lokal entitet och skriv in uppgiften.  
+  Länka till entitet.  
+  I undantagsfall, skapa lokal entitet och skriv in uppgiften.   
   ```Exempel: Musikant (Stockholm. 2011)```  
   
 * Utgiven med/Verk/Identifikator/Typ  
-  Länka till entitet.
+  Länka till entitet.  
   I undantagsfall, skapa lokal entitet och skriv in uppgiften.  
   ```Exempel:  ISSN```  
   
@@ -227,7 +227,7 @@ samt andra poster.
   ```Exempel:  2001-273X```  
   
 * Utgiven med/Verk/Beskriven av/Post/Kontrollnummer (777 0/1 ‡w)  
-  Länka till entitet.
+  Länka till entitet.  
   I undantagsfall, skapa lokal entitet och skriv in uppgiften.  
   ```Exempel: 12683514```  
 
@@ -242,7 +242,7 @@ samt andra poster.
   ```Exempel:  ISSN```  
   
 * Relaterade verk/Fortsätter delvis/Verk/Har instans/Instans/Identifikator/Typ/Värde (780 ‡x)  
-   Länka till entitet. 
+   Länka till entitet.  
   I undantagsfall, skapa lokal entitet och skriv in uppgiften.  
   ```Exempel:  1653-2945```  
   
