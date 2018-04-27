@@ -33,7 +33,7 @@ samt exempel hämtade från andra poster.
   Länka till entitet.  
   ```Exempel: svenska (swe)```
 
-* Katalogiseringsregler (040 ‡e)  
+* Katalogiseringsregler (descriptionConventions = 040 ‡e)  
   För post katalogiserad enligt RDA, länka till entitet: marc/Isbd samt skapa lokal entitet med Kod: rda    
   ```Exempel: marc/Isbd (länkad entitet) + lokal entitet, Kod: rda```
 
@@ -132,23 +132,23 @@ samt exempel hämtade från andra poster.
   Skriv in uppgiften.  
   ```Exempel: 1103-498X```    
   
-* Seriemedlemskap/Ingår i serie/Instans av Verk/Verk/Har titel/Titel/Huvudtitel (830 ‡a)  
+* Seriemedlemskap/Ingår i serie/Instans av Verk/Verk/Har titel/Titel/Huvudtitel (seriesMembership/inSeries/InstanceofWork/Work/hasTitle/Title/mainTitle = 830 ‡a)  
   Skriv in uppgiften.   
   ```Exempel: Årstasällskapets för Fredrika Bremer-studier skriftserie```    
  
-* Medietyp (337 ‡b)  
+* Medietyp (mediaType/Mediatype = 337 ‡b)  
   Länka till entitet.  
   ```Exempel:  n (= omedierad)```
 
-* Bärartyp (338 ‡b)  
+* Bärartyp (carrierType/CarrierType = 338 ‡b)  
   Länka till entitet.  
 ```Exempel:  nc (= volym)```
 
-* Omfång/Benämning (300 ‡a)  
+* Omfång/Benämning (extent/Extent/label = 300 ‡a)  
   Skriv in uppgiften.  
   ```Exempel: 319 sidor```
 
-* Mått/Benämning (300 ‡c)  
+* Mått/Benämning (hasDimensions/Dimensions/label = 300 ‡c)  
   Skriv in uppgiften.  
   ```Exempel: 24 cm```
   
