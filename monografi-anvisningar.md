@@ -154,7 +154,7 @@ samt exempel hämtade från andra poster.
   
 * Anmärkning/Benämning (= hasNote/Note/label) (500 ‡a)  
   Skriv in uppgiften.  
-  Skriv in allmänna anmärkningar här. Anmärkningar om specifika fält skrivs in i Anmärkning (note) under respektive fält, när sådana specifika anmärkningsfält finns. 
+  Skriv in allmänna anmärkningar här. Anmärkningar om specifika fält skrivs in i Kommentar (note) under respektive fält, när sådana specifika anmärkningsfält finns. 
 
 ### Verk
 * Instans av Verk/Text
