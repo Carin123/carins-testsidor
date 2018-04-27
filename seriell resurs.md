@@ -74,9 +74,9 @@ samt exempel hämtade från andra poster.
   Skapa lokal entitet. Skriv in uppgiften.  
   ```Exempel: f (= ISSN Sverige)```  
   
-* Identifikator/Internationellt intresse  
-  Markera rätt alternativ.   
-  ```Exempel: Ja (True)```  
+* Identifikator/Internationellt intresse (022 ind1: 0)  
+  Skriv in uppgiften.     
+  ```Exempel: true```  
   
 * Identifikator/Felaktigt ISSN (022 ‡y)   
   Skriv in uppgiften.   
@@ -98,8 +98,12 @@ samt exempel hämtade från andra poster.
   * Datum (264 -/1 ‡c)  
   Skriv in uppgiften.  
   ```Exempel: 2011-2013```  
-  * Startdatum  (008/7-10)    
+  * Startdatum  (008/7-10)   
+  Skriv in uppgiften.  
+  ```Exempel: 2011```  
   * Slutdatum  (008/11-14)  
+  Skriv in uppgiften.  
+  ```Exempel: 2013```  
 SKRIV NÅGOT OM UPPREPADE UTGIVNINGSUPPGIFTER
  
 * Frekvens  
@@ -206,7 +210,6 @@ SKRIV NÅGOT OM UPPREPADE UTGIVNINGSUPPGIFTER
  * Geografiskt ämnesord (651 -/4 ‡a)  
   Skapa lokal entitet. Skriv in uppgiften.  
   ```Exempel: Sverige```
-   
    
 * Genre/form – saogf-termer (655 ‡a, ‡2 saogf)  
   Länka till entitet.  
