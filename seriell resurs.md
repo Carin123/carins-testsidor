@@ -1,11 +1,11 @@
-UNDER ARBETE
-Här testar jag att lägga in ett scenario/testfall och anpassa det till hjälptext.
+Denna hjälptext beskriver ett antal vanligt förekommande fält, med utgångspunkt från exempel. För instruktioner om att länka till entitet, skapa lokal entitet och om hur formuläret fungerar i övrigt, se Redigering i vänstermenyn. För information om katalogregler, skrivregler och övriga katalogiseringsanvisningar, se [Anvisningar för katalogisering - RDA](http://www.kb.se/rdakatalogisering/ "Anvisningar för katalogisering - RDA").
 
-Hjälptexten beskriver ett antal vanligt förekommande fält, med utgångspunkt från exempel. För instruktioner om att länka till entitet, skapa lokal entitet och om hur formuläret fungerar i övrigt, se Redigering i vänstermenyn. För information om katalogregler, skrivregler och övriga katalogiseringsanvisningar, se [Anvisningar för katalogisering - RDA](http://www.kb.se/rdakatalogisering/ "Anvisningar för katalogisering - RDA").
+I de flesta fall ska informationen delas upp i olika fält och delfält. I några undantagsfall är det nödvändigt att använda ISBD-interpunktion inom fält, för att separera uppgifter. Dessa fall visas genom exempel nedan. Använd vid behov också klamrar inom fält, enligt Anvisningar för katalogisering - RDA.
 
 ## Tryckt seriell resurs
 
-Exempel: Kammarmusik-nytt, ISSN 2001-2721, Voyager BibID 12683491
+Exempel: Kammarmusik-nytt, ISSN 2001-2721, Voyager BibID 12683491  
+samt exempel hämtade från andra poster.
 
 
 ### Adminmetadata  
@@ -70,12 +70,12 @@ Exempel: Kammarmusik-nytt, ISSN 2001-2721, Voyager BibID 12683491
   Skriv in uppgiften.  
   ```Exempel: 2001-2721```
 
-* Identifikator/Källa (022 #f)  
-  Skriv in uppgiften.  
-  ```Exempel: Nationell ISSN-central f (= ISSN Sverige)```  
+* Identifikator/Källa/Nationell ISSN-central/Kod (022 #f)  
+  Skapa lokal entitet. Skriv in uppgiften.  
+  ```Exempel: f (= ISSN Sverige)```  
   
 * Identifikator/Internationellt intresse  
-  Markera rätt alternativ. KOLLA!!  
+  Markera rätt alternativ.   
   ```Exempel: Ja (True)```  
   
 * Identifikator/Felaktigt ISSN (022 ‡y)   
