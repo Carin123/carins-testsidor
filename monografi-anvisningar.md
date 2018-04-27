@@ -14,22 +14,22 @@ samt exempel hämtade från andra poster.
 
 
 ### Adminmetadata
-* Skapad av/Organisation/Namn (040 ‡a)  
+* Skapad av/Organisation/Namn (descriptionCreator/Organization/name = 040 ‡a)  
   Förval: den sigel som skapat posten. Ska inte ändras.  
   ```Exempel: BOKR```
 
-* Uppgraderad eller importerad av/Organisation/Namn (040 ‡d)  
+* Uppgraderad eller importerad av/Organisation/Namn (descriptionUpgrader/Organization/name = 040 ‡d)  
   Skriv in sigel som har uppgraderat (ändrat nivå) eller importerat posten. För att söka fram sigel, se [Biblioteksdatabasen](https://biblioteksdatabasen.libris.kb.se/ "Biblioteksdatabasen")  
   ```Exempel: S```
 
-* Bibliografi/Bibliotek/Sigel (042 ‡9)  
+* Bibliografi/Bibliotek/Sigel (bibliography/Library/sigel = 042 ‡9)  
   Ange bibliografikod genom att skriva in sigel. För att söka fram sigel, se [Biblioteksdatabasen](https://biblioteksdatabasen.libris.kb.se/ "Biblioteksdatabasen")
 
-* Identifikator/Systemnummer/Värde  (035 ‡a)  
+* Identifikator/Systemnummer/Värde (identifiedBy/SystemNumber/value = 035 ‡a)  
   Om ett systemnummer finns i förhandspost, till exempel Bokinfos systemnummer, låt det vara kvar oförändrat.  
    ```Exempel: (BOKR)9789188107213```
 
-* Katalogiseringsspråk (040 ‡b)  
+* Katalogiseringsspråk (descriptionLanguage = 040 ‡b)  
   Länka till entitet.  
   ```Exempel: svenska (swe)```
 
@@ -42,16 +42,16 @@ samt exempel hämtade från andra poster.
   ```Exempel: CIP-post, ändra till biblioteksnivå```
 
 ### Instans
-* Utgivningssätt  
+* Utgivningssätt (issuanceType)  
   Välj från lista.  
   ```Exempel: Monografisk resurs```
   
-* Har titel/Titel/Huvudtitel (245 ‡a)  
+* Har titel/Titel/Huvudtitel (hasTitle/Title/mainTitle = 245 ‡a)  
   Skriv in uppgiften.  
   ```Exempel: Under cover```  
   ```Exempel: En arbetsdag i skriftsamhället```
 
-* Har titel/Titel/Huvudtitel/Övrig titelinformation (= Undertitel) (245 ‡b)  
+* Har titel/Titel/Huvudtitel/Övrig titelinformation (= Undertitel) (hasTitle/Title/subTitle = 245 ‡b)  
   Skriv in uppgiften. Om det finns flera undertitlar, skriv in dessa efter varandra i samma fält, åtskilda av mellanslag, kolon, mellanslag.  
   ```Exempel: livet som underrättelseagent åt MI5```  
   ```Exempel: ett etnografiskt perspektiv på skriftanvändning i vanliga yrken : småskrift utarbetad av Språkrådet```
