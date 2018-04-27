@@ -25,7 +25,7 @@ samt exempel hämtade från andra poster.
 * Bibliografi/Bibliotek/Sigel (042 ‡9)  
   Ange bibliografikod genom att skriva in sigel. För att söka fram sigel, se [Biblioteksdatabasen](https://biblioteksdatabasen.libris.kb.se/ "Biblioteksdatabasen")
 
-* Identifikator/Systemnummer/Värde  (035 ‡a)
+* Identifikator/Systemnummer/Värde  (035 ‡a)  
   Om ett systemnummer finns i förhandspost, till exempel Bokinfos systemnummer, låt det vara kvar oförändrat.  
    ```Exempel: (BOKR)9789188107213```
 
