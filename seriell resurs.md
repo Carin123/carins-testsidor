@@ -131,7 +131,7 @@ samt andra poster.
   
 * Anmärkning/Benämning (= hasNote/Note/label) (500 ‡a)  
   Skriv in uppgiften.  
-  Skriv in allmänna anmärkningar här. Anmärkningar om specifika fält skrivs in i Anmärkning (note) under respektive fält, när sådana specifika anmärkningsfält finns. 
+  Skriv in allmänna anmärkningar här. Anmärkningar om specifika fält skrivs in i Kommentar (note) under respektive fält, när sådana specifika anmärkningsfält finns. 
 
 * Relaterad till/Dokument/URI (856 4/8 ‡u)  
    Skriv in uppgiften.  
@@ -146,7 +146,10 @@ samt andra poster.
 * Har titel/Huvudtitel (130 0/- ‡a)  
   Skriv in uppgiften.  
   ```Exempel:  Architecture (Paris. 1888)```  
-  KOLLA: SKA SÄRSKILJANDE TILLÄGG LIGGA HÄR ELLER I SÄRSKILJANDE TILLÄGG?
+  
+* Behandling vid titeländring (008/34)  
+  Länka till entitet.  
+  ```Exempel: 0 (= Successive entry = Titeländring ger upphov till ny post)```
   
 * Medverkan och funktion/Medverkan/Agent (710 2/- ‡a)  
   Länka till entitet.  
@@ -201,6 +204,10 @@ samt andra poster.
 * Språk (008/35-37)  
   Länka till entitet.  
   ```Exempel: svenska (swe)```
+  
+* Alfabet/skriftart (008/33)   
+   Länka till entitet.  
+  ```Exempel: b (= Extended roman = Latinskt alfabet med diakriter och specialtecken (a-ö))```
 
 * Innehållstyp (336 ‡b)  
   Länka till entitet.  
@@ -270,12 +277,4 @@ samt andra poster.
   Länka till entitet.  
   I undantagsfall, skapa lokal entitet och skriv in uppgiften.  
   ```Exempel: 14697501```  
-
-* Alfabet/skriftart (008/33)   
-   Länka till entitet.  
-  ```Exempel: b (= Extended roman = Latinskt alfabet med diakriter och specialtecken (a-ö))```
-
-* Behandling vid titeländring (008/34)  
-  Länka till entitet.  
-  ```Exempel: 0 (= Successive entry = Titeländring ger upphov till ny post)```
 
