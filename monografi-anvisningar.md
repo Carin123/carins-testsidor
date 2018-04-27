@@ -85,11 +85,9 @@ samt exempel hämtade från andra poster.
   ```Exempel: 97891881072```
 
 * Upplageuppgift  (= 250 ‡a)  
-  Skriv in uppgiften.  
+  Skriv in upplagebeteckning här.  
   ```Exempel: Första upplagan```  
-  INNEHÅLLER UPPLAGEBETECKNING OCH EVENTUELL UPPLAGESPECIFIK UPPHOVSUPPGIFT - SKRIV OM.  
-  SKRIV NÅGOT OM PÅFÖLJANDE UPPLAGEUPPGIFT. NGT OM EVENTUELL INTERPUNKTION.
- 
+  
 * Utgivning  
   Välj typ från lista. För monografier, välj Primär utgivning. (= Typ av utgivningsdatum/utgivningsstatus) (008/06)  
    
