@@ -276,5 +276,4 @@ samt andra poster.
 * Relaterade verk/Fortsättes av/Verk/Har instans/Instans/Beskriven av/Post/Kontrollnummer (785 0/0 ‡w)  
   Länka till entitet.  
   I undantagsfall, skapa lokal entitet och skriv in uppgiften.  
-  ```Exempel: 14697501```  
-
+  ```Exempel: 14697501```
