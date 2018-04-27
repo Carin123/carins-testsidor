@@ -14,7 +14,7 @@ samt andra poster.
   ```Exempel: S```  
   
 * Uppgraderad eller importerad av/Organisation/Namn (040 ‡d)  
-  Skriv in sigel som har uppgraderat (ändrat nivå) eller importerat posten. För att söka fram sigel, se [Biblioteksdatabasen](https://biblioteksdatabasen.libris.kb.se/ "Biblioteksdatabasen")
+  Skriv in sigel som har uppgraderat (ändrat nivå) eller importerat posten. För att söka fram sigel, se [Biblioteksdatabasen](https://biblioteksdatabasen.libris.kb.se/ "Biblioteksdatabasen")  
   ```Exempel: U```
 
 * Bibliografi/Bibliotek/Sigel (042 ‡9)  
