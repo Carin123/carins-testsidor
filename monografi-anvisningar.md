@@ -2,12 +2,11 @@ Denna hjälptext beskriver ett antal vanligt förekommande fält, med utgångspu
 
 I de flesta fall ska informationen delas upp i olika fält och delfält. I några undantagsfall är det nödvändigt att använda ISBD-interpunktion inom fält, för att separera uppgifter. Dessa fall visas genom exempel nedan. Använd vid behov också klamrar inom fält, enligt Anvisningar för katalogisering - RDA.
 
-
 ## Bok – Tryckt monografi
 
-Exempel - hämtade från: Under cover, ISBN 9789188107213, Voyager BibID 19775078 samt  
+Exempel hämtade från: Under cover, ISBN 9789188107213, Voyager BibID 19775078 samt  
 30 år med Fredrika Bremer i forskning och idédebatt, Voyager BibID 22431305
-med flera exempel.
+samt exempel hämtade från andra poster.
 
 [Adminmetadata](#adminmetadata)  
 [Instans](#instans)  
@@ -254,7 +253,7 @@ med flera exempel.
   Länka till entitet.  
   ```Exempel: a (= självbiografi)```
 
-* Språk (008/35-37) (+ även i 041 ‡a, om relationen Översättning av finns)  KOLLA, EV ÄNDRA HÄR
+* Språk (008/35-37)  
   Länka till entitet.  
   ```Exempel: svenska (swe)```
 
