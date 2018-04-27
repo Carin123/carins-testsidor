@@ -110,10 +110,6 @@ samt exempel hämtade från andra poster.
   * Agent/Benämning (264 -/3 ‡b)  
   Skriv in uppgiften.   
   ```Exempel: Scandbook```
-
-* Kronologisk täckning (008/11-17)  OBS. FINNS DET MED?  
-  Skriv in uppgiften.  
-  ```Exempel: 2017____```
   
 * Seriemedlemskap/Ingår i serie  
   Länka till entitet.  
