@@ -1,6 +1,3 @@
-UNDER ARBETE - DENNA TEXT FRÅN XL:S HJÄLPAVSNITT KOMMER ATT SKRIVAS OM NÅGOT, UNDER VECKA 17
-
-
 ## Söka fram entiteter
 När du ska lägga till en entitet är första steget att göra en sökning för att se om entiteten redan finns eller inte. Sökningen görs antingen via:
 
