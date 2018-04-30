@@ -54,11 +54,11 @@ samt andra poster.
   Skriv in uppgiften.  
   ```Exempel: Kammarmusikförbundets tidskrift```
   
-* Har titel/Varianttitel/Huvudtitel (246 ‡a)  
+* Har titel/Titelvariant/Huvudtitel (246 ‡a)  
   Skriv in uppgiften.  
   ```Exempel: Hushållningssällskapets magasin```  
   
-* Har titel/Varianttitel/Täckning eler tillkomst (246 #f)  
+* Har titel/Titelvariant/Täckning eler tillkomst (246 #f)  
   Skriv in uppgiften.  
   ```Exempel: 2011, nr 4-2012, nr 4``` 
   
