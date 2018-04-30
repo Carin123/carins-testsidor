@@ -163,7 +163,7 @@ samt andra poster.
   Skriv in uppgiften.  
   ```Exempel: 785.005```  
   
-* Klassifikation/DDK-klassifikation/Kod/Klassifikationsupplaga (082 ‡2)  
+* Klassifikation/DDK-klassifikation/Klassifikationsupplaga (082 ‡2)  
   Skriv in uppgiften.  
   ```Exempel: 23/swe```
   
