@@ -189,7 +189,7 @@ samt exempel hämtade från andra poster.
   Skriv in uppgiften.  
   ```Exempel: 327.12092```
 
-* Klassifikation/DDK-klassifikation/Kod/Klassifikationsupplaga (082 ‡2)  
+* Klassifikation/DDK-klassifikation/Klassifikationsupplaga (082 ‡2)  
   Skriv in uppgiften.  
   ```Exempel: 23/swe```
 
