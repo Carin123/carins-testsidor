@@ -146,11 +146,11 @@ samt exempel hämtade från andra poster.
   Länka till entitet.  
 ```Exempel:  nc (= volym)```
 
-* Omfång/Benämning (extent/Extent/label = 300 ‡a)  
+* Omfång/Omfång/Benämning (extent/Extent/label = 300 ‡a)  
   Skriv in uppgiften.  
   ```Exempel: 319 sidor```
 
-* Mått/Benämning (hasDimensions/Dimensions/label = 300 ‡c)  
+* Mått/Mått/Benämning (hasDimensions/Dimensions/label = 300 ‡c)  
   Skriv in uppgiften.  
   ```Exempel: 24 cm```
   
