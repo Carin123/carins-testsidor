@@ -144,7 +144,7 @@ samt andra poster.
 * Instans av Verk/Text
 
 * Har titel/Huvudtitel (130 0/- ‡a)  
-  Skriv in uppgiften.  
+  Skriv in uppgiften. Skriv eventuellt särskiljande tillägg inom parentes.  
   ```Exempel:  Architecture (Paris. 1888)```  
   
 * Behandling vid titeländring (008/34)  
