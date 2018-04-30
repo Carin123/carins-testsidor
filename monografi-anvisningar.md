@@ -50,7 +50,7 @@ samt exempel hämtade från andra poster.
   Skriv in uppgiften.  
   ```Exempel: Under cover```  
   ```Exempel: En arbetsdag i skriftsamhället```  
-    För en titel som börjar med bestämd eller obestämd artikel, ska artikeln fileras bort. Ange fileringsvärde genom att lägga till delfältet fileringsvärde och ange en siffra. Exempel: Huvudtitel: En arbetsdag i skriftsamhället, fileringsvärde: 4  
+    För en titel som börjar med bestämd eller obestämd artikel, ska artikeln fileras bort. Ange fileringsvärde genom att lägga till delfältet fileringsvärde och ange en siffra. Exempel: Huvudtitel: En arbetsdag i skriftsamhället, fileringsvärde: 3   
     
     
 * Har titel/Titel/Övrig titelinformation (= Undertitel) (hasTitle/Title/subTitle = 245 ‡b)  
