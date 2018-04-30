@@ -43,7 +43,7 @@ samt andra poster.
   ```Exempel:  Kammarmusik-nytt```  
 
 * Har titel/Nyckeltitel/Huvudtitel/Särskiljande tillägg (222 ‡b)  
-  Skriv in uppgiften, inom parentes. 
+  Skriv in uppgiften, inom parentes.  
   ```Exempel:  (Brämhult)```
 
 * Har titel/Titel/Huvudtitel (245 ‡a)  
