@@ -203,7 +203,7 @@ samt exempel hämtade från andra poster.
   Skriv in uppgiften.  
  ```Exempel: https://id.kb.se/term/kssb/8```
 
-* Ämne/Agent/Person (600 1/- ‡a)  
+* Ämne/Agent/Person (subject/agent/person = 600 1/- ‡a)  
   Länka till entitet. 
   I undantagsfall, skapa lokal entitet. Skriv in uppgiften. 
 
@@ -213,51 +213,51 @@ samt exempel hämtade från andra poster.
 * Ämne/Agent/Person/Förnamn  
   ```Exempel: Tom```
 
-* Ämne/Agent/Jurisdiktion/Är del av/Jurisdiktion/Namn (610 1/4 ‡a)  
+* Ämne/Jurisdiktion/Är del av/Jurisdiktion/Namn (subject/Jurisdiction/isPartof/Jurisdiction/name = 610 1/4 ‡a)  
     Länka till entitet.  
     I undantagsfall, skapa lokal entitet. Skriv in uppgiften.  
     ```Exempel: Storbritannien```
 
-* Ämne/Agent/Jurisdiktion/Namn på underordnad enhet (610 ‡b)  
+* Ämne/Agent/Jurisdiktion/Namn på underordnad enhet (subject/Jurisdiction/isPartof/Jurisdiction/marc:subordinateUnit = 610 ‡b)  
   ```Exempel: MI5```  
   
-* Ämne - sao-term (650 -7- ‡a, ‡2 sao)  
+* Ämne - sao-term (subject = 650 -7- ‡a, ‡2 sao)  
   Länka till entitet.  
   ```Exempel: Säkerhetspolitik```
 
-* Ämne - sao-term (650 -7- ‡a, ‡2 sao)  
+* Ämne - sao-term (subject = 650 -7- ‡a, ‡2 sao)  
   Länka till entitet.  
   ```Exempel: Spionage```
 
-* Ämne - sao-term (650 -7- ‡a, ‡2 sao)  
+* Ämne - sao-term (subject = 650 -7- ‡a, ‡2 sao)  
   Länka till entitet.  
   ```Exempel: Terrorismbekämpning```
 
-* Geografiskt ämnesord (651 -/4 ‡a)  
+* Geografiskt ämnesord (subject = 651 -/4 ‡a)  
   Länka till entitet.  
   I undantagsfall, skapa lokal entitet och skriv in uppgiften.  
   ```Exempel: Storbritannien```
 
-* Genre/form – saogf-termer (655 ‡a, ‡2 saogf)  
+* Genre/form – saogf-termer (genreForm = 655 ‡a, ‡2 saogf)  
   Länka till entitet.  
   ```Exempel: Självbiografier```
 
-* Genre/form – litterär genre (008/33)  
+* Genre/form – litterär genre (genreForm = 008/33)  
   Länka till entitet.  
   ```Exempel: 0 ( = Ej skönlitterärt verk)```
 
-* Genre/form – biografiskt material (008/34)  
+* Genre/form – biografiskt material (genreForm = 008/34)  
   Länka till entitet.  
   ```Exempel: a (= självbiografi)```
 
-* Språk (008/35-37)  
+* Språk (language = 008/35-37)  
   Länka till entitet.  
   ```Exempel: svenska (swe)```
 
-* Översättning av/Verk/Språk (041 ‡h)  
+* Översättning av/Verk/Språk (translationOf/Work/language = 041 ‡h)  
   Länka till entitet.  
   ```Exempel: engelska (eng)```
 
-* Innehållstyp (336 ‡b)  
+* Innehållstyp (contentType/ContentType = 336 ‡b)  
   Länka till entitet.  
   ```Exempel: text (txt)```
