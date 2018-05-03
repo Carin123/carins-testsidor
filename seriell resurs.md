@@ -58,7 +58,7 @@ samt andra poster.
   Skriv in uppgiften.  
   ```Exempel: Hushållningssällskapets magasin```  
   
-* Har titel/Titelvariant/Täckning eler tillkomst (246 #f)  
+* Har titel/Titelvariant/Täckning eller tillkomst (246 #f)  
   Skriv in uppgiften.  
   ```Exempel: 2011, nr 4-2012, nr 4``` 
   
