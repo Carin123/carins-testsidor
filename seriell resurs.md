@@ -227,8 +227,8 @@ samt andra poster.
   I undantagsfall, skapa lokal entitet och skriv in uppgiften.   
   ```Exempel: Musikant (Stockholm. 2011)```  
   
-* Utgiven med/Verk/Identifikator/Typ  
-  Länka till entitet.  
+* Utgiven med/Verk/Identifikator/Typ   
+  Välj från lista.    
   I undantagsfall, skapa lokal entitet och skriv in uppgiften.  
   ```Exempel:  ISSN```  
   
@@ -269,7 +269,7 @@ samt andra poster.
   ```Exempel: Kammarmusik-nytt (Brämhult. Online)```  
   
 *  Relaterade verk/Fortsättes av/Verk/Har instans/Instans/Identifikator/Typ  
-   Länka till entitet.  
+   Välj från lista.    
    I undantagsfall, skapa lokal entitet och skriv in uppgiften.  
    ```Exempel:  ISSN```  
    
