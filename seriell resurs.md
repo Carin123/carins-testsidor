@@ -146,82 +146,80 @@ samt andra poster.
   ```Exempel:  Förbundets webbplats```
 
 ### Verk
-* Instans av Verk/Text
+* Instans av Verk/Text (instanceOf/Work/Text)  
 
-* Har titel/Huvudtitel (130 0/- ‡a)  
+* Har titel/Huvudtitel (hasTitle/mainTitle = 130 0/- ‡a)  
   Skriv in uppgiften. Skriv eventuellt särskiljande tillägg inom parentes.  
   ```Exempel:  Architecture (Paris. 1888)```  
   
-* Behandling vid titeländring (008/34)  
+* Behandling vid titeländring (marc:typeOfEntry = 008/34)  
   Länka till entitet.  
   ```Exempel: 0 (= Successive entry = Titeländring ger upphov till ny post)```
   
-* Medverkan och funktion/Medverkan/Agent (710 2/- ‡a)  
+* Medverkan och funktion/Medverkan/Agent (contribution/Contribution/agent = 710 2/- ‡a)  
   Länka till entitet.  
   I undantagsfall, skapa lokal entitet och skriv in uppgiften.  
   ```Exempel: Riksförbundet Sveriges kammarmusikarrangörer```  
-* Medverkan och funktion/Medverkan/Agent/Funktion (710 ‡4)   
+* Medverkan och funktion/Medverkan/Agent/Funktion (contribution/Contribution/agent/role = 710 ‡4)   
   Länka till entitet.   
   ```Exempel:  Utgivare (pbl = publisher)```
 
-* Klassifikation/DDK-klassifikation/Kod (082 0/4 ‡a)  
+* Klassifikation/DDK-klassifikation/Kod (classification/ClassificationDdc/code = 082 0/4 ‡a)  
   Skriv in uppgiften.  
   ```Exempel: 785.005```  
   
-* Klassifikation/DDK-klassifikation/Klassifikationsupplaga (082 ‡2)  
-  Skriv in uppgiften.  
+* Klassifikation/DDK-klassifikation/Klassifikationsupplaga (classification/ClassificationDdc/edition = 082 ‡2)  
   ```Exempel: 23/swe```
   
-* Klassifikation/Kod (084 0/4 ‡a)  
+* Klassifikation/Kod (classification/Classification/code = 084 0/4 ‡a)  
   Skriv in uppgiften.  
   ```Exempel: Ij-c:bf Riksförbundet Sveriges kammarmusikarrangörer(p)```
 
-* Klassifikation/Termlista/Termlista/ID (084 ‡2)  
+* Klassifikation/Termlista/Termlista/ID (classification/Classification/iinScheme/ConceptScheme = 084 ‡2)   
   Skriv in uppgiften.  
  ```Exempel: https://id.kb.se/term/kssb/8```
 
-* Ämne/Agent/Organisation (610 2/- ‡a)  
+* Ämne/Agent/Organisation (subject/agent/Organization = 610 2/- ‡a)  
   Länka till entitet.  
   I undantagsfall, skapa lokal entitet och skriv in uppgiften.   
   ```Exempel: Riksförbundet Sveriges kammarmusikarrangörer``` 
   
- * Ämne/Sao-term (650 -7- ‡a, ‡2 sao)   
+ * Ämne/Sao-term (subject = 650 -7- ‡a, ‡2 sao)   
    Länka till entitet.  
    ```Exempel: Kammarmusik```  
    
- * Geografiskt ämnesord (651 -/4 ‡a)  
+ * Geografiskt ämnesord (subjcect = 651 -/4 ‡a)  
    Länka till entitet.  
    I undantagsfall, skapa lokal entitet och skriv in uppgiften.   
     ```Exempel: Sverige```
    
-* Genre/form – saogf-termer (655 ‡a, ‡2 saogf)  
+* Genre/form – saogf-termer (genreForm = 655 ‡a, ‡2 saogf)  
   Länka till entitet.  
   ```Exempel: Organisationspress```  
   ```Exempel: Musiktidskrifter```  
    
-* Genre/form - typ av fortlöpande resurs (008/21)  
+* Genre/form - typ av fortlöpande resurs (genreForm/marc:Periodical = 008/21)  
   Länka till entitet.  
-  ```Exempel: p ( = marc/Periodical)```  
+  ```Exempel: p (Tidskrift = marc/Periodical)```  
   
-* Genre/form - konferenspublikation (008/29)  
+* Genre/form - konferenspublikation (genreForm/marc:conferencePublication = 008/29)  
   Länka till entitet.  
   ```Exempel: 0 (= inte konferenspublikation)```  
 
-* Språk (008/35-37)  
+* Språk (language = 008/35-37)  
   Länka till entitet.  
   ```Exempel: svenska (swe)```
   
-* Alfabet/skriftart (008/33)   
+* Alfabet/skriftart (marc:alphabet = 008/33)   
    Länka till entitet.  
   ```Exempel: b (= Extended roman = Latinskt alfabet med diakriter och specialtecken (a-ö))```
 
-* Innehållstyp (336 ‡b)  
+* Innehållstyp (contentType/ContentType = 336 ‡b)  
   Länka till entitet.  
   ```Exempel: text (txt)```
   
-* Utgiven med/Verk/Inledande anmärkning - Marc:displayText (unhandled term) (777 0/8 ‡i)  
-  Länka till entitet.  
-  I undantagsfall, skapa lokal entitet och skriv in uppgiften.  
+* Utgiven med/Verk/Inledande anmärkning (Marc:displayText = 777 0/8 ‡i)  
+  Skriv in uppgiften.  
   ```Exempel: 2011:4-2013:2 omvänt sammanhäftad med```
   
 * Utgiven med/Verk/Har titel/Titel/Titel (777 ‡t)  
