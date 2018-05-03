@@ -86,7 +86,7 @@ samt andra poster.
   Välj typ från lista. För seriell resurs, välj Pågående utgivningsperiod eller Avslutad utgivningsperiod.  
   (= Typ av utgivningsdatum/utgivningsstatus) (008/06)    
    
-  * Utgivningsland (008/15-17)  
+  * Land (008/15-17)  
   Länka till entitet.  
   ```Exempel: Sverige (sw)```  
   * Plats/Benämning (264 -/1 ‡a)  
