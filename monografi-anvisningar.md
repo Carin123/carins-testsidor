@@ -74,7 +74,7 @@ samt exempel hämtade från andra poster.
   Välj från lista.    
   ```Exempel: ISBN```
 
-* Identifikator/Typ/Värde (identifiedBy/value = 020 ‡a)  
+* Identifikator/ISBN/Värde (identifiedBy/Isbn/value = 020 ‡a)  
   Skriv in uppgiften.  
   ```Exempel: 9789188107213```
 
