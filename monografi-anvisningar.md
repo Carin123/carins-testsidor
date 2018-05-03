@@ -234,7 +234,8 @@ samt exempel hämtade från andra poster.
   ```Exempel: Terrorismbekämpning```
 
 * Geografiskt ämnesord (651 -/4 ‡a)  
-  Skapa lokal entitet. Skriv in uppgiften.  
+  Länka till entitet.  
+  I undantagsfall, skapa lokal entitet och skriv in uppgiften.  
   ```Exempel: Storbritannien```
 
 * Genre/form – saogf-termer (655 ‡a, ‡2 saogf)  
