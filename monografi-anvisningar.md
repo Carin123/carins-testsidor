@@ -221,15 +221,15 @@ samt exempel hämtade från andra poster.
 * Ämne/Agent/Jurisdiktion/Namn på underordnad enhet (subject/Jurisdiction/isPartof/Jurisdiction/marc:subordinateUnit = 610 ‡b)  
   ```Exempel: MI5```  
   
-* Ämne - sao-term (subject = 650 -7- ‡a, ‡2 sao)  
+* Ämne - sao-term (subject = 650 -/7 ‡a, ‡2 sao)  
   Länka till entitet.  
   ```Exempel: Säkerhetspolitik```
 
-* Ämne - sao-term (subject = 650 -7- ‡a, ‡2 sao)  
+* Ämne - sao-term (subject = 650 -/7 ‡a, ‡2 sao)  
   Länka till entitet.  
   ```Exempel: Spionage```
 
-* Ämne - sao-term (subject = 650 -7- ‡a, ‡2 sao)  
+* Ämne - sao-term (subject = 650 -/7 ‡a, ‡2 sao)  
   Länka till entitet.  
   ```Exempel: Terrorismbekämpning```
 
@@ -238,7 +238,7 @@ samt exempel hämtade från andra poster.
   I undantagsfall, skapa lokal entitet och skriv in uppgiften.  
   ```Exempel: Storbritannien```
 
-* Genre/form – saogf-termer (genreForm = 655 ‡a, ‡2 saogf)  
+* Genre/form – saogf-termer (genreForm = 655 -/7 ‡a, ‡2 saogf)  
   Länka till entitet.  
   ```Exempel: Självbiografier```
 
