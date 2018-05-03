@@ -139,7 +139,7 @@ samt andra poster.
    ```Exempel:  http://www.kammarmusikforbundet.se```  
 * Relaterad till/Dokument/Åtkomstmetod (relatedTo/Document/marc:electronicLocatorType = 856 4/8 ‡u)  
   Skriv in uppgiften.  
-   ```Exempel:  http://www.kammarmusikforbundet.se```  
+   ```Exempel:  http```  
  
 * Relaterad till/Dokument/Offentlig anmärkning (relatedTo/Document/marc:copyNote = 856 ‡z)    
    Skriv in uppgiften.  
