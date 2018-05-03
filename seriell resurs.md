@@ -9,76 +9,76 @@ samt andra poster.
 
 
 ### Adminmetadata  
-* Skapad av/Organisation/Namn (040 ‡a)   
+* Skapad av/Organisation/Namn (descriptionCreator/Organization/name = 040 ‡a)  
   Förval: den sigel som skapat posten. Ska inte ändras.  
   ```Exempel: S```  
   
-* Uppgraderad eller importerad av/Organisation/Namn (040 ‡d)  
+* Uppgraderad eller importerad av/Organisation/Namn (descriptionUpgrader/Organization/name = 040 ‡d)  
   Skriv in sigel som har uppgraderat (ändrat nivå) eller importerat posten. För att söka fram sigel, se [Biblioteksdatabasen](https://biblioteksdatabasen.libris.kb.se/ "Biblioteksdatabasen")  
   ```Exempel: U```
 
-* Bibliografi/Bibliotek/Sigel (042 ‡9)  
+* Bibliografi/Bibliotek/Sigel (bibliography/Library/sigel = 042 ‡9)   
   Ange bibliografikod genom att skriva in sigel. För att söka fram sigel, se [Biblioteksdatabasen](https://biblioteksdatabasen.libris.kb.se/ "Biblioteksdatabasen")
 
-* Katalogiseringsspråk (040 ‡b)  
+* Katalogiseringsspråk (descriptionLanguage = 040 ‡b)   
   Länka till entitet.  
   ```Exempel: svenska (swe)```  
 
-* Katalogiseringsregler (040 ‡e)  
+* Katalogiseringsregler (descriptionConventions = 040 ‡e)   
   För post katalogiserad enligt RDA, länka till entitet: marc/Isbd samt skapa lokal entitet med Kod: rda    
   ```Exempel: marc/Isbd (länkad entitet) + lokal entitet, Kod: rda```
 
 * Beskrivningsnivå (000/05)  
-  Länka till entitet.  
+  Välj från lista.    
   ```Exempel: nationalbibliografisk/fullständig nivå```
 
 ### Instans
-* Utgivningssätt  
+* Utgivningssätt (issuanceType)  
   Välj från lista.  
   ```Exempel: Seriell resurs```
   
-* Har titel/Nyckeltitel/Huvudtitel (222 -/0 ‡a)  
+* Har titel/Nyckeltitel/Huvudtitel (hasTitle/KeyTitle/mainTitle = 222 -/0 ‡a)  
   Länka till entitet.
   I undantagsfall, skapa lokal entitet och skriv in uppgiften.  
   ```Exempel:  Kammarmusik-nytt```  
 
-* Har titel/Nyckeltitel/Huvudtitel/Särskiljande tillägg (222 ‡b)  
+* Har titel/Nyckeltitel/Särskiljande tillägg (hasTitle/KeyTitle/qualifier = 222 ‡b)  
   Skriv in uppgiften, inom parentes.  
   ```Exempel:  (Brämhult)```
 
-* Har titel/Titel/Huvudtitel (245 ‡a)  
+* Har titel/Titel/Huvudtitel (hasTitle/Title/mainTitle = 245 ‡a)  
   Skriv in uppgiften.  
   ```Exempel: Kammarmusik-nytt```  
   
-* Har titel/Titel/Övrig titelinformation (subtitle = 245 ‡b)  
+* Har titel/Titel/Övrig titelinformation (hasTitle/Title/subtitle = 245 ‡b)  
   Skriv in uppgiften.  
   ```Exempel: Kammarmusikförbundets tidskrift```
   
-* Har titel/Titelvariant/Huvudtitel (246 ‡a)  
+* Har titel/Titelvariant/Huvudtitel (hasTitle/DistinctiveTitle/mainTitle = 246 ‡a)  
   Skriv in uppgiften.  
   ```Exempel: Hushållningssällskapets magasin```  
   
-* Har titel/Titelvariant/Täckning eller tillkomst (246 #f)  
+* Har titel/Titelvariant/Täckning eller tillkomst (hasTitle/DistinctiveTitle/coverage = 246 #f)  
   Skriv in uppgiften.  
   ```Exempel: 2011, nr 4-2012, nr 4``` 
   
-* Identifikator/Typ  
+* Identifikator/Typ (identifiedBy)  
   Välj från lista.  
   ```Exempel: ISSN```  
   
-* Identifikator/Typ/Värde (022 ‡a)  
+* Identifikator/Värde (identifiedBy/value = 022 ‡a)  
   Skriv in uppgiften.  
   ```Exempel: 2001-2721```
 
-* Identifikator/Källa/Nationell ISSN-central/Kod (022 #f)  
+* Identifikator/Källa/Nationell ISSN-central/Kod (identifiedBy/source/marc:NationalIssnCentre = 022 #f)  
   Skapa lokal entitet. Skriv in uppgiften.  
   ```Exempel: f (= ISSN Sverige)```  
   
-* Identifikator/Internationellt intresse (022 ind1: 0)  
+* Identifikator/Internationellt intresse (identifiedBy/marc:internationalInterest = 022 ind1: 0)  
   Skriv in uppgiften.     
   ```Exempel: true```  
   
-* Identifikator/Felaktigt ISSN (022 ‡y)   
+* Identifikator/Felaktigt ISSN (identifiedBy/marc:incorrectIssn = 022 ‡y)  
   Skriv in uppgiften.   
   ```Exempel: 1653-2945```
 
@@ -86,26 +86,26 @@ samt andra poster.
   Välj typ från lista. För seriell resurs, välj Pågående utgivningsperiod eller Avslutad utgivningsperiod.  
   (= Typ av utgivningsdatum/utgivningsstatus) (008/06)    
    
-  * Land (008/15-17)  
+  * Land (country = 008/15-17)  
   Länka till entitet.  
   ```Exempel: Sverige (sw)```  
-  * Plats/Benämning (264 -/1 ‡a)  
+  * Plats/Benämning (place/label = 264 -/1 ‡a)  
   Skriv in uppgiften.  
   ```Exempel: Brämhult```  
-  * Agent/Benämning (264 -/1 ‡b)  
+  * Agent/Benämning (agent/label = 264 -/1 ‡b)  
   Skriv in uppgiften.  
   ```Exempel: Kammarmusikförbundet```  
-  * Datum (264 -/1 ‡c)  
+  * Datum (date = 264 -/1 ‡c)  
   Skriv in uppgiften.  
   ```Exempel: 2011-2013```  
-  * Startdatum  (008/7-10)   
+  * Startdatum (startDate = 008/7-10)  
   Skriv in uppgiften.  
   ```Exempel: 2011```  
-  * Slutdatum  (008/11-14)  
+  * Slutdatum (endDate = 008/11-14)  
   Skriv in uppgiften.  
   ```Exempel: 2013```  
  
-* Frekvens  
+* Frekvens (frequency)  
   * Frekvensterm (008/18)  
     Länka till entitet.  
     ```Exempel: var tredje månad (q = quarterly)```  
@@ -113,19 +113,19 @@ samt andra poster.
     Länka till entitet.  
     ```Exempel: regelbunden (r = regular)```
 
-* Har numrering av seriell resurs/Numrering av seriell resurs/Benämning (362 0/- ‡a)  
+* Har numrering av seriell resurs/Numrering av seriell resurs/Benämning (hasNumberingofSerials/NumberingofSerials/label = 362 0/- ‡a)  
   Skriv in uppgiften.  
   ```Exempel: 2011: 4-2013: 2```
 
-* Medietyp (337 ‡b)  
+* Medietyp (mediaType/Mediatype = 337 ‡b)  
   Länka till entitet.  
   ```Exempel:  n (= omedierad)```
 
-* Bärartyp (338 ‡b)  
+* Bärartyp (carrierType/CarrierType = 338 ‡b)  
   Länka till entitet.  
 ```Exempel:  nc (= volym)```
 
-* Bärartyp/Bokformat (= Form för katalogiserat objekt) (008/23)  
+* Bärartyp/Bokformat (carrierType/BookFormat = Form för katalogiserat objekt) (008/23)  
   Länka till entitet.  
   ```Exempel: - (= ingen av följande)```
   
@@ -133,10 +133,14 @@ samt andra poster.
   Skriv in uppgiften.  
   Skriv in allmänna anmärkningar här. Anmärkningar om specifika fält skrivs in i Kommentar (note) under respektive fält, när sådana specifika anmärkningsfält finns. 
 
-* Relaterad till/Dokument/URI (856 4/8 ‡u)  
+* Relaterad till/Dokument/URI (relatedTo/Document/uri = 856 4/8 ‡u)  
    Skriv in uppgiften.  
    ```Exempel:  http://www.kammarmusikforbundet.se```  
-* Relaterad till/Dokument/Anmärkning/Anmärkning (856 ‡z)    
+   * Relaterad till/Dokument/Åtkomstmetod (relatedTo/Document/marc:electronicLocatorType = 856 4/8 ‡u)  
+   Skriv in uppgiften.  
+   ```Exempel:  http://www.kammarmusikforbundet.se```  
+ 
+* Relaterad till/Dokument/Offentlig anmärkning (relatedTo/Document/marc:copyNote = 856 ‡z)    
    Skriv in uppgiften.  
   ```Exempel:  Förbundets webbplats```
 
