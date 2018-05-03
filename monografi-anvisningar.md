@@ -178,28 +178,28 @@ samt exempel hämtade från andra poster.
   Länka till entitet.  
   ```Exempel: relator/author (= författare)```
 
-* Medverkan och funktion/Medverkan/Agent/Person (700 1/- ‡a)  
+* Medverkan och funktion/Medverkan/Agent/Person (contribution/agent/Person = 700 1/- ‡a)  
   Länka till entitet.  
   I undantagsfall, skapa lokal entitet och skriv in uppgiften.  
   ```Exempel: Skoglund, Svante, 1960-```
 
-* Medverkan och funktion/Medverkan/Agent/Funktion (700 ‡4)  
+* Medverkan och funktion/Medverkan/Agent/Funktion (contribution/agent/role = 700 ‡4)  
   Länka till entitet.  
   ```Exempel: relator/trl (= översättare)```
 
-* Klassifikation/DDK-klassifikation/Kod (082 0/4 ‡a)  
+* Klassifikation/DDK-klassifikation/Kod (classification/ClassificationDdc/code = 082 0/4 ‡a)  
   Skriv in uppgiften.  
   ```Exempel: 327.12092```
 
-* Klassifikation/DDK-klassifikation/Klassifikationsupplaga (082 ‡2)  
+* Klassifikation/DDK-klassifikation/Klassifikationsupplaga (classification/ClassificationDdc/edition = 082 ‡2)  
   Skriv in uppgiften.  
   ```Exempel: 23/swe```
 
-* Klassifikation/Kod (084 0/4 ‡a)  
+* Klassifikation/Kod (classification/Classification/code = 084 0/4 ‡a)  
   Skriv in uppgiften.  
   ```Exempel: Sei-e```
 
-* Klassifikation/Termlista/Termlista/ID (084 ‡2)  
+* Klassifikation/Termlista/Termlista/ID (classification/Classification/iinScheme/ConceptScheme = 084 ‡2)  
   Skriv in uppgiften.  
  ```Exempel: https://id.kb.se/term/kssb/8```
 
