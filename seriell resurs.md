@@ -249,7 +249,7 @@ samt andra poster.
   ```Exempel: Musikant och kammarmusik-nytt```  
   
 * Relaterade verk/Fortsätter delvis/Verk/Har instans/Instans/Identifikator/Typ  
-  Länka till entitet.  
+  Välj från lista.    
   I undantagsfall, skapa lokal entitet och skriv in uppgiften.  
   ```Exempel:  ISSN```  
   
