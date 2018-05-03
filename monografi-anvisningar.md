@@ -70,7 +70,7 @@ samt exempel hämtade från andra poster.
   Skriv in uppgiften.  
   ```Exempel: Tom Marcus ; översättning: Svante Skoglund```
 
-* Identifikator/Typ (identifiedBy = 020 ‡a)
+* Identifikator/Typ (identifiedBy)
   Välj från lista.    
   ```Exempel: ISBN```
 
