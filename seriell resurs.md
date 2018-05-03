@@ -129,7 +129,7 @@ samt andra poster.
   Länka till entitet.  
   ```Exempel: - (= ingen av följande)```
   
-* Anmärkning/Benämning (= hasNote/Note/label) (500 ‡a)  
+* Anmärkning/Anmärkning/Benämning (= hasNote/Note/label) (500 ‡a)  
   Skriv in uppgiften.  
   Skriv in allmänna anmärkningar här. Anmärkningar om specifika fält skrivs in i Kommentar (note) under respektive fält, när sådana specifika anmärkningsfält finns. 
 
