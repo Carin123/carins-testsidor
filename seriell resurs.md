@@ -264,6 +264,10 @@ samt andra poster.
 * Relaterade verk/Fortsätter delvis/Verk/Har instans/Instans/Beskriven av/Post/Kontrollnummer   (continuesInPart/Work/hasInstance/Instance/describedBy/record/controlNumber = 780 0/1 ‡w)  
   Skriv in uppgiften.  
   ```Exempel: 9955452```
+  
+* Relaterade verk/Fortsättes av/Verk  
+  Länka till entitet.  
+  I undantagsfall, skapa lokal entitet och skriv in uppgiften.  
 
 * Relaterade verk/Fortsättes av/Verk/Har instans/Instans/Har titel/Titel/Huvudtitel   (continuedBy/Work/hasInstance/Instance/title/Title/mainTitle = 785 ‡t)  
   Skriv in uppgiften.  
