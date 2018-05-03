@@ -252,17 +252,17 @@ samt andra poster.
   I undantagsfall, skapa lokal entitet och skriv in uppgiften.  
   ```Exempel:  ISSN```  
   
-* Relaterade verk/Fortsätter delvis/Verk/Har instans/Instans/Identifikator/ISSN/Värde   (continesInPart/Work/hasInstance/Instance/identifiedBy/Issn/value = 780 ‡x)  
+* Relaterade verk/Fortsätter delvis/Verk/Har instans/Instans/Identifikator/ISSN/Värde    (continesInPart/Work/hasInstance/Instance/identifiedBy/Issn/value = 780 ‡x)  
    Länka till entitet.  
   I undantagsfall, skapa lokal entitet och skriv in uppgiften.  
   ```Exempel:  1653-2945```  
   
-* Relaterade verk/Fortsätter delvis/Verk/Har instans/Instans/Beskriven av/Post/Kontrollnummer (780 0/1 ‡w)  
+* Relaterade verk/Fortsätter delvis/Verk/Har instans/Instans/Beskriven av/Post/Kontrollnummer   (continuesInPart/Work/hasInstance/Instance/describedBy/record/controlNumber = 780 0/1 ‡w)  
   Länka till entitet.  
   I undantagsfall, skapa lokal entitet och skriv in uppgiften.  
   ```Exempel: 9955452```
 
-* Relaterade verk/Fortsättes av/Verk/Har instans/Instans/Har titel/Titel/Huvudtitel (785 ‡t)  
+* Relaterade verk/Fortsättes av/Verk/Har instans/Instans/Har titel/Titel/Huvudtitel   (continuedBy/Work/hasInstance/Instance/title/Title/mainTitle = 785 ‡t)  
   Länka till entitet.  
   I undantagsfall, skapa lokal entitet och skriv in uppgiften.  
   ```Exempel: Kammarmusik-nytt (Brämhult. Online)```  
@@ -272,12 +272,12 @@ samt andra poster.
    I undantagsfall, skapa lokal entitet och skriv in uppgiften.  
    ```Exempel:  ISSN```  
    
-* Relaterade verk/Fortsättes av/Verk/Har instans/Instans/Identifikator/Typ/Värde (785 ‡x)  
+* Relaterade verk/Fortsättes av/Verk/Har instans/Instans/Identifikator/ISSN/Värde     (continuedBy/Work/hasInstance/Instance/identifiedBy/Issn/value = 785 ‡x)  
   Länka till entitet.  
   I undantagsfall, skapa lokal entitet och skriv in uppgiften.  
   ```Exempel:  2001-6921```  
   
-* Relaterade verk/Fortsättes av/Verk/Har instans/Instans/Beskriven av/Post/Kontrollnummer (785 0/0 ‡w)  
+* Relaterade verk/Fortsättes av/Verk/Har instans/Instans/Beskriven av/Post/Kontrollnummer  (continuedBy/Work/hasInstance/Instance/describedBy/record/controlNumber = 785 0/0 ‡w)  
   Länka till entitet.  
   I undantagsfall, skapa lokal entitet och skriv in uppgiften.  
   ```Exempel: 14697501```
