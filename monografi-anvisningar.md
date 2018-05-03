@@ -207,10 +207,10 @@ samt exempel hämtade från andra poster.
   Länka till entitet. 
   I undantagsfall, skapa lokal entitet. Skriv in uppgiften. 
 
-* Ämne/Agent/Person/Familjenamn  
+* Ämne/Agent/Person/Familjenamn (subject/agent/person/familyName)  
   ```Exempel: Marcus```
 
-* Ämne/Agent/Person/Förnamn  
+* Ämne/Agent/Person/Förnamn (subject/agent/person/givenName)  
   ```Exempel: Tom```
 
 * Ämne/Jurisdiktion/Är del av/Jurisdiktion/Namn (subject/Jurisdiction/isPartof/Jurisdiction/name = 610 1/4 ‡a)  
