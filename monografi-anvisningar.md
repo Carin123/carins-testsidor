@@ -93,7 +93,7 @@ samt exempel hämtade från andra poster.
 * Utgivning (publication)
   Välj typ från lista. För monografier, välj Primär utgivning. (= Typ av utgivningsdatum/utgivningsstatus) (008/06)  
    
-  * Utgivningsland (country = 008/15-17)  
+  * Land (country = 008/15-17)  
   Länka till entitet.  
   ```Exempel: Sverige (sw)```  
   * Plats/Benämning (= Utgivningsort) (place/label = 264 -/1 ‡a)  
@@ -106,7 +106,7 @@ samt exempel hämtade från andra poster.
   Skriv in uppgiften.  
   ```Exempel: 2017```  
 
-* Tillverkning (= manufacture)  
+* Tillverkning (manufacture)  
   * Plats/Benämning (place/label = 264 -/3 ‡a)  
   ```Exempel: Falun```  
   * Agent/Benämning (agent/label = 264 -/3 ‡b)  
@@ -125,7 +125,7 @@ samt exempel hämtade från andra poster.
   Skriv in uppgiften.  
   ```Exempel: 8```  
   
-* Seriemedlemskap/Indikator för seriebiuppslag (490 i1: 0/1)  
+* Seriemedlemskap/Indikator för seriebiuppslag (marc:seriesTracingPolicy = 490 i1: 0/1)  
   Ange indikator för seriebiuppslag: 1 om Instans av verk anges, 0 om Instans av verk inte anges. 
   Skriv in uppgiften.  
   ```Exempel: 1```
@@ -154,27 +154,27 @@ samt exempel hämtade från andra poster.
   Skriv in uppgiften.  
   ```Exempel: 24 cm```
   
-* Anmärkning/Anmärkning/Benämning (= hasNote/Note/label) (500 ‡a)  
+* Anmärkning/Anmärkning/Benämning (hasNote/Note/label = 500 ‡a)  
   Skriv in uppgiften.  
   Skriv in allmänna anmärkningar här. Anmärkningar om specifika fält skrivs in i Kommentar (note) under respektive fält, när sådana specifika anmärkningsfält finns. 
 
 ### Verk
-* Instans av Verk/Text
+* Instans av Verk/Text (instanceOf/Work/Text)
 
-* Har titel/Titel/Huvudtitel (240 1-/0 ‡a)  
+* Har titel/Titel/Huvudtitel (hasTitle/Title/mainTitle = 240 1-/0 ‡a)  
   Skriv in uppgiften.  
   ```Exempel:  Soldier spy```
 
-* Medverkan och funktion/Primär medverkan/Agent/Person (100 1/- ‡a)  
+* Medverkan och funktion/Primär medverkan/Agent/Person (contribution/PrimaryContribution/agent/Person = 100 1/- ‡a)  
   Länka till entitet.
   I undantagsfall, skapa lokal entitet och skriv in uppgiften. 
-* Medverkan och funktion/Primär medverkan/Agent/Person/Familjenamn  
+* Medverkan och funktion/Primär medverkan/Agent/Person/Familjenamn (contribution/PrimaryContribution/agent/Person/familyName)
   ```Exempel: Marcus```
 
-* Medverkan och funktion/Primär medverkan/Agent/Person/Förnamn  
+* Medverkan och funktion/Primär medverkan/Agent/Person/Förnamn  (contribution/PrimaryContribution/agent/Person/givenName)
   ```Exempel: Tom```
 
-* Medverkan och funktion/Medverkan/Agent/Funktion (100 ‡4)  
+* Medverkan och funktion/Medverkan/Agent/Funktion (contribution/PrimaryContribution/agent/role = 100 ‡4)  
   Länka till entitet.  
   ```Exempel: relator/author (= författare)```
 
