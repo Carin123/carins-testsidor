@@ -185,8 +185,9 @@ samt andra poster.
    ```Exempel: Kammarmusik```  
    
  * Geografiskt ämnesord (651 -/4 ‡a)  
-  Skapa lokal entitet. Skriv in uppgiften.  
-  ```Exempel: Sverige```
+   Länka till entitet.  
+   I undantagsfall, skapa lokal entitet och skriv in uppgiften.   
+    ```Exempel: Sverige```
    
 * Genre/form – saogf-termer (655 ‡a, ‡2 saogf)  
   Länka till entitet.  
