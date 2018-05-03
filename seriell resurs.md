@@ -194,11 +194,11 @@ samt andra poster.
   ```Exempel: Organisationspress```  
   ```Exempel: Musiktidskrifter```  
    
-* Typ av fortlöpande resurs (008/21)  
+* Genre/form - typ av fortlöpande resurs (008/21)  
   Länka till entitet.  
   ```Exempel: p ( = marc/Periodical)```  
   
-* Konferenspublikation (008/29)  
+* Genre/form - konferenspublikation (008/29)  
   Länka till entitet.  
   ```Exempel: 0 (= inte konferenspublikation)```  
 
