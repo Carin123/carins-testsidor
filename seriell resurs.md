@@ -218,11 +218,11 @@ samt andra poster.
   Länka till entitet.  
   ```Exempel: text (txt)```
   
-* Utgiven med/Verk/Inledande anmärkning (Marc:displayText = 777 0/8 ‡i)  
+* Utgiven med/Verk/Inledande anmärkning (issuedWith/Work/Marc:displayText = 777 0/8 ‡i)  
   Skriv in uppgiften.  
   ```Exempel: 2011:4-2013:2 omvänt sammanhäftad med```
   
-* Utgiven med/Verk/Har titel/Titel/Titel (777 ‡t)  
+* Utgiven med/Verk/Har titel/Titel/Titel (issuedWith/Work/hasTitle/Title/Title = 777 ‡t)  
   Länka till entitet.  
   I undantagsfall, skapa lokal entitet och skriv in uppgiften.   
   ```Exempel: Musikant (Stockholm. 2011)```  
@@ -232,17 +232,17 @@ samt andra poster.
   I undantagsfall, skapa lokal entitet och skriv in uppgiften.  
   ```Exempel:  ISSN```  
   
-* Utgiven med/Verk/Identifikator/Typ/Värde (777 ‡x)  
+* Utgiven med/Verk/Identifikator/ISSN/Värde (issuedWith/Work/identifiedBy/Issn/value = 777 ‡x)  
   Länka till entitet.
   I undantagsfall, skapa lokal entitet och skriv in uppgiften.  
   ```Exempel:  2001-273X```  
   
-* Utgiven med/Verk/Beskriven av/Post/Kontrollnummer (777 0/1 ‡w)  
+* Utgiven med/Verk/Beskriven av/Post/Kontrollnummer (issuedWith/Work/describedBy/record/controlNumber = 777 0/1 ‡w)  
   Länka till entitet.  
   I undantagsfall, skapa lokal entitet och skriv in uppgiften.  
   ```Exempel: 12683514```  
 
-* Relaterade verk/Fortsätter delvis/Verk/Har instans/Instans/Har titel/Titel/Huvudtitel (780 ‡t)  
+* Relaterade verk/Fortsätter delvis/Verk/Har instans/Instans/Har titel/Titel/Huvudtitel   (continuesInPart/Work/hasInstance/Instance/title/Title/mainTitle = 780 ‡t)  
   Länka till entitet.  
   I undantagsfall, skapa lokal entitet och skriv in uppgiften.  
   ```Exempel: Musikant och kammarmusik-nytt```  
@@ -252,7 +252,7 @@ samt andra poster.
   I undantagsfall, skapa lokal entitet och skriv in uppgiften.  
   ```Exempel:  ISSN```  
   
-* Relaterade verk/Fortsätter delvis/Verk/Har instans/Instans/Identifikator/Typ/Värde (780 ‡x)  
+* Relaterade verk/Fortsätter delvis/Verk/Har instans/Instans/Identifikator/ISSN/Värde   (continesInPart/Work/hasInstance/Instance/identifiedBy/Issn/value = 780 ‡x)  
    Länka till entitet.  
   I undantagsfall, skapa lokal entitet och skriv in uppgiften.  
   ```Exempel:  1653-2945```  
