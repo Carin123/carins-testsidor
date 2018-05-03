@@ -50,7 +50,7 @@ samt andra poster.
   Skriv in uppgiften.  
   ```Exempel: Kammarmusik-nytt```  
   
-* Har titel/Titel/Övrig titelinformation (245 ‡b)  
+* Har titel/Titel/Övrig titelinformation (subtitle = 245 ‡b)  
   Skriv in uppgiften.  
   ```Exempel: Kammarmusikförbundets tidskrift```
   
