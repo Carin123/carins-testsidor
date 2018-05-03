@@ -184,7 +184,7 @@ samt andra poster.
   I undantagsfall, skapa lokal entitet och skriv in uppgiften.   
   ```Exempel: Riksförbundet Sveriges kammarmusikarrangörer``` 
   
- * Ämne/Sao-term (subject = 650 -7- ‡a, ‡2 sao)   
+ * Ämne/Sao-term (subject = 650 -/7 ‡a, ‡2 sao)   
    Länka till entitet.  
    ```Exempel: Kammarmusik```  
    
@@ -193,7 +193,7 @@ samt andra poster.
    I undantagsfall, skapa lokal entitet och skriv in uppgiften.   
     ```Exempel: Sverige```
    
-* Genre/form – saogf-termer (genreForm = 655 ‡a, ‡2 saogf)  
+* Genre/form – saogf-termer (genreForm = 655 -/7 ‡a, ‡2 saogf)  
   Länka till entitet.  
   ```Exempel: Organisationspress```  
   ```Exempel: Musiktidskrifter```  
