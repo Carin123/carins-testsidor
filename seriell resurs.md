@@ -66,7 +66,7 @@ samt andra poster.
   Välj från lista.  
   ```Exempel: ISSN```  
   
-* Identifikator/Värde (identifiedBy/value = 022 ‡a)  
+* Identifikator/ISSN/Värde (identifiedBy/Issn/value = 022 ‡a)  
   Skriv in uppgiften.  
   ```Exempel: 2001-2721```
 
@@ -237,7 +237,8 @@ samt andra poster.
   I undantagsfall, skapa lokal entitet och skriv in uppgiften.  
   ```Exempel:  2001-273X```  
   
-* Utgiven med/Verk/Beskriven av/Post/Kontrollnummer (issuedWith/Work/describedBy/record/controlNumber = 777 0/1 ‡w)  
+* Utgiven med/Verk/Beskriven av/Post/Kontrollnummer  
+(issuedWith/Work/describedBy/record/controlNumber = 777 0/1 ‡w)  
   Länka till entitet.  
   I undantagsfall, skapa lokal entitet och skriv in uppgiften.  
   ```Exempel: 12683514```  
