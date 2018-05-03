@@ -135,10 +135,10 @@ samt andra poster.
   Skriv in allmänna anmärkningar här. Anmärkningar om specifika fält skrivs in i Kommentar (note) under respektive fält, när sådana specifika anmärkningsfält finns. 
 
 * Relaterad till/Dokument/URI (relatedTo/Document/uri = 856 4/8 ‡u)  
-   Skriv in uppgiften.  
+  Skriv in uppgiften.  
    ```Exempel:  http://www.kammarmusikforbundet.se```  
-   * Relaterad till/Dokument/Åtkomstmetod (relatedTo/Document/marc:electronicLocatorType = 856 4/8 ‡u)  
-   Skriv in uppgiften.  
+* Relaterad till/Dokument/Åtkomstmetod (relatedTo/Document/marc:electronicLocatorType = 856 4/8 ‡u)  
+  Skriv in uppgiften.  
    ```Exempel:  http://www.kammarmusikforbundet.se```  
  
 * Relaterad till/Dokument/Offentlig anmärkning (relatedTo/Document/marc:copyNote = 856 ‡z)    
