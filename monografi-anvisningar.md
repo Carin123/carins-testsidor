@@ -244,7 +244,7 @@ samt exempel hämtade från andra poster.
 
 * Genre/form – litterär genre (genreForm = 008/33)  
   Länka till entitet.  
-  ```Exempel: 0 ( = Ej skönlitterärt verk)```
+  ```Exempel: 0 ( = ej skönlitterärt verk)```
 
 * Genre/form – biografiskt material (genreForm = 008/34)  
   Länka till entitet.  
