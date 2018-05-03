@@ -126,11 +126,11 @@ samt andra poster.
   Länka till entitet.  
 ```Exempel:  nc (= volym)```
 
-* Bärartyp/Bokformat (carrierType/BookFormat = Form för katalogiserat objekt) (008/23)  
+* Bärartyp/Bokformat (carrierType/BookFormat = 008/23/Form för katalogiserat objekt)  
   Länka till entitet.  
   ```Exempel: - (= ingen av följande)```
   
-* Anmärkning/Anmärkning/Benämning (= hasNote/Note/label) (500 ‡a)  
+* Anmärkning/Anmärkning/Benämning (hasNote/Note/label = 500 ‡a)  
   Skriv in uppgiften.  
   Skriv in allmänna anmärkningar här. Anmärkningar om specifika fält skrivs in i Kommentar (note) under respektive fält, när sådana specifika anmärkningsfält finns. 
 
