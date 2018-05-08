@@ -19,11 +19,12 @@ samt exempel hämtade från andra poster.
   ```Exempel: BOKR```
 
 * Uppgraderad eller importerad av/Organisation/Namn (descriptionUpgrader/Organization/name = 040 ‡d)  
-  Skriv in sigel som har uppgraderat (ändrat nivå) eller importerat posten. För att söka fram sigel, se [Biblioteksdatabasen](https://biblioteksdatabasen.libris.kb.se/ "Biblioteksdatabasen")  
+  Länka till entitet.  
   ```Exempel: S```
 
 * Bibliografi/Bibliotek/Sigel (bibliography/Library/sigel = 042 ‡9)  
-  Ange bibliografikod genom att skriva in sigel. För att söka fram sigel, se [Biblioteksdatabasen](https://biblioteksdatabasen.libris.kb.se/ "Biblioteksdatabasen")
+  Länka till entitet.  
+  ```Exempel: NB```
 
 * Identifikator/Systemnummer/Värde (identifiedBy/SystemNumber/value = 035 ‡a)  
   Om ett systemnummer finns i förhandspost, till exempel Bokinfos systemnummer, låt det vara kvar oförändrat.  
