@@ -14,12 +14,13 @@ samt andra poster.
   ```Exempel: S```  
   
 * Uppgraderad eller importerad av/Organisation/Namn (descriptionUpgrader/Organization/name = 040 ‡d)  
-  Skriv in sigel som har uppgraderat (ändrat nivå) eller importerat posten. För att söka fram sigel, se [Biblioteksdatabasen](https://biblioteksdatabasen.libris.kb.se/ "Biblioteksdatabasen")  
-  ```Exempel: U```
+  Länka till entitet.  
+  ```Exempel: S```
 
-* Bibliografi/Bibliotek/Sigel (bibliography/Library/sigel = 042 ‡9)   
-  Ange bibliografikod genom att skriva in sigel. För att söka fram sigel, se [Biblioteksdatabasen](https://biblioteksdatabasen.libris.kb.se/ "Biblioteksdatabasen")
-
+* Bibliografi/Bibliotek/Sigel (bibliography/Library/sigel = 042 ‡9)  
+  Länka till entitet.  
+  ```Exempel: NB```
+  
 * Katalogiseringsspråk (descriptionLanguage = 040 ‡b)   
   Länka till entitet.  
   ```Exempel: svenska (swe)```  
