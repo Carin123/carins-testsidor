@@ -185,11 +185,11 @@ samt andra poster.
   I undantagsfall, skapa lokal entitet och skriv in uppgiften.   
   ```Exempel: Riksförbundet Sveriges kammarmusikarrangörer``` 
   
- * Ämne/Sao-term (subject = 650 -/7 ‡a, ‡2 sao)   
+* Ämne/Sao-term (subject = 650 -/7 ‡a, ‡2 sao)   
    Länka till entitet.  
    ```Exempel: Kammarmusik```  
    
- * Geografiskt ämnesord (subjcect = 651 -/4 ‡a)  
+* Geografiskt ämnesord (subjcect = 651 -/4 ‡a)  
    Länka till entitet.  
    I undantagsfall, skapa lokal entitet och skriv in uppgiften.   
     ```Exempel: Sverige```
