@@ -83,7 +83,7 @@ samt exempel hämtade från andra poster.
   Skriv in uppgiften.  
   ```Exempel: inbunden```
   
- * Identifikator/Ogiltigt värde (identifiedBy/marc:hiddenValue = 020 ‡z)  
+* Identifikator/Ogiltigt värde (identifiedBy/marc:hiddenValue = 020 ‡z)  
   Skriv in uppgiften.  
   ```Exempel: 97891881072```
 
