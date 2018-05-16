@@ -169,7 +169,7 @@ samt exempel hämtade från andra poster.
 * Medverkan och funktion/Primär medverkan/Agent/Person (contribution/PrimaryContribution/agent/Person = 100 1/- ‡a)  
   Länka till entitet.
   I undantagsfall, skapa lokal entitet och skriv in uppgiften. 
-* Medverkan och funktion/Primär medverkan/Agent/Person/Familjenamn (contribution/PrimaryContribution/agent/Person/familyName)  
+* Medverkan och funktion/Primär medverkan/Agent/Person/Efternamn (contribution/PrimaryContribution/agent/Person/familyName)  
   ```Exempel: Marcus```
 
 * Medverkan och funktion/Primär medverkan/Agent/Person/Förnamn  (contribution/PrimaryContribution/agent/Person/givenName)  
