@@ -175,7 +175,7 @@ samt exempel hämtade från andra poster.
 * Medverkan och funktion/Primär medverkan/Agent/Person/Förnamn  (contribution/PrimaryContribution/agent/Person/givenName)  
   ```Exempel: Tom```
 
-* Medverkan och funktion/Primär medverkanFunktion (contribution/PrimaryContribution/role = 100 ‡4)  
+* Medverkan och funktion/Primär medverkan/Funktion (contribution/PrimaryContribution/role = 100 ‡4)  
   Länka till entitet.  
   ```Exempel: relator/author (= författare)```
 
