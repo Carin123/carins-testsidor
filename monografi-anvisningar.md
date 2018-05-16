@@ -166,6 +166,9 @@ samt exempel hämtade från andra poster.
   Skriv in allmänna anmärkningar här. Anmärkningar om specifika fält skrivs in i Kommentar (note) under respektive fält, när sådana specifika anmärkningsfält finns. 
 
 ### Verk
+
+Skapa verk som en lokal entitet eller bryt ut verket till en länkbar entitet. Vi rekommenderar att du skapar verket som lokal entitet under den första tiden som Nya Libris är i drift. Vi återkommer med anvisningar för att skapa verk som länkbara entiteter.
+
 * Instans av Verk/Text (instanceOf/Work/Text)
 
 * Har titel/Titel/Huvudtitel (hasTitle/Title/mainTitle = 240 1-/0 ‡a)  
