@@ -249,7 +249,11 @@ samt exempel hämtade från andra poster.
 
 * Genre/form – biografiskt material (genreForm = 008/34)  
   Länka till entitet.  
-  ```Exempel: a (= självbiografi)```
+  ```Exempel: a (= självbiografi)```  
+  
+ * Målgrupp (intendedAudience = 008/22)  
+  Länka till entitet.  
+  ```Exempel: j (= barn- och ungdom, 0-16 år)```  
 
 * Språk (language = 008/35-37)  
   Länka till entitet.  
