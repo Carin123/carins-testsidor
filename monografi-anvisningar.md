@@ -151,7 +151,11 @@ samt exempel hämtade från andra poster.
 
 * Omfång/Omfång/Benämning (extent/Extent/label = 300 ‡a)  
   Skriv in uppgiften.  
-  ```Exempel: 319 sidor```
+  ```Exempel: 319 sidor```  
+  
+* Övriga fysiska detaljer (other physical details = 300 ‡b)  
+  Skriv in uppgiften.  
+  ```Exempel: illustrationer```
 
 * Mått/Mått/Benämning (hasDimensions/Dimensions/label = 300 ‡c)  
   Skriv in uppgiften.  
