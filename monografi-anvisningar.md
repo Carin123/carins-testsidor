@@ -175,7 +175,7 @@ samt exempel hämtade från andra poster.
 * Medverkan och funktion/Primär medverkan/Agent/Person/Förnamn  (contribution/PrimaryContribution/agent/Person/givenName)  
   ```Exempel: Tom```
 
-* Medverkan och funktion/Primär medverkan/Agent/Funktion (contribution/PrimaryContribution/agent/role = 100 ‡4)  
+* Medverkan och funktion/Primär medverkanFunktion (contribution/PrimaryContribution/role = 100 ‡4)  
   Länka till entitet.  
   ```Exempel: relator/author (= författare)```
 
@@ -184,7 +184,7 @@ samt exempel hämtade från andra poster.
   I undantagsfall, skapa lokal entitet och skriv in uppgiften.  
   ```Exempel: Skoglund, Svante, 1960-```
 
-* Medverkan och funktion/Medverkan/Agent/Funktion (contribution/agent/role = 700 ‡4)  
+* Medverkan och funktion/Medverkan/Funktion (contribution/role = 700 ‡4)  
   Länka till entitet.  
   ```Exempel: relator/trl (= översättare)```
 
