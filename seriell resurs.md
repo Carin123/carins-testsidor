@@ -233,8 +233,7 @@ samt andra poster.
   ```Exempel: Musikant (Stockholm. 2011)```  
   
 * Utgiven med/Verk/Identifikator/Typ   
-  Välj från lista.    
-  I undantagsfall, skapa lokal entitet och skriv in uppgiften.  
+  Välj från lista.   
   ```Exempel:  ISSN```  
   
 * Utgiven med/Verk/Identifikator/ISSN/Värde (issuedWith/Work/identifiedBy/Issn/value = 777 ‡x)  
@@ -255,8 +254,7 @@ samt andra poster.
   ```Exempel: Musikant och kammarmusik-nytt```  
   
 * Fortsätter delvis/Verk/Har instans/Instans/Identifikator/Typ  
-  Välj från lista.    
-  I undantagsfall, skapa lokal entitet och skriv in uppgiften.  
+  Välj från lista.  
   ```Exempel:  ISSN```  
   
 * Fortsätter delvis/Verk/Har instans/Instans/Identifikator/ISSN/Värde    (continesInPart/Work/hasInstance/Instance/identifiedBy/Issn/value = 780 ‡x)  
@@ -277,7 +275,6 @@ samt andra poster.
   
 *  Fortsättes av/Verk/Har instans/Instans/Identifikator/Typ  
    Välj från lista.    
-   I undantagsfall, skapa lokal entitet och skriv in uppgiften.  
    ```Exempel:  ISSN```  
    
 * Fortsättes av/Verk/Har instans/Instans/Identifikator/ISSN/Värde     (continuedBy/Work/hasInstance/Instance/identifiedBy/Issn/value = 785 ‡x)  
