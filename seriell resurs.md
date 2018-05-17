@@ -246,44 +246,44 @@ samt andra poster.
   Skriv in uppgiften.  
   ```Exempel: 12683514```  
 
-* Relaterade verk/Fortsätter delvis/Verk (continuesInPart/Work = 780)  
+* Fortsätter delvis/Verk (continuesInPart/Work = 780)  
   Länka till entitet.  
   I undantagsfall, skapa lokal entitet och skriv in uppgiften.  
 
-* Relaterade verk/Fortsätter delvis/Verk/Har instans/Instans/Har titel/Titel/Huvudtitel          (continuesInPart/Work/hasInstance/Instance/title/Title/mainTitle = 780 ‡t)  
+* Fortsätter delvis/Verk/Har instans/Instans/Har titel/Titel/Huvudtitel          (continuesInPart/Work/hasInstance/Instance/title/Title/mainTitle = 780 ‡t)  
   Skriv in uppgiften.  
   ```Exempel: Musikant och kammarmusik-nytt```  
   
-* Relaterade verk/Fortsätter delvis/Verk/Har instans/Instans/Identifikator/Typ  
+* Fortsätter delvis/Verk/Har instans/Instans/Identifikator/Typ  
   Välj från lista.    
   I undantagsfall, skapa lokal entitet och skriv in uppgiften.  
   ```Exempel:  ISSN```  
   
-* Relaterade verk/Fortsätter delvis/Verk/Har instans/Instans/Identifikator/ISSN/Värde    (continesInPart/Work/hasInstance/Instance/identifiedBy/Issn/value = 780 ‡x)  
+* Fortsätter delvis/Verk/Har instans/Instans/Identifikator/ISSN/Värde    (continesInPart/Work/hasInstance/Instance/identifiedBy/Issn/value = 780 ‡x)  
    Skriv in uppgiften.  
   ```Exempel:  1653-2945```  
   
-* Relaterade verk/Fortsätter delvis/Verk/Har instans/Instans/Beskriven av/Post/Kontrollnummer   (continuesInPart/Work/hasInstance/Instance/describedBy/record/controlNumber = 780 0/1 ‡w)  
+* Fortsätter delvis/Verk/Har instans/Instans/Beskriven av/Post/Kontrollnummer   (continuesInPart/Work/hasInstance/Instance/describedBy/record/controlNumber = 780 0/1 ‡w)  
   Skriv in uppgiften.  
   ```Exempel: 9955452```
   
-* Relaterade verk/Fortsättes av/Verk  
+* Fortsättes av/Verk  
   Länka till entitet.  
   I undantagsfall, skapa lokal entitet och skriv in uppgiften.  
 
-* Relaterade verk/Fortsättes av/Verk/Har instans/Instans/Har titel/Titel/Huvudtitel   (continuedBy/Work/hasInstance/Instance/title/Title/mainTitle = 785 ‡t)  
+* Fortsättes av/Verk/Har instans/Instans/Har titel/Titel/Huvudtitel   (continuedBy/Work/hasInstance/Instance/title/Title/mainTitle = 785 ‡t)  
   Skriv in uppgiften.  
   ```Exempel: Kammarmusik-nytt (Brämhult. Online)```  
   
-*  Relaterade verk/Fortsättes av/Verk/Har instans/Instans/Identifikator/Typ  
+*  Fortsättes av/Verk/Har instans/Instans/Identifikator/Typ  
    Välj från lista.    
    I undantagsfall, skapa lokal entitet och skriv in uppgiften.  
    ```Exempel:  ISSN```  
    
-* Relaterade verk/Fortsättes av/Verk/Har instans/Instans/Identifikator/ISSN/Värde     (continuedBy/Work/hasInstance/Instance/identifiedBy/Issn/value = 785 ‡x)  
+* Fortsättes av/Verk/Har instans/Instans/Identifikator/ISSN/Värde     (continuedBy/Work/hasInstance/Instance/identifiedBy/Issn/value = 785 ‡x)  
   Skriv in uppgiften.  
   ```Exempel:  2001-6921```  
   
-* Relaterade verk/Fortsättes av/Verk/Har instans/Instans/Beskriven av/Post/Kontrollnummer  (continuedBy/Work/hasInstance/Instance/describedBy/record/controlNumber = 785 0/0 ‡w)  
+* Fortsättes av/Verk/Har instans/Instans/Beskriven av/Post/Kontrollnummer  (continuedBy/Work/hasInstance/Instance/describedBy/record/controlNumber = 785 0/0 ‡w)  
   Skriv in uppgiften.  
   ```Exempel: 14697501```
