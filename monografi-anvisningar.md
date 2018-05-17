@@ -114,7 +114,10 @@ samt exempel hämtade från andra poster.
   ```Exempel: Falun```  
   * Agent/Benämning (agent/label = 264 -/3 ‡b)  
   Skriv in uppgiften.   
-  ```Exempel: Scandbook```
+  ```Exempel: Scandbook```  
+  
+* Copyright/Copyright/Datum (copyright/Copyright/date = 264 -/4 ‡c)  
+  ```Exempel: ©2017``` 
   
 * Seriemedlemskap/Ingår i serie (seriesMembership)  
   Länka till entitet.  
