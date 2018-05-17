@@ -9,3 +9,9 @@ Om vi i stället bryter ut verket till en egen länkbar entitet, kan vi i forts�
 Vi har då lagt en bra grund ...
 
 SKRIV MER I MORGON ...
+
+
+Till hjälp Bok - tryckt monografi
+
+
+Skapa verket som lokal entitet eller bryt ut verket till en länkbar entitet. Vi rekommenderar att du skapar verket som lokal entitet under den första tiden som Nya Libris är i drift. Vi återkommer med anvisningar för att skapa verk som länkbara entiteter. Denna hjälptext beskriver exempel på verk som lokal entitet.
