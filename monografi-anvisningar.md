@@ -168,6 +168,10 @@ samt exempel hämtade från andra poster.
 * Anmärkning/Anmärkning/Benämning (hasNote/Note/label = 500 ‡a)  
   Skriv in uppgiften.  
   Skriv in allmänna anmärkningar här. Anmärkningar om specifika fält skrivs in i Kommentar (note) under respektive fält, när sådana specifika anmärkningsfält finns. 
+  
+* Målgrupp/Benämning (intendedAudience = 521)  
+  Skriv in uppgiften.    
+  ```Exempel: För årskurs 1```   
 
 ### Verk
 
@@ -265,7 +269,7 @@ samt exempel hämtade från andra poster.
  * Målgrupp (intendedAudience = 008/22)  
   Länka till entitet.  
   ```Exempel: j (= barn- och ungdom, 0-16 år)```  
-
+  
 * Språk (language = 008/35-37)  
   Länka till entitet.  
   ```Exempel: svenska (swe)```
