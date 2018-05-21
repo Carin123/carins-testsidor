@@ -169,7 +169,7 @@ samt exempel hämtade från andra poster.
   Skriv in uppgiften.  
   Skriv in allmänna anmärkningar här. Anmärkningar om specifika fält skrivs in i Kommentar (note) under respektive fält, när sådana specifika anmärkningsfält finns. 
   
-* Målgrupp/Benämning (intendedAudience = 521)  
+* Målgrupp/Målgrupp/Benämning (intendedAudience/IntendedAudience/label = 521)  
   Skriv in uppgiften.    
   ```Exempel: För årskurs 1```   
 
