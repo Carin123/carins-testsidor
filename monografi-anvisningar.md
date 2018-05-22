@@ -73,8 +73,8 @@ samt exempel hämtade från andra poster.
   Skriv in uppgiften.  
   ```Exempel: Tom Marcus ; översättning: Svante Skoglund```
 
-* Identifikator/Typ (identifiedBy)
-  Välj från lista.    
+* Identifikator/Typ (identifiedBy)  
+  Välj från lista.  
   ```Exempel: ISBN```
 
 * Identifikator/ISBN/Värde (identifiedBy/Isbn/value = 020 ‡a)  
