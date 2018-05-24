@@ -194,7 +194,7 @@ samt exempel hämtade från andra poster.
   
   För en översättning, ange även:  
 * Språk/Benämning (Language/Label = 240 ‡l)  
-  Skriv in språket i klartext. Det du skriver här - verkets (äversättningens) språk - visas som ett tillägg till verkets titel i marcpostens 240 ‡l.
+  Skriv in språket i klartext. Det du skriver här - verkets (äversättningens) språk - visas som ett tillägg till verkets titel i marcpostens 240 ‡l.  
   ```Exempel: Svenska```  
 
 * Översättning av/Verk/Språk (translationOf/Work/language = 041 ‡h)  
