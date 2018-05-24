@@ -271,10 +271,12 @@ samt exempel hämtade från andra poster.
   ```Exempel: j (= barn- och ungdom, 0-16 år)```  
   
 * Språk (language = 008/35-37)  
+  Här anger du det språk som den text du beskriver är skriven på. För en text på svenska, ange svenska. För att ange      originalspråk för ett översatt verk, se Översättning av/Verk.  
   Länka till entitet.  
   ```Exempel: svenska (swe)```
 
 * Översättning av/Verk/Språk (translationOf/Work/language = 041 ‡h)  
+  Här anger du det språk som en översatt text är översatt från. För en text som är översatt från engelska till svenska, ange   engelska här.
   Länka till entitet.  
   ```Exempel: engelska (eng)```
 
