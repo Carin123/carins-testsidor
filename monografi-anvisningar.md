@@ -276,7 +276,7 @@ samt exempel hämtade från andra poster.
   ```Exempel: svenska (swe)```
 
 * Översättning av/Verk/Språk (translationOf/Work/language = 041 ‡h)  
-  Här anger du det språk som en översatt text är översatt från. För en text som är översatt från engelska till svenska, ange   engelska här.
+  Här anger du det språk som en översatt text är översatt från. För en text som är översatt från engelska till svenska, ange   engelska här.  
   Länka till entitet.  
   ```Exempel: engelska (eng)```
 
