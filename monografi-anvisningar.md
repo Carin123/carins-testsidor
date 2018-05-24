@@ -185,7 +185,7 @@ samt exempel hämtade från andra poster.
   ```Exempel:  Soldier spy```
   
 * Språk (language = 008/35-37)  
-  Här anger du det språk som den text du beskriver är skriven på. För en text på svenska, ange svenska. För att ange      originalspråk för ett översatt verk, se Översättning av/Verk.  
+  Här anger du det språk som den text du beskriver är skriven på. För en text på svenska, ange svenska. För att ange      originalspråk för ett översatt verk, se Översättning av/Verk/Språk.  
   Länka till entitet.  
   ```Exempel: svenska (swe)```
 
