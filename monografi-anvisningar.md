@@ -179,7 +179,6 @@ samt exempel hämtade från andra poster.
 
 * Har titel/Titel/Huvudtitel (hasTitle/Title/mainTitle = 240 1-/0 ‡a)  
   Ange den föredragna titeln för verket här, vid behov. Följ [Anvisningar för katalogisering - RDA](http://www.kb.se/rdakatalogisering/Anvisningar/Allmanna-anvisningar/Sokingangar-for-verk-och-uttryck "Anvisningar för katalogisering - RDA").
-  
   För översättningar och för verk som har givits ut under olika titlar på samma språk eller när samma titel har använts för olika verk, ska den föredragna titeln för verket anges här. För övriga verk, hoppa över detta fält.  
   "Originaltitel" anger du här.  
   Skriv in uppgiften.  
