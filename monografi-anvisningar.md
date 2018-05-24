@@ -50,8 +50,8 @@ samt exempel hämtade från andra poster.
   ```Exempel: Monografisk resurs```
   
 * Har titel/Titel/Huvudtitel (hasTitle/Title/mainTitle = 245 ‡a)  
-  Återge huvudtiteln från titelsidan eller annan föredragen källa så som den förekommer i källan. Se [http://www.kb.se/rdakatalogisering/Anvisningar/Arbetsfloden/Tryckta-monografier/#huvudtitel](http://www.kb.se/rdakatalogisering/ "Anvisningar för katalogisering - RDA").  
-  Skriv in uppgiften.  
+  Återge huvudtiteln från titelsidan eller annan föredragen källa så som den förekommer i källan. se [Anvisningar för katalogisering - RDA](http://www.kb.se/rdakatalogisering/Anvisningar/Arbetsfloden/Tryckta-monografier/#huvudtitel "Anvisningar för katalogisering - RDA").  
+  Skriv in uppgiften.    
   ```Exempel: Under cover```  
   ```Exempel: En arbetsdag i skriftsamhället```  
     För en titel som börjar med bestämd eller obestämd artikel, ska artikeln fileras bort. Ange fileringsvärde genom att lägga till delfältet fileringsvärde och ange en siffra. Exempel: Huvudtitel: En arbetsdag i skriftsamhället, fileringsvärde: 3   
