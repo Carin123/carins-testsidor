@@ -178,6 +178,7 @@ samt exempel hämtade från andra poster.
 * Instans av Verk/Text (instanceOf/Work/Text)
 
 * Har titel/Titel/Huvudtitel (hasTitle/Title/mainTitle = 240 1-/0 ‡a)  
+  Ange verkets titel, om du beskriver en översättning. "Originaltitel" anger du här.  
   Skriv in uppgiften.  
   ```Exempel:  Soldier spy```
 
