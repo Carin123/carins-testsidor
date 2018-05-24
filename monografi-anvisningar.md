@@ -50,6 +50,7 @@ samt exempel hämtade från andra poster.
   ```Exempel: Monografisk resurs```
   
 * Har titel/Titel/Huvudtitel (hasTitle/Title/mainTitle = 245 ‡a)  
+  Återge huvudtiteln från titelsidan eller annan föredragen källa så som den förekommer i källan. Se [http://www.kb.se/rdakatalogisering/Anvisningar/Arbetsfloden/Tryckta-monografier/#huvudtitel](http://www.kb.se/rdakatalogisering/ "Anvisningar för katalogisering - RDA").  
   Skriv in uppgiften.  
   ```Exempel: Under cover```  
   ```Exempel: En arbetsdag i skriftsamhället```  
