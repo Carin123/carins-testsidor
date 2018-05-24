@@ -191,6 +191,11 @@ samt exempel hämtade från andra poster.
   Här anger du det språk som den text du beskriver är skriven på. För en text på svenska, ange svenska. För att ange      originalspråk för ett översatt verk, se Översättning av/Verk/Språk.  
   Länka till entitet.  
   ```Exempel: svenska (swe)```
+  
+  För en översättning, ange även:  
+* Språk/Benämning (Language/Label = 240 ‡l)  
+  Skriv in språket i klartext. Det du skriver här - verkets (äversättningens) språk - visas som ett tillägg till verkets titel i marcpostens 240 ‡l.
+  ```Exempel: Svenska```  
 
 * Översättning av/Verk/Språk (translationOf/Work/language = 041 ‡h)  
   Här anger du det språk som en översatt text är översatt från. För en text som är översatt från engelska till svenska, ange   engelska här.  
