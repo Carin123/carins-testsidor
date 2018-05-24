@@ -193,7 +193,7 @@ samt exempel hämtade från andra poster.
   ```Exempel: svenska (swe)```
   
   För en översättning, ange även:  
-* Språk/Benämning (Language/Label = 240 ‡l)  
+* Språk/Benämning (Language/label = 240 ‡l)  
   Skriv in språket i klartext. Det du skriver här - verkets (översättningens) språk - visas som ett tillägg till verkets titel i marcpostens 240 ‡l.  
   ```Exempel: Svenska```  
 
