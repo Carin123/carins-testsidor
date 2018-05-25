@@ -9,6 +9,8 @@ Om vi i stället bryter ut verket till en egen länkbar entitet, kan vi i forts�
 Vi kan också länka översättningar av ett verk till originalverket. Det finns många fler relationer som vi kan uttrycka, t ex bearbetning, reproduktion, verk som ämne och så vidare.
 Vi har då lagt en bra grund för en mer logisk struktur att navigera i. 
 
+Något om serier som verk ...
+
 Att bryta ut verk och instanser till egna entiteter är framförallt aktuellt för verk som kommer ut i många instanser, till exempel klassiker och andra verk som får en stor spridning. För många verk händer inte det utan verket kommer ut endast en gång. 
 
 Inlästa poster från Voyager ... Instans av verk
