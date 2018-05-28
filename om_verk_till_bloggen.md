@@ -19,10 +19,10 @@ INSTANS
 
 Om vi i stället bryter ut verket till en egen länkbar entitet, kan vi i fortsättningen länka nya utgåvor (nya instanser) till denna verksentitet. 
 
-VERK
-  Instans
-  Instans
-  Instans
+VERK  
+  Instans  
+  Instans  
+  Instans  
 
 Vi kan också länka översättningar av ett verk till originalverket. Det finns många fler relationer som vi kan uttrycka, t ex bearbetning, verk som ämne och så vidare.
 
