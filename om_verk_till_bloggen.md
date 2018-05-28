@@ -2,7 +2,7 @@
 # Verk och instans - ett nytt format
 
 ## Nytt format
-Formatet i Nya Libris ger möjlighet att strukturera den bibliografiska informationen på ett nytt sätt. Istället för att upprepa uppgifter som klassifikation, ämnesord, genre, författarens namn för varje ny utgåva av en bok, så kan vi i fortsättningen samla denna information på ett ställe - verket - och bara länka instanser till verket, när nya utgåvor kommer. Detta är en styrka med vårt nya Bibframe-baserade format.
+Formatet i Nya Libris ger möjlighet att strukturera den bibliografiska informationen på ett nytt sätt. Istället för att upprepa uppgifter som klassifikation, ämnesord, genre, författarens namn för varje ny utgåva av en bok, så kan vi i fortsättningen samla denna information på ett ställe - verket - och sedan länka instanser till verket, när nya utgåvor kommer. Detta är en styrka med vårt nya Bibframe-baserade format.
 
 ## Verk som länkbar entitet eller lokal entitet
 Men hur gör man? Hur fungerar det i praktiken? I Nya Libris finns det möjlighet att antingen skapa verk som lokala entiteter eller att skapa länkbara verksentiteter. När vi låter verket vara en lokal entitet i instansen, behåller vi egentligen samma struktur som i dagens marcposter. Verksinformationen upprepas i varje post, för varje utgåva, tillsammans med information om utgåvan. Om vi gör på detta sätt så har vi inte utnyttjat det nya formatet fullt ut. BILD
@@ -12,7 +12,7 @@ Vi kan också länka översättningar av ett verk till originalverket. Det finns
 
 Att bryta ut verk och instanser till egna entiteter kommer till nytta framförallt aktuellt för verk som kommer ut i många instanser, till exempel klassiker och andra verk som får en stor spridning. För många verk händer inte det utan verket kommer ut endast en gång. 
 
-För de poster som förs över från Voyager till Nya Libris kommer verksinformationen att sparas som lokala entiteter. Man hittar verksinformationen under Instans av Verk. Verksinformation förs också över från Voyager till Nya Libris i form av de auktoritetsposter för verk och uttryck som har skapats i Voyager. Dessa kommer att sparas som rudimentära verksposter i Nya Libris. Ytterligare uppgifter behöver tillföras för att dessa verksposter ska kunna användas i det nya formatet. Libris-teamet kommer att se över möjligheten att maskinellt skapa underlag som underlättar verkshantering. 
+För de poster som förs över från Voyager till Nya Libris kommer verksinformationen att sparas som lokala entiteter. Man hittar verksinformationen under Instans av Verk. Verksinformation förs också över från Voyager till Nya Libris i form av de auktoritetsposter för verk och uttryck som har skapats i Voyager. Dessa kommer att sparas som rudimentära verksposter i Nya Libris. Ytterligare uppgifter behöver tillföras för att dessa verksposter ska kunna användas i det nya formatet. Libris-teamet kommer också att se över möjligheten att maskinellt skapa underlag som underlättar verkshantering. 
 
 ## Riktlinjer kommer senare
 Det behövs riktlinjer och instruktioner om hur vi ska hantera verk i Nya Libris. Dessa riktlinjer kommer senare. När Nya Libris går i skarp drift ber vi er att avvakta med att bryta ut verk till länkbara verksentiteter. Under en första övergångstid fortsätter vi som förut, att upprepa verksinformationen i varje post. Verksinformationen får vara en lokal entitet i instansen.
