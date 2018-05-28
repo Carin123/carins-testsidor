@@ -8,9 +8,9 @@ Formatet i Nya Libris ger möjlighet att strukturera den bibliografiska informat
 Men hur gör man? Hur fungerar det i praktiken? I Nya Libris finns det möjlighet att antingen skapa verk som lokala entiteter eller att skapa länkbara verksentiteter. När vi låter verket vara en lokal entitet i instansen, behåller vi egentligen samma struktur som i dagens marcposter. Verksinformationen upprepas i varje post, för varje utgåva, tillsammans med information om utgåvan. Om vi gör på detta sätt så har vi inte utnyttjat det nya formatet fullt ut. BILD
 
 Om vi i stället bryter ut verket till en egen länkbar entitet, kan vi i fortsättningen länka nya utgåvor (nya instanser) till denna verksentitet. BILD
-Vi kan också länka översättningar av ett verk till originalverket. Det finns många fler relationer som vi kan uttrycka, t ex bearbetning, reproduktion, verk som ämne och så vidare.
+Vi kan också länka översättningar av ett verk till originalverket. Det finns många fler relationer som vi kan uttrycka, t ex bearbetning, verk som ämne och så vidare.
 
-Att bryta ut verk och instanser till egna entiteter kommer till nytta framförallt aktuellt för verk som kommer ut i många instanser, till exempel klassiker och andra verk som får en stor spridning. För många verk händer inte det utan verket kommer ut endast en gång. 
+Att bryta ut verk och instanser till egna entiteter kommer till nytta framförallt för verk som kommer ut i många instanser, till exempel klassiker och andra verk som får en stor spridning. För många verk händer inte det utan verket kommer ut endast en gång. 
 
 ## Poster från Voyager
 För de poster som förs över från Voyager till Nya Libris kommer verksinformationen att sparas som lokala entiteter. Man hittar verksinformationen under Instans av Verk. Verksinformation förs också över från Voyager till Nya Libris i form av de auktoritetsposter för verk och uttryck som har skapats i Voyager. Dessa kommer att sparas som rudimentära verksposter i Nya Libris. Ytterligare uppgifter behöver tillföras för att dessa verksposter ska kunna användas i det nya formatet. Libris-teamet kommer också att se över möjligheten att maskinellt skapa underlag som underlättar verkshantering. 
