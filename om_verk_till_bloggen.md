@@ -7,22 +7,7 @@ Formatet i Nya Libris ger möjlighet att strukturera den bibliografiska informat
 ## Verk som länkbar entitet eller lokal entitet
 Men hur gör man? Hur fungerar det i praktiken? I Nya Libris finns det möjlighet att antingen skapa verk som lokala entiteter eller att skapa länkbara verksentiteter. När vi låter verket vara en lokal entitet i instansen, behåller vi samma struktur som i dagens marcposter. Verksinformationen upprepas i varje post, för varje utgåva, tillsammans med information om utgåvan. Om vi gör så, har vi inte utnyttjat det nya formatet fullt ut. 
 
-INSTANS  
-  * Instans av verk
-  
-INSTANS  
-   * Instans av verk
-  
-INSTANS  
-   * Instans av verk
-  
-
 Om vi i stället bryter ut verket till en egen länkbar entitet, kan vi i fortsättningen länka nya utgåvor (nya instanser) till denna verksentitet. 
-
-VERK  
-  * Instans  
-  * Instans  
-  * Instans  
 
 Vi kan också länka översättningar av ett verk till originalverket. Det finns många fler relationer som vi kan uttrycka, t ex bearbetning, verk som ämne och så vidare.
 
