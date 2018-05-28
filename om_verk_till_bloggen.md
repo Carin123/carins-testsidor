@@ -7,17 +7,14 @@ Men hur gör man? Hur fungerar det i praktiken? I Nya Libris finns det möjlighe
 
 Om vi i stället bryter ut verket till en egen länkbar entitet, kan vi i fortsättningen länka nya utgåvor (nya instanser) till denna verksentitet. BILD
 Vi kan också länka översättningar av ett verk till originalverket. Det finns många fler relationer som vi kan uttrycka, t ex bearbetning, reproduktion, verk som ämne och så vidare.
-Vi har då lagt en bra grund för en mer logisk struktur att navigera i. 
 
-Något om serier som verk ...
+Att bryta ut verk och instanser till egna entiteter kommer till nytta framförallt aktuellt för verk som kommer ut i många instanser, till exempel klassiker och andra verk som får en stor spridning. För många verk händer inte det utan verket kommer ut endast en gång. 
 
-Att bryta ut verk och instanser till egna entiteter är framförallt aktuellt för verk som kommer ut i många instanser, till exempel klassiker och andra verk som får en stor spridning. För många verk händer inte det utan verket kommer ut endast en gång. 
+För de poster som förs över från Voyager till Nya Libris kommer verksinformationen att sparas som lokala entiteter. Man hittar verksinformationen under Instans av Verk. 
 
-Inlästa poster från Voyager ... Instans av verk
+Det behövs riktlinjer och instruktioner om hur vi ska hantera verk i Nya Libris. Dessa riktlinjer kommer senare. När Nya Libris går i skarp drift ber vi er att avvakta med att bryta ut verk till länkbara verksentiteter. Under en första övergångstid fortsätter vi som förut, att upprepa verksinformationen i varje post. Verksinformationen får vara en lokal entitet i instansen. 
 
-Riktlinjer behövs ... kommer senare
 
-Tills vidare, bryt inte ut verk. Avvakta vidare instruktioner och riktlinjer.
 
 
 
