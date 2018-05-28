@@ -20,7 +20,7 @@ Det behövs riktlinjer och instruktioner om hur vi ska hantera verk i Nya Libris
 
 
 
-# Till hjälp Bok - tryckt monografi
+# Till hjälptexten Bok - tryckt monografi
 
 
 Skapa verket som lokal entitet eller bryt ut verket till en länkbar entitet. Vi rekommenderar att du skapar verket som lokal entitet under den första tiden som Nya Libris är i drift. Vi återkommer med anvisningar för att skapa verk som länkbara entiteter. Denna hjälptext beskriver exempel på verk som lokal entitet.
