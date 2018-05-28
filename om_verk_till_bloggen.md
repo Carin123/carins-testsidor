@@ -1,5 +1,5 @@
 
-#Verk och instans - ett nytt format
+# Verk och instans - ett nytt format
 
 Formatet i Nya Libris ger möjlighet att strukturera den bibliografiska informationen på ett nytt sätt. Istället för att upprepa uppgifter som klassifikation, ämnesord, genre, författarens namn för varje ny utgåva av en bok, så kan vi i fortsättningen samla denna information på ett ställe - verket - och bara länka instanser till verket, när nya utgåvor kommer. Detta är en styrka med vårt nya Bibframe-baserade format.
 
