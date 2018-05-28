@@ -5,9 +5,25 @@
 Formatet i Nya Libris ger möjlighet att strukturera den bibliografiska informationen på ett nytt sätt. Istället för att upprepa uppgifter som klassifikation, ämnesord, genre, författarens namn för varje ny utgåva av en bok, så kan vi i fortsättningen samla denna information på ett ställe - verket - och sedan länka instanser till verket, när nya utgåvor kommer. Detta är en styrka med vårt nya Bibframe-baserade format.
 
 ## Verk som länkbar entitet eller lokal entitet
-Men hur gör man? Hur fungerar det i praktiken? I Nya Libris finns det möjlighet att antingen skapa verk som lokala entiteter eller att skapa länkbara verksentiteter. När vi låter verket vara en lokal entitet i instansen, behåller vi egentligen samma struktur som i dagens marcposter. Verksinformationen upprepas i varje post, för varje utgåva, tillsammans med information om utgåvan. Om vi gör på detta sätt så har vi inte utnyttjat det nya formatet fullt ut. BILD
+Men hur gör man? Hur fungerar det i praktiken? I Nya Libris finns det möjlighet att antingen skapa verk som lokala entiteter eller att skapa länkbara verksentiteter. När vi låter verket vara en lokal entitet i instansen, behåller vi samma struktur som i dagens marcposter. Verksinformationen upprepas i varje post, för varje utgåva, tillsammans med information om utgåvan. Om vi gör så, har vi inte utnyttjat det nya formatet fullt ut. 
 
-Om vi i stället bryter ut verket till en egen länkbar entitet, kan vi i fortsättningen länka nya utgåvor (nya instanser) till denna verksentitet. BILD
+INSTANS
+  Instans av verk
+  
+INSTANS
+  Instans av verk
+  
+INSTANS
+  Instans av verk
+  
+
+Om vi i stället bryter ut verket till en egen länkbar entitet, kan vi i fortsättningen länka nya utgåvor (nya instanser) till denna verksentitet. 
+
+VERK
+  Instans
+  Instans
+  Instans
+
 Vi kan också länka översättningar av ett verk till originalverket. Det finns många fler relationer som vi kan uttrycka, t ex bearbetning, verk som ämne och så vidare.
 
 Att bryta ut verk och instanser till egna entiteter kommer till nytta framförallt för verk som kommer ut i många instanser, till exempel klassiker och andra verk som får en stor spridning. För många verk händer inte det utan verket kommer ut endast en gång. 
