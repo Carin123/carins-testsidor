@@ -33,6 +33,11 @@ samt andra poster.
 * Beskrivningsnivå (000/05)  
   Välj från lista.    
   ```Exempel: nationalbibliografisk/fullständig nivå```
+  
+* Poststatus (000/05)  
+  Uppdateras automatiskt. Ändra inte.   
+  ```Exempel: Ny post```  
+  ```Exempel: Rättad eller reviderad post```
 
 ### Instans
 * Utgivningssätt (issuanceType)  
