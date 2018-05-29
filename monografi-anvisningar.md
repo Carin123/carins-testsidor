@@ -40,9 +40,14 @@ samt exempel hämtade från andra poster.
   För post katalogiserad enligt RDA, länka till entitet: marc/Isbd samt skapa lokal entitet med Kod: rda    
   ```Exempel: marc/Isbd (länkad entitet) + lokal entitet, Kod: rda```
 
-* Beskrivningsnivå (000/05)  
+* Beskrivningsnivå (000/17)  
   Länka till entitet.  
   ```Exempel: CIP-post, ändra till biblioteksnivå```
+  
+  * Poststatus (000/05)  
+  Uppdateras automatiskt. Ändra inte.   
+  ```Exempel: Ny post```  
+  ```Exempel: Rättad eller reviderad post```
 
 ### Instans
 * Utgivningssätt (issuanceType)  
