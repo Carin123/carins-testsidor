@@ -104,7 +104,7 @@ samt andra poster.
   Skriv in uppgiften.  
     ```Exempel: 2011```  
   * Slutår (endYear = 008/11-14)  
-  Om slutår inte har anges, sätts utgivningsstatus (008/06) automatiskt till "c = Utgivning pågår".  
+  Om slutår inte anges, sätts utgivningsstatus (008/06) automatiskt till "c = Utgivning pågår".  
   Om slutår anges, sätts utgivningsstatus (008/06) automatiskt till "d = Utgivning avslutad".  
   Skriv in uppgiften.  
   ```Exempel: 2013```  
