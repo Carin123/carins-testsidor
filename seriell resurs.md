@@ -114,6 +114,10 @@ samt andra poster.
   Skriv in uppgiften.  
   ```Exempel: 2013```  
  
+ För att ange slutår för senaste utgivningsperiod, notera först vilket startåret för utgivningsperioden är, ta bort Startår och lägg till Datum. Skriv in hela datumangivelsen med startår och slutår.  
+ ```Exempel: 2012-2013```   
+ 
+
 * Frekvens (frequency)  
   * Frekvensterm (008/18)  
     Länka till entitet.  
