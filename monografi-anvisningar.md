@@ -108,9 +108,16 @@ samt exempel hämtade från andra poster.
   * Agent/Benämning (= Utgivarnamn) (agent/label = 264 -/1 ‡b)  
   Skriv in uppgiften.  Utgivarnamn ska inte länkas som entitet.  
   ```Exempel: NoNa```  
-  * Datum (= Utgivningstid) (date = 008/07-10, 264 -/1 ‡c)  
-  Skriv in uppgiften.  
+   * År (= Utgivningstid) (date = 008/07-10, 264 -/1 ‡c)  
+ Ange utgivningsår, utan klamrar eller andra tecken, endast fyra positioner. Skriv in uppgiften.  
+Om du bara vill ange ett år utan klamrar eller andra tecken, behöver du endast ange det här. Om du behöver ange klamrar eller andra tecken utöver fyra positioner, använd Datum.  
   ```Exempel: 2017```  
+  * Datum (= Utgivningstid) (date = 264 -/1 ‡c)  
+ Om du behöver ange ett utgivningsdatum med fler än fyra positioner, skriv in det här. Skriv in uppgiften.  
+Om du bara vill ange ett år utan klamrar eller andra tecken, använd endast År.   
+  Skriv in uppgiften.  
+  ```Exempel: [2017]```  
+  ```Exempel: [mellan 1863 och 1866?]```  
 
 * Tillverkning (manufacture)  
   * Plats/Benämning (place/label = 264 -/3 ‡a)  
