@@ -85,7 +85,7 @@ samt andra poster.
   ```Exempel: 1653-2945```
 
 * Utgivning  
-  Välj typ från lista. För seriell resurs, välj Pågående utgivningsperiod eller Avslutad utgivningsperiod.  
+  Välj typ från lista. För seriell resurs, välj Primär utgivningsperiod.  
   (= Typ av utgivningsdatum/utgivningsstatus) (008/06)    
    
   * Land (country = 008/15-17)  
@@ -100,10 +100,12 @@ samt andra poster.
   * Datum (date = 264 -/1 ‡c)  
   Skriv in uppgiften.  
   ```Exempel: 2011-2013```  
-  * Startdatum (startDate = 008/7-10)  
+  * Startår (startYear = 008/7-10)  
   Skriv in uppgiften.  
-  ```Exempel: 2011```  
-  * Slutdatum (endDate = 008/11-14)  
+    ```Exempel: 2011```  
+  * Slutår (endYear = 008/11-14)  
+  Om slutår inte har anges, sätts utgivningsstatus (008/06) automatiskt till "c = Utgivning pågår".  
+  Om slutår anges, sätts utgivningsstatus (008/06) automatiskt till "d = Utgivning avslutad".  
   Skriv in uppgiften.  
   ```Exempel: 2013```  
  
