@@ -44,7 +44,7 @@ samt exempel hämtade från andra poster.
   Länka till entitet.  
   ```Exempel: CIP-post, ändra till biblioteksnivå```
   
-  * Poststatus (000/05)  
+* Poststatus (000/05)  
   Uppdateras automatiskt. Ändra inte.   
   ```Exempel: Ny post```  
   ```Exempel: Rättad eller reviderad post```
