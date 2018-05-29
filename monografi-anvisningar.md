@@ -31,9 +31,7 @@ samt exempel hämtade från andra poster.
 * Identifikator/Systemnummer/Värde (identifiedBy/SystemNumber/value = 035 ‡a)  
   Om ett systemnummer finns i förhandspost, till exempel Bokinfos systemnummer, låt det vara kvar oförändrat.    
    ```Exempel: (BOKR)9789188107213```  
-  Vid postimport från utländska källor, ta bort systemnummer som består av enbart siffror. Dessa kan annars skapa problem vid maskinella matchningar.  
-   ```Exempel: 22173057```
-
+ 
 * Katalogiseringsspråk (descriptionLanguage = 040 ‡b)  
   Länka till entitet.  
   ```Exempel: svenska (swe)```
