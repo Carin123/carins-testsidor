@@ -137,7 +137,8 @@ Om du bara vill ange ett år utan klamrar eller andra tecken, använd endast År
   
 * Seriemedlemskap/Ingår i serie (seriesMembership)  
   Länka till entitet.  
-  I undantagsfall, skapa lokal entitet och skriv in uppgiften. 
+  I undantagsfall, skapa lokal entitet och skriv in uppgiften.  
+  Under den första tiden med Nya Libris, avvakta med att skapa verk som länkade entiteter.  Beskriv serien som lokal entitet, enligt exempel nedan.   
   
 * Seriemedlemskap/Serieuppgift (seriesMembership/seriesStatement = 490 ‡a)  
   Skriv in uppgiften.  
