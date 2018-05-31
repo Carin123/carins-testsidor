@@ -41,7 +41,7 @@ samt exempel hämtade från andra poster.
   ```Exempel: marc/Isbd (länkad entitet) + lokal entitet, Kod: rda```
 
 * Beskrivningsnivå (000/17)  
-  Länka till entitet.  
+  Välj från lista.   
   ```Exempel: CIP-post, ändra till biblioteksnivå```
   
 * Poststatus (000/05)  
@@ -194,7 +194,7 @@ Om du bara vill ange ett år utan klamrar eller andra tecken, använd endast År
 
 Skapa verket som lokal entitet eller bryt ut verket till en länkbar entitet. Vi rekommenderar att du skapar verket som lokal entitet under den första tiden som Nya Libris är i drift. Vi återkommer med anvisningar för att skapa verk som länkbara entiteter. Denna hjälptext beskriver exempel på verk som lokal entitet. Det betyder att du anger de uppgifter som listas här nedan, under Instans av Verk, utan att klicka på länksymbolen (Länka entitet) vid Instans av Verk.
 
-* Har titel/Titel/Huvudtitel (hasTitle/Title/mainTitle = 240 1-/0 ‡a)  
+* Har titel/Titel/Huvudtitel (hasTitle/Title/mainTitle = 240 1/0 ‡a)  
   Ange den föredragna titeln för verket här, vid behov. Följ [Anvisningar för katalogisering - RDA](http://www.kb.se/rdakatalogisering/Anvisningar/Allmanna-anvisningar/Sokingangar-for-verk-och-uttryck "Anvisningar för katalogisering - RDA").
   För översättningar och för verk som har givits ut under olika titlar på samma språk eller när samma titel har använts för olika verk, ska den föredragna titeln för verket anges. För övriga verk, hoppa över detta fält.  
   "Originaltitel" anger du här.  
@@ -250,7 +250,7 @@ Skapa verket som lokal entitet eller bryt ut verket till en länkbar entitet. Vi
   Skriv in uppgiften.  
   ```Exempel: Sei-e```
 
-* Klassifikation/Termlista/Termlista/ID (classification/Classification/iinScheme/ConceptScheme = 084 ‡2)  
+* Klassifikation/Termlista/Termlista/ID (classification/Classification/inScheme/ConceptScheme = 084 ‡2)  
   Skriv in uppgiften.  
  ```Exempel: https://id.kb.se/term/kssb/8```
 
