@@ -292,14 +292,17 @@ Skapa verket som lokal entitet eller bryt ut verket till en länkbar entitet. Vi
 
 * Genre/form – saogf-termer (genreForm = 655 -/7 ‡a, ‡2 saogf)  
   Länka till entitet.  
+  Under Genre/form, välj Genre/form i listan över typer.   
   ```Exempel: Självbiografier```
 
 * Genre/form – litterär genre (genreForm = 008/33)  
   Länka till entitet.  
+  Under Genre/form, välj Litterär genre i listan över typer.  
   ```Exempel: 0 ( = ej skönlitterärt verk)```
 
 * Genre/form – biografiskt material (genreForm = 008/34)  
   Länka till entitet.  
+  Under Genre/form, välj Biografiskt material i listan över typer.  
   ```Exempel: a (= självbiografi)```  
   
  * Målgrupp (intendedAudience = 008/22)  
