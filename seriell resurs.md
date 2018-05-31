@@ -30,7 +30,7 @@ samt andra poster.
   För post katalogiserad enligt RDA, länka till entitet: marc/Isbd samt skapa lokal entitet med Kod: rda    
   ```Exempel: marc/Isbd (länkad entitet) + lokal entitet, Kod: rda```
 
-* Beskrivningsnivå (000/05)  
+* Beskrivningsnivå (000/17)  
   Välj från lista.    
   ```Exempel: nationalbibliografisk/fullständig nivå```
   
@@ -206,6 +206,7 @@ samt andra poster.
    
 * Genre/form – saogf-termer (genreForm = 655 -/7 ‡a, ‡2 saogf)  
   Länka till entitet.  
+  Under Genre/form, välj Genre/form i listan över typer.  
   ```Exempel: Organisationspress```  
   ```Exempel: Musiktidskrifter```  
    
