@@ -136,19 +136,18 @@ Om du bara vill ange ett år utan klamrar eller andra tecken, använd endast År
   ```Exempel: ©2017``` 
   
 * Seriemedlemskap/Ingår i serie (seriesMembership)  
-  Länka till entitet.  
-  I undantagsfall, skapa lokal entitet och skriv in uppgiften.  
-  Under den första tiden med Nya Libris, avvakta med att skapa verk som länkade entiteter.  Beskriv serien som lokal entitet, enligt exempel nedan.   
-  
-* Seriemedlemskap/Serieuppgift (seriesMembership/seriesStatement = 490 ‡a)  
-  Skriv in uppgiften.  
-  För att ange endast serieuppgift (och inte beskriva serien som ett verk), ange även indikator för seriebiuppslag (0 i detta fall). Serieuppgiften hamnar då i 490.  
-  ```Exempel: Årstasällskapets skriftserie```  
-  
+  (Länka till entitet.  
+  I undantagsfall, skapa lokal entitet och skriv in uppgiften.)   
+  Avvakta med att skapa verk som länkade entiteter. Beskriv serien som lokal entitet, enligt exempel nedan.   
+   
 * Seriemedlemskap/Indikator för seriebiuppslag (marc:seriesTracingPolicy = 490 i1: 0/1)  
-  Ange indikator för seriebiuppslag: 1 om Instans av verk anges, 0 om Instans av verk inte anges. 
-  Skriv in uppgiften.  
+    Skriv in uppgiften.  
+  ```Exempel: 0```
   ```Exempel: 1```
+  
+  * Seriemedlemskap/Serieuppgift (seriesMembership/seriesStatement = 490 ‡a)  
+  Skriv in uppgiften.  
+   ```Exempel: Årstasällskapets skriftserie```  
   
 * Seriemedlemskap/Numrering inom serie (seriesMembership/seriesEnumeration = 490 ‡v, 830 ‡v)  
   Skriv in uppgiften.  
