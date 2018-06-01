@@ -145,7 +145,7 @@ Om du bara vill ange ett år utan klamrar eller andra tecken, använd endast År
   ```Exempel: 0```  
   ```Exempel: 1```  
   
-  * Seriemedlemskap/Serieuppgift (seriesMembership/seriesStatement = 490 ‡a)  
+* Seriemedlemskap/Serieuppgift (seriesMembership/seriesStatement = 490 ‡a)  
   Skriv in uppgiften.  
    ```Exempel: Årstasällskapets skriftserie```  
   
