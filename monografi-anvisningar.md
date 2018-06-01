@@ -145,7 +145,7 @@ Om du bara vill ange ett år utan klamrar eller andra tecken, använd endast År
   För att ange endast serieuppgift (och inte beskriva serien som ett verk), ange även indikator för seriebiuppslag (0 i detta fall). Serieuppgiften hamnar då i 490.  
   ```Exempel: Årstasällskapets skriftserie```  
   
-  * Seriemedlemskap/Indikator för seriebiuppslag (marc:seriesTracingPolicy = 490 i1: 0/1)  
+* Seriemedlemskap/Indikator för seriebiuppslag (marc:seriesTracingPolicy = 490 i1: 0/1)  
   Ange indikator för seriebiuppslag: 1 om Instans av verk anges, 0 om Instans av verk inte anges. 
   Skriv in uppgiften.  
   ```Exempel: 1```
