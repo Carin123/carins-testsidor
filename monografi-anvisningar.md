@@ -142,17 +142,18 @@ Om du bara vill ange ett år utan klamrar eller andra tecken, använd endast År
   
 * Seriemedlemskap/Serieuppgift (seriesMembership/seriesStatement = 490 ‡a)  
   Skriv in uppgiften.  
+  För att ange endast serieuppgift (och inte beskriva serien som ett verk), ange även indikator för seriebiuppslag (0 i detta fall). Serieuppgiften hamnar då i 490.  
   ```Exempel: Årstasällskapets skriftserie```  
+  
+  * Seriemedlemskap/Indikator för seriebiuppslag (marc:seriesTracingPolicy = 490 i1: 0/1)  
+  Ange indikator för seriebiuppslag: 1 om Instans av verk anges, 0 om Instans av verk inte anges. 
+  Skriv in uppgiften.  
+  ```Exempel: 1```
   
 * Seriemedlemskap/Numrering inom serie (seriesMembership/seriesEnumeration = 490 ‡v, 830 ‡v)  
   Skriv in uppgiften.  
   ```Exempel: 8```  
   
-* Seriemedlemskap/Indikator för seriebiuppslag (marc:seriesTracingPolicy = 490 i1: 0/1)  
-  Ange indikator för seriebiuppslag: 1 om Instans av verk anges, 0 om Instans av verk inte anges. 
-  Skriv in uppgiften.  
-  ```Exempel: 1```
-   
 * Seriemedlemskap/Ingår i serie/Instans/Identifikator/ISSN/Värde (seriesMembership/inSeries/Instance/identifiedBy/ISSN/Value) (490 ‡x, 830 ‡x)  
   Skriv in uppgiften.  
   ```Exempel: 1103-498X```    
