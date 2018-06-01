@@ -142,8 +142,8 @@ Om du bara vill ange ett år utan klamrar eller andra tecken, använd endast År
    
 * Seriemedlemskap/Indikator för seriebiuppslag (marc:seriesTracingPolicy = 490 i1: 0/1)  
     Skriv in uppgiften.  
-  ```Exempel: 0```
-  ```Exempel: 1```
+  ```Exempel: 0```  
+  ```Exempel: 1```  
   
   * Seriemedlemskap/Serieuppgift (seriesMembership/seriesStatement = 490 ‡a)  
   Skriv in uppgiften.  
