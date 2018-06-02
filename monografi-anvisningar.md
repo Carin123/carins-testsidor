@@ -118,8 +118,8 @@ samt exempel hämtade från andra poster.
 För att ange ett år utan klamrar eller andra tecken, ange det endast här. För att ange klamrar eller andra tecken utöver fyra positioner, använd Datum.  
   ```Exempel: 2017```  
   * Datum (= Utgivningstid) (date = 264 -/1 ‡c)  
- Om du behöver ange ett utgivningsdatum med fler än fyra positioner, skriv in det här. Skriv in uppgiften.  
-Om du bara vill ange ett år utan klamrar eller andra tecken, använd endast År.   
+ För att ange ett utgivningsdatum med fler än fyra positioner, skriv in det här. Skriv in uppgiften.  
+ För att ange ett år utan klamrar eller andra tecken, använd endast År.   
   Skriv in uppgiften.  
   ```Exempel: [2017]```  
   ```Exempel: [mellan 1863 och 1866?]```  
