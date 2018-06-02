@@ -203,7 +203,7 @@ Skapa verket som lokal entitet eller bryt ut verket till en länkbar entitet. Vi
   ```Exempel:  Soldier spy```
   
 * Språk (language = 008/35-37)  
-  Här anger du det språk som den text du beskriver är skriven på. För en text på svenska, ange svenska. För att ange      originalspråk för ett översatt verk, se Översättning av/Verk/Språk.  
+  Här anger du det språk som den text du beskriver är skriven på. För en text på svenska, ange svenska. För att ange      originalspråk för ett översatt verk, se Originalversion/Verk/Språk.  
   Länka till entitet.  
   ```Exempel: svenska (swe)```
   
@@ -212,14 +212,18 @@ Skapa verket som lokal entitet eller bryt ut verket till en länkbar entitet. Vi
   Skriv in språket i klartext. Det du skriver här - verkets (översättningens) språk - visas som ett tillägg till verkets titel i marcpostens 240 ‡l.  
   ```Exempel: Svenska```  
 
-* Översättning av/Verk/Språk (translationOf/Work/language = 041 ‡h)  
-  Här anger du det språk som en översatt text är översatt från. För en text som är översatt från engelska till svenska, ange   engelska här.  
+* Originalversion/Verk/Språk (originalVersion/Work/language = 041 i1: 1)  
+  Ange om resursen innehåller en översättning. Välj från lista.  
+  ```Exempel: objektet innehåller översättning```  
+
+* Innehåller översättning (originalversion/Work/language = 041 ‡h)  
+  Här anger du det språk som den text du beskriver är skriven på. För en text på svenska, ange svenska. För att ange      originalspråk för ett översatt verk, se Översättning av/Verk/Språk.  
   Länka till entitet.  
-  ```Exempel: engelska (eng)```
+  ```Exempel: svenska (swe)```
 
 * Medverkan och funktion/Primär medverkan/Agent/Person (contribution/PrimaryContribution/agent/Person = 100 1/- ‡a)  
   Länka till entitet.
-  I undantagsfall, skapa lokal entitet och skriv in uppgiften. 
+  I undantagsfall, skapa lokal entitet och skriv n uppgiften. 
 * Medverkan och funktion/Primär medverkan/Agent/Person/Efternamn (contribution/PrimaryContribution/agent/Person/familyName)  
   ```Exempel: Marcus```
 
