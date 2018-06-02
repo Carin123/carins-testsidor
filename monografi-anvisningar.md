@@ -224,7 +224,7 @@ Skapa verket som lokal entitet eller bryt ut verket till en länkbar entitet. Vi
 
 * Medverkan och funktion/Primär medverkan/Agent/Person (contribution/PrimaryContribution/agent/Person = 100 1/- ‡a)  
   Länka till entitet.
-  I undantagsfall, skapa lokal entitet och skriv n uppgiften. 
+  I undantagsfall, skapa lokal entitet och skriv in uppgiften. 
 * Medverkan och funktion/Primär medverkan/Agent/Person/Efternamn (contribution/PrimaryContribution/agent/Person/familyName)  
   ```Exempel: Marcus```
 
@@ -316,4 +316,5 @@ Skapa verket som lokal entitet eller bryt ut verket till en länkbar entitet. Vi
   
 * Innehållstyp (contentType/ContentType = 336 ‡b)  
   Länka till entitet.  
-  ```Exempel: text (txt)```
+  ```Exempel: text (txt)```  
+  För att lägga till ytterligare innehållstyp, t"ill exempel "sti = stillbild för en bilderbok med både text och bild, ange Har del/Verk/Innehållstyp/Innehållstyp.  
