@@ -204,7 +204,7 @@ Skapa verket som lokal entitet eller bryt ut verket till en länkbar entitet. Vi
   För en titel som börjar med bestämd eller obestämd artikel, ska artikeln fileras bort. Ange fileringsvärde genom att lägga till delfältet fileringsvärde och ange en siffra. Exempel: Huvudtitel: En arbetsdag i skriftsamhället, fileringsvärde: 3   
   
 * Språk (language = 008/35-37)  
-  Här anger du det språk som den text du beskriver är skriven på. För en text på svenska, ange svenska. För att ange      originalspråk för ett översatt verk, se Originalversion/Verk/Språk.  
+  Ange det språk som den text du beskriver är skriven på. För en text på svenska, ange svenska. För att ange originalspråk för ett översatt verk, se Originalversion/Verk/Språk.  
   Länka till entitet.  
   ```Exempel: svenska (swe)```
   
@@ -214,11 +214,11 @@ Skapa verket som lokal entitet eller bryt ut verket till en länkbar entitet. Vi
   ```Exempel: Svenska```  
 
 * Anmärkning: Språk (marc:language note = 041 i1: 1)  
-  Ange om resursen innehåller en översättning. Välj från lista.  
-  ```Exempel: objektet innehåller översättning```  
+  Ange om resursen är/innehåller en översättning. Välj från lista.  
+  ```Exempel: objektet är/innehåller översättning```  
 
 * Originalversion/Verk/Språk (originalversion/Work/language = 041 ‡h)  
-  Här anger du det språk som en översatt text är översatt från. För en text som är översatt från engelska till svenska, ange   engelska här.  
+  Ange det språk som en översatt text är översatt från. För en text som är översatt från engelska till svenska, ange engelska här.  
   Länka till entitet.  
   ```Exempel: engelska (eng)```
 
