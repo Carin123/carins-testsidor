@@ -200,7 +200,8 @@ Skapa verket som lokal entitet eller bryt ut verket till en länkbar entitet. Vi
   För översättningar och för verk som har givits ut under olika titlar på samma språk eller när samma titel har använts för olika verk, ska den föredragna titeln för verket anges. För övriga verk, hoppa över detta fält.  
   "Originaltitel" anger du här.  
   Skriv in uppgiften.  
-  ```Exempel:  Soldier spy```
+  ```Exempel:  Soldier spy```  
+  För en titel som börjar med bestämd eller obestämd artikel, ska artikeln fileras bort. Ange fileringsvärde genom att lägga till delfältet fileringsvärde och ange en siffra. Exempel: Huvudtitel: En arbetsdag i skriftsamhället, fileringsvärde: 3   
   
 * Språk (language = 008/35-37)  
   Här anger du det språk som den text du beskriver är skriven på. För en text på svenska, ange svenska. För att ange      originalspråk för ett översatt verk, se Originalversion/Verk/Språk.  
@@ -209,17 +210,17 @@ Skapa verket som lokal entitet eller bryt ut verket till en länkbar entitet. Vi
   
   För en översättning, ange även:
 * Språk/Benämning (Language/label = 240 ‡l)  
-  Skriv in språket i klartext. Det du skriver här - verkets (översättningens) språk - visas som ett tillägg till verkets titel i marcpostens 240 ‡l.  
+  Skriv in språket i klartext. Denna klartext - verkets (översättningens) språk - visas som ett tillägg till verkets titel i marcpostens 240 ‡l.  
   ```Exempel: Svenska```  
 
-* Originalversion/Verk/Språk (originalVersion/Work/language = 041 i1: 1)  
+* Anmärkning: Språk (marc:language note = 041 i1: 1)  
   Ange om resursen innehåller en översättning. Välj från lista.  
   ```Exempel: objektet innehåller översättning```  
 
-* Innehåller översättning (originalversion/Work/language = 041 ‡h)  
-  Här anger du det språk som den text du beskriver är skriven på. För en text på svenska, ange svenska. För att ange      originalspråk för ett översatt verk, se Översättning av/Verk/Språk.  
+* Originalversion/Verk/Språk (originalversion/Work/language = 041 ‡h)  
+  Här anger du det språk som en översatt text är översatt från. För en text som är översatt från engelska till svenska, ange   engelska här.  
   Länka till entitet.  
-  ```Exempel: svenska (swe)```
+  ```Exempel: engelska (eng)```
 
 * Medverkan och funktion/Primär medverkan/Agent/Person (contribution/PrimaryContribution/agent/Person = 100 1/- ‡a)  
   Länka till entitet.
