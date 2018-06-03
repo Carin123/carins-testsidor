@@ -92,6 +92,7 @@ samt andra poster.
 * Utgivning  
   Välj typ från lista. För seriell resurs, välj Primär utgivningsperiod.  
   (= Typ av utgivningsdatum/utgivningsstatus) (008/06)    
+  Begreppet "Primär utgivning" har infört i Libris, främst för seriella resurser, där det ibland finns upprepade utgivningsavsnitt. Primär utgivning är då det första och sammanfattande utgivningsavsnittet.  
    
   * Land (country = 008/15-17)  
   Länka till entitet.  
