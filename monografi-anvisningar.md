@@ -223,7 +223,7 @@ Skapa verket som lokal entitet eller bryt ut verket till en länkbar entitet. Vi
   ```Exempel: engelska (eng)```
 
 * Medverkan och funktion/Primär medverkan/Agent/Person (contribution/PrimaryContribution/agent/Person = 100 1/- ‡a)  
-  Länka till entitet.
+  Länka till entitet.  
   I undantagsfall, skapa lokal entitet och skriv in uppgiften. 
 * Medverkan och funktion/Primär medverkan/Agent/Person/Efternamn (contribution/PrimaryContribution/agent/Person/familyName)  
   ```Exempel: Marcus```
@@ -297,18 +297,18 @@ Skapa verket som lokal entitet eller bryt ut verket till en länkbar entitet. Vi
 
 * Genre/form – saogf-termer (genreForm = 655 -/7 ‡a, ‡2 saogf)  
   Länka till entitet.  
-  Under Genre/form, välj Genre/form i listan över typer.   
+  För att söka efter saogf-termer, välj Genre/form i listan över typer, under Genre/form.   
   ```Exempel: Självbiografier```
 
 * Genre/form – litterär genre (genreForm = 008/33)  
   Länka till entitet.  
-  Under Genre/form, välj Litterär genre i listan över typer.  
+  För att söka efter Litterär genre, välj Litterär genre i listan över typer, under Genre/form.  
   ```Exempel: 0 ( = ej skönlitterärt verk)```
 
 * Genre/form – biografiskt material (genreForm = 008/34)  
   Länka till entitet.  
-  Under Genre/form, välj Biografiskt material i listan över typer.  
-  ```Exempel: a (= självbiografi)```  
+  För att söka efter Biografiskt material, välj Biografiskt material i listan över typer, under Genre/form.  
+    ```Exempel: a (= självbiografi)```  
   
  * Målgrupp (intendedAudience = 008/22)  
   Länka till entitet.  
@@ -317,4 +317,4 @@ Skapa verket som lokal entitet eller bryt ut verket till en länkbar entitet. Vi
 * Innehållstyp (contentType/ContentType = 336 ‡b)  
   Länka till entitet.  
   ```Exempel: text (txt)```  
-  För att lägga till ytterligare innehållstyp, t"ill exempel "sti = stillbild för en bilderbok med både text och bild, ange Har del/Verk/Innehållstyp/Innehållstyp.  
+  För att lägga till ytterligare innehållstyp, till exempel "sti" = stillbild för en bilderbok med både text och bild, ange Har del/Verk/Innehållstyp/Innehållstyp.  
