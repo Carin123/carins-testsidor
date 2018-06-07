@@ -270,14 +270,6 @@ Skapa verket som lokal entitet eller bryt ut verket till en länkbar entitet. Vi
 * Ämne/Agent/Person/Förnamn (subject/agent/person/givenName)  
   ```Exempel: Tom```
 
-* Ämne/Jurisdiktion/Är del av/Jurisdiktion/Namn (subject/Jurisdiction/isPartof/Jurisdiction/name = 610 1/4 ‡a)  
-    Länka till entitet.  
-    I undantagsfall, skapa lokal entitet. Skriv in uppgiften.  
-    ```Exempel: Storbritannien```
-
-* Ämne/Agent/Jurisdiktion/Namn på underordnad enhet (subject/Jurisdiction/isPartof/Jurisdiction/marc:subordinateUnit = 610 ‡b)  
-  ```Exempel: MI5```  
-  
 * Ämne - sao-term (subject = 650 -/7 ‡a, ‡2 sao)  
   Länka till entitet.  
   ```Exempel: Säkerhetspolitik```
