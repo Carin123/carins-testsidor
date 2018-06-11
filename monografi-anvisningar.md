@@ -37,7 +37,7 @@ samt exempel hämtade från andra poster.
   ```Exempel: svenska (swe)```
 
 * Katalogiseringsregler (descriptionConventions = 040 ‡e)  
-  För post katalogiserad enligt RDA, länka till entitet: marc/Isbd samt skapa lokal entitet med Kod: rda    
+  För post katalogiserad enligt RDA, sök fram och länka till entitet: "ISBD-interpunktions finns: i" (välj Regler för deskriptiv katalogisering vid sökningen). Skapa också lokal entitet under Katalogiseringregler, välj typ Katalogiseringsregler. Lägg till Kod. Skriv in "rda".    
   ```Exempel: marc/Isbd (länkad entitet) + lokal entitet, Kod: rda```
 
 * Beskrivningsnivå (000/17)  
