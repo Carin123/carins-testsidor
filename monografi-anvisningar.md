@@ -264,7 +264,7 @@ Skapa verket som lokal entitet eller bryt ut verket till en länkbar entitet. Vi
   Länka till entitet. 
   I undantagsfall, skapa lokal entitet. Skriv in uppgiften. 
 
-* Ämne/Agent/Person/Familjenamn (subject/agent/person/familyName)  
+* Ämne/Agent/Person/Efternamn (subject/agent/person/familyName)  
   ```Exempel: Marcus```
 
 * Ämne/Agent/Person/Förnamn (subject/agent/person/givenName)  
