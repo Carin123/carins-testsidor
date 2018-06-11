@@ -40,7 +40,7 @@ samt andra poster.
   ```Exempel: Rättad eller reviderad post```
   
 * Anmärkning/Anmärkning om katalogiseringskälla (588)  
-   ```Exempel: NNLT: 1991-1999 bibliograferad för NLT```  
+   ```Exempel: NLT: 1991-1999 bibliograferad för NLT```  
   
 
 ### Instans
