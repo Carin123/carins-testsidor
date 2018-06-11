@@ -20,7 +20,7 @@ samt exempel hämtade från andra poster.
   Förval: den sigel som skapat posten. Ska inte ändras.  
   ```Exempel: BOKR```
 
-* Uppgraderad eller importerad av/Organisation/Namn (descriptionUpgrader/Organization/name = 040 ‡d)  
+* Uppgraderad eller importerad av/Bibliotek/Sigel (descriptionUpgrader/Library/sigel = 040 ‡d)  
   Länka till entitet.  
   ```Exempel: S```
 
