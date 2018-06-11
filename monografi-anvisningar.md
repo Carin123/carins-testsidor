@@ -48,6 +48,10 @@ samt exempel hämtade från andra poster.
   Uppdateras automatiskt. Ändra inte.   
   ```Exempel: Ny post```  
   ```Exempel: Rättad eller reviderad post```
+  
+* Anmärkning/Anmärkning om katalogiseringskälla (588)  
+   ```Exempel: NB: ISBN, tryckort och tryckeri på inklistrad etikett```  
+  
 
 ### Instans
 * Utgivningssätt (issuanceType)  
