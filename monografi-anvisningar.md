@@ -50,7 +50,7 @@ samt exempel hämtade från andra poster.
   ```Exempel: Rättad eller reviderad post```
   
 * Anmärkning/Anmärkning om katalogiseringskälla (588)  
-   ```Exempel: NB: ISBN, tryckort och tryckeri på inklistrad etikett```  
+   ```Exempel: NB: Vid katalogiseringstillfället har NB endast tillgång till 2. tr., 2009```  
   
 
 ### Instans
