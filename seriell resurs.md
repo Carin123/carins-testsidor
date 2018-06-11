@@ -14,9 +14,9 @@ samt andra poster.
   Förval: den sigel som skapat posten. Ska inte ändras.  
   ```Exempel: S```  
   
-* Uppgraderad eller importerad av/Bibliotek/Sigel (descriptionUpgrader/Library/sigel = 040 ‡d)
-Länka till entitet.
-Exempel: S
+* Uppgraderad eller importerad av/Bibliotek/Sigel (descriptionUpgrader/Library/sigel = 040 ‡d)  
+  Länka till entitet.  
+  ```Exempel: S```
 
 * Bibliografi/Bibliotek/Sigel (bibliography/Library/sigel = 042 ‡9)  
   Länka till entitet.  
