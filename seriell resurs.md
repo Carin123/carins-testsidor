@@ -38,6 +38,10 @@ samt andra poster.
   Uppdateras automatiskt. Ändra inte.   
   ```Exempel: Ny post```  
   ```Exempel: Rättad eller reviderad post```
+  
+* Anmärkning/Anmärkning om katalogiseringskälla (588)  
+   ```Exempel: NNLT: 1991-1999 bibliograferad för NLT```  
+  
 
 ### Instans
 * Utgivningssätt (issuanceType)  
