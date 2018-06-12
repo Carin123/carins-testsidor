@@ -313,4 +313,4 @@ Skapa verket som lokal entitet eller bryt ut verket till en länkbar entitet. Vi
 * Innehållstyp (contentType/ContentType = 336 ‡b)  
   Länka till entitet.  
   ```Exempel: text (txt)```  
-  För att lägga till ytterligare innehållstyp, till exempel "sti" = stillbild för en bilderbok med både text och bild, ange Har del/Verk/Innehållstyp/Innehållstyp.  
+  För att lägga till ytterligare innehållstyp, till exempel "sti" = stillbild för en bilderbok med både text och bild, ange Har del/Verk/Innehållstyp/Innehållstyp (från Lägg till fält under Instans av Verk).   
