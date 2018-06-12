@@ -113,11 +113,11 @@ samt exempel hämtade från andra poster.
   ```Exempel: Sverige (sw)```  
   * Plats/Plats/Benämning (= Utgivningsort) (place/label = 264 -/1 ‡a)  
   För att lägga till Plats, klicka på Lägg till fält under Primär utgivning och välj Plats. Sök inte efter Plats som entitet utan välj istället Skapa lokal entitet, typ Plats. Lägg till Benämning.  
-  Skriv in uppgiften. Plats ska inte länkas som entitet.  
+  Skriv in uppgiften. Klamra vid behov. Plats ska inte länkas som entitet.  
   ```Exempel: [Göteborg]```  
   * Agent/Benämning (= Utgivarnamn) (agent/label = 264 -/1 ‡b)  
   För att lägga till Agent, klicka på Lägg till fält under Primär utgivning och välj Agent. Sök inte efter Agent som entitet utan välj istället Skapa lokal entitet, typ Agent. Lägg till Benämning.  
-  Skriv in uppgiften. Utgivarnamn ska inte länkas som entitet.  
+  Skriv in uppgiften. Klamra vid behov. Utgivarnamn ska inte länkas som entitet.  
   ```Exempel: NoNa```  
   * År (= Utgivningstid) (date = 008/07-10, 264 -/1 ‡c)  
  Ange utgivningsår, utan klamrar eller andra tecken, endast fyra positioner. Skriv in uppgiften.  
@@ -136,7 +136,7 @@ För att ange ett år utan klamrar eller andra tecken, ange det endast här. Fö
   * Agent/Benämning (agent/label = 264 -/3 ‡b)  
   Skriv in uppgiften.   
   ```Exempel: Scandbook```  
-  * Datum (= Tillverkninstid) (date = 264 -/3 ‡c)  
+  * Datum (= Tillverkningstid) (date = 264 -/3 ‡c)  
    Skriv in uppgiften. Klamra vid behov.  
   ```Exempel: 2017```  
   ```Exempel: [2017]```  
