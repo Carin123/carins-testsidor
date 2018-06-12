@@ -116,7 +116,7 @@ samt exempel hämtade från andra poster.
   Skriv in uppgiften. Plats ska inte länkas som entitet.  
   ```Exempel: [Göteborg]```  
   * Agent/Benämning (= Utgivarnamn) (agent/label = 264 -/1 ‡b)  
-  För att lägga till Agent, klicka på Lägg till fält under Primär utgivning och välj Agent. Sök inte efter Agent som entitet utan välj istället Skapa lokal entitet, typ Plats. Lägg till Benämning.  
+  För att lägga till Agent, klicka på Lägg till fält under Primär utgivning och välj Agent. Sök inte efter Agent som entitet utan välj istället Skapa lokal entitet, typ Agent. Lägg till Benämning.  
   Skriv in uppgiften. Utgivarnamn ska inte länkas som entitet.  
   ```Exempel: NoNa```  
   * År (= Utgivningstid) (date = 008/07-10, 264 -/1 ‡c)  
@@ -136,6 +136,10 @@ För att ange ett år utan klamrar eller andra tecken, ange det endast här. Fö
   * Agent/Benämning (agent/label = 264 -/3 ‡b)  
   Skriv in uppgiften.   
   ```Exempel: Scandbook```  
+  * Datum (= Tillverkninstid) (date = 264 -/3 ‡c)  
+   Skriv in uppgiften. Klamra vid behov.  
+  ```Exempel: 2017```  
+  ```Exempel: [2017]```  
   
 * Copyright/Copyright/Datum (copyright/Copyright/date = 264 -/4 ‡c)  
   Skriv in uppgiften. För att få fram copyrighttecknet, se [Specialtecken](https://libris-dev.kb.se/katalogisering/help/search-04-special-chars). Du kan t ex söka på teckenuppsättning i “Sök i windows” och öppna programmet, markera och kopiera tecknet och sedan klistra in det.  
