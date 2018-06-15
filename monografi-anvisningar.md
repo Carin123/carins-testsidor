@@ -124,10 +124,11 @@ samt exempel hämtade från andra poster.
   För att ange ett år utan klamrar eller andra tecken, ange det endast här. Det kommer då att visas i både marcpostens 08/07-10 och 264 -/1 ‡c. För att ange årtal med klamrar eller andra tecken utöver fyra positioner, använd Datum.  
   ```Exempel: 2017```  
   * Datum (= Utgivningstid) (date = 264 -/1 ‡c)  
- För att ange ett utgivningsdatum med fler än fyra positioner, skriv in det här. Det kommer att visas i marcpostens  264 -/1 ‡c. Skriv in uppgiften.  
- För att ange ett år utan klamrar eller andra tecken, använd endast År.   
- Skriv in uppgiften.  
-  ```Exempel: [2017]```  
+  Datum får innehålla text och interpunktionstecken.  
+  För att ange ett utgivningsdatum med fler än fyra positioner, skriv in det här. Det kommer att visas i marcpostens  264 -/1 ‡c. Skriv in uppgiften.  
+  För att ange ett år utan klamrar eller andra tecken, använd endast År.   
+  Skriv in uppgiften.  
+  ```Exempel: [2017]```   
   ```Exempel: [mellan 1863 och 1866?]```  
 
 * Tillverkning (manufacture)  
