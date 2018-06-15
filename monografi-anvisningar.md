@@ -112,7 +112,7 @@ samt exempel hämtade från andra poster.
   Länka till entitet.  
   ```Exempel: Sverige (sw)```  
   * Plats/Plats/Benämning (= Utgivningsort) (place/label = 264 -/1 ‡a)  
-  För att lägga till Plats, klicka på Lägg till fält under Primär utgivning och välj Plats. Sök inte efter Plats som entitet utan välj istället Skapa lokal entitet, typ Plats. Lägg till Benämning.  
+  För att lägga till Plats, klicka på Lägg till fält under Primär utgvning och välj Plats. Sök inte efter Plats som entitet utan välj istället Skapa lokal entitet, typ Plats. Lägg till Benämning.  
   Skriv in uppgiften. Klamra vid behov. Plats ska inte länkas som entitet.  
   ```Exempel: [Göteborg]```  
   * Agent/Benämning (= Utgivarnamn) (agent/label = 264 -/1 ‡b)  
@@ -120,8 +120,9 @@ samt exempel hämtade från andra poster.
   Skriv in uppgiften. Klamra vid behov. Utgivarnamn ska inte länkas som entitet.  
   ```Exempel: NoNa```  
   * År (= Utgivningstid) (date = 008/07-10, 264 -/1 ‡c)  
+  År får endast innehålla siffror (0-9) och bokstaven u.  
   Ange utgivningsår, utan klamrar eller andra tecken, endast fyra positioner. Skriv in uppgiften.  
-  För att ange ett år utan klamrar eller andra tecken, ange det endast här. Det kommer då att visas i både marcpostens 08/07-10 och 264 -/1 ‡c. För att ange årtal med klamrar eller andra tecken utöver fyra positioner, använd Datum.  
+  För att ange ett år utan klamrar eller andra tecken, ange det endast här. Det kommer då att exporteras till både marcpostens 08/07-10 och 264 -/1 ‡c. För att ange årtal med klamrar eller andra tecken utöver fyra positioner, använd Datum.  
   ```Exempel: 2017```  
   * Datum (= Utgivningstid) (date = 264 -/1 ‡c)  
   Datum får innehålla text och interpunktionstecken.  
