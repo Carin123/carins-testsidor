@@ -147,6 +147,26 @@ samt exempel hämtade från andra poster.
   Skriv in uppgiften. För att få fram copyrighttecknet, se [Specialtecken](https://libris-dev.kb.se/katalogisering/help/search-04-special-chars). Du kan t ex söka på teckenuppsättning i “Sök i windows” och öppna programmet, markera och kopiera tecknet och sedan klistra in det.  
   ```Exempel: ©2017``` 
   
+* Omfång/Omfång/Benämning (extent/Extent/label = 300 ‡a)  
+  Skriv in uppgiften.  
+  ```Exempel: 319 sidor```  
+  
+* Övriga fysiska detaljer (other physical details = 300 ‡b)  
+  Skriv in uppgiften.  
+  ```Exempel: illustrationer```
+
+* Mått/Mått/Benämning (hasDimensions/Dimensions/label = 300 ‡c)  
+  Skriv in uppgiften.  
+  ```Exempel: 24 cm```   
+  
+* Medietyp (mediaType/Mediatype = 337 ‡b)  
+  Länka till entitet.  
+  ```Exempel:  n (= omedierad)```
+
+* Bärartyp (carrierType/CarrierType = 338 ‡b)  
+  Länka till entitet.  
+```Exempel:  nc (= volym)```  
+
 * Seriemedlemskap/Ingår i serie (seriesMembership)  
   (Länka till entitet.  
   I undantagsfall, skapa lokal entitet och skriv in uppgiften.)   
@@ -172,27 +192,7 @@ samt exempel hämtade från andra poster.
 * Seriemedlemskap/Ingår i serie/Instans av Verk/Verk/Har titel/Titel/Huvudtitel (seriesMembership/inSeries/InstanceofWork/Work/hasTitle/Title/mainTitle = 830 ‡a)  
   Skriv in uppgiften.   
   ```Exempel: Årstasällskapets för Fredrika Bremer-studier skriftserie```    
- 
-* Medietyp (mediaType/Mediatype = 337 ‡b)  
-  Länka till entitet.  
-  ```Exempel:  n (= omedierad)```
 
-* Bärartyp (carrierType/CarrierType = 338 ‡b)  
-  Länka till entitet.  
-```Exempel:  nc (= volym)```
-
-* Omfång/Omfång/Benämning (extent/Extent/label = 300 ‡a)  
-  Skriv in uppgiften.  
-  ```Exempel: 319 sidor```  
-  
-* Övriga fysiska detaljer (other physical details = 300 ‡b)  
-  Skriv in uppgiften.  
-  ```Exempel: illustrationer```
-
-* Mått/Mått/Benämning (hasDimensions/Dimensions/label = 300 ‡c)  
-  Skriv in uppgiften.  
-  ```Exempel: 24 cm```
-  
 * Anmärkning/Anmärkning/Benämning (hasNote/Note/label = 500 ‡a)  
   Skriv in uppgiften.  
   Skriv in allmänna anmärkningar här. Anmärkningar om specifika fält skrivs in i Kommentar (note) under respektive fält, när sådana specifika anmärkningsfält finns. 
