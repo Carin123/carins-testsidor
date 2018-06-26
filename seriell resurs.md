@@ -15,7 +15,7 @@ samt andra poster.
   ```Exempel: S```  
   
 * Uppgraderad eller importerad av/Bibliotek/Sigel (descriptionUpgrader/Library/sigel = 040 ‡d)  
-  Skapa lokal entitet. Klicka på Lägg till agent (+-ikonen vid rubriken Uppgraderad eller importerad av), välj därefter Bibliotek. Lägg till Sigel (+ikonen Lägg till fält under Bibliotek). Skriv in uppgiften.    
+  Skapa lokal entitet. Klicka på Lägg till agent (+-ikonen vid rubriken Uppgraderad eller importerad av), välj därefter Skapa lokal entitet. Välj Bibliotek i rullgardinsmenyn. Lägg till Sigel (+ikonen Lägg till fält under Bibliotek). Skriv in uppgiften.     
   ```Exempel: S```  
 
 * Bibliografi/Bibliotek/Sigel (bibliography/Library/sigel = 042 ‡9)  
