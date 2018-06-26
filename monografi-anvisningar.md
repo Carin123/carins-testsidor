@@ -169,12 +169,10 @@ samt exempel hämtade från andra poster.
 ```Exempel:  nc (= volym)```  
 
 * Seriemedlemskap/Ingår i serie (seriesMembership)  
-  (Länka till entitet.  
-  I undantagsfall, skapa lokal entitet och skriv in uppgiften.)   
-  Avvakta med att skapa verk som länkade entiteter. Beskriv serien som lokal entitet, enligt exempel nedan.   
+  Avvakta med att skapa verk som länkade entiteter. Beskriv serien som lokal entitet, enligt exempel nedan.  
    
 * Seriemedlemskap/Indikator för seriebiuppslag (marc:seriesTracingPolicy = 490 i1: 0/1)  
-    Skriv in uppgiften.  
+  Skriv in uppgiften.  
   ```Exempel: 0```  
   ```Exempel: 1```  
   
