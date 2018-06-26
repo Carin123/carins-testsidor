@@ -21,7 +21,7 @@ samt exempel hämtade från andra poster.
   ```Exempel: BOKR```
 
 * Uppgraderad eller importerad av/Bibliotek/Sigel (descriptionUpgrader/Library/sigel = 040 ‡d)  
-  Länka till entitet.  
+  Skapa lokal entitet. Skriv in uppgiften.    
   ```Exempel: S```
 
 * Bibliografi/Bibliotek/Sigel (bibliography/Library/sigel = 042 ‡9)  
