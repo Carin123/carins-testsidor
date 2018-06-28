@@ -50,9 +50,7 @@ samt exempel hämtade från andra poster.
   ```Exempel: Ny post```  
   ```Exempel: Rättad eller reviderad post```
   
-* Anmärkning/Anmärkning om katalogiseringskälla (588)  
-   ```Exempel: NB: Vid katalogiseringstillfället har NB endast tillgång till 2. tr., 2009```  
-  
+ 
 
 ### Instans
 * Utgivningssätt (issuanceType)  
