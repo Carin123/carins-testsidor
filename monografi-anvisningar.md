@@ -109,8 +109,9 @@ samt exempel hämtade från andra poster.
   ```Exempel: Första upplagan```  
   
 * Utgivning (publication)  
-  Välj typ från lista. För monografier, välj Primär utgivning. (= Typ av utgivningsdatum/utgivningsstatus) (008/06)  
-  Begreppet "Primär utgivning" har införts i Libris, främst för seriella resurser, där det ibland finns upprepade utgivningsavsnitt. Primär utgivning är då det första och sammanfattande utgivningsavsnittet. Primär utgivning används även för monografier, men följs där inte av något ytterligare utgivningsavsnitt.  
+  Välj typ från lista.  
+  Om det endast finns ett utgivningsavsnitt använd Primär utgivning. Om det finns upprepade utgivningsavsnitt, t ex vid flera utgivare, använd Primär utgivning för den första utgivningsuppgiften. För nästa utgivningsuppgift, använd Utgivning.  
+  
   * Land (country = 008/15-17)  
   Länka till entitet.  
   ```Exempel: Sverige (sw)```  
