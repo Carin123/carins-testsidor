@@ -68,7 +68,6 @@ samt exempel hämtade från andra poster.
  Se exempel i formathandboken för Libris/Voyager: Fileringsindikator
  
  
- http://www.kb.se/katalogisering/Formathandboken/Fileringsindikator/
 [ Fileringsindikator]( http://www.kb.se/katalogisering/Formathandboken/Fileringsindikator/)
  
   http://github.com - automatic!
