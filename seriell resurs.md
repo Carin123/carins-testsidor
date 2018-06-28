@@ -39,9 +39,12 @@ För post katalogiserad enligt RDA, sök fram och länka till entitet: "ISBD-int
   ```Exempel: Ny post```  
   ```Exempel: Rättad eller reviderad post```
   
-* Anmärkning/Anmärkning om katalogiseringskälla (588)  
-   ```Exempel: NLT: 1991-1999 bibliograferad för NLT```  
-  
+* Systemteknisk anmärkning/Benämning (599)  
+ 
+ Följande anmärkningar är under arbete och fungerar ännu inte fullt ut:  
+ * Katalogisatörens anmärkning  
+ * Anmärkning om katalogiseringskälla  
+
 
 ### Instans
 * Utgivningssätt (issuanceType)  
