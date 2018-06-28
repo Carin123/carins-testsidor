@@ -176,9 +176,9 @@ samt exempel hämtade från andra poster.
   Avsnittet Seriemedlemskap är under utredning. För närvarande måste man fylla i två Seriemedlemskap för att vid export till MARC få ut både 490 och 830. Om serien har ett ISSN ska även Identifikator/ISSN läggas till båda seriemedlemskapen. För mer information, se [Libris supportforum] (https://kundo.se/org/librisxl/d/uppgifter-om-seriemedlemskap-saknas-i-marc-export/).  
    
 * Seriemedlemskap/Indikator för seriebiuppslag (marc:seriesTracingPolicy = 490 i1: 0/1)  
-  Ange indikator 0 om endast serieuppgift, ISSN, numrering inom serie ska anges (om det inte finns en seriehuvudpost). Motsvarar tidigare fält 490 i MARC.  
+  Ange indikator 0 om endast serieuppgift samt eventuellt ISSN och eventuell numrering inom serie ska anges (om det inte finns en seriehuvudpost).   
     ```Exempel: 0```  
-  Ange indikator 1 om Seriemedlemskap/Ingår i serie/Instans av Verk anges (om det finns en seriehuvudpost). Motsvarar tidigare fält 830 i MARC.  
+  Ange indikator 1 om Seriemedlemskap/Ingår i serie/Instans av Verk/Verk/Har titel/Titel/Huvudtitel (motsvarande 830 i MARC) anges (om det finns en seriehuvudpost).  
   Skriv in uppgiften.  
   ```Exempel: 1```  
   
