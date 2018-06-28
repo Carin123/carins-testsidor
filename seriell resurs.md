@@ -95,9 +95,9 @@ För post katalogiserad enligt RDA, sök fram och länka till entitet: "ISBD-int
 
 * Utgivning  
   Välj typ från lista. För seriell resurs, välj Primär utgivningsperiod.  
-  (= Typ av utgivningsdatum/utgivningsstatus) (008/06)    
-  Begreppet "Primär utgivning" har infört i Libris, främst för seriella resurser, där det ibland finns upprepade utgivningsavsnitt. Primär utgivning är då det första och sammanfattande utgivningsavsnittet.  
-   
+  (= Typ av utgivningsdatum/utgivningsstatus) (008/06)   
+  Begreppet "Primär utgivning" har införts i Nya Libris. Om det endast finns ett utgivningsavsnitt används Primär utgivning. Om det finns upprepade utgivningsavsnitt, t ex vid flera utgivare, används Primär utgivning för den första utgivningsuppgiften. För nästa utgivningsuppgift, använd Utgivning.  
+  
   * Land (country = 008/15-17)  
   Länka till entitet.  
   ```Exempel: Sverige (sw)```  
