@@ -173,11 +173,13 @@ samt exempel hämtade från andra poster.
 * Seriemedlemskap/Ingår i serie (seriesMembership)  
   Avvakta med att skapa verk som länkade entiteter. Beskriv serien som lokal entitet, enligt exempel nedan.  
   
-  Avsnittet Seriemedlemskap är under utredning. För närvarande måste man fylla i två Seriemedlemskap för att vid export till MARC få ut både 490 och 830. Om serien har ett ISSN ska även Identifikator/ISSN läggas till båda seriemedlemsskapen. För mer information, se [Libris supportforum] (https://kundo.se/org/librisxl/d/uppgifter-om-seriemedlemskap-saknas-i-marc-export/).  
+  Avsnittet Seriemedlemskap är under utredning. För närvarande måste man fylla i två Seriemedlemskap för att vid export till MARC få ut både 490 och 830. Om serien har ett ISSN ska även Identifikator/ISSN läggas till båda seriemedlemskapen. För mer information, se [Libris supportforum] (https://kundo.se/org/librisxl/d/uppgifter-om-seriemedlemskap-saknas-i-marc-export/).  
    
 * Seriemedlemskap/Indikator för seriebiuppslag (marc:seriesTracingPolicy = 490 i1: 0/1)  
+  Ange indikator 0 om endast serieuppgift, ISSN, numrering inom serie ska anges (om det inte finns en seriehuvudpost). Motsvarar tidigare fält 490 i MARC.  
+    ```Exempel: 0```  
+  Ange indikator 1 om Seriemedlemskap/Ingår i serie/Instans av Verk anges (om det finns en seriehuvudpost). Motsvarar tidigare fält 830 i MARC.  
   Skriv in uppgiften.  
-  ```Exempel: 0```  
   ```Exempel: 1```  
   
 * Seriemedlemskap/Serieuppgift (seriesMembership/seriesStatement = 490 ‡a)  
