@@ -95,7 +95,7 @@ För post katalogiserad enligt RDA, sök fram och länka till entitet: "ISBD-int
 
 * Utgivning  
   Välj typ från lista.  
-  Om det endast finns ett utgivningsavsnitt använd Primär utgivning. Om det finns upprepade utgivningsavsnitt, t ex vid flera utgivare, använd Primär utgivning för den första utgivningsuppgiften. För nästa utgivningsuppgift, använd Utgivning.  
+  Om det endast finns ett utgivningsavsnitt, använd Primär utgivning. Om det finns upprepade utgivningsavsnitt, t ex vid flera utgivare, använd Primär utgivning för den första utgivningsuppgiften. För nästa utgivningsuppgift, använd Utgivning.  
   
   * Land (country = 008/15-17)  
   Länka till entitet.  
