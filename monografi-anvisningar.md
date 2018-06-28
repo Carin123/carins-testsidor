@@ -51,7 +51,10 @@ samt exempel hämtade från andra poster.
   ```Exempel: Rättad eller reviderad post```
   
  * Systemteknisk anmärkning/Benämning (599)  
-  
+ 
+ Följande anmärkningar är under arbete och fungerar ännu inte fullt ut:  
+ * Katalogisatörens anmärkning  
+ * Anmärkning om katalogiseringskälla  
  
 
 ### Instans
