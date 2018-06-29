@@ -252,6 +252,9 @@ Skapa verket som lokal entitet eller bryt ut verket till en länkbar entitet. Vi
   Länka till entitet.  
   ```Exempel: engelska (eng)```
   
+* Medverkan och funktion  
+  Läs mer om [Auktoritetsgruppens rekommendationer](https://kundo.se/org/librisxl/d/kbs-auktoritetsgrupp-informerar-jraz/)  
+  
 * Medverkan och funktion/Primär medverkan/Agent/Person (contribution/PrimaryContribution/agent/Person = 100 1/- ‡a)  
   Länka till entitet.  
   I undantagsfall, skapa lokal entitet och skriv in uppgiften. 
