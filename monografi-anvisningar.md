@@ -288,6 +288,12 @@ Skapa verket som lokal entitet eller bryt ut verket till en länkbar entitet. Vi
   Skriv in uppgiften.  
  ```Exempel: https://id.kb.se/term/kssb/8```
 
+* Ämne  
+  Läs mer:  
+  [Lägg till auktoriserade ämnesord](https://libris.kb.se/katalogisering/help/workflow-linked-entity-sh)  
+  [Lägg till kontrollerade men ej auktoriserade ämnesord](https://libris.kb.se/katalogisering/help/workflow-controlled-non-auth-sh)  
+  [Lägg till sammansatt men ej auktoriserat ämnesord](https://libris.kb.se/katalogisering/help/workflow-non-auth-sh)  
+  
 * Ämne/Agent/Person (subject/agent/person = 600 1/- ‡a)  
   Länka till entitet. 
   I undantagsfall, skapa lokal entitet. Skriv in uppgiften. 
