@@ -113,8 +113,7 @@ samt exempel hämtade från andra poster.
   ```Exempel: Första upplagan```  
   
 * Utgivning (publication)  
-  Välj typ från lista.  
-  Om det endast finns ett utgivningsavsnitt, använd Primär utgivning. Om det finns upprepade utgivningsavsnitt, t ex vid flera utgivare, använd Primär utgivning för den första utgivningsuppgiften. För nästa utgivningsuppgift, använd Utgivning.  
+  Välj typ från lista. För monografier, använd Primär utgivning.  
   
   * Land (country = 008/15-17)  
   Länka till entitet.  
@@ -127,6 +126,10 @@ samt exempel hämtade från andra poster.
   För att lägga till Agent, klicka på Lägg till fält under Primär utgivning och välj Agent. Sök inte efter Agent som entitet utan välj istället Skapa lokal entitet, typ Agent. Lägg till Benämning.  
   Skriv in uppgiften. Klamra vid behov. Utgivarnamn ska inte länkas som entitet.  
   ```Exempel: NoNa```  
+ 
+  Om flera utgivare ska anges, lägg till "Har del" (hasPart) under Primär utgivning. Lägg därefter till Utgivning som lokal entitet (klicka på +-ikonen vid Har del och klicka sedan på Skapa lokal entitet. Välj Utgivning i listan). Använd År och vid behov Datum enligt anvisningar nedan. Upprepa Har del och Utgivning som lokal entitet för nästa utgivare.
+  Se [exempel] (https://libris.kb.se/katalogisering/1kcsx46c1pmjdxz#it).
+  
   * År (= Utgivningstid) (date = 008/07-10, 264 -/1 ‡c)  
   År får endast innehålla siffror (0-9) och bokstaven u.  
   Ange utgivningsår, utan klamrar eller andra tecken, endast fyra positioner. Skriv in uppgiften.  
