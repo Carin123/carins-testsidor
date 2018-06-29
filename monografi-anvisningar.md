@@ -249,6 +249,10 @@ Skapa verket som lokal entitet eller bryt ut verket till en länkbar entitet. Vi
   Ange det språk som en översatt text är översatt från. För en text som är översatt från engelska till svenska, ange engelska här.  
   Länka till entitet.  
   ```Exempel: engelska (eng)```
+  
+* Medverkan och funktion  
+  Läs mer:  
+  [Relationer till agenter, delar och verk](https://libris.kb.se/katalogisering/help/workflow-agent-relation)
 
 * Medverkan och funktion/Primär medverkan/Agent/Person (contribution/PrimaryContribution/agent/Person = 100 1/- ‡a)  
   Länka till entitet.  
