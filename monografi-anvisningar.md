@@ -70,7 +70,7 @@ samt exempel hämtade från andra poster.
   ```Exempel: En arbetsdag i skriftsamhället```  
     För en titel som börjar med bestämd eller obestämd artikel, ska artikeln fileras bort. Ange fileringsvärde genom att lägga till delfältet fileringsvärde och ange en siffra. Exempel: Huvudtitel: En arbetsdag i skriftsamhället, fileringsvärde: 3   
  Se exempel i formathandboken för Libris/Voyager: 
-[ Fileringsindikator]( http://www.kb.se/katalogisering/Formathandboken/Fileringsindikator/)
+[Fileringsindikator]( http://www.kb.se/katalogisering/Formathandboken/Fileringsindikator/)
  
 * Har titel/Titel/Övrig titelinformation (= Undertitel) (hasTitle/Title/subTitle = 245 ‡b)  
   Skriv in uppgiften. Om det finns flera undertitlar, skriv in dessa efter varandra i samma fält, åtskilda av mellanslag, kolon, mellanslag.    
@@ -128,7 +128,7 @@ samt exempel hämtade från andra poster.
   ```Exempel: NoNa```  
  
   Om flera utgivare ska anges, lägg till "Har del" (hasPart) under Primär utgivning. Lägg därefter till Utgivning som lokal entitet (klicka på +-ikonen vid Har del och klicka sedan på Skapa lokal entitet. Välj Utgivning i listan). Använd År och vid behov Datum enligt anvisningar nedan. Upprepa Har del och Utgivning som lokal entitet för nästa utgivare.
-  Se [exempel] (https://libris.kb.se/katalogisering/1kcsx46c1pmjdxz#it).
+  Se [exempel](https://libris.kb.se/katalogisering/1kcsx46c1pmjdxz#it).
   
   * År (= Utgivningstid) (date = 008/07-10, 264 -/1 ‡c)  
   År får endast innehålla siffror (0-9) och bokstaven u.  
