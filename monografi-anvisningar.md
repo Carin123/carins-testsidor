@@ -203,13 +203,16 @@ samt exempel hämtade från andra poster.
   Skriv in uppgiften.   
   ```Exempel: Årstasällskapets för Fredrika Bremer-studier skriftserie```    
 
-* Anmärkning/Anmärkning/Benämning (hasNote/Note/label = 500 ‡a)  
+* Anmärkning/Anmärkning/Benämning (hasNote/Note/label = 500 ‡a)   
+  Skriv in allmänna anmärkningar här. Anmärkningar om specifika fält skrivs in i Kommentar (note) under respektive fält, när sådana specifika anmärkningsfält finns.  
   Skriv in uppgiften.  
-  Skriv in allmänna anmärkningar här. Anmärkningar om specifika fält skrivs in i Kommentar (note) under respektive fält, när sådana specifika anmärkningsfält finns. 
   
 * Målgrupp/Målgrupp/Benämning (intendedAudience/IntendedAudience/label = 521 ‡a)   
   Skriv in uppgiften.    
-  ```Exempel: För årskurs 1```   
+  ```Exempel: För årskurs 1```  
+  
+* Relation/Relation/Entitet/Verk/Har titel/Titel/Huvudtitel (relationship/Relationship/entity/Work/hasTitle/Title/mainTitle = 740)  
+Ange alternativa titlar här för att öka sökbarheten för titlar som innehåller exempelvis specialtecken, siffror eller oväntade stavningar av ord.  
 
 ### Verk
 
