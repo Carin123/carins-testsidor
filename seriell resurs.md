@@ -98,8 +98,8 @@ För post katalogiserad enligt RDA, sök fram och länka till entitet: "ISBD-int
   ```Exempel: 1653-2945```
 
 * Utgivning  
-  Välj typ från lista.  
-  Om det endast finns ett utgivningsavsnitt, använd Primär utgivning. Om det finns upprepade utgivningsavsnitt, t ex vid flera utgivare, använd Primär utgivning för den första utgivningsuppgiften. För nästa utgivningsuppgift, använd Utgivning.  
+  Välj typ från lista. För seriella resurser med endast en utgivare, använd Primär utgivning.  
+  För att beskriva en seriell resurs med flera utgivningsperioder (motsvarande 264, indikator 1 - sekvens av utgivaruppgifter) saknas vissa delar av formatet. Dessa är under arbete.  
   
   * Land (country = 008/15-17)  
   Länka till entitet.  
@@ -113,7 +113,7 @@ För post katalogiserad enligt RDA, sök fram och länka till entitet: "ISBD-int
   Skriv in uppgiften. Klamra vid behov. Utgivarnamn ska inte länkas som entitet.  
   ```Exempel: NoNa```  
  
-  Om flera utgivare ska anges, lägg till "Har del" (hasPart) under Primär utgivning. Lägg därefter till Utgivning som lokal entitet (klicka på +-ikonen vid Har del och klicka sedan på Skapa lokal entitet. Välj Utgivning i listan). Använd År och vid behov Datum enligt anvisningar nedan. Upprepa Har del och Utgivning som lokal entitet för nästa utgivare.
+  Om flera utgivare ska anges, lägg till "Har del" (hasPart) under Primär utgivning. Lägg därefter till Utgivning som lokal entitet (klicka på +-ikonen vid Har del och klicka sedan på Skapa lokal entitet. Välj Utgivning i listan). Använd Startår, slutår och vid behov Datum enligt anvisningar nedan. Upprepa Har del och Utgivning som lokal entitet för nästa utgivare.
   Se [exempel](https://libris.kb.se/katalogisering/1kcsx46c1pmjdxz#it).  
   
   * Datum (date = 264 -/1 ‡c)  
