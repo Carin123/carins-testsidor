@@ -142,6 +142,8 @@ samt exempel hämtade från andra poster.
   Skriv in uppgiften.  
   ```Exempel: [2017]```   
   ```Exempel: [mellan 1863 och 1866?]```  
+  
+  Läs mer om [År och Datum](https://kundo.se/org/librisxl/d/falt-for-utgivningsar/)  
 
 * Tillverkning (manufacture)  
   * Plats/Benämning (place/label = 264 -/3 ‡a)  
