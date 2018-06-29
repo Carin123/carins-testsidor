@@ -259,18 +259,15 @@ Skapa verket som lokal entitet eller bryt ut verket till en länkbar entitet. Vi
   Länka till entitet. Börja alltid med att söka efter om agenten redan finns. Klicka på Länka entitet (länkikonen) vid Person. i Sökrutan, skriv in sökbegrepp, till exempel "Strindberg, August". Om agenten visas i träfflistan, högerklicka på entiteten, öppna den i ny flik eller nytt fönster och granska den. Är agenten rätt, gå tillbaka till katalogiseringsformuläret och länka till den genom att klicka på Ersätt lokal entitet.  
   Saknas auktoriserad namnform (som konstaterats vid sökning i pop up-rutan för Länka entitet), stäng pop up-rutan och ange kända uppgifter i formuläret.  
  
-* Medverkan och funktion/Primär medverkan/Agent/Person/Efternamn (contribution/PrimaryContribution/agent/Person/familyName)  
-  ```Exempel: Marcus```
-
-* Medverkan och funktion/Primär medverkan/Agent/Person/Förnamn (contribution/PrimaryContribution/agent/Person/givenName)  
-  ```Exempel: Tom```
+* Medverkan och funktion/Primär medverkan/Agent (contribution/PrimaryContribution/agent)  
+  ```Exempel: Strindberg, August, 1849-1912```
 
 * Medverkan och funktion/Primär medverkan/Funktion (contribution/PrimaryContribution/role = 100 ‡4)  
   Länka till entitet.  
   ```Exempel: relator/author (= författare)```
 
 * Medverkan och funktion/Medverkan/Agent/Person (contribution/agent/Person = 700 1/- ‡a)  
-  Länka till entitet. Börja alltid med att söka efter om agenten redan finns. Klicka på Länka entitet (länkikonen) vid Person. i Sökrutan, skriv in sökbegrepp, till exempel "Strindberg, August". Om agenten visas i träfflistan, högerklicka på entiteten, öppna den i ny flik eller nytt fönster och granska den. Är agenten rätt, gå tillbaka till katalogiseringsformuläret och länka till den genom att klicka på Ersätt lokal entitet.  
+  Länka till entitet. Börja alltid med att söka efter om agenten redan finns. Klicka på Länka entitet (länkikonen) vid Person. i Sökrutan, skriv in sökbegrepp, till exempel "Skoglund, Svante". Om agenten visas i träfflistan, högerklicka på entiteten, öppna den i ny flik eller nytt fönster och granska den. Är agenten rätt, gå tillbaka till katalogiseringsformuläret och länka till den genom att klicka på Ersätt lokal entitet.  
   Saknas auktoriserad namnform (som konstaterats vid sökning i pop up-rutan för Länka entitet), stäng pop up-rutan och ange kända uppgifter i formuläret.  
   ```Exempel: Skoglund, Svante, 1960-```
 
