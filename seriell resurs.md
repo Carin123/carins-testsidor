@@ -104,12 +104,18 @@ För post katalogiserad enligt RDA, sök fram och länka till entitet: "ISBD-int
   * Land (country = 008/15-17)  
   Länka till entitet.  
   ```Exempel: Sverige (sw)```  
-  * Plats/Benämning (place/label = 264 -/1 ‡a)  
-  Skriv in uppgiften.  
-  ```Exempel: Brämhult```  
-  * Agent/Benämning (agent/label = 264 -/1 ‡b)  
-  Skriv in uppgiften.  
-  ```Exempel: Kammarmusikförbundet```  
+  * Plats/Plats/Benämning (= Utgivningsort) (place/label = 264 -/1 ‡a)  
+  För att lägga till Plats, klicka på Lägg till fält under Primär utgvning och välj Plats. Sök inte efter Plats som entitet utan välj istället Skapa lokal entitet, typ Plats. Lägg till Benämning.  
+  Skriv in uppgiften. Klamra vid behov. Plats ska inte länkas som entitet.  
+  ```Exempel: [Göteborg]```  
+  * Agent/Benämning (= Utgivarnamn) (agent/label = 264 -/1 ‡b)  
+  För att lägga till Agent, klicka på Lägg till fält under Primär utgivning och välj Agent. Sök inte efter Agent som entitet utan välj istället Skapa lokal entitet, typ Agent. Lägg till Benämning.  
+  Skriv in uppgiften. Klamra vid behov. Utgivarnamn ska inte länkas som entitet.  
+  ```Exempel: NoNa```  
+ 
+  Om flera utgivare ska anges, lägg till "Har del" (hasPart) under Primär utgivning. Lägg därefter till Utgivning som lokal entitet (klicka på +-ikonen vid Har del och klicka sedan på Skapa lokal entitet. Välj Utgivning i listan). Använd År och vid behov Datum enligt anvisningar nedan. Upprepa Har del och Utgivning som lokal entitet för nästa utgivare.
+  Se [exempel](https://libris.kb.se/katalogisering/1kcsx46c1pmjdxz#it).  
+  
   * Datum (date = 264 -/1 ‡c)  
   Skriv in uppgiften.  
   ```Exempel: 2011-2013```  
