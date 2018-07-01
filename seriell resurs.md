@@ -213,7 +213,7 @@ För post katalogiserad enligt RDA, sök fram och länka till entitet: "ISBD-int
   Läs mer:  
   [Lägg till auktoriserade ämnesord](https://libris.kb.se/katalogisering/help/workflow-linked-entity-sh)  
   [Lägg till kontrollerade men ej auktoriserade ämnesord](https://libris.kb.se/katalogisering/help/workflow-controlled-non-auth-sh)  
-  [Lägg till sammansatt men ej auktoriserat ämnesord](https://libris.kb.se/katalogisering/help/workflow-non-auth-sh)  
+  [Lägg till sammansatta men ej auktoriserade ämnesord](https://libris.kb.se/katalogisering/help/workflow-non-auth-sh)  
 
 * Ämne/Agent/Organisation (subject/agent/Organization = 610 2/- ‡a)  
   Länka till entitet.  
