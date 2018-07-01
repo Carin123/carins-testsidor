@@ -181,9 +181,12 @@ För post katalogiserad enligt RDA, sök fram och länka till entitet: "ISBD-int
   Länka till entitet.  
   ```Exempel: 0 (= Successive entry = Titeländring ger upphov till ny post)```
   
+* Medverkan och funktion  
+  Läs [Auktoritetsgruppens rekommendationer](https://kundo.se/org/librisxl/d/kbs-auktoritetsgrupp-informerar-jraz/)  
+  
 * Medverkan och funktion/Medverkan/Agent (contribution/Contribution/agent = 710 2/- ‡a)  
-  Länka till entitet.  
-  I undantagsfall, skapa lokal entitet och skriv in uppgiften.  
+  Länka till entitet. Börja alltid med att söka efter om agenten redan finns. Klicka på Länka entitet (länkikonen) vid Person. i Sökrutan, skriv in sökbegrepp, till exempel "Lindgren, Astrid". Om agenten visas i träfflistan, högerklicka på entiteten, öppna den i ny flik eller nytt fönster och granska den. Är agenten rätt, gå tillbaka till katalogiseringsformuläret och länka till den genom att klicka på Ersätt lokal entitet.  
+  Saknas auktoriserad namnform (som konstaterats vid sökning i pop up-rutan för Länka entitet), stäng pop up-rutan och ange kända uppgifter i formuläret.  
   ```Exempel: Riksförbundet Sveriges kammarmusikarrangörer```  
 * Medverkan och funktion/Medverkan/Agent/Funktion (contribution/Contribution/agent/role = 710 ‡4)   
   Länka till entitet.   
@@ -207,7 +210,13 @@ För post katalogiserad enligt RDA, sök fram och länka till entitet: "ISBD-int
 * Ämne/Agent/Organisation (subject/agent/Organization = 610 2/- ‡a)  
   Länka till entitet.  
   I undantagsfall, skapa lokal entitet och skriv in uppgiften.   
-  ```Exempel: Riksförbundet Sveriges kammarmusikarrangörer``` 
+  ```Exempel: Riksförbundet Sveriges kammarmusikarrangörer```  
+  
+* Ämne  
+  Läs mer:  
+  [Lägg till auktoriserade ämnesord](https://libris.kb.se/katalogisering/help/workflow-linked-entity-sh)  
+  [Lägg till kontrollerade men ej auktoriserade ämnesord](https://libris.kb.se/katalogisering/help/workflow-controlled-non-auth-sh)  
+  [Lägg till sammansatt men ej auktoriserat ämnesord](https://libris.kb.se/katalogisering/help/workflow-non-auth-sh)  
   
 * Ämne/Sao-term (subject = 650 -/7 ‡a, ‡2 sao)   
    Länka till entitet.  
