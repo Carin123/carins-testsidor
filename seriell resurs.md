@@ -207,23 +207,23 @@ För post katalogiserad enligt RDA, sök fram och länka till entitet: "ISBD-int
 
 * Klassifikation/Termlista/Termlista/ID (classification/Classification/iinScheme/ConceptScheme = 084 ‡2)   
   Skriv in uppgiften.  
- ```Exempel: https://id.kb.se/term/kssb/8```
+ ```Exempel: https://id.kb.se/term/kssb/8```  
+ 
+ * Ämne  
+  Läs mer:  
+  [Lägg till auktoriserade ämnesord](https://libris.kb.se/katalogisering/help/workflow-linked-entity-sh)  
+  [Lägg till kontrollerade men ej auktoriserade ämnesord](https://libris.kb.se/katalogisering/help/workflow-controlled-non-auth-sh)  
+  [Lägg till sammansatt men ej auktoriserat ämnesord](https://libris.kb.se/katalogisering/help/workflow-non-auth-sh)  
 
 * Ämne/Agent/Organisation (subject/agent/Organization = 610 2/- ‡a)  
   Länka till entitet.  
   I undantagsfall, skapa lokal entitet och skriv in uppgiften.   
   ```Exempel: Riksförbundet Sveriges kammarmusikarrangörer```  
   
-* Ämne  
-  Läs mer:  
-  [Lägg till auktoriserade ämnesord](https://libris.kb.se/katalogisering/help/workflow-linked-entity-sh)  
-  [Lägg till kontrollerade men ej auktoriserade ämnesord](https://libris.kb.se/katalogisering/help/workflow-controlled-non-auth-sh)  
-  [Lägg till sammansatt men ej auktoriserat ämnesord](https://libris.kb.se/katalogisering/help/workflow-non-auth-sh)  
-  
 * Ämne/Sao-term (subject = 650 -/7 ‡a, ‡2 sao)   
    Länka till entitet.  
    ```Exempel: Kammarmusik```  
-   
+ 
 * Geografiskt ämnesord (subjcect = 651 -/4 ‡a)  
    Länka till entitet.  
    I undantagsfall, skapa lokal entitet och skriv in uppgiften.   
