@@ -240,7 +240,7 @@ Skapa verket som lokal entitet eller bryt ut verket till en länkbar entitet. Vi
   
   För en översättning, ange även:  
 * Språk/Språk/Benämning (Language/label = 240 ‡l)  
-  (lägg till ytterligare en förekomst av Språk, under Språk, och lägg till Benämning)  
+  Lägg till ytterligare en förekomst av Språk, under Språk, och lägg till Benämning.  
   Skriv in språket i klartext. Denna klartext - verkets (översättningens) språk - visas som ett tillägg till verkets titel i marcpostens 240 ‡l.  
   ```Exempel: Svenska```  
 
