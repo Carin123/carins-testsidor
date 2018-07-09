@@ -249,9 +249,8 @@ Skapa verket som lokal entitet eller bryt ut verket till en länkbar entitet. Vi
   ```Exempel: objektet är/innehåller översättning```  
 
 * Originalversion/Verk/Språk (originalversion/Work/language = 041 ‡h)  
-  Klicka på Lägg till fält under: Text, välj Originalversion, klicka på +-tecknet vid Originalversion, välj Skapa lokal entitet och välj Verk i listan. Klicka på Lägg till fält under: Verk och välj Språk. Klicka på +-tecknet vid Språk. Sök fram språkentiteten och länka.  
-  Ange det språk som en översatt text är översatt från. För en text som är översatt från engelska till svenska, ange engelska här.  
-  Länka till entitet.  
+  Ange det språk som en översatt text är översatt från. För en text som är översatt från engelska till svenska, ange engelska här.   
+   Klicka på Lägg till fält under: Text, välj Originalversion, klicka på +-tecknet vid Originalversion, välj Skapa lokal entitet och välj Verk i listan. Klicka på +-tecknet vid Verk (Lägg till fält under: Verk) och välj Språk. Klicka på +-tecknet vid Språk. Sök fram språkentiteten och länka.  
   ```Exempel: engelska (eng)```
   
 * Medverkan och funktion  
