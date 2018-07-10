@@ -9,6 +9,11 @@ I vissa fall fungerar det ännu inte fullt ut att lägga till alla uppgifter som
 Exempel hämtade från: Kammarmusik-nytt, ISSN 2001-2721, Voyager BibID 12683491  
 samt andra poster.
 
+[Adminmetadata](#adminmetadata)  
+[Instans](#instans)  
+[Verk](#verk)  
+
+
 ### Adminmetadata  
 * Skapad av/Organisation/Namn (descriptionCreator/Organization/name = 040 ‡a)  
   Förval: den sigel som skapat posten. Ska inte ändras.  
