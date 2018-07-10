@@ -114,7 +114,7 @@ samt exempel hämtade från andra poster.
   
 * Utgivning (publication)  
   Välj typ från lista. För monografier, använd Primär utgivning.  
-  När man redigerar maskininlästa poster med två utgivningsavsnitt bör man flytta uppgifterna om Plats, Agent och Datum till avsnittet Primär utgivning och ta bort avsnittet Utgivning.  
+  I konverterade och maskininlästa poster finns det ibland två avsnitt: ett Primär utgivning med År och Land, och ett Utgivning med Plats, Agent och Datum. När man redigerar maskininlästa poster med två utgivningsavsnitt bör man flytta uppgifterna om Plats, Agent och Datum till avsnittet Primär utgivning och ta bort avsnittet Utgivning.  
   
   * Land (country = 008/15-17)  
   Länka till entitet.  
