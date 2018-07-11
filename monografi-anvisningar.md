@@ -343,7 +343,7 @@ Skapa verket som lokal entitet eller bryt ut verket till en länkbar entitet. Vi
   Länka till entitet.  
   ```Exempel: j (= barn- och ungdom, 0-16 år)```  
   
-* Har del/Verk/Innehållstyp (contentType/ContentType = 336 ‡b)  
+* Innehållstyp/Innehållstyp (contentType/ContentType = 336 ‡b)  
   Länka till entitet.  
   ```Exempel: text (txt)```  
   För att lägga till ytterligare innehållstyp, till exempel "sti" = stillbild för en bilderbok med både text och bild, lägg till Har del under Instans av Verk, från +-tecknet vid Text (Lägg till fält under: Text). Skapa därefter Verk som lokal entitet genom att klicka på +-tecknet vid Har del (Lägg till resurs). Välj Skapa lokal entitet och välj därefter ++Verk i listan. Lägg därefter till Innehållstyp från +-tecknet vid Verk (Lägg till fält under: Verk). Sök fram och länka till entitet.    
