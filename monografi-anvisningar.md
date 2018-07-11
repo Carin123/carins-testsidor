@@ -254,6 +254,10 @@ Skapa verket som lokal entitet eller bryt ut verket till en länkbar entitet. Vi
    Klicka på Lägg till fält under: Text, välj Originalversion, klicka på +-tecknet vid Originalversion, välj Skapa lokal entitet och välj Verk i listan. Klicka på +-tecknet vid Verk (Lägg till fält under: Verk) och välj Språk. Klicka på +-tecknet vid Språk. Sök fram språkentiteten och länka.  
   ```Exempel: engelska (eng)```
   
+ * Har innehållsförteckning (innehållsanmärkning) (tableofContents = 505)  
+ För en innehållsanmärkning med endast oformaterad text (505 ‡a), lägg till Innehållsförteckning under Har innehållsförteckning, lägg därefter till Benämning.  
+ För en formaterad innehållsanmärkning (505 ‡a, ‡t), lägg till Innehållsförteckning under Har innehållsförteckning, lägg därefter till Har del/Utökad innehållsanmärkning. Lägg därefter till Benämning och eventuell Upphovsuppgift.  
+
 * Medverkan och funktion  
   Läs [Auktoritetsgruppens rekommendationer](https://kundo.se/org/librisxl/d/kbs-auktoritetsgrupp-informerar-jraz/)  
   
