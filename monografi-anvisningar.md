@@ -215,7 +215,7 @@ samt exempel hämtade från andra poster.
   
  * Har innehållsförteckning (innehållsanmärkning) (tableofContents = 505)  
  För en innehållsanmärkning med endast oformaterad text (505 ‡a), lägg till Innehållsförteckning under Har innehållsförteckning, lägg därefter till Benämning.  
- För en formaterad innehållsanmärkning (505 ‡a, ‡t), lägg till Innehållsförteckning under Har innehållsförteckning, lägg därefter till Har del/Utökad innehållsanmärkning. Lägg därefter till Benämning och eventuell Upphovsuppgift.  
+ För en formaterad innehållsanmärkning (505 ‡t, ‡r), lägg till Innehållsförteckning under Har innehållsförteckning, lägg därefter till Har del/Utökad innehållsanmärkning. Lägg därefter till Benämning och eventuell Upphovsuppgift.  
   
 * Målgrupp/Målgrupp/Benämning (intendedAudience/IntendedAudience/label = 521 ‡a)   
   Skriv in uppgiften.    
