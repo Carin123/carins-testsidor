@@ -174,7 +174,7 @@ samt exempel hämtade från andra poster.
   ```Exempel: 24 cm```   
   
 * Tillsammans med/Instans/Benämning (Bilagor) (accompaniedBy/Instance/label = 300 ‡e)  
-  Skriv in uppgiften.  
+  Under Instans, lägg till Tillsammans med. Lägg därefter till Instans, som lokal entitet, genom att klicka på +-tecknet vid Tillsammans med och därefter välja Skapa lokal entitet. Väj Instans i listan. Lägg därefter till Benämning. Skriv in uppgiften.  
    ```Exempel: 10 mönsterark```  
   
 * Medietyp (mediaType/Mediatype = 337 ‡b)  
