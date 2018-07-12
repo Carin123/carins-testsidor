@@ -173,6 +173,10 @@ samt exempel hämtade från andra poster.
   Skriv in uppgiften.  
   ```Exempel: 24 cm```   
   
+* Tillsammans med/Instans/Benämning (Bilaga) (accompaniedBy/Instance/label = 300 ‡e)  
+  Skriv in uppgiften.  
+   ```Exempel: 10 mönsterark```  
+  
 * Medietyp (mediaType/Mediatype = 337 ‡b)  
   Länka till entitet.  
   ```Exempel:  n (= omedierad)```
