@@ -242,7 +242,7 @@ För post katalogiserad enligt RDA, sök fram och länka till entitet: "ISBD-int
    
 * Genre/form - typ av fortlöpande resurs (genreForm/marc:Periodical = 008/21)  
   Länka till entitet.  
-  För att söka efter entiteter inom Typ av fortlöpande resurs, välj Typ av fortlöpande resurs i listan över typer, under Genre/form. Trunkera med * i sökrutan. Välj rätt entitet genom att klicka på Lägg till. 
+  För att söka efter entiteter inom Typ av fortlöpande resurs, välj Typ av fortlöpande resurs i listan över typer, under Genre/form. Trunkera med * i sökrutan. Välj rätt entitet genom att klicka på Lägg till.  
   ```Exempel: p (Tidskrift = marc/Periodical)```  
   
 * Genre/form – konferenspublikation (genreForm = 008/29)  
