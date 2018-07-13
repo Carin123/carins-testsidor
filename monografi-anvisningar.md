@@ -346,6 +346,16 @@ Skapa verket som lokal entitet eller bryt ut verket till en länkbar entitet. Vi
   Länka till entitet.  
   För att söka efter entiteter inom Biografiskt material, välj Biografiskt material i listan över typer, under Genre/form.  
     ```Exempel: a (= självbiografi)```  
+    
+* Genre/form – festskrift (genreForm = 008/30)  
+  Länka till entitet.  
+  För att söka efter entiteter inom Festskrift, välj Festskrift i listan över typer, under Genre/form. Trunkera med * i sökrutan. Välj rätt entitet genom att klicka på Lägg till.  
+    ```Exempel: Ja, resursen är en festskrift```       
+       
+* Genre/form – konferenspublikation (genreForm = 008/29)  
+  Länka till entitet.  
+  För att söka efter entiteter inom Konferenspublikation, välj Konferenspublikation i listan över typer, under Genre/form. Trunkera med * i sökrutan. Välj rätt entitet genom att klicka på Lägg till. 
+     ```Exempel: Ja, resursen härrör från konferens```     
   
  * Målgrupp (intendedAudience = 008/22)  
   Länka till entitet.  
