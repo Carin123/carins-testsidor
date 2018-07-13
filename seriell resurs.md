@@ -247,7 +247,7 @@ För post katalogiserad enligt RDA, sök fram och länka till entitet: "ISBD-int
   
 * Genre/form – konferenspublikation (genreForm = 008/29)  
   Länka till entitet.  
-  För att söka efter entiteter inom Konferenspublikation, välj Konferenspublikation i listan över typer, under Genre/form. Trunkera med * i sökrutan. Välj rätt entitet genom att klicka på Lägg till. 
+  För att söka efter entiteter inom Konferenspublikation, välj Konferenspublikation i listan över typer, under Genre/form. Trunkera med * i sökrutan. Välj rätt entitet genom att klicka på Lägg till.  
      ```Exempel: Ja, resursen härrör från konferens```       
 
 * Språk (language = 008/35-37)  
