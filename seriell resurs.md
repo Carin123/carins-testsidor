@@ -229,7 +229,7 @@ För post katalogiserad enligt RDA, sök fram och länka till entitet: "ISBD-int
    Länka till entitet.  
    ```Exempel: Kammarmusik```  
  
-* Geografiskt ämnesord (subjcect = 651 -/4 ‡a)  
+* Geografiskt ämnesord (subject = 651 -/4 ‡a)  
    Länka till entitet.  
    I undantagsfall, skapa lokal entitet och skriv in uppgiften.   
     ```Exempel: Sverige```
