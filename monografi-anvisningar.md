@@ -253,9 +253,13 @@ Skapa verket som lokal entitet eller bryt ut verket till en länkbar entitet. Vi
   Skriv in språket i klartext. Denna klartext - verkets (översättningens) språk - visas som ett tillägg till verkets titel i marcpostens 240 ‡l.  
   ```Exempel: Svenska```  
 
-* Anmärkning: Språk (marc:language note = 041 i1: 1)  
+* Anmärkning: Språk (marc:LanguageNote = 041 i1: 1)  
   Ange om resursen är/innehåller en översättning. Välj från lista.  
   ```Exempel: objektet är/innehåller översättning```  
+  
+* Anmärkning/Anmärkning om språk/Anmärkning: Språk/Benämning (hasNote/marc:LanguageNote/marc:LanguageNote/label = 546 ‡a)  
+  ```Exempel: Parallelltext på svenska och engelska```  
+  Anmärkningen är under arbete och fungerar tyvärr ännu inte.  
 
 * Originalversion/Verk/Språk (originalversion/Work/language = 041 ‡h)  
   Ange det språk som en översatt text är översatt från. För en text som är översatt från engelska till svenska, ange engelska här.   
