@@ -214,7 +214,7 @@ samt exempel hämtade från andra poster.
   ```Exempel: Årstasällskapets för Fredrika Bremer-studier skriftserie```    
 
 * Anmärkning/Anmärkning/Benämning (hasNote/Note/label = 500 ‡a)   
-  Skriv in allmänna anmärkningar här. Anmärkningar om specifika fält skrivs in i Kommentar (note) under respektive fält, när sådana specifika anmärkningsfält finns.  
+  Skriv in allmänna anmärkningar här.    
   Skriv in uppgiften.  
   
  * Har innehållsförteckning (innehållsanmärkning) (tableofContents = 505)  
