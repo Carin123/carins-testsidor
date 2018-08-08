@@ -264,8 +264,7 @@ För post katalogiserad enligt RDA, sök fram och länka till entitet: "ISBD-int
   ```Exempel: text (txt)```
   
 * Utgiven med/Verk (issuedWith/Work = 777)  
-  Länka till entitet.  
-  I undantagsfall, skapa lokal entitet och skriv in uppgiften.  
+  Skapa lokal entitet och skriv in uppgiften.  
   
 * Utgiven med/Verk/Inledande anmärkning (issuedWith/Work/Marc:displayText = 777 0/8 ‡i)  
   Skriv in uppgiften.  
@@ -289,8 +288,7 @@ För post katalogiserad enligt RDA, sök fram och länka till entitet: "ISBD-int
   ```Exempel: 12683514```  
 
 * Fortsätter delvis/Verk (continuesInPart/Work = 780)  
-  Länka till entitet.  
-  I undantagsfall, skapa lokal entitet och skriv in uppgiften.  
+  Skapa lokal entitet och skriv in uppgiften.  
 
 * Fortsätter delvis/Verk/Har instans/Instans/Har titel/Titel/Huvudtitel          (continuesInPart/Work/hasInstance/Instance/title/Title/mainTitle = 780 ‡t)  
   Skriv in uppgiften.  
@@ -309,8 +307,7 @@ För post katalogiserad enligt RDA, sök fram och länka till entitet: "ISBD-int
   ```Exempel: 9955452```
   
 * Fortsättes av/Verk  
-  Länka till entitet.  
-  I undantagsfall, skapa lokal entitet och skriv in uppgiften.  
+ Skapa lokal entitet och skriv in uppgiften.  
 
 * Fortsättes av/Verk/Har instans/Instans/Har titel/Titel/Huvudtitel   (continuedBy/Work/hasInstance/Instance/title/Title/mainTitle = 785 ‡t)  
   Skriv in uppgiften.  
