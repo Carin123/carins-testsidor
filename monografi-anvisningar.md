@@ -146,10 +146,10 @@ samt exempel hämtade från andra poster.
   
   * Flera år (flerbandsverk)  
  Använd Startår och Slutår. Fälten ska ligga i avsnittet Primär utgivning. Om årtalen anges utan klammer eller andra tecken utöver fyra positioner, räcker det att ange årtalen här. De exporteras då både som 008 och 264 ‡c. Bindestreck sätts automatiskt. För att få rätt kod i 008/06 (Typ av utgivningsdatum/Utgivningsstatus) vid MARC-export: lägg till Typ av utgivningsdatum (marc:publicationStatus) (klicka på +-tecknet vid Primär utgivning) och välj ”Flera årtal (monografisk resurs)".  
- ```Exempel:```
-``` Startår: 1999```
- ```Slutår: 2017```
- ```Typ av utgivningdatum: Flera årtal (monografisk resurs)```  
+ ```Exempel:```  
+``` Startår: 1999```  
+ ```Slutår: 2017```  
+ ```Typ av utgivningsdatum: Flera årtal (monografisk resurs)```  
 
  Läs mer om [År och Datum](https://kundo.se/org/librisxl/d/falt-for-utgivningsar/)  
 
