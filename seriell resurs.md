@@ -134,7 +134,7 @@ För post katalogiserad enligt RDA, sök fram och länka till entitet: "ISBD-int
   Skriv in uppgiften.  
   ```Exempel: 2013```     
   För att ange slutår för senaste utgivningsperiod (264 -/3 ‡c), notera först vilket startåret för utgivningsperioden är, ta bort Startår och lägg till Datum. Skriv in hela datumangivelsen med startår och slutår.  
- ```Exempel: 2012-2013```   
+
   * Datum (date = 264 -/1 ‡c)  
   Skriv in uppgiften.  
   ```Exempel: 2012-2013``` 
