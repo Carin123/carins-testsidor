@@ -123,12 +123,12 @@ För post katalogiserad enligt RDA, sök fram och länka till entitet: "ISBD-int
   
   * Startår (startYear = 008/7-10)  
   Startår får endast innehålla siffror (0-9) och bokstaven u. Startår ska endast förekomma inom Primär utgivning.  
-  För att ange ett startår utan klamrar eller andra tecken, ange det endast här. Det kommer då att exporteras till både marcpostens 08/07-10 och 264 -/1 ‡c. För att ange årtal med klamrar eller andra tecken utöver fyra positioner, använd Datum.  
+  För att ange ett startår utan klamrar eller andra tecken, ange det endast här. Det kommer då att exporteras till både marcpostens 08/07-10 och 264 -/1 ‡c. Bindestreck sätts automatiskt. För att ange årtal med klamrar eller andra tecken utöver fyra positioner, använd Datum.  
   Skriv in uppgiften.  
     ```Exempel: 2011```  
   * Slutår (endYear = 008/11-14)  
   Slutår får endast innehålla siffror (0-9) och bokstaven u. Slutår ska endast förekomma inom Primär utgivning.  
-  För att ange ett slutår utan klamrar eller andra tecken, ange det endast här. Det kommer då att exporteras till både marcpostens 08/11-14 och 264 -/1 ‡c. För att ange årtal med klamrar eller andra tecken utöver fyra positioner, använd Datum.   
+  För att ange ett slutår utan klamrar eller andra tecken, ange det endast här. Det kommer då att exporteras till både marcpostens 08/11-14 och 264 -/1 ‡c. Bindestreck sätts automatiskt. För att ange årtal med klamrar eller andra tecken utöver fyra positioner, använd Datum.   
   Om slutår inte anges, sätts utgivningsstatus (008/06) automatiskt till "c = Utgivning pågår".  
   Om slutår anges, sätts utgivningsstatus (008/06) automatiskt till "d = Utgivning avslutad".  
   Skriv in uppgiften.  
@@ -136,7 +136,8 @@ För post katalogiserad enligt RDA, sök fram och länka till entitet: "ISBD-int
   För att ange slutår för senaste utgivningsperiod (264 -/3 ‡c), notera först vilket startåret för utgivningsperioden är, ta bort Startår och lägg till Datum. Skriv in hela datumangivelsen med startår och slutår (se nedan under Datum).    
   * Datum (date = 264 -/1 ‡c)  
   Skriv in uppgiften.  
-  ```Exempel: 2012-2013``` 
+  ```Exempel: 2012-2013```  
+  ```Exempel: [1999-2018]```  
  
 * Frekvens (frequency)  
   * Frekvensterm (008/18)  
