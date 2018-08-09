@@ -121,19 +121,26 @@ För post katalogiserad enligt RDA, sök fram och länka till entitet: "ISBD-int
   Om flera utgivare ska anges, lägg till "Har del" (hasPart) under Primär utgivning. Lägg därefter till Utgivning som lokal entitet (klicka på +-ikonen vid Har del och klicka sedan på Skapa lokal entitet. Välj Utgivning i listan). Använd Startår, slutår och vid behov Datum enligt anvisningar nedan. Upprepa Har del och Utgivning som lokal entitet för nästa utgivare.
   Se [exempel](https://libris.kb.se/katalogisering/1kcsx46c1pmjdxz#it).  
   
-  * Datum (date = 264 -/1 ‡c)  
-  Skriv in uppgiften.  
-  ```Exempel: 2011-2013```  
   * Startår (startYear = 008/7-10)  
+  Startår får endast innehålla siffror (0-9) och bokstaven u. Startår ska endast förekomma inom Primär utgivning.  
+  För att ange ett startår utan klamrar eller andra tecken, ange det endast här. Det kommer då att exporteras till både marcpostens 08/07-10 och 264 -/1 ‡c. För att ange årtal med klamrar eller andra tecken utöver fyra positioner, använd Datum.  
+  ```Exempel: 2011```   
   Skriv in uppgiften.  
     ```Exempel: 2011```  
   * Slutår (endYear = 008/11-14)  
+  Slutår får endast innehålla siffror (0-9) och bokstaven u. Slutår ska endast förekomma inom Primär utgivning.  
+  För att ange ett slutår utan klamrar eller andra tecken, ange det endast här. Det kommer då att exporteras till både marcpostens 08/11-14 och 264 -/1 ‡c. För att ange årtal med klamrar eller andra tecken utöver fyra positioner, använd Datum.   
+  ```Exempel: 2018```  
+  Skriv in uppgiften.  
   Om slutår inte anges, sätts utgivningsstatus (008/06) automatiskt till "c = Utgivning pågår".  
   Om slutår anges, sätts utgivningsstatus (008/06) automatiskt till "d = Utgivning avslutad".  
   Skriv in uppgiften.  
-  ```Exempel: 2013```  
+  ```Exempel: 2013```     
   För att ange slutår för senaste utgivningsperiod (264 -/3 ‡c), notera först vilket startåret för utgivningsperioden är, ta bort Startår och lägg till Datum. Skriv in hela datumangivelsen med startår och slutår.  
  ```Exempel: 2012-2013```   
+  * Datum (date = 264 -/1 ‡c)  
+  Skriv in uppgiften.  
+  ```Exempel: 2011-2013``` 
  
 * Frekvens (frequency)  
   * Frekvensterm (008/18)  
