@@ -124,7 +124,6 @@ För post katalogiserad enligt RDA, sök fram och länka till entitet: "ISBD-int
   * Startår (startYear = 008/7-10)  
   Startår får endast innehålla siffror (0-9) och bokstaven u. Startår ska endast förekomma inom Primär utgivning.  
   För att ange ett startår utan klamrar eller andra tecken, ange det endast här. Det kommer då att exporteras till både marcpostens 08/07-10 och 264 -/1 ‡c. För att ange årtal med klamrar eller andra tecken utöver fyra positioner, använd Datum.  
-  ```Exempel: 2011```   
   Skriv in uppgiften.  
     ```Exempel: 2011```  
   * Slutår (endYear = 008/11-14)  
