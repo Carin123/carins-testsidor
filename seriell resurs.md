@@ -137,7 +137,7 @@ För post katalogiserad enligt RDA, sök fram och länka till entitet: "ISBD-int
   * Datum (date = 264 -/1 ‡c)  
   Datum får innehålla text och interpunktionstecken.  
   För att ange ett utgivningsdatum med fler än fyra positioner, till exempel ett klamrat årtal, skriv in det här. Det kommer att exporteras till marcpostens  264 -/1 ‡c. Skriv in uppgiften.  
-  För att ange ett år utan klamrar eller andra tecken, använd endast År.  
+  För att ange år utan klamrar eller andra tecken, använd endast Startår och Slutår.  
   Skriv in uppgiften.  
   ```Exempel: 2012-2013```  
   ```Exempel: [1988-]```  
