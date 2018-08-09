@@ -149,7 +149,7 @@ samt exempel hämtade från andra poster.
 ```Exempel: ```  
 ```Startår: 1999 ```  
 ```Slutår: 2017```  
-```Typ av utgivningdatum: Flera årtal (monografisk resurs)```    
+```Typ av utgivningsdatum: Flera årtal (monografisk resurs)```    
 
  Läs mer om [År och Datum](https://kundo.se/org/librisxl/d/falt-for-utgivningsar/)  
 
