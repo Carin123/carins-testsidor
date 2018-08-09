@@ -137,7 +137,7 @@ För post katalogiserad enligt RDA, sök fram och länka till entitet: "ISBD-int
  ```Exempel: 2012-2013```   
   * Datum (date = 264 -/1 ‡c)  
   Skriv in uppgiften.  
-  ```Exempel: 2011-2013``` 
+  ```Exempel: 2012-2013``` 
  
 * Frekvens (frequency)  
   * Frekvensterm (008/18)  
