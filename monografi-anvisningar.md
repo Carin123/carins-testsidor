@@ -132,7 +132,7 @@ samt exempel hämtade från andra poster.
   Se [exempel](https://libris.kb.se/katalogisering/1kcsx46c1pmjdxz#it).
   
   * År (= Utgivningstid) (date = 008/07-10, 264 -/1 ‡c)  
-  År får endast innehålla siffror (0-9) och bokstaven u.  
+  År får endast innehålla siffror (0-9) och bokstaven u. År ska endast förekomma inom Primär utgivning.  
   Ange utgivningsår, utan klamrar eller andra tecken, endast fyra positioner. Skriv in uppgiften.  
   För att ange ett år utan klamrar eller andra tecken, ange det endast här. Det kommer då att exporteras till både marcpostens 08/07-10 och 264 -/1 ‡c. För att ange årtal med klamrar eller andra tecken utöver fyra positioner, använd Datum.  
   ```Exempel: 2017```  
@@ -144,7 +144,14 @@ samt exempel hämtade från andra poster.
   ```Exempel: [2017]```   
   ```Exempel: [mellan 1863 och 1866?]```  
   
-  Läs mer om [År och Datum](https://kundo.se/org/librisxl/d/falt-for-utgivningsar/)  
+ * Flera år (flerbandsverk)  
+ Använd Startår och Slutår. Fälten ska ligga i avsnittet Primär utgivning. Om årtalen anges utan klammer eller andra tecken utöver fyra positioner, räcker det att ange årtalen här. De exporteras då både som 008 och 264 ‡c. Bindestreck sätts automatiskt. För att få rätt kod i 008 008/06 (typ av utgivningsdatum/Utgivningsstatus) vid MARC-export: lägg till Typ av utgivningsdatum (klicka på+-tecknet vid Primär utgivning) och välj ”Flera årtal (monografisk resurs)".  
+ ```Exempel:  
+ Startår: 1999  
+ Slutår: 2017  
+ Typ av utgivningdatum: Flera årtal (monografisk resurs)```  
+  
+ Läs mer om [År och Datum](https://kundo.se/org/librisxl/d/falt-for-utgivningsar/)  
 
 * Tillverkning (manufacture)  
   * Plats/Benämning (place/label = 264 -/3 ‡a)  
