@@ -129,8 +129,6 @@ För post katalogiserad enligt RDA, sök fram och länka till entitet: "ISBD-int
   * Slutår (endYear = 008/11-14)  
   Slutår får endast innehålla siffror (0-9) och bokstaven u. Slutår ska endast förekomma inom Primär utgivning.  
   För att ange ett slutår utan klamrar eller andra tecken, ange det endast här. Det kommer då att exporteras till både marcpostens 08/11-14 och 264 -/1 ‡c. För att ange årtal med klamrar eller andra tecken utöver fyra positioner, använd Datum.   
-  ```Exempel: 2018```  
-  Skriv in uppgiften.  
   Om slutår inte anges, sätts utgivningsstatus (008/06) automatiskt till "c = Utgivning pågår".  
   Om slutår anges, sätts utgivningsstatus (008/06) automatiskt till "d = Utgivning avslutad".  
   Skriv in uppgiften.  
