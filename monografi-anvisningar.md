@@ -114,7 +114,7 @@ samt exempel hämtade från andra poster.
   
 * Utgivning (publication)  
   Välj typ från lista. För monografier, använd Primär utgivning.  
-  I konverterade och maskininlästa poster finns det ibland två avsnitt: ett Primär utgivning med År och Land, och ett Utgivning med Plats, Agent och Datum. När man redigerar maskininlästa poster med två utgivningsavsnitt bör man flytta uppgifterna om Plats, Agent och Datum till avsnittet Primär utgivning och ta bort avsnittet Utgivning.  
+  I konverterade och maskininlästa poster finns det ibland två avsnitt: ett Primär utgivning med År och Land, och ett Utgivning med Plats, Agent och Datum. När man redigerar maskininlästa poster med två utgivningsavsnitt får man, om man bedömer det nödvändigt, flytta uppgifterna om Plats, Agent och Datum till avsnittet Primär utgivning och ta bort avsnittet Utgivning.   
   
   * Land (country = 008/15-17)  
   Länka till entitet.  
@@ -138,7 +138,7 @@ samt exempel hämtade från andra poster.
   ```Exempel: 2017```  
   * Datum (= Utgivningstid) (date = 264 -/1 ‡c)  
   Datum får innehålla text och interpunktionstecken.  
-  För att ange ett utgivningsdatum med fler än fyra positioner, skriv in det här. Det kommer att exporteras till marcpostens  264 -/1 ‡c. Skriv in uppgiften.  
+  För att ange ett utgivningsdatum med fler än fyra positioner, till exempel ett klamrat årtal, skriv in det här. Det kommer att exporteras till marcpostens  264 -/1 ‡c. Skriv in uppgiften.  
   För att ange ett år utan klamrar eller andra tecken, använd endast År.   
   Skriv in uppgiften.  
   ```Exempel: [2017]```   
