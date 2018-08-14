@@ -89,7 +89,7 @@ samt exempel hämtade från andra poster.
 Skriv in uppgiften.  
   ```Exempel: Har titel/Parallelltitel/Huvudtitel: The Great Northern War explained```  
 Vid behov, klicka även på +-tecknet vid Parallelltitel och lägg till Övrig titelinformation (subtitle).  
-Det är tillåtet men inte nödvändigt att också göra följande. För att parallelltiteln även ska hamna i 245 = ‡b, dvs visas efter huvudtiteln, likhetstecken och delfält b, lägg önskad ISBD-interpunktion direkt i Titel/Huvudtitel/Övrig titelinformation (Title/mainTitle/subtitle).  
+Det är tillåtet men inte nödvändigt att också göra följande. För att parallelltiteln även ska hamna i 245 ‡b med ISBD-interpunktion, lägg önskad ISBD-interpunktion direkt i Titel/Huvudtitel/Övrig titelinformation (Title/mainTitle/subtitle).  
    ```Exempel: Har titel/Titel/Övrig titelinformation: Karl XII och det ideologiska tilltalet = The Great Northern War explained : Charles XII and the ideological address``` 
   
 * Omslagstitel, Ryggtitel, Rubriktitel etc - lägg till Har titel och välj typ. För typ av varianttitel som saknas i listan, välj Varianttitel och lägg därefter till Typanmärkning (= 246 ‡i). Lägg därefter till Huvudtitel och eventuell Övrig titelinformation.  
