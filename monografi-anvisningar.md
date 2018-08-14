@@ -85,8 +85,8 @@ samt exempel hämtade från andra poster.
 * Har titel/Varianttitel/Övrig titelinformation (= Undertitel) (hasTitle/VariantTitle/subtitle = 246 ‡b)  
   Skriv in uppgiften.  
   
-* Parallelltitel - lägg till Har titel och välj typ Parallelltitel (246 = ParallelTitle). Ange Huvudtitel (mainTitle). Lägg därefter till eventuell Övrig titelinformation (subtitle).  
-  Skriv in uppgiften.  
+* Parallelltitel. Välj först Har titel, välj sedan typ Parallelltitel (246, ind1: 1, ind2: 1 = ParallelTitle). Vid behov, klicka även på +-tecknet vid Parallelltitel och lägg till Övrig titelinformation (subtitle).   
+Skriv in uppgiften.  
   ```Exempel: Har titel/Parallelltitel/Huvudtitel: The Great Northern War explained```  
   Det är tillåtet men inte nödvändigt att också göra följande. För att parallelltiteln även ska hamna i 245 = ‡b, dvs visas efter huvudtiteln, likhetstecken och delfält b, lägg önskad ISBD-interpunktion direkt i Titel/Huvudtitel/Övrig titelinformation (Title/mainTitle/subtitle).  
    ```Exempel: Har titel/Titel/Övrig titelinformation: Karl XII och det ideologiska tilltalet = The Great Northern War explained : Charles XII and the ideological address``` 
