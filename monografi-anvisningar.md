@@ -89,6 +89,7 @@ samt exempel hämtade från andra poster.
 Skriv in uppgiften.  
   ```Exempel: Har titel/Parallelltitel/Huvudtitel: The Great Northern War explained```  
 Vid behov, klicka även på +-tecknet vid Parallelltitel och lägg till Övrig titelinformation (subtitle).  
+```Exempel: Har titel/Parallelltitel/Övrig titelinformation: Charles XII and the ideological address```  
 Det är tillåtet men inte nödvändigt att också göra följande. För att parallelltiteln även ska hamna i 245 ‡b med ISBD-interpunktion, lägg önskad ISBD-interpunktion direkt i Titel/Huvudtitel/Övrig titelinformation (Title/mainTitle/subtitle).  
    ```Exempel: Har titel/Titel/Övrig titelinformation: Karl XII och det ideologiska tilltalet = The Great Northern War explained : Charles XII and the ideological address``` 
   
