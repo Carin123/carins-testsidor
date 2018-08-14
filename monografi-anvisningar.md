@@ -72,7 +72,7 @@ samt exempel hämtade från andra poster.
  Se exempel i formathandboken för Libris/Voyager: 
 [Fileringsindikator]( http://www.kb.se/katalogisering/Formathandboken/Fileringsindikator/)
  
-* Har titel/Titel/Övrig titelinformation (= Undertitel) (hasTitle/Title/subTitle = 245 ‡b)  
+* Har titel/Titel/Övrig titelinformation (= Undertitel) (hasTitle/Title/subtitle = 245 ‡b)  
   Skriv in uppgiften. Om det finns flera undertitlar, skriv in dessa efter varandra i samma fält, åtskilda av mellanslag, kolon, mellanslag.    
   ```Exempel: livet som underrättelseagent åt MI5```  
   ```Exempel: ett etnografiskt perspektiv på skriftanvändning i vanliga yrken : småskrift utarbetad av Språkrådet```
@@ -82,8 +82,14 @@ samt exempel hämtade från andra poster.
 * Har titel/Varianttitel/Huvudtitel (hasTitle/VariantTitle/mainTitle = 246 ‡a)  
   Skriv in uppgiften.
   
-* Har titel/Varianttitel/Övrig titelinformation (= Undertitel) (hasTitle/VariantTitle/subTitle = 246 ‡b)  
-  Skriv in uppgiften.    
+* Har titel/Varianttitel/Övrig titelinformation (= Undertitel) (hasTitle/VariantTitle/subtitle = 246 ‡b)  
+  Skriv in uppgiften.  
+  
+* Parallelltitel - lägg till Har titel och välj typ Parallelltitel (246 = ParallelTitle). Ange Huvudtitel (mainTitle). Lägg därefter till eventuell Övrig titelinformation (subtitle).  
+  Skriv in uppgiften.  
+  ```Exempel: The Great Northern War explained```  
+  Det är tillåtet men inte nödvändigt att också göra följande. För att parallelltiteln även ska hamna i 245 = ‡b, dvs visas efter huvudtiteln, likhetstecken och delfält b, lägg önskad ISBD-interpunktion direkt i Övrig titelinformation (subtitle).  
+   ```Exempel: Övrig titelinformation: Karl XII och det ideologiska tilltalet = The Great Northern War explained : Charles XII and the ideological address``` 
   
 * Omslagstitel, Ryggtitel, Rubriktitel etc - lägg till Har titel och välj typ. För typ av varianttitel som saknas i listan, välj Varianttitel och lägg därefter till Typanmärkning (= 246 ‡i). Lägg därefter till Huvudtitel och eventuell Övrig titelinformation.  
   Skriv in uppgiften.  
