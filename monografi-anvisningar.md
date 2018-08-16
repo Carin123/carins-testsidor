@@ -353,32 +353,32 @@ Skapa verket som lokal entitet eller bryt ut verket till en länkbar entitet. Vi
 
 * Genre/form – saogf-termer (genreForm = 655 -/7 ‡a, ‡2 saogf)  
   Länka till entitet.  
-  För att söka efter entiteter inom saogf-termer, välj Genre/form i listan över typer, under Genre/form. Trunkera med * i sökrutan. Välj rätt entitet genom att klicka på Lägg till.  
+  För att söka efter entiteter inom saogf-termer, välj Genre/form i listan över typer, under Genre/form. Trunkera genom att trycka på mellanslagstangenten eller med * i sökrutan. Välj rätt entitet genom att klicka på Lägg till.  
   ```Exempel: Självbiografier```
 
 * Genre/form – litterär genre (genreForm = 008/33)  
   Länka till entitet.  
-  För att söka efter entiteter inom Litterär genre, välj Litterär genre i listan över typer, under Genre/form. Trunkera med * i sökrutan. Välj rätt entitet genom att klicka på Lägg till.  
+  För att söka efter entiteter inom Litterär genre, välj Litterär genre i listan över typer, under Genre/form. Trunkera genom att trycka på mellanslagstangenten eller med * i sökrutan. Välj rätt entitet genom att klicka på Lägg till.  
   ```Exempel: 0 ( = ej skönlitterärt verk)```
 
 * Genre/form – biografiskt material (genreForm = 008/34)  
   Länka till entitet.  
-  För att söka efter entiteter inom Biografiskt material, välj Biografiskt material i listan över typer, under Genre/form. Trunkera med * i sökrutan. Välj rätt entitet genom att klicka på Lägg till.  
+  För att söka efter entiteter inom Biografiskt material, välj Biografiskt material i listan över typer, under Genre/form. Trunkera genom att trycka på mellanslagstangenten eller med * i sökrutan. Välj rätt entitet genom att klicka på Lägg till.  
     ```Exempel: a (= självbiografi)```  
     
 * Genre/form – festskrift (genreForm = 008/30)  
   Länka till entitet.  
-  För att söka efter entiteter inom Festskrift, välj Festskrift i listan över typer, under Genre/form. Trunkera med * i sökrutan. Välj rätt entitet genom att klicka på Lägg till.  
+  För att söka efter entiteter inom Festskrift, välj Festskrift i listan över typer, under Genre/form. Trunkera genom att trycka på mellanslagstangenten eller med * i sökrutan. Välj rätt entitet genom att klicka på Lägg till.  
     ```Exempel: Ja, resursen är en festskrift```       
        
 * Genre/form – konferenspublikation (genreForm = 008/29)  
   Länka till entitet.  
-  För att söka efter entiteter inom Konferenspublikation, välj Konferenspublikation i listan över typer, under Genre/form. Trunkera med * i sökrutan. Välj rätt entitet genom att klicka på Lägg till. 
+  För att söka efter entiteter inom Konferenspublikation, välj Konferenspublikation i listan över typer, under Genre/form. Trunkera genom att trycka på mellanslagstangenten eller med * i sökrutan. Välj rätt entitet genom att klicka på Lägg till. 
      ```Exempel: Ja, resursen härrör från konferens```     
   
  * Målgrupp (intendedAudience = 008/22)  
   Länka till entitet.  
-  Trunkera med * i sökrutan. Välj rätt entitet genom att klicka på Lägg till.  
+  Trunkera genom att trycka på mellanslagstangenten eller med * i sökrutan. Välj rätt entitet genom att klicka på Lägg till.  
   ```Exempel: j (= barn- och ungdom, 0-16 år)```  
   
 * Innehållstyp/Innehållstyp (contentType/ContentType = 336 ‡b)  
