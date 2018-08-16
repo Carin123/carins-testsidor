@@ -243,19 +243,19 @@ Skapa också lokal entitet under Katalogiseringsregler, välj typ Katalogisering
    
 * Genre/form – saogf-termer (genreForm = 655 -/7 ‡a, ‡2 saogf)  
   Länka till entitet.  
-  För att söka efter entiteter inom saogf-termer, välj Genre/form i listan över typer, under Genre/form. Trunkera med * i sökrutan. Välj rätt entitet genom att klicka på Lägg till.  
+  För att söka efter entiteter inom saogf-termer, välj Genre/form i listan över typer, under Genre/form. Trunkera genom att trycka på mellanslagstangenten eller med * i sökrutan. Välj rätt entitet genom att klicka på Lägg till.  
   Under Genre/form, välj Genre/form i listan över typer.  
   ```Exempel: Organisationspress```  
   ```Exempel: Musiktidskrifter```  
    
 * Genre/form - typ av fortlöpande resurs (genreForm/marc:Periodical = 008/21)  
   Länka till entitet.  
-  För att söka efter entiteter inom Typ av fortlöpande resurs, välj Typ av fortlöpande resurs i listan över typer, under Genre/form. Trunkera med * i sökrutan. Välj rätt entitet genom att klicka på Lägg till.  
+  För att söka efter entiteter inom Typ av fortlöpande resurs, välj Typ av fortlöpande resurs i listan över typer, under Genre/form. Trunkera genom att trycka på mellanslagstangenten eller med * i sökrutan. Välj rätt entitet genom att klicka på Lägg till.  
   ```Exempel: p (Tidskrift = marc/Periodical)```  
   
 * Genre/form – konferenspublikation (genreForm = 008/29)  
   Länka till entitet.  
-  För att söka efter entiteter inom Konferenspublikation, välj Konferenspublikation i listan över typer, under Genre/form. Trunkera med * i sökrutan. Välj rätt entitet genom att klicka på Lägg till.  
+  För att söka efter entiteter inom Konferenspublikation, välj Konferenspublikation i listan över typer, under Genre/form. Trunkera genom att trycka på mellanslagstangenten eller med * i sökrutan. Välj rätt entitet genom att klicka på Lägg till.  
      ```Exempel: Ja, resursen härrör från konferens```       
 
 * Språk (language = 008/35-37)  
