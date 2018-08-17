@@ -137,7 +137,7 @@ Det är tillåtet men inte nödvändigt att också göra följande. För att par
   Skriv in uppgiften. Klamra vid behov. Utgivarnamn ska inte länkas som entitet.  
   ```Exempel: NoNa```   
   Om flera utgivare ska anges, lägg till "Har del" (hasPart) under Primär utgivning. Lägg därefter till Utgivning som lokal entitet (klicka på +-ikonen vid Har del och klicka sedan på Skapa lokal entitet. Välj Utgivning i listan). Använd År och vid behov Datum enligt anvisningar nedan. Upprepa Har del och Utgivning som lokal entitet för nästa utgivare.
-  Se [exempel](https://libris.kb.se/katalogisering/m5zf3xtz35sfqk0#it).
+  Se [exempel](https://libris.kb.se/katalogisering/w4rp4hlwtr5lctjr#it).
   
   * År (= Utgivningstid) (date = 008/07-10, 264 -/1 ‡c)  
   År får endast innehålla siffror (0-9) och bokstaven u. År ska endast förekomma inom Primär utgivning.  
