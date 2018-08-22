@@ -31,8 +31,10 @@ samt exempel hämtade från andra poster.
   ```Exempel: SAMB```  
 
 * Identifikator/Systemnummer/Värde (identifiedBy/SystemNumber/value = 035 ‡a)  
-  Om ett systemnummer finns i förhandspost, till exempel Bokinfos systemnummer, låt det vara kvar oförändrat.    
-   ```Exempel: (BOKR)9789188107213```  
+  Om ett systemnummer finns i förhandspost, till exempel Bokinfos systemnummer, låt det vara kvar oförändrat.  
+  ```Exempel: (BOKR)9789188107213```  
+  För att lägga till ett lokalt systemnummer, till exempel ett DiVA-urn, lägg till Identifikator genom att klicka på +-fält (i Adminmetadata). Välj typ Lokal identifikator. Lägg till Värde genom att klicka på +-tecknet vid Lokal identifikator och välja Värde. Fyll i aktuellt systemnummer.  
+  ```Exempel: (DIVA)urn:nbn:se:su:diva-83163```
  
 * Katalogiseringsspråk (descriptionLanguage = 040 ‡b)  
   Länka till entitet.  
