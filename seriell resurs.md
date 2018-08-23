@@ -185,8 +185,9 @@ Skapa också lokal entitet under Katalogiseringsregler, välj typ Katalogisering
 ### Verk
 * Instans av Verk/Text (instanceOf/Work/Text)  
 
-* Har titel/Huvudtitel (hasTitle/mainTitle = 130 0/- ‡a)  
-  Skriv in uppgiften. Skriv eventuellt särskiljande tillägg inom parentes.  
+* Uttryck av/Verk/Har titel/Huvudtitel (hasExpression/Work/hasTitle/mainTitle = 130 0/- ‡a)  
+  Lägg till Uttryck av genom att klicka på +-tecknet vid Instans av Verk/Text.  
+  Skapa ett verk som lokal entitet genom att klicka på +-tecknet vid Lägg till verk. Klicka på Skapa lokal entitet. Välj Verk i listan. Klicka på +-tecknet vid Verk och lägg till Har titel. Välj Titel. Ta bort Övrig titelinformation. Under Huvudtitel,    skriv in uppgiften. Skriv eventuellt särskiljande tillägg inom parentes.  
   ```Exempel:  Architecture (Paris. 1888)```  
   
 * Behandling vid titeländring (marc:typeOfEntry = 008/34)  
