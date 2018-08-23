@@ -186,7 +186,8 @@ Skapa också lokal entitet under Katalogiseringsregler, välj typ Katalogisering
 
 * Instans av Verk/Text (instanceOf/Work/Text)   
 
-Skapa verket som lokal entitet eller bryt ut verket till en länkbar entitet. Vi rekommenderar att du skapar verket som lokal entitet under den första tiden som Nya Libris är i drift. Vi återkommer med anvisningar för att skapa verk som länkbara entiteter. Denna hjälptext beskriver exempel på verk som lokal entitet. Det betyder att du anger de uppgifter som listas här nedan, under Instans av Verk, utan att klicka på länksymbolen (Länka entitet) vid Instans av Verk/Text.    
+Skapa verket som lokal entitet (bryt inte ut verket till en länkbar entitet). Vi rekommenderar att du skapar verket som lokal entitet under den första tiden som Nya Libris är i drift. Vi återkommer med anvisningar för att skapa verk som länkbara entiteter. Denna hjälptext beskriver exempel på verk som lokal entitet. Det betyder att du anger de uppgifter som listas här nedan, under Instans av Verk, utan att klicka på länksymbolen (Länka entitet) vid Instans av Verk/Text.  
+Läs mer om [Verk och Instans](https://librisbloggen.kb.se/2018/05/30/verk-och-instans-i-startversionen/).  
 
 * Uttryck av/Verk/Har titel/Huvudtitel (hasExpression/Work/hasTitle/mainTitle = 130 0/- ‡a)  
   Lägg till Uttryck av genom att klicka på +-tecknet vid Instans av Verk/Text (Lägg till fält under: Text). Välj Uttryck av och lägg till det. Skapa ett verk som lokal entitet genom att klicka på +-tecknet vid Uttryck av (Lägg till verk). Klicka på Skapa lokal entitet. Välj Verk i listan. Klicka på +-tecknet vid Verk (Lägg till fält under: Verk) och lägg till Har titel. Välj Titel. Ta bort Övrig titelinformation. Under Huvudtitel, skriv in uppgiften. Skriv eventuellt särskiljande tillägg inom parentes.  
