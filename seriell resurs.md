@@ -174,6 +174,16 @@ Skapa också lokal entitet under Katalogiseringsregler, välj typ Katalogisering
 * Anmärkning/Anmärkning/Benämning (hasNote/Note/label = 500 ‡a)  
   Skriv in uppgiften.  
   Skriv in allmänna anmärkningar här. Anmärkningar om specifika fält skrivs in i Kommentar (note) under respektive fält, när sådana specifika anmärkningsfält finns. 
+  
+* Annat bärarformat (otherPhysicalFormat = 776)  
+  För att länka till en utgåva i annat format, till exempel en elektronisk utgåva, lägg till Annat bärarformat genom att klicka på Lägg till fält. Välj Annat bärarformat.  
+  Skapa en instans som lokal entitet genom att klicka på +-tecknet vid Annat bärarformat (lägg till instans). Klicka på Skapa lokal entitet och välj Instans. 
+* Annat bärarformat/Har titel/Titel (776 ‡t)  
+  Under Instans, lägg till titel genom att klicka på +-tecknet vid Instans (Lägg till fält under: Instans) och välj Har titel. Välj Titel. Ta bort Övrig titelinformation och skriv in huvudtiteln under Huvudtitel. 
+* Annat bärarformat/Identifikator/ISSN/Värde (776 ‡x)  
+  Under Instans, lägg till titel genom att klicka på +-tecknet vid Instans (Lägg till fält under: Instans) och välj Identifikator. Välj typ ISSN. Skriv in ISSN för den utgåva du vill länka till under Värde.  
+* Annat bärarformat/Beskriven av/Post/Kontrollnummer (776 ‡w)  
+  Beskriven av/Post/Kontrollnummer, motsvarande delfält w, är för närvarande låst för redigering. Det går därmed inte att lägga till fältet eller redigera det i befintliga beskrivningar.  
 
 * Relaterad till/Dokument/URI (relatedTo/Document/uri = 856 4/8 ‡u)  
   Skriv in uppgiften.  
@@ -299,7 +309,7 @@ Läs mer om [Verk och Instans](https://librisbloggen.kb.se/2018/05/30/verk-och-i
   Fortsätter delvis (continuedInPartBy = 780 0/1)  
   Föregående (precededBy = 780 0/2)  
   Ersätter delvis (precededInPartBy = 780 0/3)  
-  Sammanslagen med (mergerOf = 780 0/4)  (se [Exempel](https://libris.kb.se/katalogisering/5ng67r2h49lzkl9#it))
+  Sammanslagen med (mergerOf = 780 0/4)  (se [Exempel](https://libris.kb.se/katalogisering/5ng67r2h49lzkl9#it))  
   Har införlivat (absorbed = 780 0/5)  
   Har delvis införlivat (absorbedInPart = 780 0/6)  
   Separat från (separateFrom = 780 0/7)  
