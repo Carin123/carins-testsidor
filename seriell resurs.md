@@ -294,13 +294,24 @@ Läs mer om [Verk och Instans](https://librisbloggen.kb.se/2018/05/30/verk-och-i
   Beskriven av/Post/Kontrollnummer, motsvarande delfält w, är för närvarande låst för redigering. Det går därmed inte att lägga till fältet eller redigera det i befintliga beskrivningar.  
 
   Följande relationer kan läggas till, enligt samma mönster, under Instans av Verk:  
+  
   Fortsätter (continues = 780 0/0)  
   Fortsätter delvis (continuedInPartBy = 780 0/1)  
-  Fortsättes av (continuedBy = 785 0/0)   
-  Fortsättes delvis av (continuedInPartBy = 785 0/3)  
-  Efterföljande (succeededBy = 785 0/2)   
-  Sammanslagen med (mergerOf = 780 0/4)  (se [Exempel](https://libris.kb.se/katalogisering/5ng67r2h49lzkl9#it)
+  Föregående (precededBy = 780 0/2)  
+  Ersätter delvis (precededInPartBy = 780 0/3)  ??
+  Sammanslagen med (mergerOf = 780 0/4)  (se [Exempel](https://libris.kb.se/katalogisering/5ng67r2h49lzkl9#it))
+  Har införlivat (absorbed = 780 0/5)  
+  Har delvis införlivat (absorbedInPart = 780 0/6)  
+  Separat från (separateFrom = 780 0/7)  
   
+  Fortsättes av (continuedBy = 785 0/0)  
+  Fortsättes delvis av (continuedInPartBy = 785 0/1)  
+  Efterföljande (succeededBy = 785 0/2)  
+  Ersättes delvis av (succeededInPartBy = 785 0/3)  
+  Har uppgått i (absorbedBy = 785 0/4)  
+  Har delvis uppgått i (absorbedInPartBy = 785 0/5)  
+  Uppdelat på (splitInto = 785 0/6)  
+  Sammanslagen till (mergedToForm = 785 0/7)  (se [Exempel](https://libris.kb.se/katalogisering/tb4vcdf54hzlsr3#it))
   
   Utgiven med (issuedWith = 777 0/i)  
     
