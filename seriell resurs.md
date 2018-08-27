@@ -293,21 +293,18 @@ Läs mer om [Verk och Instans](https://librisbloggen.kb.se/2018/05/30/verk-och-i
 * Fortsätter/Verk/Har instans/Instans/Beskriven av/Post/Kontrollnummer (780 0/0 ‡w)  
   Beskriven av/Post/Kontrollnummer, motsvarande delfält w, är för närvarande låst för redigering. Det går därmed inte att lägga till fältet eller redigera det i befintliga beskrivningar.  
 
-  Följande relationer kan läggas till under Instans av Verk:  
-  Fortsätter  
-  Fortsätter delvis  
-  Fortsättes av  
-  Fortsättes delvis av  
-  Efterföljare
-  Utgiven med
-    
+  Följande relationer kan läggas till, enligt samma mönster, under Instans av Verk:  
+  Fortsätter (continues = 780 0/0)  
+  Fortsätter delvis (continuedInPartBy = 780 0/1)  
+  Fortsättes av (continuedBy = 785 0/0)   
+  Fortsättes delvis av (continuedInPartBy = 785 0/3)  
+  Efterföljande (succeededBy = 785 0/2)   
+  Sammanslagen med (mergerOf = 780 0/4)  (se [Exempel](https://libris.kb.se/katalogisering/5ng67r2h49lzkl9#it)
   
-* Fortsätter/Verk/Har instans/Instans/Inledande anmärkning (issuedWith/Work/Marc:displayText = 777 0/8 ‡i)  
+  
+  Utgiven med (issuedWith = 777 0/i)  
+    
+ 
+* Utgiven medVerk/Har instans/Instans/Inledande anmärkning (issuedWith/Work/Marc:displayText = 777 0/8 ‡i)  
   Inledande anmärkning, motsvarande delfält i, kan för närvarande inte läggas till. Det går dock att redigera det i befintliga beskrivningar.  
   ```Exempel: 2011:4-2013:2 omvänt sammanhäftad med```
-  
-
-
- 
-  
-
