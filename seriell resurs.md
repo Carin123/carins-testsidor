@@ -277,28 +277,28 @@ Läs mer om [Verk och Instans](https://librisbloggen.kb.se/2018/05/30/verk-och-i
   Länka till entitet.  
   ```Exempel: text (txt)```
   
- * Länkfält/relationer under verk: Fortsätter (780 0/0), Fortsättes av (785 0/0), Ersätter (780 0/2) med flera -   
+ * Länkfält/relationer under verk: Fortsätter (780 0/0), Fortsättes av (785 0/0), Ersätter (780 0/2), med flera -   
   konstrueras enligt följande mönster. Ange relationen, skapa verket som lokal instans och skapa en lokal instans av verket, ange egenskaper för instansen, till exempel titel och identifikator, se nedan.  
   Under Instans av Verk, lägg till fält genom att klicka på +-tecknet vid Instans av Verk/Text (Lägg till fält under: Text). Välj till exempel Fortsätter (eller Fortsättes av eller annan relation) och lägg till det. Skapa ett verk som lokal entitet genom att klicka på +-tecknet vid Fortsätter. Klicka på Skapa lokal entitet. Välj Verk i listan. Skapa en instans av verket genom att klicka på +-tecknet vid Verk (Lägg till fält under: Verk) och lägg till Har instans. Klicka på +-tecknet vid Har instans och skapa instansen som lokal entitet (klicka på Skapa lokal entitet och välj Instans). 
   
 * Fortsätter/Verk/Har instans/Instans/Har titel/Titel (780 0/0 ‡t)  
-  För att lägga till titel under Fortsätter, Fortsättes av, Ersättes med flera:  
+  För att lägga till titel under Fortsätter, Fortsättes av, Ersätter, med flera:  
   Klicka på +-tecknet vid Instans (Lägg till fält under: Instans) och lägg till Har titel. Välj Titel. Ta bort Övrig titelinformation. Under Huvudtitel, skriv in uppgiften.  
 ```Exempel:   Aktuellt magazin```  
   
 * Fortsätter/Verk/Har instans/Instans/Identifikator/ISSN/Värde (780 0/0 ‡x)  
- För att lägga till ISSN för den resurs man länkar till, klicka på +-tecknet vid Instans (lägg till fält under: Instans) och lägg till Identifikator (identifiedBy). Välj typ ISSN. Skriv in ISSN under Värde.  
+ För att lägga till ISSN för den resurs man länkar till, under Fortsätter, Fortsättes av, Ersätter, med flera, klicka på +-tecknet vid Instans (lägg till fält under: Instans) och lägg till Identifikator (identifiedBy). Välj typ ISSN. Skriv in ISSN under Värde.  
  ```Exempel: 1402-1250```
 
 * Fortsätter/Verk/Har instans/Instans/Beskriven av/Post/Kontrollnummer (780 0/0 ‡w)  
   Beskriven av/Post/Kontrollnummer, motsvarande delfält w, är för närvarande låst för redigering. Det går därmed inte att lägga till fältet eller redigera det i befintliga beskrivningar.  
 
-  Följande relationer kan läggas till, enligt samma mönster, under Instans av Verk:  
+  Hör följer ett urval av de relationer som kan läggas till, enligt samma mönster som Fortsätter (se ovan), under Instans av Verk:  
   
   Fortsätter (continues = 780 0/0)  
   Fortsätter delvis (continuedInPartBy = 780 0/1)  
   Föregående (precededBy = 780 0/2)  
-  Ersätter delvis (precededInPartBy = 780 0/3)  ??
+  Ersätter delvis (precededInPartBy = 780 0/3)  
   Sammanslagen med (mergerOf = 780 0/4)  (se [Exempel](https://libris.kb.se/katalogisering/5ng67r2h49lzkl9#it))
   Har införlivat (absorbed = 780 0/5)  
   Har delvis införlivat (absorbedInPart = 780 0/6)  
@@ -313,9 +313,8 @@ Läs mer om [Verk och Instans](https://librisbloggen.kb.se/2018/05/30/verk-och-i
   Uppdelat på (splitInto = 785 0/6)  
   Sammanslagen till (mergedToForm = 785 0/7)  (se [Exempel](https://libris.kb.se/katalogisering/tb4vcdf54hzlsr3#it))
   
-  Utgiven med (issuedWith = 777 0/i)  
-    
  
+  Utgiven med (issuedWith = 777 0/i)    
 * Utgiven medVerk/Har instans/Instans/Inledande anmärkning (issuedWith/Work/Marc:displayText = 777 0/8 ‡i)  
   Inledande anmärkning, motsvarande delfält i, kan för närvarande inte läggas till. Det går dock att redigera det i befintliga beskrivningar.  
   ```Exempel: 2011:4-2013:2 omvänt sammanhäftad med```
