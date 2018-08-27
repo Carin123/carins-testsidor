@@ -312,9 +312,3 @@ Läs mer om [Verk och Instans](https://librisbloggen.kb.se/2018/05/30/verk-och-i
   Har delvis uppgått i (absorbedInPartBy = 785 0/5)  
   Uppdelat på (splitInto = 785 0/6)  
   Sammanslagen till (mergedToForm = 785 0/7)  (se [Exempel](https://libris.kb.se/katalogisering/tb4vcdf54hzlsr3#it))
-  
- 
-  Utgiven med (issuedWith = 777 0/i)    
-* Utgiven medVerk/Har instans/Instans/Inledande anmärkning (issuedWith/Work/Marc:displayText = 777 0/8 ‡i)  
-  Inledande anmärkning, motsvarande delfält i, kan för närvarande inte läggas till. Det går dock att redigera det i befintliga beskrivningar.  
-  ```Exempel: 2011:4-2013:2 omvänt sammanhäftad med```
