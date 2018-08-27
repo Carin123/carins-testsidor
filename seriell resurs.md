@@ -6,7 +6,9 @@ I de flesta fall ska informationen delas upp i olika fält och delfält. I någr
 
 I vissa fall fungerar det ännu inte fullt ut att lägga till alla uppgifter som beskrivs i denna hjälptext. Arbete pågår med förbättra gränssnittet. För att anmäla fel, använd detta [formulär](https://docs.google.com/forms/d/e/1FAIpQLSfOChJOGDoHUQguSF83F5XyTZiQL-yU47nvcqb6qwNT9GX7Aw/viewform). För att lämna synpunkter, använd detta [formulär](https://docs.google.com/forms/d/e/1FAIpQLSfOChJOGDoHUQguSF83F5XyTZiQL-yU47nvcqb6qwNT9GX7Aw/viewform).  
 
-Exempel hämtade från: Kammarmusik-nytt, ISSN 2001-2721, Voyager BibID 12683491  
+Exempel hämtade från:
+Kammarmusik-nytt, ISSN 2001-2721, Voyager BibID 12683491  
+Familjehemsnytt, ISSN 2002-0694, Voyager BIBID 17852499  
 samt andra poster.
 
 [Adminmetadata](#adminmetadata)  
@@ -281,75 +283,31 @@ Läs mer om [Verk och Instans](https://librisbloggen.kb.se/2018/05/30/verk-och-i
   
 * Fortsätter/Verk/Har instans/Instans/Har titel/Titel (780 0/0 ‡t)  
   För att lägga till titel under Fortsätter, Fortsättes av, Ersättes med flera:  
-    Klicka på +-tecknet vid Instans (Lägg till fält under: Instans) och lägg till Har titel. Välj Titel. Ta bort Övrig titelinformation. Under Huvudtitel, skriv in uppgiften.  
+  Klicka på +-tecknet vid Instans (Lägg till fält under: Instans) och lägg till Har titel. Välj Titel. Ta bort Övrig titelinformation. Under Huvudtitel, skriv in uppgiften.  
+```Exempel:   Aktuellt magazin```  
   
-* Fortsätter/Verk/Har instans/Instans/Har titel/Titel (780 0/0 ‡t)  
- För att lägga till ISSN till den resurs man länkar till, klicka på +-tecknet vid Instans (lägg till fält under: Instans) och lägg till Identifikator (identifiedBy). Välj typ ISSN. Skriv in ISSN under Värde.  
+* Fortsätter/Verk/Har instans/Instans/Identifikator/ISSN/Värde (780 0/0 ‡x)  
+ För att lägga till ISSN för den resurs man länkar till, klicka på +-tecknet vid Instans (lägg till fält under: Instans) och lägg till Identifikator (identifiedBy). Välj typ ISSN. Skriv in ISSN under Värde.  
+ ```Exempel: 1402-1250```
 
-* Fortsätter/Verk/Beskriven av/Post/Kontrollnummer (780 0/0 ‡w)  
+* Fortsätter/Verk/Har instans/Instans/Beskriven av/Post/Kontrollnummer (780 0/0 ‡w)  
   Beskriven av/Post/Kontrollnummer, motsvarande delfält w, är för närvarande låst för redigering. Det går därmed inte att lägga till fältet eller redigera det i befintliga beskrivningar.  
 
-  LÄGG TILL LISTA RELATIONER
-  
+  Följande relationer kan läggas till under Instans av Verk:  
+  Fortsätter  
+  Fortsätter delvis  
+  Fortsättes av  
+  Fortsättes delvis av  
+  Efterföljare
+  Utgiven med
     
-* Utgiven med/Verk (issuedWith/Work = 777)  
-  Skapa lokal entitet och skriv in uppgiften.  
   
-* Utgiven med/Verk/Inledande anmärkning (issuedWith/Work/Marc:displayText = 777 0/8 ‡i)  
-  Skriv in uppgiften.  
+* Fortsätter/Verk/Har instans/Instans/Inledande anmärkning (issuedWith/Work/Marc:displayText = 777 0/8 ‡i)  
+  Inledande anmärkning, motsvarande delfält i, kan för närvarande inte läggas till. Det går dock att redigera det i befintliga beskrivningar.  
   ```Exempel: 2011:4-2013:2 omvänt sammanhäftad med```
   
-* Utgiven med/Verk/Har titel/Titel/Titel (issuedWith/Work/hasTitle/Title/Title = 777 ‡t)  
-  Skriv in uppgiften.   
-  ```Exempel: Musikant (Stockholm. 2011)```  
-  
-* Utgiven med/Verk/Identifikator/Typ   
-  Välj från lista.   
-  ```Exempel:  ISSN```  
-  
-* Utgiven med/Verk/Identifikator/ISSN/Värde (issuedWith/Work/identifiedBy/Issn/value = 777 ‡x)  
-  Skriv in uppgiften.  
-  ```Exempel:  2001-273X```  
-  
-* Utgiven med/Verk/Beskriven av/Post/Kontrollnummer   
-  (issuedWith/Work/describedBy/record/controlNumber = 777 0/1 ‡w)  
-  Skriv in uppgiften.  
-  ```Exempel: 12683514```  
 
-* Fortsätter delvis/Verk (continuesInPart/Work = 780)  
-  Skapa lokal entitet och skriv in uppgiften.  
 
-* Fortsätter delvis/Verk/Har instans/Instans/Har titel/Titel/Huvudtitel          (continuesInPart/Work/hasInstance/Instance/title/Title/mainTitle = 780 ‡t)  
-  Skriv in uppgiften.  
-  ```Exempel: Musikant och kammarmusik-nytt```  
+ 
   
-* Fortsätter delvis/Verk/Har instans/Instans/Identifikator/Typ  
-  Välj från lista.  
-  ```Exempel:  ISSN```  
-  
-* Fortsätter delvis/Verk/Har instans/Instans/Identifikator/ISSN/Värde    (continesInPart/Work/hasInstance/Instance/identifiedBy/Issn/value = 780 ‡x)  
-   Skriv in uppgiften.  
-  ```Exempel:  1653-2945```  
-  
-* Fortsätter delvis/Verk/Har instans/Instans/Beskriven av/Post/Kontrollnummer   (continuesInPart/Work/hasInstance/Instance/describedBy/record/controlNumber = 780 0/1 ‡w)  
-  Skriv in uppgiften.  
-  ```Exempel: 9955452```
-  
-* Fortsättes av/Verk  
- Skapa lokal entitet och skriv in uppgiften.  
 
-* Fortsättes av/Verk/Har instans/Instans/Har titel/Titel/Huvudtitel   (continuedBy/Work/hasInstance/Instance/title/Title/mainTitle = 785 ‡t)  
-  Skriv in uppgiften.  
-  ```Exempel: Kammarmusik-nytt (Brämhult. Online)```  
-  
-*  Fortsättes av/Verk/Har instans/Instans/Identifikator/Typ  
-   Välj från lista.    
-   ```Exempel:  ISSN```  
-   
-* Fortsättes av/Verk/Har instans/Instans/Identifikator/ISSN/Värde     (continuedBy/Work/hasInstance/Instance/identifiedBy/Issn/value = 785 ‡x)  
-  Skriv in uppgiften.  
-  ```Exempel:  2001-6921```  
-  
-* Fortsättes av/Verk/Har instans/Instans/Beskriven av/Post/Kontrollnummer  (continuedBy/Work/hasInstance/Instance/describedBy/record/controlNumber = 785 0/0 ‡w)  
-  Skriv in uppgiften.  
-  ```Exempel: 14697501```
