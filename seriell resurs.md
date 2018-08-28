@@ -181,7 +181,7 @@ Skapa också lokal entitet under Katalogiseringsregler, välj typ Katalogisering
 * Annat bärarformat/Har titel/Titel (776 ‡t)  
   Under Instans, lägg till titel genom att klicka på +-tecknet vid Instans (Lägg till fält under: Instans) och välj Har titel. Välj Titel. Ta bort Övrig titelinformation och skriv in huvudtiteln under Huvudtitel. 
 * Annat bärarformat/Identifikator/ISSN/Värde (776 ‡x)  
-  Under Instans, lägg till titel genom att klicka på +-tecknet vid Instans (Lägg till fält under: Instans) och välj Identifikator. Välj typ ISSN. Skriv in ISSN för den utgåva du vill länka till under Värde.  
+  Under Instans, lägg till identifikator genom att klicka på +-tecknet vid Instans (Lägg till fält under: Instans) och välj Identifikator. Välj typ ISSN. Skriv in ISSN för den utgåva du vill länka till under Värde.  
 * Annat bärarformat/Beskriven av/Post/Kontrollnummer (776 ‡w)  
   Beskriven av/Post/Kontrollnummer, motsvarande delfält w, är för närvarande låst för redigering. Det går därmed inte att lägga till fältet eller redigera det i befintliga beskrivningar.  
 
