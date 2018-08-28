@@ -246,6 +246,17 @@ Det är tillåtet men inte nödvändigt att också göra följande. För att par
 * Relation/Relation/Entitet/Verk/Har titel/Titel/Huvudtitel (relationship/Relationship/entity/Work/hasTitle/Title/mainTitle = 740)  
 Ange alternativa titlar här för att öka sökbarheten för titlar som innehåller exempelvis specialtecken, siffror eller oväntade stavningar av ord.  
 
+* Annat bärarformat (otherPhysicalFormat = 776)  
+  För att länka till en utgåva i annat format, till exempel en elektronisk utgåva, lägg till Annat bärarformat genom att klicka på Lägg till fält. Välj Annat bärarformat.  
+  Skapa en instans som lokal entitet genom att klicka på +-tecknet vid Annat bärarformat (lägg till instans). Klicka på Skapa lokal entitet och välj Instans. 
+* Annat bärarformat/Har titel/Titel (776 ‡t)  
+  Under Instans, lägg till titel genom att klicka på +-tecknet vid Instans (Lägg till fält under: Instans) och välj Har titel. Välj Titel. Ta bort Övrig titelinformation och skriv in huvudtiteln under Huvudtitel. 
+* Annat bärarformat/Identifikator/ISBN/Värde (776 ‡x)  
+  Under Instans, lägg till identifikator genom att klicka på +-tecknet vid Instans (Lägg till fält under: Instans) och välj Identifikator. Välj typ ISBN. Skriv in ISBN för den utgåva du vill länka till under Värde.  
+* Annat bärarformat/Beskriven av/Post/Kontrollnummer (776 ‡w)  
+  Beskriven av/Post/Kontrollnummer, motsvarande delfält w, är för närvarande låst för redigering. Det går därmed inte att lägga till fältet eller redigera det i befintliga beskrivningar.  
+
+
 ### Verk
 
 * Instans av Verk/Text (instanceOf/Work/Text)  
