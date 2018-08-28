@@ -306,7 +306,7 @@ Läs mer om [Verk och Instans](https://librisbloggen.kb.se/2018/05/30/verk-och-i
   Hör följer ett urval av de relationer som kan läggas till, enligt samma mönster som Fortsätter (se ovan), under Instans av Verk:  
   
   Fortsätter (continues = 780 0/0)  
-  Fortsätter delvis (continuedInPartBy = 780 0/1)  
+  Fortsätter delvis (continuesInPartBy = 780 0/1)  
   Föregående (precededBy = 780 0/2)  
   Ersätter delvis (precededInPartBy = 780 0/3)  
   Sammanslagen med (mergerOf = 780 0/4)  (se [Exempel](https://libris.kb.se/katalogisering/5ng67r2h49lzkl9#it))  
