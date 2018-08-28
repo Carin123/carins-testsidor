@@ -321,4 +321,4 @@ Läs mer om [Verk och Instans](https://librisbloggen.kb.se/2018/05/30/verk-och-i
   Har uppgått i (absorbedBy = 785 0/4)  
   Har delvis uppgått i (absorbedInPartBy = 785 0/5)  
   Uppdelat på (splitInto = 785 0/6)  
-  Sammanslagen till (mergedToForm = 785 0/7)  (se [Exempel](https://libris.kb.se/katalogisering/tb4vcdf54hzlsr3#it))
+  Sammanslagen till (mergedToForm = 785 0/7)  (se [Exempel](https://libris.kb.se/katalogisering/tb4vcdf54hzlsr3#it))  
