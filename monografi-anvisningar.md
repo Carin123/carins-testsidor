@@ -2,7 +2,7 @@
 
 Denna hjälptext beskriver ett antal vanligt förekommande fält, med utgångspunkt från exempel. För instruktioner om att länka till entitet, skapa lokal entitet och om hur formuläret fungerar i övrigt, se Redigering i vänstermenyn. För information om katalogregler, skrivregler och övriga katalogiseringsanvisningar, se [Anvisningar för katalogisering - RDA](http://www.kb.se/rdakatalogisering/Anvisningar/Arbetsfloden/Tryckta-monografier/ "Anvisningar för katalogisering - RDA").
 
-Se även instruktionsfilmer:
+Se även instruktionsfilmer:  
 [Primärkatalogisera en tryckt monografi](https://www.youtube.com/watch?v=9SHj1c3s6IU&list=PLZVkEICvA5-GRT2oJQmLgq_2Pksx6zYPy&index=5)  
 [Uppgradering av CIP-post/sekundärkatalogisering av översatt verk](https://www.youtube.com/watch?v=JkflHthklG4&list=PLZVkEICvA5-GRT2oJQmLgq_2Pksx6zYPy&index=6)  
 
