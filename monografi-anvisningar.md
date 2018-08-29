@@ -395,7 +395,11 @@ Läs mer om [Verk och Instans](https://librisbloggen.kb.se/2018/05/30/verk-och-i
 * Genre/form – konferenspublikation (genreForm = 008/29)  
   Länka till entitet.  
   För att söka efter entiteter inom Konferenspublikation, välj Konferenspublikation i listan över typer, under Genre/form. Trunkera genom att trycka på mellanslagstangenten eller med * i sökrutan. Välj rätt entitet genom att klicka på Lägg till. 
-     ```Exempel: Ja, resursen härrör från konferens```     
+     ```Exempel: Ja, resursen härrör från konferens```   
+     
+* Genre/form – akademisk avhandling (genreForm = 008/24-27)  
+  Länka till entitet. För att söka efter entiteten Akademisk avhandling, välj Innehåll 1, Innehåll 3, Innehåll 2, i listan över typer, under Genre/form.  Skriv "avhandling" i sökrutan. Välj rätt entitet genom att klicka på Lägg till.  
+     ```Exempel: Akademisk avhandling```     
   
  * Målgrupp (intendedAudience = 008/22)  
   Länka till entitet.  
