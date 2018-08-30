@@ -238,12 +238,12 @@ Det är tillåtet men inte nödvändigt att också göra följande. För att par
   Skriv in uppgiften.  
   
 * Har innehållsförteckning (innehållsanmärkning) (tableofContents = 505)  
- För en innehållsanmärkning med endast oformaterad text (505 ‡a), lägg till Har innehållsförteckning (från Lägg till fält under: Instans). Lägg därefter till Innehållsförteckning (klicka på +-tecknet under Har innehållsförteckning i vänstermenyn). Lägg till Har del genom att klicka på +-tecknet vid Innehållsförteckning (Lägg till fält under: Innehållsförteckning), välj Har del. Skapa Utökad innehållsanmärkning som lokal entitet genom att klicka på +-tecknet vid Har del (Lägg till resurs) och välj Skapa lokal entitet. Välj Utökad innehållsanmärkning. Lägg till Benämning (klicka på +-tecknet vid Lägg till fält under: Innehållsförteckning). 
+  För en innehållsanmärkning med endast oformaterad text (505 ‡a), lägg till Har innehållsförteckning (från Lägg till fält under: Instans). Lägg därefter till Innehållsförteckning (klicka på +-tecknet under Har innehållsförteckning i vänstermenyn). Lägg till Har del genom att klicka på +-tecknet vid Innehållsförteckning (Lägg till fält under: Innehållsförteckning), välj Har del. Skapa Utökad innehållsanmärkning som lokal entitet genom att klicka på +-tecknet vid Har del (Lägg till resurs) och välj Skapa lokal entitet. Välj Utökad innehållsanmärkning. Lägg till Benämning (klicka på +-tecknet vid Lägg till fält under: Innehållsförteckning). 
  
-För en formaterad innehållsanmärkning (505 ‡t, ‡r), följ stegen ovan.
+ För en formaterad innehållsanmärkning (505 ‡t, ‡r), följ stegen ovan.
 Lägg till eventuell Upphovsuppgift (klicka på +-tecknet vid Lägg till fält under: Innehållsförteckning).  
  
-Upprepa genom att lägga till ytterligare en Utökad innehållsanmärkning som lokal entitet (klicka på +-tecknet vid Har del och välj Skapa lokal entitet, välj Utökad innehållsanmärkning).  
+ Upprepa genom att lägga till ytterligare en Utökad innehållsanmärkning som lokal entitet (klicka på +-tecknet vid Har del och välj Skapa lokal entitet, välj Utökad innehållsanmärkning).  
   
 * Målgrupp/Målgrupp/Benämning (intendedAudience/IntendedAudience/label = 521 ‡a)   
   Skriv in uppgiften.    
