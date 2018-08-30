@@ -237,7 +237,7 @@ Det är tillåtet men inte nödvändigt att också göra följande. För att par
   Skriv in allmänna anmärkningar här.    
   Skriv in uppgiften.  
   
- * Har innehållsförteckning (innehållsanmärkning) (tableofContents = 505)  
+* Har innehållsförteckning (innehållsanmärkning) (tableofContents = 505)  
  För en innehållsanmärkning med endast oformaterad text (505 ‡a), lägg till Innehållsförteckning under Har innehållsförteckning, lägg därefter till Benämning.  
  För en formaterad innehållsanmärkning (505 ‡t, ‡r), lägg till Innehållsförteckning under Har innehållsförteckning, lägg därefter till Har del/Utökad innehållsanmärkning som lokal entitet. Lägg därefter till Benämning och eventuell Upphovsuppgift.  
   
