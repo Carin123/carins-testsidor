@@ -223,21 +223,38 @@ Läs mer om [Verk och Instans](https://librisbloggen.kb.se/2018/05/30/verk-och-i
   Länka till entitet.   
   ```Exempel:  Utgivare (pbl = publisher)```
 
+* DDK-klassifikation  
+  För att lägga till DDK-klassifikation:  
+  * Om posten har Klassifikation/Klassifikation (till exempel SAB-klassifikation) men saknar Klassifikation/DDK-klassifikation, lägg till ytterligare en förekomst av Klassifikation genom att klicka på +-tecknet vid Klassifikation (lägg till fält under: KLassifikation). Välj Skapa lokal entitet och välj DDK-klassifikation. Skriv in uppgiften under Kod.  
+  * Om posten helt saknar Klassifikation, lägg till Klassifikation genom att klicka på den runda fält-knappen i verktygsmenyn (Lägg till fält under: Instans). Välj Klassifikation. Klicka på +-tecknet under Klassifikation (Lägg till Klassifikation). Välj Skapa lokal entitet och välj DDK-klassifikation.  
+   Skriv in uppgiften under Kod.  
+
 * Klassifikation/DDK-klassifikation/Kod (classification/ClassificationDdc/code = 082 0/4 ‡a)  
   Skriv in uppgiften.  
-  ```Exempel: 785.005```  
-  
-* Klassifikation/DDK-klassifikation/Klassifikationsupplaga (classification/ClassificationDdc/edition = 082 ‡2)  
-  ```Exempel: 23/swe```
-  
-* Klassifikation/Kod (classification/Classification/code = 084 0/4 ‡a)  
-  Skriv in uppgiften.  
-  ```Exempel: Ij-c:bf Riksförbundet Sveriges kammarmusikarrangörer(p)```
+  ```Exempel: 327.12092```
 
-* Klassifikation/Termlista/Termlista/ID (classification/Classification/iinScheme/ConceptScheme = 084 ‡2)   
-  Skriv in uppgiften.  
- ```Exempel: https://id.kb.se/term/kssb/8```  
+* Klassifikation/DDK-klassifikation/Klassifikationsupplaga (classification/ClassificationDdc/edition = 082 ‡2)  
+  ```Exempel: 23/swe```  
+  
+*  Parallell upplagebeteckning/Upplagespecifik upphovsuppgift (classification/ClassificationDdc/editionEnumeration = 082 ‡2)  
+   ```Exempel: 23/swe```  
+  
+* SAB-klassifikation  
+  För att lägga till annan klassifikation, till exempel SAB-klassifikation:  
+  * Om posten har Klassifikation/DDK-klassifikation men saknar Klassifikation/Klassifikation (till exempel SAB-klassifikation), lägg till ytterligare en förekomst av Klassifikation genom att klicka på +-tecknet vid Klassifikation (lägg till fält under: KLassifikation). Välj Skapa lokal entitet och välj Klassifikation. Skriv in uppgiften under Kod.  
+  * Om posten helt saknar Klassifikation, lägg till Klassifikation genom att klicka på den runda fält-knappen i verktygsmenyn (Lägg till fält under: Instans). Välj Klassifikation. Klicka på +-tecknet under Klassifikation (Lägg till fält under: Klassifikation). Välj Skapa lokal entitet och välj Klassifikation.  
+   Skriv in uppgiften under Kod.  
+
+* Klassifikation/Klassifikation/Kod (classification/Classification/code = 084 0/4 ‡a)  
+     Skriv in uppgiften.  
+  ```Exempel: Sei-e```  
+  
+* Klassifikation/Termlista/Termlista/Kod (classification/Classification/inScheme/ConceptScheme/code = 084 ‡2)  
+ ```Exempel: kssb```  
  
+ * Klassifikation/Termlista/Termlista/Version (classification/Classification/inScheme/ConceptScheme/version = 084 ‡2)  
+ ```Exempel: 8``` 
+
  * Ämne  
   Läs mer:  
   [Lägg till auktoriserade ämnesord](https://libris.kb.se/katalogisering/help/workflow-linked-entity-sh)  
