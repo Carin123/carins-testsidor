@@ -357,9 +357,11 @@ Läs mer om [Verk och Instans](https://librisbloggen.kb.se/2018/05/30/verk-och-i
      Skriv in uppgiften.  
   ```Exempel: Sei-e```  
   
-* Klassifikation/Termlista/Termlista/ID (classification/Classification/inScheme/ConceptScheme = 084 ‡2)  
-  Skriv in uppgiften.  
- ```Exempel: https://id.kb.se/term/kssb/8```
+* Klassifikation/Termlista/Termlista/Kod (classification/Classification/inScheme/ConceptScheme/code = 084 ‡2)  
+ ```Exempel: kssb```  
+ 
+ * Klassifikation/Termlista/Termlista/Version (classification/Classification/inScheme/ConceptScheme/version = 084 ‡2)  
+ ```Exempel: 8``` 
 
 * Ämne  
   Läs mer:  
