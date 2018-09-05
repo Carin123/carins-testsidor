@@ -98,7 +98,7 @@ Skapa också lokal entitet under Katalogiseringsregler, välj typ Katalogisering
   Skriv in uppgiften.  
   ```Exempel: 2011, nr 4-2012, nr 4``` 
   
-  
+#### Identifikator  
 * Identifikator/Typ (identifiedBy)  
   Välj från lista.  
   ```Exempel: ISSN```  
@@ -109,8 +109,9 @@ Skapa också lokal entitet under Katalogiseringsregler, välj typ Katalogisering
  
 * Identifikator/Felaktigt ISSN (identifiedBy/marc:incorrectIssn = 022 ‡y)  
   Skriv in uppgiften.   
-  ```Exempel: 1653-2945```
-
+  ```Exempel: 1653-2945``` 
+  
+#### Utgivning
 * Utgivning  
   Välj typ från lista. För seriella resurser med endast en utgivare, använd Primär utgivning.  
   För att beskriva en seriell resurs med flera utgivningsperioder (motsvarande 264, indikator 1 - sekvens av utgivaruppgifter) saknas vissa delar av formatet. Dessa är under arbete.  
@@ -149,32 +150,38 @@ Skapa också lokal entitet under Katalogiseringsregler, välj typ Katalogisering
   Skriv in uppgiften.  
   ```Exempel: 2012-2013```  
   ```Exempel: [1988-]```  
- 
+  
+#### Frekvens   
 * Frekvens (frequency)  
   * Frekvensterm (008/18)  
     Länka till entitet.  
     ```Exempel: var tredje månad (q = quarterly)```  
   * Regelbundenhet (008/19)  
     Länka till entitet.  
-    ```Exempel: regelbunden (r = regular)```
-
+    ```Exempel: regelbunden (r = regular)``` 
+    
+#### Numrering av seriell resurs  
 * Har numrering av seriell resurs/Numrering av seriell resurs/Benämning  
   (hasNumberingofSerials/NumberingofSerials/label = 362 0/- ‡a)   
   Skriv in uppgiften.  
   ```Exempel: 2011: 4-2013: 2```
 
+#### Medietyp
 * Medietyp (mediaType/Mediatype = 337 ‡b)  
   Länka till entitet.  
-  ```Exempel:  n (= omedierad)```
-
+  ```Exempel:  n (= omedierad)``` 
+  
+#### Bärartyp  
 * Bärartyp (carrierType/CarrierType = 338 ‡b)  
   Länka till entitet.  
 ```Exempel:  nc (= volym)```
 
+#### Anmärkning
 * Anmärkning/Anmärkning/Benämning (hasNote/Note/label = 500 ‡a)  
   Skriv in uppgiften.  
   Skriv in allmänna anmärkningar här. Anmärkningar om specifika fält skrivs in i Kommentar (note) under respektive fält, när sådana specifika anmärkningsfält finns. 
-  
+ 
+#### Annat bärarformat
 * Annat bärarformat (otherPhysicalFormat = 776)  
   För att länka till en utgåva i annat format, till exempel en elektronisk utgåva, lägg till Annat bärarformat genom att klicka på Lägg till fält. Välj Annat bärarformat.  
   Skapa en instans som lokal entitet genom att klicka på +-tecknet vid Annat bärarformat (lägg till instans). Klicka på Skapa lokal entitet och välj Instans. 
@@ -200,6 +207,7 @@ Läs mer om [Verk och Instans](https://librisbloggen.kb.se/2018/05/30/verk-och-i
   Länka till entitet.  
   ```Exempel: 0 (= Successive entry = Titeländring ger upphov till ny post)```
   
+#### Medverkan och funktion     
 * Medverkan och funktion  
   Läs mer:  
   [Auktoritetsgruppens rekommendationer](https://kundo.se/org/librisxl/d/kbs-auktoritetsgrupp-informerar-jraz/)   
@@ -212,7 +220,8 @@ Läs mer om [Verk och Instans](https://librisbloggen.kb.se/2018/05/30/verk-och-i
 * Medverkan och funktion/Medverkan/Agent/Funktion (contribution/Contribution/agent/role = 710 ‡4)   
   Länka till entitet.   
   ```Exempel:  Utgivare (pbl = publisher)```
-
+  
+#### Klassifikation  
 * DDK-klassifikation  
   För att lägga till DDK-klassifikation:  
   * Om posten har Klassifikation/Klassifikation (till exempel SAB-klassifikation) men saknar Klassifikation/DDK-klassifikation, lägg till ytterligare en förekomst av Klassifikation genom att klicka på +-tecknet vid Klassifikation (lägg till fält under: KLassifikation). Välj Skapa lokal entitet och välj DDK-klassifikation. Skriv in uppgiften under Kod.  
@@ -244,7 +253,8 @@ Läs mer om [Verk och Instans](https://librisbloggen.kb.se/2018/05/30/verk-och-i
  
  * Klassifikation/Termlista/Termlista/Version (classification/Classification/inScheme/ConceptScheme/version = 084 ‡2)  
  ```Exempel: 8``` 
-
+ 
+#### Ämne  
  * Ämne  
   Läs mer:  
   [Lägg till auktoriserade ämnesord](https://libris.kb.se/katalogisering/help/workflow-linked-entity-sh)  
@@ -264,7 +274,8 @@ Läs mer om [Verk och Instans](https://librisbloggen.kb.se/2018/05/30/verk-och-i
    Länka till entitet.  
    I undantagsfall, skapa lokal entitet och skriv in uppgiften.   
     ```Exempel: Sverige```
-   
+    
+#### Genre/form    
 * Genre/form - typ av fortlöpande resurs (genreForm/marc:Periodical = 008/21)  
   Länka till entitet.  
   För att söka efter entiteter inom Typ av fortlöpande resurs, välj Typ av fortlöpande resurs i listan över typer, under Genre/form. Trunkera genom att trycka på mellanslagstangenten eller med * i sökrutan. Välj rätt entitet genom att klicka på Lägg till.  
@@ -273,8 +284,9 @@ Läs mer om [Verk och Instans](https://librisbloggen.kb.se/2018/05/30/verk-och-i
 * Genre/form – konferenspublikation (genreForm = 008/29)  
   Länka till entitet.  
   För att söka efter entiteter inom Konferenspublikation, välj Konferenspublikation i listan över typer, under Genre/form. Trunkera genom att trycka på mellanslagstangenten eller med * i sökrutan. Välj rätt entitet genom att klicka på Lägg till.  
-     ```Exempel: Ja, resursen härrör från konferens```       
-
+     ```Exempel: Ja, resursen härrör från konferens```      
+     
+#### Språk och Alfabet
 * Språk (language = 008/35-37)  
   Länka till entitet.  
   ```Exempel: svenska (swe)```
@@ -282,11 +294,13 @@ Läs mer om [Verk och Instans](https://librisbloggen.kb.se/2018/05/30/verk-och-i
 * Alfabet/skriftart (marc:alphabet = 008/33)   
    Länka till entitet.  
   ```Exempel: b (= Extended roman = Latinskt alfabet med diakriter och specialtecken (a-ö))```
-
+  
+#### Innehållstyp
 * Innehållstyp (contentType/ContentType = 336 ‡b)  
   Länka till entitet.  
   ```Exempel: text (txt)```
-  
+
+#### Länkfält/relationer under verk
 * Länkfält/relationer under verk: Fortsätter (780 0/0), Fortsättes av (785 0/0), Ersätter (780 0/2), med flera -   
   konstrueras enligt följande mönster. Ange relationen, skapa verket som lokal instans och skapa en lokal instans av verket, ange egenskaper för instansen, till exempel titel och identifikator, se nedan.  
   Under Instans av Verk, lägg till fält genom att klicka på +-tecknet vid Instans av Verk/Text (Lägg till fält under: Text). Välj till exempel Fortsätter (eller Fortsättes av eller annan relation) och lägg till det. Skapa ett verk som lokal entitet genom att klicka på +-tecknet vid Fortsätter. Klicka på Skapa lokal entitet. Välj Verk i listan. Skapa en instans av verket genom att klicka på +-tecknet vid Verk (Lägg till fält under: Verk) och lägg till Har instans. Klicka på +-tecknet vid Har instans och skapa instansen som lokal entitet (klicka på Skapa lokal entitet och välj Instans). 
