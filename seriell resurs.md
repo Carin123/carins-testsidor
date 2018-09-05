@@ -58,21 +58,25 @@ Skapa också lokal entitet under Katalogiseringsregler, välj typ Katalogisering
 
 
 ### Instans
+
+#### Utgivningssätt
 * Utgivningssätt (issuanceType)  
   Välj från lista.  
   ```Exempel: Seriell resurs```
   
-#### Huvudtitel    
+#### Titel 
+  
+##### Huvudtitel    
 * Har titel/Titel/Huvudtitel (hasTitle/Title/mainTitle = 245 ‡a)  
   Skriv in uppgiften.  
   ```Exempel: Kammarmusik-nytt```  
   
- #### Övrig titelinformation (undertitel)
+ ##### Övrig titelinformation (undertitel)
 * Har titel/Titel/Övrig titelinformation (hasTitle/Title/subtitle = 245 ‡b)  
   Skriv in uppgiften.  
   ```Exempel: Kammarmusikförbundets tidskrift```
   
- #### Varianttitel  
+ ##### Varianttitel  
   Används till exempel för felaktigheter. Kan specificeras med Typanmärkning. 
 * Har titel/Varianttitel/Typanmärkning (hasTitle/VariantTitle/typeNote = 246 1/_ ‡i)  
  Anmärkningstext som i ett sökgränssnitt ska föregå varianttiteln.    
@@ -82,13 +86,13 @@ Skapa också lokal entitet under Katalogiseringsregler, välj typ Katalogisering
   Skriv in uppgiften.  
   ```Exempel: Housing sarts```  
  
-#### Akronymer/Del av huvudtitel  
+##### Akronymer/Del av huvudtitel  
 * Har titel/Del av huvudtitel/Huvudtitel (hasTitle/Titleportion/mainTitle = 245 0/- ‡a)  
   Används för akronymer som är en del av huvudtiteln.  
   Skriv in uppgiften.  
   ```Exempel: ACMO```  
   
- #### Tidsbestämd titelvariant  
+ ##### Tidsbestämd titelvariant  
 * Har titel/Titelvariant/Huvudtitel (hasTitle/DistinctiveTitle/mainTitle = 246 ‡a)  
   Avser tidsbestämda titelvariationer. Volym/häfte och/eller tidsintervall preciseras under Täckning eller tillkomst (se nedan).   
   Skriv in uppgiften.  
