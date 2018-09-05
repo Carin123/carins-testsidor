@@ -62,15 +62,17 @@ Skapa också lokal entitet under Katalogiseringsregler, välj typ Katalogisering
   Välj från lista.  
   ```Exempel: Seriell resurs```
   
+#### Huvudtitel    
 * Har titel/Titel/Huvudtitel (hasTitle/Title/mainTitle = 245 ‡a)  
   Skriv in uppgiften.  
   ```Exempel: Kammarmusik-nytt```  
   
+ #### Övrig titelinformation (undertitel)
 * Har titel/Titel/Övrig titelinformation (hasTitle/Title/subtitle = 245 ‡b)  
   Skriv in uppgiften.  
   ```Exempel: Kammarmusikförbundets tidskrift```
   
- #### Varianttitel 
+ #### Varianttitel  
   Används till exempel för felaktigheter. Kan specificeras med Typanmärkning. 
 * Har titel/Varianttitel/Typanmärkning (hasTitle/VariantTitle/typeNote = 246 1/_ ‡i)  
  Anmärkningstext som i ett sökgränssnitt ska föregå varianttiteln.    
@@ -80,13 +82,13 @@ Skapa också lokal entitet under Katalogiseringsregler, välj typ Katalogisering
   Skriv in uppgiften.  
   ```Exempel: Housing sarts```  
  
-#### Akronymer/Del av huvudtitel
+#### Akronymer/Del av huvudtitel  
 * Har titel/Del av huvudtitel/Huvudtitel (hasTitle/Titleportion/mainTitle = 245 0/- ‡a)  
   Används för akronymer som är en del av huvudtiteln.  
   Skriv in uppgiften.  
   ```Exempel: ACMO```  
   
- #### Tidsbestämd titelvariant
+ #### Tidsbestämd titelvariant  
 * Har titel/Titelvariant/Huvudtitel (hasTitle/DistinctiveTitle/mainTitle = 246 ‡a)  
   Avser tidsbestämda titelvariationer. Volym/häfte och/eller tidsintervall preciseras under Täckning eller tillkomst (se nedan).   
   Skriv in uppgiften.  
@@ -169,10 +171,6 @@ Skapa också lokal entitet under Katalogiseringsregler, välj typ Katalogisering
   Länka till entitet.  
 ```Exempel:  nc (= volym)```
 
-* Bärartyp/Bokformat (carrierType/BookFormat = 008/23/Form för katalogiserat objekt)  
-  Länka till entitet.  
-  ```Exempel: - (= ingen av följande)```
-  
 * Anmärkning/Anmärkning/Benämning (hasNote/Note/label = 500 ‡a)  
   Skriv in uppgiften.  
   Skriv in allmänna anmärkningar här. Anmärkningar om specifika fält skrivs in i Kommentar (note) under respektive fält, när sådana specifika anmärkningsfält finns. 
@@ -187,16 +185,6 @@ Skapa också lokal entitet under Katalogiseringsregler, välj typ Katalogisering
 * Annat bärarformat/Beskriven av/Post/Kontrollnummer (776 ‡w)  
   Beskriven av/Post/Kontrollnummer, motsvarande delfält w, är för närvarande låst för redigering. Det går därmed inte att lägga till fältet eller redigera det i befintliga beskrivningar.  
 
-* Relaterad till/Dokument/URI (relatedTo/Document/uri = 856 4/8 ‡u)  
-  Skriv in uppgiften.  
-   ```Exempel:  http://www.kammarmusikforbundet.se```  
-* Relaterad till/Dokument/Åtkomstmetod (relatedTo/Document/marc:electronicLocatorType = 856 4/8 ‡u)  
-  Skriv in uppgiften.  
-   ```Exempel:  http```  
- 
-* Relaterad till/Dokument/Offentlig anmärkning (relatedTo/Document/marc:copyNote = 856 ‡z)    
-   Skriv in uppgiften.  
-  ```Exempel:  Förbundets webbplats```
 
 ### Verk
 
@@ -276,13 +264,6 @@ Läs mer om [Verk och Instans](https://librisbloggen.kb.se/2018/05/30/verk-och-i
    Länka till entitet.  
    I undantagsfall, skapa lokal entitet och skriv in uppgiften.   
     ```Exempel: Sverige```
-   
-* Genre/form – saogf-termer (genreForm = 655 -/7 ‡a, ‡2 saogf)  
-  Länka till entitet.  
-  För att söka efter entiteter inom saogf-termer, välj Genre/form i listan över typer, under Genre/form. Trunkera genom att trycka på mellanslagstangenten eller med * i sökrutan. Välj rätt entitet genom att klicka på Lägg till.  
-  Under Genre/form, välj Genre/form i listan över typer.  
-  ```Exempel: Organisationspress```  
-  ```Exempel: Musiktidskrifter```  
    
 * Genre/form - typ av fortlöpande resurs (genreForm/marc:Periodical = 008/21)  
   Länka till entitet.  
