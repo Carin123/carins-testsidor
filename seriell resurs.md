@@ -13,6 +13,7 @@ samt andra poster.
 
 [Adminmetadata](#adminmetadata)  
 [Instans](#instans)  
+[Utgivningssätt](####utgivningssätt)
 [Verk](#verk)  
 
 
