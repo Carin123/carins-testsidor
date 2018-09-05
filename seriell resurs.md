@@ -63,8 +63,7 @@ Skapa också lokal entitet under Katalogiseringsregler, välj typ Katalogisering
   ```Exempel: Seriell resurs```
   
 * Har titel/Nyckeltitel/Huvudtitel (hasTitle/KeyTitle/mainTitle = 222 -/0 ‡a)  
-  Länka till entitet.
-  I undantagsfall, skapa lokal entitet och skriv in uppgiften.  
+  Skriv in uppgiften.  
   ```Exempel:  Kammarmusik-nytt```  
 
 * Har titel/Nyckeltitel/Särskiljande tillägg (hasTitle/KeyTitle/qualifier = 222 ‡b)  
