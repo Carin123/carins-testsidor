@@ -62,14 +62,6 @@ Skapa också lokal entitet under Katalogiseringsregler, välj typ Katalogisering
   Välj från lista.  
   ```Exempel: Seriell resurs```
   
-* Har titel/Nyckeltitel/Huvudtitel (hasTitle/KeyTitle/mainTitle = 222 -/0 ‡a)  
-  Skriv in uppgiften.  
-  ```Exempel:  Kammarmusik-nytt```  
-
-* Har titel/Nyckeltitel/Särskiljande tillägg (hasTitle/KeyTitle/qualifier = 222 ‡b)  
-  Skriv in uppgiften, inom parentes.  
-  ```Exempel:  (Brämhult)```
-
 * Har titel/Titel/Huvudtitel (hasTitle/Title/mainTitle = 245 ‡a)  
   Skriv in uppgiften.  
   ```Exempel: Kammarmusik-nytt```  
@@ -78,13 +70,32 @@ Skapa också lokal entitet under Katalogiseringsregler, välj typ Katalogisering
   Skriv in uppgiften.  
   ```Exempel: Kammarmusikförbundets tidskrift```
   
+ #### Varianttitel 
+  Används till exempel för felaktigheter. Kan specificeras med Typanmärkning. 
+* Har titel/Varianttitel/Typanmärkning (hasTitle/VariantTitle/typeNote = 246 1/_ ‡i)  
+ Anmärkningstext som i ett sökgränssnitt ska föregå varianttiteln.    
+  Skriv in uppgiften.  
+  ```Exempel: Titel felstavad i nummer 1 (2006):```  
+* Har titel/Varianttitel/Huvudtitel (hasTitle/VariantTitle/mainTitle = 246 1/_ ‡a)  
+  Skriv in uppgiften.  
+  ```Exempel: Housing sarts```  
+ 
+#### Akronymer/Del av huvudtitel
+* Har titel/Del av huvudtitel/Huvudtitel (hasTitle/Titleportion/mainTitle = 245 0/- ‡a)  
+  Används för akronymer som är en del av huvudtiteln.  
+  Skriv in uppgiften.  
+  ```Exempel: ACMO```  
+  
+ #### Tidsbestämd titelvariant
 * Har titel/Titelvariant/Huvudtitel (hasTitle/DistinctiveTitle/mainTitle = 246 ‡a)  
+  Avser tidsbestämda titelvariationer. Volym/häfte och/eller tidsintervall preciseras under Täckning eller tillkomst (se nedan).   
   Skriv in uppgiften.  
   ```Exempel: Hushållningssällskapets magasin```  
   
 * Har titel/Titelvariant/Täckning eller tillkomst (hasTitle/DistinctiveTitle/coverage = 246 #f)  
   Skriv in uppgiften.  
   ```Exempel: 2011, nr 4-2012, nr 4``` 
+  
   
 * Identifikator/Typ (identifiedBy)  
   Välj från lista.  
@@ -93,15 +104,7 @@ Skapa också lokal entitet under Katalogiseringsregler, välj typ Katalogisering
 * Identifikator/ISSN/Värde (identifiedBy/Issn/value = 022 ‡a)  
   Skriv in uppgiften.  
   ```Exempel: 2001-2721```
-
-* Identifikator/Källa/Nationell ISSN-central/Kod (identifiedBy/source/marc:NationalIssnCentre = 022 #f)  
-  Skapa lokal entitet. Skriv in uppgiften.  
-  ```Exempel: f (= ISSN Sverige)```  
-  
-* Identifikator/Internationellt intresse (identifiedBy/marc:internationalInterest = 022 ind1: 0)  
-  Skriv in uppgiften.     
-  ```Exempel: true```  
-  
+ 
 * Identifikator/Felaktigt ISSN (identifiedBy/marc:incorrectIssn = 022 ‡y)  
   Skriv in uppgiften.   
   ```Exempel: 1653-2945```
