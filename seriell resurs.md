@@ -17,6 +17,7 @@ samt andra poster.
 
 
 ### Adminmetadata  
+#### Skapad av, Uppgraderad av
 * Skapad av/Organisation/Namn (descriptionCreator/Organization/name = 040 ‡a)  
   Förval: den sigel som skapat posten. Ska inte ändras.  
   ```Exempel: S```  
@@ -25,13 +26,15 @@ samt andra poster.
   Om beskrivningsnivån ändras, lägg till denna uppgift. Vid postimport, lägg till uppgiften.  
   Skapa lokal entitet. Klicka på Lägg till agent (+-ikonen vid Uppgraderad eller importerad av), välj därefter Skapa lokal entitet. Välj Bibliotek i rullgardinsmenyn. Lägg till Sigel (+ikonen Lägg till fält under Bibliotek). Skriv in uppgiften.     
   ```Exempel: S```  
-
+  
+#### Bibliografikod
 * Bibliografi/Bibliotek/Sigel (bibliography/Library/sigel = 042 ‡9)  
   Observera att bibliografikod ska läggas endast av det bibliotek som arbetar med respektive bibliografi. Som exempel läggs bibliografikod NB endast av NB.  
  Skapa lokal entitet. Klicka på Lägg till bibliotek (+-ikonen vid Bibliografi), välj därefter Skapa lokal entitet. Lägg till Sigel (+ikonen Lägg till fält under Bibliotek). Skriv in uppgiften.  
   ```Exempel: NB```  
   ```Exempel: SAMB```  
   
+#### Katalogiseringsspråk, Katalogiseringsregler   
 * Katalogiseringsspråk (descriptionLanguage = 040 ‡b)   
   Länka till entitet.  
   ```Exempel: svenska (swe)```  
@@ -41,15 +44,18 @@ För post katalogiserad enligt RDA, sök fram och länka till entitet: "ISBD-int
 Skapa också lokal entitet under Katalogiseringsregler, välj typ Katalogiseringsregler. Lägg till Kod. Skriv in "rda".  
  ```Exempel: marc/Isbd (länkad entitet) + lokal entitet, Kod: rda ```
 
+#### Beskrivningsnivå  
 * Beskrivningsnivå (000/17)  
   Välj från lista.    
   ```Exempel: nationalbibliografisk/fullständig nivå```
   
+#### Poststatus   
 * Poststatus (000/05)  
   Uppdateras automatiskt. Ändra inte.   
   ```Exempel: Ny post```  
   ```Exempel: Rättad eller reviderad post```
   
+#### Anmärkningar
 * Systemteknisk anmärkning/Benämning (599)  
  
  Följande anmärkningar är under arbete och fungerar ännu inte fullt ut:  
@@ -77,7 +83,7 @@ Skapa också lokal entitet under Katalogiseringsregler, välj typ Katalogisering
   ```Exempel: Kammarmusikförbundets tidskrift```
   
  ##### Varianttitel  
-  Används till exempel för felaktigheter. Kan specificeras med Typanmärkning. 
+  Används till exempel för felaktigheter. Kan specificeras med Typanmärkning.  
 * Har titel/Varianttitel/Typanmärkning (hasTitle/VariantTitle/typeNote = 246 1/_ ‡i)  
  Anmärkningstext som i ett sökgränssnitt ska föregå varianttiteln.    
   Skriv in uppgiften.  
@@ -87,14 +93,14 @@ Skapa också lokal entitet under Katalogiseringsregler, välj typ Katalogisering
   ```Exempel: Housing sarts```  
  
 ##### Akronymer/Del av huvudtitel  
+Används för akronymer som är en del av huvudtiteln.  
 * Har titel/Del av huvudtitel/Huvudtitel (hasTitle/Titleportion/mainTitle = 245 0/- ‡a)  
-  Används för akronymer som är en del av huvudtiteln.  
   Skriv in uppgiften.  
   ```Exempel: ACMO```  
   
- ##### Tidsbestämd titelvariant  
-* Har titel/Titelvariant/Huvudtitel (hasTitle/DistinctiveTitle/mainTitle = 246 ‡a)  
+ ##### Tidsbestämd titelvariant   
   Avser tidsbestämda titelvariationer. Volym/häfte och/eller tidsintervall preciseras under Täckning eller tillkomst (se nedan).   
+* Har titel/Titelvariant/Huvudtitel (hasTitle/DistinctiveTitle/mainTitle = 246 ‡a)  
   Skriv in uppgiften.  
   ```Exempel: Hushållningssällskapets magasin```  
   
@@ -119,7 +125,8 @@ Skapa också lokal entitet under Katalogiseringsregler, välj typ Katalogisering
 * Utgivning  
   Välj typ från lista. För seriella resurser med endast en utgivare, använd Primär utgivning.  
   För att beskriva en seriell resurs med flera utgivningsperioder (motsvarande 264, indikator 1 - sekvens av utgivaruppgifter) saknas vissa delar av formatet. Dessa är under arbete.  
-  
+ 
+##### Utgivningsland och utgivningsplats
   * Land (country = 008/15-17)  
   Länka till entitet.  
   ```Exempel: Sverige (sw)```  
@@ -127,13 +134,14 @@ Skapa också lokal entitet under Katalogiseringsregler, välj typ Katalogisering
   För att lägga till Plats, klicka på Lägg till fält under Primär utgvning och välj Plats. Sök inte efter Plats som entitet utan välj istället Skapa lokal entitet, typ Plats. Lägg till Benämning.  
   Skriv in uppgiften. Klamra vid behov. Plats ska inte länkas som entitet.  
   ```Exempel: [Göteborg]```  
+  ##### Utgivarnamn
   * Agent/Benämning (= Utgivarnamn) (agent/label = 264 -/1 ‡b)  
   För att lägga till Agent, klicka på Lägg till fält under Primär utgivning och välj Agent. Sök inte efter Agent som entitet utan välj istället Skapa lokal entitet, typ Agent. Lägg till Benämning.  
   Skriv in uppgiften. Klamra vid behov. Utgivarnamn ska inte länkas som entitet.  
   ```Exempel: NoNa```  
   Om flera utgivare ska anges, lägg till "Har del" (hasPart) under Primär utgivning. Lägg därefter till Utgivning som lokal entitet (klicka på +-ikonen vid Har del och klicka sedan på Skapa lokal entitet. Välj Utgivning i listan). Använd Startår, slutår och vid behov Datum enligt anvisningar nedan. Upprepa Utgivning som lokal entitet för nästa utgivare.
   Se [exempel](https://libris.kb.se/katalogisering/1kcsx46c1pmjdxz#it).  
-  
+##### År och datum    
   * Startår (startYear = 008/7-10)  
   Startår får endast innehålla siffror (0-9) och bokstaven u. Startår ska endast förekomma inom Primär utgivning.  
   För att ange ett startår utan klamrar eller andra tecken, ange det endast här. Det kommer då att exporteras till både marcpostens 08/07-10 och 264 -/1 ‡c. Bindestreck sätts automatiskt. För att ange årtal med klamrar eller andra tecken utöver fyra positioner, använd Datum.  
