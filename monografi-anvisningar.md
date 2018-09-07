@@ -27,7 +27,7 @@ samt exempel hämtade från andra poster.
   Skapa lokal entitet. Klicka på Lägg till agent (+-ikonen vid Uppgraderad eller importerad av), välj därefter Skapa lokal entitet och välj Bibliotek i listan. Lägg till Sigel (+ikonen Lägg till fält under Bibliotek). Skriv in uppgiften.     
   ```Exempel: S```  
 
- * Bibliografi/Bibliotek/Sigel (bibliography/Library/sigel = 042 ‡9)  
+* Bibliografi/Bibliotek/Sigel (bibliography/Library/sigel = 042 ‡9)  
   Observera att bibliografikod ska läggas endast av det bibliotek som arbetar med respektive bibliografi. Som exempel läggs bibliografikod NB endast av NB.  
   Skapa lokal entitet. Klicka på Lägg till bibliotek (+-ikonen vid Bibliografi), välj därefter Skapa lokal entitet. Lägg till Sigel (+ikonen Lägg till fält under Bibliotek). Skriv in uppgiften.  
   ```Exempel: NB```  
@@ -300,13 +300,13 @@ Läs mer om [Verk och Instans](https://librisbloggen.kb.se/2018/05/30/verk-och-i
   ```Exempel: Parallelltext på svenska och engelska```  
   Anmärkningen är under arbete och fungerar tyvärr ännu inte.  
  
- * Anmärkning/Anmärkning om akademisk avhandling/Benämning (dissertation/Dissertation/label = 502 ‡a)  
-   Lägg till anmärkning om akademisk avhandling genom att klicka på +-tecknet vid Instans av Verk: Text (Lägg till fält under: Text). Välj Anmärkning om akademisk avhandling. Klicka på +-tecknet vid Anmärkning om akademisk avhandling och välj Skapa lokal entitet. Klicka på +-tecknet vid den lokala entiteten Anmärkning om akademisk avhandling och lägg till Benämning. Skriv in anmärkningen.  
+* Anmärkning/Anmärkning om akademisk avhandling/Benämning (dissertation/Dissertation/label = 502 ‡a)  
+  Lägg till anmärkning om akademisk avhandling genom att klicka på +-tecknet vid Instans av Verk: Text (Lägg till fält under: Text). Välj Anmärkning om akademisk avhandling. Klicka på +-tecknet vid Anmärkning om akademisk avhandling och välj Skapa lokal entitet. Klicka på +-tecknet vid den lokala entiteten Anmärkning om akademisk avhandling och lägg till Benämning. Skriv in anmärkningen.  
   ```Exempel: Diss. Umeå : Umeå universitet, 2018```  
 
 * Originalversion/Verk/Språk (originalversion/Work/language = 041 ‡h)  
   Ange det språk som en översatt text är översatt från. För en text som är översatt från engelska till svenska, ange engelska här.   
-   Klicka på Lägg till fält under: Text, välj Originalversion, klicka på +-tecknet vid Originalversion, välj Skapa lokal entitet och välj Verk i listan. Klicka på +-tecknet vid Verk (Lägg till fält under: Verk) och välj Språk. Klicka på +-tecknet vid Språk. Sök fram språkentiteten och länka.  
+  Klicka på Lägg till fält under: Text, välj Originalversion, klicka på +-tecknet vid Originalversion, välj Skapa lokal entitet och välj Verk i listan. Klicka på +-tecknet vid Verk (Lägg till fält under: Verk) och välj Språk. Klicka på +-tecknet vid Språk. Sök fram språkentiteten och länka.  
   ```Exempel: engelska (eng)```
   
 * Medverkan och funktion  
@@ -359,7 +359,7 @@ Läs mer om [Verk och Instans](https://librisbloggen.kb.se/2018/05/30/verk-och-i
 * Klassifikation/Termlista/Termlista/Kod (classification/Classification/inScheme/ConceptScheme/code = 084 ‡2)  
  ```Exempel: kssb```  
  
- * Klassifikation/Termlista/Termlista/Version (classification/Classification/inScheme/ConceptScheme/version = 084 ‡2)  
+* Klassifikation/Termlista/Termlista/Version (classification/Classification/inScheme/ConceptScheme/version = 084 ‡2)  
  ```Exempel: 8``` 
 
 * Ämne  
@@ -433,4 +433,4 @@ Läs mer om [Verk och Instans](https://librisbloggen.kb.se/2018/05/30/verk-och-i
 * Innehållstyp/Innehållstyp (contentType/ContentType = 336 ‡b)  
   Länka till entitet.  
   ```Exempel: text (txt)```  
-  För att lägga till ytterligare innehållstyp, till exempel "sti" = stillbild för en bilderbok med både text och bild, lägg till Har del under Instans av Verk, från +-tecknet vid Text (Lägg till fält under: Text). Skapa därefter Verk som lokal entitet genom att klicka på +-tecknet vid Har del (Lägg till resurs). Välj Skapa lokal entitet och välj därefter ++Verk i listan. Lägg därefter till Innehållstyp från +-tecknet vid Verk (Lägg till fält under: Verk). Sök fram och länka till entitet.    
+  För att lägga till ytterligare innehållstyp, till exempel "sti" = stillbild för en bilderbok med både text och bild, lägg till Har del under Instans av Verk, från +-tecknet vid Text (Lägg till fält under: Text). Skapa därefter Verk som lokal entitet genom att klicka på +-tecknet vid Har del (Lägg till resurs). Välj Skapa lokal entitet och välj därefter ++Verk i listan. Lägg därefter till Innehållstyp från +-tecknet vid Verk (Lägg till fält under: Verk). Sök fram och länka till entitet.
