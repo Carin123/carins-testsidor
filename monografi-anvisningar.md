@@ -97,20 +97,21 @@ Följande anmärkningar är under arbete och fungerar ännu inte fullt ut:
   
   För att ange originaltitel, se Verk/Har titel/Titel/Huvudtitel.  
 
-
- ##### Varianttitel   
+##### Varianttitel   
   Används till exempel för felaktigheter. Kan specificeras med Typanmärkning.  
 * Har titel/Varianttitel/Typanmärkning (hasTitle/VariantTitle/typeNote = 246 1/_ ‡i)  
  Anmärkningstext som i ett sökgränssnitt ska föregå varianttiteln.    
   Skriv in uppgiften.  
   ```Exempel: Titeln felstavad, korrekt titel:```  
+  
 * Har titel/Varianttitel/Huvudtitel (hasTitle/VariantTitle/mainTitle = 246 ‡a)  
   Skriv in uppgiften.
-  ```Exempel: Hierarchy in organizations```  
+  ```Exempel: Hierarchy in organizations```   
   
 * Har titel/Varianttitel/Övrig titelinformation (= Undertitel) (hasTitle/VariantTitle/subtitle = 246 ‡b)  
   Skriv in uppgiften.  
   
+##### Parallelltitel    
 * Har titel/Parallelltitel. Välj först Har titel, välj sedan typ Parallelltitel (246, ind1: 1, ind2: 1 = ParallelTitle). Välj Huvudtitel.    
 Skriv in uppgiften.  
   ```Exempel: Har titel/Parallelltitel/Huvudtitel: The Great Northern War explained```  
@@ -118,14 +119,17 @@ Vid behov, klicka även på +-tecknet vid Parallelltitel och lägg till Övrig t
 ```Exempel: Har titel/Parallelltitel/Övrig titelinformation: Charles XII and the ideological address```  
 Det är tillåtet men inte nödvändigt att också göra följande. För att parallelltiteln även ska hamna i 245 ‡b med ISBD-interpunktion, lägg önskad ISBD-interpunktion direkt i Har titel/Titel/Huvudtitel/Övrig titelinformation (hasTitle/Title/mainTitle/subtitle).  
    ```Exempel: Har titel/Titel/Övrig titelinformation: Karl XII och det ideologiska tilltalet = The Great Northern War explained : Charles XII and the ideological address``` 
-  
+
+##### Omslagstitel, Ryggtitel, Rubriktitel
 * Omslagstitel, Ryggtitel, Rubriktitel etc - lägg till Har titel och välj typ. För typ av varianttitel som saknas i listan, välj Varianttitel och lägg därefter till Typanmärkning (= 246 ‡i). Lägg därefter till Huvudtitel och eventuell Övrig titelinformation.  
   Skriv in uppgiften.  
-   
+  
+##### Upphovsuppgift
 * Upphovsuppgift (responsibilityStatement = 245 ‡c)  
   Skriv in uppgiften.  
   ```Exempel: Tom Marcus ; översättning: Svante Skoglund```
 
+##### Identifikator 
 * Identifikator/Typ (identifiedBy)  
   Välj från lista.  
   ```Exempel: ISBN```
@@ -141,15 +145,18 @@ Det är tillåtet men inte nödvändigt att också göra följande. För att par
 * Identifikator/Ogiltigt värde (identifiedBy/marc:hiddenValue = 020 ‡z)  
   Skriv in uppgiften.  
   ```Exempel: 97891881072```
-
+  
+##### Upplageupgift
 * Upplageuppgift (editionStatement = 250 ‡a)  
   Skriv in upplagebeteckning här.  
   ```Exempel: Första upplagan```  
   
+#### Utgivning  
 * Utgivning (publication)  
   Välj typ från lista. För monografier, använd Primär utgivning.  
   I konverterade och maskininlästa poster finns det ibland två avsnitt: ett Primär utgivning med År och Land, och ett Utgivning med Plats, Agent och Datum. När man redigerar maskininlästa poster med två utgivningsavsnitt får man, om man bedömer det nödvändigt, flytta uppgifterna om Plats, Agent och Datum till avsnittet Primär utgivning och ta bort avsnittet Utgivning.   
-  
+ 
+##### Utgivningsland och utgivningsplats
   * Land (country = 008/15-17)  
   Länka till entitet.  
   ```Exempel: Sverige (sw)```  
@@ -157,6 +164,8 @@ Det är tillåtet men inte nödvändigt att också göra följande. För att par
   För att lägga till Plats, klicka på Lägg till fält under Primär utgvning och välj Plats. Sök inte efter Plats som entitet utan välj istället Skapa lokal entitet, typ Plats. Lägg till Benämning.  
   Skriv in uppgiften. Klamra vid behov. Plats ska inte länkas som entitet.  
   ```Exempel: [Göteborg]```  
+  
+ ##### Utgivarnamn
   * Agent/Agent//Benämning (= Utgivarnamn) (agent/label = 264 -/1 ‡b)  
   För att lägga till Agent, klicka på Lägg till fält under Primär utgivning och välj Agent. Sök inte efter Agent som entitet utan välj istället Skapa lokal entitet, typ Agent. Lägg till Benämning.  
   Skriv in uppgiften. Klamra vid behov. Utgivarnamn ska inte länkas som entitet.  
@@ -164,6 +173,7 @@ Det är tillåtet men inte nödvändigt att också göra följande. För att par
   Om flera utgivare ska anges, lägg till "Har del" (hasPart) under Primär utgivning. Lägg därefter till Utgivning som lokal entitet (klicka på +-ikonen vid Har del och klicka sedan på Skapa lokal entitet. Välj Utgivning i listan). Använd År och vid behov Datum enligt anvisningar nedan. Upprepa Utgivning som lokal entitet för nästa utgivare.
   Se [exempel](https://libris.kb.se/katalogisering/w4rp4hlwtr5lctjr#it).
   
+ ##### År och datum 
   * År (= Utgivningstid) (date = 008/07-10, 264 -/1 ‡c)  
   År får endast innehålla siffror (0-9) och bokstaven u. År ska endast förekomma inom Primär utgivning.  
   Ange utgivningsår, utan klamrar eller andra tecken, endast fyra positioner. Skriv in uppgiften.  
@@ -185,7 +195,8 @@ Det är tillåtet men inte nödvändigt att också göra följande. För att par
 ```Typ av utgivningsdatum: Flera årtal (monografisk resurs)```    
 
  Läs mer om [År och Datum](https://kundo.se/org/librisxl/d/falt-for-utgivningsar/)  
-
+ 
+#### Tillverkning 
 * Tillverkning (manufacture)  
   * Plats/Benämning (place/label = 264 -/3 ‡a)  
   ```Exempel: Falun```  
@@ -197,10 +208,12 @@ Det är tillåtet men inte nödvändigt att också göra följande. För att par
   ```Exempel: 2017```  
   ```Exempel: [2017]```  
   
+#### Copyrightår   
 * Copyright/Copyright/Datum (copyright/Copyright/date = 264 -/4 ‡c)  
   Skriv in uppgiften. För att få fram copyrighttecknet, se [Specialtecken](https://libris-dev.kb.se/katalogisering/help/search-04-special-chars). Du kan t ex söka på teckenuppsättning i “Sök i windows” och öppna programmet, markera och kopiera tecknet och sedan klistra in det.  
   ```Exempel: ©2017``` 
-  
+   
+#### Omfång, illustrationer, mått 
 * Omfång/Omfång/Benämning (extent/Extent/label = 300 ‡a)  
   Skriv in uppgiften.  
   ```Exempel: 319 sidor```  
@@ -211,12 +224,14 @@ Det är tillåtet men inte nödvändigt att också göra följande. För att par
 
 * Mått/Mått/Benämning (hasDimensions/Dimensions/label = 300 ‡c)  
   Skriv in uppgiften.  
-  ```Exempel: 24 cm```   
+  ```Exempel: 24 cm``` 
   
+#### Bilagor
 * Tillsammans med/Instans/Benämning (Bilagor) (accompaniedBy/Instance/label = 300 ‡e)  
   Under Instans, lägg till Tillsammans med. Lägg därefter till Instans, som lokal entitet, genom att klicka på +-tecknet vid Tillsammans med och därefter välja Skapa lokal entitet. Väj Instans i listan. Lägg därefter till Benämning. Skriv in uppgiften.  
    ```Exempel: 10 mönsterark```  
-  
+
+#### Medietyp
 * Medietyp (mediaType/Mediatype = 337 ‡b)  
   Länka till entitet.  
   ```Exempel:  n (= omedierad)```
