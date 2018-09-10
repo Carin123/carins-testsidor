@@ -124,12 +124,12 @@ Det är tillåtet men inte nödvändigt att också göra följande. För att par
 * Omslagstitel, Ryggtitel, Rubriktitel etc - lägg till Har titel och välj typ. För typ av varianttitel som saknas i listan, välj Varianttitel och lägg därefter till Typanmärkning (= 246 ‡i). Lägg därefter till Huvudtitel och eventuell Övrig titelinformation.  
   Skriv in uppgiften.  
   
-##### Upphovsuppgift
+#### Upphovsuppgift
 * Upphovsuppgift (responsibilityStatement = 245 ‡c)  
   Skriv in uppgiften.  
   ```Exempel: Tom Marcus ; översättning: Svante Skoglund```
 
-##### Identifikator 
+#### Identifikator 
 * Identifikator/Typ (identifiedBy)  
   Välj från lista.  
   ```Exempel: ISBN```
@@ -146,7 +146,7 @@ Det är tillåtet men inte nödvändigt att också göra följande. För att par
   Skriv in uppgiften.  
   ```Exempel: 97891881072```
   
-##### Upplageupgift
+#### Upplageupgift
 * Upplageuppgift (editionStatement = 250 ‡a)  
   Skriv in upplagebeteckning här.  
   ```Exempel: Första upplagan```  
@@ -235,11 +235,13 @@ Det är tillåtet men inte nödvändigt att också göra följande. För att par
 * Medietyp (mediaType/Mediatype = 337 ‡b)  
   Länka till entitet.  
   ```Exempel:  n (= omedierad)```
-
+  
+#### Bärartyp
 * Bärartyp (carrierType/CarrierType = 338 ‡b)  
   Länka till entitet.  
 ```Exempel:  nc (= volym)```  
 
+#### Seriemedlemskap
 * Seriemedlemskap/Ingår i serie (seriesMembership)  
   Avvakta med att skapa verk som länkade entiteter. Beskriv serien som lokal entitet, enligt exempel nedan.  
   
@@ -266,13 +268,15 @@ Det är tillåtet men inte nödvändigt att också göra följande. För att par
   
 * Seriemedlemskap/Ingår i serie/Instans av Verk/Verk/Har titel/Titel/Huvudtitel (seriesMembership/inSeries/InstanceofWork/Work/hasTitle/Title/mainTitle = 830 ‡a)  
   Skriv in uppgiften.   
-  ```Exempel: Årstasällskapets för Fredrika Bremer-studier skriftserie```    
-
+  ```Exempel: Årstasällskapets för Fredrika Bremer-studier skriftserie```  
+  
+#### Anmärkning
 * Anmärkning/Anmärkning/Benämning (hasNote/Note/label = 500 ‡a)   
   Skriv in allmänna anmärkningar här.    
   Skriv in uppgiften.  
   
 * DETTA STYCKE ÄR UNDER ARBETE - BÖRJAN  
+#### Innehållsanmärkning
 Har innehållsförteckning (innehållsanmärkning) (tableofContents = 505)  
   För en enkel innehållsanmärkning (505 ‡a), lägg till Har innehållsförteckning (från Lägg till fält under: Instans). Lägg därefter till Innehållsförteckning (klicka på +-tecknet under Har innehållsförteckning i vänstermenyn). Lägg till Benämning (klicka på +-tecknet vid Lägg till fält under: Innehållsförteckning). Skriv in uppgiften.  
   ```Exempel: Culture at home -- Culture and the global -- Global youth -- Global music -- Territories of global globalization.```  
@@ -283,17 +287,22 @@ Upprepa, för ytterligare titel, genom att lägga till ytterligare en förekomst
   Lägg till eventuell Upphovsuppgift (klicka på +-tecknet vid Lägg till fält under: Innehållsförteckning).   
 Upprepa, för ytterligare titel + upphovsuppgift, genom att lägga till ytterligare en Utökad innehållsanmärkning som lokal entitet (klicka på +-tecknet vid Har del och välj Skapa lokal entitet, välj Utökad innehållsanmärkning).   
 DETTA STYCKE UNDER ARBETE - SLUT
-   
+
+#### Målgrupp
 * Målgrupp/Målgrupp/Benämning (intendedAudience/IntendedAudience/label = 521 ‡a)   
   Skriv in uppgiften.    
   ```Exempel: För årskurs 1```  
   
+#### Titel - alternativ stavning
 * Relation/Relation/Entitet/Verk/Har titel/Titel/Huvudtitel (relationship/Relationship/entity/Work/hasTitle/Title/mainTitle = 740)  
 Ange alternativa titlar här för att öka sökbarheten för titlar som innehåller exempelvis specialtecken, siffror eller oväntade stavningar av ord.  
 
+#### Annat bärarformat
 * Annat bärarformat (otherPhysicalFormat = 776)  
   För att länka till en utgåva i annat format, till exempel en elektronisk utgåva, lägg till Annat bärarformat genom att klicka på Lägg till fält. Välj Annat bärarformat.  
   Skapa en instans som lokal entitet genom att klicka på +-tecknet vid Annat bärarformat (lägg till instans). Klicka på Skapa lokal entitet och välj Instans. 
+* Annat bärarformat/Typanmärkning (776 ‡i)  
+  Typanmärkning i samband med Annat bärarformat kan för närvarande inte läggas till.  
 * Annat bärarformat/Har titel/Titel (776 ‡t)  
   Under Instans, lägg till titel genom att klicka på +-tecknet vid Instans (Lägg till fält under: Instans) och välj Har titel. Välj Titel. Ta bort Övrig titelinformation och skriv in huvudtiteln under Huvudtitel. 
 * Annat bärarformat/Identifikator/ISBN/Värde (776 ‡x)  
