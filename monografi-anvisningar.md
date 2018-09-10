@@ -275,9 +275,9 @@ Det är tillåtet men inte nödvändigt att också göra följande. För att par
   Skriv in allmänna anmärkningar här.    
   Skriv in uppgiften.  
   
-* DETTA STYCKE ÄR UNDER ARBETE - BÖRJAN  
+DETTA STYCKE ÄR UNDER ARBETE - BÖRJAN  
 #### Innehållsanmärkning
-Har innehållsförteckning (innehållsanmärkning) (tableofContents = 505)  
+* Har innehållsförteckning (innehållsanmärkning) (tableofContents = 505)  
   För en enkel innehållsanmärkning (505 ‡a), lägg till Har innehållsförteckning (från Lägg till fält under: Instans). Lägg därefter till Innehållsförteckning (klicka på +-tecknet under Har innehållsförteckning i vänstermenyn). Lägg till Benämning (klicka på +-tecknet vid Lägg till fält under: Innehållsförteckning). Skriv in uppgiften.  
   ```Exempel: Culture at home -- Culture and the global -- Global youth -- Global music -- Territories of global globalization.```  
  
