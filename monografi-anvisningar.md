@@ -17,7 +17,8 @@ samt exempel hämtade från andra poster.
 [Verk](#verk)  
 
 
-### Adminmetadata
+### Adminmetadata  
+#### Skapad av, Uppgraderad av
 * Skapad av/Organisation/Namn (descriptionCreator/Organization/name = 040 ‡a)  
   Förval: den sigel som skapat posten. Ska inte ändras.  
   ```Exempel: BOKR```
@@ -27,18 +28,21 @@ samt exempel hämtade från andra poster.
   Skapa lokal entitet. Klicka på Lägg till agent (+-ikonen vid Uppgraderad eller importerad av), välj därefter Skapa lokal entitet och välj Bibliotek i listan. Lägg till Sigel (+ikonen Lägg till fält under Bibliotek). Skriv in uppgiften.     
   ```Exempel: S```  
 
+#### Bibliografikod
 * Bibliografi/Bibliotek/Sigel (bibliography/Library/sigel = 042 ‡9)  
   Observera att bibliografikod ska läggas endast av det bibliotek som arbetar med respektive bibliografi. Som exempel läggs bibliografikod NB endast av NB.  
   Skapa lokal entitet. Klicka på Lägg till bibliotek (+-ikonen vid Bibliografi), välj därefter Skapa lokal entitet. Lägg till Sigel (+ikonen Lägg till fält under Bibliotek). Skriv in uppgiften.  
   ```Exempel: NB```  
   ```Exempel: SAMB```  
-
+  
+#### Identifikator/Systemnummer 
 * Identifikator/Systemnummer/Värde (identifiedBy/SystemNumber/value = 035 ‡a)  
   Om ett systemnummer finns i förhandspost, till exempel Bokinfos systemnummer, låt det vara kvar oförändrat.  
   ```Exempel: (BOKR)9789188107213```  
   För att lägga till ett lokalt systemnummer, till exempel ett DiVA-urn, lägg till Identifikator genom att klicka på +-fält (i Adminmetadata). Välj typ Lokal identifikator. Lägg till Värde genom att klicka på +-tecknet vid Lokal identifikator och välja Värde. Fyll i aktuellt systemnummer.  
   ```Exempel: (DIVA)urn:nbn:se:su:diva-83163```
- 
+  
+#### Katalogiseringsspråk, Katalogiseringsregler  
 * Katalogiseringsspråk (descriptionLanguage = 040 ‡b)  
   Länka till entitet.  
   ```Exempel: svenska (swe)```
@@ -47,16 +51,19 @@ samt exempel hämtade från andra poster.
   För post katalogiserad enligt RDA, sök fram och länka till entitet: "ISBD-interpunktions finns: i" (välj Regler för deskriptiv katalogisering vid sökningen). När man skapar ny post från mall visas entiteten som "marc/isbd". I en sparad post visas samma entitet som "ISBD information finns". Båda är rätt.      
   Skapa också lokal entitet under Katalogiseringsregler, välj typ Katalogiseringsregler. Lägg till Kod. Skriv in "rda".    
   ```Exempel: marc/Isbd (länkad entitet) + lokal entitet, Kod: rda```
-
+  
+#### Beskrivningsnivå  
 * Beskrivningsnivå (000/17)  
   Välj från lista.   
   ```Exempel: CIP-post, ändra till biblioteksnivå```
   
+#### Poststatus     
 * Poststatus (000/05)  
   Uppdateras automatiskt. Ändra inte.   
   ```Exempel: Ny post```  
   ```Exempel: Rättad eller reviderad post```
   
+#### Anmärkningar
 * Systemteknisk anmärkning/Benämning (599)  
  
 Följande anmärkningar är under arbete och fungerar ännu inte fullt ut:  
@@ -65,10 +72,14 @@ Följande anmärkningar är under arbete och fungerar ännu inte fullt ut:
  
 
 ### Instans
+#### Utgivningssätt
 * Utgivningssätt (issuanceType)  
   Välj från lista.  
   ```Exempel: Monografisk resurs```
   
+#### Titel  
+
+##### Huvudtitel    
 * Har titel/Titel/Huvudtitel (hasTitle/Title/mainTitle = 245 ‡a)  
   Återge huvudtiteln från titelsidan eller annan föredragen källa så som den förekommer i källan. se [Anvisningar för katalogisering - RDA](http://www.kb.se/rdakatalogisering/Anvisningar/Arbetsfloden/Tryckta-monografier/#huvudtitel "Anvisningar för katalogisering - RDA").  
   Skriv in uppgiften.    
@@ -77,16 +88,25 @@ Följande anmärkningar är under arbete och fungerar ännu inte fullt ut:
     För en titel som börjar med bestämd eller obestämd artikel, ska artikeln fileras bort. Ange fileringsvärde genom att lägga till delfältet fileringsvärde och ange en siffra. Exempel: Huvudtitel: En arbetsdag i skriftsamhället, fileringsvärde: 3   
  Se exempel i formathandboken för Libris/Voyager: 
 [Fileringsindikator]( http://www.kb.se/katalogisering/Formathandboken/Fileringsindikator/)
- 
+
+##### Övrig titelinformation (undertitel)
 * Har titel/Titel/Övrig titelinformation (= Undertitel) (hasTitle/Title/subtitle = 245 ‡b)  
   Skriv in uppgiften. Om det finns flera undertitlar, skriv in dessa efter varandra i samma fält, åtskilda av mellanslag, kolon, mellanslag.    
   ```Exempel: livet som underrättelseagent åt MI5```  
   ```Exempel: ett etnografiskt perspektiv på skriftanvändning i vanliga yrken : småskrift utarbetad av Språkrådet```
   
   För att ange originaltitel, se Verk/Har titel/Titel/Huvudtitel.  
-    
+
+
+ ##### Varianttitel   
+  Används till exempel för felaktigheter. Kan specificeras med Typanmärkning.  
+* Har titel/Varianttitel/Typanmärkning (hasTitle/VariantTitle/typeNote = 246 1/_ ‡i)  
+ Anmärkningstext som i ett sökgränssnitt ska föregå varianttiteln.    
+  Skriv in uppgiften.  
+  ```Exempel: Titeln felstavad, korrekt titel:```  
 * Har titel/Varianttitel/Huvudtitel (hasTitle/VariantTitle/mainTitle = 246 ‡a)  
   Skriv in uppgiften.
+  ```Exempel: Hierarchy in organizations```  
   
 * Har titel/Varianttitel/Övrig titelinformation (= Undertitel) (hasTitle/VariantTitle/subtitle = 246 ‡b)  
   Skriv in uppgiften.  
