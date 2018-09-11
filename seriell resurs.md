@@ -111,16 +111,13 @@ Används för akronymer som är en del av huvudtiteln.
 #### Identifikator  
 * Identifikator/Typ (identifiedBy)  
   Välj från lista.  
-  ```Exempel: ISSN```  
-  
+  ```Exempel: ISSN```   
 * Identifikator/ISSN/Värde (identifiedBy/Issn/value = 022 ‡a)  
   Skriv in uppgiften.  
-  ```Exempel: 2001-2721```
- 
+  ```Exempel: 2001-2721```  
 * Identifikator/Felaktigt ISSN (identifiedBy/marc:incorrectIssn = 022 ‡y)  
   Skriv in uppgiften.   
-  ```Exempel: 1653-2945``` 
-  
+  ```Exempel: 1653-2945```   
 #### Utgivning
 * Utgivning  
   Välj typ från lista. För seriella resurser med endast en utgivare, använd Primär utgivning.  
