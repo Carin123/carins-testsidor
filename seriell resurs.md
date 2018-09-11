@@ -198,6 +198,8 @@ Används för akronymer som är en del av huvudtiteln.
 * Annat bärarformat (otherPhysicalFormat = 776)  
   För att länka till en utgåva i annat format, till exempel en elektronisk utgåva, lägg till Annat bärarformat genom att klicka på Lägg till fält. Välj Annat bärarformat.  
   Skapa en instans som lokal entitet genom att klicka på +-tecknet vid Annat bärarformat (lägg till instans). Klicka på Skapa lokal entitet och välj Instans. 
+* Annat bärarformat/Typanmärkning (776 ‡i)  
+  Typanmärkning i samband med Annat bärarformat kan för närvarande inte läggas till. 
 * Annat bärarformat/Har titel/Titel (776 ‡t)  
   Under Instans, lägg till titel genom att klicka på +-tecknet vid Instans (Lägg till fält under: Instans) och välj Har titel. Välj Titel. Ta bort Övrig titelinformation och skriv in huvudtiteln under Huvudtitel. 
 * Annat bärarformat/Identifikator/ISSN/Värde (776 ‡x)  
