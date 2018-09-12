@@ -1,5 +1,12 @@
 Innehåll:  
 
+| Adminmetadata | Instans | Verk |
+| ------ | ----------- |  ----------- |
+| Skapad   | Titel | bla |
+| Bibliografikod | Utgivning | bla |
+| Beskrivningsnivå | Omfång | bla |
+
+
 [Adminmetadata](#adminmetadata)  
 [Instans](#instans)   
 * [Titel](#titel)  
