@@ -1,8 +1,8 @@
 Innehåll:  
 
-| Adminmetadata | Instans | Verk |
+| [Adminmetadata](#adminmetadata) | [Instans](#instans) | [Verk](#verk) |
 | ------ | ----------- |  ----------- |
-| Skapad   | Titel | bla |
+| Skapad   | [Titel](#titel) | bla |
 | Bibliografikod | Utgivning | bla |
 | Beskrivningsnivå | Omfång | bla |
 
