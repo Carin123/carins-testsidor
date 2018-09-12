@@ -1,10 +1,9 @@
-
+#### titel)
 Innehåll:  
 
 [Adminmetadata](#adminmetadata)<br>  
-  [Skapad av, Uppgraderad av](####skapad-av,-uppgraderad-av)
- 
-[Instans](#instans)  
+[Instans](#instans) 
+[Titel](####titel)
 [Verk](#verk)  
 
 
@@ -28,11 +27,18 @@ The anchor link for that heading is the lowercase heading name with dashes where
 
 ### Verk
 
-### Adminmetadata  
-#### Skapad av, Uppgraderad av
-* Skapad av/Organisation/Namn (descriptionCreator/Organization/name = 040 ‡a)  
-  Förval: den sigel som skapat posten. Ska inte ändras.  
-  ```Exempel: BOKR```
+#### Titel  
+
+##### Huvudtitel    
+* Har titel/Titel/Huvudtitel (hasTitle/Title/mainTitle = 245 ‡a)  
+  Återge huvudtiteln från titelsidan eller annan föredragen källa så som den förekommer i källan. se [Anvisningar för katalogisering - RDA](http://www.kb.se/rdakatalogisering/Anvisningar/Arbetsfloden/Tryckta-monografier/#huvudtitel "Anvisningar för katalogisering - RDA").  
+  Skriv in uppgiften.    
+  ```Exempel: Under cover```  
+  ```Exempel: En arbetsdag i skriftsamhället```  
+    För en titel som börjar med bestämd eller obestämd artikel, ska artikeln fileras bort. Ange fileringsvärde genom att lägga till delfältet fileringsvärde och ange en siffra. Exempel: Huvudtitel: En arbetsdag i skriftsamhället, fileringsvärde: 3   
+ Se exempel i formathandboken för Libris/Voyager: 
+[Fileringsindikator]( http://www.kb.se/katalogisering/Formathandboken/Fileringsindikator/)
+
   
 -------------------
 HÄR TESTAR JAG ATT KLISTRA IN TESTFALLET SERIELL RESURS
