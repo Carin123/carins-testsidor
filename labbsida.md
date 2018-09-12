@@ -2,27 +2,27 @@ Innehåll:
 
 | [Adminmetadata](#adminmetadata) | [Instans](#instans) | [Verk](#verk) | 
 | ------ | ----------- |  ----------- |
-| Skapad | Utgivningssätt | bla |
-| Uppgraderad av | Titel| bla |
-| Bibliografikod | Omfång | bla |
-| Systemnummer | [Titel](#titel) | bla |
-| Bibliografikod | Upphovsuppgift | bla |
-| Katalogiseringsspråk | Identifikator | bla |
-| Katalogiseringsregler  | Upplageuppgift | bla |
-| Beskrivningsnivå | Utgivning | bla |
-| Poststatus | Tillverkning | bla |
-| Systemteknisk anmärkning | Copyrightår | bla |
-| Bibliografikod | Omfång | bla |
-| Beskrivningsnivå | Illustrationer | bla |
-| Bibliografikod | Mått | bla |
-| Beskrivningsnivå | Bilagor| bla |
-| Skapad | Medietyp | bla |
-| Bibliografikod | Bärartyp | bla |
-| Beskrivningsnivå | Seriemedlemskap | bla |
-| Skapad  | Anmärkning | bla |
-| Bibliografikod | Innehållsanmärkning | bla |
-| Beskrivningsnivå | Målgrupp | bla |
-|  | Annat bärarformat | |
+| Skapad | Utgivningssätt | Verkets titel |
+| Uppgraderad av | Titel| Språk |
+| Bibliografikod | Omfång | Medverkan och funktion |
+| Systemnummer | [Titel](#titel) | Klassifikation |
+| Bibliografikod | Upphovsuppgift | Ämne |
+| Katalogiseringsspråk | Identifikator | Genre/form |
+| Katalogiseringsregler  | Upplageuppgift | Innehållstyp |
+| Beskrivningsnivå | Utgivning | |
+| Poststatus | Tillverkning | |
+| Systemteknisk anmärkning | Copyrightår | |
+| | Omfång | |
+| | Illustrationer | |
+| | Mått | |
+| | Bilagor| |
+|  | Medietyp | |
+| | Bärartyp | |
+|  | Seriemedlemskap | |
+| | Anmärkning | |
+| | Innehållsanmärkning | |
+| | Målgrupp | |
+| | Annat bärarformat | |
 
 
 [Adminmetadata](#adminmetadata)  
