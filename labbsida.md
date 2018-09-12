@@ -2,7 +2,7 @@
 Innehåll:  
 
 [Adminmetadata](#adminmetadata)  
- -  [Skapad av, Uppgraderad av](####skapad-av,-uppgraderad-av)  
+ -  [Skapad av, Uppgraderad av](####skapad-av,-uppgraderad-av)<br>  
 [Instans](#instans)  
 [Verk](#verk)  
 
