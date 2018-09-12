@@ -8,11 +8,6 @@ Innehåll:
 [Verk](#verk)  
 
 
-### Adminmetadata  
-#### Skapad av, Uppgraderad av
-* Skapad av/Organisation/Namn (descriptionCreator/Organization/name = 040 ‡a)  
-  Förval: den sigel som skapat posten. Ska inte ändras.  
-  ```Exempel: BOKR```
 
 Testar bild  
 ![Libris](http://libris.kb.se/images/libris_logotyp.gif)
@@ -33,7 +28,12 @@ The anchor link for that heading is the lowercase heading name with dashes where
 
 ### Verk
 
-
+### Adminmetadata  
+#### Skapad av, Uppgraderad av
+* Skapad av/Organisation/Namn (descriptionCreator/Organization/name = 040 ‡a)  
+  Förval: den sigel som skapat posten. Ska inte ändras.  
+  ```Exempel: BOKR```
+  
 -------------------
 HÄR TESTAR JAG ATT KLISTRA IN TESTFALLET SERIELL RESURS
 ----
