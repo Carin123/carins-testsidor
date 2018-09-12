@@ -2,16 +2,16 @@ Innehåll:
 
 | [Adminmetadata](#adminmetadata) | [Instans](#instans) | [Verk](#verk) | 
 | ------ | ----------- |  ----------- |
-| Skapad   | [Titel](#titel) | bla |
-| Bibliografikod | Utgivning | bla |
-| Beskrivningsnivå | Omfång | bla |
-| Skapad   | [Titel](#titel) | bla |
-| Bibliografikod | Utgivning | bla |
-| Beskrivningsnivå | Omfång | bla |
-| Skapad   | [Titel](#titel) | bla || Skapad   | [Titel](#titel) | bla |
-| Bibliografikod | Utgivning | bla |
-| Beskrivningsnivå | Omfång | bla |
-| Skapad   | [Titel](#titel) | bla |
+| Skapad | Utgivningssätt | bla |
+| Uppgraderad av | Titel| bla |
+| Bibliografikod | Omfång | bla |
+| Systemnummer | [Titel](#titel) | bla |
+| Bibliografikod | Upphovsuppgift | bla |
+| Katalogiseringsspråk | Identifikator | bla |
+| Katalogiseringsregler  | [Titel](#titel) | bla || Skapad   | [Titel](#titel) | bla |
+| Beskrivningsnivå | Utgivning | bla |
+| Poststatus | Omfång | bla |
+| Systemteknisk anmärkning   | [Titel](#titel) | bla |
 | Bibliografikod | Utgivning | bla |
 | Beskrivningsnivå | Omfång | bla |
 | Bibliografikod | Utgivning | bla |
