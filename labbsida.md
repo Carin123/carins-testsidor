@@ -22,7 +22,7 @@ Innehåll:
 | Skapad  | Anmärkning | bla |
 | Bibliografikod | Innehållsanmärkning | bla |
 | Beskrivningsnivå | Målgrupp | bla |
-| Skapad | Annat bärarformat | bla |
+|  | Annat bärarformat | |
 
 
 [Adminmetadata](#adminmetadata)  
