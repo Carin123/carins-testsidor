@@ -8,32 +8,22 @@ Innehåll:
 | Systemnummer | [Titel](#titel) | bla |
 | Bibliografikod | Upphovsuppgift | bla |
 | Katalogiseringsspråk | Identifikator | bla |
-| Katalogiseringsregler  | [Titel](#titel) | bla || Skapad   | [Titel](#titel) | bla |
+| Katalogiseringsregler  | Upplageuppgift | bla |
 | Beskrivningsnivå | Utgivning | bla |
-| Poststatus | Omfång | bla |
-| Systemteknisk anmärkning   | [Titel](#titel) | bla |
-| Bibliografikod | Utgivning | bla |
-| Beskrivningsnivå | Omfång | bla |
-| Bibliografikod | Utgivning | bla |
-| Beskrivningsnivå | Omfång | bla |
-| Skapad   | [Titel](#titel) | bla |
-| Bibliografikod | Utgivning | bla |
-| Beskrivningsnivå | Omfång | bla |
-| Skapad   | [Titel](#titel) | bla |
-| Bibliografikod | Utgivning | bla |
-| Beskrivningsnivå | Omfång | bla |
-| Skapad   | [Titel](#titel) | bla |
-| Bibliografikod | Utgivning | bla |
-| Beskrivningsnivå | Omfång | bla |
-| Skapad   | [Titel](#titel) | bla |
-| Bibliografikod | Utgivning | bla |
-| Beskrivningsnivå | Omfång | bla |
-| Skapad   | [Titel](#titel) | bla |
-| Bibliografikod | Utgivning | bla |
-| Beskrivningsnivå | Omfång | bla |
-| Skapad   | [Titel](#titel) | bla |
-| Bibliografikod | Utgivning | bla |
-| Beskrivningsnivå | Omfång | bla |
+| Poststatus | Tillverkning | bla |
+| Systemteknisk anmärkning | Copyrightår | bla |
+| Bibliografikod | Omfång | bla |
+| Beskrivningsnivå | Illustrationer | bla |
+| Bibliografikod | Mått | bla |
+| Beskrivningsnivå | Bilagor| bla |
+| Skapad | Medietyp | bla |
+| Bibliografikod | Bärartyp | bla |
+| Beskrivningsnivå | Seriemedlemskap | bla |
+| Skapad  | Anmärkning | bla |
+| Bibliografikod | Innehållsanmärkning | bla |
+| Beskrivningsnivå | Målgrupp | bla |
+| Skapad | Annat bärarformat | bla |
+
 
 [Adminmetadata](#adminmetadata)  
 [Instans](#instans)   
