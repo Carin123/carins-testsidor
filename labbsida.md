@@ -1,8 +1,8 @@
 Innehåll:  
 
-[Adminmetadata](#adminmetadata)<br>  
-[Instans](#instans) 
-[Titel](####titel)
+[Adminmetadata](#adminmetadata) 
+[Instans](#instans)   
+   [Titel](#titel)
 [Verk](#verk)  
 
 
