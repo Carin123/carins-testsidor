@@ -1,14 +1,17 @@
 
 Innehåll:  
+
 [Adminmetadata](#adminmetadata)  
+[Skapad av, Uppgraderad av](####skapad av, uppgraderad av)
 [Instans](#instans)  
 [Verk](#verk)  
 
 
-### Adminmetadata
-* Skapad av/Organisation/Namn (040 ‡a)
-- förval: den sigel som skapat posten. Ska inte gå att redigera.
-Testdata: BOKR
+### Adminmetadata  
+#### Skapad av, Uppgraderad av
+* Skapad av/Organisation/Namn (descriptionCreator/Organization/name = 040 ‡a)  
+  Förval: den sigel som skapat posten. Ska inte ändras.  
+  ```Exempel: BOKR```
 
 Testar bild  
 ![Libris](http://libris.kb.se/images/libris_logotyp.gif)
