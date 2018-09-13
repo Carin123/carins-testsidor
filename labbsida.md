@@ -2,10 +2,10 @@ Innehåll:
 
 | [Adminmetadata](#adminmetadata) | [Instans](#instans) | [Verk](#verk) | 
 | ------ | ----------- |  ----------- |
-| Skapad | [Utgivningssätt](#utgivningssätt) | [Verkets titel](#verkets titel) |
+| Skapad | [Utgivningssätt](#utgivningssätt) | [Verkets titel](#verkets-titel) |
 | Uppgraderad av | [Titel](#titel) | [Språk](#språk) |
 | Bibliografikod | [Upphovsuppgift](#upphovsuppgift) | [Medverkan och funktion](#medverkan-och-funktion) |
-| Systemnummer | [Identifikator](#identifikator) | [lassifikation](#klassifikation) |
+| Systemnummer | [Identifikator](#identifikator) | [Klassifikation](#klassifikation) |
 | Bibliografikod | [Upplageuppgift](#upplageuppgift) | [Ämne](#ämne) |
 | Katalogiseringsspråk | [Utgivning](#utgivning) | [Genre/form](#genre/form) |
 | Katalogiseringsregler | [Tillverkning](#tillverkning) | [Innehållstyp](#innehållstyp) |
