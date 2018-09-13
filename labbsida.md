@@ -4,25 +4,24 @@ Innehåll:
 | ------ | ----------- |  ----------- |
 | Skapad | Utgivningssätt | Verkets titel |
 | Uppgraderad av | [Titel](#titel) | Språk |
-| Bibliografikod | [Upphovsuppgift] (#upphovsuppgift) | Medverkan och funktion |
-| Systemnummer | [identifikator] (#identifikator) | Klassifikation |
-| Bibliografikod | [Upplageuppgift] (#upplageuppgift) | Ämne |
-| Katalogiseringsspråk | [Utgivning] (#utgivning) | Genre/form |
+| Bibliografikod | [Upphovsuppgift](#upphovsuppgift) | Medverkan och funktion |
+| Systemnummer | [Identifikator](#identifikator) | Klassifikation |
+| Bibliografikod | [Upplageuppgift](#upplageuppgift) | Ämne |
+| Katalogiseringsspråk | [Utgivning](#utgivning) | Genre/form |
 | Katalogiseringsregler | [Tillverkning] (#tillverkning) | Innehållstyp |
-| Beskrivningsnivå | [Copyrightår] (#copyrightår) | |
-| Poststatus | [Omfång] (#omfång) | |
-| Systemteknisk anmärkning | [Illustrationer] (#illustrationer) | |
-| | Omfång | [Mått] (#mått) |
-| | [Bilagor] (#nilagor) | |
-| | Mått | |
-| | Bilagor| |
-|  | Medietyp | |
-| | Bärartyp | |
-|  | Seriemedlemskap | |
-| | Anmärkning | |
-| | Innehållsanmärkning | |
-| | Målgrupp | |
-| | Annat bärarformat | |
+| Beskrivningsnivå | [Copyrightår](#copyrightår) | |
+| Poststatus | [Omfång](#omfång) | |
+| Systemteknisk anmärkning | [Illustrationer](#illustrationer) | |
+| | Omfång | [Mått](#mått) |
+| | [Bilagor](#bilagor) | |
+| | [Medietyp](#medietyp) | |
+| | [Bärartyp](#bärartyp) | |
+|  | [Seriemedlemskap](#seriemedlemskap) | |
+| | [Anmärkning](#anmärkning) | |
+|  | [Innehållsanmärkning](#innehållsanmärkning) | |
+| | [Målgrupp](#målgrupp) | |
+| | [Annat bärarformat](#annat-bärarformat) | |
+
 
 
 [Adminmetadata](#adminmetadata)  
