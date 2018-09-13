@@ -8,7 +8,7 @@ Innehåll:
 | Systemnummer | [Identifikator](#identifikator) | Klassifikation |
 | Bibliografikod | [Upplageuppgift](#upplageuppgift) | Ämne |
 | Katalogiseringsspråk | [Utgivning](#utgivning) | Genre/form |
-| Katalogiseringsregler | [Tillverkning] (#tillverkning) | Innehållstyp |
+| Katalogiseringsregler | [Tillverkning](#tillverkning) | Innehållstyp |
 | Beskrivningsnivå | [Copyrightår](#copyrightår) | |
 | Poststatus | [Omfång](#omfång) | |
 | Systemteknisk anmärkning | [Illustrationer](#illustrationer) | |
