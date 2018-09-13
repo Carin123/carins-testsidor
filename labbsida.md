@@ -9,10 +9,10 @@ Innehåll:
 | Bibliografikod | [Upplageuppgift](#upplageuppgift) | Ämne |
 | Katalogiseringsspråk | [Utgivning](#utgivning) | Genre/form |
 | Katalogiseringsregler | [Tillverkning](#tillverkning) | Innehållstyp |
-| Beskrivningsnivå | [Copyrightår](#copyrightår) | |
-| Poststatus | [Omfång](#omfång) | |
-| Systemteknisk anmärkning | [Illustrationer](#illustrationer) | |
-| | Omfång | [Mått](#mått) |
+| Beskrivningsnivå | [Copyrightår](#copyrightår) | hej |
+| Poststatus | [Omfång](#omfång) |  hej |
+| Systemteknisk anmärkning | [Illustrationer](#illustrationer) | hej |
+| | [Mått](#mått) | hej |
 | | [Bilagor](#bilagor) | |
 | | [Medietyp](#medietyp) | |
 | | [Bärartyp](#bärartyp) | |
