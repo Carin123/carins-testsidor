@@ -10,7 +10,7 @@ Innehåll:
 | Katalogiseringsspråk | [Utgivning](#utgivning) | Genre/form |
 | Katalogiseringsregler | [Tillverkning](#tillverkning) | Innehållstyp |
 | Beskrivningsnivå | [Copyrightår](#copyrightår) | |
-| Poststatus | [Omfång](#omfång) | |
+| Poststatus | hej | |
 | Systemteknisk anmärkning | [Illustrationer](#illustrationer) | |
 | | Omfång | [Mått](#mått) |
 | | [Bilagor](#bilagor) | |
