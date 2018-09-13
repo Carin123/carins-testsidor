@@ -110,6 +110,10 @@ Följande anmärkningar är under arbete och fungerar ännu inte fullt ut:
 * Har titel/Varianttitel/Övrig titelinformation (= Undertitel) (hasTitle/VariantTitle/subtitle = 246 ‡b)  
   Skriv in uppgiften.  
   
+#### Titel - alternativ stavning
+* Relation/Relation/Entitet/Verk/Har titel/Titel/Huvudtitel (relationship/Relationship/entity/Work/hasTitle/Title/mainTitle = 740)  
+Ange alternativa titlar här för att öka sökbarheten för titlar som innehåller exempelvis specialtecken, siffror eller oväntade stavningar av ord.  
+  
 ##### Parallelltitel    
 * Har titel/Parallelltitel. Välj först Har titel, välj sedan typ Parallelltitel (246, ind1: 1, ind2: 1 = ParallelTitle). Välj Huvudtitel.    
 Skriv in uppgiften.  
@@ -132,7 +136,6 @@ Det är tillåtet men inte nödvändigt att också göra följande. För att par
 * Identifikator/Typ (identifiedBy)  
   Välj från lista.  
   ```Exempel: ISBN```
-
 * Identifikator/ISBN/Värde (identifiedBy/Isbn/value = 020 ‡a)  
   Skriv in uppgiften.  
   ```Exempel: 9789188107213```
@@ -209,15 +212,17 @@ Det är tillåtet men inte nödvändigt att också göra följande. För att par
   Skriv in uppgiften. För att få fram copyrighttecknet, se [Specialtecken](https://libris-dev.kb.se/katalogisering/help/search-04-special-chars). Du kan t ex söka på teckenuppsättning i “Sök i windows” och öppna programmet, markera och kopiera tecknet och sedan klistra in det.  
   ```Exempel: ©2017``` 
    
-#### Omfång, illustrationer, mått 
+#### Omfång   
 * Omfång/Omfång/Benämning (extent/Extent/label = 300 ‡a)  
   Skriv in uppgiften.  
   ```Exempel: 319 sidor```  
   
+#### Illustrationer    
 * Övriga fysiska detaljer (other physical details = 300 ‡b)  
   Skriv in uppgiften.  
   ```Exempel: illustrationer```
 
+#### Mått 
 * Mått/Mått/Benämning (hasDimensions/Dimensions/label = 300 ‡c)  
   Skriv in uppgiften.  
   ```Exempel: 24 cm``` 
@@ -309,6 +314,7 @@ Ange alternativa titlar här för att öka sökbarheten för titlar som innehål
   Skapa verket som lokal entitet (bryt inte ut verket till en länkbar entitet). Vi rekommenderar att du skapar verket som lokal entitet under den första tiden som Nya Libris är i drift. Vi återkommer med anvisningar för att skapa verk som länkbara entiteter. Denna hjälptext beskriver exempel på verk som lokal entitet. Det betyder att du anger de uppgifter som listas här nedan, under Instans av Verk, utan att klicka på länksymbolen (Länka entitet) vid Instans av Verk/Text.  
 Läs mer om [Verk och Instans](https://librisbloggen.kb.se/2018/05/30/verk-och-instans-i-startversionen/).  
 
+#### Verkets titel
 * Har titel/Titel/Huvudtitel (hasTitle/Title/mainTitle = 240 1/0 ‡a)  
   Ange den föredragna titeln för verket här, vid behov. Följ [Anvisningar för katalogisering - RDA](http://www.kb.se/rdakatalogisering/Anvisningar/Allmanna-anvisningar/Sokingangar-for-verk-och-uttryck "Anvisningar för katalogisering - RDA").
   För översättningar och för verk som har givits ut under olika titlar på samma språk eller när samma titel har använts för olika verk, ska den föredragna titeln för verket anges. För övriga verk, hoppa över detta fält.  
@@ -316,7 +322,8 @@ Läs mer om [Verk och Instans](https://librisbloggen.kb.se/2018/05/30/verk-och-i
   Skriv in uppgiften.  
   ```Exempel:  Soldier spy```  
   För en titel som börjar med bestämd eller obestämd artikel, ska artikeln fileras bort. Ange fileringsvärde genom att lägga till delfältet fileringsvärde och ange en siffra. Exempel: Huvudtitel: En arbetsdag i skriftsamhället, fileringsvärde: 3   
-  
+ 
+#### Språk 
 * Språk (language = 008/35-37)  
   Ange det språk som den text du beskriver är skriven på. För en text på svenska, ange svenska. För att ange originalspråk för ett översatt verk, se Originalversion/Verk/Språk.  
   Länka till entitet.  
@@ -336,14 +343,15 @@ Läs mer om [Verk och Instans](https://librisbloggen.kb.se/2018/05/30/verk-och-i
   ```Exempel: Parallelltext på svenska och engelska```  
   Anmärkningen är under arbete och fungerar tyvärr ännu inte.  
  
-* Anmärkning/Anmärkning om akademisk avhandling/Benämning (dissertation/Dissertation/label = 502 ‡a)  
-  Lägg till anmärkning om akademisk avhandling genom att klicka på +-tecknet vid Instans av Verk: Text (Lägg till fält under: Text). Välj Anmärkning om akademisk avhandling. Klicka på +-tecknet vid Anmärkning om akademisk avhandling och välj Skapa lokal entitet. Klicka på +-tecknet vid den lokala entiteten Anmärkning om akademisk avhandling och lägg till Benämning. Skriv in anmärkningen.  
-  ```Exempel: Diss. Umeå : Umeå universitet, 2018```  
-
 * Originalversion/Verk/Språk (originalversion/Work/language = 041 ‡h)  
   Ange det språk som en översatt text är översatt från. För en text som är översatt från engelska till svenska, ange engelska här.   
   Klicka på Lägg till fält under: Text, välj Originalversion, klicka på +-tecknet vid Originalversion, välj Skapa lokal entitet och välj Verk i listan. Klicka på +-tecknet vid Verk (Lägg till fält under: Verk) och välj Språk. Klicka på +-tecknet vid Språk. Sök fram språkentiteten och länka.  
-  ```Exempel: engelska (eng)```
+  ```Exempel: engelska (eng)```  
+  
+#### Anmärkning om akademisk avhandling    
+* Anmärkning/Anmärkning om akademisk avhandling/Benämning (dissertation/Dissertation/label = 502 ‡a)  
+  Lägg till anmärkning om akademisk avhandling genom att klicka på +-tecknet vid Instans av Verk: Text (Lägg till fält under: Text). Välj Anmärkning om akademisk avhandling. Klicka på +-tecknet vid Anmärkning om akademisk avhandling och välj Skapa lokal entitet. Klicka på +-tecknet vid den lokala entiteten Anmärkning om akademisk avhandling och lägg till Benämning. Skriv in anmärkningen.  
+  ```Exempel: Diss. Umeå : Umeå universitet, 2018```  
   
  #### Medverkan och funktion  
 * Medverkan och funktion  
