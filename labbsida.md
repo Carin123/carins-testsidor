@@ -2,17 +2,17 @@ Innehåll:
 
 | [Adminmetadata](#adminmetadata) | [Instans](#instans) | [Verk](#verk) | 
 | ------ | ----------- |  ----------- |
-| Skapad | Utgivningssätt | Verkets titel |
-| Uppgraderad av | [Titel](#titel) | Språk |
-| Bibliografikod | [Upphovsuppgift](#upphovsuppgift) | Medverkan och funktion |
-| Systemnummer | [Identifikator](#identifikator) | Klassifikation |
-| Bibliografikod | [Upplageuppgift](#upplageuppgift) | Ämne |
-| Katalogiseringsspråk | [Utgivning](#utgivning) | Genre/form |
-| Katalogiseringsregler | [Tillverkning](#tillverkning) | Innehållstyp |
-| Beskrivningsnivå | [Copyrightår](#copyrightår) | hej |
-| Poststatus | [Omfång](#omfång) |  hej |
-| Systemteknisk anmärkning | [Illustrationer](#illustrationer) | hej |
-| | [Mått](#mått) | hej |
+| Skapad | [Utgivningssätt](#utgivningssätt) | [Verkets titel](#verkets titel) |
+| Uppgraderad av | [Titel](#titel) | [Språk](#språk) |
+| Bibliografikod | [Upphovsuppgift](#upphovsuppgift) | [Medverkan och funktion](#medverkan-och-funktion) |
+| Systemnummer | [Identifikator](#identifikator) | [lassifikation](#klassifikation) |
+| Bibliografikod | [Upplageuppgift](#upplageuppgift) | [Ämne](#ämne) |
+| Katalogiseringsspråk | [Utgivning](#utgivning) | [Genre/form](#genre/form) |
+| Katalogiseringsregler | [Tillverkning](#tillverkning) | [Innehållstyp](#innehållstyp) |
+| Beskrivningsnivå | [Copyrightår](#copyrightår) | |
+| Poststatus | [Omfång](#omfång) | |
+| Systemteknisk anmärkning | [Illustrationer](#illustrationer) | |
+| | [Mått](#mått) | |
 | | [Bilagor](#bilagor) | |
 | | [Medietyp](#medietyp) | |
 | | [Bärartyp](#bärartyp) | |
