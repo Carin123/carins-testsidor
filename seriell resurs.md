@@ -123,7 +123,7 @@ Används för akronymer som är en del av huvudtiteln.
 * Utgivning  
   Välj typ från lista. För seriella resurser med endast en utgivare, använd Primär utgivning.  
   
-  För en seriell resurs som byter utgivare, låt Primär utgivning ligga kvar (för den första utgivningsperioden). Lägg till Utgivning för att beskriva nästa utgivningsperiod. Lägg till Sekvens av utgivare under Utgivning och välj Nuvarande/senaste utgivare. Vid behov, ändra uppgift om Sekvens av utgivare för mellanliggande utgivningsperioder.  
+  För en seriell resurs som byter utgivare, låt Primär utgivning ligga kvar (för den första utgivningsperioden). Lägg till Utgivning för att beskriva nästa utgivningsperiod. Lägg till Sekvens av uppgifter under Utgivning och välj Nuvarande/senaste utgivare. Vid behov, ändra uppgift om Sekvens av uppgifter för mellanliggande utgivningsperioder.  
   
 ##### Utgivningsland och utgivningsplats
   * Land (country = 008/15-17)  
