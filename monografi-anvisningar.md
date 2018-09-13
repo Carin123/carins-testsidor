@@ -12,9 +12,29 @@ Exempel hämtade från: Under cover, ISBN 9789188107213, Voyager BibID 19775078 
 30 år med Fredrika Bremer i forskning och idédebatt, Voyager BibID 22431305
 samt exempel hämtade från andra poster.
 
-[Adminmetadata](#adminmetadata)  
-[Instans](#instans)  
-[Verk](#verk)  
+Innehåll:  
+
+| [Adminmetadata](#adminmetadata) | [Instans](#instans) | [Verk](#verk) | 
+| ------ | ----------- |  ----------- |
+| Skapad | [Utgivningssätt](#utgivningssätt) | [Verkets titel](#verkets-titel) |
+| Uppgraderad av | [Titel](#titel) | [Språk](#språk) |
+| Bibliografikod | [Upphovsuppgift](#upphovsuppgift) | [Medverkan och funktion](#medverkan-och-funktion) |
+| Systemnummer | [Identifikator](#identifikator) | [Klassifikation](#klassifikation) |
+| Bibliografikod | [Upplageuppgift](#upplageuppgift) | [Ämne](#ämne) |
+| Katalogiseringsspråk | [Utgivning](#utgivning) | [Genre/form](#genre/form) |
+| Katalogiseringsregler | [Tillverkning](#tillverkning) | [Innehållstyp](#innehållstyp) |
+| Beskrivningsnivå | [Copyrightår](#copyrightår) | |
+| Poststatus | [Omfång](#omfång) | |
+| Systemteknisk anmärkning | [Illustrationer](#illustrationer) | |
+| | [Mått](#mått) | |
+| | [Bilagor](#bilagor) | |
+| | [Medietyp](#medietyp) | |
+| | [Bärartyp](#bärartyp) | |
+|  | [Seriemedlemskap](#seriemedlemskap) | |
+| | [Anmärkning](#anmärkning) | |
+|  | [Innehållsanmärkning](#innehållsanmärkning) | |
+| | [Målgrupp](#målgrupp) | |
+| | [Annat bärarformat](#annat-bärarformat) | | 
 
 
 ### Adminmetadata  
@@ -308,8 +328,9 @@ Ange alternativa titlar här för att öka sökbarheten för titlar som innehål
   Beskriven av/Post/Kontrollnummer, motsvarande delfält w, är för närvarande låst för redigering. Det går därmed inte att lägga till fältet eller redigera det i befintliga beskrivningar.  
 
 
-### Verk
+### Verk   
 
+#### Instans av Verk/Text  
 * Instans av Verk/Text (instanceOf/Work/Text)  
   Skapa verket som lokal entitet (bryt inte ut verket till en länkbar entitet). Vi rekommenderar att du skapar verket som lokal entitet under den första tiden som Nya Libris är i drift. Vi återkommer med anvisningar för att skapa verk som länkbara entiteter. Denna hjälptext beskriver exempel på verk som lokal entitet. Det betyder att du anger de uppgifter som listas här nedan, under Instans av Verk, utan att klicka på länksymbolen (Länka entitet) vid Instans av Verk/Text.  
 Läs mer om [Verk och Instans](https://librisbloggen.kb.se/2018/05/30/verk-och-instans-i-startversionen/).  
@@ -339,14 +360,14 @@ Läs mer om [Verk och Instans](https://librisbloggen.kb.se/2018/05/30/verk-och-i
   Ange om resursen är/innehåller en översättning. Välj från lista.  
   ```Exempel: objektet är/innehåller översättning```  
   
-* Anmärkning/Anmärkning om språk/Anmärkning: Språk/Benämning (hasNote/marc:LanguageNote/marc:LanguageNote/label = 546 ‡a)  
-  ```Exempel: Parallelltext på svenska och engelska```  
-  Anmärkningen är under arbete och fungerar tyvärr ännu inte.  
- 
 * Originalversion/Verk/Språk (originalversion/Work/language = 041 ‡h)  
   Ange det språk som en översatt text är översatt från. För en text som är översatt från engelska till svenska, ange engelska här.   
   Klicka på Lägg till fält under: Text, välj Originalversion, klicka på +-tecknet vid Originalversion, välj Skapa lokal entitet och välj Verk i listan. Klicka på +-tecknet vid Verk (Lägg till fält under: Verk) och välj Språk. Klicka på +-tecknet vid Språk. Sök fram språkentiteten och länka.  
   ```Exempel: engelska (eng)```  
+  
+* Anmärkning/Anmärkning om språk/Anmärkning: Språk/Benämning (hasNote/marc:LanguageNote/marc:LanguageNote/label = 546 ‡a)  
+  ```Exempel: Parallelltext på svenska och engelska```  
+  Anmärkningen är under arbete och fungerar tyvärr ännu inte.  
   
 #### Anmärkning om akademisk avhandling    
 * Anmärkning/Anmärkning om akademisk avhandling/Benämning (dissertation/Dissertation/label = 502 ‡a)  
