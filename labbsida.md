@@ -3,17 +3,17 @@ Innehåll:
 | [Adminmetadata](#adminmetadata) | [Instans](#instans) | [Verk](#verk) | 
 | ------ | ----------- |  ----------- |
 | Skapad | Utgivningssätt | Verkets titel |
-| Uppgraderad av | Titel| Språk |
-| Bibliografikod | Omfång | Medverkan och funktion |
-| Systemnummer | [Titel](#titel) | Klassifikation |
-| Bibliografikod | Upphovsuppgift | Ämne |
-| Katalogiseringsspråk | Identifikator | Genre/form |
-| Katalogiseringsregler  | Upplageuppgift | Innehållstyp |
-| Beskrivningsnivå | Utgivning | |
-| Poststatus | Tillverkning | |
-| Systemteknisk anmärkning | Copyrightår | |
-| | Omfång | |
-| | Illustrationer | |
+| Uppgraderad av | [Titel](#titel) | Språk |
+| Bibliografikod | [Upphovsuppgift] (#upphovsuppgift) | Medverkan och funktion |
+| Systemnummer | [identifikator] (#identifikator) | Klassifikation |
+| Bibliografikod | [Upplageuppgift] (#upplageuppgift) | Ämne |
+| Katalogiseringsspråk | [Utgivning] (#utgivning) | Genre/form |
+| Katalogiseringsregler | [Tillverkning] (#tillverkning) | Innehållstyp |
+| Beskrivningsnivå | [Copyrightår] (#copyrightår) | |
+| Poststatus | [Omfång] (#omfång) | |
+| Systemteknisk anmärkning | [Illustrationer] (#illustrationer) | |
+| | Omfång | [Mått] (#mått) |
+| | [Bilagor] (#nilagor) | |
 | | Mått | |
 | | Bilagor| |
 |  | Medietyp | |
