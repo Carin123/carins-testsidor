@@ -17,10 +17,10 @@ Innehåll:
 | [Adminmetadata](#adminmetadata) | [Instans](#instans) | [Verk](#verk) | 
 | ------ | ----------- |  ----------- |
 | [Skapad av](#skapad-av) | [Utgivningssätt](#utgivningssätt) | [Verkets titel](#verkets-titel) |
-| [Uppgraderad av](uppgraderad-av) | [Titel](#titel) | [Språk](#språk) |
+| [Uppgraderad av](#uppgraderad-av) | [Titel](#titel) | [Språk](#språk) |
 | [Poststatus](#poststatus) | [Upphovsuppgift](#upphovsuppgift) | [Medverkan och funktion](#medverkan-och-funktion) |
 | [Systemnummer](#systemnummer) | [Identifikator](#identifikator) | [Klassifikation](#klassifikation) |
-| [Katalogiseringsspråk](#katalogiseringsspråk) | [Upplageuppgift](#upplageuppgift) | [Ämne](#ämne) |
+| [Katalogiseringsspråk](#katalogiseringsspråk) | [Upplageuppgift](#upplageuppgift) | [Åmne](#åmne) |
 | [Katalogiseringsregler](#katalogiseringsregler) | [Utgivning](#utgivning) | [Genre](#genre) |
 | [Beskrivningsnivå](#beskrivningsnivå) | [Tillverkning](#tillverkning) | [Innehållstyp](#innehållstyp) |
 | [Bibliografikod](#bibliografikod) | [Copyrightår](#copyrightår) | |
@@ -85,7 +85,7 @@ Innehåll:
   ```Exempel: Ny post```  
   ```Exempel: Rättad eller reviderad post```
   
-#### Anmärkningar
+#### Systemteknisk anmärkning
 * Systemteknisk anmärkning/Benämning (599)  
 I samband med att du uppgraderar en Bokinfopost (beskrivningsnivå: CIP-post), kom ihåg att ändra beskrivningsnivå från CIP-post till annan nivå, annars kan ändringar skrivas över. Ta därefter bort systemteknisk anmärkning med innehåll: "Maskinellt genererad post. Ändra kod för fullständighetsnivå (leader/17), annars kommer manuellt gjorda ändringar att försvinna."  
  
@@ -424,7 +424,7 @@ Läs mer om [Verk och Instans](https://librisbloggen.kb.se/2018/05/30/verk-och-i
 * Klassifikation/Termlista/Termlista/Version (classification/Classification/inScheme/ConceptScheme/version = 084 ‡2)  
  ```Exempel: 8``` 
 
-#### Ämne  
+#### Åmne  
 * Ämne  
   Läs mer:  
   [Lägg till auktoriserade ämnesord](https://libris.kb.se/katalogisering/help/workflow-linked-entity-sh)  
