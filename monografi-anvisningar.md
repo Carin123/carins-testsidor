@@ -16,16 +16,16 @@ Innehåll:
 
 | [Adminmetadata](#adminmetadata) | [Instans](#instans) | [Verk](#verk) | 
 | ------ | ----------- |  ----------- |
-| Skapad | [Utgivningssätt](#utgivningssätt) | [Verkets titel](#verkets-titel) |
-| Uppgraderad av | [Titel](#titel) | [Språk](#språk) |
-| Bibliografikod | [Upphovsuppgift](#upphovsuppgift) | [Medverkan och funktion](#medverkan-och-funktion) |
-| Systemnummer | [Identifikator](#identifikator) | [Klassifikation](#klassifikation) |
-| Bibliografikod | [Upplageuppgift](#upplageuppgift) | [Ämne](#ämne) |
-| Katalogiseringsspråk | [Utgivning](#utgivning) | [Genre](#genre) |
-| Katalogiseringsregler | [Tillverkning](#tillverkning) | [Innehållstyp](#innehållstyp) |
-| Beskrivningsnivå | [Copyrightår](#copyrightår) | |
-| Poststatus | [Omfång](#omfång) | |
-| Systemteknisk anmärkning | [Illustrationer](#illustrationer) | |
+| [Skapad](#skapad) | [Utgivningssätt](#utgivningssätt) | [Verkets titel](#verkets-titel) |
+| [Uppgraderad av](uppgraderad-av) | [Titel](#titel) | [Språk](#språk) |
+| [Bibliografikod](#bibliografikod) | [Upphovsuppgift](#upphovsuppgift) | [Medverkan och funktion](#medverkan-och-funktion) |
+| [Systemnummer](#systemnummer) | [Identifikator](#identifikator) | [Klassifikation](#klassifikation) |
+| [Katalogiseringsspråk](#katalogiseringsspråk) | [Upplageuppgift](#upplageuppgift) | [mne](#mne) |
+| [Katalogiseringsregler](#katalogiseringsregler) | [Utgivning](#utgivning) | [Genre](#genre) |
+| [Beskrivningsnivå](#beskrivningsnivå) | [Tillverkning](#tillverkning) | [Innehållstyp](#innehållstyp) |
+| [Poststatus](#poststatus) | [Copyrightår](#copyrightår) | |
+| [Systemteknisk anmärkning](#systemteknisk-anmärkning) | [Omfång](#omfång) | |
+| | [Illustrationer](#illustrationer) | |
 | | [Mått](#mått) | |
 | | [Bilagor](#bilagor) | |
 | | [Medietyp](#medietyp) | |
@@ -38,11 +38,12 @@ Innehåll:
 
 
 ### Adminmetadata  
-#### Skapad av, Uppgraderad av
+#### Skapad av  
 * Skapad av/Organisation/Namn (descriptionCreator/Organization/name = 040 ‡a)  
   Förval: den sigel som skapat posten. Ska inte ändras.  
   ```Exempel: BOKR```
-
+  
+#### Uppgraderad av
 * Uppgraderad eller importerad av/Bibliotek/Sigel (descriptionUpgrader/Library/sigel = 040 ‡d)  
   Om beskrivningsnivån uppgraderas, lägg till denna uppgift. Vid postimport, lägg till uppgiften. Lägg inte till uppgiften när posten endast ändras utan att beskrivningsnivån uppgraderas.  
   Skapa lokal entitet. Klicka på Lägg till agent (+-ikonen vid Uppgraderad eller importerad av), välj därefter Skapa lokal entitet och välj Bibliotek i listan. Lägg till Sigel (+ikonen Lägg till fält under Bibliotek). Skriv in uppgiften.     
@@ -62,11 +63,12 @@ Innehåll:
   För att lägga till ett lokalt systemnummer, till exempel ett DiVA-urn, lägg till Identifikator genom att klicka på +-fält (i Adminmetadata). Välj typ Lokal identifikator. Lägg till Värde genom att klicka på +-tecknet vid Lokal identifikator och välja Värde. Fyll i aktuellt systemnummer.  
   ```Exempel: (DIVA)urn:nbn:se:su:diva-83163```
   
-#### Katalogiseringsspråk, Katalogiseringsregler  
+#### Katalogiseringsspråk  
 * Katalogiseringsspråk (descriptionLanguage = 040 ‡b)  
   Länka till entitet.  
   ```Exempel: svenska (swe)```
-
+  
+#### Katalogiseringsregler  
 * Katalogiseringsregler (descriptionConventions = 040 ‡e)  
   För post katalogiserad enligt RDA, sök fram och länka till entitet: "ISBD-interpunktions finns: i" (välj Regler för deskriptiv katalogisering vid sökningen). När man skapar ny post från mall visas entiteten som "marc/isbd". I en sparad post visas samma entitet som "ISBD information finns". Båda är rätt.      
   Skapa också lokal entitet under Katalogiseringsregler, välj typ Katalogiseringsregler. Lägg till Kod. Skriv in "rda".    
@@ -422,7 +424,7 @@ Läs mer om [Verk och Instans](https://librisbloggen.kb.se/2018/05/30/verk-och-i
 * Klassifikation/Termlista/Termlista/Version (classification/Classification/inScheme/ConceptScheme/version = 084 ‡2)  
  ```Exempel: 8``` 
 
-#### Ämne  
+#### mne  
 * Ämne  
   Läs mer:  
   [Lägg till auktoriserade ämnesord](https://libris.kb.se/katalogisering/help/workflow-linked-entity-sh)  
