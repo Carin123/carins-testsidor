@@ -166,7 +166,7 @@ Det är tillåtet men inte nödvändigt att också göra följande. För att par
   Skriv in uppgiften.  
   ```Exempel: 97891881072```
   
-#### Upplageupgift
+#### Upplageuppgift
 * Upplageuppgift (editionStatement = 250 ‡a)  
   Skriv in upplagebeteckning här.  
   ```Exempel: Första upplagan```  
