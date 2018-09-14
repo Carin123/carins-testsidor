@@ -20,7 +20,7 @@ Innehåll:
 | [Uppgraderad av](#uppgraderad-av) | [Titel](#titel) | [Språk](#språk) |
 | [Poststatus](#poststatus) | [Upphovsuppgift](#upphovsuppgift) | [Medverkan och funktion](#medverkan-och-funktion) |
 | [Systemnummer](#systemnummer) | [Identifikator](#identifikator) | [Klassifikation](#klassifikation) |
-| [Katalogiseringsspråk](#katalogiseringsspråk) | [Upplageuppgift](#upplageuppgift) | [Åmne](#åmne) |
+| [Katalogiseringsspråk](#katalogiseringsspråk) | [Upplageuppgift](#upplageuppgift) | [Ämne](#ämne) |
 | [Katalogiseringsregler](#katalogiseringsregler) | [Utgivning](#utgivning) | [Genre](#genre) |
 | [Beskrivningsnivå](#beskrivningsnivå) | [Tillverkning](#tillverkning) | [Innehållstyp](#innehållstyp) |
 | [Bibliografikod](#bibliografikod) | [Copyrightår](#copyrightår) | |
@@ -56,7 +56,7 @@ Innehåll:
   ```Exempel: NB```  
   ```Exempel: SAMB```  
   
-#### Identifikator/Systemnummer 
+#### Systemnummer 
 * Identifikator/Systemnummer/Värde (identifiedBy/SystemNumber/value = 035 ‡a)  
   Om ett systemnummer finns i förhandspost, till exempel Bokinfos systemnummer, låt det vara kvar oförändrat.  
   ```Exempel: (BOKR)9789188107213```  
@@ -424,7 +424,7 @@ Läs mer om [Verk och Instans](https://librisbloggen.kb.se/2018/05/30/verk-och-i
 * Klassifikation/Termlista/Termlista/Version (classification/Classification/inScheme/ConceptScheme/version = 084 ‡2)  
  ```Exempel: 8``` 
 
-#### Åmne  
+#### Ämne  
 * Ämne  
   Läs mer:  
   [Lägg till auktoriserade ämnesord](https://libris.kb.se/katalogisering/help/workflow-linked-entity-sh)  
