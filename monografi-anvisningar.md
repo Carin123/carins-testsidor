@@ -16,14 +16,14 @@ Innehåll:
 
 | [Adminmetadata](#adminmetadata) | [Instans](#instans) | [Verk](#verk) | 
 | ------ | ----------- |  ----------- |
-| [Skapad](#skapad) | [Utgivningssätt](#utgivningssätt) | [Verkets titel](#verkets-titel) |
+| [Skapad av](#skapad-av) | [Utgivningssätt](#utgivningssätt) | [Verkets titel](#verkets-titel) |
 | [Uppgraderad av](uppgraderad-av) | [Titel](#titel) | [Språk](#språk) |
-| [Bibliografikod](#bibliografikod) | [Upphovsuppgift](#upphovsuppgift) | [Medverkan och funktion](#medverkan-och-funktion) |
+| [Poststatus](#poststatus) | [Upphovsuppgift](#upphovsuppgift) | [Medverkan och funktion](#medverkan-och-funktion) |
 | [Systemnummer](#systemnummer) | [Identifikator](#identifikator) | [Klassifikation](#klassifikation) |
-| [Katalogiseringsspråk](#katalogiseringsspråk) | [Upplageuppgift](#upplageuppgift) | [mne](#mne) |
+| [Katalogiseringsspråk](#katalogiseringsspråk) | [Upplageuppgift](#upplageuppgift) | [Ämne](#mne) |
 | [Katalogiseringsregler](#katalogiseringsregler) | [Utgivning](#utgivning) | [Genre](#genre) |
 | [Beskrivningsnivå](#beskrivningsnivå) | [Tillverkning](#tillverkning) | [Innehållstyp](#innehållstyp) |
-| [Poststatus](#poststatus) | [Copyrightår](#copyrightår) | |
+| [Bibliografikod](#bibliografikod) | [Copyrightår](#copyrightår) | |
 | [Systemteknisk anmärkning](#systemteknisk-anmärkning) | [Omfång](#omfång) | |
 | | [Illustrationer](#illustrationer) | |
 | | [Mått](#mått) | |
@@ -424,7 +424,7 @@ Läs mer om [Verk och Instans](https://librisbloggen.kb.se/2018/05/30/verk-och-i
 * Klassifikation/Termlista/Termlista/Version (classification/Classification/inScheme/ConceptScheme/version = 084 ‡2)  
  ```Exempel: 8``` 
 
-#### mne  
+#### Ämne  
 * Ämne  
   Läs mer:  
   [Lägg till auktoriserade ämnesord](https://libris.kb.se/katalogisering/help/workflow-linked-entity-sh)  
