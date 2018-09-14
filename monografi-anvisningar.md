@@ -20,7 +20,7 @@ Innehåll:
 | Uppgraderad av | [Titel](#titel) | [Språk](#språk) |
 | Bibliografikod | [Upphovsuppgift](#upphovsuppgift) | [Medverkan och funktion](#medverkan-och-funktion) |
 | Systemnummer | [Identifikator](#identifikator) | [Klassifikation](#klassifikation) |
-| Bibliografikod | [Upplageuppgift](#upplageuppgift) | [Ämne](#ämne) |
+| Bibliografikod | [Upplageuppgift](#upplageuppgift) | [hej](#ämne) |
 | Katalogiseringsspråk | [Utgivning](#utgivning) | [Genre/form](#genre/form) |
 | Katalogiseringsregler | [Tillverkning](#tillverkning) | [Innehållstyp](#innehållstyp) |
 | Beskrivningsnivå | [Copyrightår](#copyrightår) | |
