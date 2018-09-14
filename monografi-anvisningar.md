@@ -20,8 +20,8 @@ Innehåll:
 | Uppgraderad av | [Titel](#titel) | [Språk](#språk) |
 | Bibliografikod | [Upphovsuppgift](#upphovsuppgift) | [Medverkan och funktion](#medverkan-och-funktion) |
 | Systemnummer | [Identifikator](#identifikator) | [Klassifikation](#klassifikation) |
-| Bibliografikod | [Upplageuppgift](#upplageuppgift) | [hej](#ämne) |
-| Katalogiseringsspråk | [Utgivning](#utgivning) | [Genre/form](#genre/form) |
+| Bibliografikod | [Upplageuppgift](#upplageuppgift) | [Ämne](#ämne) |
+| Katalogiseringsspråk | [Utgivning](#utgivning) | [Genre](#genre) |
 | Katalogiseringsregler | [Tillverkning](#tillverkning) | [Innehållstyp](#innehållstyp) |
 | Beskrivningsnivå | [Copyrightår](#copyrightår) | |
 | Poststatus | [Omfång](#omfång) | |
@@ -446,7 +446,7 @@ Läs mer om [Verk och Instans](https://librisbloggen.kb.se/2018/05/30/verk-och-i
   I undantagsfall, skapa lokal entitet och skriv in uppgiften.  
   ```Exempel: Storbritannien```
   
-#### Genre/form  
+#### Genre 
 ##### Saogf-termer  
 * Genre/form – saogf-termer (genreForm = 655 -/7 ‡a, ‡2 saogf)  
   Länka till entitet.  
