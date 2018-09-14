@@ -6,7 +6,7 @@ Innehåll:
 | Uppgraderad av | [Titel](#titel) | [Språk](#språk) |
 | Bibliografikod | [Upphovsuppgift](#upphovsuppgift) | [Medverkan och funktion](#medverkan-och-funktion) |
 | Systemnummer | [Identifikator](#identifikator) | [Klassifikation](#klassifikation) |
-| Bibliografikod | [Upplageuppgift](#upplageuppgift) | [Ämne](#ämne) |
+| Bibliografikod | [Upplageuppgift](#upplageuppgift) | [Ämne](#amne) |
 | Katalogiseringsspråk | [Utgivning](#utgivning) | [Genre/form](#genre/form) |
 | Katalogiseringsregler | [Tillverkning](#tillverkning) | [Innehållstyp](#innehållstyp) |
 | Beskrivningsnivå | [Copyrightår](#copyrightår) | |
@@ -29,6 +29,7 @@ Innehåll:
 * [Titel](#titel)  
 [Verk](#verk)  
 
+<!-- ### amne -->
 ### Ämne
 
 Testar bild  
