@@ -134,16 +134,16 @@ Följande anmärkningar är under arbete och fungerar ännu inte fullt ut:
   
 ##### Delbeteckning 
 * Har titel/Titel/Har del/Deltitel/Delbeteckning (hasTitle/Title/hasPart/TitlePart/partNumber = 245 ‡n)  
-Lägg till Har del (hasPart) under Titel genom att klicka på+-tecknet vid Titel (Lägg till fält under: Titel). Välj Har del. Skapa Deltitel (TitlePart) som lokal entitet (deltitel är här grupperande) genom att klicka på +-tecknet vid Har del (Lägg till resurs) och välj Skapa lokal entitet. Sök fram Deltitel och lägg till det.  
+Lägg till Har del (hasPart) under Har titel/Titel genom att klicka på +-tecknet vid Titel (Lägg till fält under: Titel). Välj Har del. Skapa Deltitel (TitlePart) som lokal entitet (deltitel är här grupperande) genom att klicka på +-tecknet vid Har del (Lägg till resurs) och välj Skapa lokal entitet. Sök fram Deltitel och lägg till det.  
 Lägg till Delbeteckning genom att klicka på +-tecknet vid Deltitel (Lägg till fält under: Deltitel) och välja Delbeteckning (partNumber).  
 Skriv in uppgiften.  
 ```Exempel: 1```   
 
 ##### Deltitel  
 * Har titel/Titel/Har del/Deltitel/Deltitel (hasTitle/Title/hasPart/TitlePart/partName = 245 ‡p)  
-Om inte Har del/Deltitel/Delbeteckning redan finns, lägg till Har del (hasPart) under Titel genom att klicka på +-tecknet vid Titel (Lägg till fält under: Titel). Välj Har del. Skapa Deltitel (TitlePart) som lokal entitet (deltitel är här grupperande) genom att klicka på +-tecknet vid Har del (Lägg till resurs) och välj Skapa lokal entitet. Sök fram Deltitel och lägg till det.  
-Lägg till Deltitel igen genom att klicka på +-tecknet vid Deltitel (Lägg till fält under: Deltitel) och välja Delbeteckning (partNumber).   
-Om Har del/Deltitel/Delbeteckning redan finns, lägg till Deltitel igen genom att klicka på +-tecknet vid Deltitel (Lägg till fält under: Deltitel) och välja Delbeteckning (partNumber).   
+Om inte Har del/Deltitel/Delbeteckning redan finns, lägg till Har del (hasPart) under Har titel/Titel genom att klicka på +-tecknet vid Titel (Lägg till fält under: Titel). Välj Har del. Skapa Deltitel (TitlePart) som lokal entitet (deltitel är här grupperande) genom att klicka på +-tecknet vid Har del (Lägg till resurs) och välj Skapa lokal entitet. Sök fram Deltitel och lägg till det.  
+Lägg sedan till Deltitel igen genom att klicka på +-tecknet vid Deltitel (Lägg till fält under: Deltitel) och välja Deltitel (partName). 
+Om Har del/Deltitel/Delbeteckning redan finns, lägg till Deltitel igen genom att klicka på +-tecknet vid Deltitel (Lägg till fält under: Deltitel) och välja Deltitel (partName).   
 Skriv in uppgiften.  
 ```Exempel: Träd och växter som resurs```  
 
