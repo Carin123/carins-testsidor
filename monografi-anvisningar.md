@@ -308,9 +308,9 @@ Det är tillåtet men inte nödvändigt att också göra följande. För att par
 * Seriemedlemskap/Ingår i serie/Instans/Instans av Verk/Verk/Har titel/Titel/Huvudtitel  
 (seriesMembership/inSeries/Instance/InstanceOf/Work/hasTitle/Title/mainTitle = 800 ‡t)  
 ```Exempel: Diary of a wimpy kid```   
-* Seriemedlemskap/Ingår i serie/Instans/Instans av Verk/Verk/Medverkan och funktion/Primär medverkan/Agent/Person/Efternamn     (seriesMembership/inSeries/Instance/InstanceOf/Work/contribution/PrimaryContribution/Agent/Person/familyName = 800 ‡a)
+* Seriemedlemskap/Ingår i serie/Instans/Instans av Verk/Verk/Medverkan och funktion/Primär medverkan/Agent/Person/Efternamn     (seriesMembership/inSeries/Instance/InstanceOf/Work/contribution/PrimaryContribution/Agent/Person/familyName = 800 ‡a)  
 ```Exempel: Kinney```  
-* Seriemedlemskap/Ingår i serie/Instans/Instans av Verk/Verk/Medverkan och funktion/Primär medverkan/Agent/Person/Förnamn   (seriesMembership/inSeries/Instance/InstanceOf/Work/contribution/PrimaryContribution/Agent/Person/givenName = 800 ‡a)
+* Seriemedlemskap/Ingår i serie/Instans/Instans av Verk/Verk/Medverkan och funktion/Primär medverkan/Agent/Person/Förnamn   (seriesMembership/inSeries/Instance/InstanceOf/Work/contribution/PrimaryContribution/Agent/Person/givenName = 800 ‡a)  
 ```Exempel: Jeff```  
 * Seriemedlemskap/Ingår i serie/Instans/Instans av Verk/Verk/Språk/Språk/Benämning  
 (seriesMembership/inSeries/Instance/InstanceOf/Work/language/Language/label = 800 ‡l)  
