@@ -307,14 +307,14 @@ Det är tillåtet men inte nödvändigt att också göra följande. För att par
 ##### Författarserie
 * Seriemedlemskap/Ingår i serie/Instans/Instans av Verk/Verk/Har titel/Titel/Huvudtitel  
 (seriesMembership/inSeries/Instance/InstanceOf/Work/hasTitle/Title/mainTitle = 800 ‡t)  
-```Exempel: Diary of a wimpy kid```   
-* Seriemedlemskap/Ingår i serie/Instans/Instans av Verk/Verk/Medverkan och funktion/Primär medverkan/Agent/Person/Efternamn     (seriesMembership/inSeries/Instance/InstanceOf/Work/contribution/PrimaryContribution/Agent/Person/familyName = 800 ‡a)  
-```Exempel: Kinney```  
-* Seriemedlemskap/Ingår i serie/Instans/Instans av Verk/Verk/Medverkan och funktion/Primär medverkan/Agent/Person/Förnamn   (seriesMembership/inSeries/Instance/InstanceOf/Work/contribution/PrimaryContribution/Agent/Person/givenName = 800 ‡a)  
-```Exempel: Jeff```  
-* Seriemedlemskap/Ingår i serie/Instans/Instans av Verk/Verk/Språk/Språk/Benämning  
-(seriesMembership/inSeries/Instance/InstanceOf/Work/language/Language/label = 800 ‡l)  
-```Exempel: Svenska```  
+  ```Exempel: Millenium```   
+* Seriemedlemskap/Ingår i serie/Instans/Instans av Verk/Verk/Medverkan och funktion/Primär medverkan/Agent/Person     (seriesMembership/inSeries/Instance/InstanceOf/Work/contribution/PrimaryContribution/Agent/Person = 800 ‡a)  
+ Länka till entitet. Börja alltid med att söka efter om agenten redan finns. Klicka på Länka entitet (länkikonen) vid Person. i Sökrutan, skriv in sökbegrepp, till exempel "Skoglund, Svante". Om agenten visas i träfflistan, högerklicka på entiteten, öppna den i ny flik eller nytt fönster och granska den. Är agenten rätt, gå tillbaka till katalogiseringsformuläret och länka till den genom att klicka på Ersätt lokal entitet.  
+  Saknas auktoriserad namnform (som konstaterats vid sökning i pop up-rutan för Länka entitet), stäng pop up-rutan och ange kända uppgifter i formuläret.  
+  ```Exempel: Larsson, Stieg, 1954-2004```  
+* Seriemedlemskap/Numrering inom serie (seriesMembership/seriesEnumeration = 800 ‡v)  
+  Skriv in uppgiften. 
+  ```Exempel: 1```  
   
 #### Anmärkning
 * Anmärkning/Anmärkning/Benämning (hasNote/Note/label = 500 ‡a)   
