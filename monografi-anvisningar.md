@@ -304,13 +304,22 @@ Det är tillåtet men inte nödvändigt att också göra följande. För att par
   Skriv in uppgiften.   
   ```Exempel: Årstasällskapets för Fredrika Bremer-studier skriftserie```  
   
+##### Författarserie
+* Seriemedlemskap/Ingår i serie/Instans/Instans av Verk/Verk/Har titel/Titel/Huvudtitel (seriesMembership/inSeries//Instance/InstanceOf/Work/hasTitle/Title/mainTitle = 800 ‡t)  
+```Exempel: Diary of a wimpy kid```   
+* Seriemedlemskap/Ingår i serie/Instans/Instans av Verk/Verk/Medverkan och funktion/Primär medverkan/Agent/Person (seriesMembership/inSeries//Instance/InstanceOf/Work/contribution/PrimaryContribution/Agent/Person = 800 ‡a)
+```Exempel: Kinney```  
+* Seriemedlemskap/Ingår i serie/Instans/Instans av Verk/Verk/Medverkan och funktion/Primär medverkan/Agent/Person (seriesMembership/inSeries//Instance/InstanceOf/Work/contribution/PrimaryContribution/Agent/Person = 800 ‡a)
+```Exempel: Jeff```  
+* Seriemedlemskap/Ingår i serie/Instans/Instans av Verk/Verk/Språk/Benämning (seriesMembership/inSeries//Instance/InstanceOf/Work/language/Language/label = 800 ‡l)  
+```Exempel: Svenska```  
+  
 #### Anmärkning
 * Anmärkning/Anmärkning/Benämning (hasNote/Note/label = 500 ‡a)   
   Skriv in allmänna anmärkningar här.    
   Skriv in uppgiften.  
    
 #### Innehållsanmärkning  
-DETTA STYCKE ÄR UNDER ARBETE - BÖRJAN   
 * Har innehållsförteckning (innehållsanmärkning) (tableofContents = 505)  
   För en enkel innehållsanmärkning (505 ‡a), lägg till Har innehållsförteckning (från Lägg till fält under: Instans). Lägg därefter till Innehållsförteckning (klicka på +-tecknet under Har innehållsförteckning i vänstermenyn). Lägg till Benämning (klicka på +-tecknet vid Lägg till fält under: Innehållsförteckning). Skriv in uppgiften.  
   ```Exempel: Culture at home -- Culture and the global -- Global youth -- Global music -- Territories of global globalization.```  
@@ -320,7 +329,6 @@ Upprepa, för ytterligare titel, genom att lägga till ytterligare en förekomst
 
   Lägg till eventuell Upphovsuppgift (klicka på +-tecknet vid Lägg till fält under: Innehållsförteckning).   
 Upprepa, för ytterligare titel + upphovsuppgift, genom att lägga till ytterligare en Utökad innehållsanmärkning som lokal entitet (klicka på +-tecknet vid Har del och välj Skapa lokal entitet, välj Utökad innehållsanmärkning).   
-DETTA STYCKE UNDER ARBETE - SLUT
 
 #### Målgrupp
 * Målgrupp/Målgrupp/Benämning (intendedAudience/IntendedAudience/label = 521 ‡a)   
