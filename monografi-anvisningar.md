@@ -18,14 +18,14 @@ Innehåll:
 | ------ | ----------- |  ----------- |
 | [Skapad av](#skapad-av) | [Utgivningssätt](#utgivningssätt) | [Verkets titel](#verkets-titel) |
 | [Uppgraderad av](#uppgraderad-av) | [Titel](#titel) | [Språk](#språk) |
-| [Poststatus](#poststatus) | [Upphovsuppgift](#upphovsuppgift) | [Medverkan och funktion](#medverkan-och-funktion) |
-| [Systemnummer](#systemnummer) | [Identifikator](#identifikator) | [Klassifikation](#klassifikation) |
-| [Katalogiseringsspråk](#katalogiseringsspråk) | [Upplageuppgift](#upplageuppgift) | [Ämne](#amne) |
-| [Katalogiseringsregler](#katalogiseringsregler) | [Utgivning](#utgivning) | [Genre](#genre) |
-| [Beskrivningsnivå](#beskrivningsnivå) | [Tillverkning](#tillverkning) | [Innehållstyp](#innehållstyp) |
-| [Bibliografikod](#bibliografikod) | [Copyrightår](#copyrightår) | |
-| [Systemteknisk anmärkning](#systemteknisk-anmärkning) | [Omfång](#omfång) | |
-| | [Illustrationer](#illustrationer) | |
+| [Katalogiserande instans](#katalogiserande-instans) | [Upphovsuppgift](#upphovsuppgift) | [Medverkan och funktion](#medverkan-och-funktion) |
+| [Poststatus](#poststatus) | [Identifikator](#identifikator) | [Klassifikation](#klassifikation) |
+| [Systemnummer](#systemnummer) | [Upplageuppgift](#upplageuppgift) | [Ämne](#amne) |
+| [Katalogiseringsspråk](#katalogiseringsspråk) | [Utgivning](#utgivning) | [Genre](#genre) |
+| [Katalogiseringsregler](#katalogiseringsregler) | [Tillverkning](#tillverkning) | [Innehållstyp](#innehållstyp) |
+| [Beskrivningsnivå](#beskrivningsnivå) | [Copyrightår](#copyrightår) | |
+| [Bibliografikod](#bibliografikod) | [Omfång](#omfång) | |
+| [Systemteknisk anmärkning](#systemteknisk-anmärkning) | [Illustrationer](#illustrationer) | |
 | | [Mått](#mått) | |
 | | [Bilagor](#bilagor) | |
 | | [Medietyp](#medietyp) | |
@@ -35,6 +35,11 @@ Innehåll:
 |  | [Innehållsanmärkning](#innehållsanmärkning) | |
 | | [Målgrupp](#målgrupp) | |
 | | [Annat bärarformat](#annat-bärarformat) | | 
+| | | | 
+| | | | 
+| | | | 
+| | | | 
+| | | | 
 
 
 ### Adminmetadata  
@@ -55,7 +60,7 @@ Innehåll:
   ```Exempel: Libris-bibliotek/Kooperativt katalogiseringsprogram```
   För poster som skapas av NB, ändra till Nationalbibliografi.  
    ```Exempel: Nationalbibliografi```
-   I Bokinfoposter och importerade poster, ändra inte postens ursprungliga kod. 
+   I Bokinfoposter och importerade poster, ändra inte postens ursprungliga kod.  
   ```Exempel: Annan instans```
 
 #### Bibliografikod
