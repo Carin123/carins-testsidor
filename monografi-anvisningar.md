@@ -49,6 +49,15 @@ Innehåll:
   Skapa lokal entitet. Klicka på Lägg till agent (+-ikonen vid Uppgraderad eller importerad av), välj därefter Skapa lokal entitet och välj Bibliotek i listan. Lägg till Sigel (+ikonen Lägg till fält under Bibliotek). Skriv in uppgiften.     
   ```Exempel: S```  
 
+#### Katalogiserande instans
+* Katalogiserande instans (marc:catalogingSource = 008/39)  
+  I mallen för monografi ligger normalvärdet Libris-bibliotek/Kooperativt katalogiseringsprogram (marc/CooperativeCatalogingProgram).    
+  ```Exempel: Libris-bibliotek/Kooperativt katalogiseringsprogram```
+  För poster som skapas av NB, ändra till Nationalbibliografi.  
+   ```Exempel: Nationalbibliografi```
+   I Bokinfoposter och importerade poster, ändra inte postens ursprungliga kod. 
+  ```Exempel: Annan instans```
+
 #### Bibliografikod
 * Bibliografi/Bibliotek/Sigel (bibliography/Library/sigel = 042 ‡9)  
   Observera att bibliografikod ska läggas endast av det bibliotek som arbetar med respektive bibliografi. Som exempel läggs bibliografikod NB endast av NB.  
