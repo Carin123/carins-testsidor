@@ -35,11 +35,6 @@ Innehåll:
 |  | [Innehållsanmärkning](#innehållsanmärkning) | |
 | | [Målgrupp](#målgrupp) | |
 | | [Annat bärarformat](#annat-bärarformat) | | 
-| | | | 
-| | | | 
-| | | | 
-| | | | 
-| | | | 
 
 
 ### Adminmetadata  
@@ -57,11 +52,11 @@ Innehåll:
 #### Katalogiserande instans
 * Katalogiserande instans (marc:catalogingSource = 008/39)  
   I mallen för monografi ligger normalvärdet Libris-bibliotek/Kooperativt katalogiseringsprogram (marc/CooperativeCatalogingProgram).    
-  ```Exempel: Libris-bibliotek/Kooperativt katalogiseringsprogram```
-  För poster som skapas av NB, ändra till Nationalbibliografi.  
-   ```Exempel: Nationalbibliografi```
-   I Bokinfoposter och importerade poster, ändra inte postens ursprungliga kod.  
-  ```Exempel: Annan instans```
+  ```Exempel: Libris-bibliotek/Kooperativt katalogiseringsprogram```  
+  För poster som skapas av NB, ändra till Nationalbibliografi.    
+   ```Exempel: Nationalbibliografi```   
+  I Bokinfoposter och importerade poster, ändra inte postens ursprungliga kod.  
+  ```Exempel: Annan instans```  
 
 #### Bibliografikod
 * Bibliografi/Bibliotek/Sigel (bibliography/Library/sigel = 042 ‡9)  
