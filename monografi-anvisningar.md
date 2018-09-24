@@ -51,8 +51,8 @@ Innehåll:
 
 #### Katalogiserande instans
 * Katalogiserande instans (marc:catalogingSource = 008/39)  
-  Normalvärdet för Libris-bibliotek är: Libris-bibliotek/Kooperativt katalogiseringsprogram (marc/CooperativeCatalogingProgram).  
-   
+  Normalvärdet för Libris-bibliotek är: Libris-bibliotek/Kooperativt katalogiseringsprogram
+ (marc/CooperativeCatalogingProgram).   
   ```Exempel: Libris-bibliotek/Kooperativt katalogiseringsprogram```   
   För poster som skapas av NB (ej Bokinfoposter), ändra till Nationalbibliografi. För Bokinfo-poster, se nedan.  
    ```Exempel: Nationalbibliografi```   
