@@ -400,6 +400,7 @@ Skriv in uppgiften.
 Lägg till eventuell benämning på språk som ska ingå i den föredragna titeln. Klicka på +-tecknet vid Verk (Lägg till fält under: Verk) och välj Språk. Klicka på +-tecknet vid Språk (Lägg till språk) och välj Skapa lokal entitet. Lägg till Benämning genom att klicka på +-tecknet vid Språk (Lägg till fält under: Språk) och välja Benämning.  
 Skriv in uppgiften.  
 ```Exempel: Svenska```
+
 För att ange verk som ingår i det beskrivna verket, motsvarande fält 730 0/2 (analytisk sökingång) i marc:
 Under Instans av Verk/Text, klicka på +-tecknet vid Verk (lägg till fält under: Verk) och välj Har del. Följ sedan stegen ovan, från ”Skapa verk som lokal entitet”.  
 
