@@ -384,19 +384,17 @@ Läs mer om [Verk och Instans](https://librisbloggen.kb.se/2018/05/30/verk-och-i
 #### Verkets titel - huvuduppslag
 (föredragen titel för verket - huvuduppslag)  
 
-XXXXXSTART
-
-•	Uttryck av/Verk/Har titel/Titel/Huvudtitel (expressionOf/Work/hasTitle/Title/mainTitle (= 130 ‡a)  
+*	Uttryck av/Verk/Har titel/Titel/Huvudtitel (expressionOf/Work/hasTitle/Title/mainTitle (= 130 ‡a)  
 Under Instans av Verk/Text, lägg till Uttryck av genom att klicka på +-tecknet vid Instans av Verk/Text (Lägg till fält under: Text) och välja Uttryck av.  
 Skapa verk som lokal entitet genom att klicka på +-tecknet vid Uttryck av (Lägg till verk). Välj Skapa lokal entitet och välj Verk. Klicka på +-tecknet vid Verk (Lägg till fält under: Verk) och välj Har titel. Välj Titel. Ta bort Övrig titelinformation.  
 Skriv in uppgiften.  
 ```Exempel: Bibeln```
-•	Uttryck av/Verk/Har titel/Titel/Deltitel  
+*	Uttryck av/Verk/Har titel/Titel/Deltitel  
 (expressionOf/Work/hasTitle/Title/partName = 130 ‡p)  
 Lägg till eventuell deltitel genom att klicka på +-tecknet vid Titel (lägg till fält under: Titel), välj Deltitel.  
 Skriv in uppgiften.  
 ```Exempel:  Nya testamentet```
-•	Uttryck av/Verk/Språk/Språk/Benämning  
+*	Uttryck av/Verk/Språk/Språk/Benämning  
 (expressionOf/Work/language/Language/label = 130 ‡l)  
 Lägg till eventuell benämning på språk som ska ingå i den föredragna titeln. Klicka på +-tecknet vid Verk (Lägg till fält under: Verk) och välj Språk. Klicka på +-tecknet vid Språk (Lägg till språk) och välj Skapa lokal entitet. Lägg till Benämning genom att klicka på +-tecknet vid Språk (Lägg till fält under: Språk) och välja Benämning.  
 Skriv in uppgiften.  
