@@ -337,7 +337,7 @@ Läs mer om [Verk och Instans](https://librisbloggen.kb.se/2018/05/30/verk-och-i
   Sammanslagen med (mergerOf = 780 0/4)  (se [Exempel](https://libris.kb.se/katalogisering/5ng67r2h49lzkl9#it))  
   Har införlivat (absorbed = 780 0/5)  
   Har delvis införlivat (absorbedInPart = 780 0/6)  
-  Separat från (separatedFrom = 780 0/7)  
+  Separerad från (separatedFrom = 780 0/7)  
   
   Fortsättes av (continuedBy = 785 0/0)  
   Fortsättes delvis av (continuedInPartBy = 785 0/1)  
