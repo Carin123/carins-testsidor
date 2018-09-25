@@ -382,7 +382,7 @@ Läs mer om [Verk och Instans](https://librisbloggen.kb.se/2018/05/30/verk-och-i
   För en titel som börjar med bestämd eller obestämd artikel, ska artikeln fileras bort. Ange fileringsvärde genom att lägga till delfältet fileringsvärde och ange en siffra.  
 ```Exempel:  Huvudtitel: En arbetsdag i skriftsamhället, fileringsvärde: 3```  
  
-#### Verkets titel - huvuduppslag
+##### Verkets titel - huvuduppslag
 (föredragen titel för verket - huvuduppslag)  
 
 *	Uttryck av/Verk/Har titel/Titel/Huvudtitel (expressionOf/Work/hasTitle/Title/mainTitle (= 130 ‡a)  
@@ -401,9 +401,13 @@ Lägg till eventuell benämning på språk som ska ingå i den föredragna titel
 Skriv in uppgiften.  
 ```Exempel: Svenska```
 
-För att ange verk som ingår i det beskrivna verket, motsvarande fält 730 0/2 (analytisk sökingång) i marc:
+##### Verkets titel - analytisk sökingång  
+(föredragen titel för ett verk - icke-analytisk sökingång)   
+För att ange verk som ingår i det beskrivna verket, motsvarande fält 730 0/2 (analytisk sökingång) i marc:  
 Under Instans av Verk/Text, klicka på +-tecknet vid Verk (lägg till fält under: Verk) och välj Har del. Följ sedan stegen ovan, från ”Skapa verk som lokal entitet”.  
 
+##### Verkets titel - relaterade verk  
+(föredragen titel för ett relaterat verk - icke-analytisk sökingång)    
 För att ange verk som är relaterade, men inte ingår i det beskrivna verket, motsvarande fält 730 0/_ (icke-analytisk sökingång) i marc:   
 Under Instans av Verk/Text, lägg till Relation genom att klicka på +-tecknet vid Instans av Verk/Text (Lägg till fält under: Text) och välja Relation. Välj typ Relation. Lägg till Entitet genom att klicka på +-tecknet vid Relation (Lägg till fält under: Relation), välj Entitet. Skapa verk som lokal entitet genom att klicka på +-tecknet vid Entitet (Lägg till verk). Följ sedan stegen ovan, från ”Välj Skapa lokal entitet”.  
 
