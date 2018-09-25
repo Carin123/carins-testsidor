@@ -372,11 +372,11 @@ Ange alternativa titlar här för att öka sökbarheten för titlar som innehål
 Läs mer om [Verk och Instans](https://librisbloggen.kb.se/2018/05/30/verk-och-instans-i-startversionen/).  
 
 #### Verkets titel
-(föredragen titel för verket)
+För översättningar och för verk som har givits ut under olika titlar på samma språk eller när samma titel har använts för olika verk, ska den föredragna titeln för verket anges.      
 Ange den föredragna titeln för verket här, vid behov. Följ [Anvisningar för katalogisering - RDA](http://www.kb.se/rdakatalogisering/Anvisningar/Allmanna-anvisningar/Sokingangar-for-verk-och-uttryck "Anvisningar för katalogisering - RDA").  
 
+##### Verkets titel
 * Har titel/Titel/Huvudtitel (hasTitle/Title/mainTitle = 240 1/0 ‡a)  
-  För översättningar och för verk som har givits ut under olika titlar på samma språk eller när samma titel har använts för olika verk, ska den föredragna titeln för verket anges. För övriga verk, hoppa över detta fält.  
   "Originaltitel" för ett verk med primär medverkande anger du här.  
   Skriv in uppgiften.  
 ```Exempel: Soldier spy```  
@@ -384,10 +384,8 @@ Ange den föredragna titeln för verket här, vid behov. Följ [Anvisningar för
 ```Exempel:  Huvudtitel: En arbetsdag i skriftsamhället, fileringsvärde: 3```  
  
 ##### Verkets titel - huvuduppslag
-(föredragen titel för verket - huvuduppslag)  
-
 *	Uttryck av/Verk/Har titel/Titel/Huvudtitel (expressionOf/Work/hasTitle/Title/mainTitle (= 130 ‡a)  
-  "Originaltitel" för ett verk utan primär medverkande anger du här.  
+ "Originaltitel" för ett verk utan primär medverkande anger du här.  
 Under Instans av Verk/Text, lägg till Uttryck av genom att klicka på +-tecknet vid Instans av Verk/Text (Lägg till fält under: Text) och välja Uttryck av.  
 Skapa verk som lokal entitet genom att klicka på +-tecknet vid Uttryck av (Lägg till verk). Välj Skapa lokal entitet och välj Verk. Klicka på +-tecknet vid Verk (Lägg till fält under: Verk) och välj Har titel. Välj Titel. Ta bort Övrig titelinformation.  
 Skriv in uppgiften.  
