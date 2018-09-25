@@ -378,8 +378,9 @@ Läs mer om [Verk och Instans](https://librisbloggen.kb.se/2018/05/30/verk-och-i
   För översättningar och för verk som har givits ut under olika titlar på samma språk eller när samma titel har använts för olika verk, ska den föredragna titeln för verket anges. För övriga verk, hoppa över detta fält.  
   "Originaltitel" anger du här.  
   Skriv in uppgiften.  
-  ```Exempel:  Soldier spy```  
-  För en titel som börjar med bestämd eller obestämd artikel, ska artikeln fileras bort. Ange fileringsvärde genom att lägga till delfältet fileringsvärde och ange en siffra. Exempel: Huvudtitel: En arbetsdag i skriftsamhället, fileringsvärde: 3   
+```Exempel: Soldier spy```  
+  För en titel som börjar med bestämd eller obestämd artikel, ska artikeln fileras bort. Ange fileringsvärde genom att lägga till delfältet fileringsvärde och ange en siffra.  
+```Exempel:  Huvudtitel: En arbetsdag i skriftsamhället, fileringsvärde: 3```  
  
 #### Verkets titel - huvuduppslag
 (föredragen titel för verket - huvuduppslag)  
