@@ -371,7 +371,8 @@ Ange alternativa titlar här för att öka sökbarheten för titlar som innehål
   Skapa verket som lokal entitet (bryt inte ut verket till en länkbar entitet). Vi rekommenderar att du skapar verket som lokal entitet under den första tiden som Nya Libris är i drift. Vi återkommer med anvisningar för att skapa verk som länkbara entiteter. Denna hjälptext beskriver exempel på verk som lokal entitet. Det betyder att du anger de uppgifter som listas här nedan, under Instans av Verk, utan att klicka på länksymbolen (Länka entitet) vid Instans av Verk/Text.  
 Läs mer om [Verk och Instans](https://librisbloggen.kb.se/2018/05/30/verk-och-instans-i-startversionen/).  
 
-#### Verkets titel
+#### Verkets titel  
+(föredragen titel för verket)  
 * Har titel/Titel/Huvudtitel (hasTitle/Title/mainTitle = 240 1/0 ‡a)  
   Ange den föredragna titeln för verket här, vid behov. Följ [Anvisningar för katalogisering - RDA](http://www.kb.se/rdakatalogisering/Anvisningar/Allmanna-anvisningar/Sokingangar-for-verk-och-uttryck "Anvisningar för katalogisering - RDA").
   För översättningar och för verk som har givits ut under olika titlar på samma språk eller när samma titel har använts för olika verk, ska den föredragna titeln för verket anges. För övriga verk, hoppa över detta fält.  
@@ -380,6 +381,32 @@ Läs mer om [Verk och Instans](https://librisbloggen.kb.se/2018/05/30/verk-och-i
   ```Exempel:  Soldier spy```  
   För en titel som börjar med bestämd eller obestämd artikel, ska artikeln fileras bort. Ange fileringsvärde genom att lägga till delfältet fileringsvärde och ange en siffra. Exempel: Huvudtitel: En arbetsdag i skriftsamhället, fileringsvärde: 3   
  
+#### Verkets titel - huvuduppslag
+(föredragen titel för verket - huvuduppslag)  
+
+XXXXXSTART
+
+•	Uttryck av/Verk/Har titel/Titel/Huvudtitel (expressionOf/Work/hasTitle/Title/mainTitle (= 130 ‡a)  
+Under Instans av Verk/Text, lägg till Uttryck av genom att klicka på +-tecknet vid Instans av Verk/Text (Lägg till fält under: Text) och välja Uttryck av.  
+Skapa verk som lokal entitet genom att klicka på +-tecknet vid Uttryck av (Lägg till verk). Välj Skapa lokal entitet och välj Verk. Klicka på +-tecknet vid Verk (Lägg till fält under: Verk) och välj Har titel. Välj Titel. Ta bort Övrig titelinformation.  
+Skriv in uppgiften.  
+```Exempel: Bibeln```
+•	Uttryck av/Verk/Har titel/Titel/Deltitel  
+(expressionOf/Work/hasTitle/Title/partName = 130 ‡p)  
+Lägg till eventuell deltitel genom att klicka på +-tecknet vid Titel (lägg till fält under: Titel), välj Deltitel.  
+Skriv in uppgiften.  
+```Exempel:  Nya testamentet```
+•	Uttryck av/Verk/Språk/Språk/Benämning  
+(expressionOf/Work/language/Language/label = 130 ‡l)  
+Lägg till eventuell benämning på språk som ska ingå i den föredragna titeln. Klicka på +-tecknet vid Verk (Lägg till fält under: Verk) och välj Språk. Klicka på +-tecknet vid Språk (Lägg till språk) och välj Skapa lokal entitet. Lägg till Benämning genom att klicka på +-tecknet vid Språk (Lägg till fält under: Språk) och välja Benämning.  
+Skriv in uppgiften.  
+```Exempel: Svenska```
+För att ange verk som ingår i det beskrivna verket, motsvarande fält 730 0/2 (analytisk sökingång) i marc:
+Under Instans av Verk/Text, klicka på +-tecknet vid Verk (lägg till fält under: Verk) och välj Har del. Följ sedan stegen ovan, från ”Skapa verk som lokal entitet”.  
+
+För att ange verk som är relaterade, men inte ingår i det beskrivna verket, motsvarande fält 730 0/_ (icke-analytisk sökingång) i marc:   
+Under Instans av Verk/Text, lägg till Relation genom att klicka på +-tecknet vid Instans av Verk/Text (Lägg till fält under: Text) och välja Relation. Välj typ Relation. Lägg till Entitet genom att klicka på +-tecknet vid Relation (Lägg till fält under: Relation), välj Entitet. Skapa verk som lokal entitet genom att klicka på +-tecknet vid Entitet (Lägg till verk). Följ sedan stegen ovan, från ”Välj Skapa lokal entitet”.  
+
 #### Språk 
 * Språk (language = 008/35-37)  
   Ange det språk som den text du beskriver är skriven på. För en text på svenska, ange svenska. För att ange originalspråk för ett översatt verk, se Originalversion/Verk/Språk.  
