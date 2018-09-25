@@ -57,7 +57,7 @@ Innehåll:
   För poster som skapas av NB (ej Bokinfoposter), ändra till Nationalbibliografi. För Bokinfo-poster, se nedan.  
    ```Exempel: Nationalbibliografi```   
   I Bokinfoposter och importerade poster, ändra inte postens ursprungliga kod.  
-  ```Exempel: Annan instans```  
+  ```Exempel: Annan verksamhet```  
 
 #### Bibliografikod
 * Bibliografi/Bibliotek/Sigel (bibliography/Library/sigel = 042 ‡9)  
