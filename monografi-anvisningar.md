@@ -243,9 +243,9 @@ Vid behov, klicka även på +-tecknet vid Parallelltitel och lägg till Övrig t
  
 #### Tillverkning 
 * Tillverkning (manufacture)  
-  * Plats/Benämning (place/label = 264 -/3 ‡a)  
+  * Plats/Plats/Benämning (place/label = 264 -/3 ‡a)  
   ```Exempel: Falun```  
-  * Agent/Benämning (agent/label = 264 -/3 ‡b)  
+  * Agent/Agent/Benämning (agent/label = 264 -/3 ‡b)  
   Skriv in uppgiften.   
   ```Exempel: Scandbook```  
   * Datum (= Tillverkningstid) (date = 264 -/3 ‡c)  
