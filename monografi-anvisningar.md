@@ -144,7 +144,7 @@ Följande anmärkningar är under arbete och fungerar ännu inte fullt ut:
   
 ##### Delbeteckning 
 * Har titel/Titel/Har del/Deltitel/Delbeteckning (hasTitle/Title/hasPart/TitlePart/partNumber = 245 ‡n)  
-Lägg till Har del (hasPart) under Har titel/Titel genom att klicka på +-tecknet vid Titel (Lägg till fält under: Titel). Välj Har del. Skapa Deltitel (TitlePart) som lokal entitet (Deltitel är här grupperande) genom att klicka på +-tecknet vid Har del (Lägg till resurs) och välj Skapa lokal entitet. Sök fram Deltitel och lägg till det.  
+Lägg till Har del (hasPart) under Har titel/Titel genom att klicka på +-tecknet vid Titel (Lägg till fält under: Titel). Välj Har del. Skapa Deltitel (TitlePart) som lokal entitet (Deltitel är här grupperande) genom att klicka på +-tecknet vid Har del (Lägg till resurs) och välj Skapa lokal entitet. Sök fram Deltitel och lägg till det. OBS. Deltitel som grupperande (TitlePart) kommer i release 3/10 att ändras till Titeldel.  
 Lägg till Delbeteckning genom att klicka på +-tecknet vid Deltitel (Lägg till fält under: Deltitel) och välja Delbeteckning (partNumber).  
 Skriv in uppgiften.  
 ```Exempel: 1```   
