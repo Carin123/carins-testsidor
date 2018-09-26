@@ -331,11 +331,12 @@ Vid behov, klicka även på +-tecknet vid Parallelltitel och lägg till Övrig t
   Skriv in uppgiften.  
    
 #### Innehållsanmärkning  
-* Har innehållsförteckning (innehållsanmärkning) (tableofContents = 505)  
+* Har innehållsförteckning/Innehållsförteckning/Benämning (tableofContents = 505 8/_)  
   För en enkel innehållsanmärkning (505 ‡a), lägg till Har innehållsförteckning (från Lägg till fält under: Instans). Lägg därefter till Innehållsförteckning (klicka på +-tecknet under Har innehållsförteckning i vänstermenyn). Lägg till Benämning (klicka på +-tecknet vid Lägg till fält under: Innehållsförteckning). Skriv in uppgiften.  
   ```Exempel: Culture at home -- Culture and the global -- Global youth -- Global music -- Territories of global globalization.```  
- 
-  För en utökad innehållsanmärkning med titlar och upphovsuppgifter (505 ‡t, ‡r), lägg till Har innehållsförteckning (från Lägg till fält under: Instans). Lägg därefter till Innehållsförteckning (klicka på +-tecknet under Har innehållsförteckning i vänstermenyn). Lägg till Har del genom att klicka på +-tecknet vid Innehållsförteckning (Lägg till fält under: Innehållsförteckning), välj Har del. Skapa Utökad innehållsanmärkning som lokal entitet genom att klicka på +-tecknet vid Har del (Lägg till resurs) och välj Skapa lokal entitet. Välj Utökad innehållsanmärkning. Lägg till Benämning (klicka på +-tecknet vid Lägg till fält under: Innehållsförteckning).   
+  
+* Har innehållsförteckning/Innehållsförteckning/Har del/Utökad innehållsanmärkning/Benämning/Upphovsuppgift (tableofContents = 505 0/0 ‡t, ‡r)  
+  För en utökad innehållsanmärkning med titlar och upphovsuppgifter, lägg till Har innehållsförteckning (från Lägg till fält under: Instans). Lägg därefter till Innehållsförteckning (klicka på +-tecknet under Har innehållsförteckning i vänstermenyn). Lägg till Har del genom att klicka på +-tecknet vid Innehållsförteckning (Lägg till fält under: Innehållsförteckning), välj Har del. Skapa Utökad innehållsanmärkning som lokal entitet genom att klicka på +-tecknet vid Har del (Lägg till resurs) och välj Skapa lokal entitet. Välj Utökad innehållsanmärkning. Lägg till Benämning (klicka på +-tecknet vid Lägg till fält under: Innehållsförteckning).   
 Upprepa, för ytterligare titel, genom att lägga till ytterligare en förekomst av Benämning.   
 
   Lägg till eventuell Upphovsuppgift (klicka på +-tecknet vid Lägg till fält under: Innehållsförteckning).   
