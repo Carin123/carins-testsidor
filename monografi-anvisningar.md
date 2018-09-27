@@ -161,11 +161,13 @@ Ange alternativa titlar här för att öka sökbarheten för titlar som innehål
   
 ##### Parallelltitel  
 Ange parallelltitel här. Upprepa inte parallelltitel efter huvudtitel med interpunktion.  
-* Har titel/Parallelltitel. Välj först Har titel, välj sedan typ Parallelltitel (246, ind1: 1, ind2: 1 = ParallelTitle). Välj Huvudtitel.    
-Skriv in uppgiften.  
-  ```Exempel: Har titel/Parallelltitel/Huvudtitel: The Great Northern War explained```  
+* Har titel/Parallelltitel/Huvudtitel (hasTitle/ParallelTitle/mainTitle = 246 1/1 ‡a)   
+Välj först Har titel, välj sedan typ Parallelltitel. Välj Huvudtitel.    
+Skriv in uppgiften.   
+  ```Exempel: The Great Northern War explained```  
+* Har titel/Parallelltitel/Övrig titelinformation (hasTitle/ParallelTitle/mainTitle = 246 1/1 ‡b)   
 Vid behov, klicka även på +-tecknet vid Parallelltitel och lägg till Övrig titelinformation (subtitle).  
-```Exempel: Har titel/Parallelltitel/Övrig titelinformation: Charles XII and the ideological address```  
+```Exempel: Charles XII and the ideological address```  
 
 ##### Omslagstitel, Ryggtitel, Rubriktitel
 * Omslagstitel, Ryggtitel, Rubriktitel etc - lägg till Har titel och välj typ. För typ av varianttitel som saknas i listan, välj Varianttitel och lägg därefter till Typanmärkning (= 246 ‡i). Lägg därefter till Huvudtitel och eventuell Övrig titelinformation.  
