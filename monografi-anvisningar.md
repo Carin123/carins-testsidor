@@ -490,36 +490,57 @@ Under Instans av Verk/Text, lägg till Relation genom att klicka på +-tecknet v
   [Lägg till auktoriserade ämnesord](https://libris.kb.se/katalogisering/help/workflow-linked-entity-sh)  
   [Lägg till kontrollerade men ej auktoriserade ämnesord](https://libris.kb.se/katalogisering/help/workflow-controlled-non-auth-sh)  
   [Lägg till sammansatta men ej auktoriserade ämnesord](https://libris.kb.se/katalogisering/help/workflow-non-auth-sh)  
-  
-* Ämne/Agent/Person (subject/agent/person = 600 1/- ‡a)  
-  Länka till entitet. I undantagsfall, skapa lokal entitet.  
-  Skriv in uppgiften. 
-* Ämne/Agent/Person/Efternamn (subject/agent/person/familyName)  
-  ```Exempel: Marcus```
-* Ämne/Agent/Person/Förnamn (subject/agent/person/givenName)  
-  ```Exempel: Tom```
 
+##### Allmänt ämnesord  
 * Ämne - sao-term (subject = 650 -/7 ‡a, ‡2 sao)  
   Länka till entitet.  
   ```Exempel: Säkerhetspolitik```
 
+##### Allmänt ämnesord med underindelning  
+* Ämne/Sammansatt term/Termkomponenter/Allmänt ämnesord    
+  Länka till entitet.   
+  ```Exempel: Varumärken```  
+* Ämne/Sammansatt term/Termkomponenter/Underindelning för allmänt ämnesord   
+  Länka till entitet.   
+  ```Exempel: juridik och lagstiftning```  
+* Ämne/Sammansatt term/Termlista  
+  Länka till entitet.    
+  ```Exempel: sao```   
+  
+##### Geografiska ämnesord  
 * Geografiskt ämnesord (subject = 651 -/4 ‡a)  
   Länka till entitet.  
   I undantagsfall, skapa lokal entitet och skriv in uppgiften.  
   ```Exempel: Storbritannien```
   
-* Geografiskt ämnesord med geografisk underindelning (subject = 651 -/7 ‡a, ‡z, ‡2 sao)    
+##### Geografiska ämnesord med geografisk underindelning  
+Geografiskt ämnesord med geografisk underindelning (subject = 651 -/7 ‡a, ‡z, ‡2 sao)   
 * Ämne/Sammansatt term/Föredragen benämning  
   Skriv in uppgiften, med interpunktion.  
-   ```Exempel: Tyskland -- Bonn```  
+  ```Exempel: Tyskland -- Bonn```  
 * Ämne/Sammansatt term/Föredragen benämning/Termlista  
   Länka till entitet.    
   ```Exempel: sao```  
 * Ämne/Sammansatt term/Termkomponenter/Geografiskt ämnesord/Föredragen benämning   
   Länka till entitet.   
   ```Exempel:```  
-  ```Exempel: Tyskland```  
-  ```Exempel: Bonn```  
+  ```Tyskland```  
+  ```Bonn```  
+  
+##### Kronologiska ämnesord 
+Länka till entitet.    
+  ```Exempel: 1800-talet```  
+  
+##### Ämnesord Person  
+Länka till entitet.    
+ ```Exempel: Lindgren, Astrid, 1907-2002``` 
+* Ämne/Agent/Person (subject/agent/person = 600 1/- ‡a)  
+  Länka till entitet. I undantagsfall, skapa lokal entitet.  
+  Skriv in uppgiften. 
+* Ämne/Agent/Person/Efternamn (subject/agent/person/familyName)  
+  ```Exempel: Marcus```
+* Ämne/Agent/Person/Förnamn (subject/agent/person/givenName)  
+  ```Exempel: Tom``` 
     
 #### Genre 
 ##### Saogf-termer  
