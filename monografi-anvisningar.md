@@ -165,7 +165,7 @@ Ange parallelltitel här. Upprepa inte parallelltitel efter Har titel/Titel/Huvu
 Välj först Har titel, välj sedan typ Parallelltitel. Välj Huvudtitel.    
 Skriv in uppgiften.   
   ```Exempel: The Great Northern War explained```  
-* Har titel/Parallelltitel/Övrig titelinformation (hasTitle/ParallelTitle/mainTitle = 246 1/1 ‡b)   
+* Har titel/Parallelltitel/Övrig titelinformation (hasTitle/ParallelTitle/subTitle = 246 1/1 ‡b)   
 Vid behov, klicka även på +-tecknet vid Parallelltitel och lägg till Övrig titelinformation (subtitle).  
 ```Exempel: Charles XII and the ideological address```  
 
