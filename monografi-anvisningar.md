@@ -492,8 +492,7 @@ Under Instans av Verk/Text, lägg till Relation genom att klicka på +-tecknet v
   [Lägg till sammansatta men ej auktoriserade ämnesord](https://libris.kb.se/katalogisering/help/workflow-non-auth-sh)  
   
 * Ämne/Agent/Person (subject/agent/person = 600 1/- ‡a)  
-  Länka till entitet.  
-  I undantagsfall, skapa lokal entitet.  
+  Länka till entitet. I undantagsfall, skapa lokal entitet.  
   Skriv in uppgiften. 
 * Ämne/Agent/Person/Efternamn (subject/agent/person/familyName)  
   ```Exempel: Marcus```
@@ -509,6 +508,19 @@ Under Instans av Verk/Text, lägg till Relation genom att klicka på +-tecknet v
   I undantagsfall, skapa lokal entitet och skriv in uppgiften.  
   ```Exempel: Storbritannien```
   
+* Geografiskt ämnesord med geografisk underindelning (subject = 651 -/7 ‡a, ‡z, ‡2 sao)    
+* Ämne/Sammansatt term/Föredragen benämning  
+  Skriv in uppgiften, med interpunktion.  
+   ```Exempel: Tyskland -- Bonn```  
+* Ämne/Sammansatt term/Föredragen benämning/Termlista  
+  Länka till entitet.    
+  ```Exempel: sao```  
+* Ämne/Sammansatt term/Termkomponenter/Geografiskt ämnesord/Föredragen benämning   
+  Länka till entitet.   
+  ```Exempel:```  
+  ```Exempel: Tyskland```  
+  ```Exempel: Bonn```  
+    
 #### Genre 
 ##### Saogf-termer  
 * Genre/form – saogf-termer (genreForm = 655 -/7 ‡a, ‡2 saogf)  
