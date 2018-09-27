@@ -114,8 +114,7 @@ Följande anmärkningar är under arbete och fungerar ännu inte fullt ut:
 * Har titel/Titel/Huvudtitel (hasTitle/Title/mainTitle = 245 ‡a)  
   Återge huvudtiteln från titelsidan eller annan föredragen källa så som den förekommer i källan. se [Anvisningar för katalogisering - RDA](http://www.kb.se/rdakatalogisering/Anvisningar/Arbetsfloden/Tryckta-monografier/#huvudtitel "Anvisningar för katalogisering - RDA").  
   Skriv in uppgiften.    
-  ```Exempel: Under cover```  
-  ```Exempel: En arbetsdag i skriftsamhället```  
+ ```Exempel: En arbetsdag i skriftsamhället```  
     För en titel som börjar med bestämd eller obestämd artikel, ska artikeln fileras bort. Ange fileringsvärde genom att lägga till delfältet fileringsvärde och ange en siffra. Exempel: Huvudtitel: En arbetsdag i skriftsamhället, fileringsvärde: 3   
  Se exempel i formathandboken för Libris/Voyager: 
 [Fileringsindikator]( http://www.kb.se/katalogisering/Formathandboken/Fileringsindikator/)
@@ -123,8 +122,7 @@ Följande anmärkningar är under arbete och fungerar ännu inte fullt ut:
 ##### Övrig titelinformation (undertitel)
 * Har titel/Titel/Övrig titelinformation (= Undertitel) (hasTitle/Title/subtitle = 245 ‡b)  
   Skriv in uppgiften. Om det finns flera undertitlar, skriv in dessa efter varandra i samma fält, åtskilda av mellanslag, kolon, mellanslag.    
-  ```Exempel: livet som underrättelseagent åt MI5```  
-  ```Exempel: ett etnografiskt perspektiv på skriftanvändning i vanliga yrken : småskrift utarbetad av Språkrådet```
+```Exempel: ett etnografiskt perspektiv på skriftanvändning i vanliga yrken : småskrift utarbetad av Språkrådet```
   
   För att ange originaltitel, se Verk/Har titel/Titel/Huvudtitel.  
 
@@ -466,9 +464,11 @@ Under Instans av Verk/Text, lägg till Relation genom att klicka på +-tecknet v
 * Klassifikation/DDK-klassifikation/Kod (classification/ClassificationDdc/code = 082 0/4 ‡a)  
   Skriv in uppgiften.  
   ```Exempel: 327.12092```
-* Klassifikation/DDK-klassifikation/Klassifikationsupplaga (classification/ClassificationDdc/edition = 082 ‡2)  
+* Klassifikation/DDK-klassifikation/Klassifikationsupplaga  
+  (classification/ClassificationDdc/edition = 082 ‡2)  
   ```Exempel: 23/swe```  
-*  Parallell upplagebeteckning/Upplagespecifik upphovsuppgift (classification/ClassificationDdc/editionEnumeration = 082 ‡2)  
+*  Parallell upplagebeteckning/Upplagespecifik upphovsuppgift  
+ (classification/ClassificationDdc/editionEnumeration = 082 ‡2)  
    ```Exempel: 23/swe```  
   
 * SAB-klassifikation  
@@ -492,8 +492,9 @@ Under Instans av Verk/Text, lägg till Relation genom att klicka på +-tecknet v
   [Lägg till sammansatta men ej auktoriserade ämnesord](https://libris.kb.se/katalogisering/help/workflow-non-auth-sh)  
   
 * Ämne/Agent/Person (subject/agent/person = 600 1/- ‡a)  
-  Länka till entitet. 
-  I undantagsfall, skapa lokal entitet. Skriv in uppgiften. 
+  Länka till entitet.  
+  I undantagsfall, skapa lokal entitet.  
+  Skriv in uppgiften. 
 * Ämne/Agent/Person/Efternamn (subject/agent/person/familyName)  
   ```Exempel: Marcus```
 * Ämne/Agent/Person/Förnamn (subject/agent/person/givenName)  
@@ -513,7 +514,7 @@ Under Instans av Verk/Text, lägg till Relation genom att klicka på +-tecknet v
 * Genre/form – saogf-termer (genreForm = 655 -/7 ‡a, ‡2 saogf)  
   Länka till entitet.  
   För att söka efter entiteter inom saogf-termer, välj Genre/form i listan över typer, under Genre/form. Trunkera genom att trycka på mellanslagstangenten eller med * i sökrutan. Välj rätt entitet genom att klicka på Lägg till.  
-  ```Exempel: Självbiografier```
+  ```Exempel: Självbiografier```  
   Se även [instruktionsfilm](https://www.youtube.com/watch?v=wrqs310Nt0M&list=PLZVkEICvA5-GRT2oJQmLgq_2Pksx6zYPy&index=7)  
 
 ##### Litterär genre  
