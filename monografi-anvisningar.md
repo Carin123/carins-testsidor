@@ -23,7 +23,7 @@ Innehåll:
 | [Systemnummer](#systemnummer) | [Upplageuppgift](#upplageuppgift) | [Ämne](#amne) |
 | [Katalogiseringsspråk](#katalogiseringsspråk) | [Utgivning](#utgivning) | [Genre](#genre) |
 | [Katalogiseringsregler](#katalogiseringsregler) | [Tillverkning](#tillverkning) | [Innehållstyp](#innehållstyp) |
-| [Beskrivningsnivå](#beskrivningsnivå) | [Copyrightår](#copyrightår) | |
+| [Beskrivningsnivå](#beskrivningsnivå) | [Copyrightår](#copyrightår) | [Anmärkning om akademisk avhandling] (anmärkning-om-akademisk-avhandling) |
 | [Bibliografikod](#bibliografikod) | [Omfång](#omfång) | |
 | [Systemteknisk anmärkning](#systemteknisk-anmärkning) | [Illustrationer](#illustrationer) | |
 | | [Mått](#mått) | |
@@ -436,11 +436,6 @@ Under Instans av Verk/Text, lägg till Relation genom att klicka på +-tecknet v
   ```Exempel: Parallelltext på svenska och engelska```  
   Anmärkningen är under arbete och fungerar tyvärr ännu inte.  
   
-#### Anmärkning om akademisk avhandling    
-* Anmärkning/Anmärkning om akademisk avhandling/Benämning (dissertation/Dissertation/label = 502 ‡a)  
-  Lägg till anmärkning om akademisk avhandling genom att klicka på +-tecknet vid Instans av Verk: Text (Lägg till fält under: Text). Välj Anmärkning om akademisk avhandling. Klicka på +-tecknet vid Anmärkning om akademisk avhandling och välj Skapa lokal entitet. Klicka på +-tecknet vid den lokala entiteten Anmärkning om akademisk avhandling och lägg till Benämning. Skriv in anmärkningen.  
-  ```Exempel: Diss. Umeå : Umeå universitet, 2018```  
-  
  #### Medverkan och funktion  
 * Medverkan och funktion  
   Läs [Auktoritetsgruppens rekommendationer](https://kundo.se/org/librisxl/d/kbs-auktoritetsgrupp-informerar-jraz/)  
@@ -561,3 +556,8 @@ Under Instans av Verk/Text, lägg till Relation genom att klicka på +-tecknet v
   Länka till entitet.  
   ```Exempel: text (txt)```  
   För att lägga till ytterligare innehållstyp, till exempel "sti" = stillbild för en bilderbok med både text och bild, lägg till Har del under Instans av Verk, från +-tecknet vid Text (Lägg till fält under: Text). Skapa därefter Verk som lokal entitet genom att klicka på +-tecknet vid Har del (Lägg till resurs). Välj Skapa lokal entitet och välj därefter ++Verk i listan. Lägg därefter till Innehållstyp från +-tecknet vid Verk (Lägg till fält under: Verk). Sök fram och länka till entitet.
+  
+#### Anmärkning om akademisk avhandling    
+* Anmärkning/Anmärkning om akademisk avhandling/Benämning (dissertation/Dissertation/label = 502 ‡a)  
+  Lägg till anmärkning om akademisk avhandling genom att klicka på +-tecknet vid Instans av Verk: Text (Lägg till fält under: Text). Välj Anmärkning om akademisk avhandling. Klicka på +-tecknet vid Anmärkning om akademisk avhandling och välj Skapa lokal entitet. Klicka på +-tecknet vid den lokala entiteten Anmärkning om akademisk avhandling och lägg till Benämning. Skriv in anmärkningen.  
+  ```Exempel: Diss. Umeå : Umeå universitet, 2018```  
