@@ -8,9 +8,6 @@ I de flesta fall ska informationen delas upp i olika fält och delfält. I någr
 
 I vissa fall fungerar det ännu inte fullt ut att lägga till alla uppgifter som beskrivs i denna hjälptext. Arbete pågår med förbättra gränssnittet. För att anmäla fel, använd detta [formulär](https://docs.google.com/forms/d/e/1FAIpQLSfOChJOGDoHUQguSF83F5XyTZiQL-yU47nvcqb6qwNT9GX7Aw/viewform). För att lämna synpunkter, använd detta [formulär](https://docs.google.com/forms/d/e/1FAIpQLScgz_0enebhBn6uB8xvowkDBB4ax_dbvaobLSFfqFMoty6eQg/viewform).  
 
-Exempel hämtade från: Under cover, ISBN 9789188107213, Voyager BibID 19775078 samt  
-30 år med Fredrika Bremer i forskning och idédebatt, Voyager BibID 22431305
-samt exempel hämtade från andra poster.
 
 Innehåll:  
 
@@ -138,7 +135,7 @@ Följande anmärkningar är under arbete och fungerar ännu inte fullt ut:
   Skriv in uppgiften.  
   ```Exempel: Titeln felstavad, korrekt titel:```   
 * Har titel/Varianttitel/Huvudtitel (hasTitle/VariantTitle/mainTitle = 246 ‡a)  
-  Skriv in uppgiften.
+  Skriv in uppgiften.  
   ```Exempel: Hierarchy in organizations```   
 * Har titel/Varianttitel/Övrig titelinformation (= Undertitel) (hasTitle/VariantTitle/subtitle = 246 ‡b)  
   Skriv in uppgiften.  
