@@ -160,7 +160,7 @@ Skriv in uppgiften.
 Ange alternativa titlar här för att öka sökbarheten för titlar som innehåller exempelvis specialtecken, siffror eller oväntade stavningar av ord.  
   
 ##### Parallelltitel  
-Ange parallelltitel här. Upprepa inte parallelltitel efter huvudtitel med interpunktion.  
+Ange parallelltitel här. Upprepa inte parallelltitel efter Har titel/Titel/Huvudtitel (245 ‡a) med interpunktion.   
 * Har titel/Parallelltitel/Huvudtitel (hasTitle/ParallelTitle/mainTitle = 246 1/1 ‡a)   
 Välj först Har titel, välj sedan typ Parallelltitel. Välj Huvudtitel.    
 Skriv in uppgiften.   
