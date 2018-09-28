@@ -1,17 +1,19 @@
 Innehåll:  
 
+Innehåll:  
+
 | [Adminmetadata](#adminmetadata) | [Instans](#instans) | [Verk](#verk) | 
 | ------ | ----------- |  ----------- |
-| Skapad | [Utgivningssätt](#utgivningssätt) | [Verkets titel](#verkets-titel) |
-| Uppgraderad av | [Titel](#titel) | [Språk](#språk) |
-| Bibliografikod | [Upphovsuppgift](#upphovsuppgift) | [Medverkan och funktion](#medverkan-och-funktion) |
-| Systemnummer | [Identifikator](#identifikator) | [Klassifikation](#klassifikation) |
-| Bibliografikod | [Upplageuppgift](#upplageuppgift) | [Ämne](#mne) |
-| Katalogiseringsspråk | [Utgivning](#utgivning) | [Genre/form](#genre/form) |
-| Katalogiseringsregler | [Tillverkning](#tillverkning) | [Innehållstyp](#innehållstyp) |
-| Beskrivningsnivå | [Copyrightår](#copyrightår) | |
-| Poststatus | [Omfång](#omfång) | |
-| Systemteknisk anmärkning | [Illustrationer](#illustrationer) | |
+| [Skapad av](#skapad-av) | [Utgivningssätt](#utgivningssätt) | [Verkets titel](#verkets-titel) |
+| [Uppgraderad av](#uppgraderad-av) | [Titel](#titel) | [Språk](#språk) |
+| [Katalogiserande instans](#katalogiserande-instans) | [Upphovsuppgift](#upphovsuppgift) | [Medverkan och funktion](#medverkan-och-funktion) |
+| [Poststatus](#poststatus) | [Identifikator](#identifikator) | [Klassifikation](#klassifikation) |
+| [Systemnummer](#systemnummer) | [Upplageuppgift](#upplageuppgift) | [Ämne](#amne) |
+| [Katalogiseringsspråk](#katalogiseringsspråk) | [Utgivning](#utgivning) | [Genre](#genre) |
+| [Katalogiseringsregler](#katalogiseringsregler) | [Tillverkning](#tillverkning) | [Innehållstyp](#innehållstyp) |
+| [Beskrivningsnivå](#beskrivningsnivå) | [Copyrightår](#copyrightår) | [Anmärkning om akademisk avhandling](#anmärkning-om-akademisk-avhandling) |
+| [Bibliografikod](#bibliografikod) | [Omfång](#omfång) | |
+| [Systemteknisk anmärkning](#systemteknisk-anmärkning) | [Illustrationer](#illustrationer) | |
 | | [Mått](#mått) | |
 | | [Bilagor](#bilagor) | |
 | | [Medietyp](#medietyp) | |
@@ -20,16 +22,76 @@ Innehåll:
 | | [Anmärkning](#anmärkning) | |
 |  | [Innehållsanmärkning](#innehållsanmärkning) | |
 | | [Målgrupp](#målgrupp) | |
-| | [Annat bärarformat](#annat-bärarformat) | |
+| | [Annat bärarformat](#annat-bärarformat) | | 
 
 
+### Adminmetadata  
+#### Skapad av  
+* Skapad av/Organisation/Namn (descriptionCreator/Organization/name = 040 ‡a)  
+  Förval: den sigel som skapat posten. Ska inte ändras.  
+  ```Exempel: BOKR```
+  
+#### Uppgraderad av
+* Uppgraderad eller importerad av/Bibliotek/Sigel (descriptionUpgrader/Library/sigel = 040 ‡d)  
+  Om beskrivningsnivån uppgraderas, lägg till denna uppgift. Vid postimport, lägg till uppgiften. Lägg inte till uppgiften när posten endast ändras utan att beskrivningsnivån uppgraderas.  
+  Skapa lokal entitet. Klicka på Lägg till agent (+-ikonen vid Uppgraderad eller importerad av), välj därefter Skapa lokal entitet och välj Bibliotek i listan. Lägg till Sigel (+ikonen Lägg till fält under Bibliotek). Skriv in uppgiften.     
+  ```Exempel: S```  
 
-[Adminmetadata](#adminmetadata)  
-[Instans](#instans)   
-* [Titel](#titel)  
-[Verk](#verk)  
+#### Katalogiserande instans
+* Katalogiserande instans (marc:catalogingSource = 008/39)  
+  Normalvärdet för Libris-bibliotek är: Libris-bibliotek/Kooperativt katalogiseringsprogram
+ (marc/CooperativeCatalogingProgram).   
+  ```Exempel: Libris-bibliotek/Kooperativt katalogiseringsprogram```   
+  För poster som skapas av NB (ej Bokinfoposter), ändra till Nationalbibliografi. För Bokinfo-poster, se nedan.  
+   ```Exempel: Nationalbibliografi```   
+  I Bokinfoposter och importerade poster, ändra inte postens ursprungliga kod.  
+  ```Exempel: Annan verksamhet```  
 
-
+#### Bibliografikod
+* Bibliografi/Bibliotek/Sigel (bibliography/Library/sigel = 042 ‡9)  
+  Observera att bibliografikod ska läggas endast av det bibliotek som arbetar med respektive bibliografi. Som exempel läggs bibliografikod NB endast av NB.  
+  Skapa lokal entitet. Klicka på Lägg till bibliotek (+-ikonen vid Bibliografi), välj därefter Skapa lokal entitet. Lägg till Sigel (+ikonen Lägg till fält under Bibliotek). Skriv in uppgiften.  
+  ```Exempel:```  
+    ``` NB```  
+     ```SAMB```  
+  
+#### Systemnummer 
+* Identifikator/Systemnummer/Värde (identifiedBy/SystemNumber/value = 035 ‡a)  
+  Om ett systemnummer finns i förhandspost, till exempel Bokinfos systemnummer, låt det vara kvar oförändrat.  
+  ```Exempel: (BOKR)9789188107213```  
+  För att lägga till ett lokalt systemnummer, till exempel ett DiVA-urn, lägg till Identifikator genom att klicka på +-fält (i Adminmetadata). Välj typ Lokal identifikator. Lägg till Värde genom att klicka på +-tecknet vid Lokal identifikator och välja Värde. Fyll i aktuellt systemnummer.  
+  ```Exempel: (DIVA)urn:nbn:se:su:diva-83163```
+  
+#### Katalogiseringsspråk  
+* Katalogiseringsspråk (descriptionLanguage = 040 ‡b)  
+  Länka till entitet.  
+  ```Exempel: svenska (swe)```
+  
+#### Katalogiseringsregler  
+* Katalogiseringsregler (descriptionConventions = 040 ‡e)  
+  För post katalogiserad enligt RDA, sök fram och länka till entitet: "ISBD-interpunktions finns: i" (välj Regler för deskriptiv katalogisering vid sökningen). När man skapar ny post från mall visas entiteten som "marc/isbd". I en sparad post visas samma entitet som "ISBD information finns". Båda är rätt.      
+  Skapa också lokal entitet under Katalogiseringsregler, välj typ Katalogiseringsregler. Lägg till Kod. Skriv in "rda".    
+  ```Exempel: marc/Isbd (länkad entitet) + lokal entitet, Kod: rda```
+  
+#### Beskrivningsnivå  
+* Beskrivningsnivå (000/17)  
+  Välj från lista.   
+  ```Exempel: CIP-post, ändra till biblioteksnivå```
+  
+#### Poststatus     
+* Poststatus (000/05)  
+  Uppdateras automatiskt. Ändra inte.   
+  ```Exempel: Ny post```  
+  ```Exempel: Rättad eller reviderad post```
+  
+#### Systemteknisk anmärkning
+* Systemteknisk anmärkning/Benämning (599)  
+I samband med att du uppgraderar en Bokinfopost (beskrivningsnivå: CIP-post), kom ihåg att ändra beskrivningsnivå från CIP-post till annan nivå, annars kan ändringar skrivas över. Ta därefter bort systemteknisk anmärkning med innehåll: "Maskinellt genererad post. Ändra kod för fullständighetsnivå (leader/17), annars kommer manuellt gjorda ändringar att försvinna."  
+ 
+Följande anmärkningar är under arbete och fungerar ännu inte fullt ut:  
+ * Katalogisatörens anmärkning  
+ * Anmärkning om katalogiseringskälla  
+ 
 #### Ämne
 
 Testar bild  
