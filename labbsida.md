@@ -9,7 +9,7 @@ Innehåll:
 | [Katalogiserande instans](#katalogiserande-instans) | [Upphovsuppgift](#upphovsuppgift) | [Medverkan och funktion](#medverkan-och-funktion) |
 | [Poststatus](#poststatus) | [Identifikator](#identifikator) | [Klassifikation](#klassifikation) |
 | [Systemnummer](#systemnummer) | [Upplageuppgift](#upplageuppgift) | [Ämne](#amne) |
-| [Katalogiseringsspråk](#katspr) | [Utgivning](#utgivning) | [Genre](#genre) |
+| [Katalogiseringsspråk](#k) | [Utgivning](#utgivning) | [Genre](#genre) |
 | [Katalogiseringsregler](#katalogiseringsregler) | [Tillverkning](#tillverkning) | [Innehållstyp](#innehållstyp) |
 | [Beskrivningsnivå](#beskrivningsnivå) | [Copyrightår](#copyrightår) | [Anmärkning om akademisk avhandling](#anmärkning-om-akademisk-avhandling) |
 | [Bibliografikod](#bibliografikod) | [Omfång](#omfång) | |
@@ -61,8 +61,7 @@ Innehåll:
   ```Exempel: (BOKR)9789188107213```  
   För att lägga till ett lokalt systemnummer, till exempel ett DiVA-urn, lägg till Identifikator genom att klicka på +-fält (i Adminmetadata). Välj typ Lokal identifikator. Lägg till Värde genom att klicka på +-tecknet vid Lokal identifikator och välja Värde. Fyll i aktuellt systemnummer.  
   ```Exempel: (DIVA)urn:nbn:se:su:diva-83163```
-  
- <span style="color:blue">Katspr</span>
+#### K
 **Katalogiseringsspråk**
 * Katalogiseringsspråk (descriptionLanguage = 040 ‡b)  
   Länka till entitet.  
