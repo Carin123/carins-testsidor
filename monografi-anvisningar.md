@@ -18,11 +18,11 @@ Innehåll:
 | [Katalogiserande instans](#katalogiserande-instans) | [Upphovsuppgift](#upphovsuppgift) | [Medverkan och funktion](#medverkan-och-funktion) |
 | [Poststatus](#poststatus) | [Identifikator](#identifikator) | [Klassifikation](#klassifikation) |
 | [Systemnummer](#systemnummer) | [Upplageuppgift](#upplageuppgift) | [Ämne](#amne) |
-| [Katalogiseringsspråk](#katalogiseringsspråk) | [Utgivning](#utgivning) | [Genre](#genre) |
+| [Katalogiseringsspråk](#-) | [Utgivning](#utgivning) | [Genre](#genre) |
 | [Katalogiseringsregler](#katalogiseringsregler) | [Tillverkning](#tillverkning) | [Innehållstyp](#innehållstyp) |
-| [Beskrivningsnivå](#beskrivningsnivå) | [Copyrightår](#copyrightår) | [Anmärkning om akademisk avhandling](#anmärkning-om-akademisk-avhandling) |
+| [Beskrivningsnivå](#--) | [Copyrightår](#copyrightår) | [Anmärkning om akademisk avhandling](#anmärkning-om-akademisk-avhandling) |
 | [Bibliografikod](#bibliografikod) | [Omfång](#omfång) | |
-| [Systemteknisk anmärkning](#systemteknisk-anmärkning) | [Illustrationer](#illustrationer) | |
+| [Systemteknisk anmärkning](#---) | [Illustrationer](#illustrationer) | |
 | | [Mått](#mått) | |
 | | [Bilagor](#bilagor) | |
 | | [Medietyp](#medietyp) | |
@@ -71,7 +71,8 @@ Innehåll:
   För att lägga till ett lokalt systemnummer, till exempel ett DiVA-urn, lägg till Identifikator genom att klicka på +-fält (i Adminmetadata). Välj typ Lokal identifikator. Lägg till Värde genom att klicka på +-tecknet vid Lokal identifikator och välja Värde. Fyll i aktuellt systemnummer.  
   ```Exempel: (DIVA)urn:nbn:se:su:diva-83163```
   
-#### Katalogiseringsspråk  
+#### -
+**Katalogiseringsspråk**
 * Katalogiseringsspråk (descriptionLanguage = 040 ‡b)  
   Länka till entitet.  
   ```Exempel: svenska (swe)```
@@ -82,7 +83,8 @@ Innehåll:
   Skapa också lokal entitet under Katalogiseringsregler, välj typ Katalogiseringsregler. Lägg till Kod. Skriv in "rda".    
   ```Exempel: marc/Isbd (länkad entitet) + lokal entitet, Kod: rda```
   
-#### Beskrivningsnivå  
+#### --  
+**Beskrivningsnivå**
 * Beskrivningsnivå (000/17)  
   Välj från lista.   
   ```Exempel: CIP-post, ändra till biblioteksnivå```
@@ -92,8 +94,9 @@ Innehåll:
   Uppdateras automatiskt. Ändra inte.   
   ```Exempel: Ny post```  
   ```Exempel: Rättad eller reviderad post```
-  
-#### Systemteknisk anmärkning
+  **
+#### ---
+**Systemteknisk anmärkning**
 * Systemteknisk anmärkning/Benämning (599)  
 I samband med att du uppgraderar en Bokinfopost (beskrivningsnivå: CIP-post), kom ihåg att ändra beskrivningsnivå från CIP-post till annan nivå, annars kan ändringar skrivas över. Ta därefter bort systemteknisk anmärkning med innehåll: "Maskinellt genererad post. Ändra kod för fullständighetsnivå (leader/17), annars kommer manuellt gjorda ändringar att försvinna."  
  
