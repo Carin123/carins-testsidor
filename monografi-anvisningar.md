@@ -446,11 +446,10 @@ Under Instans av Verk/Text, lägg till Relation genom att klicka på +-tecknet v
   ```Exempel: relator/author (= författare)```
   
 * Medverkan och funktion/Medverkan/Agent/Person (contribution/agent/Person = 700 1/- ‡a)  
-  Länka till entitet. Börja alltid med att söka efter om agenten redan finns. Klicka på Länka entitet (länkikonen) vid Person. I Sökrutan, skriv in sökbegrepp, till exempel "Skoglund, Svante". Om agenten visas i träfflistan, högerklicka på entiteten, öppna den i ny flik eller nytt fönster och granska den. Är agenten rätt, gå tillbaka till katalogiseringsformuläret och länka till den genom att klicka på Ersätt lokal entitet.  
-  Saknas auktoriserad namnform (som konstaterats vid sökning i pop up-rutan för Länka entitet), stäng pop up-rutan och ange kända uppgifter i formuläret.  
-  ```Exempel: Skoglund, Svante, 1960-```
+  Länka till entitet. Börja alltid med att söka efter om agenten redan finns. Vid behov, skapa ny entitet för agent (se Skapa ny agent i hjälpsektionen). I undantagsfall, skapa lokal entitet.   
+  ```Exempel: Skoglund, Svante, 1960-```  
 * Medverkan och funktion/Medverkan/Funktion (contribution/role = 700 ‡4)  
-  Länka till entitet.  
+  Länka till entitet.   
   ```Exempel: relator/trl (= översättare)```  
   
 #### Klassifikation 
