@@ -490,15 +490,17 @@ Under Instans av Verk/Text, lägg till Relation genom att klicka på +-tecknet v
   [Lägg till sammansatta men ej auktoriserade ämnesord](https://libris.kb.se/katalogisering/help/workflow-non-auth-sh)  
 
 ##### Allmänt ämnesord  
-* Ämne - sao-term  (subject = 650 -/7 ‡a, ‡2 sao) 
+* Ämne - sao-term  (subject = 650 -/7 ‡a, ‡2 sao)  
   Länka till entitet.  
   ```Exempel: Säkerhetspolitik```
 
 ##### Allmänt ämnesord med underindelning   
-* Ämne/Sammansatt term/Termkomponenter/Allmänt ämnesord (subject/ComplexSubject/termComponentList = 650 -/7 ‡a)      
+* Ämne/Sammansatt term/Termkomponenter/Allmänt ämnesord
+ (subject/ComplexSubject/termComponentList = 650 -/7 ‡a)      
   Skapa Sammansatt term som lokal entitet. Lägg till Termkomponenter. Sök fram och länka till entiteten för det allmänna ämnesordet.     
   ```Exempel: Varumärken```    
-* Ämne/Sammansatt term/Termkomponenter/Underindelning för allmänt ämnesord (subject/ComplexSubject//termComponentList = 650 ‡x)   
+* Ämne/Sammansatt term/Termkomponenter/Underindelning för allmänt ämnesord
+ (subject/ComplexSubject//termComponentList = 650 ‡x)   
   Sök fram och länka till entiteten för underindelningen.   
   ```Exempel: juridik och lagstiftning```   
 * Ämne/Sammansatt term/Termlista (subject/ComplexSubject/inScheme = ‡2 sao)   
@@ -526,7 +528,7 @@ Under Instans av Verk/Text, lägg till Relation genom att klicka på +-tecknet v
   Skapa Geografiskt ämnesord som lokal entitet igen. Lägg till Föredragen benämning. Skriv in uppgiften.  
    ```Exempel: Bonn``` 
    
-##### Kronologiskt ämnesord  
+##### Kronologiskt ämnesord
 (subject = 648 7/- ‡a, ‡2 sao)  
 Länka till entitet. Om du inte får träff vid sökning på entiteter, pröva att söka på första ledet i ett sammansatt ord, t ex "1800" istället för "1800-talet".   
   ```Exempel: 1800-talet```  
