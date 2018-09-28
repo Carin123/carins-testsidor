@@ -505,29 +505,30 @@ Under Instans av Verk/Text, lägg till Relation genom att klicka på +-tecknet v
   Sök fram och länka till entiteten för underindelningen.   
   ```Exempel: juridik och lagstiftning```  
 * Ämne/Sammansatt term/Termlista  
-  Sök fram och länka till entiteten "sao".  
+  Lägg till Termlista. Sök fram och länka till entiteten "sao".   
   ```Exempel: sao```   
   
 ##### Geografiska ämnesord  
 * Geografiskt ämnesord (subject = 651 -/4 ‡a)  
-  Länka till entitet.  
+  Sök fram och länka till entitet.  
   I undantagsfall, skapa lokal entitet och skriv in uppgiften.  
   ```Exempel: Storbritannien```
   
 ##### Geografiska ämnesord med geografisk underindelning  
-Geografiskt ämnesord med geografisk underindelning (subject = 651 -/7 ‡a, ‡z, ‡2 sao)   
-* Ämne/Sammansatt term/Föredragen benämning  
+Geografiskt ämnesord med geografisk underindelning (subject = 651 -/7 ‡a, ‡z, ‡2 sao)  
+* Ämne/Sammansatt term/Föredragen benämning   
+  Skapa Sammansatt term som lokal entitet. Lägg till Föredragen benämning.  
   Skriv in uppgiften, med interpunktion.  
   ```Exempel: Tyskland -- Bonn```  
 * Ämne/Sammansatt term/Föredragen benämning/Termlista  
-  Länka till entitet.    
+   Lägg till Termlista. Sök fram och länka till entiteten "sao".      
   ```Exempel: sao```  
 * Ämne/Sammansatt term/Termkomponenter/Geografiskt ämnesord/Föredragen benämning   
-  Länka till entitet.   
-  ```Exempel:```  
-  ```Tyskland```  
-  ```Bonn```  
-  
+  Lägg till Termkomponenter. Skapa Geografiskt ämnesord som lokal entitet. Lägg till Föredragen benämning. Skriv in uppgiften. 
+  ```Exempel: Tyskland```  
+  Skapa Geografiskt ämnesord som lokal entitet igen. Lägg till Föredragen benämning. Skriv in uppgiften.  
+   ```Exempel: Bonn``` 
+   
 ##### Kronologiska ämnesord 
 Länka till entitet.    
   ```Exempel: 1800-talet```  
