@@ -490,20 +490,18 @@ Under Instans av Verk/Text, lägg till Relation genom att klicka på +-tecknet v
   [Lägg till sammansatta men ej auktoriserade ämnesord](https://libris.kb.se/katalogisering/help/workflow-non-auth-sh)  
 
 ##### Allmänt ämnesord  
-(subject = 650 -/7 ‡a, ‡2 sao) 
-* Ämne - sao-term  
+* Ämne - sao-term  (subject = 650 -/7 ‡a, ‡2 sao) 
   Länka till entitet.  
   ```Exempel: Säkerhetspolitik```
 
 ##### Allmänt ämnesord med underindelning   
-(subject = 650 -7/, ‡a, ‡x, ‡2 sao)   
-* Ämne/Sammansatt term/Termkomponenter/Allmänt ämnesord   
+* Ämne/Sammansatt term/Termkomponenter/Allmänt ämnesord (subject/ComplexSubject/termComponentList = 650 -/7 ‡a)      
   Skapa Sammansatt term som lokal entitet. Lägg till Termkomponenter. Sök fram och länka till entiteten för det allmänna ämnesordet.     
-  ```Exempel: Varumärken```  
-* Ämne/Sammansatt term/Termkomponenter/Underindelning för allmänt ämnesord    
+  ```Exempel: Varumärken```    
+* Ämne/Sammansatt term/Termkomponenter/Underindelning för allmänt ämnesord (subject/ComplexSubject//termComponentList = 650 ‡x)   
   Sök fram och länka till entiteten för underindelningen.   
-  ```Exempel: juridik och lagstiftning```  
-* Ämne/Sammansatt term/Termlista  
+  ```Exempel: juridik och lagstiftning```   
+* Ämne/Sammansatt term/Termlista (subject/ComplexSubject/inScheme = ‡2 sao)   
   Lägg till Termlista. Sök fram och länka till entiteten "sao".   
   ```Exempel: sao```   
   
@@ -514,12 +512,11 @@ Under Instans av Verk/Text, lägg till Relation genom att klicka på +-tecknet v
   ```Exempel: Storbritannien```
   
 ##### Geografiskt ämnesord med geografisk underindelning  
-(subject = 651 -/7 ‡a, ‡z, ‡2 sao)  
-* Ämne/Sammansatt term/Föredragen benämning (subject/ComplexSubject/prefLabel)     
+* Ämne/Sammansatt term/Föredragen benämning (subject/ComplexSubject/prefLabel = 651 -/7 ‡a, ‡z)   
   Skapa Sammansatt term som lokal entitet. Lägg till Föredragen benämning.  
   Skriv in uppgiften, med interpunktion.  
   ```Exempel: Tyskland -- Bonn```  
-* Ämne/Sammansatt term/Föredragen benämning/Termlista (subject/ComplexSubject/prefLabel/inScheme)  
+* Ämne/Sammansatt term/Föredragen benämning/Termlista (subject/ComplexSubject/prefLabel/inScheme = ‡2 sao)    
    Lägg till Termlista. Sök fram och länka till entiteten "sao".      
   ```Exempel: sao```  
 * Ämne/Sammansatt term/Termkomponenter/Geografiskt ämnesord/Föredragen benämning  
@@ -530,17 +527,17 @@ Under Instans av Verk/Text, lägg till Relation genom att klicka på +-tecknet v
    ```Exempel: Bonn``` 
    
 ##### Kronologiskt ämnesord  
-(648 7/- ‡a, ‡2 sao)  
+(subject = 648 7/- ‡a, ‡2 sao)  
 Länka till entitet. Om du inte får träff vid sökning på entiteter, pröva att söka på första ledet i ett sammansatt ord, t ex "1800" istället för "1800-talet".   
   ```Exempel: 1800-talet```  
   
 ##### Ämnesord Person  
-(600 1/4- ‡a)     
+(subject = 600 1/4- ‡a)      
 Länka till entitet. Börja alltid med att söka efter om agenten redan finns. Vid behov, skapa ny entitet för agent (se Skapa ny agent i hjälpsektionen). I undantagsfall, skapa lokal entitet.  
  ```Exempel: Lindgren, Astrid, 1907-2002```
  
 ##### Ämnesord Organisation  
-(610 1/4- ‡a)   
+(subject = 610 1/4- ‡a)   
 Länka till entitet. Börja alltid med att söka efter om agenten redan finns. Vid behov, skapa ny entitet för agent (se Skapa ny agent i hjälpsektionen). I undantagsfall, skapa lokal entitet.   
  ```Exempel: Svenska Röda korset```
     
@@ -550,7 +547,7 @@ Länka till entitet. Börja alltid med att söka efter om agenten redan finns. V
   Länka till entitet.  
   För att söka efter entiteter inom saogf-termer, välj Genre/form i listan över typer, under Genre/form. Trunkera genom att trycka på mellanslagstangenten eller med * i sökrutan. Välj rätt entitet genom att klicka på Lägg till.  
   ```Exempel: Självbiografier```  
-  Se även [instruktionsfilm](https://www.youtube.com/watch?v=wrqs310Nt0M&list=PLZVkEICvA5-GRT2oJQmLgq_2Pksx6zYPy&index=7)  
+  Se [instruktionsfilm](https://www.youtube.com/watch?v=wrqs310Nt0M&list=PLZVkEICvA5-GRT2oJQmLgq_2Pksx6zYPy&index=7)  
 
 ##### Litterär genre  
 * Genre/form – litterär genre (genreForm = 008/33)  
