@@ -524,7 +524,7 @@ Geografiskt ämnesord med geografisk underindelning (subject = 651 -/7 ‡a, ‡
    Lägg till Termlista. Sök fram och länka till entiteten "sao".      
   ```Exempel: sao```  
 * Ämne/Sammansatt term/Termkomponenter/Geografiskt ämnesord/Föredragen benämning   
-  Lägg till Termkomponenter. Skapa Geografiskt ämnesord som lokal entitet. Lägg till Föredragen benämning. Skriv in uppgiften. 
+  Lägg till Termkomponenter. Skapa Geografiskt ämnesord som lokal entitet. Lägg till Föredragen benämning. Skriv in uppgiften.  
   ```Exempel: Tyskland```  
   Skapa Geografiskt ämnesord som lokal entitet igen. Lägg till Föredragen benämning. Skriv in uppgiften.  
    ```Exempel: Bonn``` 
