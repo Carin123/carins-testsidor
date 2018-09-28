@@ -512,28 +512,36 @@ Under Instans av Verk/Text, lägg till Relation genom att klicka på +-tecknet v
   I undantagsfall, skapa lokal entitet och skriv in uppgiften.  
   ```Exempel: Storbritannien```
   
-##### Geografiska ämnesord med geografisk underindelning  
-Geografiskt ämnesord med geografisk underindelning (subject = 651 -/7 ‡a, ‡z, ‡2 sao)  
-* Ämne/Sammansatt term/Föredragen benämning   
+##### Geografiskt ämnesord med geografisk underindelning  
+(subject = 651 -/7 ‡a, ‡z, ‡2 sao)  
+* Ämne/Sammansatt term/Föredragen benämning (subject/ComplexSubject/prefLabel)     
   Skapa Sammansatt term som lokal entitet. Lägg till Föredragen benämning.  
   Skriv in uppgiften, med interpunktion.  
   ```Exempel: Tyskland -- Bonn```  
-* Ämne/Sammansatt term/Föredragen benämning/Termlista  
+* Ämne/Sammansatt term/Föredragen benämning/Termlista (subject/ComplexSubject/prefLabel/inScheme)  
    Lägg till Termlista. Sök fram och länka till entiteten "sao".      
   ```Exempel: sao```  
-* Ämne/Sammansatt term/Termkomponenter/Geografiskt ämnesord/Föredragen benämning   
+* Ämne/Sammansatt term/Termkomponenter/Geografiskt ämnesord/Föredragen benämning  
+  (subject/ComplexSubject/termComponentList/Geographic/prefLabel)  
   Lägg till Termkomponenter. Skapa Geografiskt ämnesord som lokal entitet. Lägg till Föredragen benämning. Skriv in uppgiften.  
   ```Exempel: Tyskland```  
   Skapa Geografiskt ämnesord som lokal entitet igen. Lägg till Föredragen benämning. Skriv in uppgiften.  
    ```Exempel: Bonn``` 
    
-##### Kronologiska ämnesord 
-Länka till entitet.    
+##### Kronologiskt ämnesord  
+(648 7/- ‡a, ‡2 sao)  
+Länka till entitet. Om du inte får träff vid sökning på entiteter, pröva att söka på första ledet i ett sammansatt ord, t ex "1800" istället för "1800-talet".   
   ```Exempel: 1800-talet```  
   
 ##### Ämnesord Person  
+(600 1/4- ‡a)     
 Länka till entitet. Börja alltid med att söka efter om agenten redan finns. Vid behov, skapa ny entitet för agent (se Skapa ny agent i hjälpsektionen). I undantagsfall, skapa lokal entitet.   
  ```Exempel: Lindgren, Astrid, 1907-2002```
+ 
+##### Ämnesord Organisation  
+(610 1/4- ‡a)   
+Länka till entitet. Börja alltid med att söka efter om agenten redan finns. Vid behov, skapa ny entitet för agent (se Skapa ny agent i hjälpsektionen). I undantagsfall, skapa lokal entitet.   
+ ```Exempel: Svenska Röda korset```
     
 #### Genre 
 ##### Saogf-termer  
