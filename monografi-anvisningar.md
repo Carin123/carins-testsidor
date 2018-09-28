@@ -496,15 +496,16 @@ Under Instans av Verk/Text, lägg till Relation genom att klicka på +-tecknet v
   Länka till entitet.  
   ```Exempel: Säkerhetspolitik```
 
-##### Allmänt ämnesord med underindelning  
-* Ämne/Sammansatt term/Termkomponenter/Allmänt ämnesord    
-  Länka till entitet.   
+##### Allmänt ämnesord med underindelning   
+(subject = 650 -7/, ‡a, ‡x, ‡2 sao)   
+* Ämne/Sammansatt term/Termkomponenter/Allmänt ämnesord   
+  Skapa Sammansatt term som lokal entitet. Lägg till Termkomponenter. Sök fram och länka till entiteten för det allmänna ämnesordet.     
   ```Exempel: Varumärken```  
-* Ämne/Sammansatt term/Termkomponenter/Underindelning för allmänt ämnesord   
-  Länka till entitet.   
+* Ämne/Sammansatt term/Termkomponenter/Underindelning för allmänt ämnesord    
+  Sök fram och länka till entiteten för underindelningen.   
   ```Exempel: juridik och lagstiftning```  
 * Ämne/Sammansatt term/Termlista  
-  Länka till entitet.    
+  Sök fram och länka till entiteten "sao".  
   ```Exempel: sao```   
   
 ##### Geografiska ämnesord  
