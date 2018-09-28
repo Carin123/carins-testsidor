@@ -490,7 +490,8 @@ Under Instans av Verk/Text, lägg till Relation genom att klicka på +-tecknet v
   [Lägg till sammansatta men ej auktoriserade ämnesord](https://libris.kb.se/katalogisering/help/workflow-non-auth-sh)  
 
 ##### Allmänt ämnesord  
-* Ämne - sao-term (subject = 650 -/7 ‡a, ‡2 sao)  
+(subject = 650 -/7 ‡a, ‡2 sao) 
+* Ämne - sao-term  
   Länka till entitet.  
   ```Exempel: Säkerhetspolitik```
 
@@ -535,7 +536,7 @@ Länka till entitet. Om du inte får träff vid sökning på entiteter, pröva a
   
 ##### Ämnesord Person  
 (600 1/4- ‡a)     
-Länka till entitet. Börja alltid med att söka efter om agenten redan finns. Vid behov, skapa ny entitet för agent (se Skapa ny agent i hjälpsektionen). I undantagsfall, skapa lokal entitet.   
+Länka till entitet. Börja alltid med att söka efter om agenten redan finns. Vid behov, skapa ny entitet för agent (se Skapa ny agent i hjälpsektionen). I undantagsfall, skapa lokal entitet.  
  ```Exempel: Lindgren, Astrid, 1907-2002```
  
 ##### Ämnesord Organisation  
