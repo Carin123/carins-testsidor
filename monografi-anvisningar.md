@@ -94,7 +94,7 @@ Innehåll:
   Uppdateras automatiskt. Ändra inte.   
   ```Exempel: Ny post```  
   ```Exempel: Rättad eller reviderad post```
-  **
+ 
 #### ---
 **Systemteknisk anmärkning**
 * Systemteknisk anmärkning/Benämning (599)  
