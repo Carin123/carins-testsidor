@@ -30,7 +30,7 @@ Innehåll:
 |  | [Seriemedlemskap](#seriemedlemskap) | |
 | | [Anmärkning](#anmarkning) | |
 |  | [Innehållsanmärkning](#innehallsanmarkning) | |
-| | [Målgrupp](#malgrupp) | |
+| | [Målgrupp](#malgruppsanmarkning) | |
 | | [Annat bärarformat](#annat-bararformat) | | 
 
 
@@ -340,10 +340,11 @@ Upprepa, för ytterligare titel, genom att lägga till ytterligare en förekomst
   Lägg till eventuell Upphovsuppgift (klicka på +-tecknet vid Lägg till fält under: Innehållsförteckning).   
 Upprepa, för ytterligare titel + upphovsuppgift, genom att lägga till ytterligare en Utökad innehållsanmärkning som lokal entitet (klicka på +-tecknet vid Har del och välj Skapa lokal entitet, välj Utökad innehållsanmärkning).   
 
-#### Malgrupp
+#### Malgruppsanmarkning
 * Målgrupp/Målgrupp/Benämning (intendedAudience/IntendedAudience/label = 521 ‡a)   
   Skriv in uppgiften.    
   ```Exempel: För årskurs 1```  
+Observera att kodning av målgrupp, motsvarande 008/22, för närvarande måste registreras under Instans av Verk/Genre.  
   
 #### Titel - alternativ stavning
 * Relation/Relation/Entitet/Verk/Har titel/Titel/Huvudtitel (relationship/Relationship/entity/Work/hasTitle/Title/mainTitle = 740)  
@@ -580,7 +581,7 @@ Länka till entitet. Börja alltid med att söka efter om agenten redan finns. V
   Länka till entitet. För att söka efter entiteten Akademisk avhandling, välj Innehåll 1, Innehåll 3, Innehåll 2, i listan över typer, under Genre/form.  Skriv "avhandling" i sökrutan. Välj rätt entitet genom att klicka på Lägg till.  
      ```Exempel: Akademisk avhandling```     
  
-#### Målgrupp     
+##### Målgrupp     
  * Målgrupp (intendedAudience = 008/22)  
   Länka till entitet.  
   Trunkera genom att trycka på mellanslagstangenten eller med * i sökrutan. Välj rätt entitet genom att klicka på Lägg till.  
