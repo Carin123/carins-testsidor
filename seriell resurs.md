@@ -22,8 +22,6 @@ Innehåll:
 | [Beskrivningsnivå](#beskrivningsniva) | [Numrering av seriell resurs](#numrering-av-seriell-resurs) | [Innehållstyp](#innehallstyp) |
 | [Bibliografikod](#bibliografikod) | [Omfång](#omfang) | [Länkfält - relationer under verk](#relationer-under-verk) |
 | [Systemteknisk anmärkning](#systemteknisk-anmarkning) | [Illustrationer](#illustrationer) | |
-| | [Mått](#matt) | |
-| | [Bilagor](#bilagor) | |
 | | [Medietyp](#medietyp) | |
 | | [Bärartyp](#barartyp) | |
 |  | [Seriemedlemskap](#seriemedlemskap) | |
