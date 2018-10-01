@@ -14,13 +14,13 @@ Innehåll:
 | ------ | ----------- |  ----------- |
 | [Skapad av](#skapad-av) | [Utgivningssätt](#utgivningssatt) | [Verkets titel](#verkets-titel) |
 | [Uppgraderad av](#uppgraderad-av) | [Titel](#titel) | [Språk](#sprak) |
-| [Katalogiserande instans](#katalogiserande-instans) | [Upphovsuppgift](#upphovsuppgift) | [Medverkan och funktion](#medverkan-och-funktion) |
-| [Poststatus](#poststatus) | [Identifikator](#identifikator) | [Klassifikation](#klassifikation) |
-| [Systemnummer](#systemnummer) | [Upplageuppgift](#upplageuppgift) | [Ämne](#amne) |
-| [Katalogiseringsspråk](#katalogiseringssprak) | [Utgivning](#utgivning) | [Genre](#genre) |
-| [Katalogiseringsregler](#katalogiseringsregler) | [Tillverkning](#tillverkning) | [Innehållstyp](#innehallstyp) |
-| [Beskrivningsnivå](#beskrivningsniva) | [Copyrightår](#copyrightar) | [Anmärkning om akademisk avhandling](#anmarkning-om-akademisk-avhandling) |
-| [Bibliografikod](#bibliografikod) | [Omfång](#omfang) | |
+| [Katalogiserande instans](#katalogiserande-instans) | [Upphovsuppgift](#upphovsuppgift) | [Alfabet](#alfabet) |
+| [Poststatus](#poststatus) | [Identifikator](#identifikator) | [Medverkan och funktion](#medverkan-och-funktion) |
+| [Systemnummer](#systemnummer) | [Upplageuppgift](#upplageuppgift) | [Klassifikation](#klassifikation) |
+| [Katalogiseringsspråk](#katalogiseringssprak) | [Utgivning](#utgivning) | [Ämne](#amne) |
+| [Katalogiseringsregler](#katalogiseringsregler) | [Frekvens](#frekvens) | [Genre](#genre) |
+| [Beskrivningsnivå](#beskrivningsniva) | [Numrering av seriell resurs](#numrering-av-seriell-resurs) | [Innehållstyp](#innehallstyp) |
+| [Bibliografikod](#bibliografikod) | [Omfång](#omfang) | [Länkfält - relationer under verk](#relationer-under-verk) |
 | [Systemteknisk anmärkning](#systemteknisk-anmarkning) | [Illustrationer](#illustrationer) | |
 | | [Mått](#matt) | |
 | | [Bilagor](#bilagor) | |
