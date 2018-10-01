@@ -8,9 +8,29 @@ I de flesta fall ska informationen delas upp i olika fält och delfält. I någr
 
 I vissa fall fungerar det ännu inte fullt ut att lägga till alla uppgifter som beskrivs i denna hjälptext. Arbete pågår med förbättra gränssnittet. För att anmäla fel, använd detta [formulär](https://docs.google.com/forms/d/e/1FAIpQLSfOChJOGDoHUQguSF83F5XyTZiQL-yU47nvcqb6qwNT9GX7Aw/viewform). För att lämna synpunkter, använd detta [formulär](https://docs.google.com/forms/d/e/1FAIpQLSfOChJOGDoHUQguSF83F5XyTZiQL-yU47nvcqb6qwNT9GX7Aw/viewform).  
 
-[Adminmetadata](#adminmetadata)  
-[Instans](#instans)  
-[Verk](#verk)  
+Innehåll:  
+
+| [Adminmetadata](#adminmetadata) | [Instans](#instans) | [Verk](#verk) | 
+| ------ | ----------- |  ----------- |
+| [Skapad av](#skapad-av) | [Utgivningssätt](#utgivningssatt) | [Verkets titel](#verkets-titel) |
+| [Uppgraderad av](#uppgraderad-av) | [Titel](#titel) | [Språk](#sprak) |
+| [Katalogiserande instans](#katalogiserande-instans) | [Upphovsuppgift](#upphovsuppgift) | [Medverkan och funktion](#medverkan-och-funktion) |
+| [Poststatus](#poststatus) | [Identifikator](#identifikator) | [Klassifikation](#klassifikation) |
+| [Systemnummer](#systemnummer) | [Upplageuppgift](#upplageuppgift) | [Ämne](#amne) |
+| [Katalogiseringsspråk](#katalogiseringssprak) | [Utgivning](#utgivning) | [Genre](#genre) |
+| [Katalogiseringsregler](#katalogiseringsregler) | [Tillverkning](#tillverkning) | [Innehållstyp](#innehallstyp) |
+| [Beskrivningsnivå](#beskrivningsniva) | [Copyrightår](#copyrightar) | [Anmärkning om akademisk avhandling](#anmarkning-om-akademisk-avhandling) |
+| [Bibliografikod](#bibliografikod) | [Omfång](#omfang) | |
+| [Systemteknisk anmärkning](#systemteknisk-anmarkning) | [Illustrationer](#illustrationer) | |
+| | [Mått](#matt) | |
+| | [Bilagor](#bilagor) | |
+| | [Medietyp](#medietyp) | |
+| | [Bärartyp](#barartyp) | |
+|  | [Seriemedlemskap](#seriemedlemskap) | |
+| | [Anmärkning](#anmarkning) | |
+|  | [Innehållsanmärkning](#innehallsanmarkning) | |
+| | [Målgruppsanmärkning](#malgruppsanmarkning) | |
+| | [Annat bärarformat](#annat-bararformat) | | 
 
 
 ### Adminmetadata  
@@ -31,20 +51,21 @@ I vissa fall fungerar det ännu inte fullt ut att lägga till alla uppgifter som
   ```Exempel: NB```  
   ```Exempel: SAMB```  
   
-#### Katalogiseringsspråk, Katalogiseringsregler   
+#### Katalogiseringssprak  
 * Katalogiseringsspråk (descriptionLanguage = 040 ‡b)   
   Länka till entitet.  
   ```Exempel: svenska (swe)```  
 
+#### Katalogiseringsregler  
 * Katalogiseringsregler (descriptionConventions = 040 ‡e)  
 För post katalogiserad enligt RDA, sök fram och länka till entitet: "ISBD-interpunktions finns: i" (välj Regler för deskriptiv katalogisering vid sökningen). När man skapar ny post från mall visas entiteten som "marc/isbd". I en sparad post visas samma entitet som "ISBD information finns". Båda är rätt.  
 Skapa också lokal entitet under Katalogiseringsregler, välj typ Katalogiseringsregler. Lägg till Kod. Skriv in "rda".  
  ```Exempel: marc/Isbd (länkad entitet) + lokal entitet, Kod: rda ```
 
-#### Beskrivningsnivå  
+#### Beskrivningsniva   
 * Beskrivningsnivå (000/17)  
   Välj från lista.    
-  ```Exempel: nationalbibliografisk/fullständig nivå```
+  ```Exempel: biblioteksnivå```
   
 #### Poststatus   
 * Poststatus (000/05)  
@@ -52,7 +73,7 @@ Skapa också lokal entitet under Katalogiseringsregler, välj typ Katalogisering
   ```Exempel: Ny post```  
   ```Exempel: Rättad eller reviderad post```
   
-#### Anmärkningar
+#### Systemteknisk anmarkning
 * Systemteknisk anmärkning/Benämning (599)  
  
  Följande anmärkningar är under arbete och fungerar ännu inte fullt ut:  
@@ -62,7 +83,7 @@ Skapa också lokal entitet under Katalogiseringsregler, välj typ Katalogisering
 
 ### Instans
 
-#### Utgivningssätt
+#### Utgivningssatt
 * Utgivningssätt (issuanceType)  
   Välj från lista.  
   ```Exempel: Seriell resurs```
@@ -181,17 +202,17 @@ Används för akronymer som är en del av huvudtiteln.
   Länka till entitet.  
   ```Exempel:  n (= omedierad)``` 
   
-#### Bärartyp  
+#### Barartyp  
 * Bärartyp (carrierType/CarrierType = 338 ‡b)  
   Länka till entitet.  
 ```Exempel:  nc (= volym)```
 
-#### Anmärkning
+#### Anmarkning
 * Anmärkning/Anmärkning/Benämning (hasNote/Note/label = 500 ‡a)  
   Skriv in uppgiften.  
   Skriv in allmänna anmärkningar här. Anmärkningar om specifika fält skrivs in i Kommentar (note) under respektive fält, när sådana specifika anmärkningsfält finns. 
  
-#### Annat bärarformat
+#### Annat bararformat
 * Annat bärarformat (otherPhysicalFormat = 776)  
   För att länka till en utgåva i annat format, till exempel en elektronisk utgåva, lägg till Annat bärarformat genom att klicka på Lägg till fält. Välj Annat bärarformat.  
   Skapa en instans som lokal entitet genom att klicka på +-tecknet vid Annat bärarformat (lägg till instans). Klicka på Skapa lokal entitet och välj Instans. 
@@ -262,7 +283,7 @@ Läs mer om [Verk och Instans](https://librisbloggen.kb.se/2018/05/30/verk-och-i
  * Klassifikation/Termlista/Termlista/Version (classification/Classification/inScheme/ConceptScheme/version = 084 ‡2)  
  ```Exempel: 8``` 
  
-#### Ämne  
+#### Amne  
  * Ämne  
   Läs mer:  
   [Lägg till auktoriserade ämnesord](https://libris.kb.se/katalogisering/help/workflow-linked-entity-sh)  
@@ -294,21 +315,22 @@ Läs mer om [Verk och Instans](https://librisbloggen.kb.se/2018/05/30/verk-och-i
   För att söka efter entiteter inom Konferenspublikation, välj Konferenspublikation i listan över typer, under Genre/form. Trunkera genom att trycka på mellanslagstangenten eller med * i sökrutan. Välj rätt entitet genom att klicka på Lägg till.  
      ```Exempel: Ja, resursen härrör från konferens```      
      
-#### Språk och Alfabet
+#### Sprak
 * Språk (language = 008/35-37)  
   Länka till entitet.  
-  ```Exempel: svenska (swe)```
+  ```Exempel: svenska (swe)```  
   
+#### Alfabet    
 * Alfabet/skriftart (marc:alphabet = 008/33)   
    Länka till entitet.  
   ```Exempel: b (= Extended roman = Latinskt alfabet med diakriter och specialtecken (a-ö))```
   
-#### Innehållstyp
+#### Innehallstyp
 * Innehållstyp (contentType/ContentType = 336 ‡b)  
   Länka till entitet.  
   ```Exempel: text (txt)```
-
-#### Länkfält/relationer under verk
+  
+#### Relationer under verk
 * Länkfält/relationer under verk: Fortsätter (780 0/0), Fortsättes av (785 0/0), Ersätter (780 0/2), med flera -   
   konstrueras enligt följande mönster. Ange relationen, skapa verket som lokal instans och skapa en lokal instans av verket, ange egenskaper för instansen, till exempel titel och identifikator, se nedan.  
   Under Instans av Verk, lägg till fält genom att klicka på +-tecknet vid Instans av Verk/Text (Lägg till fält under: Text). Välj till exempel Fortsätter (eller Fortsättes av eller annan relation) och lägg till det. Skapa ett verk som lokal entitet genom att klicka på +-tecknet vid Fortsätter. Klicka på Skapa lokal entitet. Välj Verk i listan. Skapa en instans av verket genom att klicka på +-tecknet vid Verk (Lägg till fält under: Verk) och lägg till Har instans. Klicka på +-tecknet vid Har instans och skapa instansen som lokal entitet (klicka på Skapa lokal entitet och välj Instans). 
