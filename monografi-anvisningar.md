@@ -30,7 +30,7 @@ Innehåll:
 |  | [Seriemedlemskap](#seriemedlemskap) | |
 | | [Anmärkning](#anmarkning) | |
 |  | [Innehållsanmärkning](#innehallsanmarkning) | |
-| | [Målgrupp](#malgruppsanmarkning) | |
+| | [Målgruppsanmärkning](#malgruppsanmarkning) | |
 | | [Annat bärarformat](#annat-bararformat) | | 
 
 
