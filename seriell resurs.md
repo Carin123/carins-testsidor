@@ -304,7 +304,7 @@ Läs mer om [Verk och Instans](https://librisbloggen.kb.se/2018/05/30/verk-och-i
    I undantagsfall, skapa lokal entitet och skriv in uppgiften.   
     ```Exempel: Sverige```
     
-#### Genre/form    
+#### Genre 
 * Genre/form - typ av fortlöpande resurs (genreForm/marc:Periodical = 008/21)  
   Länka till entitet.  
   För att söka efter entiteter inom Typ av fortlöpande resurs, välj Typ av fortlöpande resurs i listan över typer, under Genre/form. Trunkera genom att trycka på mellanslagstangenten eller med * i sökrutan. Välj rätt entitet genom att klicka på Lägg till.  
