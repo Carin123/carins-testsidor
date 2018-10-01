@@ -325,7 +325,7 @@ Vid behov, klicka även på +-tecknet vid Parallelltitel och lägg till Övrig t
   Saknas auktoriserad namnform (som konstaterats vid sökning i pop up-rutan för Länka entitet), stäng pop up-rutan och ange kända uppgifter i formuläret.  
   ```Exempel: Larsson, Stieg, 1954-2004```  
 * Seriemedlemskap/Numrering inom serie (seriesMembership/seriesEnumeration = 800 ‡v)  
-  Skriv in uppgiften. 
+  Skriv in uppgiften.  
   ```Exempel: 1```  
   
 #### Anmarkning
