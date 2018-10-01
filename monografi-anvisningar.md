@@ -344,7 +344,7 @@ Upprepa, för ytterligare titel + upphovsuppgift, genom att lägga till ytterlig
 * Målgrupp/Målgrupp/Benämning (intendedAudience/IntendedAudience/label = 521 ‡a)   
   Skriv in uppgiften.    
   ```Exempel: För årskurs 1```  
-Observera att kodning av målgrupp, motsvarande 008/22, registreras under Instans av Verk/Genre.  
+Observera att kodning av målgrupp, motsvarande 008/22, ska registreras under Instans av Verk/Genre.  
   
 #### Titel - alternativ stavning
 * Relation/Relation/Entitet/Verk/Har titel/Titel/Huvudtitel (relationship/Relationship/entity/Work/hasTitle/Title/mainTitle = 740)  
