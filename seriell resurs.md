@@ -21,11 +21,10 @@ Innehåll:
 | [Katalogiseringsregler](#katalogiseringsregler) | [Frekvens](#frekvens) | [Genre](#genre) |
 | [Beskrivningsnivå](#beskrivningsniva) | [Numrering av seriell resurs](#numrering-av-seriell-resurs) | [Innehållstyp](#innehallstyp) |
 | [Bibliografikod](#bibliografikod) | [Omfång](#omfang) | [Länkfält - relationer under verk](#relationer-under-verk) |
-| [Systemteknisk anmärkning](#systemteknisk-anmarkning) | [Illustrationer](#illustrationer) | |
-| | [Medietyp](#medietyp) | |
+| [Systemteknisk anmärkning](#systemteknisk-anmarkning) | [Medietyp](#medietyp) | |
 | | [Bärartyp](#barartyp) | |
 | | [Anmärkning](#anmarkning) | |
-| | [Annat bärarformat](#annat-bararformat) | | 
+| | [Annat bärarformat](#annat-bararformat) | |
 
 
 ### Adminmetadata  
