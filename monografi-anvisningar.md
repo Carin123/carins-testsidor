@@ -289,7 +289,10 @@ Vid behov, klicka även på +-tecknet vid Parallelltitel och lägg till Övrig t
 #### Seriemedlemskap
 * Seriemedlemskap/Seriemedlemskap/Ingår i serie (seriesMembership/SeriesMembership/inSeries)  
   Avvakta med att skapa verk som länkade entiteter. Beskriv serien som lokal entitet, enligt exempel nedan.  
-  Nytt 2018-10-04: man måste inte längre fylla i två Seriemedlemskap för att vid export till MARC få ut både 490 och 830. 
+  Nytt 2018-10-04:  
+  Man måste inte längre fylla i två Seriemedlemskap för att vid export till MARC få ut både 490 och 830.  
+  Vid export till marc21 skapas nu både 490 och 830 från Seriemedlemskap som saknar Serieuppgift (t ex gamla 440-fält).  
+  OBS: hanteringen klarar de flesta fall bra, men det finns serier med deltitlar/delserier som kommer att exporteras fel (fel ordning mellan Delbeteckning och Deltitel, fel interpunktion). Om man stöter på sådana, och anser felet besvärande, får man gå in i posten och lägga till en korrekt Serieuppgift i rätt Seriemedlemskap. Då kommer 490 att skapas från det. (Finns det flera Seriemedlemskap behöver man komplettera alla, annars skapas bara 490 för den serien som har en ifyllt Serieuppgift).  
   
 #####  Indikator för seriebiuppslag   
 * Seriemedlemskap/Indikator för seriebiuppslag (marc:seriesTracingPolicy = 490 i1: 0/1)  
