@@ -298,6 +298,7 @@ Vid behov, klicka även på +-tecknet vid Parallelltitel och lägg till Övrig t
   Ange indikator 1 om dessutom Instans/Instans av Verk/Verk (830) anges (om det finns en seriehuvudpost).   
   ```Exempel: 1```   
 * Seriemedlemskap/Ingår i serie/Instans av Verk/Verk/Har titel/Titel/Huvudtitel (seriesMembership/inSeries/InstanceofWork/Work/hasTitle/Title/mainTitle = 830 ‡a)  
+  Ange den auktoriserade sökingången till serien här (gäller serier som har seriehuvudpost) i de fall den avviker från serieuppgiften.   
   Skriv in uppgiften.   
   ```Exempel: Årstasällskapets för Fredrika Bremer-studier skriftserie```  
 * Seriemedlemskap/Ingår i serie/Instans/Identifikator/ISSN/Värde (seriesMembership/inSeries/Instance/identifiedBy/ISSN/Value) (490 ‡x, 830 ‡x)  
