@@ -296,8 +296,7 @@ Vid behov, klicka även på +-tecknet vid Parallelltitel och lägg till Övrig t
   Skriv in uppgiften.  
   ```Exempel: 0```   
   Ange indikator 1 om dessutom Instans/Instans av Verk/Verk (830) anges (om det finns en seriehuvudpost).   
-  ```Exempel: 1```  
-    
+  ```Exempel: 1```   
 * Seriemedlemskap/Ingår i serie/Instans av Verk/Verk/Har titel/Titel/Huvudtitel (seriesMembership/inSeries/InstanceofWork/Work/hasTitle/Title/mainTitle = 830 ‡a)  
   Skriv in uppgiften.   
   ```Exempel: Årstasällskapets för Fredrika Bremer-studier skriftserie```  
