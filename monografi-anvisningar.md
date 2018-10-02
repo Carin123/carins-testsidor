@@ -142,16 +142,14 @@ Följande anmärkningar är under arbete och fungerar ännu inte fullt ut:
   
 ##### Delbeteckning 
 * Har titel/Titel/Har del/Deltitel/Delbeteckning (hasTitle/Title/hasPart/TitlePart/partNumber = 245 ‡n)  
-Lägg till Har del (hasPart) under Har titel/Titel genom att klicka på plustecknet vid Titel (Lägg till fält under: Titel). Välj Har del. Skapa Deltitel (TitlePart) som lokal entitet (Deltitel är här grupperande) genom att klicka på plustecknet vid Har del (Lägg till resurs) och välj Skapa lokal entitet. Sök fram Deltitel och lägg till det. OBS. Deltitel som grupperande (TitlePart) kommer i release 3/10 att ändras till Titeldel.  
-Lägg till Delbeteckning genom att klicka på plustecknet vid Deltitel (Lägg till fält under: Deltitel) och välja Delbeteckning (partNumber).  
-Skriv in uppgiften.  
+Lägg till Har del (hasPart) under Har titel/Titel genom att klicka på plustecknet vid Titel (Lägg till fält under: Titel). Välj Har del. Skapa Titeldel (TitlePart) som lokal entitet genom att klicka på plustecknet vid Har del (Lägg till resurs) och välja Skapa lokal entitet. Välj Titeldel.  
+Skriv in uppgiften under Delbeteckning.  
 ```Exempel: 1```   
 
 ##### Deltitel  
 * Har titel/Titel/Har del/Deltitel/Deltitel (hasTitle/Title/hasPart/TitlePart/partName = 245 ‡p)  
-  * Om inte Har del/Deltitel/Delbeteckning redan finns, lägg till Har del (hasPart) under Har titel/Titel genom att klicka på plustecknet vid Titel (Lägg till fält under: Titel). Välj Har del. Skapa Deltitel (TitlePart) som lokal entitet (Deltitel är här grupperande) genom att klicka på plustecknet vid Har del (Lägg till resurs) och välj Skapa lokal entitet. Sök fram Deltitel och lägg till det.  OBS. Deltitel som grupperande (TitlePart) kommer i release 3/10 att ändras till Titeldel.  
-Lägg sedan till Deltitel igen genom att klicka på plustecknet vid Deltitel (Lägg till fält under: Deltitel) och välja Deltitel (partName).  
-  * Om Har del/Deltitel/Delbeteckning redan finns, lägg till Deltitel igen genom att klicka på plustecknet vid Deltitel (Lägg till fält under: Deltitel) och välja Deltitel (partName).     
+  * Om inte Har del/Titeldel/Delbeteckning redan finns, lägg till Har del (hasPart) under Har titel/Titel genom att klicka på plustecknet vid Titel (Lägg till fält under: Titel). Välj Har del. Skapa Titeldel (TitlePart) som lokal entitet genom att klicka på plustecknet vid Har del (Lägg till resurs) och välj Skapa lokal entitet. Sök fram Titeldel och lägg till det.  
+  * Om Har del/Titeldel/Delbeteckning redan finns, lägg till Deltitel genom att klicka på plustecknet vid Titeldel (Lägg till fält under: Titeldel) och välja Deltitel (partName).   
 Skriv in uppgiften.  
 ```Exempel: Träd och växter som resurs```  
 
@@ -255,8 +253,8 @@ Vid behov, klicka även på plustecknet vid Parallelltitel och lägg till Övrig
   
 #### Copyrightar   
 * Copyright/Copyright/Datum (copyright/Copyright/date = 264 -/4 ‡c)  
-  Skriv in uppgiften. För att få fram copyrighttecknet, kopiera från exemplet nedan eller skriv ??????????
-  "se [Specialtecken](https://libris-dev.kb.se/katalogisering/help/search-04-special-chars). Du kan t ex söka på teckenuppsättning i “Sök i windows” och öppna programmet, markera och kopiera tecknet och sedan klistra in det.  
+  Skriv in uppgiften. För att få fram copyrighttecknet, kopiera från exemplet nedan eller skriv Alt + 184.  
+  Se också [Specialtecken](https://libris-dev.kb.se/katalogisering/help/search-04-special-chars). Du kan t ex söka på teckenuppsättning i “Sök i windows” och öppna programmet, markera och kopiera tecknet och sedan klistra in det.  
   ```Exempel: ©2017``` 
    
 #### Omfang   
