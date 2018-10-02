@@ -274,7 +274,8 @@ Vid behov, klicka även på plustecknet vid Parallelltitel och lägg till Övrig
   
 #### Bilagor
 * Tillsammans med/Instans/Benämning (Bilagor) (accompaniedBy/Instance/label = 300 ‡e)  
-  Under Instans, lägg till Tillsammans med. Lägg därefter till Instans, som lokal entitet, genom att klicka på plustecknet vid Tillsammans med och därefter välja Skapa lokal entitet. Väj Instans i listan. Lägg därefter till Benämning. Skriv in uppgiften.  
+  Under Instans, lägg till Tillsammans med. Lägg därefter till Instans, som lokal entitet, genom att klicka på plustecknet vid Tillsammans med och därefter välja Skapa lokal entitet. Väj Instans i listan. Lägg därefter till Benämning.  
+Skriv in uppgiften.  
    ```Exempel: 10 mönsterark```  
 
 #### Medietyp
@@ -328,8 +329,8 @@ volymbeteckning (dubbleras om det inte står exakt likadant)
 (seriesMembership/inSeries/Instance/InstanceOf/Work/hasTitle/Title/mainTitle = 800 ‡t)  
   ```Exempel: Millenium```   
 * Seriemedlemskap/Ingår i serie/Instans/Instans av Verk/Verk/Medverkan och funktion/Primär medverkan/Agent/Person     (seriesMembership/inSeries/Instance/InstanceOf/Work/contribution/PrimaryContribution/Agent/Person = 800 ‡a)  
- Länka till entitet. Börja alltid med att söka efter om agenten redan finns. Klicka på Länka entitet (länkikonen) vid Person. I Sökrutan, skriv in sökbegrepp, till exempel "Larsson, Stieg". Om agenten visas i träfflistan, högerklicka på entiteten, öppna den i ny flik eller nytt fönster och granska den. Är agenten rätt, gå tillbaka till katalogiseringsformuläret och länka till den genom att klicka på Ersätt lokal entitet.  
-  Saknas auktoriserad namnform (som konstaterats vid sökning i pop up-rutan för Länka entitet), stäng pop up-rutan och ange kända uppgifter i formuläret.  
+ Länka till entitet. Börja alltid med att söka efter om agenten redan finns. Klicka på Länka entitet (länkikonen) vid Person. I sökrutan, skriv in sökbegrepp, till exempel "Larsson, Stieg". Om agenten visas i träfflistan, högerklicka på entiteten, öppna den i ny flik eller nytt fönster och granska den. Är agenten rätt, gå tillbaka till katalogiseringsformuläret och länka till den genom att klicka på Ersätt lokal entitet.  
+  Saknas auktoriserad namnform (som konstaterats vid sökning i sidorutan för Länka entitet), stäng sidorutan och ange kända uppgifter i formuläret.  
   ```Exempel: Larsson, Stieg, 1954-2004```  
 * Seriemedlemskap/Numrering inom serie (seriesMembership/seriesEnumeration = 800 ‡v)  
   Skriv in uppgiften.  
