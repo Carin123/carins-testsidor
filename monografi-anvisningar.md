@@ -86,8 +86,9 @@ Innehåll:
   
 #### Beskrivningsniva  
 * Beskrivningsnivå (000/17)  
-  Välj från lista.   
-  ```Exempel: CIP-post, ändra till biblioteksnivå```
+I samband med att du uppgraderar en Bokinfopost eller annan post med beskrivningsnivå: CIP-post eller Preliminär nivå, ändra beskrivningsnivå till annan nivå, annars kan ändringar skrivas över.  
+  Välj från lista.    
+  ```Exempel: Biblioteksnivå```
   
 #### Poststatus     
 * Poststatus (000/05)  
@@ -97,7 +98,7 @@ Innehåll:
  
 #### Systemteknisk anmarkning
 * Systemteknisk anmärkning/Benämning (599)  
-I samband med att du uppgraderar en Bokinfopost (beskrivningsnivå: CIP-post), kom ihåg att ändra beskrivningsnivå från CIP-post till annan nivå, annars kan ändringar skrivas över. Ta därefter bort systemteknisk anmärkning med innehåll: "Maskinellt genererad post. Ändra kod för fullständighetsnivå (leader/17), annars kommer manuellt gjorda ändringar att försvinna."  
+I samband med att du uppgraderar en Bokinfopost eller annan post med beskrivningsnivå: CIP-post eller Preliminär nivå, ändra beskrivningsnivå till annan nivå, annars kan ändringar skrivas över. Ta därefter bort systemteknisk anmärkning med innehåll: "Maskinellt genererad post. Ändra kod för fullständighetsnivå (leader/17), annars kommer manuellt gjorda ändringar att försvinna."  
  
 Följande anmärkningar är under arbete och fungerar ännu inte fullt ut:  
  * Katalogisatörens anmärkning  
