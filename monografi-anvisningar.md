@@ -53,7 +53,7 @@ Innehåll:
  (marc/CooperativeCatalogingProgram).   
   ```Exempel: Libris-bibliotek/Kooperativt katalogiseringsprogram```   
   För poster som skapas av NB (ej Bokinfoposter), ändra till Nationalbibliografi. För Bokinfo-poster, se nedan.  
-   ```Exempel: Nationalbibliografi```   
+  ```Exempel: Nationalbibliografi```   
   I Bokinfoposter och importerade poster, ändra inte postens ursprungliga kod.  
   ```Exempel: Annan verksamhet```  
 
@@ -63,8 +63,8 @@ Innehåll:
   Skapa lokal entitet. Klicka på Lägg till bibliotek (plustecknet vid Bibliografi), välj därefter Skapa lokal entitet. Lägg till Sigel (plustecknet Lägg till fält under Bibliotek).  
   Skriv in uppgiften.  
   ```Exempel:```  
-    ``` NB```  
-     ```SAMB```  
+  ```NB```  
+  ```SAMB```  
   
 #### Systemnummer 
 * Identifikator/Systemnummer/Värde (identifiedBy/SystemNumber/value = 035 ‡a)  
@@ -93,8 +93,9 @@ I samband med att du uppgraderar en Bokinfopost eller annan post med beskrivning
 #### Poststatus     
 * Poststatus (000/05)  
   Uppdateras automatiskt. Ändra inte.   
-  ```Exempel: Ny post```  
-  ```Exempel: Rättad eller reviderad post```
+  ```Exempel:```
+  ```Ny post``` 
+  ```Rättad eller reviderad post```
  
 #### Systemteknisk anmarkning
 * Systemteknisk anmärkning/Benämning (599)  
@@ -166,7 +167,7 @@ Skriv in uppgiften.
   ```Exempel: The Great Northern War explained```  
 * Har titel/Parallelltitel/Övrig titelinformation (hasTitle/ParallelTitle/subTitle = 246 1/1 ‡b)   
 Vid behov, klicka även på plustecknet vid Parallelltitel och lägg till Övrig titelinformation (subtitle).  
-```Exempel: Charles XII and the ideological address```  
+  ```Exempel: Charles XII and the ideological address```  
 
 ##### Omslagstitel, Ryggtitel, Rubriktitel
 * Omslagstitel, Ryggtitel, Rubriktitel etc - lägg till Har titel och välj typ. För typ av varianttitel som saknas i listan, välj Varianttitel och lägg därefter till Typanmärkning (= 246 ‡i). Lägg därefter till Huvudtitel och eventuell Övrig titelinformation.  
@@ -229,8 +230,9 @@ Vid behov, klicka även på plustecknet vid Parallelltitel och lägg till Övrig
   För att ange ett utgivningsdatum med fler än fyra positioner, till exempel ett klamrat årtal, skriv in det här. Det kommer att exporteras till marcpostens  264 -/1 ‡c. Skriv in uppgiften.  
   För att ange ett år utan klamrar eller andra tecken, använd endast År.   
   Skriv in uppgiften.  
-  ```Exempel: [2017]```   
-  ```Exempel: [mellan 1863 och 1866?]```   
+  ```Exempel:``` 
+  ```[2017]``` 
+  ```[mellan 1863 och 1866?]```   
   * Flera år (flerbandsverk)  
  Använd Startår och Slutår. Fälten ska ligga i avsnittet Primär utgivning. Om årtalen anges utan klammer eller andra tecken utöver fyra positioner, räcker det att ange årtalen här. De exporteras då både som 008 och 264 ‡c. Bindestreck sätts automatiskt. För att få rätt kod i 008/06 (Typ av utgivningsdatum/Utgivningsstatus) vid MARC-export: lägg till Typ av utgivningsdatum (marc:publicationStatus) (klicka på plustecknet vid Primär utgivning) och välj ”Flera årtal (monografisk resurs)".    
 ```Exempel: ```  
@@ -249,8 +251,9 @@ Vid behov, klicka även på plustecknet vid Parallelltitel och lägg till Övrig
   ```Exempel: Scandbook```  
   * Datum (= Tillverkningstid) (date = 264 -/3 ‡c)  
    Skriv in uppgiften. Klamra vid behov.  
-  ```Exempel: 2017```  
-  ```Exempel: [2017]```  
+  ```Exempel:``` 
+  ```2017``` 
+  ```[2017]```  
   
 #### Copyrightar   
 * Copyright/Copyright/Datum (copyright/Copyright/date = 264 -/4 ‡c)  
@@ -277,17 +280,17 @@ Vid behov, klicka även på plustecknet vid Parallelltitel och lägg till Övrig
 * Tillsammans med/Instans/Benämning (Bilagor) (accompaniedBy/Instance/label = 300 ‡e)  
   Under Instans, lägg till Tillsammans med. Lägg därefter till Instans, som lokal entitet, genom att klicka på plustecknet vid Tillsammans med och därefter välja Skapa lokal entitet. Väj Instans i listan. Lägg därefter till Benämning.  
 Skriv in uppgiften.  
-   ```Exempel: 10 mönsterark```  
+  ```Exempel: 10 mönsterark```  
 
 #### Medietyp
 * Medietyp (mediaType/Mediatype = 337 ‡b)  
   Länka till entitet.  
-  ```Exempel:  n (= omedierad)```
+  ```Exempel: n (= omedierad)```
   
 #### Barartyp
 * Bärartyp (carrierType/CarrierType = 338 ‡b)  
   Länka till entitet.  
-```Exempel:  nc (= volym)```  
+  ```Exempel: nc (= volym)```  
 
 #### Seriemedlemskap
 * Seriemedlemskap/Seriemedlemskap/Ingår i serie (seriesMembership/SeriesMembership/inSeries)  
@@ -393,9 +396,9 @@ För översättningar och för verk som har givits ut under olika titlar på sam
 * Har titel/Titel/Huvudtitel (hasTitle/Title/mainTitle = 240 1/0 ‡a)  
   "Originaltitel" för ett verk med primär medverkande anger du här.  
   Skriv in uppgiften.  
-```Exempel: Soldier spy```  
+  ```Exempel: Soldier spy```  
   För en titel som börjar med bestämd eller obestämd artikel, ska artikeln fileras bort. Ange fileringsvärde genom att lägga till delfältet fileringsvärde och ange en siffra.  
-```Exempel:  Huvudtitel: En arbetsdag i skriftsamhället, fileringsvärde: 3```  
+  ```Exempel: Huvudtitel: En arbetsdag i skriftsamhället, fileringsvärde: 3```  
  
 ##### Verkets titel - huvuduppslag
 *	Uttryck av/Verk/Har titel/Titel/Huvudtitel (expressionOf/Work/hasTitle/Title/mainTitle (= 130 ‡a)  
@@ -408,7 +411,7 @@ Skriv in uppgiften.
 (expressionOf/Work/hasTitle/Title/partName = 130 ‡p)  
 Lägg till eventuell deltitel genom att klicka på plustecknet vid Titel (lägg till fält under: Titel), välj Deltitel.  
 Skriv in uppgiften.  
-```Exempel:  Nya testamentet```
+```Exempel: Nya testamentet```
 *	Uttryck av/Verk/Språk/Språk/Benämning  
 (expressionOf/Work/language/Language/label = 130 ‡l)  
 Lägg till eventuell benämning på språk som ska ingå i den föredragna titeln. Klicka på plustecknet vid Verk (Lägg till fält under: Verk) och välj Språk. Klicka på plustecknet vid Språk (Lägg till språk) och välj Skapa lokal entitet. Lägg till Benämning genom att klicka på plustecknet vid Språk (Lägg till fält under: Språk) och välja Benämning.  
@@ -545,24 +548,24 @@ Under Instans av Verk/Text, lägg till Relation genom att klicka på plustecknet
 ##### Kronologiskt ämnesord
 (subject = 648 7/- ‡a, ‡2 sao)  
 Länka till entitet. Om du inte får träff vid sökning på entiteter, pröva att söka på första ledet i ett sammansatt ord, t ex "1800" istället för "1800-talet".   
-  ```Exempel: 1800-talet```  
+ ```Exempel: 1800-talet```  
   
 ##### Ämnesord Person  
 (subject = 600 1/4- ‡a)      
 Länka till entitet. Börja alltid med att söka efter om agenten redan finns. Vid behov, skapa ny entitet för agent (se Skapa ny agent i hjälpsektionen). I undantagsfall, skapa lokal entitet.  
- ```Exempel: Lindgren, Astrid, 1907-2002```
+```Exempel: Lindgren, Astrid, 1907-2002```
  
 ##### Ämnesord Organisation  
 (subject = 610 1/4- ‡a)   
 Länka till entitet. Börja alltid med att söka efter om agenten redan finns. Vid behov, skapa ny entitet för agent (se Skapa ny agent i hjälpsektionen). I undantagsfall, skapa lokal entitet.   
- ```Exempel: Svenska Röda korset```
+```Exempel: Svenska Röda korset```
     
 #### Genre 
 ##### Saogf-termer  
 * Genre/form – saogf-termer (genreForm = 655 -/7 ‡a, ‡2 saogf)  
   Länka till entitet.  
   För att söka efter entiteter inom saogf-termer, välj Genre/form i listan över typer, under Genre/form. Trunkera genom att trycka på mellanslagstangenten eller med * i sökrutan. Välj rätt entitet genom att klicka på plustecknet.  
-  ```Exempel: Självbiografier```  
+ ```Exempel: Självbiografier```  
   Se [instruktionsfilm](https://www.youtube.com/watch?v=wrqs310Nt0M&list=PLZVkEICvA5-GRT2oJQmLgq_2Pksx6zYPy&index=7)  
 
 ##### Litterär genre  
@@ -575,24 +578,24 @@ Länka till entitet. Börja alltid med att söka efter om agenten redan finns. V
 * Genre/form – biografiskt material (genreForm = 008/34)  
   Länka till entitet.  
   För att söka efter entiteter inom Biografiskt material, välj Biografiskt material i listan över typer, under Genre/form. Trunkera genom att trycka på mellanslagstangenten eller med * i sökrutan. Välj rätt entitet genom att klicka på plustecknet.  
-    ```Exempel: a (= självbiografi)```  
+  ```Exempel: a (= självbiografi)```  
     
  ##### Festskrift     
 * Genre/form – festskrift (genreForm = 008/30)  
   Länka till entitet.  
   För att söka efter entiteter inom Festskrift, välj Festskrift i listan över typer, under Genre/form. Trunkera genom att trycka på mellanslagstangenten eller med * i sökrutan. Välj rätt entitet genom att klicka på plustecknet.  
-    ```Exempel: Ja, resursen är en festskrift```    
+  ```Exempel: Ja, resursen är en festskrift```    
     
  ##### Konferenspublikation       
 * Genre/form – konferenspublikation (genreForm = 008/29)  
   Länka till entitet.  
   För att söka efter entiteter inom Konferenspublikation, välj Konferenspublikation i listan över typer, under Genre/form. Trunkera genom att trycka på mellanslagstangenten eller med * i sökrutan. Välj rätt entitet genom att klicka på plustecknet. 
-     ```Exempel: Ja, resursen härrör från konferens```   
+  ```Exempel: Ja, resursen härrör från konferens```   
      
 ##### Akademisk avhandling      
 * Genre/form – akademisk avhandling (genreForm = 008/24-27)  
   Länka till entitet. För att söka efter entiteten Akademisk avhandling, välj Innehåll 1, Innehåll 3, Innehåll 2, i listan över typer, under Genre/form.  Skriv "avhandling" i sökrutan. Välj rätt entitet genom att klicka på plustecknet.  
-     ```Exempel: Akademisk avhandling```     
+  ```Exempel: Akademisk avhandling```     
  
 ##### Målgrupp     
  * Målgrupp (intendedAudience = 008/22)  
