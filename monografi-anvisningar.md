@@ -528,7 +528,7 @@ Under Instans av Verk/Text, lägg till Relation genom att klicka på plustecknet
 * Geografiskt ämnesord (subject = 651 -/4 ‡a)  
   Sök fram och länka till entitet.  
   I undantagsfall, skapa lokal entitet och skriv in uppgiften.  
-  ```Exempel: Storbritannien```
+  ```Exempel: Sverige```
   
 ##### Geografiskt ämnesord med geografisk underindelning  
 * Ämne/Sammansatt term/Föredragen benämning (subject/ComplexSubject/prefLabel = 651 -/7 ‡a, ‡z)   
@@ -556,7 +556,7 @@ Länka till entitet. Börja alltid med att söka efter om agenten redan finns. V
 ```Exempel: Lindgren, Astrid, 1907-2002```
  
 ##### Ämnesord Organisation  
-(subject = 610 1/4- ‡a)   
+* Ämne/Agent/Organisation (subject/agent/Organization = 610 2/- ‡a)  
 Länka till entitet. Börja alltid med att söka efter om agenten redan finns. Vid behov, skapa ny entitet för agent (se Skapa ny agent i hjälpsektionen). I undantagsfall, skapa lokal entitet.   
 ```Exempel: Svenska Röda korset```
     
