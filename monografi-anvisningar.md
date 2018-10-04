@@ -119,7 +119,8 @@ Följande anmärkningar är under arbete och fungerar ännu inte fullt ut:
   Återge huvudtiteln från titelsidan eller annan föredragen källa så som den förekommer i källan. se [Anvisningar för katalogisering - RDA](http://www.kb.se/rdakatalogisering/Anvisningar/Arbetsfloden/Tryckta-monografier/#huvudtitel "Anvisningar för katalogisering - RDA").  
   Skriv in uppgiften.    
  ```Exempel: En arbetsdag i skriftsamhället```  
-    För en titel som börjar med bestämd eller obestämd artikel, ska artikeln fileras bort. Ange fileringsvärde genom att lägga till delfältet fileringsvärde och ange en siffra. Exempel: Huvudtitel: En arbetsdag i skriftsamhället, fileringsvärde: 3   
+    För en titel som börjar med bestämd eller obestämd artikel, ska artikeln fileras bort. Ange fileringsvärde genom att lägga till delfältet fileringsvärde och ange en siffra.  
+ ```Exempel: Huvudtitel: En arbetsdag i skriftsamhället, fileringsvärde: 3``` 
  Se exempel i formathandboken för Libris/Voyager: 
 [Fileringsindikator]( http://www.kb.se/katalogisering/Formathandboken/Fileringsindikator/)
 
@@ -143,8 +144,8 @@ Följande anmärkningar är under arbete och fungerar ännu inte fullt ut:
   Skriv in uppgiften.  
   
 ##### Delbeteckning 
-* Har titel/Titel/Har del/Deltitel/Delbeteckning (hasTitle/Title/hasPart/TitlePart/partNumber = 245 ‡n)  
-Lägg till Har del (hasPart) under Har titel/Titel genom att klicka på plustecknet vid Titel (Lägg till fält under: Titel). Välj Har del. Skapa Titeldel (TitlePart) som lokal entitet genom att klicka på plustecknet vid Har del (Lägg till resurs) och välja Skapa lokal entitet. Välj Titeldel.  
+* Har titel/Titel/Har del/Titeldel/Delbeteckning (hasTitle/Title/hasPart/TitlePart/partNumber = 245 ‡n)  
+Lägg till Har del (hasPart) under Har titel/Titel genom att klicka på plustecknet vid Titel (Lägg till fält under: Titel). Välj Har del. Skapa Titeldel (TitlePart) som lokal entitet genom att klicka på plustecknet vid Har del (Lägg till resurs) och välja Skapa lokal entitet. Välj Titeldel (skriv Titeldel i sökrutan vid Skapa lokal entitet).        
 Skriv in uppgiften under Delbeteckning.  
 ```Exempel: 1```   
 
