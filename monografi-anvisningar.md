@@ -304,7 +304,7 @@ Skriv in uppgiften.
   * Import: matchning av 490 + 830 (800/810) vid import via tratten och vid manuell import från Andra källor. Om fälten matchar läggs båda fältens data i samma Seriemedlemskap. Annars skapas ett Seriemedlemskap per fält. OBS. Behöver kontrolleras vid katalogisering:  
 ISSN (dubbleras om det finns på båda fälten),  
 volymbeteckning (dubbleras om det inte står exakt likadant)  
-Läs mer om [Seriemedlemskap](https://kundo.se/org/librisxl/d/uppgifter-om-seriemedlemskap-saknas-i-marc-export/)  
+Läs mer om [Seriemedlemskap](https://kundo.se/org/librisxl/d/uppgifter-om-seriemedlemskap-saknas-i-marc-export/)
 (scrolla ner till sista inlägget i tråden)  
   
 #####  Indikator för seriebiuppslag   
