@@ -94,9 +94,9 @@ I samband med att du uppgraderar en Bokinfopost eller annan post med beskrivning
 #### Poststatus     
 * Poststatus (000/05)  
   Uppdateras automatiskt. Ändra inte.   
-  ```Exempel:```
-  ```Ny post``` 
-  ```Rättad eller reviderad post```
+  ```Exempel:```  
+  ```Ny post```  
+  ```Rättad eller reviderad post```  
  
 #### Systemteknisk anmarkning
 * Systemteknisk anmärkning/Benämning (599)  
@@ -234,8 +234,8 @@ NB inväntar en maskinell ändring av dessa poster och ändrar inte manuellt.
   För att ange ett utgivningsdatum med fler än fyra positioner, till exempel ett klamrat årtal, skriv in det här. Det kommer att exporteras till marcpostens  264 -/1 ‡c. Skriv in uppgiften.  
   För att ange ett år utan klamrar eller andra tecken, använd endast År.   
   Skriv in uppgiften.  
-  ```Exempel:``` 
-  ```[2017]``` 
+  ```Exempel:```  
+  ```[2017]```  
   ```[mellan 1863 och 1866?]```   
   * Flera år (flerbandsverk)  
  Använd Startår och Slutår. Fälten ska ligga i avsnittet Primär utgivning. Om årtalen anges utan klammer eller andra tecken utöver fyra positioner, räcker det att ange årtalen här. De exporteras då både som 008 och 264 ‡c. Bindestreck sätts automatiskt. För att få rätt kod i 008/06 (Typ av utgivningsdatum/Utgivningsstatus) vid MARC-export: lägg till Typ av utgivningsdatum (marc:publicationStatus) (klicka på plustecknet vid Primär utgivning) och välj ”Flera årtal (monografisk resurs)".    
@@ -255,8 +255,8 @@ NB inväntar en maskinell ändring av dessa poster och ändrar inte manuellt.
   ```Exempel: Scandbook```  
   * Datum (= Tillverkningstid) (date = 264 -/3 ‡c)  
    Skriv in uppgiften. Klamra vid behov.  
-  ```Exempel:``` 
-  ```2017``` 
+  ```Exempel:```  
+  ```2017```  
   ```[2017]```  
   
 #### Copyrightar   
@@ -594,7 +594,7 @@ Länka till entitet. Börja alltid med att söka efter om agenten redan finns. V
  ##### Konferenspublikation       
 * Genre/form – konferenspublikation (genreForm = 008/29)  
   Länka till entitet.  
-  För att söka efter entiteter inom Konferenspublikation, välj Konferenspublikation i listan över typer, under Genre/form. Trunkera genom att trycka på mellanslagstangenten eller med * i sökrutan. Välj rätt entitet genom att klicka på plustecknet. 
+  För att söka efter entiteter inom Konferenspublikation, välj Konferenspublikation i listan över typer, under Genre/form. Trunkera genom att trycka på mellanslagstangenten eller med * i sökrutan. Välj rätt entitet genom att klicka på plustecknet.  
   ```Exempel: Ja, resursen härrör från konferens```   
      
 ##### Akademisk avhandling      
