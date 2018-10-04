@@ -203,6 +203,7 @@ Vid behov, klicka även på plustecknet vid Parallelltitel och lägg till Övrig
 * Utgivning (publication)  
   Välj typ från lista. För monografier, använd Primär utgivning.  
   I konverterade och maskininlästa poster finns det ibland två avsnitt: ett Primär utgivning med År och Land, och ett Utgivning med Plats, Agent och Datum. När man redigerar maskininlästa poster med två utgivningsavsnitt får man, om man bedömer det nödvändigt, flytta uppgifterna om Plats, Agent och Datum till avsnittet Primär utgivning och ta bort avsnittet Utgivning.   
+NB inväntar en maskinell ändring av dessa poster och ändrar inte manuellt.    
  
 ##### Utgivningsland och utgivningsplats
   * Land (country = 008/15-17)  
