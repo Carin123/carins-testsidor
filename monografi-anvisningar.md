@@ -517,16 +517,16 @@ Under Instans av Verk/Text, lägg till Relation genom att klicka på plustecknet
   ```Exempel: Säkerhetspolitik```
 
 ##### Allmänt ämnesord med underindelning   
-* Ämne/Sammansatt term/Termkomponenter/Allmänt ämnesord
+* Ämne/Sammansatt term/Termkomponenter/Allmänt ämnesord  
  (subject/ComplexSubject/termComponentList = 650 -/7 ‡a)      
   Skapa Sammansatt term som lokal entitet. Lägg till Termkomponenter. Sök fram och länka till entiteten för det allmänna ämnesordet.     
   ```Exempel: Varumärken```    
-* Ämne/Sammansatt term/Termkomponenter/Underindelning för allmänt ämnesord
- (subject/ComplexSubject//termComponentList = 650 ‡x)   
-  Sök fram och länka till entiteten för underindelningen.   
+* Ämne/Sammansatt term/Termkomponenter/Underindelning för allmänt ämnesord  
+ (subject/ComplexSubject/termComponentList = 650 ‡x)   
+  Sök fram och länka till entiteten för underindelningen.    
   ```Exempel: juridik och lagstiftning```   
 * Ämne/Sammansatt term/Termlista (subject/ComplexSubject/inScheme = ‡2 sao)   
-  Lägg till Termlista. Sök fram och länka till entiteten "sao".   
+  Lägg till Termlista. Sök fram och länka till entiteten "sao".    
   ```Exempel: sao```   
   
 ##### Geografiska ämnesord  
