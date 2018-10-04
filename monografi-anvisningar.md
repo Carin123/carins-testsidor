@@ -551,12 +551,12 @@ Under Instans av Verk/Text, lägg till Relation genom att klicka på plustecknet
    ```Exempel: Bonn``` 
    
 ##### Kronologiskt ämnesord
-(subject = 648 7/- ‡a, ‡2 sao)  
+* Ämne/Kronologiskt ämnesord (subject = 648 7/- ‡a, ‡2 sao)  
 Länka till entitet. Om du inte får träff vid sökning på entiteter, pröva att söka på första ledet i ett sammansatt ord, t ex "1800" istället för "1800-talet".   
  ```Exempel: 1800-talet```  
   
 ##### Ämnesord Person  
-(subject = 600 1/4- ‡a)      
+* Ämne/Agent/Person (subject = 600 1/4- ‡a)      
 Länka till entitet. Börja alltid med att söka efter om agenten redan finns. Vid behov, skapa ny entitet för agent (se Skapa ny agent i hjälpsektionen). I undantagsfall, skapa lokal entitet.  
 Läs [Auktoritetsgruppens rekommendationer](https://kundo.se/org/librisxl/d/kbs-auktoritetsgrupp-informerar-jraz/)  
 ```Exempel: Lindgren, Astrid, 1907-2002```
