@@ -545,9 +545,11 @@ Under Instans av Verk/Text, lägg till Relation genom att klicka på plustecknet
   ```Exempel: sao```  
 * Ämne/Sammansatt term/Termkomponenter/Geografiskt ämnesord/Föredragen benämning  
   (subject/ComplexSubject/termComponentList/Geographic/prefLabel)  
-  Lägg till Termkomponenter. Skapa Geografiskt ämnesord som lokal entitet. Lägg till Föredragen benämning. Skriv in uppgiften.  
+  Lägg till Termkomponenter. Skapa Geografiskt ämnesord som lokal entitet. Lägg till Föredragen benämning.  
+  Skriv in uppgiften.  
   ```Exempel: Tyskland```  
-  Skapa Geografiskt ämnesord som lokal entitet igen. Lägg till Föredragen benämning. Skriv in uppgiften.  
+  Skapa Geografiskt ämnesord som lokal entitet igen. Lägg till Föredragen benämning.
+  Skriv in uppgiften.  
    ```Exempel: Bonn``` 
    
 ##### Kronologiskt ämnesord
