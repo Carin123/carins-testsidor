@@ -62,7 +62,7 @@ Innehåll:
   Observera att bibliografikod ska läggas endast av det bibliotek som arbetar med respektive bibliografi. Som exempel läggs bibliografikod NB endast av NB.  
   Skapa lokal entitet. Klicka på Lägg till bibliotek (plustecknet vid Bibliografi), välj därefter Skapa lokal entitet. Lägg till Sigel (plustecknet Lägg till fält under Bibliotek).  
   Skriv in uppgiften.  
-  ```Exempel:```  
+  ```Exempel:```
   ```NB```  
   ```SAMB```  
   
@@ -72,6 +72,7 @@ Innehåll:
   ```Exempel: (BOKR)9789188107213```  
   För att lägga till ett lokalt systemnummer, till exempel ett DiVA-urn, lägg till Identifikator genom att klicka på +-fält (i Adminmetadata). Välj typ Lokal identifikator. Lägg till Värde genom att klicka på plustecknet vid Lokal identifikator och välja Värde. Fyll i aktuellt systemnummer.  
   ```Exempel: (DIVA)urn:nbn:se:su:diva-83163```
+För ISBN, se [Identifikator](#Identifikator) under Instans.  
   
 #### Katalogiseringssprak
 * Katalogiseringsspråk (descriptionLanguage = 040 ‡b)  
