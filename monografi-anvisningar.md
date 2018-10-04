@@ -558,11 +558,13 @@ Länka till entitet. Om du inte får träff vid sökning på entiteter, pröva a
 ##### Ämnesord Person  
 (subject = 600 1/4- ‡a)      
 Länka till entitet. Börja alltid med att söka efter om agenten redan finns. Vid behov, skapa ny entitet för agent (se Skapa ny agent i hjälpsektionen). I undantagsfall, skapa lokal entitet.  
+Läs [Auktoritetsgruppens rekommendationer](https://kundo.se/org/librisxl/d/kbs-auktoritetsgrupp-informerar-jraz/)  
 ```Exempel: Lindgren, Astrid, 1907-2002```
  
 ##### Ämnesord Organisation  
 * Ämne/Agent/Organisation (subject/agent/Organization = 610 2/- ‡a)  
-Länka till entitet. Börja alltid med att söka efter om agenten redan finns. Vid behov, skapa ny entitet för agent (se Skapa ny agent i hjälpsektionen). I undantagsfall, skapa lokal entitet.   
+Länka till entitet. Börja alltid med att söka efter om agenten redan finns. Vid behov, skapa ny entitet för agent (se Skapa ny agent i hjälpsektionen). I undantagsfall, skapa lokal entitet.  
+Läs [Auktoritetsgruppens rekommendationer](https://kundo.se/org/librisxl/d/kbs-auktoritetsgrupp-informerar-jraz/)  
 ```Exempel: Svenska Röda korset```
     
 #### Genre 
