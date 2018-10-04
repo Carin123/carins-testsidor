@@ -291,24 +291,24 @@ Läs mer om [Verk och Instans](https://librisbloggen.kb.se/2018/05/30/verk-och-i
   ```Exempel: Kammarmusik```  
    
 ##### Allmänt ämnesord med underindelning   
-* Ämne/Sammansatt term/Termkomponenter/Allmänt ämnesord
+* Ämne/Sammansatt term/Termkomponenter/Allmänt ämnesord  
  (subject/ComplexSubject/termComponentList = 650 -/7 ‡a)      
   Skapa Sammansatt term som lokal entitet. Lägg till Termkomponenter. Sök fram och länka till entiteten för det allmänna ämnesordet.     
   ```Exempel: Varumärken```    
-* Ämne/Sammansatt term/Termkomponenter/Underindelning för allmänt ämnesord
- (subject/ComplexSubject//termComponentList = 650 ‡x)   
-  Sök fram och länka till entiteten för underindelningen.   
+* Ämne/Sammansatt term/Termkomponenter/Underindelning för allmänt ämnesord  
+ (subject/ComplexSubject/termComponentList = 650 ‡x)   
+  Sök fram och länka till entiteten för underindelningen.    
   ```Exempel: juridik och lagstiftning```   
 * Ämne/Sammansatt term/Termlista (subject/ComplexSubject/inScheme = ‡2 sao)   
-  Lägg till Termlista. Sök fram och länka till entiteten "sao".   
-  ```Exempel: sao```  
+  Lägg till Termlista. Sök fram och länka till entiteten "sao".    
+  ```Exempel: sao```   
   
-##### Geografiska ämnesord   
+##### Geografiska ämnesord  
 * Geografiskt ämnesord (subject = 651 -/4 ‡a)  
-   Länka till entitet.  
-   I undantagsfall, skapa lokal entitet och skriv in uppgiften.   
-   ```Exempel: Sverige```
-      
+  Sök fram och länka till entitet.  
+  I undantagsfall, skapa lokal entitet och skriv in uppgiften.  
+  ```Exempel: Sverige```
+  
 ##### Geografiskt ämnesord med geografisk underindelning  
 * Ämne/Sammansatt term/Föredragen benämning (subject/ComplexSubject/prefLabel = 651 -/7 ‡a, ‡z)   
   Skapa Sammansatt term som lokal entitet. Lägg till Föredragen benämning.  
@@ -319,16 +319,18 @@ Läs mer om [Verk och Instans](https://librisbloggen.kb.se/2018/05/30/verk-och-i
   ```Exempel: sao```  
 * Ämne/Sammansatt term/Termkomponenter/Geografiskt ämnesord/Föredragen benämning  
   (subject/ComplexSubject/termComponentList/Geographic/prefLabel)  
-  Lägg till Termkomponenter. Skapa Geografiskt ämnesord som lokal entitet. Lägg till Föredragen benämning. Skriv in uppgiften.  
+  Lägg till Termkomponenter. Skapa Geografiskt ämnesord som lokal entitet. Lägg till Föredragen benämning.  
+  Skriv in uppgiften.  
   ```Exempel: Tyskland```  
-  Skapa Geografiskt ämnesord som lokal entitet igen. Lägg till Föredragen benämning. Skriv in uppgiften.  
+  Skapa Geografiskt ämnesord som lokal entitet igen. Lägg till Föredragen benämning.
+  Skriv in uppgiften.  
    ```Exempel: Bonn``` 
    
-##### Ämnesord Organisation     
+##### Ämnesord Organisation  
 * Ämne/Agent/Organisation (subject/agent/Organization = 610 2/- ‡a)  
-  Länka till entitet.  
-  I undantagsfall, skapa lokal entitet och skriv in uppgiften.   
-  ```Exempel: Riksförbundet Sveriges kammarmusikarrangörer```  
+Länka till entitet. Börja alltid med att söka efter om agenten redan finns. Vid behov, skapa ny entitet för agent (se Skapa ny agent i hjälpsektionen). I undantagsfall, skapa lokal entitet.  
+Läs [Auktoritetsgruppens rekommendationer](https://kundo.se/org/librisxl/d/kbs-auktoritetsgrupp-informerar-jraz/)  
+```Exempel: Svenska Röda korset```
 
 #### Genre 
 ##### Typ av fortlöpande resurs  
