@@ -175,7 +175,7 @@ Vid behov, klicka även på plustecknet vid Parallelltitel och lägg till Övrig
 ##### Omslagstitel, Ryggtitel, Rubriktitel  
 * Omslagstitel, Ryggtitel, Rubriktitel etc - lägg till Har titel och välj typ. Lägg därefter till Huvudtitel och eventuell Övrig titelinformation.   
 Skriv in uppgiften.  
-```Exempel:``` 
+```Exempel:```  
 ```Omslagstitel/Huvudtitel (245 ‡a): Bergens väktare```  
 ```Övrig titelinformation (245 ‡b): Djingis Khan – historiens störste erövrare```  
 
