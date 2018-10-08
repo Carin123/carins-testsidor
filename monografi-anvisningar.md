@@ -172,9 +172,19 @@ Skriv in uppgiften.
 Vid behov, klicka även på plustecknet vid Parallelltitel och lägg till Övrig titelinformation (subtitle).  
   ```Exempel: Charles XII and the ideological address```  
 
-##### Omslagstitel, Ryggtitel, Rubriktitel
-* Omslagstitel, Ryggtitel, Rubriktitel etc - lägg till Har titel och välj typ. För typ av varianttitel som saknas i listan, välj Varianttitel och lägg därefter till Typanmärkning (= 246 ‡i). Lägg därefter till Huvudtitel och eventuell Övrig titelinformation.  
-  Skriv in uppgiften.  
+##### Omslagstitel, Ryggtitel, Rubriktitel  
+* Omslagstitel, Ryggtitel, Rubriktitel etc - lägg till Har titel och välj typ. Lägg därefter till Huvudtitel och eventuell Övrig titelinformation.   
+Skriv in uppgiften.  
+```Exempel:``` 
+```Omslagstitel/Huvudtitel (245 ‡a): Bergens väktare```  
+```Övrig titelinformation (245 ‡b): Djingis Khan – historiens störste erövrare```  
+
+För typ av varianttitel som saknas i listan, välj Varianttitel och lägg därefter till Typanmärkning (= 246 ‡i). Lägg därefter till Huvudtitel och eventuell Övrig titelinformation.  
+Skriv in uppgiften.  
+```Exempel:``` 
+```Typanmärkning (246 ‡i): Skyddsomslag```
+```Omslagstitel/Huvudtitel  (245 ‡a): På väg mot döden```  
+```Övrig titelinformation (245 ‡b): en Cooper och Fry-deckare```
   
 #### Upphovsuppgift
 * Upphovsuppgift (responsibilityStatement = 245 ‡c)  
