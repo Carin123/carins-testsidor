@@ -173,11 +173,18 @@ Vid behov, klicka även på plustecknet vid Parallelltitel och lägg till Övrig
   ```Exempel: Charles XII and the ideological address```  
 
 ##### Omslagstitel, Ryggtitel, Rubriktitel  
-* Omslagstitel, Ryggtitel, Rubriktitel etc - lägg till Har titel och välj typ. Lägg därefter till Huvudtitel och eventuell Övrig titelinformation.   
-Skriv in uppgiften.  
-```Exempel:```  
-```Omslagstitel/Huvudtitel (245 ‡a): Bergens väktare```  
-```Övrig titelinformation (245 ‡b): Djingis Khan – historiens störste erövrare```  
+* Omslagstitel, Ryggtitel, Rubriktitel etc - lägg till Har titel och välj typ. Lägg därefter till Huvudtitel och eventuell Övrig titelinformation. Se exempel på Omslagstitel nedan.    
+Skriv in uppgiften.   
+
+##### Omslagstitel   
+* Har titel/Omslagstitel/Huvudtitel (hasTitle/CoverTitle/mainTitle = 246 1/4 ‡a)  
+ Skriv in uppgiften.    
+ ```Exempel: Bergens väktare```  
+  
+##### Övrig titelinformation (undertitel)
+* Har titel/Omslagstitel/Övrig titelinformation (= Undertitel) (hasTitle/CoverTitle/subtitle = 246 1/4 ‡b)  
+  Skriv in uppgiften. Om det finns flera undertitlar, skriv in dessa efter varandra i samma fält, åtskilda av mellanslag, kolon, mellanslag.    
+```Exempel: Djingis Khan – historiens störste erövrare```
 
 För typ av varianttitel som saknas i listan, välj Varianttitel och lägg därefter till Typanmärkning (= 246 ‡i). Lägg därefter till Huvudtitel och eventuell Övrig titelinformation.  
 Skriv in uppgiften.  
