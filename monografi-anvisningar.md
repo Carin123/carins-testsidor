@@ -181,10 +181,10 @@ Skriv in uppgiften.
 
 För typ av varianttitel som saknas i listan, välj Varianttitel och lägg därefter till Typanmärkning (= 246 ‡i). Lägg därefter till Huvudtitel och eventuell Övrig titelinformation.  
 Skriv in uppgiften.  
-```Exempel:``` 
-```Typanmärkning (246 ‡i): Skyddsomslag```
+```Exempel:```  
+```Typanmärkning (246 ‡i): Skyddsomslag```  
 ```Omslagstitel/Huvudtitel  (245 ‡a): På väg mot döden```  
-```Övrig titelinformation (245 ‡b): en Cooper och Fry-deckare```
+```Övrig titelinformation (245 ‡b): en Cooper och Fry-deckare```  
   
 #### Upphovsuppgift
 * Upphovsuppgift (responsibilityStatement = 245 ‡c)  
