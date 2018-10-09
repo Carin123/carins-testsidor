@@ -156,7 +156,7 @@ Lägg till Huvudtitel genom att klicka på plustecknet vid Omslagstitel (lägg t
  Skriv in uppgiften.    
  ```Exempel: Bergens väktare```  
 * Har titel/Omslagstitel/Övrig titelinformation (= Undertitel) (hasTitle/CoverTitle/subtitle = 246 1/4 ‡b)  
-Återge övrig titelinformation som återfinns i annan källa än huvudtiteln som en varianttitel, t ex som omslagstitel.    
+Återge övrig titelinformation som återfinns i annan källa än huvudtiteln som en varianttitel, till exempel som omslagstitel.    
 Lägg till Övrig titelinformation genom att klicka på plustecknet vid Omslagstitel (lägg till fält under: Omslagstitel). Välj Övrig titelinformation.    
   Skriv in uppgiften. Om det finns flera undertitlar, skriv in dessa efter varandra i samma fält, åtskilda av mellanslag, kolon, mellanslag.    
 ```Exempel: Djingis Khan – historiens störste erövrare```
