@@ -148,15 +148,15 @@ Lägg till Övrig titelinformation genom att klicka på plustecknet vid Variantt
   Skriv in uppgiften.  
   
 ##### Omslagstitel, Ryggtitel, Rubriktitel  
-* Omslagstitel, Ryggtitel, Rubriktitel etc - lägg till Har titel och välj typ. Lägg därefter till Huvudtitel och eventuell Övrig titelinformation, enligt mönstret för Omslagstitel, se nedan.      
+* Omslagstitel, Ryggtitel, Rubriktitel etc - lägg till Har titel och välj typ, till exempel Omslagstitel. Lägg därefter till Huvudtitel, eventuell Övrig titelinformation och Typanmärkning, enligt mönstret för Omslagstitel, se nedan.      
 
 ##### Omslagstitel   
 * Har titel/Omslagstitel/Huvudtitel (hasTitle/CoverTitle/mainTitle = 246 1/4 ‡a)  
-Lägg till Huvudtitel genom att klicka på plustecknet vid Varianttitel (lägg till fält under: Varianttitel). Välj Huvudtitel.  
+Lägg till Huvudtitel genom att klicka på plustecknet vid Omslagstitel (lägg till fält under: Omslagstitel). Välj Huvudtitel.  
  Skriv in uppgiften.    
  ```Exempel: Bergens väktare```  
 * Har titel/Omslagstitel/Övrig titelinformation (= Undertitel) (hasTitle/CoverTitle/subtitle = 246 1/4 ‡b)  
-Lägg till Övrig titelinformation genom att klicka på plustecknet vid Varianttitel (lägg till fält under: Varianttitel). Välj Övrig titelinformation.    
+Lägg till Övrig titelinformation genom att klicka på plustecknet vid Omslagstitel (lägg till fält under: Omslagstitel). Välj Övrig titelinformation.    
   Skriv in uppgiften. Om det finns flera undertitlar, skriv in dessa efter varandra i samma fält, åtskilda av mellanslag, kolon, mellanslag.    
 ```Exempel: Djingis Khan – historiens störste erövrare```
 
