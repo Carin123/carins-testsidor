@@ -165,8 +165,8 @@ För att ange att omslagstiteln endast står på skyddsomslag, lägg till Typanm
 Skriv in uppgifterna.    
 ```Exempel:```  
 ```Typanmärkning (246 ‡i): Skyddsomslag```  
-```Omslagstitel/Huvudtitel  (245 ‡a): På väg mot döden```  
-```Övrig titelinformation (245 ‡b): en Cooper och Fry-deckare```  
+```Omslagstitel/Huvudtitel  (246 ‡a): På väg mot döden```  
+```Övrig titelinformation (246 ‡b): en Cooper och Fry-deckare```  
   
 ##### Delbeteckning
 * Har titel/Titel/Har del/Titeldel/Delbeteckning (hasTitle/Title/hasPart/TitlePart/partNumber = 245 ‡n)  
