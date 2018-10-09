@@ -508,10 +508,24 @@ För en översättning, ange även:
   ```Exempel: 327.12092```
 * Klassifikation/DDK-klassifikation/Klassifikationsupplaga  
   (classification/ClassificationDdc/edition = 082 ‡2)  
-  ```Exempel: 23/swe```  
+  ```full```  
 *  Parallell upplagebeteckning/Upplagespecifik upphovsuppgift  
  (classification/ClassificationDdc/editionEnumeration = 082 ‡2)  
    ```Exempel: 23/swe```  
+  
+##### Sekundär DDK-klassifikation  
+* DDK-klassifikation (sekundär) (additionalClassificationDdc = 083 0/- ‡a)  
+Lägg till DDK-klassifikation (sekundär) genom att klicka på plusikonen vid Instans av Verk/Text (Lägg till fält under: Text) och välja DDK-klassifikation (sekundär).  
+Klicka sedan på plustecknet vid DDK-klassifikation (sekundär) (Lägg till ddk-klassifikation) och välj Skapa lokal entitet.  
+* Klassifikation/DDK-klassifikation/Kod (additionalClassificationDdc/ClassificationDdc/code = 083 0/- ‡a)  
+  Skriv in uppgiften.  
+  ```Exempel: 791.430233092```
+* Klassifikation/DDK-klassifikation/Klassifikationsupplaga  
+  (classification/ClassificationDdc/edition = 083 ‡2)  
+  ```full```  
+*  Parallell upplagebeteckning/Upplagespecifik upphovsuppgift  
+ (classification/ClassificationDdc/editionEnumeration = 083 ‡2)  
+   ```Exempel: 23/swe``` 
   
 * SAB-klassifikation  
   För att lägga till annan klassifikation, till exempel SAB-klassifikation:  
