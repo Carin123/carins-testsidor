@@ -134,8 +134,9 @@ Följande anmärkningar är under arbete och fungerar ännu inte fullt ut:
 
 ##### Varianttitel   
   Används till exempel för felaktigheter. Kan specificeras med Typanmärkning.  
+  Lägg till Har titel och välj typ. Lägg därefter till Huvudtitel och eventuell Övrig titelinformation.   
 * Har titel/Varianttitel/Typanmärkning (hasTitle/VariantTitle/typeNote = 246 1/_ ‡i)  
- Anmärkningstext som i ett sökgränssnitt ska föregå varianttiteln.    
+ Anmärkningstext som i ett sökgränssnitt ska föregå varianttiteln. Används också för att ange typ av varianttitel som inte finns i listan, t ex Titelrubrik. Lägg vid behov till Typanmärkning genom att klicka på plustecknet vid Varianttitel (lägg till fält under: Varianttitel). Välj Typanmärkning.  
   Skriv in uppgiften.  
   ```Exempel: Titeln felstavad, korrekt titel:```   
 * Har titel/Varianttitel/Huvudtitel (hasTitle/VariantTitle/mainTitle = 246 ‡a)  
@@ -143,6 +144,24 @@ Följande anmärkningar är under arbete och fungerar ännu inte fullt ut:
   ```Exempel: Hierarchy in organizations```   
 * Har titel/Varianttitel/Övrig titelinformation (= Undertitel) (hasTitle/VariantTitle/subtitle = 246 ‡b)  
   Skriv in uppgiften.  
+  
+##### Omslagstitel, Ryggtitel, Rubriktitel  
+* Omslagstitel, Ryggtitel, Rubriktitel etc - lägg till Har titel och välj typ. Lägg därefter till Huvudtitel och eventuell Övrig titelinformation, enligt mönstret för Omslagstitel, se nedan.      
+
+##### Omslagstitel   
+* Har titel/Omslagstitel/Huvudtitel (hasTitle/CoverTitle/mainTitle = 246 1/4 ‡a)  
+ Skriv in uppgiften.    
+ ```Exempel: Bergens väktare```  
+* Har titel/Omslagstitel/Övrig titelinformation (= Undertitel) (hasTitle/CoverTitle/subtitle = 246 1/4 ‡b)  
+  Skriv in uppgiften. Om det finns flera undertitlar, skriv in dessa efter varandra i samma fält, åtskilda av mellanslag, kolon, mellanslag.    
+```Exempel: Djingis Khan – historiens störste erövrare```
+
+För att ange att omslagstiteln endast står på skyddsomslag, lägg till Typanmärkning (= 246 ‡i). Lägg därefter till Huvudtitel och eventuell Övrig titelinformation.  
+Skriv in uppgifterna.   
+```Exempel:```  
+```Typanmärkning (246 ‡i): Skyddsomslag```  
+```Omslagstitel/Huvudtitel  (245 ‡a): På väg mot döden```  
+```Övrig titelinformation (245 ‡b): en Cooper och Fry-deckare```  
   
 ##### Delbeteckning
 * Har titel/Titel/Har del/Titeldel/Delbeteckning (hasTitle/Title/hasPart/TitlePart/partNumber = 245 ‡n)  
@@ -171,30 +190,6 @@ Skriv in uppgiften.
 * Har titel/Parallelltitel/Övrig titelinformation (hasTitle/ParallelTitle/subTitle = 246 1/1 ‡b)   
 Vid behov, klicka även på plustecknet vid Parallelltitel och lägg till Övrig titelinformation (subtitle).  
   ```Exempel: Charles XII and the ideological address```  
-
-UNDER ARBETE
-##### Omslagstitel, Ryggtitel, Rubriktitel  
-* Omslagstitel, Ryggtitel, Rubriktitel etc - lägg till Har titel och välj typ. Lägg därefter till Huvudtitel och eventuell Övrig titelinformation. Se exempel på Omslagstitel nedan.    
-Skriv in uppgiften.   
-
-##### Omslagstitel   
-* Har titel/Omslagstitel/Huvudtitel (hasTitle/CoverTitle/mainTitle = 246 1/4 ‡a)  
- Skriv in uppgiften.    
- ```Exempel: Bergens väktare```  
-  
-##### Övrig titelinformation (undertitel)
-* Har titel/Omslagstitel/Övrig titelinformation (= Undertitel) (hasTitle/CoverTitle/subtitle = 246 1/4 ‡b)  
-  Skriv in uppgiften. Om det finns flera undertitlar, skriv in dessa efter varandra i samma fält, åtskilda av mellanslag, kolon, mellanslag.    
-```Exempel: Djingis Khan – historiens störste erövrare```
-
-För typ av varianttitel som saknas i listan, välj Varianttitel och lägg därefter till Typanmärkning (= 246 ‡i). Lägg därefter till Huvudtitel och eventuell Övrig titelinformation.  
-Skriv in uppgiften.  
-```Exempel:```  
-```Typanmärkning (246 ‡i): Skyddsomslag```  
-```Omslagstitel/Huvudtitel  (245 ‡a): På väg mot döden```  
-```Övrig titelinformation (245 ‡b): en Cooper och Fry-deckare```  
-
-SLUT UNDER ARBETE
   
 #### Upphovsuppgift
 * Upphovsuppgift (responsibilityStatement = 245 ‡c)  
@@ -514,7 +509,6 @@ För en översättning, ange även:
    ```Exempel: 23/swe```  
   
 ##### Sekundär DDK-klassifikation  
-* DDK-klassifikation (sekundär) (additionalClassificationDdc = 083 0/- ‡a)  
 Lägg till DDK-klassifikation (sekundär) genom att klicka på plusikonen vid Instans av Verk/Text (Lägg till fält under: Text) och välja DDK-klassifikation (sekundär).  
 Klicka sedan på plustecknet vid DDK-klassifikation (sekundär) (Lägg till ddk-klassifikation) och välj Skapa lokal entitet.  Skriv in uppgiften under Kod.  
 * Klassifikation/DDK-klassifikation/Kod (additionalClassificationDdc/ClassificationDdc/code = 083 0/- ‡a)  
