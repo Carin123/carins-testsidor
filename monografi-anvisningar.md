@@ -522,10 +522,10 @@ Klicka sedan på plustecknet vid DDK-klassifikation (sekundär) (Lägg till ddk-
   ```Exempel: 791.430233092```
 * Klassifikation/DDK-klassifikation/Klassifikationsupplaga  
   (classification/ClassificationDdc/edition = 083 ‡2)  
-  ```full```  
+  ```Exempel: full```  
 *  Parallell upplagebeteckning/Upplagespecifik upphovsuppgift  
  (classification/ClassificationDdc/editionEnumeration = 083 ‡2)  
-   ```Exempel: 23/swe``` 
+  ```Exempel: 23/swe``` 
 
 ##### SAB-klassifikation  
 * SAB-klassifikation  
