@@ -164,7 +164,7 @@ Lägg till Övrig titelinformation genom att klicka på plustecknet vid Omslagst
 För att ange att omslagstiteln endast står på skyddsomslag, lägg till Typanmärkning (= 246 ‡i). Lägg därefter till Huvudtitel och eventuell Övrig titelinformation.  
 Skriv in uppgifterna.    
 ```Exempel:```  
-```Typanmärkning (246 ‡i): Skyddsomslag```  
+```Typanmärkning (246 ‡i): Skyddsomslag:```  
 ```Omslagstitel/Huvudtitel  (246 ‡a): På väg mot döden```  
 ```Övrig titelinformation (246 ‡b): en Cooper och Fry-deckare```  
   
