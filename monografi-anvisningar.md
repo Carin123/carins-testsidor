@@ -144,7 +144,7 @@ Lägg till Huvudtitel genom att klicka på plustecknet vid Varianttitel (lägg t
   Skriv in uppgiften.  
   ```Exempel: Hierarchy in organizations```   
 * Har titel/Varianttitel/Övrig titelinformation (= Undertitel) (hasTitle/VariantTitle/subtitle = 246 ‡b)  
-Lägg till Övrig titelinformation genom att klicka på plustecknet vid Varianttitel (lägg till fält under: Varianttitel). Välj Övrig titelinformation.    
+Lägg till Övrig titelinformation genom att klicka på plustecknet vid Varianttitel (lägg till fält under: Varianttitel). Välj Övrig titelinformation. Om det finns flera undertitlar, skriv in dessa efter varandra i samma fält, åtskilda av mellanslag, kolon, mellanslag.  
   Skriv in uppgiften.  
   
 ##### Omslagstitel, Ryggtitel, Rubriktitel  
@@ -161,7 +161,7 @@ Lägg till Övrig titelinformation genom att klicka på plustecknet vid Omslagst
 ```Exempel: Djingis Khan – historiens störste erövrare```
 
 För att ange att omslagstiteln endast står på skyddsomslag, lägg till Typanmärkning (= 246 ‡i). Lägg därefter till Huvudtitel och eventuell Övrig titelinformation.  
-Skriv in uppgifterna.   
+Skriv in uppgifterna.    
 ```Exempel:```  
 ```Typanmärkning (246 ‡i): Skyddsomslag```  
 ```Omslagstitel/Huvudtitel  (245 ‡a): På väg mot döden```  
