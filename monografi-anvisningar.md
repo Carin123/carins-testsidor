@@ -327,7 +327,7 @@ ISSN (dubbleras om det finns på båda fälten),
 volymbeteckning (dubbleras om det inte står exakt likadant)  
 Läs mer om [Seriemedlemskap](https://kundo.se/org/librisxl/d/uppgifter-om-seriemedlemskap-saknas-i-marc-export/)  
   
-#####  Indikator för seriebiuppslag   
+##### Indikator för seriebiuppslag   
 * Seriemedlemskap/Indikator för seriebiuppslag (marc:seriesTracingPolicy = 490 i1: 0/1)  
   Ange indikator 0 om endast serieuppgift samt eventuellt ISSN och eventuell numrering inom serie ska anges (om det inte finns en seriehuvudpost).   
   Skriv in uppgiften.  
@@ -488,8 +488,9 @@ Ange först Språk under Instans av Verk/Text (se Språk ovan). Lägg sedan till
   
  #### Medverkan och funktion  
 * Medverkan och funktion  
-  Läs [Auktoritetsgruppens rekommendationer](https://kundo.se/org/librisxl/d/kbs-auktoritetsgrupp-informerar-jraz/)  
-  Läs mer om [Lägga till agent - organisation](https://libris.kb.se/katalogisering/help/workflow-agent-org-instance)  
+  Läs mer:  
+  [Auktoritetsgruppens rekommendationer](https://kundo.se/org/librisxl/d/kbs-auktoritetsgrupp-informerar-jraz/)   
+  [Lägga till Agent - Organisation](https://libris.kb.se/katalogisering/help/workflow-agent-org-instance)  
   
 * Medverkan och funktion/Primär medverkan/Agent/Person (contribution/PrimaryContribution/agent/Person = 100 1/- ‡a)  
   Länka till entitet. Börja alltid med att söka efter om agenten redan finns. Vid behov, skapa ny entitet för agent (se Skapa ny agent i hjälpsektionen). I undantagsfall, skapa lokal entitet.   
@@ -606,15 +607,16 @@ Länka till entitet. Om du inte får träff vid sökning på entiteter, pröva a
 ##### Ämnesord Person  
 * Ämne/Agent/Person (subject = 600 1/4- ‡a)      
 Länka till entitet. Börja alltid med att söka efter om agenten redan finns. Vid behov, skapa ny entitet för agent (se Skapa ny agent i hjälpsektionen). I undantagsfall, skapa lokal entitet.  
+```Exempel: Lindgren, Astrid, 1907-2002```  
 Läs [Auktoritetsgruppens rekommendationer](https://kundo.se/org/librisxl/d/kbs-auktoritetsgrupp-informerar-jraz/)  
-```Exempel: Lindgren, Astrid, 1907-2002```
  
 ##### Ämnesord Organisation  
 * Ämne/Agent/Organisation (subject/agent/Organization = 610 2/- ‡a)  
-Länka till entitet. Börja alltid med att söka efter om agenten redan finns. Vid behov, skapa ny entitet för agent (se Skapa ny agent i hjälpsektionen). I undantagsfall, skapa lokal entitet.  
-Läs [Auktoritetsgruppens rekommendationer](https://kundo.se/org/librisxl/d/kbs-auktoritetsgrupp-informerar-jraz/)  
-Läs mer om [Lägga till agent - organisation](https://libris.kb.se/katalogisering/help/workflow-agent-org-instance)  
-```Exempel: Svenska Röda korset```
+Länka till entitet. Börja alltid med att söka efter om agenten redan finns. Vid behov, skapa ny entitet för agent (se Skapa ny agent i hjälpsektionen). I undantagsfall, skapa lokal entitet.    
+```Exempel: Svenska Röda korset```  
+Läs mer:  
+  [Auktoritetsgruppens rekommendationer](https://kundo.se/org/librisxl/d/kbs-auktoritetsgrupp-informerar-jraz/)   
+  [Lägga till Agent - Organisation](https://libris.kb.se/katalogisering/help/workflow-agent-org-instance)  
     
 #### Genre 
 ##### Saogf-termer  
