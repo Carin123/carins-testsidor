@@ -295,9 +295,10 @@ Klicka sedan på plustecknet vid DDK-klassifikation (sekundär) (Lägg till ddk-
 #### Amne  
  * Ämne  
   Läs mer:  
-  [Lägg till auktoriserade ämnesord](https://libris.kb.se/katalogisering/help/workflow-linked-entity-sh)  
-  [Lägg till kontrollerade men ej auktoriserade ämnesord](https://libris.kb.se/katalogisering/help/workflow-controlled-non-auth-sh)  
-  [Lägg till sammansatta men ej auktoriserade ämnesord](https://libris.kb.se/katalogisering/help/workflow-non-auth-sh)  
+  [Länka ämnesord](https://libris.kb.se/katalogisering/help/workflow-linked-entity-sh)   
+  [Sammansatt, ej auktoriserat ämnesord](https://libris.kb.se/katalogisering/help/workflow-non-auth-sh)   
+  [Kontrollerat, ej auktoriserat ämnesord](https://libris.kb.se/katalogisering/help/workflow-controlled-non-auth-sh)   
+  [Okontrollerat ämnesord](https://libris.kb.se/katalogisering/help/workflow-uncontrolled)
 
 ##### Allmänt ämnesord  
 * Ämne/Sao-term (subject = 650 -/7 ‡a, ‡2 sao)   
