@@ -240,7 +240,7 @@ Läs mer om [Verk och Instans](https://librisbloggen.kb.se/2018/05/30/verk-och-i
 * Medverkan och funktion  
   Läs mer:  
   [Auktoritetsgruppens rekommendationer](https://kundo.se/org/librisxl/d/kbs-auktoritetsgrupp-informerar-jraz/)   
-  [Lägga till Agent - Organisation i Instans av Verk](https://libris.kb.se/katalogisering/help/workflow-agent-org-instance)  
+  [Lägga till Agent - Organisation](https://libris.kb.se/katalogisering/help/workflow-agent-org-instance)  
   
 * Medverkan och funktion/Medverkan/Agent (contribution/Contribution/agent = 710 2/- ‡a)  
   Länka till entitet. Börja alltid med att söka efter om agenten redan finns. Vid behov, skapa ny entitet för agent (se Skapa ny agent i hjälpsektionen). I undantagsfall, skapa lokal entitet.  
@@ -345,6 +345,7 @@ Klicka sedan på plustecknet vid DDK-klassifikation (sekundär) (Lägg till ddk-
 * Ämne/Agent/Organisation (subject/agent/Organization = 610 2/- ‡a)  
 Länka till entitet. Börja alltid med att söka efter om agenten redan finns. Vid behov, skapa ny entitet för agent (se Skapa ny agent i hjälpsektionen). I undantagsfall, skapa lokal entitet.  
 Läs [Auktoritetsgruppens rekommendationer](https://kundo.se/org/librisxl/d/kbs-auktoritetsgrupp-informerar-jraz/)  
+Läs mer om [Lägga till agent - organisation](https://libris.kb.se/katalogisering/help/workflow-agent-org-instance)  
 ```Exempel: Svenska Röda korset```
 
 #### Genre 
