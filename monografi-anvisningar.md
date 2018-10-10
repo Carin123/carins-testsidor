@@ -325,8 +325,7 @@ Skriv in uppgiften.
   * Import: matchning av 490 + 830 (800/810) vid import via tratten och vid manuell import från Andra källor. Om fälten matchar läggs båda fältens data i samma Seriemedlemskap. Annars skapas ett Seriemedlemskap per fält. OBS. Behöver kontrolleras vid katalogisering:  
 ISSN (dubbleras om det finns på båda fälten),  
 volymbeteckning (dubbleras om det inte står exakt likadant)  
-Läs mer om [Seriemedlemskap](https://kundo.se/org/librisxl/d/uppgifter-om-seriemedlemskap-saknas-i-marc-export/)
-(scrolla ner till sista inlägget i tråden)  
+Läs mer om [Seriemedlemskap](https://kundo.se/org/librisxl/d/uppgifter-om-seriemedlemskap-saknas-i-marc-export/)  
   
 #####  Indikator för seriebiuppslag   
 * Seriemedlemskap/Indikator för seriebiuppslag (marc:seriesTracingPolicy = 490 i1: 0/1)  
@@ -552,9 +551,10 @@ Klicka sedan på plustecknet vid DDK-klassifikation (sekundär) (Lägg till ddk-
 #### Amne  
 * Ämne  
   Läs mer:  
-  [Lägg till auktoriserade ämnesord](https://libris.kb.se/katalogisering/help/workflow-linked-entity-sh)  
-  [Lägg till kontrollerade men ej auktoriserade ämnesord](https://libris.kb.se/katalogisering/help/workflow-controlled-non-auth-sh)  
-  [Lägg till sammansatta men ej auktoriserade ämnesord](https://libris.kb.se/katalogisering/help/workflow-non-auth-sh)  
+  [Länka ämnesord](https://libris.kb.se/katalogisering/help/workflow-linked-entity-sh)   
+  [Sammansatt, ej auktoriserade ämnesord](https://libris.kb.se/katalogisering/help/workflow-non-auth-sh)   
+  [Kontrollerat, ej auktoriserat ämnesord](https://libris.kb.se/katalogisering/help/workflow-controlled-non-auth-sh)   
+  [Okontrollerat ämnesord](https://libris.kb.se/katalogisering/help/workflow-uncontrolled)
 
 ##### Allmänt ämnesord  
 * Ämne - sao-term  (subject = 650 -/7 ‡a, ‡2 sao)  
