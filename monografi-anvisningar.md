@@ -477,7 +477,7 @@ För en översättning, ange även:
 (041 0/- #a + 041 1/- #a #h)  
 * Har del/Verk/Språk (hasPart/Work/language) +  
   Anmärkning: Språk: Objektet är/innehåller översättning (marc:languageNote) +  
-  Originalversion/Verk/Språk (originalVersion/Work/language)
+  Originalversion/Verk/Språk (originalVersion/Work/language)  
   För att ange att texten delvis är översatt, till exempel när en publikation innehåller parallelltext på två språk och den ena texten är en översättning:  
 Ange först Språk under Instans av Verk/Text (se Språk ovan). Lägg sedan till Har del under Instans av Verk/Text genom att klicka på plustecknet vid Instans av Verk/Text (Lägg till fält under: Text) och välja Har del. Välj Skapa lokal entitet och välj Verk. Klicka på plustecknet vid Verk (Lägg till fält under: Verk) och välj Språk. Sök fram och länka till entiteten för språket som texten är översatt till, till exempel engelska. Lägg till Anmärkning: Språk och ange att resursen är/innehåller en översättning. Lägg till Originalversion/Verk/Språk (se ovan under Översättning). Länka till entiteten för språket som resursen delvis är en översättning från.  
   
