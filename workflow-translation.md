@@ -10,12 +10,43 @@ tags:
 
 ## Översättning
 
-### Rubrik 1
+### Översättningar som verk
 
-#### Rubrik 2
 
-### Rubrik 1
+### Titel
 
-### Rubrik 1
+#### Instansens titel  
+Ange instansens (det vill säga manifestationens eller utgåvans) titel under Instans/Har titel (Obs. Inte Instans av Verk utan Instans). Ange eventuella varianttitlar som till exempel omslagstitel, ryggtitel, parallelltitel.  
 
-### Rubrik 1
+#### Verkets titel  
+Ange den föredragna titeln för verket här, vid behov. Följ [Anvisningar för katalogisering - RDA](http://www.kb.se/rdakatalogisering/Anvisningar/Allmanna-anvisningar/Sokingangar-for-verk-och-uttryck "Anvisningar för katalogisering - RDA").  
+För översättningar och för verk som har givits ut under olika titlar på samma språk eller när samma titel har använts för olika verk, ska den föredragna titeln för verket anges. I övriga fall räcker det att ange instansens titel.  
+  
+* Har titel/Titel/Huvudtitel (hasTitle/Title/mainTitle = 240 1/0 ‡a)  
+  "Originaltitel" för ett verk med primär medverkande anger du här.  
+  Skriv in uppgiften.  
+  ```Exempel: Soldier spy```  
+  För en titel som börjar med bestämd eller obestämd artikel, ska artikeln fileras bort. Ange fileringsvärde genom att lägga till delfältet fileringsvärde och ange en siffra.  
+  ```Exempel: Huvudtitel: En arbetsdag i skriftsamhället, fileringsvärde: 3```  
+  
+ ##### Verkets titel - huvuduppslag
+*	Uttryck av/Verk/Har titel/Titel/Huvudtitel (expressionOf/Work/hasTitle/Title/mainTitle (= 130 ‡a)  
+ "Originaltitel" för ett verk utan primär medverkande anger du här.  
+Under Instans av Verk/Text, lägg till Uttryck av genom att klicka på plustecknet vid Instans av Verk/Text (Lägg till fält under: Text) och välja Uttryck av.  
+Skapa verk som lokal entitet genom att klicka på plustecknet vid Uttryck av (Lägg till verk). Välj Skapa lokal entitet och välj Verk. Klicka på plustecknet vid Verk (Lägg till fält under: Verk) och välj Har titel. Välj Titel. Ta bort Övrig titelinformation.  
+Skriv in uppgiften.  
+```Exempel: Bibeln```
+*	Uttryck av/Verk/Har titel/Titel/Deltitel  
+(expressionOf/Work/hasTitle/Title/partName = 130 ‡p)  
+Lägg till eventuell deltitel genom att klicka på plustecknet vid Titel (lägg till fält under: Titel), välj Deltitel.  
+Skriv in uppgiften.  
+```Exempel: Nya testamentet```
+*	Uttryck av/Verk/Språk/Språk/Benämning  
+(expressionOf/Work/language/Language/label = 130 ‡l)  
+Lägg till eventuell benämning på språk som ska ingå i den föredragna titeln. Klicka på plustecknet vid Verk (Lägg till fält under: Verk) och välj Språk. Klicka på plustecknet vid Språk (Lägg till språk) och välj Skapa lokal entitet. Lägg till Benämning genom att klicka på plustecknet vid Språk (Lägg till fält under: Språk) och välja Benämning.  
+Skriv in uppgiften.  
+```Exempel: Svenska```
+
+### Språk
+
+### Anmärkningar?
