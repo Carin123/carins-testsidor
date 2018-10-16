@@ -172,15 +172,15 @@ Skriv in uppgifterna.
   
 ##### Delbeteckning
 * Har titel/Titel/Har del/Titeldel/Delbeteckning (hasTitle/Title/hasPart/TitlePart/partNumber = 245 ‡n)  
-Lägg till Har del (hasPart) under Har titel/Titel genom att klicka på plustecknet vid Titel (Lägg till fält under: Titel). Välj Har del. Skapa Titeldel (TitlePart) som lokal entitet genom att klicka på plustecknet vid Har del (Lägg till resurs) och välja Skapa lokal entitet. Sök fram Titeldel (skriv Titeldel i sökrutan vid Skapa lokal entitet) och lägg till det.  
-Om Har del/Titeldel/Deltitel redan finns, lägg till Delbeteckning genom att klicka på plustecknet vid Titeldel (Lägg till fält under: Titeldel) och välja Delbeteckning (partNumber).   
+Lägg till Har del (hasPart) under Har titel/Titel (plustecknet vid Titel - lägg till fält under: Titel). Välj Har del. Lägg till Titeldel (TitlePart) som lokal entitet (plustecknet vid Har del - Lägg till resurs). Välj Skapa lokal entitet (längst ner i sidorutan). Skriv "titeldel" i rutan Skapa lokal entitet. Välj * Titeldel. Titeldel läggs till under Har del. Klicka på Titeldel och det fälls ut. 
+Om Har del/Titeldel/Deltitel redan finns, lägg till Delbeteckning under Titeldel (plustecknet vid Titeldel - Lägg till fält under: Titeldel). Välj Delbeteckning (partNumber).   
 Skriv in uppgiften under Delbeteckning.  
 ```Exempel: 1```   
 
 ##### Deltitel  
 * Har titel/Titel/Har del/Titeldel/Deltitel (hasTitle/Title/hasPart/TitlePart/partName = 245 ‡p)  
-Lägg till Har del (hasPart) under Har titel/Titel genom att klicka på plustecknet vid Titel (Lägg till fält under: Titel). Välj Har del. Skapa Titeldel (TitlePart) som lokal entitet genom att klicka på plustecknet vid Har del (Lägg till resurs) och välja Skapa lokal entitet. Sök fram Titeldel (skriv Titeldel i sökrutan vid Skapa lokal entitet) och lägg till det.  
-Om Har del/Titeldel/Delbeteckning redan finns, lägg till Deltitel genom att klicka på plustecknet vid Titeldel (Lägg till fält under: Titeldel) och välja Deltitel (partName).   
+Lägg till Har del (hasPart) under Har titel/Titel (plustecknet vid Titel - Lägg till fält under: Titel). Välj Har del. Lägg till Titeldel (TitlePart) som lokal entitet (plustecknet vid Har del - Lägg till resurs). Välj Skapa lokal entitet (längst ner i sidorutan). Skriv "titeldel" i rutan Skapa lokal entitet. Välj * Titeldel. Titeldel läggs till under Har del. Klicka på Titeldel och det fälls ut. 
+Om Har del/Titeldel/Delbeteckning redan finns, lägg till Deltitel under Titeldel (plustecknet vid Titeldel - Lägg till fält under: Titeldel). Välj Deltitel (partName).   
 Skriv in uppgiften under Deltitel.  
 ```Exempel: Träd och växter som resurs```  
 
