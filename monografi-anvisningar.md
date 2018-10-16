@@ -165,7 +165,7 @@ Lägg till Övrig titelinformation genom att klicka på plustecknet vid Omslagst
 Skriv in uppgifterna.    
 ```Exempel:```    
 ```Typanmärkning (246 ‡i): Skyddsomslag:```  
-```Omslagstitel/Huvudtitel  (246 ‡a): På väg mot döden```  
+```Omslagstitel/Huvudtitel (246 ‡a): På väg mot döden```  
 ```Övrig titelinformation (246 ‡b): en Cooper och Fry-deckare```  
   
 ##### Delbeteckning
