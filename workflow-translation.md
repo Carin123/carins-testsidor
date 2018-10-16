@@ -51,5 +51,32 @@ Skriv in uppgiften.
 ```Exempel: Svenska```
 
 ### Språk
+För en översättning behöver man ange dels det språk som texten man beskriver är skriven på och dels originalets språk. Ange båda under Instans av Verk/Text.  
 
-### Anmärkningar?
+* Språk (language = 008/35-37)  
+  Ange det språk som den text du beskriver är skriven på. För en text på svenska, ange svenska. För att ange originalspråk för ett översatt verk, se Originalversion/Verk/Språk.  
+  Länka till entitet.  
+  ```Exempel: svenska (swe)```  
+
+#### Originalets språk  
+För en översättning, ange även:  
+* Språk/Språk/Benämning (Language/label = 240 ‡l)  
+  Lägg till ytterligare en förekomst av Språk, under Språk (klicka på plustecknet vid Språk), skapa lokal entitet (klicka på Skapa lokal entitet) och lägg till Benämning (klicka på Lägg till fält under: Språk).  
+  Skriv in språket i klartext. Denna klartext - verkets (översättningens) språk - visas som ett tillägg till verkets titel i marcpostens 240 ‡l.  
+  ```Exempel: Svenska```  
+
+* Anmärkning: Språk (marc:LanguageNote = 041 i1: 1)  
+  Ange om resursen är/innehåller en översättning. Välj från lista.  
+  ```Exempel: objektet är/innehåller översättning```  
+  
+* Originalversion/Verk/Språk (originalversion/Work/language = 041 ‡h)  
+  Ange det språk som en översatt text är översatt från. För en text som är översatt från engelska till svenska, ange engelska här.   
+  Klicka på Lägg till fält under: Text, välj Originalversion, klicka på plustecknet vid Originalversion, välj Skapa lokal entitet och välj Verk i listan. Klicka på plustecknet vid Verk (Lägg till fält under: Verk) och välj Språk. Klicka på plustecknet vid Språk. Sök fram språkentiteten och länka.  
+  ```Exempel: engelska (eng)```  
+  
+###### Texten delvis översatt  
+(041 0/- #a + 041 1/- #a #h)  
+* Har del/Verk/Språk (hasPart/Work/language) +  
+  Anmärkning: Språk: Objektet är/innehåller översättning (marc:languageNote) +  
+  Originalversion/Verk/Språk (originalVersion/Work/language)  
+  För att ange att texten delvis är översatt, till exempel när en publikation innehåller parallelltext på två språk och den ena texten är en översättning: ange först Språk under Instans av Verk/Text (se Språk ovan). Lägg sedan till Har del under Instans av Verk/Text. Välj Skapa lokal entitet och välj Verk. Klicka på plustecknet vid Verk (Lägg till fält under: Verk) och välj Språk. Sök fram och länka till entiteten för språket som texten är översatt till, till exempel engelska. Lägg till Anmärkning: Språk och ange att resursen är/innehåller en översättning. Lägg till Originalversion/Verk/Språk (se ovan under Översättning). Länka till entiteten för språket som resursen delvis är en översättning från.  
