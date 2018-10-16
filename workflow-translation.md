@@ -8,7 +8,7 @@ tags:
 - översättning
 --- 
 
-## Översättning
+## Översättning   
 
 ### Översättningar som verk
 Enligt BIBFRAME betraktas översättningar som egna verk. En verk kan vara en översättning av ett annat verk. Denna relation kan uttryckas genom en länk från det ena verket till det andra. I Libris har vi ännu inte börjat att länka verk. Beskriv istället översättningen som en lokal entitet.  
