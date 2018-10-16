@@ -32,11 +32,11 @@ För översättningar och för verk som har givits ut under olika titlar på sam
   För en titel som börjar med bestämd eller obestämd artikel, ska artikeln fileras bort. Ange fileringsvärde genom att lägga till delfältet fileringsvärde och ange en siffra.  
   ```Exempel: Huvudtitel: En arbetsdag i skriftsamhället, fileringsvärde: 3```  
   
- ##### Verkets titel - huvuduppslag
+##### Verkets titel - huvuduppslag   
 *	Uttryck av/Verk/Har titel/Titel/Huvudtitel (expressionOf/Work/hasTitle/Title/mainTitle (= 130 ‡a)  
  "Originaltitel" för ett verk utan primär medverkande anger du här.  
 Under Instans av Verk/Text, lägg till Uttryck av genom att klicka på plustecknet vid Instans av Verk/Text (Lägg till fält under: Text) och välja Uttryck av.  
-Skapa verk som lokal entitet genom att klicka på plustecknet vid Uttryck av (Lägg till verk). Välj Skapa lokal entitet och välj Verk. Klicka på plustecknet vid Verk (Lägg till fält under: Verk) och välj Har titel. Välj Titel. Ta bort Övrig titelinformation.  
+Skapa verk som lokal entitet genom att klicka på plustecknet vid Uttryck av (Lägg till verk). Välj Skapa lokal entitet (längst ner i sidorutan), Skriv "verk" i rutan Skapa lokal entitet. Klicka på * Verk. Det läggs till under Uttryck av. Klicka på plustecknet vid Verk (Lägg till fält under: Verk) och välj Har titel. Välj Titel. Ta bort Övrig titelinformation.  
 Skriv in uppgiften.  
 ```Exempel: Bibeln```
 *	Uttryck av/Verk/Har titel/Titel/Deltitel  
