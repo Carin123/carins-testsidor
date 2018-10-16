@@ -11,7 +11,10 @@ tags:
 ## Översättning
 
 ### Översättningar som verk
+Enligt BIBFRAME betraktas översättningar som egna verk. En översättning är en översättning av ett annat verk. Denna relation kan uttryckas genom en länk från det ena verket till det andra. I Libris har vi ännu inte börjat att länka verk. Beskriv istället översättningen som en lokal entitet.  
 
+Vi återkommer med anvisningar för att skapa verk som länkbara entiteter. Denna hjälptext beskriver exempel på verk som lokal entitet. Det betyder att du anger de uppgifter som listas här nedan, under Instans av Verk, utan att klicka på länksymbolen (Länka entitet) vid Instans av Verk/Text.  
+Läs mer om [Verk och Instans](https://librisbloggen.kb.se/2018/05/30/verk-och-instans-i-startversionen/).  
 
 ### Titel
 
