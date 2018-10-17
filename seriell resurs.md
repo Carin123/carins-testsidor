@@ -190,9 +190,10 @@ Används för akronymer som är en del av huvudtiteln.
   För att ange utgivningsdatum med fler än fyra positioner, till exempel klamrade årtal, skriv in det här. Det kommer att exporteras till marcpostens  264 -/1 ‡c.  
   För att ange år utan klamrar eller andra tecken, använd endast Startår och Slutår.  
   Skriv in uppgiften.  
-  ```Exempel: 2012-2013```  
-  ```Exempel: [1988-]```  
-  
+  <br/>```Exempel:```
+  * ```2012-2013```
+  * ```[1988-]```
+
 #### Frekvens   
 * Frekvens (frequency)  
   * Frekvensterm (008/18)  
