@@ -189,7 +189,7 @@ Används för akronymer som är en del av huvudtiteln.
   Datum får innehålla text och interpunktionstecken.  
   För att ange utgivningsdatum med fler än fyra positioner, till exempel klamrade årtal, skriv in det här. Det kommer att exporteras till marcpostens  264 -/1 ‡c.  
   För att ange år utan klamrar eller andra tecken, använd endast Startår och Slutår.  
-  Skriv in uppgiften.  
+  Skriv in uppgiften.
   <br/>```Exempel:```
   * ```2012-2013```
   * ```[1988-]```
