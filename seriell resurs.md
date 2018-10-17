@@ -82,7 +82,7 @@ Innehåll:
   Uppdateras automatiskt. Ändra inte.
   <br/>```Exempel:```
   * ```Ny post```
-  * ```Rättad eller reviderad post``
+  * ```Rättad eller reviderad post```
   
 #### Systemteknisk anmarkning
 * Systemteknisk anmärkning/Benämning (599)  
