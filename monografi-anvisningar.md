@@ -64,9 +64,9 @@ I vissa fall fungerar det ännu inte fullt ut att lägga till alla uppgifter som
   
   Lägg till Bibliografi (plustecknet Lägg till fält under: Post). Klicka på Lägg till bibliotek (plustecknet vid Bibliografi), välj därefter Skapa lokal entitet (längst ner i sidorutan). Lägg till Sigel (plustecknet Lägg till fält under Bibliotek).  
   Skriv in uppgiften.  
-  ```Exempel:```    
-  ```NB```  
-  ```SAMB```  
+  <br/>```Exempel:```
+  * ```NB```
+  * ```SAMB``` 
   
 #### Systemnummer 
 * Identifikator/Systemnummer/Värde (identifiedBy/SystemNumber/value = 035 ‡a)  
@@ -96,9 +96,9 @@ I samband med att du uppgraderar en Bokinfopost eller annan post med beskrivning
 #### Poststatus     
 * Poststatus (000/05)  
   Uppdateras automatiskt. Ändra inte.   
-  ```Exempel:```  
-  ```Ny post```  
-  ```Rättad eller reviderad post```  
+  <br/>```Exempel:```
+  * ```Ny post```
+  * ```Rättad eller reviderad post```
  
 #### Systemteknisk anmarkning
 * Systemteknisk anmärkning/Benämning (599)  
@@ -122,7 +122,7 @@ Följande anmärkningar är under arbete och fungerar ännu inte fullt ut:
   Återge huvudtiteln från titelsidan eller annan föredragen källa så som den förekommer i källan. se [Anvisningar för katalogisering - RDA](http://www.kb.se/rdakatalogisering/Anvisningar/Arbetsfloden/Tryckta-monografier/#huvudtitel "Anvisningar för katalogisering - RDA").  
   Skriv in uppgiften.    
  ```Exempel: En arbetsdag i skriftsamhället```  
-    För en titel som börjar med bestämd eller obestämd artikel, ska artikeln fileras bort. Ange fileringsvärde genom att lägga till delfältet fileringsvärde och ange en siffra.  
+    För en titel som börjar med bestämd eller obestämd artikel, ska artikeln fileras bort. Ange fileringsvärde genom att lägga till fileringsvärde (plustecknet vid Titel - Lägg till fält under: Titel) och ange en siffra.  
  ```Exempel: Huvudtitel: En arbetsdag i skriftsamhället, fileringsvärde: 3```  
  Se exempel i formathandboken för Libris/Voyager: 
 [Fileringsindikator]( http://www.kb.se/katalogisering/Formathandboken/Fileringsindikator/)
@@ -136,7 +136,7 @@ Följande anmärkningar är under arbete och fungerar ännu inte fullt ut:
 
 ##### Varianttitel   
   Används till exempel för felaktigheter. Kan specificeras med Typanmärkning.  
-  Lägg till Har titel och välj typ Varianttitel. Lägg därefter till Huvudtitel och eventuell Övrig titelinformation genom att klicka på plustecknet vid Varianttitel (lägg till fält under: Varianttitel). Lägg vid behov till Typanmärkning.  
+  Lägg till Har titel och välj typ Varianttitel. Lägg därefter till Huvudtitel och eventuell Övrig titelinformation (plustecknet vid Varianttitel - lägg till fält under: Varianttitel). Lägg vid behov till Typanmärkning.  
 * Har titel/Varianttitel/Typanmärkning (hasTitle/VariantTitle/typeNote = 246 1/_ ‡i)  
  Anmärkningstext som i ett sökgränssnitt ska föregå varianttiteln. Används också för att ange typ av varianttitel som inte finns i listan, t ex Titelrubrik. Lägg vid behov till Typanmärkning genom att klicka på plustecknet vid Varianttitel (lägg till fält under: Varianttitel). Välj Typanmärkning.  
   Skriv in uppgiften.  
@@ -164,12 +164,12 @@ Lägg till Övrig titelinformation genom att klicka på plustecknet vid Omslagst
 ```Exempel: Djingis Khan – historiens störste erövrare```
 
   För att ange att omslagstiteln endast står på skyddsomslag, lägg till Typanmärkning (= 246 ‡i). Lägg därefter till Huvudtitel och eventuell Övrig titelinformation.  
-Skriv in uppgifterna.    
-```Exempel:```    
-```Typanmärkning (246 ‡i): Skyddsomslag:```  
-```Omslagstitel/Huvudtitel (246 ‡a): På väg mot döden```  
-```Övrig titelinformation (246 ‡b): en Cooper och Fry-deckare```  
-  
+Skriv in uppgifterna. 
+<br/>```Exempel:```
+  * ```Typanmärkning (246 ‡i): Skyddsomslag:```
+  * ```Omslagstitel/Huvudtitel (246 ‡a): På väg mot döden```
+  * ```Övrig titelinformation (246 ‡b): en Cooper och Fry-deckare```
+    
 ##### Delbeteckning
 * Har titel/Titel/Har del/Titeldel/Delbeteckning (hasTitle/Title/hasPart/TitlePart/partNumber = 245 ‡n)  
 Lägg till Har del (hasPart) under Har titel/Titel (plustecknet vid Titel - lägg till fält under: Titel). Välj Har del. Lägg till Titeldel (TitlePart) som lokal entitet (plustecknet vid Har del - Lägg till resurs). Välj Skapa lokal entitet (längst ner i sidorutan). Skriv "titeldel" i rutan Skapa lokal entitet. Välj * Titeldel. Titeldel läggs till under Har del. Klicka på Titeldel och det fälls ut. 
@@ -256,15 +256,14 @@ NB inväntar en maskinell ändring av dessa poster och ändrar inte manuellt.
   För att ange ett utgivningsdatum med fler än fyra positioner, till exempel ett klamrat årtal, skriv in det här. Det kommer att exporteras till marcpostens  264 -/1 ‡c. Skriv in uppgiften.  
   För att ange ett år utan klamrar eller andra tecken, använd endast År.   
   Skriv in uppgiften.  
-  ```Exempel:```  
-  ```[2017]```  
-  ```[mellan 1863 och 1866?]```   
+  <br/>```Exempel:```
+  * ```[2017]```
+  * ```[mellan 1863 och 1866?]```  
   * Flera år (flerbandsverk)  
- Använd Startår och Slutår. Fälten ska ligga i avsnittet Primär utgivning. Om årtalen anges utan klammer eller andra tecken utöver fyra positioner, räcker det att ange årtalen här. De exporteras då både som 008 och 264 ‡c. Bindestreck sätts automatiskt. För att få rätt kod i 008/06 (Typ av utgivningsdatum/Utgivningsstatus) vid MARC-export: lägg till Typ av utgivningsdatum (marc:publicationStatus) (klicka på plustecknet vid Primär utgivning) och välj ”Flera årtal (monografisk resurs)".    
-```Exempel: ```  
-```Startår: 1999 ```  
-```Slutår: 2017```  
-```Typ av utgivningsdatum: Flera årtal (monografisk resurs)```    
+ Använd Startår och Slutår. Fälten ska ligga i avsnittet Primär utgivning. Om årtalen anges utan klammer eller andra tecken utöver fyra positioner, räcker det att ange årtalen här. De exporteras då både som 008 och 264 ‡c. Bindestreck sätts automatiskt. För att få rätt kod i 008/06 (Typ av utgivningsdatum/Utgivningsstatus) vid MARC-export: lägg till Typ av utgivningsdatum (marc:publicationStatus) (klicka på plustecknet vid Primär utgivning) och välj ”Flera årtal (monografisk resurs)".   
+ <br/>```Exempel:```
+  * ```Startår: 1999```
+  * ```Slutår: 2017```  
 
  Läs mer om [År och Datum](https://kundo.se/org/librisxl/d/falt-for-utgivningsar/)  
  
