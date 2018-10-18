@@ -68,7 +68,7 @@ Innehåll:
 
 #### Katalogiseringsregler  
 * Katalogiseringsregler (descriptionConventions = 040 ‡e)  
-  Lägg till Katalogiseringsregler (plustecknet Lägg till fält under: Post). Lägg till entitet (plustecknet vid Katalogiseringsregler - lägg till entitet). Välj "Regler för deskriptiv katalogisering (bib)" i listan. För en post katalogiserad enligt RDA, sök fram och länka till entitet: "i (= marc/Isbd)". När man skapar ny post från mall visas entiteten som "marc/Isbd". I en sparad post visas samma entitet som "ISBD-interpunktion finns * i". Båda är rätt.      
+  Lägg till Katalogiseringsregler (plustecknet Lägg till fält under: Post). Lägg till entitet (plustecknet vid Katalogiseringsregler - lägg till entitet). Välj "Regler för deskriptiv katalogisering (bib)" i listan. För en post katalogiserad enligt RDA, sök fram och länka till entitet: "i" (= marc/Isbd). När man skapar ny post från mall visas entiteten som "marc/Isbd". I en sparad post visas samma entitet som "ISBD-interpunktion finns * i". Båda är rätt.      
   Skapa också lokal entitet under Katalogiseringsregler. Klicka på plustecknet vid Katalogiseringsregler (Lägg till entitet). Välj Skapa lokal entitet (längst ner i sidorutan). Välj Regler för deskriptiv katalogisering (bib). Lägg till Kod (plustecknet vid Regler för deskriptiv katalogisering (bib). Skriv in "rda".    
   ```Exempel: marc/Isbd (länkad entitet) + lokal entitet, Kod: rda```
 
