@@ -229,20 +229,12 @@ Vid behov, klicka även på plustecknet vid Parallelltitel och lägg till Övrig
 NB inväntar en maskinell ändring av dessa poster och ändrar inte manuellt.    
  
 ##### Utgivningsland och utgivningsplats
-  * Land (country = 008/15-17)  
-  Länka till entitet.  
-  ```Exempel: Sverige (sw)```  
-  * Plats/Plats/Benämning (= Utgivningsort) (place/label = 264 -/1 ‡a)  
-  För att lägga till Plats, klicka på Lägg till fält under Primär utgvning och välj Plats. Sök inte efter Plats som entitet utan välj istället Skapa lokal entitet, typ Plats. Lägg till Benämning.  
-  Skriv in uppgiften. Klamra vid behov. Plats ska inte länkas som entitet.  
-  ```Exempel: [Göteborg]```  
-  
  ##### Utgivarnamn
   * Agent/Agent//Benämning (= Utgivarnamn) (agent/label = 264 -/1 ‡b)  
   För att lägga till Agent, klicka på Lägg till fält under Primär utgivning och välj Agent. Sök inte efter Agent som entitet utan välj istället Skapa lokal entitet, typ Agent. Lägg till Benämning.  
   Skriv in uppgiften. Klamra vid behov. Utgivarnamn ska inte länkas som entitet.  
   ```Exempel: NoNa```   
-  Om flera utgivare ska anges, lägg till "Har del" (hasPart) under Primär utgivning. Lägg därefter till Utgivning som lokal entitet (klicka på plustecknet vid Har del och klicka sedan på Skapa lokal entitet. Välj Utgivning i listan). Använd År och vid behov Datum enligt anvisningar nedan. Upprepa Utgivning som lokal entitet för nästa utgivare.
+  Om flera utgivare ska anges, lägg till "Har del" (hasPart) under Primär utgivning. Lägg därefter till Utgivning som lokal entitet (klicka på plustecknet vid Har del och klicka sedan på Skapa lokal entitet (längst ner i sidorutan). Välj Utgivning i listan). Använd År och vid behov Datum enligt anvisningar nedan. Upprepa Utgivning som lokal entitet under Har del för nästa utgivare.
   Se [exempel](https://libris.kb.se/katalogisering/w4rp4hlwtr5lctjr#it).
   
  ##### År och datum 
@@ -268,7 +260,14 @@ NB inväntar en maskinell ändring av dessa poster och ändrar inte manuellt.
  * ```Typ av utgivningsdatum: Flera årtal (monografisk resurs)``` 
 
  Läs mer om [År och Datum](https://kundo.se/org/librisxl/d/falt-for-utgivningsar/)  
- 
+ * Land (country = 008/15-17)  
+  Länka till entitet.  
+  ```Exempel: Sverige (sw)```  
+  * Plats/Plats/Benämning (= Utgivningsort) (place/label = 264 -/1 ‡a)  
+  För att lägga till Plats, klicka på Lägg till fält under Primär utgvning och välj Plats. Sök inte efter Plats som entitet utan välj istället Skapa lokal entitet, typ Plats. Lägg till Benämning.  
+  Skriv in uppgiften. Klamra vid behov. Plats ska inte länkas som entitet.  
+  ```Exempel: [Göteborg]```  
+  
 #### Tillverkning 
 * Tillverkning (manufacture)  
 * Plats/Plats/Benämning (place/label = 264 -/3 ‡a)  
@@ -329,14 +328,7 @@ Skriv in uppgiften.
 ISSN (dubbleras om det finns på båda fälten),  
 volymbeteckning (dubbleras om det inte står exakt likadant)  
 Läs mer om [Seriemedlemskap](https://kundo.se/org/librisxl/d/uppgifter-om-seriemedlemskap-saknas-i-marc-export/)  
-  
-##### Indikator för seriebiuppslag   
-* Seriemedlemskap/Indikator för seriebiuppslag (marc:seriesTracingPolicy = 490 i1: 0/1)  
-  Ange indikator 0 om endast serieuppgift samt eventuellt ISSN och eventuell numrering inom serie ska anges (om det inte finns en seriehuvudpost).   
-  Skriv in uppgiften.  
-  ```Exempel: 0```   
-  Ange indikator 1 om dessutom Instans/Instans av Verk/Verk (830) anges (om det finns en seriehuvudpost).   
-  ```Exempel: 1```   
+     
 ##### Seriens titel (auktoriserad sökingång för serie)  
 * Seriemedlemskap/Ingår i serie/Instans av Verk/Verk/Har titel/Titel/Huvudtitel (seriesMembership/inSeries/InstanceofWork/Work/hasTitle/Title/mainTitle = 830 ‡a)  
   Ange den auktoriserade sökingången för serien här (gäller serier som har seriehuvudpost) i de fall den avviker från serieuppgiften. Om endast Serieuppgift men inte Ingår i serie/Instans av Verk/Verk finns, t ex i en förhandspost från Bokinfo, fungerar det för närvarande bäst att skapa ett helt nytt seriemedlemskap och flytta över Serieuppgift dit. Ange sedan den auktoriserade sökingången för serien under Seriemedlemskap/Ingår i serie/Instans av Verk/Verk/Har titel/Titel/Huvudtitel. Ta bort det första seriemedlemskapet så att endast ett seriemedlemskap återstår.  
@@ -354,6 +346,13 @@ Läs mer om [Seriemedlemskap](https://kundo.se/org/librisxl/d/uppgifter-om-serie
 * Seriemedlemskap/Numrering inom serie (seriesMembership/seriesEnumeration = 490 ‡v, 830 ‡v)  
   Skriv in uppgiften.  
   ```Exempel: 8```  
+##### Indikator för seriebiuppslag   
+* Seriemedlemskap/Indikator för seriebiuppslag (marc:seriesTracingPolicy = 490 i1: 0/1)  
+  Ange indikator 0 om endast serieuppgift samt eventuellt ISSN och eventuell numrering inom serie ska anges (om det inte finns en seriehuvudpost).   
+  Skriv in uppgiften.  
+  ```Exempel: 0```   
+  Ange indikator 1 om dessutom Instans/Instans av Verk/Verk (830) anges (om det finns en seriehuvudpost).   
+  ```Exempel: 1```   
  
 ##### Författarserie
 * Seriemedlemskap/Ingår i serie/Instans/Instans av Verk/Verk/Har titel/Titel/Huvudtitel  
@@ -376,12 +375,9 @@ Lägg till Medverkan och funktion under Verk (inom Seriemedlemskap) genom att kl
   För en enkel innehållsanmärkning (505 ‡a), lägg till Har innehållsförteckning (från Lägg till fält under: Instans). Lägg därefter till Innehållsförteckning (klicka på plustecknet under Har innehållsförteckning i vänstermenyn). Lägg till Benämning (klicka på plustecknet vid Lägg till fält under: Innehållsförteckning). Skriv in uppgiften.  
   ```Exempel: Culture at home -- Culture and the global -- Global youth -- Global music -- Territories of global globalization.```  
   
-* Har innehållsförteckning/Innehållsförteckning/Har del/Utökad innehållsanmärkning/Benämning/Upphovsuppgift (tableofContents = 505 0/0 ‡t, ‡r)  
-  För en utökad innehållsanmärkning med titlar och upphovsuppgifter, lägg till Har innehållsförteckning (från Lägg till fält under: Instans). Lägg därefter till Innehållsförteckning (klicka på plustecknet under Har innehållsförteckning i vänstermenyn). Lägg till Har del genom att klicka på plustecknet vid Innehållsförteckning (Lägg till fält under: Innehållsförteckning), välj Har del. Skapa Utökad innehållsanmärkning som lokal entitet genom att klicka på plustecknet vid Har del (Lägg till resurs) och välj Skapa lokal entitet. Välj Utökad innehållsanmärkning. Lägg till Benämning (klicka på plustecknet vid Lägg till fält under: Innehållsförteckning).   
-Upprepa, för ytterligare titel, genom att lägga till ytterligare en förekomst av Benämning.   
-
-  Lägg till eventuell Upphovsuppgift (klicka på plustecknet vid Lägg till fält under: Innehållsförteckning).   
-Upprepa, för ytterligare titel + upphovsuppgift, genom att lägga till ytterligare en Utökad innehållsanmärkning som lokal entitet (klicka på plustecknet vid Har del och välj Skapa lokal entitet, välj Utökad innehållsanmärkning).   
+* Har innehållsförteckning/Innehållsförteckning/Har del/Utökad innehållsanmärkning/Benämning/Upphovsuppgift (tableofContents = 505 8/0 ‡t, ‡r)  
+  För en utökad innehållsanmärkning med titlar och upphovsuppgifter, lägg till Har innehållsförteckning (från Lägg till fält under: Instans). Lägg därefter till Innehållsförteckning (klicka på plustecknet under Har innehållsförteckning i vänstermenyn). Lägg till Har del genom att klicka på plustecknet vid Innehållsförteckning (Lägg till fält under: Innehållsförteckning), välj Har del. Skapa Utökad innehållsanmärkning som lokal entitet genom att klicka på plustecknet vid Har del (Lägg till resurs) och välj Skapa lokal entitet (längst ner i sidorutan). Välj Utökad innehållsanmärkning genom att skriva Utökad innehållsanmärkning i rutan för Skapa lokal entitet och välja * Utökad innehållsanmärkning. Utökad innehållsanmärkning läggs till under Har del. Klicka på Utökad innehållsanmärkning och det fälls ut. Lägg in titel under Benämning. Lägg in upphovsuppgift under Upphovsuppgift.   
+Upprepa, för ytterligare titel (Benämning) + upphovsuppgift, genom att lägga till ytterligare en Utökad innehållsanmärkning som lokal entitet (klicka på Duplicera entitet).  
 
 #### Malgruppsanmarkning
 * Målgrupp/Målgrupp/Benämning (intendedAudience/IntendedAudience/label = 521 ‡a)   
@@ -468,7 +464,8 @@ För en översättning, ange även:
   ```Exempel: Svenska```  
 
 * Anmärkning: Språk (marc:LanguageNote = 041 i1: 1)  
-  Ange om resursen är/innehåller en översättning. Välj från lista.  
+  Ange om resursen är/innehåller en översättning. 
+  För att lägga till uppgiften, klicka på plustecknet vid Instans av verk/Text och välj Anmärkning: Språk. Välj fras från lista.  
   ```Exempel: objektet är/innehåller översättning```  
   
 * Originalversion/Verk/Språk (originalversion/Work/language = 041 ‡h)  
@@ -500,7 +497,7 @@ För en översättning, ange även:
 * Medverkan och funktion/Primär medverkan/Funktion (contribution/PrimaryContribution/role = 100 ‡4)  
   Länka till entitet. Klicka på plustecknet vid Funktion (Lägg till funktion) och sök fram funktionskod. Skriv in kod eller utskriven form i sökrutan eller tryck på mellanslagstangenten för att se alla koder. Välj kod genom att klicka på plustecknet vid koden eller på koden.    
 För en sorterad lista på koder, se Formathandboken för Libris/Voyager: [Funktions- och relationskoder](http://www.kb.se/katalogisering/Formathandboken/Funktionskoder/)  
-  ```Exempel: relator/author (= författare)```
+  ```Exempel: relator/author (= Författare)```
   
 * Medverkan och funktion/Medverkan/Agent/Person (contribution/agent/Person = 700 1/- ‡a)  
   Länka till entitet. Börja alltid med att söka efter om agenten redan finns. Vid behov, skapa ny entitet för agent (se Skapa ny agent i hjälpsektionen). I undantagsfall, skapa lokal entitet.   
@@ -666,6 +663,7 @@ Läs mer:
   
 #### Innehallstyp
 * Innehållstyp/Innehållstyp (contentType/ContentType = 336 ‡b)  
+  Ange de innehållstyp/er som är tillämplig/a på den huvudsakliga delen av resursen. Ange inte för medföljande material av uppenbart underordnad karaktär. Om resursen består av flera likvärdiga delar (kombinerat material), ange innehållstyp/er för alla delarna.  
   Länka till entitet.  
   ```Exempel: text (txt)```  
   För att lägga till ytterligare innehållstyp, till exempel "sti" = stillbild för en bilderbok med både text och bild, lägg till Har del under Instans av Verk, från plustecknet vid Text (Lägg till fält under: Text). Skapa därefter Verk som lokal entitet genom att klicka på plustecknet vid Har del (Lägg till resurs). Välj Skapa lokal entitet och välj därefter ++Verk i listan. Lägg därefter till Innehållstyp från plustecknet vid Verk (Lägg till fält under: Verk). Sök fram och länka till entitet.
