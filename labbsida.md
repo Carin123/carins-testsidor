@@ -1,6 +1,28 @@
 TESTAR NÅGRA OLIKA SAKER PÅ DENNA SIDA
 
-2018-10-24: inför 1.3:
+2018-10-24:
+
+776 - ny instrux enligt Sara-Lenas mail:  
+#### Annat bararformat
+* Annat bärarformat (otherPhysicalFormat = 776)  
+  För att länka till en utgåva i annat format, till exempel en elektronisk utgåva, lägg till Annat bärarformat genom att klicka på Lägg till fält. Välj Annat bärarformat.  
+Söka upp och länka till den instans som du vill länka till. Klicka på plustecknet vid Annat bärarformat (Lägg till instans). I sidorutan under Lägg till entitet/Instans, skriv in id eller annat sökbegrepp. Välj instansen genom att klicka på plustecknet vid instansen eller på instansens titel. I marcexporten skapas 776 #t och #z.  
+Om andra delfält i 776 önskas, skapa istället Annat bärarformat som lokal entitet och lägg till önskade delfält. 
+ Beskriven av/Post/Kontrollnummer, motsvarande delfält w, är dock för närvarande låst för redigering. Det går därmed inte att lägga till fältet eller redigera det i befintliga beskrivningar. 
+  
+  GAMMAL INSTRUKTION:
+  Skapa en instans som lokal entitet genom att klicka på plustecknet vid Annat bärarformat (lägg till instans). Klicka på Skapa lokal entitet (längst ner i sidorutan) och välj Instans. 
+* Annat bärarformat/Typanmärkning (776 ‡i)  
+  Typanmärkning i samband med Annat bärarformat kan för närvarande inte läggas till.  
+* Annat bärarformat/Har titel/Titel (776 ‡t)  
+  Under Instans, lägg till titel genom att klicka på plustecknet vid Instans (Lägg till fält under: Instans) och välj Har titel. Välj Titel. Ta bort Övrig titelinformation och skriv in huvudtiteln under Huvudtitel. 
+* Annat bärarformat/Identifikator/ISBN/Värde (776 ‡x)  
+  Under Instans, lägg till identifikator genom att klicka på plustecknet vid Instans (Lägg till fält under: Instans) och välj Identifikator. Välj typ ISBN. Skriv in ISBN för den utgåva du vill länka till under Värde.  
+* Annat bärarformat/Beskriven av/Post/Kontrollnummer (776 ‡w)  
+  Beskriven av/Post/Kontrollnummer, motsvarande delfält w, är för närvarande låst för redigering. Det går därmed inte att lägga till fältet eller redigera det i befintliga beskrivningar.  
+  
+  
+Inför 1.3:
 
 * byt "fält" mot egenskap
 * kolla snippets, ändra på flera ställen
