@@ -138,15 +138,15 @@ Följande anmärkningar är under arbete och fungerar ännu inte fullt ut:
   Används till exempel för felaktigheter. Kan specificeras med Typanmärkning.  
   Lägg till Har titel och välj typ Varianttitel. Lägg därefter till Huvudtitel och eventuell Övrig titelinformation (plustecknet vid Varianttitel - lägg till fält under: Varianttitel). Lägg vid behov till Typanmärkning.  
 * Har titel/Varianttitel/Typanmärkning (hasTitle/VariantTitle/typeNote = 246 1/_ ‡i)  
- Anmärkningstext som i ett sökgränssnitt ska föregå varianttiteln. Används också för att ange typ av varianttitel som inte finns i listan, t ex Titelrubrik. Lägg vid behov till Typanmärkning genom att klicka på plustecknet vid Varianttitel (lägg till fält under: Varianttitel). Välj Typanmärkning.  
+ Anmärkningstext som i ett sökgränssnitt ska föregå varianttiteln. Används också för att ange typ av varianttitel som inte finns i listan, t ex Titelrubrik. Lägg vid behov till Typanmärkning (plustecknet vid Varianttitel - lägg till fält under: Varianttitel, välj Typanmärkning).  
   Skriv in uppgiften.  
   ```Exempel: Titeln felstavad, korrekt titel:```   
 * Har titel/Varianttitel/Huvudtitel (hasTitle/VariantTitle/mainTitle = 246 ‡a)  
-Lägg till Huvudtitel genom att klicka på plustecknet vid Varianttitel (lägg till fält under: Varianttitel). Välj Huvudtitel.   
+Lägg till Huvudtitel (plustecknet vid Varianttitel - lägg till fält under: Varianttitel, välj Huvudtitel).   
   Skriv in uppgiften.  
   ```Exempel: Hierarchy in organizations```   
 * Har titel/Varianttitel/Övrig titelinformation (= Undertitel) (hasTitle/VariantTitle/subtitle = 246 ‡b)  
-Lägg till Övrig titelinformation genom att klicka på plustecknet vid Varianttitel (lägg till fält under: Varianttitel). Välj Övrig titelinformation. Om det finns flera undertitlar, skriv in dessa efter varandra i samma fält, åtskilda av mellanslag, kolon, mellanslag.  
+Lägg till Övrig titelinformation (plustecknet vid Varianttitel - lägg till fält under: Varianttitel, välj Övrig titelinformation). Om det finns flera undertitlar, skriv in dessa efter varandra i samma fält, åtskilda av mellanslag, kolon, mellanslag.  
   Skriv in uppgiften.  
   
 ##### Omslagstitel, Ryggtitel, Rubriktitel  
@@ -154,12 +154,12 @@ Lägg till Övrig titelinformation genom att klicka på plustecknet vid Variantt
 
 ##### Omslagstitel   
 * Har titel/Omslagstitel/Huvudtitel (hasTitle/CoverTitle/mainTitle = 246 1/4 ‡a)  
-Lägg till Huvudtitel genom att klicka på plustecknet vid Omslagstitel (lägg till fält under: Omslagstitel). Välj Huvudtitel.  
+Lägg till Huvudtitel (plustecknet vid Omslagstitel - lägg till fält under: Omslagstitel, välj Huvudtitel).   
  Skriv in uppgiften.    
  ```Exempel: Bergens väktare```  
 * Har titel/Omslagstitel/Övrig titelinformation (= Undertitel) (hasTitle/CoverTitle/subtitle = 246 1/4 ‡b)  
 Återge övrig titelinformation som återfinns i annan källa än huvudtiteln som en varianttitel, till exempel som omslagstitel.    
-Lägg till Övrig titelinformation genom att klicka på plustecknet vid Omslagstitel (lägg till fält under: Omslagstitel). Välj Övrig titelinformation.    
+Lägg till Övrig titelinformation (plustecknet vid Omslagstitel - lägg till fält under: Omslagstitel, välj Övrig titelinformation).      
   Skriv in uppgiften. Om det finns flera undertitlar, skriv in dessa efter varandra i samma fält, åtskilda av mellanslag, kolon, mellanslag.    
 ```Exempel: Djingis Khan – historiens störste erövrare```
 
@@ -173,14 +173,14 @@ Lägg till Övrig titelinformation genom att klicka på plustecknet vid Omslagst
 ##### Delbeteckning
 * Har titel/Titel/Har del/Titeldel/Delbeteckning (hasTitle/Title/hasPart/TitlePart/partNumber = 245 ‡n)  
 Lägg till Har del (hasPart) under Har titel/Titel (plustecknet vid Titel - lägg till fält under: Titel). Välj Har del. Lägg till Titeldel (TitlePart) som lokal entitet (plustecknet vid Har del - Lägg till resurs). Välj Skapa lokal entitet (längst ner i sidorutan). Skriv "titeldel" i rutan Skapa lokal entitet. Välj * Titeldel. Titeldel läggs till under Har del. Klicka på Titeldel och det fälls ut. 
-Om Har del/Titeldel/Deltitel redan finns, lägg till Delbeteckning under Titeldel (plustecknet vid Titeldel - Lägg till fält under: Titeldel). Välj Delbeteckning (partNumber).   
+Om Har del/Titeldel/Deltitel redan finns, lägg till Delbeteckning under Titeldel (plustecknet vid Titeldel - Lägg till fält under: Titeldel, välj Delbeteckning (partNumber)).   
 Skriv in uppgiften under Delbeteckning.  
 ```Exempel: 1```   
 
 ##### Deltitel  
 * Har titel/Titel/Har del/Titeldel/Deltitel (hasTitle/Title/hasPart/TitlePart/partName = 245 ‡p)  
 Lägg till Har del (hasPart) under Har titel/Titel (plustecknet vid Titel - Lägg till fält under: Titel). Välj Har del. Lägg till Titeldel (TitlePart) som lokal entitet (plustecknet vid Har del - Lägg till resurs). Välj Skapa lokal entitet (längst ner i sidorutan). Skriv "titeldel" i rutan Skapa lokal entitet. Välj * Titeldel. Titeldel läggs till under Har del. Klicka på Titeldel och det fälls ut. 
-Om Har del/Titeldel/Delbeteckning redan finns, lägg till Deltitel under Titeldel (plustecknet vid Titeldel - Lägg till fält under: Titeldel). Välj Deltitel (partName).   
+Om Har del/Titeldel/Delbeteckning redan finns, lägg till Deltitel under Titeldel (plustecknet vid Titeldel - Lägg till fält under: Titeldel, välj Deltitel (partName)).   
 Skriv in uppgiften under Deltitel.  
 ```Exempel: Träd och växter som resurs```  
 För att ange Delbeteckning och Deltitel i en annan ordning, till exempel en deltitel som har efterföljande delbeteckningar, upprepa Titeldel och ange Delbeteckning och Deltitel som det passar i det aktuella fallet.  
@@ -239,7 +239,7 @@ NB inväntar en maskinell ändring av dessa poster och ändrar inte manuellt.
   För att lägga till Agent, klicka på Lägg till fält under Primär utgivning och välj Agent. Sök inte efter Agent som entitet utan välj istället Skapa lokal entitet, typ Agent. Lägg till Benämning.     
   Skriv in uppgiften. Klamra vid behov. Utgivarnamn ska inte länkas som entitet.  
   ```Exempel: NoNa```   
-  Om flera utgivare ska anges, lägg till "Har del" (hasPart) under Primär utgivning. Lägg därefter till Utgivning som lokal entitet (klicka på plustecknet vid Har del och klicka sedan på Skapa lokal entitet (längst ner i sidorutan). Välj Utgivning i listan). Använd År och vid behov Datum enligt anvisningar nedan. Upprepa Utgivning som lokal entitet under Har del för nästa utgivare.
+  Om flera utgivare ska anges, lägg till "Har del" (hasPart) under Primär utgivning. Lägg därefter till Utgivning som lokal entitet (klicka på plustecknet vid Har del och klicka sedan på Skapa lokal entitet, längst ner i sidorutan). Välj Utgivning i listan). Använd År och vid behov Datum enligt anvisningar nedan. Upprepa Utgivning som lokal entitet under Har del för nästa utgivare.
   Se [exempel](https://libris.kb.se/katalogisering/w4rp4hlwtr5lctjr#it).
   
  ##### År och datum 
@@ -365,7 +365,7 @@ Läs mer om [Seriemedlemskap](https://kundo.se/org/librisxl/d/uppgifter-om-serie
 (seriesMembership/inSeries/Instance/InstanceOf/Work/hasTitle/Title/mainTitle = 800 ‡t)  
   ```Exempel: Millenium```   
 * Seriemedlemskap/Ingår i serie/Instans/Instans av Verk/Verk/Medverkan och funktion/Primär medverkan/Agent/Person     (seriesMembership/inSeries/Instance/InstanceOf/Work/contribution/PrimaryContribution/Agent/Person = 800 ‡a)  
-Lägg till Medverkan och funktion under Verk (inom Seriemedlemskap) genom att klicka på plustecknet vid Verk (Lägg till fält under: Verk). Välj Medverkan och funktion. Välj Primär medverkan. Lägg till Agent genom att klicka på plustecknet vid Primär medverkan (Lägg till fält under: Primär medverkan). Länka till entitet. Börja alltid med att söka efter om agenten redan finns. Vid behov, skapa ny entitet för agent (se Skapa ny agent i hjälpsektionen). I undantagsfall, skapa lokal entitet.    
+Lägg till Medverkan och funktion under Verk (inom Seriemedlemskap) genom att klicka på plustecknet vid Verk (Lägg till fält under: Verk). Välj Medverkan och funktion. Välj Primär medverkan. Lägg till Agent (plustecknet vid Primär medverkan - Lägg till fält under: Primär medverkan). Länka till entitet. Börja alltid med att söka efter om agenten redan finns. Vid behov, skapa ny entitet för agent (se Skapa ny agent i hjälpsektionen). I undantagsfall, skapa lokal entitet.    
  ```Exempel: Larsson, Stieg, 1954-2004```  
 * Seriemedlemskap/Numrering inom serie (seriesMembership/seriesEnumeration = 800 ‡v)  
   Skriv in uppgiften.  
@@ -378,7 +378,7 @@ Lägg till Medverkan och funktion under Verk (inom Seriemedlemskap) genom att kl
    
 #### Innehallsanmarkning  
 * Har innehållsförteckning/Innehållsförteckning/Benämning (tableofContents = 505 8/_)  
-  För en enkel innehållsanmärkning (505 ‡a), lägg till Har innehållsförteckning (från Lägg till fält under: Instans). Lägg därefter till Innehållsförteckning (klicka på plustecknet under Har innehållsförteckning i vänstermenyn). Lägg till Benämning (klicka på plustecknet vid Lägg till fält under: Innehållsförteckning). Skriv in uppgiften.   
+  För en enkel innehållsanmärkning (505 ‡a), lägg till Har innehållsförteckning (från Lägg till fält under: Instans). Lägg därefter till Innehållsförteckning (plustecknet under Har innehållsförteckning i vänstermenyn). Lägg till Benämning (klicka på plustecknet vid Lägg till fält under: Innehållsförteckning). Skriv in uppgiften.   
   ```Exempel: Culture at home -- Culture and the global -- Global youth -- Global music -- Territories of global globalization.```  
   
 * Har innehållsförteckning/Innehållsförteckning/Har del/Utökad innehållsanmärkning/Benämning/Upphovsuppgift (tableofContents = 505 8/0 ‡t, ‡r)  
