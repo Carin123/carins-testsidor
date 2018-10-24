@@ -69,10 +69,10 @@ I vissa fall fungerar det ännu inte fullt ut att lägga till alla uppgifter som
   * ```SAMB```
   
 #### Systemnummer 
-* Identifikator/Systemnummer/Värde (identifiedBy/SystemNumber/value = 035 ‡a)  
+* Identifikator/Lokal identifikator/Värde (identifiedBy/SystemNumber/value = 035 ‡a)  
   Om ett systemnummer finns i förhandspost, till exempel Bokinfos systemnummer, låt det vara kvar oförändrat.  
   ```Exempel: (BOKR)9789188107213```  
-  För att lägga till ett lokalt systemnummer, till exempel ett DiVA-urn, lägg till Identifikator genom att klicka på plustecknet Lägg till fält under: Post) (i Adminmetadata). Välj typ Lokal identifikator. Lägg till (plustecknet vid Lokal identifikator). Fyll i aktuellt systemnummer.  
+  För att lägga till ett lokalt systemnummer, till exempel ett DiVA-urn, lägg till Identifikator (plustecknet Lägg till fält under: Post, i Adminmetadata). Välj typ Systemnummer, under Lokal identifikator. Lägg till Värde (plustecknet vid Lokal identifikator). Fyll i aktuellt systemnummer.  
   ```Exempel: (DIVA)urn:nbn:se:su:diva-83163```  
 För ISBN, se [Identifikator](#identifikator) under Instans.  
   
