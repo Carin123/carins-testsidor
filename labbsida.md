@@ -1,4 +1,45 @@
 TESTAR NÅGRA OLIKA SAKER PÅ DENNA SIDA
+
+2018-10-24: inför 1.3:
+
+* byt "fält" mot egenskap
+* kolla snippets, ändra på flera ställen
+* ändra Allmänt ämnesord med underindelning och Geografiskt ämnesord med geografisk underindelning. Ny text:
+
+##### Allmänt ämnesord med underindelning   
+Skapa Sammansatt term som lokal entitet (längst ner i sidorutan).   
+* Ämne/Sammansatt term/Termlista (subject/ComplexSubject/inScheme = ‡2 sao)   
+  Under termlista, sök fram och länka till entiteten "sao".   
+  ```Exempel: sao```  
+* Ämne/Sammansatt term/Termkomponenter/Allmänt ämnesord  
+ (subject/ComplexSubject/termComponentList = 650 -/7 ‡a)  
+  Under Termkomponenter, sök fram och länka till entiteten för det allmänna ämnesordet.    
+  ```Exempel: Varumärken```   
+* Ämne/Sammansatt term/Termkomponenter/Underindelning för allmänt ämnesord  
+ (subject/ComplexSubject/termComponentList = 650 ‡x)   
+  Sök fram och länka till entiteten för underindelningen.    
+  ```Exempel: juridik och lagstiftning```   
+  
+
+##### Geografiskt ämnesord med geografisk underindelning  
+Skapa Sammansatt term som lokal entitet (längst ner i sidorutan).  
+* Ämne/Sammansatt term/Termlista (subject/ComplexSubject/inScheme = ‡2 sao)    
+  Under termlista, sök fram och länka till entiteten "sao".   
+  ```Exempel: sao```  
+* Ämne/Sammansatt term/Termkomponenter/Geografiskt ämnesord/Föredragen benämning    
+  (subject/ComplexSubject/termComponentList/Geographic/prefLabel)  
+  Under termkomponenter, skapa Geografiskt ämnesord som lokal entitet (längst ner i sidorutan).
+  Skriv in uppgiften under Föredragen benämning.    
+  ```Exempel: Tyskland```  
+  
+*  Ämne/Sammansatt term/Termkomponenter/Underindelning för geografisk term/Föredragen benämning   
+  (subject/ComplexSubject/termComponentList/Geographic/prefLabel)  
+Skapa Geografiskt ämnesord som lokal entitet igen. Lägg till Föredragen benämning.
+  Skriv in uppgiften.  
+   ```Exempel: Bonn``` 
+
+
+
 TEXTEN NEDAN: "+-tecknet" ersatt med "plustecknet"
 
 ## Tryckt monografi - bok
