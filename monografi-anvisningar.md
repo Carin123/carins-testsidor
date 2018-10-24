@@ -310,7 +310,7 @@ NB inväntar en maskinell ändring av dessa poster och ändrar inte manuellt.
   
 #### Bilagor
 * Tillsammans med/Instans/Benämning (Bilagor) (accompaniedBy/Instance/label = 300 ‡e)  
-  Under Instans, lägg till Tillsammans med. Lägg därefter till Instans, som lokal entitet, genom att klicka på plustecknet vid Tillsammans med och därefter välja Skapa lokal entitet. Väj Instans i listan. Lägg därefter till Benämning.  
+  Under Instans, lägg till Tillsammans med. Skapa därefter Instans som lokal entitet (plustecknet vid Tillsammans med, välj Skapa lokal entitet, längst ner i sidorutan). Väj Instans i listan. Lägg till Benämning.  
 Skriv in uppgiften.  
   ```Exempel: 10 mönsterark```  
 
@@ -398,7 +398,7 @@ Ange alternativa titlar här för att öka sökbarheten för titlar som innehål
 
 #### Annat bararformat
 * Annat bärarformat (otherPhysicalFormat = 776)  
-  För att länka till en utgåva i annat format, till exempel en elektronisk utgåva, lägg till Annat bärarformat genom att klicka på Lägg till fält. Välj Annat bärarformat. Sök upp och länka till instansen. Klicka på plustecknet vid Annat bärarformat (Lägg till instans). I sidorutan under Lägg till entitet/Instans, skriv in id eller annat sökbegrepp. Välj instansen genom att klicka på plustecknet vid instansen eller på instansens titel. Om instansen som länken går till har identifikator (ISBN), skapas i marcexporten 776 #t (Titel) och #z (Identifikator). I webbsök ger detta en länk under rubriken Andra versioner.   
+  För att länka till en utgåva i annat format, till exempel en elektronisk utgåva, lägg till Annat bärarformat (Lägg till fält, välj Annat bärarformat). Sök upp och länka till instansen. Klicka på plustecknet vid Annat bärarformat (Lägg till instans). I sidorutan under Lägg till entitet/Instans, skriv in id eller annat sökbegrepp. Välj instansen genom att klicka på plustecknet vid instansen eller på instansens titel. Om instansen som länken går till har identifikator (ISBN), skapas i marcexporten 776 #t (Titel) och #z (Identifikator). I webbsök ger detta en länk under rubriken Andra versioner.   
   
   Om andra delfält i 776 önskas, skapa istället Instans som lokal entitet och lägg till önskade delfält. 
 Om särskild anmärkningstext önskas, som ersätter frasen "Andra versioner", skapa Instans som lokal entitet och lägg till Typanmärkning (= (776 ‡i) samt Har titel/Titel och Identifikator/ISBN/Värde. Beskriven av/Post/Kontrollnummer, motsvarande delfält w, är för närvarande låst för redigering. Det går därmed inte att lägga till fältet eller redigera det i befintliga beskrivningar. 
@@ -408,7 +408,7 @@ Om särskild anmärkningstext önskas, som ersätter frasen "Andra versioner", s
 
 #### Instans av Verk/Text  
 * Instans av Verk/Text (instanceOf/Work/Text)  
-  Skapa verket som lokal entitet (bryt inte ut verket till en länkbar entitet). Vi rekommenderar att du tills vidare skapar verket som lokal entitet. Vi återkommer med anvisningar för att skapa verk som länkbara entiteter. Denna hjälptext beskriver exempel på verk som lokal entitet. Det betyder att du anger de uppgifter som listas här nedan, under Instans av Verk, utan att klicka på länksymbolen (Länka entitet) vid Instans av Verk/Text.  
+  Skapa verket som lokal entitet (bryt inte ut verket till en länkbar entitet). Vi rekommenderar att tills vidare skapa verket som lokal entitet. Vi återkommer med anvisningar för att skapa verk som länkbara entiteter. Denna hjälptext beskriver exempel på verk som lokal entitet. Det betyder att du anger de uppgifter som listas här nedan, under Instans av Verk, utan att klicka på länksymbolen (Länka entitet) vid Instans av Verk/Text.  
 Läs mer om [Verk och Instans](https://librisbloggen.kb.se/2018/05/30/verk-och-instans-i-startversionen/).  
 
 #### Verkets titel
@@ -427,18 +427,18 @@ För översättningar och för verk som har givits ut under olika titlar på sam
 ##### Verkets titel - huvuduppslag
 *	Uttryck av/Verk/Har titel/Titel/Huvudtitel (expressionOf/Work/hasTitle/Title/mainTitle (= 130 ‡a)  
  "Originaltitel" för ett verk utan primär medverkande anger du här.  
-Under Instans av Verk/Text, lägg till Uttryck av genom att klicka på plustecknet vid Instans av Verk/Text (Lägg till fält under: Text) och välja Uttryck av.  
-Skapa verk som lokal entitet genom att klicka på plustecknet vid Uttryck av (Lägg till verk). Välj Skapa lokal entitet (längst ner i sidorutan), Skriv "verk" i rutan Skapa lokal entitet. Klicka på * Verk. Det läggs till under Uttryck av. Klicka på plustecknet vid Verk (Lägg till fält under: Verk) och välj Har titel. Välj Titel. Ta bort Övrig titelinformation.    
+Under Instans av Verk/Text, lägg till Uttryck av (plustecknet vid Instans av Verk/Text - Lägg till fält under: Text, välj Uttryck av).  
+Skapa verk som lokal entitet (plustecknet vid Uttryck av - Lägg till verk, välj Skapa lokal entitet, längst ner i sidorutan), Skriv "verk" i rutan Skapa lokal entitet. Klicka på * Verk. Det läggs till under Uttryck av. Klicka på plustecknet vid Verk (Lägg till fält under: Verk) och välj Har titel. Välj Titel. Ta bort Övrig titelinformation.    
 Skriv in uppgiften.  
 ```Exempel: Bibeln```
 *	Uttryck av/Verk/Har titel/Titel/Deltitel  
 (expressionOf/Work/hasTitle/Title/partName = 130 ‡p)  
-Lägg till eventuell deltitel genom att klicka på plustecknet vid Titel (lägg till fält under: Titel), välj Deltitel.  
+Lägg till eventuell deltitel (plustecknet vid Titel - lägg till fält under: Titel, välj Deltitel).  
 Skriv in uppgiften.  
 ```Exempel: Nya testamentet```
 *	Uttryck av/Verk/Språk/Språk/Benämning  
 (expressionOf/Work/language/Language/label = 130 ‡l)  
-Lägg till eventuell benämning på språk som ska ingå i den föredragna titeln. Klicka på plustecknet vid Verk (Lägg till fält under: Verk) och välj Språk. Klicka på plustecknet vid Språk (Lägg till språk) och välj Skapa lokal entitet. Lägg till Benämning genom att klicka på plustecknet vid Språk (Lägg till fält under: Språk) och välja Benämning.  
+Lägg till eventuell benämning på språk som ska ingå i den föredragna titeln. Klicka på plustecknet vid Verk (Lägg till fält under: Verk) och välj Språk. Klicka på plustecknet vid Språk (Lägg till språk) och välj Skapa lokal entitet. Lägg till Benämning (plustecknet vid Språk - Lägg till fält under: Språk, välj Benämning.  
 Skriv in uppgiften.  
 ```Exempel: Svenska```
 
@@ -448,7 +448,7 @@ Under Instans av Verk/Text, klicka på plustecknet vid Verk (lägg till fält un
 
 ##### Verkets titel - relaterade verk  
 För att ange verk som är relaterade, men inte ingår i det beskrivna verket, motsvarande fält 730 0/_ (icke-analytisk sökingång) i marc:   
-Under Instans av Verk/Text, lägg till Relation genom att klicka på plustecknet vid Instans av Verk/Text (Lägg till fält under: Text) och välja Relation. Välj typ Relation. Lägg till Entitet genom att klicka på plustecknet vid Relation (Lägg till fält under: Relation), välj Entitet. Skapa verk som lokal entitet genom att klicka på plustecknet vid Entitet (Lägg till verk). Följ sedan stegen ovan, från ”Välj Skapa lokal entitet”.  
+Under Instans av Verk/Text, lägg till Relation genom att klicka på plustecknet vid Instans av Verk/Text (Lägg till fält under: Text) och välja Relation. Välj typ Relation. Lägg till Entitet genom att klicka på plustecknet vid Relation (Lägg till fält under: Relation), välj Entitet. Skapa verk som lokal entitet (plustecknet vid Entitet - Lägg till verk). Följ sedan stegen ovan, från ”Välj Skapa lokal entitet”.  
 
 #### Sprak 
 * Språk (language = 008/35-37)  
@@ -511,7 +511,7 @@ För en sorterad lista på koder, se Formathandboken för Libris/Voyager: [Funkt
 #### Klassifikation 
 * DDK-klassifikation  
   För att lägga till DDK-klassifikation:  
-  * Om posten har Klassifikation/Klassifikation (till exempel SAB-klassifikation) men saknar Klassifikation/DDK-klassifikation, lägg till ytterligare en förekomst av Klassifikation genom att klicka på plustecknet vid Klassifikation (lägg till fält under: KLassifikation). Välj Skapa lokal entitet (längst ner i sidorutan) och välj DDK-klassifikation. Skriv in uppgiften under Kod.  
+  * Om posten har Klassifikation/Klassifikation (till exempel SAB-klassifikation) men saknar Klassifikation/DDK-klassifikation, lägg till ytterligare en förekomst av Klassifikation (plustecknet vid Klassifikation - lägg till fält under: KLassifikation). Välj Skapa lokal entitet (längst ner i sidorutan) och välj DDK-klassifikation. Skriv in uppgiften under Kod.  
   * Om posten helt saknar Klassifikation, lägg till Klassifikation genom att klicka på den runda fält-knappen i verktygsmenyn (Lägg till fält under: Instans). Välj Klassifikation. Klicka på plustecknet under Klassifikation (Lägg till Klassifikation). Välj Skapa lokal entitet (längst ner i sidorutan) och välj DDK-klassifikation.  
    Skriv in uppgiften under Kod.  
 
@@ -527,7 +527,7 @@ För en sorterad lista på koder, se Formathandboken för Libris/Voyager: [Funkt
   
 ##### Sekundär DDK-klassifikation  
 Lägg till DDK-klassifikation (sekundär) genom att klicka på plusikonen vid Instans av Verk/Text (Lägg till fält under: Text) och välja DDK-klassifikation (sekundär).  
-Klicka sedan på plustecknet vid DDK-klassifikation (sekundär) (Lägg till ddk-klassifikation) och välj Skapa lokal entitet (längst ner i sidorutan).  Skriv in uppgiften under Kod.  
+Klicka sedan på plustecknet vid DDK-klassifikation (sekundär) (Lägg till ddk-klassifikation) och välj Skapa lokal entitet (längst ner i sidorutan). Skriv in uppgiften under Kod.  
 * Klassifikation/DDK-klassifikation/Kod (additionalClassificationDdc/ClassificationDdc/code = 083 0/- ‡a)  
   Skriv in uppgiften.  
   ```Exempel: 791.430233092```
@@ -541,7 +541,7 @@ Klicka sedan på plustecknet vid DDK-klassifikation (sekundär) (Lägg till ddk-
 ##### SAB-klassifikation  
 * SAB-klassifikation  
   För att lägga till annan klassifikation, till exempel SAB-klassifikation:  
-  * Om posten har Klassifikation/DDK-klassifikation men saknar Klassifikation/Klassifikation (till exempel SAB-klassifikation), lägg till ytterligare en förekomst av Klassifikation genom att klicka på plustecknet vid Klassifikation (lägg till fält under: KLassifikation). Välj Skapa lokal entitet (längst ner i sidorutan) och välj Klassifikation. Skriv in uppgiften under Kod.  
+  * Om posten har Klassifikation/DDK-klassifikation men saknar Klassifikation/Klassifikation (till exempel SAB-klassifikation), lägg till ytterligare en förekomst av Klassifikation (plustecknet vid Klassifikation - lägg till fält under: KLassifikation). Välj Skapa lokal entitet (längst ner i sidorutan) och välj Klassifikation. Skriv in uppgiften under Kod.  
   * Om posten helt saknar Klassifikation, lägg till Klassifikation genom att klicka på den runda fält-knappen i verktygsmenyn (Lägg till fält under: Instans). Välj Klassifikation. Klicka på plustecknet under Klassifikation (Lägg till fält under: Klassifikation). Välj Skapa lokal entitet (längst ner i sidorutan) och välj Klassifikation.  
    Skriv in uppgiften under Kod.  
 * Klassifikation/Klassifikation/Kod (classification/Classification/code = 084 0/4 ‡a)  
@@ -668,9 +668,9 @@ Läs mer:
   Ange de innehållstyp/er som är tillämplig/a på den huvudsakliga delen av resursen. Ange inte för medföljande material av uppenbart underordnad karaktär. Om resursen består av flera likvärdiga delar (kombinerat material), ange innehållstyp/er för alla delarna.  
   Länka till entitet.  
   ```Exempel: text (txt)```  
-  För att lägga till ytterligare innehållstyp, till exempel "sti" = stillbild för en bilderbok med både text och bild, lägg till Har del under Instans av Verk, från plustecknet vid Text (Lägg till fält under: Text). Skapa därefter Verk som lokal entitet genom att klicka på plustecknet vid Har del (Lägg till resurs). Välj Skapa lokal entitet och välj därefter ++Verk i listan. Lägg därefter till Innehållstyp från plustecknet vid Verk (Lägg till fält under: Verk). Sök fram och länka till entitet.
+  För att lägga till ytterligare innehållstyp, till exempel "sti" = stillbild för en bilderbok med både text och bild, lägg till Har del under Instans av Verk, från plustecknet vid Text (Lägg till fält under: Text). Skapa därefter Verk som lokal entitet genom att klicka på plustecknet vid Har del (Lägg till resurs). Välj Skapa lokal entitet och välj därefter ++ Verk i listan. Lägg därefter till Innehållstyp från plustecknet vid Verk (Lägg till fält under: Verk). Sök fram och länka till entitet.
   
 #### Anmarkning om akademisk avhandling    
 * Anmärkning/Anmärkning om akademisk avhandling/Benämning (dissertation/Dissertation/label = 502 ‡a)  
-  Lägg till anmärkning om akademisk avhandling genom att klicka på plustecknet vid Instans av Verk: Text (Lägg till fält under: Text). Välj Anmärkning om akademisk avhandling. Klicka på plustecknet vid Anmärkning om akademisk avhandling och välj Skapa lokal entitet (längst ner i sidorutan). Klicka på plustecknet vid den lokala entiteten Anmärkning om akademisk avhandling och lägg till Benämning. Skriv in anmärkningen.  
+  Lägg till anmärkning om akademisk avhandling (plustecknet vid Instans av Verk: Text - Lägg till fält under: Text, välj Anmärkning om akademisk avhandling. Klicka på plustecknet vid Anmärkning om akademisk avhandling och välj Skapa lokal entitet (längst ner i sidorutan). Klicka på plustecknet vid den lokala entiteten Anmärkning om akademisk avhandling och lägg till Benämning. Skriv in anmärkningen.  
   ```Exempel: Diss. Umeå : Umeå universitet, 2018```  
