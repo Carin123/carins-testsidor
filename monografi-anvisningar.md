@@ -585,25 +585,21 @@ Skapa Sammansatt term som lokal entitet. (Plustecknet vid Ämne - Lägg till ent
 ##### Geografiska ämnesord  
 * Geografiskt ämnesord (subject = 651 -/4 ‡a)  
   Sök fram och länka till entitet.  
-  I undantagsfall, skapa lokal entitet (längst ner i sidorutan) och skriv in uppgiften.  
   ```Exempel: Sverige```
   
 ##### Geografiskt ämnesord med geografisk underindelning  
-* Ämne/Sammansatt term/Föredragen benämning (subject/ComplexSubject/prefLabel = 651 -/7 ‡a, ‡z)   
-  Skapa Sammansatt term som lokal entitet (längst ner i sidorutan). Lägg till Föredragen benämning.  
-  Skriv in uppgiften, med interpunktion.  
-  ```Exempel: Tyskland -- Bonn```  
-* Ämne/Sammansatt term/Föredragen benämning/Termlista (subject/ComplexSubject/prefLabel/inScheme = ‡2 sao)    
-   Lägg till Termlista. Sök fram och länka till entiteten "sao".      
+Skapa Sammansatt term som lokal entitet. (Plustecknet vid Ämne - Lägg till entitet, välj Skapa lokal entitet, längst ner i sidorutan. Skriv Sammansatt term i rutan Skapa lokal entitet, välj * Sammansatt term).  
+* Ämne/Sammansatt term/Termlista (subject/ComplexSubject/inScheme = ‡2 sao)   
+  Under Termlista, sök fram och länka till entiteten "sao". (Plustecknet vid Termlista - Lägg till termlista, skriv sao i sökrutan Lägg till entitet, välj sao genom att klicka på plustecknet vid Svenska ämnesord (SAO), sao).  
   ```Exempel: sao```  
-* Ämne/Sammansatt term/Termkomponenter/Geografiskt ämnesord/Föredragen benämning  
-  (subject/ComplexSubject/termComponentList/Geographic/prefLabel)  
-  Lägg till Termkomponenter. Skapa Geografiskt ämnesord som lokal entitet (längst ner i sidorutan). Lägg till Föredragen benämning.  
-  Skriv in uppgiften.  
+* Ämne/Sammansatt term/Termkomponenter/underindelning för geografisk term/Föredragen benämning  
+  (subject/ComplexSubject/termComponentList/GeographicSubdivision/prefLabel)  
+ Under Termkomponenter, skapa Geografiskt ämnesord som lokal entitet. (Plustecknet vid Termkomponenter - Lägg till entitet, välj Geografiskt ämnesord). Skriv in det geografiska ämnesordet (huvudordet) under Föredragen benämning.    
   ```Exempel: Tyskland```  
-  Skapa Geografiskt ämnesord som lokal entitet igen. Lägg till Föredragen benämning.
-  Skriv in uppgiften.  
-   ```Exempel: Bonn``` 
+* Ämne/Sammansatt term/Termkomponenter/Geografiskt ämnesord/Föredragen benämning  
+  (subject/ComplexSubject/termComponentList/Geographic/prefLabel)   
+  Under Termkomponenter, skapa Geografiskt ämnesord som lokal entitet. (Plustecknet vid Termkomponenter - Lägg till entitet, välj Underindelning för geografiskt ämnesord). Skriv in ämnesordet för den geografiska underindelningen under Föredragen benämning.  
+  ```Exempel: Bonn``` 
    
 ##### Kronologiskt ämnesord
 * Ämne/Kronologiskt ämnesord (subject = 648 7/- ‡a, ‡2 sao)  
