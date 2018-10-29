@@ -1,10 +1,10 @@
 ## Tryckt monografi - bok
 
-Denna hjälptext beskriver ett antal vanligt förekommande fält, med utgångspunkt från exempel. För instruktioner om att länka till entitet, skapa lokal entitet och om hur formuläret fungerar i övrigt, se Redigering i vänstermenyn. För information om katalogregler, skrivregler och övriga katalogiseringsanvisningar, se [Anvisningar för katalogisering - RDA](http://www.kb.se/rdakatalogisering/Anvisningar/Arbetsfloden/Tryckta-monografier/ "Anvisningar för katalogisering - RDA").
+Denna hjälptext beskriver ett antal vanligt förekommande egenskaper, med utgångspunkt från exempel. För instruktioner om att länka till entitet, skapa lokal entitet och om hur formuläret fungerar i övrigt, se Redigering i vänstermenyn. För information om katalogregler, skrivregler och övriga katalogiseringsanvisningar, se [Anvisningar för katalogisering - RDA](http://www.kb.se/rdakatalogisering/Anvisningar/Arbetsfloden/Tryckta-monografier/ "Anvisningar för katalogisering - RDA").
 
 Se även [instruktionsfilmer](https://www.youtube.com/playlist?list=PLZVkEICvA5-GRT2oJQmLgq_2Pksx6zYPy)  
 
-I de flesta fall ska informationen delas upp i olika fält och delfält. I några undantagsfall är det nödvändigt att använda ISBD-interpunktion inom fält, för att separera uppgifter. Dessa fall visas genom exempel nedan. I övriga fall, lägg inte in ISBD-interpunktion för att avsluta ett fält. Använd vid behov klamrar inom fält, enligt Anvisningar för katalogisering - RDA.
+I de flesta fall ska informationen delas upp i olika egenskaper (jfr fält) och underliggande egenskaper (jfr delfält). I några undantagsfall är det nödvändigt att använda ISBD-interpunktion i inom en egenskap, för att separera uppgifter. Dessa fall visas genom exempel nedan. I övriga fall, lägg inte in ISBD-interpunktion för att avsluta en egenskap (fält). Använd vid behov klamrar inom egenskap (fält), enligt Anvisningar för katalogisering - RDA.
 
 I vissa fall fungerar det ännu inte fullt ut att lägga till alla uppgifter som beskrivs i denna hjälptext. Arbete pågår med förbättra gränssnittet. För att anmäla fel, använd detta formulär för [felrapportering](https://docs.google.com/forms/d/e/1FAIpQLSfOChJOGDoHUQguSF83F5XyTZiQL-yU47nvcqb6qwNT9GX7Aw/viewform). För att lämna synpunkter, använd detta formulär för  [ändringsförslag](https://docs.google.com/forms/d/e/1FAIpQLScgz_0enebhBn6uB8xvowkDBB4ax_dbvaobLSFfqFMoty6eQg/viewform).  
 
@@ -44,8 +44,8 @@ I vissa fall fungerar det ännu inte fullt ut att lägga till alla uppgifter som
 * Uppgraderad eller importerad av/Bibliotek/Sigel (descriptionUpgrader/Library/sigel = 040 ‡d)  
   Om beskrivningsnivån uppgraderas, lägg till denna uppgift. Vid postimport, lägg till uppgiften. Lägg inte till uppgiften när posten endast ändras utan att beskrivningsnivån uppgraderas.  
   
-  Lägg till Uppgraderad eller importerad av (plustecknet Lägg till fält under: Post). Klicka på plustecknet vid Uppgraderad eller importerad av (Lägg till agent). Välj Skapa lokal entitet (längst ner i sidorutan). Välj Bibliotek.  
-  Lägg till Sigel (plustecknet Lägg till fält under: Bibliotek). Skriv in uppgiften.     
+  Lägg till Uppgraderad eller importerad av (plustecknet Lägg till egenskap under: Post). Klicka på plustecknet vid Uppgraderad eller importerad av (Lägg till agent). Välj Skapa lokal entitet (längst ner i sidorutan). Välj Bibliotek.  
+  Lägg till Sigel (plustecknet Lägg till egenskap under: Bibliotek). Skriv in uppgiften.     
   ```Exempel: S```  
 
 #### Katalogiserande instans
@@ -62,18 +62,18 @@ I vissa fall fungerar det ännu inte fullt ut att lägga till alla uppgifter som
 * Bibliografi/Bibliotek/Sigel (bibliography/Library/sigel = 042 ‡9)  
   Observera att bibliografikod ska läggas endast av de bibliotek som arbetar med respektive bibliografi. Som exempel läggs bibliografikod NB endast av NB. För äldre tryck finns koderna COL, SOT och SB17 som används av alla bibliotek som katalogiserar äldre tryck. För en fullständig lista över sigler, se [Biblioteksdatabasen](https://biblioteksdatabasen.libris.kb.se/).
   
-  Lägg till Bibliografi (plustecknet Lägg till fält under: Post). Klicka på Lägg till bibliotek (plustecknet vid Bibliografi), välj därefter Skapa lokal entitet (längst ner i sidorutan). Lägg till Sigel (plustecknet Lägg till fält under Bibliotek).  
-  Skriv in uppgiften.
+  Lägg till Bibliografi (plustecknet Lägg till egenskap under: Post). Klicka på Lägg till bibliotek (plustecknet vid Bibliografi), välj därefter Skapa lokal entitet (längst ner i sidorutan).  
+  Skriv in uppgiften under Sigel.
  <br/>```Exempel:```
   * ```NB```
   * ```SAMB```  
   För att lägga in flera sigler, använd gärna Duplicera entitet och skriv in nästa sigel i den duplicerade entiteten.   
   
-#### Systemnummer 
+#### Systemnummer  
 * Identifikator/Lokal identifikator/Värde (identifiedBy/SystemNumber/value = 035 ‡a)  
   Om ett systemnummer finns i förhandspost, till exempel Bokinfos systemnummer, låt det vara kvar oförändrat.  
   ```Exempel: (BOKR)9789188107213```  
-  För att lägga till ett lokalt systemnummer, till exempel ett DIVA-urn som systemnummer, lägg till Identifikator (plustecknet Lägg till fält under: Post, i Adminmetadata). Välj typ Systemnummer, under Lokal identifikator. Lägg till Värde (plustecknet vid Lokal identifikator). Fyll i aktuellt systemnummer.  
+  För att lägga till ett lokalt systemnummer, till exempel ett DIVA-urn som systemnummer, lägg till Identifikator (plustecknet Lägg till egenskap under: Post, i Adminmetadata). Välj typ Systemnummer, under Lokal identifikator. Lägg till Värde (plustecknet vid Lokal identifikator). Fyll i aktuellt systemnummer.  
   ```Exempel: (DIVA)urn:nbn:se:su:diva-83163```  
 För ISBN, se [Identifikator](#identifikator) under Instans.
   
@@ -84,8 +84,9 @@ För ISBN, se [Identifikator](#identifikator) under Instans.
   
 #### Katalogiseringsregler  
 * Katalogiseringsregler (descriptionConventions = 040 ‡e)  
-  Lägg till Katalogiseringsregler (plustecknet Lägg till fält under: Post). Lägg till entitet (plustecknet vid Katalogiseringsregler - lägg till entitet). Välj "Regler för deskriptiv katalogisering (bib)" i listan. För en post katalogiserad enligt RDA, sök fram och länka till entitet: "i" (= marc/Isbd). När man skapar ny post från mall visas entiteten som "marc/Isbd". I en sparad post visas samma entitet som "ISBD-interpunktion finns * i". Båda är rätt.      
-  Skapa också lokal entitet under Katalogiseringsregler. Klicka på plustecknet vid Katalogiseringsregler (Lägg till entitet). Välj Skapa lokal entitet (längst ner i sidorutan). Välj Regler för deskriptiv katalogisering (bib). Lägg till Kod (plustecknet vid Regler för deskriptiv katalogisering (bib). Skriv in "rda".    
+  Lägg till Katalogiseringsregler (plustecknet Lägg till egenskaper under: Post).   
+  För en post katalogiserad enligt RDA, sök fram och länka till entitet: "i" (= marc/Isbd). När man söker fram entiteten visas den som "i". I en sparad post visas samma entitet som "ISBD-interpunktion finns * i". När man skapar ny post från mall visas entiteten som "marc/Isbd". Alla är rätt.   
+  Skapa också lokal entitet under Katalogiseringsregler. Klicka på plustecknet vid Katalogiseringsregler (Lägg till entitet). Välj Skapa lokal entitet (längst ner i sidorutan). Välj Katalogiseringsregler. Skriv in "rda" under Kod.      
   ```Exempel: marc/Isbd (länkad entitet) + lokal entitet, Kod: rda```
   
 #### Beskrivningsniva  
@@ -136,36 +137,33 @@ Följande anmärkningar är under arbete och fungerar ännu inte fullt ut:
   För att ange originaltitel, se Verk/Har titel/Titel/Huvudtitel.  
 
 ##### Varianttitel   
-  Används till exempel för felaktigheter. Kan specificeras med Typanmärkning.  
-  Lägg till Har titel och välj typ Varianttitel. Lägg därefter till Huvudtitel och eventuell Övrig titelinformation (plustecknet vid Varianttitel - lägg till fält under: Varianttitel). Lägg vid behov till Typanmärkning.  
-* Har titel/Varianttitel/Typanmärkning (hasTitle/VariantTitle/typeNote = 246 1/_ ‡i)  
- Anmärkningstext som i ett sökgränssnitt ska föregå varianttiteln. Används också för att ange typ av varianttitel som inte finns i listan, t ex Titelrubrik. Lägg vid behov till Typanmärkning (plustecknet vid Varianttitel - lägg till fält under: Varianttitel, välj Typanmärkning).  
-  Skriv in uppgiften.  
-  ```Exempel: Titeln felstavad, korrekt titel:```   
-* Har titel/Varianttitel/Huvudtitel (hasTitle/VariantTitle/mainTitle = 246 ‡a)  
-Lägg till Huvudtitel (plustecknet vid Varianttitel - lägg till fält under: Varianttitel, välj Huvudtitel).   
-  Skriv in uppgiften.  
+Används till exempel för felaktigheter. Kan specificeras med Typanmärkning.  
+Lägg till Har titel och välj typ Varianttitel.  
+* Har titel/Varianttitel/Huvudtitel (hasTitle/VariantTitle/mainTitle = 246 ‡a)   
+  Skriv in uppgiften under Huvudtitel.    
   ```Exempel: Hierarchy in organizations```   
 * Har titel/Varianttitel/Övrig titelinformation (= Undertitel) (hasTitle/VariantTitle/subtitle = 246 ‡b)  
-Lägg till Övrig titelinformation (plustecknet vid Varianttitel - lägg till fält under: Varianttitel, välj Övrig titelinformation). Om det finns flera undertitlar, skriv in dessa efter varandra i samma fält, åtskilda av mellanslag, kolon, mellanslag.  
+  Skriv in uppgiften under Övrig titelinformation. Om det finns flera undertitlar, skriv in dessa efter varandra i samma fält, åtskilda av mellanslag, kolon, mellanslag.   
+* Har titel/Varianttitel/Typanmärkning (hasTitle/VariantTitle/typeNote = 246 1/_ ‡i)  
+ Anmärkningstext som i ett sökgränssnitt ska föregå varianttiteln. Används också för att ange typ av varianttitel som inte finns i listan, t ex Titelrubrik. Lägg vid behov till Typanmärkning (plustecknet vid Varianttitel - lägg till egenskaper under: Varianttitel, välj Typanmärkning).  
   Skriv in uppgiften.  
+  ```Exempel: Titeln felstavad, korrekt titel:```   
+  
   
 ##### Omslagstitel, Ryggtitel, Rubriktitel  
-* Omslagstitel, Ryggtitel, Rubriktitel etc - lägg till Har titel och välj typ, till exempel Omslagstitel. Lägg därefter till Huvudtitel, eventuell Övrig titelinformation och Typanmärkning, enligt mönstret för Omslagstitel, se nedan.      
+* Omslagstitel, Ryggtitel, Rubriktitel etc - lägg till Har titel och välj typ, till exempel Omslagstitel. Ange Huvudtitel, eventuell Övrig titelinformation och Typanmärkning, enligt mönstret för Omslagstitel, se nedan.      
 
 ##### Omslagstitel   
 * Har titel/Omslagstitel/Huvudtitel (hasTitle/CoverTitle/mainTitle = 246 1/4 ‡a)  
-Lägg till Huvudtitel (plustecknet vid Omslagstitel - lägg till fält under: Omslagstitel, välj Huvudtitel).   
  Skriv in uppgiften.    
  ```Exempel: Bergens väktare```  
 * Har titel/Omslagstitel/Övrig titelinformation (= Undertitel) (hasTitle/CoverTitle/subtitle = 246 1/4 ‡b)  
 Återge övrig titelinformation som återfinns i annan källa än huvudtiteln som en varianttitel, till exempel som omslagstitel.    
-Lägg till Övrig titelinformation (plustecknet vid Omslagstitel - lägg till fält under: Omslagstitel, välj Övrig titelinformation).      
   Skriv in uppgiften. Om det finns flera undertitlar, skriv in dessa efter varandra i samma fält, åtskilda av mellanslag, kolon, mellanslag.    
 ```Exempel: Djingis Khan – historiens störste erövrare```
 
-  För att ange att omslagstiteln endast står på skyddsomslag, lägg till Typanmärkning (= 246 ‡i). Lägg därefter till Huvudtitel och eventuell Övrig titelinformation.  
-  Skriv in uppgifterna.
+  För att ange att omslagstiteln endast står på skyddsomslag, lägg till Typanmärkning (= 246 ‡i). 
+  Skriv in uppgiften.
   <br/>```Exempel:```
   * ```Typanmärkning (246 ‡i): Skyddsomslag:```
   * ```Omslagstitel/Huvudtitel (246 ‡a): På väg mot döden```
@@ -214,8 +212,8 @@ Vid behov, klicka även på plustecknet vid Parallelltitel och lägg till Övrig
   ```Exempel: 9789188107213```
 * Identifikator/Särskiljande tillägg (= Bestämning) (identifiedBy/qualifier = 020 ‡q)  
   Skriv in uppgiften.  
-  ```Exempel: inbunden```  
-För ogiltiga ISBN, använd Indirekt identifierad av, direkt under Instans. Använd inte Ogiltigt värde under Identifikator/ISBN (identifiedBy/marc:hiddenValue).  
+  ```Exempel: inbunden``
+<br/>För ogiltiga ISBN, använd Indirekt identifierad av, direkt under Instans. Använd inte Ogiltigt värde under Identifikator/ISBN (identifiedBy/marc:hiddenValue).  
   
 #### Indirekt identifierad av  
 Ange ogiltiga ISBN här och inte under Identifikator/ISBN/Ogiltigt värde. 
@@ -224,13 +222,10 @@ Ange ogiltiga ISBN här och inte under Identifikator/ISBN/Ogiltigt värde.
   ```Exempel: ISBN```
 * Indirekt identifierad av/ISBN/Värde (indirectlyIdentifiedBy/Isbn/value = 020 ‡a)  
   Skriv in uppgiften.  
-  ```Exempel: 9789188107213```
+  ```Exempel: 97891881072```
 * Indirekt identifierad av/Särskiljande tillägg (= Bestämning) (indirectlyIdentifiedBy/qualifier = 020 ‡q)  
   Skriv in uppgiften.  
   ```Exempel: inbunden```  
-* Indirekt identifierad av/Värde (indirectlyIdentifiedBy/Value = 020 ‡z)  
-  Skriv in uppgiften.  
-  ```Exempel: 97891881072```
   
 #### Upplageuppgift
 * Upplageuppgift (editionStatement = 250 ‡a)  
