@@ -598,7 +598,7 @@ Skapa Sammansatt term som lokal entitet. (Plustecknet vid Ämne - Lägg till ent
   ```Exempel: Tyskland```  
 * Ämne/Sammansatt term/Termkomponenter/Underindelning för geografisk term/Föredragen benämning   
  (subject/ComplexSubject/termComponentList/GeographicSubdivision/prefLabel)  
-  Under Termkomponenter, skapa Geografiskt ämnesord som lokal entitet. (Plustecknet vid Termkomponenter - Lägg till entitet, välj Underindelning för geografiskt ämnesord). Skriv in ämnesordet för den geografiska underindelningen under Föredragen benämning.  
+  Under Termkomponenter, skapa Underindelning för geografisk term som lokal entitet. (Plustecknet vid Termkomponenter - Lägg till entitet, välj Underindelning för geografisk term). Skriv in termen för den geografiska underindelningen under Föredragen benämning.  
   ```Exempel: Bonn``` 
    
 ##### Kronologiskt ämnesord
