@@ -568,17 +568,19 @@ Klicka sedan på plustecknet vid DDK-klassifikation (sekundär) (Lägg till ddk-
   ```Exempel: Säkerhetspolitik```
 
 ##### Allmänt ämnesord med underindelning   
+Skapa Sammansatt term som lokal entitet. (Plustecknet vid Ämne - Lägg till entitet, välj Skapa lokal entitet, längst ner i sidorutan. Skriv Sammansatt term i rutan Skapa lokal entitet, välj * Sammansatt term).  
+* Ämne/Sammansatt term/Termlista (subject/ComplexSubject/inScheme = ‡2 sao)   
+  Under Termlista, sök fram och länka till entiteten "sao". (Plustecknet vid Termlista - Lägg till termlista, skriv sao i sökrutan Lägg till entitet, välj sao genom att klicka på plustecknet vid Svenska ämnesord (SAO), sao).  
+  ```Exempel: sao```   
 * Ämne/Sammansatt term/Termkomponenter/Allmänt ämnesord  
  (subject/ComplexSubject/termComponentList = 650 -/7 ‡a)      
-  Skapa Sammansatt term som lokal entitet. Lägg till Termkomponenter. Sök fram och länka till entiteten för det allmänna ämnesordet.     
+  Under Termkomponenter, sök fram och länka till entiteten för det allmänna ämnesordet. (Plustecknet vid Termkomponenter - Lägg till entitet, välj typ Allmänt ämnesord, skriv sökbegrepp för ämnesordet i sökrutan Lägg till entitet, välj entitet genom att klicka på plustecknet vid entiteten - Lägg till.)      
   ```Exempel: Varumärken```    
 * Ämne/Sammansatt term/Termkomponenter/Underindelning för allmänt ämnesord  
  (subject/ComplexSubject/termComponentList = 650 ‡x)   
-  Sök fram och länka till entiteten för underindelningen.    
+  Under Termkomponenter, sök fram och länka till entiteten för det allmänna ämnesordet. (Plustecknet vid Termkomponenter - Lägg till entitet, välj typ Underindelning för allmänt ämnesord, skriv sökbegrepp för ämnesordet i sökrutan Lägg till entitet, välj entitet genom att klicka på plustecknet vid entiteten - Lägg till.)  
   ```Exempel: juridik och lagstiftning```   
-* Ämne/Sammansatt term/Termlista (subject/ComplexSubject/inScheme = ‡2 sao)   
-  Lägg till Termlista. Sök fram och länka till entiteten "sao".    
-  ```Exempel: sao```   
+
   
 ##### Geografiska ämnesord  
 * Geografiskt ämnesord (subject = 651 -/4 ‡a)  
