@@ -206,16 +206,29 @@ Vid behov, klicka även på plustecknet vid Parallelltitel och lägg till Övrig
   ```Exempel: Tom Marcus ; översättning: Svante Skoglund```
 
 #### Identifikator 
-* Identifikator/Typ (identifiedBy)  
-  Välj från lista.  
+* Identifikator (identifiedBy)  
+  Välj typ från lista.  
   ```Exempel: ISBN```
 * Identifikator/ISBN/Värde (identifiedBy/Isbn/value = 020 ‡a)  
   Skriv in uppgiften.  
   ```Exempel: 9789188107213```
 * Identifikator/Särskiljande tillägg (= Bestämning) (identifiedBy/qualifier = 020 ‡q)  
   Skriv in uppgiften.  
-  ```Exempel: inbunden```
-* Identifikator/Ogiltigt värde (identifiedBy/marc:hiddenValue = 020 ‡z)  
+  ```Exempel: inbunden```  
+ För ogiltiga ISBN, använd Indirekt identifierad av, direkt under Instans. Använd inte Ogiltigt värde under Identifikator/ISBN (identifiedBy/marc:hiddenValue).  
+  
+#### Indirekt identifierad av  
+Ange ogiltiga ISBN här och inte under Identifikator/ISBN/Ogiltigt värde. 
+* Indirekt identifierad av/ISBN (indirectlyIdentifiedBy/ISBN = 020 ‡z)  
+  Välj typ från lista.  
+  ```Exempel: ISBN```
+* Indirekt identifierad av/ISBN/Värde (indirectlyIdentifiedBy/Isbn/value = 020 ‡a)  
+  Skriv in uppgiften.  
+  ```Exempel: 9789188107213```
+* Indirekt identifierad av/Särskiljande tillägg (= Bestämning) (indirectlyIdentifiedBy/qualifier = 020 ‡q)  
+  Skriv in uppgiften.  
+  ```Exempel: inbunden```  
+* Indirekt identifierad av/Ogiltigt värde (indirectlyIdentifiedBy/marc:hiddenValue = 020 ‡z)  
   Skriv in uppgiften.  
   ```Exempel: 97891881072```
   
