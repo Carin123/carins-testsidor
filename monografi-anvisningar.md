@@ -66,7 +66,7 @@ I vissa fall fungerar det ännu inte fullt ut att lägga till alla uppgifter som
  <br/>```Exempel:```
   * ```NB```
   * ```SAMB```  
- <br/> För att lägga in flera sigler, använd gärna Duplicera entitet och skriv in nästa sigel i den duplicerade entiteten.   
+ <br/>För att lägga in flera sigler, använd gärna Duplicera entitet och skriv in nästa sigel i den duplicerade entiteten.   
   
 #### Systemnummer  
 * Identifikator/Lokal identifikator/Värde (identifiedBy/SystemNumber/value = 035 ‡a)  
