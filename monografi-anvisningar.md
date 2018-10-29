@@ -79,32 +79,39 @@ För ISBN, se [Identifikator](#identifikator) under Instans.
   
 #### Katalogiseringssprak
 * Katalogiseringsspråk (descriptionLanguage = 040 ‡b)  
+  För att lägga till Katalogiseringsspråk, klicka på plustecknet Lägg till egenskaper under: Post).  
   Länka till entitet.  
   ```Exempel: svenska (swe)```
   
 #### Katalogiseringsregler  
 * Katalogiseringsregler (descriptionConventions = 040 ‡e)  
-  Lägg till Katalogiseringsregler (plustecknet Lägg till egenskaper under: Post).   
+  För att lägga till Katalogiseringsregler, klicka på plustecknet Lägg till egenskaper under: Post).   
   För en post katalogiserad enligt RDA, sök fram och länka till entitet: "i" (= marc/Isbd). När man söker fram entiteten visas den som "i". I en sparad post visas samma entitet som "ISBD-interpunktion finns * i". När man skapar ny post från mall visas entiteten som "marc/Isbd". Alla är rätt.   
   Skapa också lokal entitet under Katalogiseringsregler. Klicka på plustecknet vid Katalogiseringsregler (Lägg till entitet). Välj Skapa lokal entitet (längst ner i sidorutan). Välj Katalogiseringsregler. Skriv in "rda" under Kod.      
   ```Exempel: marc/Isbd (länkad entitet) + lokal entitet, Kod: rda```
   
 #### Beskrivningsniva  
-* Beskrivningsnivå (000/17)  
+* Beskrivningsnivå (encodingLevel = 000/17)  
+För att lägga till Beskrivningsnivå, klicka på plustecknet Lägg till egenskaper under: Post). 
 I samband med att du uppgraderar en Bokinfopost eller annan post med beskrivningsnivå: CIP-post eller Preliminär nivå, ändra beskrivningsnivå till annan nivå, annars kan ändringar skrivas över.  
   Välj från lista.    
   ```Exempel: Biblioteksnivå```
   
 #### Poststatus     
-* Poststatus (000/05)  
+* Poststatus (recordStatus = 000/05)  
   Uppdateras automatiskt. Ändra inte.
   <br/>```Exempel:```
   * ```Ny post```
   * ```Rättad eller reviderad post```
  
-#### Systemteknisk anmarkning
-* Systemteknisk anmärkning/Benämning (599)  
-I samband med att du uppgraderar en Bokinfopost eller annan post med beskrivningsnivå: CIP-post eller Preliminär nivå, ändra beskrivningsnivå till annan nivå, annars kan ändringar skrivas över. Ta därefter bort systemteknisk anmärkning med innehåll: "Maskinellt genererad post. Ändra kod för fullständighetsnivå (leader/17), annars kommer manuellt gjorda ändringar att försvinna."  
+#### Systemteknisk anmarkning  
+* Systemteknisk anmärkning/Benämning (technicalNote/label = 599 ‡a)  
+För att lägga till Systemteknisk anmärkning, klicka på plustecknet Lägg till egenskaper under: Post, välj Systemteknisk anmärkning. Lägg till Systemteknisk anmärkning (plustecknet till vänster vid Systemteknisk anmärkning). Lägg till Benämning (plustecknet till höger vid Systemteknisk anmärkning).  
+Låt anmärkning om postimport ligga kvar.  
+```Exempel: Imported from: z3950cat.bl.uk:9909/BNB03U (Do not remove)```  
+
+I samband med att du uppgraderar en Bokinfopost eller annan post med beskrivningsnivå: CIP-post eller Preliminär nivå, ändra beskrivningsnivå till annan nivå, annars kan ändringar skrivas över. Ta därefter bort systemteknisk anmärkning med innehåll: 
+```Exempel: Maskinellt genererad post. Ändra kod för fullständighetsnivå (leader/17), annars kommer manuellt gjorda ändringar att försvinna.```   
  
 Följande anmärkningar är under arbete och fungerar ännu inte fullt ut:  
  * Katalogisatörens anmärkning  
@@ -121,6 +128,7 @@ Följande anmärkningar är under arbete och fungerar ännu inte fullt ut:
 
 ##### Huvudtitel    
 * Har titel/Titel/Huvudtitel (hasTitle/Title/mainTitle = 245 ‡a)  
+För att lägga till Har titel, klicka på plustecknet Lägg till egenskaper under: Post).  
   Återge huvudtiteln från titelsidan eller annan föredragen källa så som den förekommer i källan. se [Anvisningar för katalogisering - RDA](http://www.kb.se/rdakatalogisering/Anvisningar/Arbetsfloden/Tryckta-monografier/#huvudtitel "Anvisningar för katalogisering - RDA").  
   Skriv in uppgiften.    
  ```Exempel: En arbetsdag i skriftsamhället```  
@@ -138,7 +146,7 @@ Följande anmärkningar är under arbete och fungerar ännu inte fullt ut:
 
 ##### Varianttitel   
 Används till exempel för felaktigheter. Kan specificeras med Typanmärkning.  
-Lägg till Har titel och välj typ Varianttitel.  
+För att lägga till varianttitel, klicka på plustecknet vid Har titel (lägg till titel) och välj typ Varianttitel.  
 * Har titel/Varianttitel/Huvudtitel (hasTitle/VariantTitle/mainTitle = 246 ‡a)   
   Skriv in uppgiften under Huvudtitel.    
   ```Exempel: Hierarchy in organizations```   
@@ -148,7 +156,6 @@ Lägg till Har titel och välj typ Varianttitel.
  Anmärkningstext som i ett sökgränssnitt ska föregå varianttiteln. Används också för att ange typ av varianttitel som inte finns i listan, t ex Titelrubrik. Lägg vid behov till Typanmärkning (plustecknet vid Varianttitel - lägg till egenskaper under: Varianttitel, välj Typanmärkning).  
   Skriv in uppgiften.  
   ```Exempel: Titeln felstavad, korrekt titel:```   
-  
   
 ##### Omslagstitel, Ryggtitel, Rubriktitel  
 * Omslagstitel, Ryggtitel, Rubriktitel etc - lägg till Har titel och välj typ, till exempel Omslagstitel. Ange Huvudtitel, eventuell Övrig titelinformation och Typanmärkning, enligt mönstret för Omslagstitel, se nedan.      
@@ -192,8 +199,8 @@ Ange alternativa titlar här för att öka sökbarheten för titlar som innehål
 ##### Parallelltitel  
 Ange parallelltitel här. Upprepa inte parallelltitel efter Har titel/Titel/Huvudtitel (245 ‡a) med interpunktion.   
 * Har titel/Parallelltitel/Huvudtitel (hasTitle/ParallelTitle/mainTitle = 246 1/1 ‡a)   
-Välj först Har titel, välj sedan typ Parallelltitel. Välj Huvudtitel.    
-Skriv in uppgiften.   
+Välj först Har titel, välj sedan typ Parallelltitel.      
+Skriv in uppgiften under Huvudtitel.     
   ```Exempel: The Great Northern War explained```  
 * Har titel/Parallelltitel/Övrig titelinformation (hasTitle/ParallelTitle/subTitle = 246 1/1 ‡b)   
 Vid behov, klicka även på plustecknet vid Parallelltitel och lägg till Övrig titelinformation (subtitle).  
