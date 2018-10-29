@@ -1,5 +1,8 @@
 TESTAR NÅGRA OLIKA SAKER PÅ DENNA SIDA
 
+MALL SKAPA LOKAL ENTITET
+Under Termkomponenter, skapa Geografiskt ämnesord som lokal entitet. (Plustecknet vid Termkomponenter - Lägg till entitet. I rutan Skapa lokal entitet, längst ner i sidorutan, skriv Geografiskt ämnesord och välj det). Skriv in det geografiska ämnesordet under Föredragen benämning.
+
 2018-10-24:
 
 TAGIT BORT DETTA STYCKE PGA OKLARHETER OM DIVANUMMER:
