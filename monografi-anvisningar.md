@@ -247,13 +247,13 @@ NB inväntar en maskinell ändring av dessa poster och ändrar inte manuellt.
  
  ##### Utgivningsplats
  * Plats/Plats/Benämning (= Utgivningsort) (place/label = 264 -/1 ‡a)  
-  För att lägga till Plats, klicka på Lägg till egenskap under Primär utgvning och välj Plats. Sök inte efter Plats som entitet utan välj istället Skapa lokal entitet, typ Plats. Lägg till Benämning.   
-  Skriv in uppgiften. Klamra vid behov. Plats ska inte länkas som entitet.  
+  För att lägga till Plats, klicka på plustecknet vid Primär utgivning (lägg till egenskap under Primär utgivning) och välj Plats. Sök inte efter Plats som entitet. I rutan Skapa lokal entitet, längst ner i sidorutan till höger, skriv Plats och välj det. I rutan Skapa lokal entitet, längst ner i sidorutan, skriv Geografiskt ämnesord och välj det.  
+  Skriv in uppgiften under Benämning.   
   ```Exempel: [Göteborg]```  
  ##### Utgivarnamn
   * Agent/Agent//Benämning (= Utgivarnamn) (agent/label = 264 -/1 ‡b)  
-  För att lägga till Agent, klicka på Lägg till egenskap under Primär utgivning och välj Agent. Sök inte efter Agent som entitet utan välj istället Skapa lokal entitet, typ Agent. Lägg till Benämning.     
-  Skriv in uppgiften. Klamra vid behov. Utgivarnamn ska inte länkas som entitet.  
+  För att lägga till Agent, klicka på Lägg till egenskap under Primär utgivning och välj Agent. Sök inte efter Agent som entitet. I rutan Skapa lokal entitet, längst ner i sidorutan till höger, skriv Agent och välj det.       
+  Skriv in uppgiften under Benämning.  
   ```Exempel: NoNa```   
   Om flera utgivare ska anges, lägg till Har del (hasPart) under Primär utgivning. Lägg därefter till Utgivning som lokal entitet (klicka på plustecknet vid Har del och klicka sedan på Skapa lokal entitet, längst ner i sidorutan till höger). Välj Utgivning i listan). Använd År och vid behov Datum enligt anvisningar nedan. Upprepa Utgivning som lokal entitet under Har del för nästa utgivare.
   Se [exempel](https://libris.kb.se/katalogisering/w4rp4hlwtr5lctjr#it).
