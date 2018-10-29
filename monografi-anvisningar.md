@@ -61,12 +61,12 @@ I vissa fall fungerar det ännu inte fullt ut att lägga till alla uppgifter som
 * Bibliografi/Bibliotek/Sigel (bibliography/Library/sigel = 042 ‡9)  
   Observera att bibliografikod ska läggas endast av de bibliotek som arbetar med respektive bibliografi. Som exempel läggs bibliografikod NB endast av NB. För äldre tryck finns koderna COL, SOT och SB17 som används av alla bibliotek som katalogiserar äldre tryck. För en fullständig lista över sigler, se [Biblioteksdatabasen](https://biblioteksdatabasen.libris.kb.se/).
   
-  Lägg till Bibliografi (plustecknet Lägg till egenskap under: Post). Klicka på Lägg till bibliotek (plustecknet vid Bibliografi), välj därefter Skapa lokal entitet (längst ner i sidorutan till höger).  
-  Skriv in uppgiften under Sigel.
- <br/>```Exempel:```
+  Lägg till Bibliografi (plustecknet Lägg till egenskap under: Post). Klicka på Lägg till bibliotek (plustecknet vid Bibliografi), välj därefter Skapa lokal entitet (längst ner i sidorutan till höger).   
+  Skriv in uppgiften under Sigel.  
+  För att lägga in flera sigler, använd gärna Duplicera entitet och skriv in nästa sigel i den duplicerade entiteten.   
+ ```Exempel:```
   * ```NB```
   * ```SAMB```  
- För att lägga in flera sigler, använd gärna Duplicera entitet och skriv in nästa sigel i den duplicerade entiteten.   
   
 #### Systemnummer  
 * Identifikator/Lokal identifikator/Värde (identifiedBy/SystemNumber/value = 035 ‡a)  
@@ -76,9 +76,9 @@ I vissa fall fungerar det ännu inte fullt ut att lägga till alla uppgifter som
   ```Exempel: (DIVA)urn:nbn:se:su:diva-83163```  
 För ISBN, se [Identifikator](#identifikator) under Instans.
   
-#### Katalogiseringssprak
+#### Katalogiseringssprak  
 * Katalogiseringsspråk (descriptionLanguage = 040 ‡b)  
-  För att lägga till Katalogiseringsspråk, klicka på plustecknet Lägg till egenskaper under: Post).  
+  För att lägga till Katalogiseringsspråk, klicka på plustecknet Lägg till egenskaper under: Post.  
   Länka till entitet.  
   ```Exempel: svenska (swe)```
   
@@ -91,7 +91,7 @@ För ISBN, se [Identifikator](#identifikator) under Instans.
   
 #### Beskrivningsniva  
 * Beskrivningsnivå (encodingLevel = 000/17)  
-För att lägga till Beskrivningsnivå, klicka på plustecknet Lägg till egenskaper under: Post). 
+För att lägga till Beskrivningsnivå, klicka på plustecknet Lägg till egenskaper under: Post.   
 I samband med att du uppgraderar en Bokinfopost eller annan post med beskrivningsnivå: CIP-post eller Preliminär nivå, ändra beskrivningsnivå till annan nivå, annars kan ändringar skrivas över.  
   Välj från lista.    
   ```Exempel: Biblioteksnivå```
@@ -109,7 +109,7 @@ För att lägga till Systemteknisk anmärkning, klicka på plustecknet Lägg til
 Låt anmärkning om postimport ligga kvar.  
 ```Exempel: Imported from: z3950cat.bl.uk:9909/BNB03U (Do not remove)```  
 
-I samband med att du uppgraderar en Bokinfopost eller annan post med beskrivningsnivå: CIP-post eller Preliminär nivå, ändra beskrivningsnivå till annan nivå, annars kan ändringar skrivas över. Ta därefter bort systemteknisk anmärkning med innehåll: 
+  I samband med att du uppgraderar en Bokinfopost eller annan post med beskrivningsnivå: CIP-post eller Preliminär nivå, ändra beskrivningsnivå till annan nivå, annars kan ändringar skrivas över. Ta därefter bort systemteknisk anmärkning med innehåll:  
 ```Exempel: Maskinellt genererad post. Ändra kod för fullständighetsnivå (leader/17), annars kommer manuellt gjorda ändringar att försvinna.```   
  
 Följande anmärkningar är under arbete och fungerar ännu inte fullt ut:  
@@ -127,7 +127,7 @@ Följande anmärkningar är under arbete och fungerar ännu inte fullt ut:
 
 ##### Huvudtitel    
 * Har titel/Titel/Huvudtitel (hasTitle/Title/mainTitle = 245 ‡a)  
-För att lägga till Har titel, klicka på plustecknet Lägg till egenskaper under: Post).  
+För att lägga till Har titel, klicka på plustecknet Lägg till egenskaper under: Post.  
   Återge huvudtiteln från titelsidan eller annan föredragen källa så som den förekommer i källan. se [Anvisningar för katalogisering - RDA](http://www.kb.se/rdakatalogisering/Anvisningar/Arbetsfloden/Tryckta-monografier/#huvudtitel "Anvisningar för katalogisering - RDA").  
   Skriv in uppgiften.    
  ```Exempel: En arbetsdag i skriftsamhället```  
@@ -255,7 +255,7 @@ NB inväntar en maskinell ändring av dessa poster och ändrar inte manuellt.
   För att lägga till Agent, klicka på Lägg till egenskap under Primär utgivning och välj Agent. Sök inte efter Agent som entitet. I rutan Skapa lokal entitet, längst ner i sidorutan till höger, skriv Agent och välj det.       
   Skriv in uppgiften under Benämning.  
   ```Exempel: NoNa```   
-  Om flera utgivare ska anges, lägg till Har del (hasPart) under Primär utgivning. Skapa Utgivning som lokal entitet (plustecknet vid Har del - Lägg till entitet). I rutan Skapa lokal entitet, längst ner i sidorutan, skriv Utgivning och välj *** Utgivning. Upprepa Utgivning som lokal entitet genom att duplicera entiteten Utgivning.  
+  Om flera utgivare ska anges, lägg till Har del (hasPart) under Primär utgivning. Skapa Utgivning som lokal entitet (plustecknet vid Har del - Lägg till entitet). I rutan Skapa lokal entitet, längst ner i sidorutan till höger, skriv Utgivning och välj *** Utgivning. Upprepa Utgivning som lokal entitet genom att duplicera entiteten Utgivning.  
 Ange Plats/Plats/Benämning och Agent/Agent/Benämning och vid behov Datum inom respektive utgivningsavsnitt (angående Datum, se anvisningar nedan).  
 Land och År ska ligga inom Primär utgivning.  
   Se [exempel](https://libris.kb.se/katalogisering/w4rp4hlwtr5lctjr#it).
@@ -272,15 +272,15 @@ Land och År ska ligga inom Primär utgivning.
   För att ange ett år utan klamrar eller andra tecken, använd endast År.  
   Skriv in uppgiften.
   <br/>```Exempel:```
-   * ```[2017]```
-   * ```[mellan 1863 och 1866?]```
+    * ```[2017]```
+    * ```[mellan 1863 och 1866?]```
   
 * Flera år (flerbandsverk)  
   Använd Startår och Slutår. Egenskaperna ska ligga i avsnittet Primär utgivning. Om årtalen anges utan klammer eller andra tecken utöver fyra positioner, räcker det att ange årtalen här. De exporteras då både som 008 och 264 ‡c. Bindestreck sätts automatiskt. För att få rätt kod i 008/06 (Typ av utgivningsdatum/Utgivningsstatus) vid MARC-export: lägg till Typ av utgivningsdatum (marc:publicationStatus) (klicka på plustecknet vid Primär utgivning) och välj ”Flera årtal (monografisk resurs)".
  <br/>```Exempel:```
- * ```Startår: 1999```
- * ```Slutår: 2017```
- * ```Typ av utgivningsdatum: Flera årtal (monografisk resurs)``` 
+  * ```Startår: 1999```
+  * ```Slutår: 2017```
+  * ```Typ av utgivningsdatum: Flera årtal (monografisk resurs)``` 
 
  Läs mer om [År och Datum](https://kundo.se/org/librisxl/d/falt-for-utgivningsar/)  
  
