@@ -1,8 +1,10 @@
 TESTAR NÅGRA OLIKA SAKER PÅ DENNA SIDA
 
-MALL SKAPA LOKAL ENTITET - BETEENDE 1 (många alternativ i listan)
+För att lägga till Katalogiseringsspråk, klicka på plustecknet Lägg till egenskaper under: Post.
+
+MALL SKAPA LOKAL ENTITET - BETEENDE 1 (många alternativ i listan)  
 Under Termkomponenter, skapa Geografiskt ämnesord som lokal entitet. (Plustecknet vid Termkomponenter - Lägg till entitet. I rutan Skapa lokal entitet, längst ner i sidorutan, skriv Geografiskt ämnesord och välj det). Skriv in det geografiska ämnesordet under Föredragen benämning.  
-MALL SKAPA LOKAL ENTITET - BETEENDE 2 (få alternativ i listan)
+MALL SKAPA LOKAL ENTITET - BETEENDE 2 (få alternativ i listan)  
 Skapa också lokal entitet under Katalogiseringsregler. Klicka på plustecknet vid Katalogiseringsregler (Lägg till entitet). Välj Skapa lokal entitet (längst ner i sidorutan). Välj Katalogiseringsregler. Skriv in "rda" under Kod.
 
 2018-10-24:
