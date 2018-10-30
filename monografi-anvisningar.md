@@ -63,7 +63,6 @@ I vissa fall fungerar det ännu inte fullt ut att lägga till alla uppgifter som
   För att lägga till Bibliografi, klicka på plustecknet Lägg till egenskaper under: Post och välj Bibliografi. Klicka på Lägg till bibliotek (plustecknet vid Bibliografi), välj därefter Skapa lokal entitet (längst ner i sidorutan till höger).   
   Skriv in uppgiften under Sigel.  
   För att lägga in flera sigler, använd gärna Duplicera entitet och skriv in nästa sigel i den duplicerade entiteten.   
-  Skriv in uppgiften.
  <br/>```Exempel:```
   * ```NB```
   * ```SAMB````  
