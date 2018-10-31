@@ -683,8 +683,7 @@ Läs mer:
   ```Exempel: j (= barn- och ungdom, 0-16 år)```  
   
 #### Innehallstyp
-* Innehållstyp/Innehållstyp (contentType/ContentType = 336 ‡b)  
-  Ange de innehållstyp/er som är tillämplig/a på den huvudsakliga delen av resursen. Ange inte för medföljande material av uppenbart underordnad karaktär. Om resursen består av flera likvärdiga delar (kombinerat material), ange innehållstyp/er för alla delarna.  
+* Innehållstyp/Innehållstyp (contentType/ContentType = 336 ‡b)   
   Länka till entitet.  
   ```Exempel: text (txt)```  
   För att lägga till ytterligare innehållstyp, till exempel "sti" = stillbild för en bilderbok med både text och bild, lägg till Har del under Instans av Verk, från plustecknet vid Text (Lägg till egenskaper under: Text). Skapa därefter Verk som lokal entitet genom att klicka på plustecknet vid Har del (Lägg till resurs). Välj Skapa lokal entitet och välj därefter ++ Verk i listan. Lägg därefter till Innehållstyp från plustecknet vid Verk (Lägg till egenskaper under: Verk). Sök fram och länka till entitet.
