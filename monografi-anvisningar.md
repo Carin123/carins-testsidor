@@ -92,6 +92,7 @@ För ISBN, se [Identifikator](#identifikator) under Instans.
 * Beskrivningsnivå (encodingLevel = 000/17)  
 För att lägga till Beskrivningsnivå, klicka på plustecknet Lägg till egenskaper under: Post.   
 I samband med att du uppgraderar en Bokinfopost eller annan post med beskrivningsnivå: CIP-post eller Preliminär nivå, ändra beskrivningsnivå till annan nivå, annars kan ändringar skrivas över.  
+I mallar är Miniminivå förvalt. Ändra vid behov.   
   Välj från lista.    
   ```Exempel: Biblioteksnivå```
   
@@ -255,7 +256,7 @@ NB inväntar en maskinell ändring av dessa poster och ändrar inte manuellt.
   Skriv in uppgiften under Benämning.  
   ```Exempel: NoNa```   
   Om flera utgivare ska anges, lägg till Har del (hasPart) under Primär utgivning. Skapa Utgivning som lokal entitet (plustecknet vid Har del - Lägg till entitet). I rutan Skapa lokal entitet, längst ner i sidorutan till höger, skriv Utgivning och välj *** Utgivning. Upprepa Utgivning som lokal entitet genom att duplicera entiteten Utgivning.  
-Ange Plats/Plats/Benämning och Agent/Agent/Benämning och vid behov Datum inom respektive utgivningsavsnitt (angående Datum, se anvisningar nedan).  
+Ange Plats/Plats/Benämning och Agent/Agent/Benämning och vid behov Datum inom respektive utgivningsavsnitt (angående Datum, se anvisningar nedan). Samtliga utgivare med Plats, Agent och eventuellt Datum ska ligga inom Har del/Utgivning.  
 Land och År ska ligga inom Primär utgivning.  
   Se [exempel](https://libris.kb.se/katalogisering/w4rp4hlwtr5lctjr#it).
   
@@ -470,7 +471,7 @@ Under Instans av Verk/Text, lägg till Relation genom att klicka på plustecknet
 
 #### Sprak 
 * Språk (language = 008/35-37)  
-  Ange det språk som den text du beskriver är skriven på. För en text på svenska, ange svenska. För att ange originalspråk för ett översatt verk, se Originalversion/Verk/Språk.  
+  Ange textens språk. För en text på svenska, ange svenska. För att ange originalspråk för ett översatt verk, se Originalversion/Verk/Språk.  
   Länka till entitet.  
   ```Exempel: svenska (swe)```  
   För att ange att texten är på flera språk, t ex parallelltext, ange ytterligare en språkkod genom att klicka på plustecknet vid Språk (Lägg till språk) och söka fram ytterligare en entitet för ett språk och länka till den.  
@@ -508,7 +509,7 @@ För översättningar i flera led, länka först till det mellanliggande språke
   ```Exempel: Parallelltext på svenska och engelska```  
   Anmärkningen är under arbete och fungerar tyvärr ännu inte.  
   
- #### Medverkan och funktion  
+#### Medverkan och funktion  
 * Medverkan och funktion  
   Läs mer:  
   [Auktoritetsgruppens rekommendationer](https://kundo.se/org/librisxl/d/kbs-auktoritetsgrupp-informerar-jraz/)   
@@ -530,6 +531,43 @@ För en sorterad lista på koder, se Formathandboken för Libris/Voyager: [Funkt
 För en sorterad lista på koder, se Formathandboken för Libris/Voyager: [Funktions- och relationskoder](http://www.kb.se/katalogisering/Formathandboken/Funktionskoder/)    
   ```Exempel: relator/trl (= översättare)```  
   
+#### Genre 
+##### Saogf-termer  
+* Genre/form – saogf-termer (genreForm = 655 -/7 ‡a, ‡2 saogf)  
+  Länka till entitet.  
+  För att söka efter entiteter inom saogf-termer, välj Genre/form i listan över typer, under Genre/form. Trunkera genom att trycka på mellanslagstangenten eller med * i sökrutan. Välj rätt entitet genom att klicka på plustecknet vid entiteten eller på entiteten.    
+ ```Exempel: Självbiografier```  
+  Se [instruktionsfilm](https://www.youtube.com/watch?v=wrqs310Nt0M&list=PLZVkEICvA5-GRT2oJQmLgq_2Pksx6zYPy&index=7)  
+
+##### Litterär genre  
+* Genre/form – litterär genre (genreForm = 008/33)  
+  Länka till entitet.  
+  För att söka efter entiteter inom Litterär genre, välj Litterär genre i listan över typer, under Genre/form. Trunkera genom att trycka på mellanslagstangenten eller med * i sökrutan. Välj rätt entitet genom att klicka på plustecknet vid entiteten eller på entiteten.   
+  ```Exempel: 0 ( = ej skönlitterärt verk)```
+  
+##### Biografiskt material  
+* Genre/form – biografiskt material (genreForm = 008/34)  
+  Länka till entitet.  
+  För att söka efter entiteter inom Biografiskt material, välj Biografiskt material i listan över typer, under Genre/form. Trunkera genom att trycka på mellanslagstangenten eller med * i sökrutan. Välj rätt entitet genom att klicka på plustecknet vid entiteten eller på entiteten.     
+  ```Exempel: a (= självbiografi)```  
+    
+ ##### Festskrift     
+* Genre/form – festskrift (genreForm = 008/30)  
+  Länka till entitet.  
+  För att söka efter entiteter inom Festskrift, välj Festskrift i listan över typer, under Genre/form. Trunkera genom att trycka på mellanslagstangenten eller med * i sökrutan. Välj rätt entitet genom att klicka på plustecknet vid entiteten eller på entiteten.    
+  ```Exempel: Ja, resursen är en festskrift```    
+    
+ ##### Konferenspublikation       
+* Genre/form – konferenspublikation (genreForm = 008/29)  
+  Länka till entitet.  
+  För att söka efter entiteter inom Konferenspublikation, välj Konferenspublikation i listan över typer, under Genre/form. Trunkera genom att trycka på mellanslagstangenten eller med * i sökrutan. Välj rätt entitet genom att klicka på plustecknet vid entiteten eller på entiteten.      
+  ```Exempel: Ja, resursen härrör från konferens```   
+     
+##### Akademisk avhandling      
+* Genre/form – akademisk avhandling (genreForm = 008/24-27)  
+  Länka till entitet. För att söka efter entiteten Akademisk avhandling, välj Innehåll 1, Innehåll 3, Innehåll 2, i listan över typer, under Genre/form.  Skriv "avhandling" i sökrutan. Välj rätt entitet genom att klicka på plustecknet vid entiteten eller på entiteten.    
+  ```Exempel: Akademisk avhandling```     
+
 #### Klassifikation 
 * DDK-klassifikation  
   För att lägga till DDK-klassifikation:  
@@ -637,44 +675,7 @@ Länka till entitet. Börja alltid med att söka efter om agenten redan finns. V
 ```Exempel: Svenska Röda korset```  
 Läs mer:  
   [Auktoritetsgruppens rekommendationer](https://kundo.se/org/librisxl/d/kbs-auktoritetsgrupp-informerar-jraz/)   
-  [Lägga till Agent - Organisation](https://libris.kb.se/katalogisering/help/workflow-agent-org-instance)  
-    
-#### Genre 
-##### Saogf-termer  
-* Genre/form – saogf-termer (genreForm = 655 -/7 ‡a, ‡2 saogf)  
-  Länka till entitet.  
-  För att söka efter entiteter inom saogf-termer, välj Genre/form i listan över typer, under Genre/form. Trunkera genom att trycka på mellanslagstangenten eller med * i sökrutan. Välj rätt entitet genom att klicka på plustecknet vid entiteten eller på entiteten.    
- ```Exempel: Självbiografier```  
-  Se [instruktionsfilm](https://www.youtube.com/watch?v=wrqs310Nt0M&list=PLZVkEICvA5-GRT2oJQmLgq_2Pksx6zYPy&index=7)  
-
-##### Litterär genre  
-* Genre/form – litterär genre (genreForm = 008/33)  
-  Länka till entitet.  
-  För att söka efter entiteter inom Litterär genre, välj Litterär genre i listan över typer, under Genre/form. Trunkera genom att trycka på mellanslagstangenten eller med * i sökrutan. Välj rätt entitet genom att klicka på plustecknet vid entiteten eller på entiteten.   
-  ```Exempel: 0 ( = ej skönlitterärt verk)```
-  
-##### Biografiskt material  
-* Genre/form – biografiskt material (genreForm = 008/34)  
-  Länka till entitet.  
-  För att söka efter entiteter inom Biografiskt material, välj Biografiskt material i listan över typer, under Genre/form. Trunkera genom att trycka på mellanslagstangenten eller med * i sökrutan. Välj rätt entitet genom att klicka på plustecknet vid entiteten eller på entiteten.     
-  ```Exempel: a (= självbiografi)```  
-    
- ##### Festskrift     
-* Genre/form – festskrift (genreForm = 008/30)  
-  Länka till entitet.  
-  För att söka efter entiteter inom Festskrift, välj Festskrift i listan över typer, under Genre/form. Trunkera genom att trycka på mellanslagstangenten eller med * i sökrutan. Välj rätt entitet genom att klicka på plustecknet vid entiteten eller på entiteten.    
-  ```Exempel: Ja, resursen är en festskrift```    
-    
- ##### Konferenspublikation       
-* Genre/form – konferenspublikation (genreForm = 008/29)  
-  Länka till entitet.  
-  För att söka efter entiteter inom Konferenspublikation, välj Konferenspublikation i listan över typer, under Genre/form. Trunkera genom att trycka på mellanslagstangenten eller med * i sökrutan. Välj rätt entitet genom att klicka på plustecknet vid entiteten eller på entiteten.      
-  ```Exempel: Ja, resursen härrör från konferens```   
-     
-##### Akademisk avhandling      
-* Genre/form – akademisk avhandling (genreForm = 008/24-27)  
-  Länka till entitet. För att söka efter entiteten Akademisk avhandling, välj Innehåll 1, Innehåll 3, Innehåll 2, i listan över typer, under Genre/form.  Skriv "avhandling" i sökrutan. Välj rätt entitet genom att klicka på plustecknet vid entiteten eller på entiteten.    
-  ```Exempel: Akademisk avhandling```     
+  [Lägga till Agent - Organisation](https://libris.kb.se/katalogisering/help/workflow-agent-org-instance)       
  
 #### Målgrupp     
  * Målgrupp (intendedAudience = 008/22)  
