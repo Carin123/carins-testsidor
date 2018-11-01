@@ -22,7 +22,7 @@ I vissa fall fungerar det ännu inte fullt ut att lägga till alla uppgifter som
 | [Katalogiseringsregler](#katalogiseringsregler) | [Tillverkning](#tillverkning) | [Innehållstyp](#innehallstyp) |
 | [Beskrivningsnivå](#beskrivningsniva) | [Copyrightår](#copyrightar) | [Anmärkning om akademisk avhandling](#anmarkning-om-akademisk-avhandling) |
 | [Bibliografikod](#bibliografikod) | [Omfång](#omfang) | |
-| [Systemteknisk anmärkning](#systemteknisk-anmarkning) | [Illustrationer](#illustrationer) | |
+| [Systemteknisk anmärkning](#systemteknisk-anmarkning) | [Övriga fysiska detaljer](#ovriga-fysiska-detaljer) | |
 | | [Mått](#matt) | |
 | | [Bilagor](#bilagor) | |
 | | [Medietyp](#medietyp) | |
@@ -316,7 +316,7 @@ Land och År ska ligga inom Primär utgivning.
   Skriv in uppgiften.  
   ```Exempel: 319 sidor```  
   
-#### Illustrationer    
+#### Ovriga fysiska detaljer   
 * Övriga fysiska detaljer (other physical details = 300 ‡b)  
   Skriv in uppgiften.  
   ```Exempel: illustrationer```
@@ -436,7 +436,7 @@ För översättningar och för verk som har givits ut under olika titlar på sam
 
 ##### Verkets titel
 * Har titel/Titel/Huvudtitel (hasTitle/Title/mainTitle = 240 1/0 ‡a)  
-  "Originaltitel" för ett verk med primär medverkande anger du här.  
+  "Originaltitel" för ett verk med primär medverkan anger du här.  
   Skriv in uppgiften.  
   ```Exempel: Soldier spy```  
   För en titel som börjar med bestämd eller obestämd artikel, ska artikeln fileras bort. Ange fileringsvärde genom att lägga till fileringsvärde och ange en siffra.  
@@ -676,7 +676,7 @@ Läs mer:
   Länka till entitet. För att söka efter entiteten Akademisk avhandling, välj Innehåll 1, Innehåll 3, Innehåll 2, i listan över typer, under Genre/form.  Skriv "avhandling" i sökrutan. Välj rätt entitet genom att klicka på plustecknet vid entiteten eller på entiteten.    
   ```Exempel: Akademisk avhandling```     
  
-##### Målgrupp     
+#### Målgrupp     
  * Målgrupp (intendedAudience = 008/22)  
   Länka till entitet.  
   Trunkera genom att trycka på mellanslagstangenten eller med * i sökrutan. Välj rätt entitet genom att klicka på plustecknet vid entiteten eller på entiteten.    
