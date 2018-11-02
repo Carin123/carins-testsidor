@@ -393,7 +393,7 @@ Lägg till Medverkan och funktion under Verk (inom Seriemedlemskap) genom att kl
 #### Anmarkning
 * Anmärkning/Anmärkning/Benämning (hasNote/Note/label = 500 ‡a)   
   Skriv in allmänna anmärkningar här.    
-  Skriv in uppgiften.  
+  Skriv in uppgiften under Benämning.  
    
 #### Innehallsanmarkning  
 * Har innehållsförteckning/Innehållsförteckning/Benämning (tableofContents = 505 8/_)  
