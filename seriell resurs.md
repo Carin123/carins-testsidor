@@ -240,7 +240,7 @@ Land, År och eventuellt Datum  ska ligga inom Primär utgivning.
 #### Anmarkning
 * Anmärkning/Anmärkning/Benämning (hasNote/Note/label = 500 ‡a)  
   Skriv in uppgiften.  
-  Skriv in allmänna anmärkningar här. Anmärkningar om specifika fält skrivs in i Kommentar (note) under respektive fält, när sådana specifika anmärkningsfält finns. 
+  Skriv in allmänna anmärkningar här.  
  
 #### Annat bararformat
 * Annat bärarformat (otherPhysicalFormat = 776)  
