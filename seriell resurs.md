@@ -12,13 +12,13 @@ Innehåll:
 
 | [Adminmetadata](#adminmetadata) | [Instans](#instans) | [Verk](#verk) | 
 | ------ | ----------- |  ----------- |
-| [Skapad av](#skapad-av) | [Utgivningssätt](#utgivningssatt) | [Verkets titel](#verkets-titel) |
+| [Skapad av](#skapad-av) | [Utgivningssätt](#utgivningssatt) | [Verkets titel](#verkets-titel) | 
 | [Uppgraderad av](#uppgraderad-av) | [Titel](#titel) | [Språk](#sprak) |
 | [Katalogiserande instans](#katalogiserande-instans) | [Upphovsuppgift](#upphovsuppgift) | [Alfabet](#alfabet) |
 | [Poststatus](#poststatus) | [Identifikator](#identifikator) | [Medverkan och funktion](#medverkan-och-funktion) |
-| [Systemnummer](#systemnummer) | [Upplageuppgift](#upplageuppgift) | [Klassifikation](#klassifikation) |
-| [Katalogiseringsspråk](#katalogiseringssprak) | [Utgivning](#utgivning) | [Ämne](#amne) |
-| [Katalogiseringsregler](#katalogiseringsregler) | [Frekvens](#frekvens) | [Genre](#genre) |
+| [Systemnummer](#systemnummer) | [Upplageuppgift](#upplageuppgift) | [Genre](#genre) |
+| [Katalogiseringsspråk](#katalogiseringssprak) | [Utgivning](#utgivning) |[Klassifikation](#klassifikation) |
+| [Katalogiseringsregler](#katalogiseringsregler) | [Frekvens](#frekvens) | [Ämne](#amne) |
 | [Beskrivningsnivå](#beskrivningsniva) | [Numrering av seriell resurs](#numrering-av-seriell-resurs) | [Innehållstyp](#innehallstyp) |
 | [Bibliografikod](#bibliografikod) | [Omfång](#omfang) | [Länkfält - relationer under verk](#relationer-under-verk) |
 | [Systemteknisk anmärkning](#systemteknisk-anmarkning) | [Medietyp](#medietyp) | |
@@ -280,6 +280,13 @@ Skriv in uppgiften.
 För en sorterad lista på koder, se Formathandboken för Libris/Voyager: [Funktions- och relationskoder](http://www.kb.se/katalogisering/Formathandboken/Funktionskoder/)    
   ```Exempel:  Utgivare (pbl = publisher)```
   
+#### Genre 
+##### Typ av fortlöpande resurs  
+* Genre/form - typ av fortlöpande resurs (genreForm/marc:Periodical = 008/21)  
+  Länka till entitet.  
+  För att söka efter entiteter inom Typ av fortlöpande resurs, välj Typ av fortlöpande resurs i listan över typer, under Genre/form. Trunkera genom att trycka på mellanslagstangenten eller med * i sökrutan. Välj rätt entitet genom att klicka på Lägg till.  
+  ```Exempel: p (Tidskrift = marc/Periodical)```  
+
 #### Klassifikation  
 * DDK-klassifikation  
   För att lägga till DDK-klassifikation:  
@@ -336,17 +343,18 @@ Klicka sedan på plustecknet vid DDK-klassifikation (sekundär) (Lägg till ddk-
   ```Exempel: Kammarmusik```  
    
 ##### Allmänt ämnesord med underindelning   
+Länka i första hand till färdiga sammansatta termer som entiteter. I övriga fall, skapa Sammansatt term som lokal entitet. (Plustecknet vid Ämne - Lägg till entitet, välj Skapa lokal entitet, längst ner i sidorutan till höger. Skriv Sammansatt term i rutan Skapa lokal entitet, välj * Sammansatt term).  
+* Ämne/Sammansatt term/Termlista (subject/ComplexSubject/inScheme = ‡2 sao)   
+  Under Termlista, sök fram och länka till entiteten "sao". (Plustecknet vid Termlista - Lägg till termlista, skriv sao i sökrutan Lägg till entitet, välj sao genom att klicka på plustecknet vid Svenska ämnesord (SAO), sao).  
+  ```Exempel: sao```   
 * Ämne/Sammansatt term/Termkomponenter/Allmänt ämnesord  
  (subject/ComplexSubject/termComponentList = 650 -/7 ‡a)      
-  Skapa Sammansatt term som lokal entitet. Lägg till Termkomponenter. Sök fram och länka till entiteten för det allmänna ämnesordet.     
+  Under Termkomponenter, sök fram och länka till entiteten för det allmänna ämnesordet. (Plustecknet vid Termkomponenter - Lägg till entitet, välj typ Allmänt ämnesord, skriv sökbegrepp för ämnesordet i sökrutan Lägg till entitet, välj entitet genom att klicka på plustecknet vid entiteten - Lägg till.)      
   ```Exempel: Varumärken```    
 * Ämne/Sammansatt term/Termkomponenter/Underindelning för allmänt ämnesord  
  (subject/ComplexSubject/termComponentList = 650 ‡x)   
-  Sök fram och länka till entiteten för underindelningen.    
+  Under Termkomponenter, sök fram och länka till entiteten för det allmänna ämnesordet. (Plustecknet vid Termkomponenter - Lägg till entitet, välj typ Underindelning för allmänt ämnesord, skriv sökbegrepp för ämnesordet i sökrutan Lägg till entitet, välj entitet genom att klicka på plustecknet vid entiteten - Lägg till.)  
   ```Exempel: juridik och lagstiftning```   
-* Ämne/Sammansatt term/Termlista (subject/ComplexSubject/inScheme = ‡2 sao)   
-  Lägg till Termlista. Sök fram och länka till entiteten "sao".    
-  ```Exempel: sao```   
   
 ##### Geografiska ämnesord  
 * Geografiskt ämnesord (subject = 651 -/4 ‡a)  
@@ -355,21 +363,18 @@ Klicka sedan på plustecknet vid DDK-klassifikation (sekundär) (Lägg till ddk-
   ```Exempel: Sverige```
   
 ##### Geografiskt ämnesord med geografisk underindelning  
-* Ämne/Sammansatt term/Föredragen benämning (subject/ComplexSubject/prefLabel = 651 -/7 ‡a, ‡z)   
-  Skapa Sammansatt term som lokal entitet. Lägg till Föredragen benämning.  
-  Skriv in uppgiften, med interpunktion.  
-  ```Exempel: Tyskland -- Bonn```  
-* Ämne/Sammansatt term/Föredragen benämning/Termlista (subject/ComplexSubject/prefLabel/inScheme = ‡2 sao)    
-   Lägg till Termlista. Sök fram och länka till entiteten "sao".      
+Skapa Sammansatt term som lokal entitet. (Plustecknet vid Ämne - Lägg till entitet, välj Skapa lokal entitet, längst ner i sidorutan till höger. Skriv Sammansatt term i rutan Skapa lokal entitet, välj * Sammansatt term).  
+* Ämne/Sammansatt term/Termlista (subject/ComplexSubject/inScheme = ‡2 sao)   
+  Under Termlista, sök fram och länka till entiteten "sao". (Plustecknet vid Termlista - Lägg till termlista, skriv sao i sökrutan Lägg till entitet, välj sao genom att klicka på plustecknet vid Svenska ämnesord (SAO), sao).  
   ```Exempel: sao```  
 * Ämne/Sammansatt term/Termkomponenter/Geografiskt ämnesord/Föredragen benämning  
-  (subject/ComplexSubject/termComponentList/Geographic/prefLabel)  
-  Lägg till Termkomponenter. Skapa Geografiskt ämnesord som lokal entitet. Lägg till Föredragen benämning.  
-  Skriv in uppgiften.  
+ (subject/ComplexSubject/termComponentList/Geographic/prefLabel)  
+ Under Termkomponenter, skapa Geografiskt ämnesord som lokal entitet. (Plustecknet vid Termkomponenter - Lägg till entitet. I  rutan Skapa lokal entitet, längst ner i sidorutan till höger, skriv Geografiskt ämnesord och välj det). Skriv in det geografiska ämnesordet under Föredragen benämning.    
   ```Exempel: Tyskland```  
-  Skapa Geografiskt ämnesord som lokal entitet igen. Lägg till Föredragen benämning.
-  Skriv in uppgiften.  
-   ```Exempel: Bonn``` 
+* Ämne/Sammansatt term/Termkomponenter/Underindelning för geografisk term/Föredragen benämning   
+ (subject/ComplexSubject/termComponentList/GeographicSubdivision/prefLabel)  
+  Under Termkomponenter, skapa Underindelning för geografisk term som lokal entitet. (Plustecknet vid Termkomponenter - Lägg till entitet. I rutan Skapa lokal entitet, längst ner i sidorutan till höger, skriv Underindelning för geografisk term och välj det). Skriv in termen för den geografiska underindelningen under Föredragen benämning.  
+  ```Exempel: Bonn``` 
    
 ##### Ämnesord Organisation  
 * Ämne/Agent/Organisation (subject/agent/Organization = 610 2/- ‡a)  
@@ -396,6 +401,7 @@ Läs mer:
 * Språk (language = 008/35-37)  
   Länka till entitet.  
   ```Exempel: svenska (swe)```  
+   För att ange att texten är på flera språk, t ex parallelltext, ange ytterligare en språkkod genom att klicka på plustecknet vid Språk (Lägg till språk) och söka fram ytterligare en entitet för ett språk och länka till den.  
   
 #### Alfabet    
 * Alfabet/skriftart (marc:alphabet = 008/33)   
@@ -410,19 +416,19 @@ Läs mer:
 #### Relationer under verk
 * Länkfält/relationer under verk: Fortsätter (780 0/0), Fortsättes av (785 0/0), Ersätter (780 0/2), med flera -   
   konstrueras enligt följande mönster. Ange relationen, skapa verket som lokal instans och skapa en lokal instans av verket, ange egenskaper för instansen, till exempel titel och identifikator, se nedan.  
-  Under Instans av Verk, lägg till fält genom att klicka på plustecknet vid Instans av Verk/Text (Lägg till fält under: Text). Välj till exempel Fortsätter (eller Fortsättes av eller annan relation) och lägg till det. Skapa ett verk som lokal entitet genom att klicka på plustecknet vid Fortsätter. Klicka på Skapa lokal entitet. Välj Verk i listan. Skapa en instans av verket genom att klicka på plustecknet vid Verk (Lägg till fält under: Verk) och lägg till Har instans. Klicka på plustecknet vid Har instans och skapa instansen som lokal entitet (klicka på Skapa lokal entitet och välj Instans). 
+  Under Instans av Verk, lägg till egenskaper genom att klicka på plustecknet vid Instans av Verk/Text (Lägg till egenskaper under: Text). Välj till exempel Fortsätter (eller Fortsättes av eller annan relation) och lägg till det. Skapa ett verk som lokal entitet genom att klicka på plustecknet vid Fortsätter. Klicka på Skapa lokal entitet. Välj Verk i listan. Skapa en instans av verket genom att klicka på plustecknet vid Verk (Lägg till egenskaper under: Verk) och lägg till Har instans. Klicka på plustecknet vid Har instans och skapa instansen som lokal entitet (klicka på Skapa lokal entitet och välj Instans). 
   
 * Fortsätter/Verk/Har instans/Instans/Har titel/Titel (780 0/0 ‡t)  
   För att lägga till titel under Fortsätter, Fortsättes av, Ersätter, med flera:  
-  Klicka på plustecknet vid Instans (Lägg till fält under: Instans) och lägg till Har titel. Välj Titel. Ta bort Övrig titelinformation. Under Huvudtitel, skriv in uppgiften.  
+  Klicka på plustecknet vid Instans (Lägg till egenskaper under: Instans) och lägg till Har titel. Välj Titel. Ta bort Övrig titelinformation. Under Huvudtitel, skriv in uppgiften.  
 ```Exempel: Aktuellt magazin```  
   
 * Fortsätter/Verk/Har instans/Instans/Identifikator/ISSN/Värde (780 0/0 ‡x)  
- För att lägga till ISSN för den resurs man länkar till, under Fortsätter, Fortsättes av, Ersätter, med flera, klicka på plustecknet vid Instans (lägg till fält under: Instans) och lägg till Identifikator (identifiedBy). Välj typ ISSN. Skriv in ISSN under Värde.  
+ För att lägga till ISSN för den resurs man länkar till, under Fortsätter, Fortsättes av, Ersätter, med flera, klicka på plustecknet vid Instans (lägg till egenskaoer under: Instans) och lägg till Identifikator (identifiedBy). Välj typ ISSN. Skriv in ISSN under Värde.  
 ```Exempel: 1402-1250```
 
 * Fortsätter/Verk/Har instans/Instans/Beskriven av/Post/Kontrollnummer (780 0/0 ‡w)  
-  Beskriven av/Post/Kontrollnummer, motsvarande delfält w, är för närvarande låst för redigering. Det går därmed inte att lägga till fältet eller redigera det i befintliga beskrivningar.  
+  Beskriven av/Post/Kontrollnummer, motsvarande delfält w, är för närvarande låst för redigering. Det går därmed inte att lägga till egenskapen eller redigera den i befintliga beskrivningar.  
 
   Hör följer ett urval av de relationer som kan läggas till, enligt samma mönster som Fortsätter (se ovan), under Instans av Verk:  
   
