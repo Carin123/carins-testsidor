@@ -112,7 +112,7 @@ Följande anmärkningar är under arbete och fungerar ännu inte fullt ut:
 * Har titel/Titel/Huvudtitel (hasTitle/Title/mainTitle = 245 ‡a)  
 För att lägga till Har titel, klicka på plustecknet Lägg till egenskaper under: Post.  
   Återge huvudtiteln från titelsidan eller annan föredragen källa så som den förekommer i källan. se [Anvisningar för katalogisering - RDA](http://www.kb.se/rdakatalogisering/Anvisningar/Arbetsfloden/Tryckta-monografier/#huvudtitel "Anvisningar för katalogisering - RDA").  
-  Skriv in uppgiften.    
+  Skriv in uppgiften under Huvudtitel.      
   ```Exempel: Kammarmusik-nytt```  
   För en titel som börjar med bestämd eller obestämd artikel, ska artikeln fileras bort. Ange fileringsvärde genom att lägga till fileringsvärde (plustecknet vid Titel - Lägg till egenskaper under: Titel) och ange en siffra.  
  ```Exempel: Huvudtitel: Le bulletin France-Suède, fileringsvärde: 3```  
@@ -121,7 +121,7 @@ För att lägga till Har titel, klicka på plustecknet Lägg till egenskaper und
   
 ##### Övrig titelinformation (undertitel)
 * Har titel/Titel/Övrig titelinformation (= Undertitel) (hasTitle/Title/subtitle = 245 ‡b)  
-  Skriv in uppgiften. Om det finns flera undertitlar, skriv in dessa efter varandra i samma fält, åtskilda av mellanslag, kolon, mellanslag.   
+  Skriv in uppgiften under Övrig titelinformation. Om det finns flera undertitlar, skriv in dessa efter varandra i samma fält, åtskilda av mellanslag, kolon, mellanslag.   
   ```Exempel: Kammarmusikförbundets tidskrift```
   
 ##### Varianttitel   
@@ -139,13 +139,13 @@ För att lägga till varianttitel, klicka på plustecknet vid Har titel (lägg t
 ##### Akronymer/Del av huvudtitel  
 Används för akronymer som är en del av huvudtiteln.  
 * Har titel/Del av huvudtitel/Huvudtitel (hasTitle/Titleportion/mainTitle = 245 0/- ‡a)  
-  Skriv in uppgiften.  
+  Skriv in uppgiften under Huvudtitel.  
   ```Exempel: ACMO```  
   
  ##### Tidsbestämd titelvariant   
   Avser tidsbestämda titelvariationer. Volym/häfte och/eller tidsintervall preciseras under Täckning eller tillkomst (se nedan).   
 * Har titel/Titelvariant/Huvudtitel (hasTitle/DistinctiveTitle/mainTitle = 246 ‡a)  
-  Skriv in uppgiften.  
+  Skriv in uppgiften under Huvudtitel.  
   ```Exempel: Hushållningssällskapets magasin```  
   
 * Har titel/Titelvariant/Täckning eller tillkomst (hasTitle/DistinctiveTitle/coverage = 246 #f)  
@@ -223,8 +223,8 @@ Land, År och eventuellt Datum  ska ligga inom Primär utgivning.
     
 #### Numrering av seriell resurs  
 * Har numrering av seriell resurs/Numrering av seriell resurs/Benämning  
-  (hasNumberingofSerials/NumberingofSerials/label = 362 0/- ‡a)   
-  Skriv in uppgiften.  
+  (hasNumberingofSerials/NumberingofSerials/label = 362 0/- ‡a)  
+  Skriv in uppgiften under Benämning.    
   ```Exempel: 2011: 4-2013: 2```
 
 #### Medietyp
@@ -239,12 +239,12 @@ Land, År och eventuellt Datum  ska ligga inom Primär utgivning.
 
 #### Anmarkning
 * Anmärkning/Anmärkning/Benämning (hasNote/Note/label = 500 ‡a)  
-  Skriv in uppgiften.  
   Skriv in allmänna anmärkningar här.  
+  Skriv in uppgiften under Benämning.  
  
 #### Annat bararformat
 * Annat bärarformat (otherPhysicalFormat = 776)  
-För att länka till en utgåva i annat format, till exempel en elektronisk utgåva, lägg till Annat bärarformat (Lägg till egenskaper, välj Annat bärarformat). Sök upp och länka till instansen. Klicka på plustecknet vid Annat bärarformat (Lägg till instans). I sidorutan under Lägg till entitet/Instans, skriv in id eller annat sökbegrepp. Välj instansen genom att klicka på plustecknet vid instansen eller på instansens titel. Om instansen som länken går till har identifikator (ISBN), skapas i marcexporten 776 #t (Titel) och #z (Identifikator). I webbsök ger detta en länk i högermenyn under rubriken Sök vidare/Andra versioner.   
+För att länka till en utgåva i annat format, till exempel en elektronisk utgåva, lägg till Annat bärarformat (Lägg till egenskaper, välj Annat bärarformat). Sök upp och länka till instansen. Klicka på plustecknet vid Annat bärarformat (Lägg till instans). I sidorutan under Lägg till entitet/Instans, skriv in id eller annat sökbegrepp. Välj instansen genom att klicka på plustecknet vid instansen eller på instansens titel. Om instansen som länken går till har identifikator (ISSN), skapas i marcexporten 776 #t (Titel) och #x (Identifikator). I webbsök ger detta en länk i högermenyn under rubriken Sök vidare/Andra versioner.   
 * Annat bärarformat/Typanmärkning (776 ‡i)  
   Typanmärkning i samband med Annat bärarformat kan för närvarande inte läggas till.  
 * Annat bärarformat/Beskriven av/Post/Kontrollnummer (776 ‡w)  
@@ -259,7 +259,7 @@ Läs mer om [Verk och Instans](https://librisbloggen.kb.se/2018/05/30/verk-och-i
 * Uttryck av/Verk/Har titel/Huvudtitel (hasExpression/Work/hasTitle/mainTitle = 130 0/- ‡a)  
   Under Instans av Verk/Text, lägg till Uttryck av (plustecknet vid Instans av Verk/Text - Lägg till egenskaper under: Text, välj Uttryck av).  
 Skapa verk som lokal entitet (plustecknet vid Uttryck av - Lägg till verk, välj Skapa lokal entitet, längst ner i sidorutan till höger), skriv "verk" i rutan Skapa lokal entitet. Klicka på Verk. Det läggs till under Uttryck av. Klicka på plustecknet vid Verk (Lägg till egenskaper under: Verk) och välj Har titel. Välj Titel. Ta bort Övrig titelinformation.    
-Skriv in uppgiften.  
+Skriv in uppgiften under Huvudtitel.  
 ```Exempel:  Architecture (Paris. 1888)```  
   
 * Behandling vid titeländring (marc:typeOfEntry = 008/34)  
