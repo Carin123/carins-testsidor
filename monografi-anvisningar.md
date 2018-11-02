@@ -448,7 +448,7 @@ För översättningar och för verk som har givits ut under olika titlar på sam
  "Originaltitel" för ett verk utan primär medverkande anger du här.  
 Under Instans av Verk/Text, lägg till Uttryck av (plustecknet vid Instans av Verk/Text - Lägg till egenskaper under: Text, välj Uttryck av).  
 Skapa verk som lokal entitet (plustecknet vid Uttryck av - Lägg till verk, välj Skapa lokal entitet, längst ner i sidorutan till höger), skriv "verk" i rutan Skapa lokal entitet. Klicka på Verk. Det läggs till under Uttryck av. Klicka på plustecknet vid Verk (Lägg till egenskaper under: Verk) och välj Har titel. Välj Titel. Ta bort Övrig titelinformation.    
-Skriv in uppgiften.  
+Skriv in uppgiften under Huvudtitel.  
 ```Exempel: Bibeln```
 *	Uttryck av/Verk/Har titel/Titel/Deltitel  
 (expressionOf/Work/hasTitle/Title/partName = 130 ‡p)  
