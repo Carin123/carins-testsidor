@@ -193,8 +193,12 @@ Skriv in uppgiften under Deltitel.
 För att ange Delbeteckning och Deltitel i en annan ordning, till exempel en deltitel som har efterföljande delbeteckningar, upprepa Titeldel och ange Delbeteckning och Deltitel som det passar i det aktuella fallet.  
 
 #### Titel - alternativ stavning
-* Relation/Relation/Entitet/Verk/Har titel/Titel/Huvudtitel (relationship/Relationship/entity/Work/hasTitle/Title/mainTitle = 740)  
+* Relation/Relation/Entitet/Verk/Har titel/Titel/Huvudtitel   
+(relationship/Relationship/entity/Work/hasTitle/Title/mainTitle = 740)  
 Ange alternativa titlar här för att öka sökbarheten för titlar som innehåller exempelvis specialtecken, siffror eller oväntade stavningar av ord.  
+
+  För att lägga till en alternativ sökingång för titeln, klicka på plustecknet Lägg till egenskaper under: Instans och välj Relation. Lägg till Entitet (plustecknet vid Relation - lägg till egenskaper under: Relation). Skapa verk som lokal entitet (plustecknet vid Entitet - lägg till verk). Klicka i rutan Skapa lokal entitet, längst ner i sidorutan till höger, och välj Verk. Lägg till Har titel (plustecknet vid Verk - lägg till egenskaper under: Verk). 
+Skriv in uppgiften under Huvudtitel.  
   
 ##### Parallelltitel  
 Ange parallelltitel här. Upprepa inte parallelltitel efter Har titel/Titel/Huvudtitel (245 ‡a) med interpunktion.   
@@ -412,14 +416,6 @@ För att lägga till målgruppsanmärkning, klicka på plustecknet Lägg till eg
 Skapa Målgrupp som lokal entitet (plustecknet vid Målgrupp - Lägg till målgrupp. I rutan Skapa lokal entitet, längst ner i sidorutan till höger, skriv Målgrupp och välj det). Skriv in uppgiften under Benämning.  
 ```Exempel: För årskurs 1```  
 Observera att kodning av målgrupp, motsvarande 008/22, ska registreras under Instans av Verk/Genre. 
-
-#### Titel - alternativ stavning
-* Relation/Relation/Entitet/Verk/Har titel/Titel/Huvudtitel   
-(relationship/Relationship/entity/Work/hasTitle/Title/mainTitle = 740)  
-Ange alternativa titlar här för att öka sökbarheten för titlar som innehåller exempelvis specialtecken, siffror eller oväntade stavningar av ord.  
-
-  För att lägga till en alternativ sökingång för titeln, klicka på plustecknet Lägg till egenskaper under: Instans och välj Relation. Lägg till Entitet (plustecknet vid Relation - lägg till egenskaper under: Relation). Skapa verk som lokal entitet (plustecknet vid Entitet - lägg till verk). Klicka i rutan Skapa lokal entitet, längst ner i sidorutan till höger, och välj Verk. Lägg till Har titel (plustecknet vid Verk - lägg till egenskaper under: Verk). 
-Skriv in uppgiften under Huvudtitel.  
 
 #### Annat bararformat
 * Annat bärarformat (otherPhysicalFormat = 776)  
