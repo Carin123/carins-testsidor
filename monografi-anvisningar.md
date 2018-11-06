@@ -15,15 +15,10 @@ I vissa fall fungerar det ännu inte fullt ut att lägga till alla uppgifter som
 | ------ | ----------- |  ----------- |
 | [Skapad av](#skapad-av) | [Utgivningssätt](#utgivningssatt) | [Verkets titel](#verkets-titel) |
 | [Uppgraderad  eller importerad av](#uppgraderad-eller-importerad-av) | [Titel](#titel) | [Språk](#sprak) |
-
 |[Entry map](#entry-map)|[Upphovsuppgift](#upphovsuppgift) |[Medverkan och funktion](#medverkan-och-funktion) |
-
-
 | [Katalogiserande instans](#katalogiserande-instans) | [Identifikator](#identifikator) | [Genre](#genre) |
 | [Poststatus](#poststatus) | [Upplageuppgift](#upplageuppgift)||
-
 |[Translitterering](#translitterering)| [Utgivning](#utgivning)| [Klassifikation](#klassifikation) |
-
 | [Systemnummer](#systemnummer) | [Tillverkning](#tillverkning) | [Ämne](#amne)  |
 | [Katalogiseringsspråk](#katalogiseringssprak) | [Copyrightår](#copyrightar) | [Innehållstyp](#innehallstyp) |
 | [Katalogiseringsregler](#katalogiseringsregler) | [Omfång](#omfang) |[Anmärkning om akademisk avhandling](#anmarkning-om-akademisk-avhandling) |
@@ -38,7 +33,6 @@ I vissa fall fungerar det ännu inte fullt ut att lägga till alla uppgifter som
 | | [Målgruppsanmärkning](#malgruppsanmarkning) | |
 | | [Annat bärarformat](#annat-bararformat) | | 
 
-| | | |
 
 
 ### Adminmetadata  
