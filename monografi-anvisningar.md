@@ -14,7 +14,7 @@ I vissa fall fungerar det ännu inte fullt ut att lägga till alla uppgifter som
 | [Adminmetadata](#adminmetadata) | [Instans](#instans) | [Verk](#verk) | 
 | ------ | ----------- |  ----------- |
 | [Skapad av](#skapad-av) | [Utgivningssätt](#utgivningssatt) | [Verkets titel](#verkets-titel) |
-| [Uppgraderad av](#uppgraderad-av) | [Titel](#titel) | [Språk](#sprak) |
+| [Uppgraderad  eller importerad av](#uppgraderad-eller-importerad-av) | [Titel](#titel) | [Språk](#sprak) |
 | [Katalogiserande instans](#katalogiserande-instans) | [Upphovsuppgift](#upphovsuppgift) | [Medverkan och funktion](#medverkan-och-funktion) |
 | [Poststatus](#poststatus) | [Identifikator](#identifikator) | [Genre](#genre) |
 | [Systemnummer](#systemnummer) | [Upplageuppgift](#upplageuppgift) | [Klassifikation](#klassifikation) |
@@ -39,13 +39,19 @@ I vissa fall fungerar det ännu inte fullt ut att lägga till alla uppgifter som
 * Skapad av/Organisation/Namn (descriptionCreator/Organization/name = 040 ‡a)  
   Förval: den sigel som skapat posten. Ska inte ändras.  
   ```Exempel: BOKR```
+  Vid postimport: för närvarande hamnar det importerande bibliotekets sigel här. Detta kommer att ses över.  
   
-#### Uppgraderad av  
+#### Uppgraderad eller importerad av  
 * Uppgraderad eller importerad av/Bibliotek/Sigel (descriptionUpgrader/Library/sigel = 040 ‡d)  
   Om beskrivningsnivån uppgraderas, lägg till denna uppgift. Vid postimport, lägg till uppgiften. Lägg inte till uppgiften när posten endast ändras utan att beskrivningsnivån uppgraderas.  
   För att lägga till Uppgraderad eller importerad av, klicka på plustecknet Lägg till egenskaper under: Post. Klicka på plustecknet till vänster vid Uppgraderad eller importerad av (Lägg till agent). Välj Skapa lokal entitet (längst ner i sidorutan till höger). Välj Bibliotek.  
   Lägg till Sigel (plustecknet Lägg till egenskap under: Bibliotek). Skriv in uppgiften.     
   ```Exempel: S```  
+  Det går för närvarande inte att repetera Uppgraderad eller importerad av. Låt uppgiften vara kvar oförändrad. 
+  
+#### Entry map  
+* Entry map (marc:entryMap = 000/20-23)
+I vissa importerade poster förekommer Entry map. Låt det vara kvar oförändrat.  
 
 #### Katalogiserande instans
 * Katalogiserande instans (marc:catalogingSource = 008/39)  
@@ -69,8 +75,10 @@ I vissa fall fungerar det ännu inte fullt ut att lägga till alla uppgifter som
   
 #### Systemnummer  
 * Identifikator/Lokal identifikator/Värde (identifiedBy/SystemNumber/value = 035 ‡a)  
-  Om ett systemnummer finns i förhandspost, till exempel Bokinfos systemnummer, låt det vara kvar oförändrat.  
-  ```Exempel: (BOKR)9789188107213```  
+  Om ett systemnummer finns i förhandspost, till exempel Bokinfos systemnummer Bokinfos eller ett annat biblioteks eller bibliotekskonsortiums systemnummer, låt det vara kvar oförändrat.  
+  <br/>```Exempel:```
+  * ```(BOKR)9789188107213```
+  * ```(OCoLC)on1042213159```
   För att lägga till ett lokalt systemnummer, till exempel ett DIVA-urn som systemnummer, lägg till Identifikator (plustecknet Lägg till egenskap under: Post, i Adminmetadata). Välj typ Systemnummer, under Lokal identifikator. Lägg till Värde (plustecknet vid Lokal identifikator). Fyll i aktuellt systemnummer.  
   ```Exempel: (DIVA)urn:nbn:se:su:diva-83163```  
 För ISBN, se [Identifikator](#identifikator) under Instans.
@@ -91,7 +99,8 @@ För ISBN, se [Identifikator](#identifikator) under Instans.
 #### Beskrivningsniva  
 * Beskrivningsnivå (encodingLevel = 000/17)  
 För att lägga till Beskrivningsnivå, klicka på plustecknet Lägg till egenskaper under: Post.   
-I samband med att du uppgraderar en Bokinfopost eller annan post med beskrivningsnivå: CIP-post (000/17: 8) eller Preliminär nivå (000/17: 5), ändra beskrivningsnivå till annan nivå, annars kan ändringar skrivas över.  
+I samband med att du uppgraderar en Bokinfopost eller annan post med beskrivningsnivå: CIP-post (000/17: 8) eller Preliminär nivå (000/17: 5), ändra beskrivningsnivå till någon annan nivå (vanligen Miniminivå, Biblioteksnivå eller Nationalbibliografisk nivå), annars kan ändringar skrivas över.  
+Vid postimport kan beskrivningsnivå ibland saknas eller sakna värde. Lägg då dit beskrivningsnivå och välj värde.    
 I mallar är Miniminivå förvalt. Ändra vid behov.  
   Välj från lista.    
   ```Exempel: Biblioteksnivå```
@@ -102,6 +111,10 @@ I mallar är Miniminivå förvalt. Ändra vid behov.
   <br/>```Exempel:```
   * ```Ny post```
   * ```Rättad eller reviderad post```
+  
+#### Translitterering
+* Institution som gjort translitterering (marc:transcribingAgency = 040 ‡c)  
+   Sigel för det bibliotek som translittererat posten till maskinläsbar form. Låt det vara kvar oförändrat.  
  
 #### Systemteknisk anmarkning  
 * Systemteknisk anmärkning/Benämning (technicalNote/label = 599 ‡a)  
@@ -212,6 +225,8 @@ Vid behov, klicka även på plustecknet vid Parallelltitel och lägg till Övrig
   
 #### Upphovsuppgift
 * Upphovsuppgift (responsibilityStatement = 245 ‡c)  
+  För att lägga till upphovsuppgift, klicka på plustecknet Lägg till egenskaper under: Instans.  
+  Vid postimport: i vissa importerade poster saknas upphovsuppgift. Lägg då till det.   
   Skriv in uppgiften.  
   ```Exempel: Tom Marcus ; översättning: Svante Skoglund```
 
