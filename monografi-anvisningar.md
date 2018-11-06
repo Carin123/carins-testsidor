@@ -15,16 +15,21 @@ I vissa fall fungerar det ännu inte fullt ut att lägga till alla uppgifter som
 | ------ | ----------- |  ----------- |
 | [Skapad av](#skapad-av) | [Utgivningssätt](#utgivningssatt) | [Verkets titel](#verkets-titel) |
 | [Uppgraderad  eller importerad av](#uppgraderad-eller-importerad-av) | [Titel](#titel) | [Språk](#sprak) |
-| [Katalogiserande instans](#katalogiserande-instans) | [Upphovsuppgift](#upphovsuppgift) | [Medverkan och funktion](#medverkan-och-funktion) |
-| [Poststatus](#poststatus) | [Identifikator](#identifikator) | [Genre](#genre) |
-| [Systemnummer](#systemnummer) | [Upplageuppgift](#upplageuppgift) | [Klassifikation](#klassifikation) |
-| [Katalogiseringsspråk](#katalogiseringssprak) | [Utgivning](#utgivning) | [Ämne](#amne) |
-| [Katalogiseringsregler](#katalogiseringsregler) | [Tillverkning](#tillverkning) | [Innehållstyp](#innehallstyp) |
-| [Beskrivningsnivå](#beskrivningsniva) | [Copyrightår](#copyrightar) | [Anmärkning om akademisk avhandling](#anmarkning-om-akademisk-avhandling) |
-| [Bibliografikod](#bibliografikod) | [Omfång](#omfang) | |
-| [Systemteknisk anmärkning](#systemteknisk-anmarkning) | [Övriga fysiska detaljer](#ovriga-fysiska-detaljer) | |
-| | [Mått](#matt) | |
-| | [Bilagor](#bilagor) | |
+
+|[Entry map](#entry-map)|[Upphovsuppgift](#upphovsuppgift) |[Medverkan och funktion](#medverkan-och-funktion) |
+
+
+| [Katalogiserande instans](#katalogiserande-instans) | [Identifikator](#identifikator) | [Genre](#genre) |
+| [Poststatus](#poststatus) | [Upplageuppgift](#upplageuppgift)||
+
+|[Translitterering](#translitterering)| [Utgivning](#utgivning)| [Klassifikation](#klassifikation) |
+
+| [Systemnummer](#systemnummer) | [Tillverkning](#tillverkning) | [Ämne](#amne)  |
+| [Katalogiseringsspråk](#katalogiseringssprak) | [Copyrightår](#copyrightar) | [Innehållstyp](#innehallstyp) |
+| [Katalogiseringsregler](#katalogiseringsregler) | [Omfång](#omfang) |[Anmärkning om akademisk avhandling](#anmarkning-om-akademisk-avhandling) |
+| [Beskrivningsnivå](#beskrivningsniva) | [Övriga fysiska detaljer](#ovriga-fysiska-detaljer) |  |
+| [Bibliografikod](#bibliografikod) |[Mått](#matt) | |
+| [Systemteknisk anmärkning](#systemteknisk-anmarkning) | [Bilagor](#bilagor) | |
 | | [Medietyp](#medietyp) | |
 | | [Bärartyp](#barartyp) | |
 |  | [Seriemedlemskap](#seriemedlemskap) | |
@@ -32,6 +37,8 @@ I vissa fall fungerar det ännu inte fullt ut att lägga till alla uppgifter som
 |  | [Innehållsanmärkning](#innehallsanmarkning) | |
 | | [Målgruppsanmärkning](#malgruppsanmarkning) | |
 | | [Annat bärarformat](#annat-bararformat) | | 
+
+| | | |
 
 
 ### Adminmetadata  
