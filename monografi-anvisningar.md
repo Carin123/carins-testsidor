@@ -17,11 +17,11 @@ I vissa fall fungerar det ännu inte fullt ut att lägga till alla uppgifter som
 | [Uppgraderad  eller importerad av](#uppgraderad-eller-importerad-av) | [Titel](#titel) | [Språk](#sprak) |
 |[Entry map](#entry-map)|[Upphovsuppgift](#upphovsuppgift) |[Medverkan och funktion](#medverkan-och-funktion) |
 | [Katalogiserande instans](#katalogiserande-instans) | [Identifikator](#identifikator) | [Genre](#genre) |
-| [Poststatus](#poststatus) | [Upplageuppgift](#upplageuppgift)||
-|[Translitterering](#translitterering)| [Utgivning](#utgivning)| [Klassifikation](#klassifikation) |
-| [Systemnummer](#systemnummer) | [Tillverkning](#tillverkning) | [Ämne](#amne)  |
-| [Katalogiseringsspråk](#katalogiseringssprak) | [Copyrightår](#copyrightar) | [Innehållstyp](#innehallstyp) |
-| [Katalogiseringsregler](#katalogiseringsregler) | [Omfång](#omfang) |[Anmärkning om akademisk avhandling](#anmarkning-om-akademisk-avhandling) |
+| [Poststatus](#poststatus) | [Upplageuppgift](#upplageuppgift)|[Klassifikation](#klassifikation) |
+|[Translitterering](#translitterering)| [Utgivning](#utgivning)| [Ämne](#amne) |
+| [Systemnummer](#systemnummer) | [Tillverkning](#tillverkning) | [Innehållstyp](#innehallstyp) |
+| [Katalogiseringsspråk](#katalogiseringssprak) | [Copyrightår](#copyrightar) | [Anmärkning om akademisk avhandling](#anmarkning-om-akademisk-avhandling) |
+| [Katalogiseringsregler](#katalogiseringsregler) | [Omfång](#omfang)| |
 | [Beskrivningsnivå](#beskrivningsniva) | [Övriga fysiska detaljer](#ovriga-fysiska-detaljer) |  |
 | [Bibliografikod](#bibliografikod) |[Mått](#matt) | |
 | [Systemteknisk anmärkning](#systemteknisk-anmarkning) | [Bilagor](#bilagor) | |
