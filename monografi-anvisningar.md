@@ -50,7 +50,7 @@ I vissa fall fungerar det ännu inte fullt ut att lägga till alla uppgifter som
   Det går för närvarande inte att repetera Uppgraderad eller importerad av. Låt uppgiften vara kvar oförändrad. 
   
 #### Entry map  
-* Entry map (marc:entryMap = 000/20-23)
+* Entry map (marc:entryMap = 000/20-23)  
 I vissa importerade poster förekommer Entry map. Låt det vara kvar oförändrat.  
 
 #### Katalogiserande instans
