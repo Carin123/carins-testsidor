@@ -1,5 +1,33 @@
 TESTAR NÅGRA OLIKA SAKER PÅ DENNA SIDA
 
+| [Adminmetadata](#adminmetadata) | [Instans](#instans) | [Verk](#verk) | 
+| ------ | ----------- |  ----------- |
+| [Skapad av](#skapad-av) | [Utgivningssätt](#utgivningssatt) | [Verkets titel](#verkets-titel) |
+| [Uppgraderad  eller importerad av](#uppgraderad-eller-importerad-av) | [Titel](#titel) | [Språk](#sprak) |
+| [Katalogiserande instans](#katalogiserande-instans) | [Upphovsuppgift](#upphovsuppgift) | [Medverkan och funktion](#medverkan-och-funktion) |
+| [Poststatus](#poststatus) | [Identifikator](#identifikator) | [Genre](#genre) |
+| [Systemnummer](#systemnummer) | [Upplageuppgift](#upplageuppgift) | [Klassifikation](#klassifikation) |
+| [Katalogiseringsspråk](#katalogiseringssprak) | [Utgivning](#utgivning) | [Ämne](#amne) |
+| [Katalogiseringsregler](#katalogiseringsregler) | [Tillverkning](#tillverkning) | [Innehållstyp](#innehallstyp) |
+| [Beskrivningsnivå](#beskrivningsniva) | [Copyrightår](#copyrightar) | [Anmärkning om akademisk avhandling](#anmarkning-om-akademisk-avhandling) |
+| [Bibliografikod](#bibliografikod) | [Omfång](#omfang) | |
+| [Systemteknisk anmärkning](#systemteknisk-anmarkning) | [Övriga fysiska detaljer](#ovriga-fysiska-detaljer) | |
+| | [Mått](#matt) | |
+| | [Bilagor](#bilagor) | |
+| | [Medietyp](#medietyp) | |
+| | [Bärartyp](#barartyp) | |
+|  | [Seriemedlemskap](#seriemedlemskap) | |
+| | [Anmärkning](#anmarkning) | |
+|  | [Innehållsanmärkning](#innehallsanmarkning) | |
+| | [Målgruppsanmärkning](#malgruppsanmarkning) | |
+| | [Annat bärarformat](#annat-bararformat) | | 
+
+
+
+
+
+
+
 För att lägga till Katalogiseringsspråk, klicka på plustecknet Lägg till egenskaper under: Post.
 
 MALL SKAPA LOKAL ENTITET - BETEENDE 1 (många alternativ i listan)  
