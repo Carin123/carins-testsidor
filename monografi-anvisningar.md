@@ -48,6 +48,7 @@ I vissa fall fungerar det ännu inte fullt ut att lägga till alla uppgifter som
   För att lägga till Uppgraderad eller importerad av, klicka på plustecknet Lägg till egenskaper under: Post. Klicka på plustecknet till vänster vid Uppgraderad eller importerad av (Lägg till agent). Välj Skapa lokal entitet (längst ner i sidorutan till höger). Välj Bibliotek.  
   Lägg till Sigel (plustecknet Lägg till egenskap under: Bibliotek). Skriv in uppgiften.     
   ```Exempel: S```  
+  Det går för närvarande inte att repetera Uppgraderad eller importerad av. Låt uppgiften vara kvar oförändrad.  
    
 #### Entry map  
 * Entry map (marc:entryMap = 000/20-23)  
