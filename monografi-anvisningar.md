@@ -34,6 +34,11 @@ I vissa fall fungerar det ännu inte fullt ut att lägga till alla uppgifter som
 
 
 ### Adminmetadata  
+
+#### Kontrollnummer
+* Kontrollnummer (controlNumber = 001)  
+Unikt alfanumeriskt ID i Libris, minimum 14 tecken, maximum 17 tecken. ID:n skapade före övergången till nya Libris innehåller endast siffror. Läs mer om [Nya ID i Libris](https://librisbloggen.kb.se/2018/04/25/nya-id-i-libris/)  
+
 #### Skapad av  
 * Skapad av/Organisation/Namn (descriptionCreator/Organization/name = 040 ‡a)  
   Förval: den sigel som skapat posten. Ska inte ändras.  
@@ -81,6 +86,8 @@ I vissa importerade poster förekommer Entry map. Låt det vara kvar oförändra
   
   För att lägga till ett lokalt systemnummer, till exempel ett DIVA-urn som systemnummer, lägg till Identifikator (plustecknet Lägg till egenskap under: Post, i Adminmetadata). Välj typ Systemnummer, under Lokal identifikator. Lägg till Värde (plustecknet vid Lokal identifikator). Fyll i aktuellt systemnummer.  
   ```Exempel: (DIVA)urn:nbn:se:su:diva-83163```  
+  
+Vid kopiering av post, ta bort den kopierade postens systemnummer.  
 
 För ISBN, se [Identifikator](#identifikator) under Instans.
   
@@ -134,16 +141,19 @@ Följande anmärkningar är under arbete och fungerar ännu inte fullt ut:
 ### Instans
 #### Utgivningssatt
 * Utgivningssätt (issuanceType)  
+För att lägga till Utgivningssätt, klicka på plustecknet Lägg till egenskaper under: Instans. Välj Utgivningssätt.\ 
   Välj från lista.  
   ```Exempel: Monografisk resurs```
   
 #### Medietyp
 * Medietyp (mediaType/Mediatype = 337 ‡b)  
+För att lägga till Medietyp, klicka på plustecknet Lägg till egenskaper under: Instans. Välj Medietyp.\
   Länka till entitet.  
   ```Exempel: n (= omedierad)```
   
 #### Barartyp
 * Bärartyp (carrierType/CarrierType = 338 ‡b)  
+För att lägga till Bärartyp, klicka på plustecknet Lägg till egenskaper under: Instans. Välj Bärartyp.\
   Länka till entitet.  
   ```Exempel: nc (= volym)``
  
@@ -296,6 +306,12 @@ Land, År och eventuellt Datum  ska ligga inom Primär utgivning.
   * ```Startår: 1999```
   * ```Slutår: 2017```
   * ```Typ av utgivningsdatum: Flera årtal (monografisk resurs)``` 
+  
+  * ```Startår: 1753```
+  * ```Slutår: 1756```
+  * ```Datum: [1732?]-1756```
+  * ```Typ av utgivningsdatum: Flera årtal (monografisk resurs)``` 
+  
 
  Läs mer om [År och Datum](https://kundo.se/org/librisxl/d/falt-for-utgivningsar/)  
    
