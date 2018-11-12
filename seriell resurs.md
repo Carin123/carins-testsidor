@@ -60,7 +60,7 @@ Innehåll:
   * ```NB```
   * ```SAMB```
   
-  #### Systemnummer  
+#### Systemnummer  
 * Identifikator/Lokal identifikator/Värde (identifiedBy/SystemNumber/value = 035 ‡a)  
   Om ett systemnummer finns i förhandspost, till exempel Bokinfos systemnummer eller ett annat biblioteks eller bibliotekskonsortiums systemnummer, låt det vara kvar oförändrat.
   <br/>```Exempel:```
