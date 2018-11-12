@@ -19,7 +19,7 @@ I vissa fall fungerar det ännu inte fullt ut att lägga till alla uppgifter som
 | [Katalogiserande instans](#katalogiserande-instans) | [Titel](#titel) | [Genre](#genre) |
 | [Poststatus](#poststatus) | [Upphovsuppgift](#upphovsuppgift) |[Klassifikation](#klassifikation) |
 |[Translitterering](#translitterering)| [Upplageuppgift](#upplageuppgift) | [Ämne](#amne) |
-| [Systemnummer](#systemnummer) | Utgivning](#utgivning) | [Innehållstyp](#innehallstyp) |
+| [Systemnummer](#systemnummer) | [Utgivning](#utgivning) | [Innehållstyp](#innehallstyp) |
 | [Katalogiseringsspråk](#katalogiseringssprak) | [Tillverkning](#tillverkning) | [Anmärkning om akademisk avhandling](#anmarkning-om-akademisk-avhandling) |
 | [Katalogiseringsregler](#katalogiseringsregler) | [Copyrightår](#copyrightar) | |
 | [Beskrivningsnivå](#beskrivningsniva) | [Identifikator](#identifikator) |  |
