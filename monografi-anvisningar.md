@@ -14,25 +14,23 @@ I vissa fall fungerar det ännu inte fullt ut att lägga till alla uppgifter som
 | [Adminmetadata](#adminmetadata) | [Instans](#instans) | [Verk](#verk) | 
 | ------ | ----------- |  ----------- |
 | [Skapad av](#skapad-av) | [Utgivningssätt](#utgivningssatt) | [Verkets titel](#verkets-titel) |
-| [Uppgraderad  eller importerad av](#uppgraderad-eller-importerad-av) | [Titel](#titel) | [Språk](#sprak) |
-|[Entry map](#entry-map)|[Upphovsuppgift](#upphovsuppgift) |[Medverkan och funktion](#medverkan-och-funktion) |
-| [Katalogiserande instans](#katalogiserande-instans) | [Identifikator](#identifikator) | [Genre](#genre) |
-| [Poststatus](#poststatus) | [Upplageuppgift](#upplageuppgift)|[Klassifikation](#klassifikation) |
-|[Translitterering](#translitterering)| [Utgivning](#utgivning)| [Ämne](#amne) |
-| [Systemnummer](#systemnummer) | [Tillverkning](#tillverkning) | [Innehållstyp](#innehallstyp) |
-| [Katalogiseringsspråk](#katalogiseringssprak) | [Copyrightår](#copyrightar) | [Anmärkning om akademisk avhandling](#anmarkning-om-akademisk-avhandling) |
-| [Katalogiseringsregler](#katalogiseringsregler) | [Omfång](#omfang)| |
-| [Beskrivningsnivå](#beskrivningsniva) | [Övriga fysiska detaljer](#ovriga-fysiska-detaljer) |  |
-| [Bibliografikod](#bibliografikod) |[Mått](#matt) | |
-| [Systemteknisk anmärkning](#systemteknisk-anmarkning) | [Bilagor](#bilagor) | |
-| | [Medietyp](#medietyp) | |
-| | [Bärartyp](#barartyp) | |
-|  | [Seriemedlemskap](#seriemedlemskap) | |
-| | [Anmärkning](#anmarkning) | |
-|  | [Innehållsanmärkning](#innehallsanmarkning) | |
-| | [Målgruppsanmärkning](#malgruppsanmarkning) | |
-| | [Annat bärarformat](#annat-bararformat) | | 
-
+| [Uppgraderad  eller importerad av](#uppgraderad-eller-importerad-av) | [Medietyp](#medietyp) | [Medverkan och funktion](#medverkan-och-funktion) |
+|[Entry map](#entry-map)| [Bärartyp](#barartyp) | [Språk](#sprak) |
+| [Katalogiserande instans](#katalogiserande-instans) | [Titel](#titel) | [Genre](#genre) |
+| [Poststatus](#poststatus) | [Upphovsuppgift](#upphovsuppgift) |[Klassifikation](#klassifikation) |
+|[Translitterering](#translitterering)| [Upplageuppgift](#upplageuppgift) | [Ämne](#amne) |
+| [Systemnummer](#systemnummer) | Utgivning](#utgivning) | [Innehållstyp](#innehallstyp) |
+| [Katalogiseringsspråk](#katalogiseringssprak) | [Tillverkning](#tillverkning) | [Anmärkning om akademisk avhandling](#anmarkning-om-akademisk-avhandling) |
+| [Katalogiseringsregler](#katalogiseringsregler) | [Copyrightår](#copyrightar) | |
+| [Beskrivningsnivå](#beskrivningsniva) | [Identifikator](#identifikator) |  |
+| [Bibliografikod](#bibliografikod) | [Omfång](#omfang) | |
+| [Systemteknisk anmärkning](#systemteknisk-anmarkning) | [Övriga fysiska detaljer](#ovriga-fysiska-detaljer) | |
+| | [Mått](#matt) | | 
+| | [Bilagor](#bilagor) | | 
+| | [Seriemedlemskap](#seriemedlemskap) | | 
+| | [Anmärkning](#anmarkning) | | 
+| | [Innehållsanmärkning](#innehallsanmarkning) | |
+| | [Annat bärarformat](#annat-bararformat) | |
 
 
 ### Adminmetadata  
@@ -324,7 +322,7 @@ Land, År och eventuellt Datum  ska ligga inom Primär utgivning.
   Se också [Specialtecken](https://libris.kb.se/katalogisering/help/search-04-special-chars). Du kan t ex söka på teckenuppsättning i “Sök i windows” och öppna programmet, markera och kopiera tecknet och sedan klistra in det.  
   ```Exempel: ©2017``` 
   
-  #### Identifikator 
+#### Identifikator 
 * Identifikator (identifiedBy)  
   Välj typ från lista.  
   ```Exempel: ISBN```
