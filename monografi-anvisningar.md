@@ -139,6 +139,16 @@ Följande anmärkningar är under arbete och fungerar ännu inte fullt ut:
   Välj från lista.  
   ```Exempel: Monografisk resurs```
   
+#### Medietyp
+* Medietyp (mediaType/Mediatype = 337 ‡b)  
+  Länka till entitet.  
+  ```Exempel: n (= omedierad)```
+  
+#### Barartyp
+* Bärartyp (carrierType/CarrierType = 338 ‡b)  
+  Länka till entitet.  
+  ```Exempel: nc (= volym)``
+ 
 #### Titel  
 
 ##### Huvudtitel    
@@ -232,31 +242,6 @@ Vid behov, klicka även på plustecknet vid Parallelltitel och lägg till Övrig
   Vid postimport: i vissa importerade poster saknas upphovsuppgift. Lägg då till det.   
   Skriv in uppgiften.  
   ```Exempel: Tom Marcus ; översättning: Svante Skoglund```
-
-#### Identifikator 
-* Identifikator (identifiedBy)  
-  Välj typ från lista.  
-  ```Exempel: ISBN```
-* Identifikator/ISBN/Värde (identifiedBy/Isbn/value = 020 ‡a)  
-  Skriv in uppgiften.  
-  ```Exempel: 9789188107213```
-* Identifikator/Särskiljande tillägg (= Bestämning) (identifiedBy/qualifier = 020 ‡q)  
-  Skriv in uppgiften.  
-  ```Exempel: inbunden```  
-
-För ogiltiga ISBN, använd Indirekt identifierad av, direkt under Instans. Använd inte Ogiltigt värde under Identifikator/ISBN (identifiedBy/marc:hiddenValue).  
-  
-#### Indirekt identifierad av  
-Ange ogiltiga ISBN här och inte under Identifikator/ISBN/Ogiltigt värde. 
-* Indirekt identifierad av/ISBN (indirectlyIdentifiedBy/ISBN = 020 ‡z)  
-  Välj typ från lista.  
-  ```Exempel: ISBN```
-* Indirekt identifierad av/ISBN/Värde (indirectlyIdentifiedBy/Isbn/value = 020 ‡a)  
-  Skriv in uppgiften.  
-  ```Exempel: 97891881072```
-* Indirekt identifierad av/Särskiljande tillägg (= Bestämning) (indirectlyIdentifiedBy/qualifier = 020 ‡q)  
-  Skriv in uppgiften.  
-  ```Exempel: inbunden```  
   
 #### Upplageuppgift
 * Upplageuppgift (editionStatement = 250 ‡a)  
@@ -338,7 +323,32 @@ Land, År och eventuellt Datum  ska ligga inom Primär utgivning.
   Skriv in uppgiften. För att få fram copyrighttecknet, kopiera från exemplet nedan eller skriv Alt + 184.  
   Se också [Specialtecken](https://libris.kb.se/katalogisering/help/search-04-special-chars). Du kan t ex söka på teckenuppsättning i “Sök i windows” och öppna programmet, markera och kopiera tecknet och sedan klistra in det.  
   ```Exempel: ©2017``` 
-   
+  
+  #### Identifikator 
+* Identifikator (identifiedBy)  
+  Välj typ från lista.  
+  ```Exempel: ISBN```
+* Identifikator/ISBN/Värde (identifiedBy/Isbn/value = 020 ‡a)  
+  Skriv in uppgiften.  
+  ```Exempel: 9789188107213```
+* Identifikator/Särskiljande tillägg (= Bestämning) (identifiedBy/qualifier = 020 ‡q)  
+  Skriv in uppgiften.  
+  ```Exempel: inbunden```  
+
+För ogiltiga ISBN, använd Indirekt identifierad av, direkt under Instans. Använd inte Ogiltigt värde under Identifikator/ISBN (identifiedBy/marc:hiddenValue).  
+  
+#### Indirekt identifierad av  
+Ange ogiltiga ISBN här och inte under Identifikator/ISBN/Ogiltigt värde. 
+* Indirekt identifierad av/ISBN (indirectlyIdentifiedBy/ISBN = 020 ‡z)  
+  Välj typ från lista.  
+  ```Exempel: ISBN```
+* Indirekt identifierad av/ISBN/Värde (indirectlyIdentifiedBy/Isbn/value = 020 ‡a)  
+  Skriv in uppgiften.  
+  ```Exempel: 97891881072```
+* Indirekt identifierad av/Särskiljande tillägg (= Bestämning) (indirectlyIdentifiedBy/qualifier = 020 ‡q)  
+  Skriv in uppgiften.  
+  ```Exempel: inbunden```  
+  
 #### Omfang   
 * Omfång/Omfång/Benämning (extent/Extent/label = 300 ‡a)  
   Skriv in uppgiften.  
@@ -359,16 +369,6 @@ Land, År och eventuellt Datum  ska ligga inom Primär utgivning.
 För att lägga till Tillsammans med, klicka på plustecknet Lägg till egenskaper under: Post och välj Tillsammans med. Skapa Instans som lokal entitet. (Plustecknet vid Tillsammans med, välj Skapa lokal entitet, längst ner i sidorutan till höger, skriv Instans och välj ** Instans.) Lägg till Benämning (plustecknet vid Instans - Lägg till egenskaper under: Instans).    
 Skriv in uppgiften.  
   ```Exempel: 10 mönsterark```  
-
-#### Medietyp
-* Medietyp (mediaType/Mediatype = 337 ‡b)  
-  Länka till entitet.  
-  ```Exempel: n (= omedierad)```
-  
-#### Barartyp
-* Bärartyp (carrierType/CarrierType = 338 ‡b)  
-  Länka till entitet.  
-  ```Exempel: nc (= volym)```  
 
 #### Seriemedlemskap
 * Seriemedlemskap/Seriemedlemskap/Ingår i serie (seriesMembership/SeriesMembership/inSeries)  
@@ -496,6 +496,28 @@ Under Instans av Verk/Text, klicka på plustecknet vid Verk (lägg till egenskap
 För att ange verk som är relaterade, men inte ingår i det beskrivna verket, motsvarande fält 730 0/_ (icke-analytisk sökingång) i marc:   
 Under Instans av Verk/Text, lägg till Relation genom att klicka på plustecknet vid Instans av Verk/Text (Lägg till egenskaper under: Text) och välja Relation. Välj typ Relation. Lägg till Entitet genom att klicka på plustecknet vid Relation (Lägg till egenskaper under: Relation), välj Entitet. Skapa verk som lokal entitet (plustecknet vid Entitet - Lägg till verk). Följ sedan stegen ovan, från ”Välj Skapa lokal entitet”.  
 
+#### Medverkan och funktion  
+* Medverkan och funktion  
+  Läs mer:  
+  [Auktoritetsgruppens rekommendationer](https://kundo.se/org/librisxl/d/kbs-auktoritetsgrupp-informerar-jraz/)   
+  [Lägga till Agent - Organisation](https://libris.kb.se/katalogisering/help/workflow-agent-org-instance)  
+  
+* Medverkan och funktion/Primär medverkan/Agent/Person (contribution/PrimaryContribution/agent/Person = 100 1/- ‡a)  
+  Länka till entitet. Börja alltid med att söka efter om agenten redan finns. Vid behov, skapa ny entitet för agent (se Skapa ny agent i hjälpsektionen). I undantagsfall, skapa lokal entitet.   
+ ```Exempel: Lindgren, Astrid, 1907-2002```
+* Medverkan och funktion/Primär medverkan/Funktion (contribution/PrimaryContribution/role = 100 ‡4)  
+  Länka till entitet. Klicka på plustecknet vid Funktion (Lägg till funktion) och sök fram funktionskod. Skriv in kod eller utskriven form i sökrutan eller tryck på mellanslagstangenten för att se alla koder. Välj kod genom att klicka på plustecknet vid koden eller på koden.    
+För en sorterad lista på koder, se Formathandboken för Libris/Voyager: [Funktions- och relationskoder](http://www.kb.se/katalogisering/Formathandboken/Funktionskoder/)  
+  ```Exempel: relator/author (= Författare)```
+  
+* Medverkan och funktion/Medverkan/Agent/Person (contribution/agent/Person = 700 1/- ‡a)  
+  Länka till entitet. Börja alltid med att söka efter om agenten redan finns. Vid behov, skapa ny entitet för agent (se Skapa ny agent i hjälpsektionen). I undantagsfall, skapa lokal entitet.   
+  ```Exempel: Skoglund, Svante, 1960-```  
+* Medverkan och funktion/Medverkan/Funktion (contribution/role = 700 ‡4)  
+  Länka till entitet. Klicka på plustecknet vid Funktion (Lägg till funktion) och sök fram funktionskod. Skriv in kod eller utskriven form i sökrutan eller tryck på mellanslagstangenten för att se alla koder. Välj kod genom att klicka på plustecknet vid koden eller på koden.    
+För en sorterad lista på koder, se Formathandboken för Libris/Voyager: [Funktions- och relationskoder](http://www.kb.se/katalogisering/Formathandboken/Funktionskoder/)    
+  ```Exempel: relator/trl (= översättare)```  
+
 #### Sprak 
 * Språk (language = 008/35-37)  
   Ange textens språk. För en text på svenska, ange svenska. För att ange originalspråk för ett översatt verk, se Originalversion/Verk/Språk.  
@@ -535,28 +557,6 @@ För översättningar i flera led, länka först till det mellanliggande språke
 * Anmärkning/Anmärkning om språk/Anmärkning: Språk/Benämning (hasNote/marc:LanguageNote/marc:LanguageNote/label = 546 ‡a)  
   ```Exempel: Parallelltext på svenska och engelska```  
   Anmärkningen är under arbete och fungerar tyvärr ännu inte.  
-  
-#### Medverkan och funktion  
-* Medverkan och funktion  
-  Läs mer:  
-  [Auktoritetsgruppens rekommendationer](https://kundo.se/org/librisxl/d/kbs-auktoritetsgrupp-informerar-jraz/)   
-  [Lägga till Agent - Organisation](https://libris.kb.se/katalogisering/help/workflow-agent-org-instance)  
-  
-* Medverkan och funktion/Primär medverkan/Agent/Person (contribution/PrimaryContribution/agent/Person = 100 1/- ‡a)  
-  Länka till entitet. Börja alltid med att söka efter om agenten redan finns. Vid behov, skapa ny entitet för agent (se Skapa ny agent i hjälpsektionen). I undantagsfall, skapa lokal entitet.   
- ```Exempel: Lindgren, Astrid, 1907-2002```
-* Medverkan och funktion/Primär medverkan/Funktion (contribution/PrimaryContribution/role = 100 ‡4)  
-  Länka till entitet. Klicka på plustecknet vid Funktion (Lägg till funktion) och sök fram funktionskod. Skriv in kod eller utskriven form i sökrutan eller tryck på mellanslagstangenten för att se alla koder. Välj kod genom att klicka på plustecknet vid koden eller på koden.    
-För en sorterad lista på koder, se Formathandboken för Libris/Voyager: [Funktions- och relationskoder](http://www.kb.se/katalogisering/Formathandboken/Funktionskoder/)  
-  ```Exempel: relator/author (= Författare)```
-  
-* Medverkan och funktion/Medverkan/Agent/Person (contribution/agent/Person = 700 1/- ‡a)  
-  Länka till entitet. Börja alltid med att söka efter om agenten redan finns. Vid behov, skapa ny entitet för agent (se Skapa ny agent i hjälpsektionen). I undantagsfall, skapa lokal entitet.   
-  ```Exempel: Skoglund, Svante, 1960-```  
-* Medverkan och funktion/Medverkan/Funktion (contribution/role = 700 ‡4)  
-  Länka till entitet. Klicka på plustecknet vid Funktion (Lägg till funktion) och sök fram funktionskod. Skriv in kod eller utskriven form i sökrutan eller tryck på mellanslagstangenten för att se alla koder. Välj kod genom att klicka på plustecknet vid koden eller på koden.    
-För en sorterad lista på koder, se Formathandboken för Libris/Voyager: [Funktions- och relationskoder](http://www.kb.se/katalogisering/Formathandboken/Funktionskoder/)    
-  ```Exempel: relator/trl (= översättare)```  
   
 #### Genre 
 ##### Saogf-termer  
