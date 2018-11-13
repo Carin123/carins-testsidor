@@ -135,25 +135,26 @@ Låt anmärkning om postimport ligga kvar.
  
 Följande anmärkningar är under arbete och fungerar ännu inte fullt ut:  
  * Katalogisatörens anmärkning  
- * Anmärkning om katalogiseringskälla  
+ * Anmärkning om katalogiseringskälla
+ Använd tills vidare i stället Anmärkning - se Instans/Anmärkning/Anmärkning/Benämning (hasNote = 500 ‡a).  
  
 
 ### Instans
 #### Utgivningssatt
 * Utgivningssätt (issuanceType)  
-För att lägga till Utgivningssätt, klicka på plustecknet Lägg till egenskaper under: Instans. Välj Utgivningssätt.\ 
+För att lägga till Utgivningssätt, klicka på plustecknet Lägg till egenskaper under: Instans. Välj Utgivningssätt.   
   Välj från lista.  
   ```Exempel: Monografisk resurs```
   
 #### Medietyp
 * Medietyp (mediaType/Mediatype = 337 ‡b)  
-För att lägga till Medietyp, klicka på plustecknet Lägg till egenskaper under: Instans. Välj Medietyp.\
+För att lägga till Medietyp, klicka på plustecknet Lägg till egenskaper under: Instans. Välj Medietyp. Klicka på plustecknet vid Medietyp (Lägg till medietyp).   
   Länka till entitet.  
   ```Exempel: n (= omedierad)```
   
 #### Barartyp
 * Bärartyp (carrierType/CarrierType = 338 ‡b)  
-För att lägga till Bärartyp, klicka på plustecknet Lägg till egenskaper under: Instans. Välj Bärartyp.\
+För att lägga till Bärartyp, klicka på plustecknet Lägg till egenskaper under: Instans. Välj Bärartyp. Klicka på plustecknet vid Bärartyp (Lägg till bärartyp).  
   Länka till entitet.  
   ```Exempel: nc (= volym)``
  
@@ -161,11 +162,11 @@ För att lägga till Bärartyp, klicka på plustecknet Lägg till egenskaper und
 
 ##### Huvudtitel    
 * Har titel/Titel/Huvudtitel (hasTitle/Title/mainTitle = 245 ‡a)  
-För att lägga till Har titel, klicka på plustecknet Lägg till egenskaper under: Post.  
+För att lägga till Har titel, klicka på plustecknet Lägg till egenskaper under: Instans.  
   Återge huvudtiteln från titelsidan eller annan föredragen källa så som den förekommer i källan. se [Anvisningar för katalogisering - RDA](http://www.kb.se/rdakatalogisering/Anvisningar/Arbetsfloden/Tryckta-monografier/#huvudtitel "Anvisningar för katalogisering - RDA").  
   Skriv in uppgiften.    
  ```Exempel: En arbetsdag i skriftsamhället```  
-    För en titel som börjar med bestämd eller obestämd artikel, ska artikeln fileras bort. Ange fileringsvärde genom att lägga till fileringsvärde (plustecknet vid Titel - Lägg till egenskaper under: Titel) och ange en siffra.  
+För en titel som börjar med bestämd eller obestämd artikel, ska artikeln fileras bort. Ange fileringsvärde genom att lägga till fileringsvärde (plustecknet vid Titel - Lägg till egenskaper under: Titel) och ange en siffra.  
  ```Exempel: Huvudtitel: En arbetsdag i skriftsamhället, fileringsvärde: 3```  
  Se exempel i formathandboken för Libris/Voyager: 
 [Fileringsindikator]( http://www.kb.se/katalogisering/Formathandboken/Fileringsindikator/)
@@ -233,6 +234,11 @@ Ange alternativa titlar här för att öka sökbarheten för titlar som innehål
 
   För att lägga till en alternativ sökingång för titeln, klicka på plustecknet Lägg till egenskaper under: Instans och välj Relation. Lägg till Entitet (plustecknet vid Relation - lägg till egenskaper under: Relation). Skapa verk som lokal entitet (plustecknet vid Entitet - lägg till verk). Klicka i rutan Skapa lokal entitet, längst ner i sidorutan till höger, och välj Verk. Lägg till Har titel (plustecknet vid Verk - lägg till egenskaper under: Verk). 
 Skriv in uppgiften under Huvudtitel.  
+```Exempel: Commentarii fratrum arvalium qui supersunt```  
+ För en titel som börjar med bestämd eller obestämd artikel, ska artikeln fileras bort. Ange fileringsvärde genom att lägga till fileringsvärde (plustecknet vid Titel - Lägg till egenskaper under: Titel) och ange en siffra.  
+ ```Exempel: Huvudtitel: En arbetsdag i skriftsamhället, fileringsvärde: 3```  
+ Se exempel i formathandboken för Libris/Voyager: 
+[Fileringsindikator]( http://www.kb.se/katalogisering/Formathandboken/Fileringsindikator/)
   
 ##### Parallelltitel  
 Ange parallelltitel här. Upprepa inte parallelltitel efter Har titel/Titel/Huvudtitel (245 ‡a) med interpunktion.   
@@ -365,11 +371,13 @@ Ange ogiltiga ISBN här och inte under Identifikator/ISBN/Ogiltigt värde.
   
 #### Omfang   
 * Omfång/Omfång/Benämning (extent/Extent/label = 300 ‡a)  
+För att lägga till Omfång, klicka på plustecknet Lägg till egenskaper under: Instans. Välj Omfång. Klicka på plustecknet vid Omfång (Lägg till omfång). Skriv in uppgiften under Benämning.   
   Skriv in uppgiften.  
   ```Exempel: 319 sidor```  
   
 #### Ovriga fysiska detaljer   
 * Övriga fysiska detaljer (other physical details = 300 ‡b)  
+För att lägga till Övriga fysiska detaljer, klicka på plustecknet Lägg till egenskaper under: Instans. Välj Övriga fysiska detaljer.   
   Skriv in uppgiften.  
   ```Exempel: illustrationer```
 
@@ -380,12 +388,13 @@ Ange ogiltiga ISBN här och inte under Identifikator/ISBN/Ogiltigt värde.
   
 #### Bilagor
 * Tillsammans med/Instans/Benämning (Bilagor) (accompaniedBy/Instance/label = 300 ‡e)   
-För att lägga till Tillsammans med, klicka på plustecknet Lägg till egenskaper under: Post och välj Tillsammans med. Skapa Instans som lokal entitet. (Plustecknet vid Tillsammans med, välj Skapa lokal entitet, längst ner i sidorutan till höger, skriv Instans och välj ** Instans.) Lägg till Benämning (plustecknet vid Instans - Lägg till egenskaper under: Instans).    
+För att lägga till Tillsammans med, klicka på plustecknet Lägg till egenskaper under: Instans och välj Tillsammans med. Skapa Instans som lokal entitet. (Plustecknet vid Tillsammans med, välj Skapa lokal entitet, längst ner i sidorutan till höger, skriv Instans och välj ** Instans.) Lägg till Benämning (plustecknet vid Instans - Lägg till egenskaper under: Instans).    
 Skriv in uppgiften.  
   ```Exempel: 10 mönsterark```  
 
 #### Seriemedlemskap
 * Seriemedlemskap/Seriemedlemskap/Ingår i serie (seriesMembership/SeriesMembership/inSeries)  
+
   Avvakta med att skapa verk som länkade entiteter. Beskriv serien som lokal entitet, enligt följande instruktion.  
   *Nytt 2018-10-04:*   
   * Man måste inte längre fylla i två Seriemedlemskap för att vid export till MARC få ut både 490 och 830.  
@@ -399,7 +408,8 @@ Läs mer om [Seriemedlemskap](https://kundo.se/org/librisxl/d/uppgifter-om-serie
   Skriv in uppgiften.   
   ```Exempel: Årstasällskapets för Fredrika Bremer-studier skriftserie```  
 ##### ISSN  
-* Seriemedlemskap/Ingår i serie/Instans/Identifikator/ISSN/Värde (seriesMembership/inSeries/Instance/identifiedBy/ISSN/Value) (490 ‡x, 830 ‡x)  
+* Seriemedlemskap/Ingår i serie/Instans/Identifikator/ISSN/Värde (seriesMembership/inSeries/Instance/identifiedBy/ISSN/Value) (490 ‡x, 830 ‡x) 
+  Ange seriens ISSN. För äldre serier som saknar ISSN, men har ett LibrisIII-nummer ("99-nummer"), ange detta nummer här.  
   Skriv in uppgiften.  
   ```Exempel: 1103-498X```     
 ##### Serieuppgift  
@@ -436,8 +446,9 @@ OBS! Om ISSN finns i både 490 och 830 och om volymbeteckningen är angiven på 
 
 
 #### Anmarkning
-* Anmärkning/Anmärkning/Benämning (hasNote/Note/label = 500 ‡a)   
-  Skriv in allmänna anmärkningar här.    
+* Anmärkning/Anmärkning/Benämning (hasNote/Note/label = 500 ‡a)  
+  Skriv in allmänna anmärkningar här.  
+  För att lägga till Anmärkning, klicka på plustecknet vid Anmärkning (Lägg till egenskaper under: Instans. Välj Anmärkning. Klicka på plustecknet vid Anmärkning (Lägg till Anmärkning).   
   Skriv in uppgiften under Benämning.  
    
 #### Innehallsanmarkning  
@@ -446,8 +457,8 @@ OBS! Om ISSN finns i både 490 och 830 och om volymbeteckningen är angiven på 
   ```Exempel: Culture at home -- Culture and the global -- Global youth -- Global music -- Territories of global globalization.```  
   
 * Har innehållsförteckning/Innehållsförteckning/Har del/Utökad innehållsanmärkning/Benämning/Upphovsuppgift (tableofContents = 505 8/0 ‡t, ‡r)  
-För en utökad innehållsanmärkning med titlar och upphovsuppgifter, lägg till Har innehållsförteckning (från Lägg till egenskaper under: Instans). Klicka på plustecknet under Har innehållsförteckning i vänstermenyn (Lägg till innehållsförteckning). Ta bort Benämning. Lägg till Har del (plustecknet vid Innehållsförteckning - Lägg till egenskaper under: Innehållsförteckning). Skriv Har del i sökrutan och välj det. Klicka på plustecknet vid Har del (Lägg till resurs) och välj Skapa lokal entitet (längst ner i sidorutan till höger). Skriv Utökad innehållsanmärkning i rutan för Skapa lokal entitet och välj * Utökad innehållsanmärkning. Utökad innehållsanmärkning läggs till under Har del. Klicka på Utökad innehållsanmärkning och det fälls ut. Lägg in titel under Benämning. Lägg in upphovsuppgift under Upphovsuppgift.  
-Upprepa, för ytterligare titel (Benämning) + upphovsuppgift, genom att lägga till ytterligare en Utökad innehållsanmärkning som lokal entitet (klicka på Duplicera entitet).
+För en utökad innehållsanmärkning med titlar och upphovsuppgifter, lägg till Har innehållsförteckning (från Lägg till egenskaper under: Instans). Klicka på plustecknet under Har innehållsförteckning i vänstermenyn (Lägg till innehållsförteckning). Ta bort Benämning. Lägg till Har del (plustecknet vid Innehållsförteckning - Lägg till egenskaper under: Innehållsförteckning). Skriv Har del i sökrutan och välj det. Klicka på plustecknet vid Har del (Lägg till resurs) och välj Skapa lokal entitet (längst ner i sidorutan till höger). Skriv Utökad innehållsanmärkning i rutan för Skapa lokal entitet och välj * Utökad innehållsanmärkning. Utökad innehållsanmärkning läggs till under Har del. Klicka på Utökad innehållsanmärkning och det fälls ut. Lägg in titel under Benämning. Lägg in upphovsuppgift under Upphovsuppgift. Vid behov, lägg in Kommentar (med valfri information).  
+Upprepa, för ytterligare titel (Benämning) + upphovsuppgift, genom att lägga till ytterligare en Utökad innehållsanmärkning som lokal entitet (klicka på Duplicera entitet).  
 
 #### Malgruppsanmarkning  
 * Målgrupp/Målgrupp/Benämning (intendedAudience/IntendedAudience/label = 521 ‡a)  
