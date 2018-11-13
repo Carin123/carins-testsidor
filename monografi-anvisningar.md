@@ -615,7 +615,7 @@ För att söka efter entiteter inom Genre/form, klicka på plustecknet vid Genre
      
 ##### Akademisk avhandling      
 * Genre/form – akademisk avhandling (genreForm = 008/24-27)  
-  Välj Akademisk avhandling i listan över typer. Länka till entitet.      
+  Välj Innehåll 1, Innehåll 3, Innehåll 2, i listan över typer. Skriv "avhandling" i sökrutan. Länka till entitet.      
   ```Exempel: Akademisk avhandling```     
 
 #### Klassifikation  
