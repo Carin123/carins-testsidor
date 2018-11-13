@@ -394,7 +394,7 @@ Skriv in uppgiften.
 
 #### Seriemedlemskap
 * Seriemedlemskap/Seriemedlemskap/Ingår i serie (seriesMembership/SeriesMembership/inSeries)  
-
+För att lägga till Seriemedlemskap, klicka på plustecknet Lägg till egenskaper under: Instans. Välj Seriemedlemskap. Klicka på plustecknet vid Seriemedlemskap (Lägg till seriemedlemskap).  
   Avvakta med att skapa verk som länkade entiteter. Beskriv serien som lokal entitet, enligt följande instruktion.  
   *Nytt 2018-10-04:*   
   * Man måste inte längre fylla i två Seriemedlemskap för att vid export till MARC få ut både 490 och 830.  
@@ -583,41 +583,39 @@ För översättningar i flera led, länka först till det mellanliggande språke
   ```Exempel: Parallelltext på svenska och engelska```  
   Anmärkningen är under arbete och fungerar tyvärr ännu inte.  
   
-#### Genre 
+#### Genre  
+ Länka till entitet. 
+För att söka efter entiteter inom Genre/form, klicka på plustecknet vid Genre/form (lägg till entitet). I Lägg till entitet (längst upp i sidorutan till höger), välj typ i listan över typer. Skriv in sökbegrepp. Trunkera genom att trycka på mellanslagstangenten eller med * i sökrutan. Välj rätt entitet genom att klicka på plustecknet vid entiteten (Lägg till). Vid behov, välj ytterligare entiteter i listan. Om sidorutan är stängd, klicka på plustecknet vid Genre/form (lägg till entitet) för att söka fram och välja fler entiteter.  
+
 ##### Saogf-termer  
 * Genre/form – saogf-termer (genreForm = 655 -/7 ‡a, ‡2 saogf)  
-  Länka till entitet.  
-  För att söka efter entiteter inom saogf-termer, välj Genre/form i listan över typer, under Genre/form. Trunkera genom att trycka på mellanslagstangenten eller med * i sökrutan. Välj rätt entitet genom att klicka på plustecknet vid entiteten eller på entiteten.    
+ Välj Genre/form i listan över typer. Länka till entitet.  
  ```Exempel: Självbiografier```  
   Se [instruktionsfilm](https://www.youtube.com/watch?v=wrqs310Nt0M&list=PLZVkEICvA5-GRT2oJQmLgq_2Pksx6zYPy&index=7)  
 
 ##### Litterär genre  
 * Genre/form – litterär genre (genreForm = 008/33)  
-  Länka till entitet.  
-  För att söka efter entiteter inom Litterär genre, välj Litterär genre i listan över typer, under Genre/form. Trunkera genom att trycka på mellanslagstangenten eller med * i sökrutan. Välj rätt entitet genom att klicka på plustecknet vid entiteten eller på entiteten.   
+  Välj Litterär genre i listan över typer. Länka till entitet.  
   ```Exempel: 0 ( = ej skönlitterärt verk)```
   
 ##### Biografiskt material  
 * Genre/form – biografiskt material (genreForm = 008/34)  
-  Länka till entitet.  
-  För att söka efter entiteter inom Biografiskt material, välj Biografiskt material i listan över typer, under Genre/form. Trunkera genom att trycka på mellanslagstangenten eller med * i sökrutan. Välj rätt entitet genom att klicka på plustecknet vid entiteten eller på entiteten.     
+  Välj Biografiskt material i listan över typer. Länka till entitet.  
   ```Exempel: a (= självbiografi)```  
     
  ##### Festskrift     
 * Genre/form – festskrift (genreForm = 008/30)  
-  Länka till entitet.  
-  För att söka efter entiteter inom Festskrift, välj Festskrift i listan över typer, under Genre/form. Trunkera genom att trycka på mellanslagstangenten eller med * i sökrutan. Välj rätt entitet genom att klicka på plustecknet vid entiteten eller på entiteten.    
+  Välj Festskrift i listan över typer. Länka till entitet.    
   ```Exempel: Ja, resursen är en festskrift```    
     
  ##### Konferenspublikation       
 * Genre/form – konferenspublikation (genreForm = 008/29)  
-  Länka till entitet.  
-  För att söka efter entiteter inom Konferenspublikation, välj Konferenspublikation i listan över typer, under Genre/form. Trunkera genom att trycka på mellanslagstangenten eller med * i sökrutan. Välj rätt entitet genom att klicka på plustecknet vid entiteten eller på entiteten.      
+  Välj Konferenspublikation i listan över typer. Länka till entitet.         
   ```Exempel: Ja, resursen härrör från konferens```   
      
 ##### Akademisk avhandling      
 * Genre/form – akademisk avhandling (genreForm = 008/24-27)  
-  Länka till entitet. För att söka efter entiteten Akademisk avhandling, välj Innehåll 1, Innehåll 3, Innehåll 2, i listan över typer, under Genre/form.  Skriv "avhandling" i sökrutan. Välj rätt entitet genom att klicka på plustecknet vid entiteten eller på entiteten.    
+  Välj Akademisk avhandling i listan över typer. Länka till entitet.      
   ```Exempel: Akademisk avhandling```     
 
 #### Klassifikation  
