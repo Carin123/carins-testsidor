@@ -745,6 +745,11 @@ Läs mer:
  * Sammanfattning av innehåll/Sammanfattning/Benämning (summary/Summary/label = 520 ‡a)  
  Skriv in uppgiften under Benämning.  
   ```Exempel: Åtskilliga utdrag af framledne … Axel v. Fersens bref till f.d. konungen av Swerige, Gustaf Adolph, 1806```  
+  
+#### Typ av innehållsbeskrivning/sammanfattning
+ * Typ av innehållsbeskrivning/sammanfattning (marc:summaryType = 520 ind1)
+ Välj typ från lista.  
+ ```Exempel: Ej preciserad```  
     
 #### Anmarkning om akademisk avhandling    
 * Anmärkning/Anmärkning om akademisk avhandling/Benämning (dissertation/Dissertation/label = 502 ‡a)  
