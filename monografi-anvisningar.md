@@ -21,7 +21,7 @@ I vissa fall fungerar det ännu inte fullt ut att lägga till alla uppgifter som
 |[Translitterering](#translitterering)| [Upplageuppgift](#upplageuppgift) | [Ämne](#amne) |
 | [Systemnummer](#systemnummer) | [Utgivning](#utgivning) | [Målgrupp](#malgrupp) |
 | [Katalogiseringsspråk](#katalogiseringssprak) | [Tillverkning](#tillverkning) | [Innehållstyp](#innehallstyp) |
-| [Katalogiseringsregler](#katalogiseringsregler) | [Copyrightår](#copyrightar) | [Sammanfattning av innehåll](sammanfattning-av-innehall) |
+| [Katalogiseringsregler](#katalogiseringsregler) | [Copyrightår](#copyrightar) | [Sammanfattning av innehåll](#sammanfattning-av-innehall) |
 | [Beskrivningsnivå](#beskrivningsniva) | [Identifikator](#identifikator) | [Anmärkning om akademisk avhandling](#anmarkning-om-akademisk-avhandling) |
 | [Bibliografikod](#bibliografikod) | [Omfång](#omfang) | |
 | [Systemteknisk anmärkning](#systemteknisk-anmarkning) | [Övriga fysiska detaljer](#ovriga-fysiska-detaljer) | |
