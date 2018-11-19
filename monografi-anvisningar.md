@@ -19,9 +19,9 @@ I vissa fall fungerar det ännu inte fullt ut att lägga till alla uppgifter som
 | [Katalogiserande instans](#katalogiserande-instans) | [Titel](#titel) | [Genre](#genre) |
 | [Poststatus](#poststatus) | [Upphovsuppgift](#upphovsuppgift) |[Klassifikation](#klassifikation) |
 |[Translitterering](#translitterering)| [Upplageuppgift](#upplageuppgift) | [Ämne](#amne) |
-| [Systemnummer](#systemnummer) | [Utgivning](#utgivning) | [Innehållstyp](#innehallstyp) |
-| [Katalogiseringsspråk](#katalogiseringssprak) | [Tillverkning](#tillverkning) | [Anmärkning om akademisk avhandling](#anmarkning-om-akademisk-avhandling) |
-| [Katalogiseringsregler](#katalogiseringsregler) | [Copyrightår](#copyrightar) | |
+| [Systemnummer](#systemnummer) | [Utgivning](#utgivning) | [Målgrupp](#malgrupp) |
+| [Katalogiseringsspråk](#katalogiseringssprak) | [Tillverkning](#tillverkning) | [Innehållstyp](#innehallstyp) |
+| [Katalogiseringsregler](#katalogiseringsregler) | [Copyrightår](#copyrightar) | [Anmärkning om akademisk avhandling](#anmarkning-om-akademisk-avhandling) |
 | [Beskrivningsnivå](#beskrivningsniva) | [Identifikator](#identifikator) |  |
 | [Bibliografikod](#bibliografikod) | [Omfång](#omfang) | |
 | [Systemteknisk anmärkning](#systemteknisk-anmarkning) | [Övriga fysiska detaljer](#ovriga-fysiska-detaljer) | |
