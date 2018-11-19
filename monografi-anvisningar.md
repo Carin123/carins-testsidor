@@ -533,12 +533,6 @@ Under Instans av Verk/Text, lägg till Relation genom att klicka på plustecknet
   * ```Lindgren, Astrid, 1907-2002```
   * ```Jöran Persson, ca 1530-1568```
   
-  
-   <br/>```Exempel:```
-  * ```NB```
-  * ```SAMB```
-  
-  
 * Medverkan och funktion/Primär medverkan/Funktion (contribution/PrimaryContribution/role = 100 ‡4)  
   Länka till entitet. Klicka på plustecknet vid Funktion (Lägg till funktion) och sök fram funktionskod. Skriv in kod eller utskriven form i sökrutan eller tryck på mellanslagstangenten för att se alla koder. Välj kod genom att klicka på plustecknet vid koden eller på koden.    
 För en sorterad lista på koder, se Formathandboken för Libris/Voyager: [Funktions- och relationskoder](http://www.kb.se/katalogisering/Formathandboken/Funktionskoder/)  
