@@ -741,12 +741,13 @@ Läs mer:
   
 #### Sammanfattning av innehall    
  * Sammanfattning av innehåll/Sammanfattning/Benämning (summary/Summary/label = 520 ‡a)  
-För att lägga till Sammanfattning av innehåll, klicka på plustecknet
+För att lägga till Sammanfattning av innehåll, klicka på plustecknet vid Instans av Verk/Text - Lägg till egenskaper under: Text. Välj Sammanfattning av innehåll. Tryck Enter för att lägga till Samanfattning. Tryck Enter för att söka fram och lägga till Benämning (Lägg till egenskaper under: Sammanfattning).  
  Skriv in uppgiften under Benämning.  
   ```Exempel: Åtskilliga utdrag af framledne … Axel v. Fersens bref till f.d. konungen av Swerige, Gustaf Adolph, 1806```  
   
 #### Typ av innehållsbeskrivning/sammanfattning
- * Typ av innehållsbeskrivning/sammanfattning (marc:summaryType = 520 ind1)
+ * Typ av innehållsbeskrivning/sammanfattning (marc:summaryType = 520 ind1)  
+ Sök fram och lägg till Tinnehållsbeskrivning/sammanfattning (plustecknet vid Sammanfattning - lägg till egenskaper under: Sammanfattning).   
  Välj typ från lista.  
  ```Exempel: Ej preciserad```  
     
