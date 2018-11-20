@@ -110,7 +110,6 @@ För ISBN, se [Identifikator](#identifikator) under Instans.
 För att lägga till Beskrivningsnivå, klicka på plustecknet Lägg till egenskaper under: Post.   
 I samband med att du uppgraderar en Bokinfopost eller annan post med beskrivningsnivå: CIP-post (000/17: 8) eller Preliminär nivå (000/17: 5), ändra beskrivningsnivå till någon annan nivå (vanligen Miniminivå, Biblioteksnivå eller Nationalbibliografisk nivå), annars kan ändringar skrivas över.  
 Vid postimport kan beskrivningsnivå ibland saknas eller sakna värde. Lägg då dit beskrivningsnivå och välj värde.    
-I mallar är Miniminivå förvalt. Ändra vid behov.  
   Välj från lista.    
   ```Exempel: Biblioteksnivå```
   
@@ -137,25 +136,23 @@ Låt anmärkning om postimport ligga kvar.
 Följande anmärkningar är under arbete och fungerar ännu inte fullt ut:  
  * Katalogisatörens anmärkning  
  * Anmärkning om katalogiseringskälla
- Använd tills vidare i stället Anmärkning - se Instans/Anmärkning/Anmärkning/Benämning (hasNote = 500 ‡a).  
  
 
 ### Instans
+För att lägga till egenskaper under Instans, klicka på plustecknet i redigeringsvyn (den stora runda ikonen under Verktygsikonen - Lägg till egenskaper under: Instans).  
+
 #### Utgivningssatt
-* Utgivningssätt (issuanceType)  
-För att lägga till Utgivningssätt, klicka på plustecknet Lägg till egenskaper under: Instans. Välj Utgivningssätt.   
+* Utgivningssätt (issuanceType)   
   Välj från lista.  
   ```Exempel: Monografisk resurs```
   
 #### Medietyp
 * Medietyp (mediaType/Mediatype = 337 ‡b)  
-För att lägga till Medietyp, klicka på plustecknet Lägg till egenskaper under: Instans. Välj Medietyp. Klicka på plustecknet vid Medietyp (Lägg till medietyp).   
   Länka till entitet.  
   ```Exempel: n (= omedierad)```
   
 #### Barartyp
 * Bärartyp (carrierType/CarrierType = 338 ‡b)  
-För att lägga till Bärartyp, klicka på plustecknet Lägg till egenskaper under: Instans. Välj Bärartyp. Klicka på plustecknet vid Bärartyp (Lägg till bärartyp).  
   Länka till entitet.  
   ```Exempel: nc (= volym)``
  
@@ -163,7 +160,6 @@ För att lägga till Bärartyp, klicka på plustecknet Lägg till egenskaper und
 
 ##### Huvudtitel    
 * Har titel/Titel/Huvudtitel (hasTitle/Title/mainTitle = 245 ‡a)  
-För att lägga till Har titel, klicka på plustecknet Lägg till egenskaper under: Instans.  
   Återge huvudtiteln från titelsidan eller annan föredragen källa så som den förekommer i källan. se [Anvisningar för katalogisering - RDA](http://www.kb.se/rdakatalogisering/Anvisningar/Arbetsfloden/Tryckta-monografier/#huvudtitel "Anvisningar för katalogisering - RDA").  
   Skriv in uppgiften.    
  ```Exempel: En arbetsdag i skriftsamhället```  
@@ -371,20 +367,18 @@ Ange ogiltiga ISBN här och inte under Identifikator/ISBN/Ogiltigt värde.
   ```Exempel: inbunden```  
   
 #### Omfang   
-* Omfång/Omfång/Benämning (extent/Extent/label = 300 ‡a)  
-För att lägga till Omfång, klicka på plustecknet Lägg till egenskaper under: Instans. Välj Omfång. Klicka på plustecknet vid Omfång (Lägg till omfång). Skriv in uppgiften under Benämning.   
-  Skriv in uppgiften.  
+* Omfång/Omfång/Benämning (extent/Extent/label = 300 ‡a)   
+  Skriv in uppgiften under Benämning.  
   ```Exempel: 319 sidor```  
   
 #### Ovriga fysiska detaljer   
-* Övriga fysiska detaljer (other physical details = 300 ‡b)  
-För att lägga till Övriga fysiska detaljer, klicka på plustecknet Lägg till egenskaper under: Instans. Välj Övriga fysiska detaljer.   
+* Övriga fysiska detaljer (other physical details = 300 ‡b)     
   Skriv in uppgiften.  
   ```Exempel: illustrationer```
 
 #### Matt 
 * Mått/Mått/Benämning (hasDimensions/Dimensions/label = 300 ‡c)  
-  Skriv in uppgiften.  
+  Skriv in uppgiften under Benämning.  
   ```Exempel: 24 cm``` 
   
 #### Bilagor
@@ -445,11 +439,10 @@ När man redigerar importerade poster med två Seriemedlemskap får man, om man 
 Om man försöker göra tvärt om och lägga till Instans av Verk i ett Seriemedlemskap så orsakar en bugg att detta kopplas till Instans av Verk/Text (överst i beskrivningen) och det går sedan inte att ändra. I dessa fall måste Seriemedlemskapet tas bort i sin helhet och ett nytt läggas till och fyllas i.  
 OBS! Om ISSN finns i både 490 och 830 och om volymbeteckningen är angiven på olika sätt i 490 och 830, dubbleras dessa inom Seriemedlemskapet. Radera en av de dubblerade ISSN- och/eller voIymbeteckningarna.  
 
-
 #### Anmarkning
 * Anmärkning/Anmärkning/Benämning (hasNote/Note/label = 500 ‡a)  
   Skriv in allmänna anmärkningar här.  
-  För att lägga till Anmärkning, klicka på plustecknet vid Anmärkning (Lägg till egenskaper under: Instans. Välj Anmärkning. Klicka på plustecknet vid Anmärkning (Lägg till Anmärkning).   
+  För att lägga till Anmärkning, klicka på plustecknet i redigeringsvyn (den stora runda ikonen under Verktygsikonen - Lägg till egenskaper under: Instans) och välj Anmärkning (hasNote). Tryck Enter för att lägga till Anmärkning.  
   Skriv in uppgiften under Benämning.  
    
 #### Innehallsanmarkning  
@@ -500,7 +493,7 @@ För översättningar och för verk som har givits ut under olika titlar på sam
 *	Uttryck av/Verk/Har titel/Titel/Huvudtitel (expressionOf/Work/hasTitle/Title/mainTitle (= 130 ‡a)  
  "Originaltitel" för ett verk utan primär medverkande anger du här.  
 Under Instans av Verk/Text, lägg till Uttryck av (plustecknet vid Instans av Verk/Text - Lägg till egenskaper under: Text, välj Uttryck av).  
-Skapa verk som lokal entitet (plustecknet vid Uttryck av - Lägg till verk, välj Skapa lokal entitet, längst ner i sidorutan till höger), skriv "verk" i rutan Skapa lokal entitet. Klicka på Verk. Det läggs till under Uttryck av. Klicka på plustecknet vid Verk (Lägg till egenskaper under: Verk) och välj Har titel. Välj Titel. Ta bort Övrig titelinformation.    
+Skapa verk som lokal entitet (plustecknet vid Uttryck av - Lägg till verk, välj Skapa lokal entitet, längst ner i sidorutan till höger), skriv "verk" i rutan Skapa lokal entitet. Klicka på Verk. Det läggs till under Uttryck av. Klicka på plustecknet vid Verk (Lägg till egenskaper under: Verk) och välj Har titel. Välj Titel.    
 Skriv in uppgiften under Huvudtitel.  
 ```Exempel: Bibeln```
 *	Uttryck av/Verk/Har titel/Titel/Deltitel  
@@ -589,12 +582,12 @@ För översättningar i flera led, länka först till det mellanliggande språke
   
 #### Genre  
  Länka till entitet. 
-För att söka efter entiteter inom Genre/form, klicka på plustecknet vid Genre/form (lägg till entitet). I Lägg till entitet (längst upp i sidorutan till höger), välj typ i listan över typer. Skriv in sökbegrepp. Trunkera genom att trycka på mellanslagstangenten eller med * i sökrutan. Välj rätt entitet genom att klicka på plustecknet vid entiteten (Lägg till). Vid behov, välj ytterligare entiteter i listan. Om sidorutan är stängd, klicka på plustecknet vid Genre/form (lägg till entitet) för att söka fram och välja fler entiteter.  
+För att söka efter entiteter inom Genre/form, klicka på plustecknet vid Genre/form (lägg till entitet). I Lägg till entitet (längst upp i sidorutan till höger), välj typ i listan över typer. Skriv in sökbegrepp. Trunkera genom att trycka på mellanslagstangenten eller med * i sökrutan. Välj entitet genom att klicka på plustecknet vid entiteten (Lägg till). Vid behov, välj ytterligare entiteter i listan. Om sidorutan är stängd, klicka på plustecknet vid Genre/form (lägg till entitet) för att söka fram och välja fler entiteter.  
 Träfflistan vid sökning på entiteter är för närvarande inte sorterad. Var därför uppmärksam på att det finns liknande genre/form-termer med olika listkoder, till exempel sao, barngf, gmgpc/swe. Välj kod från rätt lista. Mer [information om listkoder](http://www.kb.se/katalogisering/Svenska-amnesord/genrer-form/).
 
 ##### Saogf-termer  
 * Genre/form – saogf-termer (genreForm = 655 -/7 ‡a, ‡2 saogf)  
- Välj Genre/form i listan över typer. Länka till entitet.  
+ Välj Genre/form i listan över typer. Avgränsa till saogf-termer genom att skriva "saogf" efter söktermen. Länka till entitet.  
  ```Exempel: Självbiografier```  
   Se [instruktionsfilm](https://www.youtube.com/watch?v=wrqs310Nt0M&list=PLZVkEICvA5-GRT2oJQmLgq_2Pksx6zYPy&index=7)  
 
@@ -744,6 +737,7 @@ Läs mer:
   
 #### Sammanfattning av innehall    
  * Sammanfattning av innehåll/Sammanfattning/Benämning (summary/Summary/label = 520 ‡a)  
+För att lägga till Sammanfattning av innehåll, klicka på plustecknet
  Skriv in uppgiften under Benämning.  
   ```Exempel: Åtskilliga utdrag af framledne … Axel v. Fersens bref till f.d. konungen av Swerige, Gustaf Adolph, 1806```  
   
