@@ -36,7 +36,7 @@ I vissa fall fungerar det ännu inte fullt ut att lägga till alla uppgifter som
 
 ### Adminmetadata  
 
-För att lägga till egenskaper under Adminmetadata, klicka på plustecknet i redigeringsvyn (den stora runda ikonen under Verktygsikonen) - Lägg till egenskaper under: Post.  
+För att lägga till egenskaper under Adminmetadata, klicka på plustecknet i redigeringsvyn (den stora runda ikonen under Verktygsikonen) - Lägg till egenskaper under: Post. Sök fram egenskapen och välj den genom att klicka på plustecknet vid egenskapens namn.  
 
 #### Kontrollnummer
 * Kontrollnummer (controlNumber = 001)  
