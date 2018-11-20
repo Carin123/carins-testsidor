@@ -30,6 +30,7 @@ I vissa fall fungerar det ännu inte fullt ut att lägga till alla uppgifter som
 | | [Seriemedlemskap](#seriemedlemskap) | | 
 | | [Anmärkning](#anmarkning) | | 
 | | [Innehållsanmärkning](#innehallsanmarkning) | |
+| | [Malgruppsanmärkning](#malgruppsanmarkning) | |
 | | [Annat bärarformat](#annat-bararformat) | |
 
 
