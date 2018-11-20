@@ -745,7 +745,7 @@ För att lägga till Sammanfattning av innehåll, klicka på plustecknet vid Ins
  Skriv in uppgiften under Benämning.  
   ```Exempel: Åtskilliga utdrag af framledne … Axel v. Fersens bref till f.d. konungen av Swerige, Gustaf Adolph, 1806```  
   
-#### Typ av innehållsbeskrivning/sammanfattning
+** Typ av innehållsbeskrivning/sammanfattning **
  * Typ av innehållsbeskrivning/sammanfattning (marc:summaryType = 520 ind1)  
  Sök fram och lägg till Typ av innehållsbeskrivning/sammanfattning (plustecknet vid Sammanfattning - lägg till egenskaper under: Sammanfattning).   
  Välj typ från lista.  
