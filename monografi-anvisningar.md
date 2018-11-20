@@ -747,7 +747,7 @@ För att lägga till Sammanfattning av innehåll, klicka på plustecknet vid Ins
   
 #### Typ av innehållsbeskrivning/sammanfattning
  * Typ av innehållsbeskrivning/sammanfattning (marc:summaryType = 520 ind1)  
- Sök fram och lägg till Tinnehållsbeskrivning/sammanfattning (plustecknet vid Sammanfattning - lägg till egenskaper under: Sammanfattning).   
+ Sök fram och lägg till Innehållsbeskrivning/sammanfattning (plustecknet vid Sammanfattning - lägg till egenskaper under: Sammanfattning).   
  Välj typ från lista.  
  ```Exempel: Ej preciserad```  
     
