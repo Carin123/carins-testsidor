@@ -139,7 +139,7 @@ Följande anmärkningar är under arbete och fungerar ännu inte fullt ut:
  
 
 ### Instans
-För att lägga till egenskaper under Instans, klicka på plustecknet i redigeringsvyn (den stora runda ikonen under Verktygsikonen - Lägg till egenskaper under: Instans).  
+För att lägga till egenskaper under Instans, klicka på plustecknet i redigeringsvyn (den stora runda ikonen under Verktygsikonen) - Lägg till egenskaper under: Instans). Sök fram egenskapen och välj den genom att klicka på plustecknet vid egenskapens namn.  
 
 #### Utgivningssatt
 * Utgivningssätt (issuanceType)   
@@ -475,6 +475,8 @@ Observera att kodning av målgrupp, motsvarande 008/22, ska registreras under In
 * Instans av Verk/Text (instanceOf/Work/Text)  
   Skapa verket som lokal entitet (bryt inte ut verket till en länkbar entitet). Vi rekommenderar att tills vidare skapa verket som lokal entitet. Vi återkommer med anvisningar för att skapa verk som länkbara entiteter. Denna hjälptext beskriver exempel på verk som lokal entitet. Det betyder att du anger de uppgifter som listas här nedan, under Instans av Verk, utan att klicka på länksymbolen (Länka entitet) vid Instans av Verk/Text.  
 Läs mer om [Verk och Instans](https://librisbloggen.kb.se/2018/05/30/verk-och-instans-i-startversionen/).  
+
+För att lägga till egenskaper under Instans av Verk/Text, klicka på plustecknet vid Instans av Verk/Text - Lägg till egenskaper under: Text. Sök fram egenskapen och välj den genom att klicka på plustecknet vid egenskapens namn.  
 
 #### Verkets titel
  
