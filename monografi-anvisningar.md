@@ -13,19 +13,19 @@ I vissa fall fungerar det ännu inte fullt ut att lägga till alla uppgifter som
 
 | [Adminmetadata](#adminmetadata) | [Instans](#instans) | [Verk](#verk) | 
 | ------ | ----------- |  ----------- |
-| [Skapad av](#skapad-av) | [Utgivningssätt](#utgivningssatt) | [Verkets titel](#verkets-titel) |
-| [Uppgraderad  eller importerad av](#uppgraderad-eller-importerad-av) | [Medietyp](#medietyp) | [Medverkan och funktion](#medverkan-och-funktion) |
-|[Entry map](#entry-map)| [Bärartyp](#barartyp) | [Språk](#sprak) |
-| [Katalogiserande instans](#katalogiserande-instans) | [Titel](#titel) | [Genre](#genre) |
-| [Poststatus](#poststatus) | [Upphovsuppgift](#upphovsuppgift) |[Klassifikation](#klassifikation) |
-|[Translitterering](#translitterering)| [Upplageuppgift](#upplageuppgift) | [Ämne](#amne) |
-| [Systemnummer](#systemnummer) | [Utgivning](#utgivning) | [Målgrupp](#malgrupp) |
-| [Katalogiseringsspråk](#katalogiseringssprak) | [Tillverkning](#tillverkning) | [Innehållstyp](#innehallstyp) |
-| [Katalogiseringsregler](#katalogiseringsregler) | [Copyrightår](#copyrightar) | [Sammanfattning av innehåll](#sammanfattning-av-innehall) |
-| [Beskrivningsnivå](#beskrivningsniva) | [Identifikator](#identifikator) | [Anmärkning om akademisk avhandling](#anmarkning-om-akademisk-avhandling) |
-| [Bibliografikod](#bibliografikod) | [Omfång](#omfang) | |
-| [Systemteknisk anmärkning](#systemteknisk-anmarkning) | [Övriga fysiska detaljer](#ovriga-fysiska-detaljer) | |
-| | [Mått](#matt) | | 
+| [Kontrollnummer](#kontrollnummer) | [Utgivningssätt](#utgivningssatt) | [Verkets titel](#verkets-titel) |
+| [Skapad av](#skapad-av) | [Medietyp](#medietyp) | [Medverkan och funktion](#medverkan-och-funktion) |
+| [Uppgraderad  eller importerad av](#uppgraderad-eller-importerad-av) | [Bärartyp](#barartyp) | [Språk](#sprak) |
+| [Entry map](#entry-map) | [Titel](#titel) | [Genre](#genre) |
+| [Katalogiserande instans](#katalogiserande-instans) | [Upphovsuppgift](#upphovsuppgift) |[Klassifikation](#klassifikation) |
+| [Poststatus](#poststatus) | [Upplageuppgift](#upplageuppgift) | [Ämne](#amne) |
+| [Translitterering](#translitterering) | [Utgivning](#utgivning) | [Målgrupp](#malgrupp) |
+| [Systemnummer](#systemnummer) | [Tillverkning](#tillverkning) | [Innehållstyp](#innehallstyp) |
+| [Katalogiseringsspråk](#katalogiseringssprak) | [Copyrightår](#copyrightar) | [Sammanfattning av innehåll](#sammanfattning-av-innehall) |
+|  [Katalogiseringsregler](#katalogiseringsregler) | [Identifikator](#identifikator) | [Anmärkning om akademisk avhandling](#anmarkning-om-akademisk-avhandling) |
+| [Beskrivningsnivå](#beskrivningsniva) | [Omfång](#omfang) | |
+| [Bibliografikod](#bibliografikod) | [Övriga fysiska detaljer](#ovriga-fysiska-detaljer) | |
+| [Systemteknisk anmärkning](#systemteknisk-anmarkning) | [Mått](#matt) | | 
 | | [Bilagor](#bilagor) | | 
 | | [Seriemedlemskap](#seriemedlemskap) | | 
 | | [Anmärkning](#anmarkning) | | 
