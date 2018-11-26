@@ -30,22 +30,27 @@ I vissa fall fungerar det ännu inte fullt ut att lägga till alla uppgifter som
 | [Annat bärarformat](#annat-bararformat) | |
 
 ### Instans
+OM INSTANSTYPER  
+EXEMPEL PÅ INSTANSTYPER  
 För att lägga till egenskaper under Instans, klicka på plustecknet i redigeringsvyn (den stora runda plusikonen under Verktygsikonen - Lägg till egenskaper under: Instans). Sök fram egenskapen och välj den genom att klicka på plustecknet vid egenskapens namn.  
 
 #### Utgivningssatt
 * Utgivningssätt (issuanceType)   
   Välj från lista.  
-  ```Exempel: Monografisk resurs```
+  ```Exempel: Monografisk resurs```  
+  FLER EXEMPEL, ANDRA TYPER
   
 #### Medietyp
 * Medietyp (mediaType/Mediatype = 337 ‡b)  
   Länka till entitet.  
-  ```Exempel: n (= omedierad)```
-  
+  ```Exempel: n (= omedierad)```  
+ FLER EXEMPEL, HÄNVISA TILL FORMATHANDBOKEN
+ 
 #### Barartyp
 * Bärartyp (carrierType/CarrierType = 338 ‡b)  
   Länka till entitet.  
-  ```Exempel: nc (= volym)``
+  ```Exempel: nc (= volym)``  
+ FLER EXEMPEL, HÄNVISA TILL FORMATHANDBOKEN
  
 #### Titel  
 
@@ -114,6 +119,7 @@ Om Har del/Titeldel/Delbeteckning redan finns, lägg till Deltitel under Titelde
 Skriv in uppgiften under Deltitel.  
 ```Exempel: Träd och växter som resurs```  
 För att ange Delbeteckning och Deltitel i en annan ordning, till exempel en deltitel som har efterföljande delbeteckningar, upprepa Titeldel och ange Delbeteckning och Deltitel som det passar i det aktuella fallet.  
+EXEMPEL FÖR FILM  
 
 #### Titel - alternativ stavning
 * Relation/Relation/Entitet/Verk/Har titel/Titel/Huvudtitel   
@@ -138,6 +144,8 @@ Skriv in uppgiften under Huvudtitel.
 * Har titel/Parallelltitel/Övrig titelinformation (hasTitle/ParallelTitle/subTitle = 246 1/1 ‡b)   
 Vid behov, klicka även på plustecknet vid Parallelltitel och lägg till Övrig titelinformation (subtitle).  
   ```Exempel: Charles XII and the ideological address```  
+  
+ EXEMPEL? BEHÖVS DET? (ELLER RÄCKER MED BEFINTLIGT)
   
 #### Upphovsuppgift
 * Upphovsuppgift (responsibilityStatement = 245 ‡c)  
@@ -245,6 +253,9 @@ Land, År och eventuellt Datum  ska ligga inom Primär utgivning.
   ```Exempel: inbunden```  
 
 För ogiltiga ISBN, använd Indirekt identifierad av, direkt under Instans. Använd inte Ogiltigt värde under Identifikator/ISBN (identifiedBy/marc:hiddenValue).  
+OBS OLIKA FÖR OLIKA MATERIALTYPER, VAD GÄLLER FÖR MONOGRAFI, SERIELL ETC.   
+EXEMPEL PÅ FLER IDENTIFIKATORER  
+OBS HÄNVISNING FRÅN MONOGRAFITEXTEN - SÄRSKILT OM INDIREKT IDENTIFIERAD AV
   
 #### Indirekt identifierad av  
 Ange ogiltiga ISBN här och inte under Identifikator/ISBN/Ogiltigt värde. 
@@ -261,18 +272,21 @@ Ange ogiltiga ISBN här och inte under Identifikator/ISBN/Ogiltigt värde.
 #### Omfang   
 * Omfång/Omfång/Benämning (extent/Extent/label = 300 ‡a)   
   Skriv in uppgiften under Benämning.  
-  ```Exempel: 319 sidor```  
+  ```Exempel: 319 sidor```   
+  FLER EXEMPEL
   
 #### Ovriga fysiska detaljer   
 * Övriga fysiska detaljer (other physical details = 300 ‡b)     
   Skriv in uppgiften.  
-  ```Exempel: illustrationer```
+  ```Exempel: illustrationer```  
+  FLER EXEMPEL
 
 #### Matt 
 * Mått/Mått/Benämning (hasDimensions/Dimensions/label = 300 ‡c)  
   Skriv in uppgiften under Benämning.  
-  ```Exempel: 24 cm``` 
-  
+  ```Exempel: 24 cm```   
+  FLER EXEMPEL
+   
 #### Bilagor
 * Tillsammans med/Instans/Benämning (Bilagor) (accompaniedBy/Instance/label = 300 ‡e)   
 För att lägga till Tillsammans med, klicka på plustecknet Lägg till egenskaper under: Instans och välj Tillsammans med. Skapa Instans som lokal entitet. (Plustecknet vid Tillsammans med, välj Skapa lokal entitet, längst ner i sidorutan till höger, skriv Instans och välj ** Instans.) Lägg till Benämning (plustecknet vid Instans - Lägg till egenskaper under: Instans).    
@@ -324,6 +338,7 @@ OBS! Om ISSN finns i både 490 och 830 och om volymbeteckningen är angiven på 
   Skriv in allmänna anmärkningar här.  
   För att lägga till Anmärkning, klicka på plustecknet i redigeringsvyn (den stora runda ikonen under Verktygsikonen - Lägg till egenskaper under: Instans) och välj Anmärkning (hasNote). Tryck Enter för att lägga till Anmärkning.  
   Skriv in uppgiften under Benämning.  
+   FLER EXEMPEL
    
 #### Innehallsanmarkning  
 * Har innehållsförteckning/Innehållsförteckning/Benämning (tableofContents = 505 8/_)  
@@ -332,14 +347,16 @@ OBS! Om ISSN finns i både 490 och 830 och om volymbeteckningen är angiven på 
   
 * Har innehållsförteckning/Innehållsförteckning/Har del/Utökad innehållsanmärkning/Benämning/Upphovsuppgift (tableofContents = 505 8/0 ‡t, ‡r)  
 För en utökad innehållsanmärkning med titlar och upphovsuppgifter, lägg till Har innehållsförteckning (från Lägg till egenskaper under: Instans). Klicka på plustecknet under Har innehållsförteckning i vänstermenyn (Lägg till innehållsförteckning). Ta bort Benämning. Lägg till Har del (plustecknet vid Innehållsförteckning - Lägg till egenskaper under: Innehållsförteckning). Skriv Har del i sökrutan och välj det. Klicka på plustecknet vid Har del (Lägg till resurs) och välj Skapa lokal entitet (längst ner i sidorutan till höger). Skriv Utökad innehållsanmärkning i rutan för Skapa lokal entitet och välj * Utökad innehållsanmärkning. Utökad innehållsanmärkning läggs till under Har del. Klicka på Utökad innehållsanmärkning och det fälls ut. Lägg in titel under Benämning. Lägg in upphovsuppgift under Upphovsuppgift. Vid behov, lägg in Kommentar (med valfri information).  
-Upprepa, för ytterligare titel (Benämning) + upphovsuppgift, genom att lägga till ytterligare en Utökad innehållsanmärkning som lokal entitet (klicka på Duplicera entitet).
+Upprepa, för ytterligare titel (Benämning) + upphovsuppgift, genom att lägga till ytterligare en Utökad innehållsanmärkning som lokal entitet (klicka på Duplicera entitet).  
+ FLER EXEMPEL
   
 #### Malgruppsanmarkning  
 * Målgrupp/Målgrupp/Benämning (intendedAudience/IntendedAudience/label = 521 ‡a)  
 För att lägga till målgruppsanmärkning, klicka på plustecknet Lägg till egenskaper under: Instans och välj Målgrupp.  
 Skapa Målgrupp som lokal entitet (plustecknet vid Målgrupp - Lägg till målgrupp. I rutan Skapa lokal entitet, längst ner i sidorutan till höger, skriv Målgrupp och välj det). Skriv in uppgiften under Benämning.  
 ```Exempel: För årskurs 1```  
-Observera att kodning av målgrupp, motsvarande 008/22, ska registreras under Instans av Verk/Genre. 
+Observera att kodning av målgrupp, motsvarande 008/22, ska registreras under Instans av Verk/Genre.  
+ FLER EXEMPEL  
 
 #### Annat bararformat
 * Annat bärarformat (otherPhysicalFormat = 776)  
@@ -350,7 +367,9 @@ Observera att kodning av målgrupp, motsvarande 008/22, ska registreras under In
   Beskriven av/Post/Kontrollnummer, motsvarande delfält w, är för närvarande låst för redigering. Det går därmed inte att lägga till egenskapen eller redigera den i befintliga beskrivningar.  
   
 ### Verk   
-
+ OM VERKSTYPER  
+ TA BORT TEXT  
+ EXEMPEL PÅ VERKSTYPER   
 #### Instans av Verk/Text  
 * Instans av Verk/Text (instanceOf/Work/Text)  
   Skapa verket som lokal entitet (bryt inte ut verket till en länkbar entitet). Vi rekommenderar att tills vidare skapa verket som lokal entitet. Vi återkommer med anvisningar för att skapa verk som länkbara entiteter. Denna hjälptext beskriver exempel på verk som lokal entitet. Det betyder att du anger de uppgifter som listas här nedan, under Instans av Verk, utan att klicka på länksymbolen (Länka entitet) vid Instans av Verk/Text.  
@@ -402,6 +421,7 @@ Under Instans av Verk/Text, lägg till Relation genom att klicka på plustecknet
   Läs mer:  
   [Auktoritetsgruppens rekommendationer](https://kundo.se/org/librisxl/d/kbs-auktoritetsgrupp-informerar-jraz/)   
   [Lägga till Agent - Organisation](https://libris.kb.se/katalogisering/help/workflow-agent-org-instance)  
+  LÄNKA TILL CARINAS TEXT   
   
 * Medverkan och funktion/Primär medverkan/Agent/Person (contribution/PrimaryContribution/agent/Person = 100 1/- ‡a)  
   Länka till entitet. Börja alltid med att söka efter om agenten redan finns. Vid behov, skapa ny entitet för agent (se Skapa ny agent i hjälpsektionen). I undantagsfall, skapa lokal entitet.
@@ -427,7 +447,8 @@ För en sorterad lista på koder, se Formathandboken för Libris/Voyager: [Funkt
   Ange textens språk. För en text på svenska, ange svenska. För att ange originalspråk för ett översatt verk, se Originalversion/Verk/Språk.  
   Länka till entitet.  
   ```Exempel: svenska (swe)```  
-  För att ange att texten är på flera språk, ange ytterligare en språkkod genom att klicka på plustecknet vid Språk (Lägg till språk) och söka fram ytterligare en entitet för ett språk och länka till den.  
+  För att ange att texten är på flera språk, ange ytterligare en språkkod genom att klicka på plustecknet vid Språk (Lägg till språk) och söka fram ytterligare en entitet för ett språk och länka till den.   
+ EVENTUELLT FLER EXEMPEL PÅ SPRÅK  
   
 ##### Översättning  
 För en översättning, ange även:  
@@ -447,7 +468,7 @@ För en översättning, ange även:
   ```Exempel: engelska (eng)```  
 För översättningar i flera led, länka först till det mellanliggande språket och därefter till originalspråket.  
   
-###### Texten delvis översatt  
+###### Texten delvis översatt  ARBETA OM DENNA TEXT    MER OM PARALLELLTEXT  
 (041 0/- #a + 041 1/- #a #h)  
 * Språk (language = 008/35-37) +
    Anmärkning: Språk: Objektet är/innehåller ej översättning (marc:languageNote = 041 0/- #a)   
@@ -472,6 +493,8 @@ För att söka efter entiteter inom Genre/form, klicka på plustecknet vid Genre
  Träfflistan vid sökning på entiteter är för närvarande inte sorterad. Var därför uppmärksam på att det finns liknande genre/form-termer med olika listkoder, till exempel sao, barngf, gmgpc/swe. Välj kod från rätt lista. Mer [information om listkoder](http://www.kb.se/katalogisering/Svenska-amnesord/genrer-form/).  
  ```Exempel: Självbiografier```  
   Se [instruktionsfilm](https://www.youtube.com/watch?v=wrqs310Nt0M&list=PLZVkEICvA5-GRT2oJQmLgq_2Pksx6zYPy&index=7)  
+  
+GENERELLT OM OM GENRE - OLIKA TYPER  
 
 #### Klassifikation  
 * DDK-klassifikation  
@@ -523,6 +546,8 @@ Klicka sedan på plustecknet vid DDK-klassifikation (sekundär) (Lägg till ddk-
   [Kontrollerat, ej auktoriserat ämnesord](https://libris.kb.se/katalogisering/help/workflow-controlled-non-auth-sh)   
   [Okontrollerat ämnesord](https://libris.kb.se/katalogisering/help/workflow-uncontrolled-sh)
 
+
+GENERELLT OM ÄMNESORD + RUBRIKERNA, HÄNVISA TILL EVA-KARINS TEXT  
 ##### Allmänt ämnesord  
 * Ämne - sao-term  (subject = 650 -/7 ‡a, ‡2 sao)  
   Länka till entitet.  
@@ -566,13 +591,13 @@ Skapa Sammansatt term som lokal entitet. (Plustecknet vid Ämne - Lägg till ent
 Länka till entitet. Om du inte får träff vid sökning på entiteter, pröva att söka på första ledet i ett sammansatt ord, t ex "1800" istället för "1800-talet".   
  ```Exempel: 1800-talet```  
   
-##### Ämnesord Person  
+##### Ämnesord Person  HÄNVISA TILL CARINAS TEXT    
 * Ämne/Agent/Person (subject = 600 1/4- ‡a)      
 Länka till entitet. Börja alltid med att söka efter om agenten redan finns. Vid behov, skapa ny entitet för agent (se Skapa ny agent i hjälpsektionen). I undantagsfall, skapa lokal entitet (längst ner i sidorutan till höger).  
 ```Exempel: Lindgren, Astrid, 1907-2002```  
 Läs [Auktoritetsgruppens rekommendationer](https://kundo.se/org/librisxl/d/kbs-auktoritetsgrupp-informerar-jraz/)  
  
-##### Ämnesord Organisation  
+##### Ämnesord Organisation  HÄNVISA TILL CARINAS TEXT   
 * Ämne/Agent/Organisation (subject/agent/Organization = 610 2/- ‡a)  
 Länka till entitet. Börja alltid med att söka efter om agenten redan finns. Vid behov, skapa ny entitet för agent (se Skapa ny agent i hjälpsektionen). I undantagsfall, skapa lokal entitet (längst ner i sidorutan till höger).    
 ```Exempel: Svenska Röda korset```  
@@ -590,7 +615,8 @@ Läs mer:
 * Innehållstyp/Innehållstyp (contentType/ContentType = 336 ‡b)   
   Länka till entitet.  
   ```Exempel: text (txt)```  
-  För att lägga till ytterligare innehållstyp, till exempel "sti" = stillbild för en bilderbok med både text och bild, lägg till Har del under Instans av Verk, från plustecknet vid Text (Lägg till egenskaper under: Text). Skapa därefter Verk som lokal entitet genom att klicka på plustecknet vid Har del (Lägg till resurs). Välj Skapa lokal entitet och välj därefter ++ Verk i listan. Lägg därefter till Innehållstyp från plustecknet vid Verk (Lägg till egenskaper under: Verk). Sök fram och länka till entitet.
+  För att lägga till ytterligare innehållstyp, till exempel "sti" = stillbild för en bilderbok med både text och bild, lägg till Har del under Instans av Verk, från plustecknet vid Text (Lägg till egenskaper under: Text). Skapa därefter Verk som lokal entitet genom att klicka på plustecknet vid Har del (Lägg till resurs). Välj Skapa lokal entitet och välj därefter ++ Verk i listan. Lägg därefter till Innehållstyp från plustecknet vid Verk (Lägg till egenskaper under: Verk). Sök fram och länka till entitet.  
+  EXEMPEL PÅ OLIKA INNEHÅLLSTYPER HÄNVISAT TILL FORMATHANDBOKEN  
   
 #### Sammanfattning av innehall    
  * Sammanfattning av innehåll/Sammanfattning/Benämning (summary/Summary/label = 520 ‡a)  
