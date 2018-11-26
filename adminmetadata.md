@@ -18,7 +18,7 @@ Se även [instruktionsfilmer](https://www.youtube.com/playlist?list=PLZVkEICvA5-
 ### Innehåll  
 
 | [Adminmetadata](#adminmetadata) | |
-| ------ |
+| ------ | ------ |
 | [Kontrollnummer](#kontrollnummer) | [Translitterering](#translitterering) |
 | [Skapad av](#skapad-av) | [Katalogiseringsspråk](#katalogiseringssprak) |
 | [Uppgraderad  eller importerad av](#uppgraderad-eller-importerad-av) | [Katalogiseringsregler](#katalogiseringsregler) |
