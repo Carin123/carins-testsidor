@@ -17,17 +17,17 @@ Se även [instruktionsfilmer](https://www.youtube.com/playlist?list=PLZVkEICvA5-
 
 ### Innehåll  
 
-| [Adminmetadata](#adminmetadata) | 
+| [Adminmetadata](#adminmetadata) | |
 | ------ |
-| [Kontrollnummer](#kontrollnummer) | 
-| [Skapad av](#skapad-av) | 
-| [Uppgraderad  eller importerad av](#uppgraderad-eller-importerad-av) | 
-| [Entry map](#entry-map) | 
-| [Katalogiserande instans](#katalogiserande-instans) | 
-| [Poststatus](#poststatus) | 
-| [Translitterering](#translitterering) |
-| [Katalogiseringsspråk](#katalogiseringssprak) | 
-|  [Katalogiseringsregler](#katalogiseringsregler) | 
-| [Beskrivningsnivå](#beskrivningsniva) | 
-| [Bibliografikod](#bibliografikod) | 
-| [Systemteknisk anmärkning](#systemteknisk-anmarkning) | 
+| [Kontrollnummer](#kontrollnummer) | [Translitterering](#translitterering) |
+| [Skapad av](#skapad-av) | [Katalogiseringsspråk](#katalogiseringssprak) |
+| [Uppgraderad  eller importerad av](#uppgraderad-eller-importerad-av) | [Katalogiseringsregler](#katalogiseringsregler) |
+| [Entry map](#entry-map) | [Beskrivningsnivå](#beskrivningsniva)|
+| [Katalogiserande instans](#katalogiserande-instans) | |
+| [Poststatus](#poststatus) | [Bibliografikod](#bibliografikod) |
+| [Translitterering](#translitterering) | [Systemteknisk anmärkning](#systemteknisk-anmarkning) |
+| [Katalogiseringsspråk](#katalogiseringssprak) | |
+|  [Katalogiseringsregler](#katalogiseringsregler) | |
+| [Beskrivningsnivå](#beskrivningsniva) | |
+| [Bibliografikod](#bibliografikod) | |
+| [Systemteknisk anmärkning](#systemteknisk-anmarkning) | |
