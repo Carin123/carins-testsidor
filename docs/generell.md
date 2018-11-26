@@ -9,7 +9,7 @@ I vissa fall fungerar det ännu inte fullt ut att lägga till alla uppgifter som
 ### Innehåll  
 
 | [Instans](#instans) | [Verk](#verk) | 
-| ------ | ----------- |  ----------- |
+| ----------- |  ----------- |
 | [Utgivningssätt](#utgivningssatt) | [Verkets titel](#verkets-titel) |
 | [Medietyp](#medietyp) | [Medverkan och funktion](#medverkan-och-funktion) |
 | [Bärartyp](#barartyp) | [Språk](#sprak) |
