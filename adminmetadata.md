@@ -31,9 +31,3 @@ Se även [instruktionsfilmer](https://www.youtube.com/playlist?list=PLZVkEICvA5-
 | [Beskrivningsnivå](#beskrivningsniva) | 
 | [Bibliografikod](#bibliografikod) | 
 | [Systemteknisk anmärkning](#systemteknisk-anmarkning) | 
-| | [Bilagor](#bilagor) | 
-| | [Seriemedlemskap](#seriemedlemskap) |
-| | [Anmärkning](#anmarkning) | 
-| | [Innehållsanmärkning](#innehallsanmarkning) |
-| | [Målgruppsanmärkning](#malgruppsanmarkning) |
-| | [Annat bärarformat](#annat-bararformat) |
