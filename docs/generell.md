@@ -477,8 +477,13 @@ För översättningar i flera led, länka först till det mellanliggande språke
   Originalversion/Verk/Språk (originalVersion/Work/language = 041 ‡h)  
   För att ange att texten delvis är översatt, till exempel när en publikation innehåller parallelltext på två språk och den ena texten är en översättning: ange först Språk under Instans av Verk/Text (se Språk ovan). Sök fram och länka till entiteten för det språk som inte är en översättning. Klicka sedan på plustecknet vid Verk - Lägg till egenskap under: Text och välj Anmärkning: Språk. Välj Objektet är/innehåller ej översättning.   
  Lägg sedan till Har del under Instans av Verk/Text. Skapa verk som lokal entitet (plustecknet vid Har del - Lägg till resurs. I rutan Skapa lokal entitet, längst ner i sidorutan till höger, skriv Verk och välj ++++ Verk.) Klicka på plustecknet vid den lokala entiteten Verk (Lägg till egenskaper under: Verk) och välj Språk. Sök fram och länka till entiteten för språket som texten är översatt till. Under den lokala entiteten Verk, lägg till Anmärkning: Språk och ange att resursen är/innehåller en översättning. Under Har del, lägg till Originalversion/Verk/Språk (se ovan under Översättning). Länka till entiteten för språket som resursen delvis är en översättning från.  
+ 
+ ##### Sammanfattningsspråk  
+* Sammanfattning av innehåll/Sammanfattning/Språk (summary/Summary/language = 041 ‡b)  
+För att lägga till sammanfattningsspråk, klicka på plustecknet vid Instans av Verk/Text (lägg till egenskaper under: Text) och välj Sammanfattning av innehåll. Lägg till Sammanfattning (tryck Enter eller klicka på plustecknet vid Sammanfattning av innehåll - Lägg till Sammanfattning). Ta bort Benämning. Lägg till Språk genom att klicka på plustecknet vid Sammanfattning (Lägg till egenskaper under: Sammanfattning) och välj Språk. Sök fram och länka till entiteten för sammanfattningens språk.  
+  ```Exempel: Engelska```  
   
-##### Parallelltext    
+##### Språkanmärkning     
 * Anmärkning/Anmärkning om språk/Anmärkning: Språk/Benämning (hasNote/marc:LanguageNote/marc:LanguageNote/label = 546 ‡a)  
   ```Exempel: Parallelltext på svenska och engelska```  
   Anmärkningen är under arbete och fungerar tyvärr ännu inte.  
