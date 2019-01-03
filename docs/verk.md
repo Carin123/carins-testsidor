@@ -15,13 +15,3 @@ I vissa fall fungerar det ännu inte fullt ut att lägga till alla uppgifter som
 | [Språk](#sprak) |  | [Innehållstyp](#innehallstyp) | 
 | [Genre](#genre) |  | [Sammanfattning av innehåll](#sammanfattning-av-innehall) | 
 | [Klassifikation](#klassifikation) |  | [Anmärkning om akademisk avhandling](#anmarkning-om-akademisk-avhandling) | 
-
-
-|   |   | Column 1 | |
-# | a | b | haha     | |
-# |----
-# | :---: | -----
-# | names | tom |
-# | names | jerry |
-# | film  | cartoon |
-# 
