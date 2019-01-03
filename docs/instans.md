@@ -10,16 +10,13 @@ I vissa fall fungerar det ännu inte fullt ut att lägga till alla uppgifter som
 
 | [Instans](#instans) | |
 | ------ | ------ |
-| [Utgivningssätt](#utgivningssatt) |[Omfång](#omfang) |
-| [Medietyp](#medietyp) | [Övriga fysiska detaljer](#ovriga-fysiska-detaljer) |
-| [Bärartyp](#barartyp) | [Mått](#matt) |
-| [Titel](#titel) | [Bilagor](#bilagor) |
-| [Upphovsuppgift](#upphovsuppgift) | [Seriemedlemskap](#seriemedlemskap) |
-| [Upplageuppgift](#upplageuppgift) | [Anmärkning](#anmarkning) |
-| [Utgivning](#utgivning) | [Innehållsanmärkning](#innehallsanmarkning) |
-| [Tillverkning](#tillverkning) | [Målgruppsanmärkning](#malgruppsanmarkning) |
-| [Copyrightår](#copyrightar) | [Annat bärarformat](#annat-bararformat) |
-| [Identifikator](#identifikator) | |
+| [Utgivningssätt](#utgivningssatt) | [Tillverkning](#tillverkning) | [Innehållsanmärkning](#innehallsanmarkning) |
+| [Medietyp](#medietyp) | [Copyrightår](#copyrightar) | [Målgruppsanmärkning](#malgruppsanmarkning) |
+| [Bärartyp](#barartyp) | [Identifikator](#identifikator) | [Annat bärarformat](#annat-bararformat) |
+| [Titel](#titel) | [Omfång](#omfang) | |
+| [Upphovsuppgift](#upphovsuppgift) | [Övriga fysiska detaljer](#ovriga-fysiska-detaljer) | |
+| [Upplageuppgift](#upplageuppgift) | [Mått](#matt) | |
+| [Utgivning](#utgivning) | [Bilagor](#bilagor) | |
 
 
 ### Instans
