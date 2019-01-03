@@ -8,16 +8,17 @@ I vissa fall fungerar det ännu inte fullt ut att lägga till alla uppgifter som
 
 ### Innehåll  
 
-| [Instans](#instans) | [Verk](#verk) | 
+| [Instans](#instans) |
 | ----------- |  ----------- |
-| [Utgivningssätt](#utgivningssatt) | [Verkets titel](#verkets-titel) |
-| [Medietyp](#medietyp) | [Medverkan och funktion](#medverkan-och-funktion) |
-| [Bärartyp](#barartyp) | [Språk](#sprak) |
-| [Titel](#titel) | [Genre](#genre) |
-| [Upphovsuppgift](#upphovsuppgift) |[Klassifikation](#klassifikation) || [Upplageuppgift](#upplageuppgift) | [Ämne](#amne) |
-| [Utgivning](#utgivning) | [Målgrupp](#malgrupp) |
-| [Tillverkning](#tillverkning) | [Innehållstyp](#innehallstyp) |
-| [Copyrightår](#copyrightar) | [Sammanfattning av innehåll](#sammanfattning-av-innehall) |
+| [Utgivningssätt](#utgivningssatt) |
+| [Medietyp](#medietyp) |
+| [Bärartyp](#barartyp) |
+| [Titel](#titel) |
+| [Upphovsuppgift](#upphovsuppgift) |
+| [Upplageuppgift](#upplageuppgift) |
+| [Utgivning](#utgivning) |
+| [Tillverkning](#tillverkning) |
+| [Copyrightår](#copyrightar) |
 | [Identifikator](#identifikator) | |
 | [Omfång](#omfang) | |
 | [Övriga fysiska detaljer](#ovriga-fysiska-detaljer) | |
