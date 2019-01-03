@@ -82,7 +82,7 @@ I vissa importerade poster förekommer Entry map. Låt det vara kvar oförändra
   
 Vid kopiering av post, ta bort den kopierade postens systemnummer.  
 
-För ISBN, se Identifikator under [Instans](#Instans).
+För ISBN, se Identifikator under [Instans](#https://libris.kb.se/katalogisering/help/instans).
   
 ### Katalogiseringssprak  
 * Katalogiseringsspråk (descriptionLanguage = 040 ‡b)  
