@@ -9,6 +9,7 @@ I vissa fall fungerar det ännu inte fullt ut att lägga till alla uppgifter som
 ### Innehåll  
 
 | [Instans](#instans) |
+| ------ |
 | [Utgivningssätt](#utgivningssatt) |
 | [Medietyp](#medietyp) |
 | [Bärartyp](#barartyp) |
