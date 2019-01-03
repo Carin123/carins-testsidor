@@ -6,7 +6,6 @@ date: 2019-01-02
 tags:
 - under arbete
 - adminmetadata
-- bok
 --- 
 
 ## Adminmetadata
