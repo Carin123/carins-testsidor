@@ -8,8 +8,8 @@ I vissa fall fungerar det ännu inte fullt ut att lägga till alla uppgifter som
 
 ### Innehåll  
 
-| [Instans](#instans) | |
-| ------ | ------ |
+| [Instans](#instans) | | |
+| ------ | ------ | ------ |
 | [Utgivningssätt](#utgivningssatt) | [Tillverkning](#tillverkning) | [Seriemedlemskap](#seriemedlemskap) |
 | [Medietyp](#medietyp) | [Copyrightår](#copyrightar) | [Anmärkning](#anmarkning) |
 | [Bärartyp](#barartyp) | [Identifikator](#identifikator) | [Innehållsanmärkning](#innehallsanmarkning) |
