@@ -8,7 +8,7 @@ I vissa fall fungerar det ännu inte fullt ut att lägga till alla uppgifter som
 
 ### Innehåll  
 
-| [Verk](#verk) |  |  | 
+|  | [Verk](#verk) |  | 
 | ----------- |  ----------- |  ----------- |
 | [Verkets titel](#verkets-titel) |  | [Ämne](#amne) | 
 | [Medverkan och funktion](#medverkan-och-funktion) |  | [Målgrupp](#malgrupp) | 
