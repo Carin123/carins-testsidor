@@ -41,7 +41,7 @@ För att lägga till egenskaper under Instans, klicka på plustecknet i redigeri
 
 #### Utgivningssatt
 * Utgivningssätt (issuanceType)   
-  Välj från lista.  
+  Välj från lista.
  <br/>```Exempel:```
   * ```Monografisk resurs```
   * ```Seriell resurs```
