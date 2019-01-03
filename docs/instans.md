@@ -8,27 +8,19 @@ I vissa fall fungerar det ännu inte fullt ut att lägga till alla uppgifter som
 
 ### Innehåll  
 
-| [Instans](#instans) |
-| ------ |
-| [Utgivningssätt](#utgivningssatt) |
-| [Medietyp](#medietyp) |
-| [Bärartyp](#barartyp) |
-| [Titel](#titel) |
-| [Upphovsuppgift](#upphovsuppgift) |
-| [Upplageuppgift](#upplageuppgift) |
-| [Utgivning](#utgivning) |
-| [Tillverkning](#tillverkning) |
-| [Copyrightår](#copyrightar) |
-| [Identifikator](#identifikator) |
-| [Omfång](#omfang) |
-| [Övriga fysiska detaljer](#ovriga-fysiska-detaljer) |
-| [Mått](#matt) |
-| [Bilagor](#bilagor) |
-| [Seriemedlemskap](#seriemedlemskap) |
-| [Anmärkning](#anmarkning) |
-| [Innehållsanmärkning](#innehallsanmarkning) |
-| [Målgruppsanmärkning](#malgruppsanmarkning) |
-| [Annat bärarformat](#annat-bararformat) |
+| [Instans](#instans) | |
+| ------ | ------ |
+| [Utgivningssätt](#utgivningssatt) |[Omfång](#omfang) |
+| [Medietyp](#medietyp) | [Övriga fysiska detaljer](#ovriga-fysiska-detaljer) |
+| [Bärartyp](#barartyp) | [Mått](#matt) |
+| [Titel](#titel) | [Bilagor](#bilagor) |
+| [Upphovsuppgift](#upphovsuppgift) | [Seriemedlemskap](#seriemedlemskap) |
+| [Upplageuppgift](#upplageuppgift) | [Anmärkning](#anmarkning) |
+| [Utgivning](#utgivning) | [Innehållsanmärkning](#innehallsanmarkning) |
+| [Tillverkning](#tillverkning) | [Målgruppsanmärkning](#malgruppsanmarkning) |
+| [Copyrightår](#copyrightar) | [Annat bärarformat](#annat-bararformat) |
+| [Identifikator](#identifikator) | |
+
 
 ### Instans
 OM INSTANSTYPER  
