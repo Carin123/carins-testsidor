@@ -8,7 +8,7 @@ tags:
 - ändringslogg
 --- 
 
-### Ändringslogg
+## Ändringslogg
 
 På denna sida listar vi ändringar i hjälptexterna.
 
