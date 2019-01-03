@@ -8,8 +8,6 @@ tags:
 - ändringslogg
 --- 
 
-## Instans
-
 ### Ändringslogg
 
 På denna sida listar vi ändringar i hjälptexterna.
