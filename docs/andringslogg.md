@@ -15,6 +15,6 @@ På denna sida listar vi ändringar i hjälptexterna.
 
 2019-01-02
 
-* Ny struktur på hjälptexterna.
+* Ny struktur för hjälptexterna.
 * Information om instanstyper tillagd.
 
