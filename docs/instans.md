@@ -9,7 +9,6 @@ I vissa fall fungerar det ännu inte fullt ut att lägga till alla uppgifter som
 ### Innehåll  
 
 | [Instans](#instans) |
-| ----------- |  ----------- |
 | [Utgivningssätt](#utgivningssatt) |
 | [Medietyp](#medietyp) |
 | [Bärartyp](#barartyp) |
@@ -19,16 +18,16 @@ I vissa fall fungerar det ännu inte fullt ut att lägga till alla uppgifter som
 | [Utgivning](#utgivning) |
 | [Tillverkning](#tillverkning) |
 | [Copyrightår](#copyrightar) |
-| [Identifikator](#identifikator) | |
-| [Omfång](#omfang) | |
-| [Övriga fysiska detaljer](#ovriga-fysiska-detaljer) | |
-| [Mått](#matt) | | 
-| [Bilagor](#bilagor) | | 
-| [Seriemedlemskap](#seriemedlemskap) | | 
-| [Anmärkning](#anmarkning) | | 
-| [Innehållsanmärkning](#innehallsanmarkning) | |
-| [Målgruppsanmärkning](#malgruppsanmarkning) | |
-| [Annat bärarformat](#annat-bararformat) | |
+| [Identifikator](#identifikator) |
+| [Omfång](#omfang) |
+| [Övriga fysiska detaljer](#ovriga-fysiska-detaljer) |
+| [Mått](#matt) |
+| [Bilagor](#bilagor) |
+| [Seriemedlemskap](#seriemedlemskap) |
+| [Anmärkning](#anmarkning) |
+| [Innehållsanmärkning](#innehallsanmarkning) |
+| [Målgruppsanmärkning](#malgruppsanmarkning) |
+| [Annat bärarformat](#annat-bararformat) |
 
 ### Instans
 OM INSTANSTYPER  
