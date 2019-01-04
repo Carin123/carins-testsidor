@@ -62,13 +62,11 @@ För att lägga till egenskaper under Instans, klicka på plustecknet i redigeri
 * Bärartyp (carrierType/CarrierType = 338 ‡b)  
   Länka till entitet.  
   <br/>```Exempel:```
-  * ```nc (= volym)```
-  * ```nb (= ark)```
-  * ```sd (= ljudskiva) + d (= ljudskiva)```
   * ```cr (= onlineresurs)```
-  
- 
- FLER EXEMPEL, HÄNVISA TILL FORMATHANDBOKEN
+  * ```nb (= ark)```
+  * ```nc (= volym)```
+  * ```sd (= ljudskiva) + d (= ljudskiva)```
+<br>Läs mer om [bärartyper](http://www.kb.se/katalogisering/Formathandboken/innehallstyper/barar/).
  
 #### Titel  
 
@@ -137,7 +135,6 @@ Om Har del/Titeldel/Delbeteckning redan finns, lägg till Deltitel under Titelde
 Skriv in uppgiften under Deltitel.  
 ```Exempel: Träd och växter som resurs```  
 För att ange Delbeteckning och Deltitel i en annan ordning, till exempel en deltitel som har efterföljande delbeteckningar, upprepa Titeldel och ange Delbeteckning och Deltitel som det passar i det aktuella fallet.  
-EXEMPEL FÖR FILM  
 
 #### Titel - alternativ stavning
 * Relation/Relation/Entitet/Verk/Har titel/Titel/Huvudtitel   
@@ -162,8 +159,6 @@ Skriv in uppgiften under Huvudtitel.
 * Har titel/Parallelltitel/Övrig titelinformation (hasTitle/ParallelTitle/subTitle = 246 1/1 ‡b)   
 Vid behov, klicka även på plustecknet vid Parallelltitel och lägg till Övrig titelinformation (subtitle).  
   ```Exempel: Charles XII and the ideological address```  
-  
- EXEMPEL? BEHÖVS DET? (ELLER RÄCKER MED BEFINTLIGT)
   
 #### Upphovsuppgift
 * Upphovsuppgift (responsibilityStatement = 245 ‡c)  
@@ -271,12 +266,11 @@ Land, År och eventuellt Datum  ska ligga inom Primär utgivning.
   ```Exempel: inbunden```  
 
 För ogiltiga ISBN, använd Indirekt identifierad av, direkt under Instans. Använd inte Ogiltigt värde under Identifikator/ISBN (identifiedBy/marc:hiddenValue).  
-OBS OLIKA FÖR OLIKA MATERIALTYPER, VAD GÄLLER FÖR MONOGRAFI, SERIELL ETC.   
-EXEMPEL PÅ FLER IDENTIFIKATORER  
-OBS HÄNVISNING FRÅN MONOGRAFITEXTEN - SÄRSKILT OM INDIREKT IDENTIFIERAD AV
-  
+För ISSN, se Tryckt seriell resurs. För andra identifikatorer, se respektive hjälptext.  
+
 #### Indirekt identifierad av  
-Ange ogiltiga ISBN här och inte under Identifikator/ISBN/Ogiltigt värde. 
+Ange ogiltiga ISBN här och inte under Identifikator/ISBN/Ogiltigt värde. För ISSN, se Tryckt seriell resurs. För andra identifikatorer, se respektive hjälptext.  
+
 * Indirekt identifierad av/ISBN (indirectlyIdentifiedBy/ISBN = 020 ‡z)  
   Välj typ från lista.  
   ```Exempel: ISBN```
