@@ -56,13 +56,18 @@ För att lägga till egenskaper under Instans, klicka på plustecknet i redigeri
   * ```n (= omedierad)```
   * ```s (= audio)```
   * ```v (= video)```
-  
 <br>Läs mer om [medietyper](http://www.kb.se/katalogisering/Formathandboken/innehallstyper/medie/).
  
 #### Barartyp
 * Bärartyp (carrierType/CarrierType = 338 ‡b)  
   Länka till entitet.  
-  ```Exempel: nc (= volym)``  
+  <br/>```Exempel:```
+  * ```nc (= volym)```
+  * ```nb (= ark)```
+  * ```sd (= ljudskiva) + d (= ljudskiva)```
+  * ```cr (= onlineresurs)```
+  
+ 
  FLER EXEMPEL, HÄNVISA TILL FORMATHANDBOKEN
  
 #### Titel  
