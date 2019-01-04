@@ -56,7 +56,7 @@ För att lägga till egenskaper under Instans, klicka på plustecknet i redigeri
   * ```n (= omedierad)```
   * ```s (= audio)```
   * ```v (= video)```
- Läs mer om [medietyper](http://www.kb.se/katalogisering/Formathandboken/innehallstyper/medie/).
+  <br>Läs mer om [medietyper](http://www.kb.se/katalogisering/Formathandboken/innehallstyper/medie/).
  
 #### Barartyp
 * Bärartyp (carrierType/CarrierType = 338 ‡b)  
