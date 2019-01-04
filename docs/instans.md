@@ -51,12 +51,13 @@ För att lägga till egenskaper under Instans, klicka på plustecknet i redigeri
 #### Medietyp
 * Medietyp (mediaType/Mediatype = 337 ‡b)  
   Länka till entitet.
+  <br>Läs mer om [medietyper](http://www.kb.se/katalogisering/Formathandboken/innehallstyper/medie/).
  <br/>```Exempel:```
   * ```c (= dator)```
   * ```n (= omedierad)```
   * ```s (= audio)```
   * ```v (= video)```
-<br>Läs mer om [medietyper](http://www.kb.se/katalogisering/Formathandboken/innehallstyper/medie/).
+
  
 #### Barartyp
 * Bärartyp (carrierType/CarrierType = 338 ‡b)  
