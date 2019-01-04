@@ -55,7 +55,7 @@ För att lägga till egenskaper under Instans, klicka på plustecknet i redigeri
   * ```c (= dator)```
   * ```n (= omedierad)```
   * ```s (= audio)```
-  * ```v (= video)``` 
+  * ```v (= video)```  
 Läs mer om [medietyper](http://www.kb.se/katalogisering/Formathandboken/innehallstyper/medie/).
  
 #### Barartyp
