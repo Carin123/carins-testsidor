@@ -521,8 +521,8 @@ Under Instans av Verk/Text, lägg till Relation genom att klicka på plustecknet
 #### Medverkan och funktion  
 * Medverkan och funktion  
   Läs mer:  
-  [Relationer till Agent i verksbeskrivningen(https://libris.kb.se/katalogisering/help/workflow-agent-org-instance)
   [Auktoritetsgruppens rekommendationer](https://kundo.se/org/librisxl/d/kbs-auktoritetsgrupp-informerar-jraz/)   
+  [Lägga till Agent - Organisation](https://libris.kb.se/katalogisering/help/workflow-agent-org-instance)  
   
 * Medverkan och funktion/Primär medverkan/Agent/Person (contribution/PrimaryContribution/agent/Person = 100 1/- ‡a)  
   Länka till entitet. Börja alltid med att söka efter om agenten redan finns. Vid behov, skapa ny entitet för agent (se Skapa ny agent i hjälpsektionen). I undantagsfall, skapa lokal entitet.
