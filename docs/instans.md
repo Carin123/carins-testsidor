@@ -284,20 +284,22 @@ Ange ogiltiga ISBN här och inte under Identifikator/ISBN/Ogiltigt värde. För 
 #### Omfang   
 * Omfång/Omfång/Benämning (extent/Extent/label = 300 ‡a)   
   Skriv in uppgiften under Benämning.  
-  ```Exempel: 319 sidor```   
-  FLER EXEMPEL
+  <br/>```Exempel:```
+  * ```319 sidor```
+  * ```2 teckningar på 1 ark```
+  * ```1 karta i 4 segment ```
   
 #### Ovriga fysiska detaljer   
 * Övriga fysiska detaljer (other physical details = 300 ‡b)     
   Skriv in uppgiften.  
   ```Exempel: illustrationer```  
-  FLER EXEMPEL
 
 #### Matt 
 * Mått/Mått/Benämning (hasDimensions/Dimensions/label = 300 ‡c)  
   Skriv in uppgiften under Benämning.  
-  ```Exempel: 24 cm```   
-  FLER EXEMPEL
+  <br/>```Exempel:```
+  * ```24 cm```
+  * ```34 x 27 cm och  37 x 27 cm, på ark 40 x 30 cm```
    
 #### Bilagor
 * Tillsammans med/Instans/Benämning (Bilagor) (accompaniedBy/Instance/label = 300 ‡e)   
@@ -368,8 +370,7 @@ För att lägga till målgruppsanmärkning, klicka på plustecknet Lägg till eg
 Skapa Målgrupp som lokal entitet (plustecknet vid Målgrupp - Lägg till målgrupp. I rutan Skapa lokal entitet, längst ner i sidorutan till höger, skriv Målgrupp och välj det). Skriv in uppgiften under Benämning.  
 ```Exempel: För årskurs 1```  
 Observera att kodning av målgrupp, motsvarande 008/22, ska registreras under Instans av Verk/Genre.  
- FLER EXEMPEL  
-
+ 
 #### Annat bararformat
 * Annat bärarformat (otherPhysicalFormat = 776)  
   För att länka till en utgåva i annat format, till exempel en elektronisk utgåva, lägg till Annat bärarformat (Lägg till egenskaper, välj Annat bärarformat). Sök upp och länka till instansen. Klicka på plustecknet vid Annat bärarformat (Lägg till instans). I sidorutan under Lägg till entitet/Instans, skriv in id eller annat sökbegrepp. Välj instansen genom att klicka på plustecknet vid instansen eller på instansens titel. Om instansen som länken går till har identifikator (ISBN), skapas i marcexporten 776 #t (Titel) och #z (Identifikator). I webbsök ger detta en länk i högermenyn under rubriken Sök vidare/Andra versioner.   
