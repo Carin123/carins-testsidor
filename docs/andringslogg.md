@@ -10,7 +10,7 @@ tags:
 
 ## Ändringslogg
 
-På denna sida listar vi ändringar i hjälptexterna.
+På denna sida listas ändringar i hjälptexterna.
 
 
 2019-01-07
