@@ -16,6 +16,6 @@ På denna sida listas ändringar i hjälptexterna.
 2019-01-07
 
 * Ny struktur för hjälptexterna.
-* Information om instanstyper tillagd.
+* Instans: Information om instanstyper och verkstyper tillagd.
 * Avsnittet om parallelltext förtydligat
 
