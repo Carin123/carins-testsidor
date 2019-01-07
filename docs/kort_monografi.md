@@ -11,6 +11,24 @@ ANMÄRKNING OM AVHANDLING
 
 #### Sprak 
 
+##### Översättning  
+För en översättning, ange även:  
+* Språk/Språk/Benämning (Language/label = 240 ‡l)  
+  Lägg till ytterligare en förekomst av Språk, under Språk (klicka på plustecknet vid Språk), skapa lokal entitet (klicka på Skapa lokal entitet längst ner i sidorutan till höger och lägg till Benämning (klicka på Lägg till egenskaper under: Språk).  
+  Skriv in språket i klartext. Denna klartext - verkets (översättningens) språk - visas som ett tillägg till verkets titel i marcpostens 240 ‡l.  
+  ```Exempel: Svenska```  
+
+* Anmärkning: Språk (marc:LanguageNote = 041 i1: 1)  
+  Ange om resursen är/innehåller en översättning.  
+  För att lägga till uppgiften, klicka på plustecknet vid Instans av verk/Text och välj Anmärkning: Språk. Välj fras från lista.  
+  ```Exempel: objektet är/innehåller översättning```  
+  
+* Originalversion/Verk/Språk (originalversion/Work/language = 041 ‡h)  
+  Ange det språk som en översatt text är översatt från. För en text som är översatt från engelska till svenska, ange engelska här.   
+  Klicka på Lägg till egenskaper under: Text, välj Originalversion, klicka på plustecknet vid Originalversion, välj Skapa lokal entitet (längst ner i sidorutan). Skriv Verk i rutan för Skapa lokal entitet och välj * Verk. Klicka på plustecknet vid Verk (Lägg till egenskaper under: Verk) och välj Språk. Klicka på plustecknet vid Språk. Sök fram språkentiteten och länka.  
+  ```Exempel: engelska (eng)```  
+För översättningar i flera led, länka först till det mellanliggande språket och därefter till originalspråket.  
+
 ###### Texten delvis översatt (parallelltext)
 (008/35-37 + 041 0/- #a + 041 1/- #a #h)  
 * Språk (language = 008/35-37) +
