@@ -220,67 +220,40 @@ Klicka sedan på plustecknet vid DDK-klassifikation (sekundär) (Lägg till ddk-
 #### Amne  
 * Ämne  
   Läs mer:  
-  [Länka ämnesord](https://libris.kb.se/katalogisering/help/workflow-linked-entity-sh)   
-  [Sammansatt, ej auktoriserat ämnesord](https://libris.kb.se/katalogisering/help/workflow-non-auth-sh)   
-  [Kontrollerat, ej auktoriserat ämnesord](https://libris.kb.se/katalogisering/help/workflow-controlled-non-auth-sh)   
-  [Okontrollerat ämnesord](https://libris.kb.se/katalogisering/help/workflow-uncontrolled-sh)
+  [Länka till auktoriserat ämnesord](https://libris.kb.se/katalogisering/help/workflow-linked-entity-sh)   
+  [Lägg till sammansatt men ej auktoriserat ämnesord](https://libris.kb.se/katalogisering/help/workflow-non-auth-sh)   
+  [Lägg till kontrollerade men ej auktoriserade ämnesord](https://libris.kb.se/katalogisering/help/workflow-controlled-non-auth-sh)   
+  [Lägg till okontrollerade ämnesord, t.ex. prel-termer i samband med ämnesordsförslag](https://libris.kb.se/katalogisering/help/workflow-uncontrolled-sh)
 
 
 GENERELLT OM ÄMNESORD + RUBRIKERNA, HÄNVISA TILL EVA-KARINS TEXT  
 ##### Allmänt ämnesord  
 * Ämne - sao-term  (subject = 650 -/7 ‡a, ‡2 sao)  
-  Länka till entitet.  
-  ```Exempel: Säkerhetspolitik```
+  Länka till entitet. Se ovan under Ämne.  
 
 ##### Allmänt ämnesord med underindelning   
-Länka i första hand till färdiga sammansatta termer som entiteter. I övriga fall, skapa Sammansatt term som lokal entitet. (Plustecknet vid Ämne - Lägg till entitet, välj Skapa lokal entitet, längst ner i sidorutan till höger. Skriv Sammansatt term i rutan Skapa lokal entitet, välj * Sammansatt term).  
-* Ämne/Sammansatt term/Termlista (subject/ComplexSubject/inScheme = ‡2 sao)   
-  Under Termlista, sök fram och länka till entiteten "sao". (Plustecknet vid Termlista - Lägg till termlista, skriv sao i sökrutan Lägg till entitet, välj sao genom att klicka på plustecknet vid Svenska ämnesord (SAO), sao).  
-  ```Exempel: sao```   
-* Ämne/Sammansatt term/Termkomponenter/Allmänt ämnesord  
- (subject/ComplexSubject/termComponentList = 650 -/7 ‡a)      
-  Under Termkomponenter, sök fram och länka till entiteten för det allmänna ämnesordet. (Plustecknet vid Termkomponenter - Lägg till entitet, välj typ Allmänt ämnesord, skriv sökbegrepp för ämnesordet i sökrutan Lägg till entitet, välj entitet genom att klicka på plustecknet vid entiteten - Lägg till.)      
-  ```Exempel: Varumärken```    
-* Ämne/Sammansatt term/Termkomponenter/Underindelning för allmänt ämnesord  
- (subject/ComplexSubject/termComponentList = 650 ‡x)   
-  Under Termkomponenter, sök fram och länka till entiteten för det allmänna ämnesordet. (Plustecknet vid Termkomponenter - Lägg till entitet, välj typ Underindelning för allmänt ämnesord, skriv sökbegrepp för ämnesordet i sökrutan Lägg till entitet, välj entitet genom att klicka på plustecknet vid entiteten - Lägg till.)  
-  ```Exempel: juridik och lagstiftning```   
+* Ämne - sao-term  (subject = 650 -/7 ‡a, ‡x, ‡2 sao)  
+Länka till entitet. Se ovan under Ämne.  
   
 ##### Geografiska ämnesord  
 * Geografiskt ämnesord (subject = 651 -/4 ‡a)  
-  Sök fram och länka till entitet.  
-  ```Exempel: Sverige```
+ Länka till entitet. Se ovan under Ämne.  
   
 ##### Geografiskt ämnesord med geografisk underindelning  
-Skapa Sammansatt term som lokal entitet. (Plustecknet vid Ämne - Lägg till entitet, välj Skapa lokal entitet, längst ner i sidorutan till höger. Skriv Sammansatt term i rutan Skapa lokal entitet, välj * Sammansatt term).  
-* Ämne/Sammansatt term/Termlista (subject/ComplexSubject/inScheme = ‡2 sao)   
-  Under Termlista, sök fram och länka till entiteten "sao". (Plustecknet vid Termlista - Lägg till termlista, skriv sao i sökrutan Lägg till entitet, välj sao genom att klicka på plustecknet vid Svenska ämnesord (SAO), sao).  
-  ```Exempel: sao```  
-* Ämne/Sammansatt term/Termkomponenter/Geografiskt ämnesord/Föredragen benämning  
- (subject/ComplexSubject/termComponentList/Geographic/prefLabel)  
- Under Termkomponenter, skapa Geografiskt ämnesord som lokal entitet. (Plustecknet vid Termkomponenter - Lägg till entitet. I  rutan Skapa lokal entitet, längst ner i sidorutan till höger, skriv Geografiskt ämnesord och välj det). Skriv in det geografiska ämnesordet under Föredragen benämning.    
-  ```Exempel: Tyskland```  
-* Ämne/Sammansatt term/Termkomponenter/Underindelning för geografisk term/Föredragen benämning   
- (subject/ComplexSubject/termComponentList/GeographicSubdivision/prefLabel)  
-  Under Termkomponenter, skapa Underindelning för geografisk term som lokal entitet. (Plustecknet vid Termkomponenter - Lägg till entitet. I rutan Skapa lokal entitet, längst ner i sidorutan till höger, skriv Underindelning för geografisk term och välj det). Skriv in termen för den geografiska underindelningen under Föredragen benämning.  
-  ```Exempel: Bonn``` 
+* Geografiskt ämnesord (subject = 651 -/7 ‡a, ‡x, ‡2 sao)  
+ Länka till entitet. Se ovan under Ämne.  
    
 ##### Kronologiskt ämnesord
 * Ämne/Kronologiskt ämnesord (subject = 648 7/- ‡a, ‡2 sao)  
-Länka till entitet. Om du inte får träff vid sökning på entiteter, pröva att söka på första ledet i ett sammansatt ord, t ex "1800" istället för "1800-talet".   
- ```Exempel: 1800-talet```  
+Länka till entitet. Se ovan under Ämne.  
   
-##### Ämnesord Person  HÄNVISA TILL CARINAS TEXT    
+##### Ämnesord Person  
 * Ämne/Agent/Person (subject = 600 1/4- ‡a)      
-Länka till entitet. Börja alltid med att söka efter om agenten redan finns. Vid behov, skapa ny entitet för agent (se Skapa ny agent i hjälpsektionen). I undantagsfall, skapa lokal entitet (längst ner i sidorutan till höger).  
-```Exempel: Lindgren, Astrid, 1907-2002```  
-Läs [Auktoritetsgruppens rekommendationer](https://kundo.se/org/librisxl/d/kbs-auktoritetsgrupp-informerar-jraz/)  
- 
-##### Ämnesord Organisation  HÄNVISA TILL CARINAS TEXT   
+ Länka till entitet. Se: [Relationer till Agent](https://libris.kb.se/katalogisering/help/workflow-agent-org-instance).  
+
+##### Ämnesord Organisation  
 * Ämne/Agent/Organisation (subject/agent/Organization = 610 2/- ‡a)  
-Länka till entitet. Börja alltid med att söka efter om agenten redan finns. Vid behov, skapa ny entitet för agent (se Skapa ny agent i hjälpsektionen). I undantagsfall, skapa lokal entitet (längst ner i sidorutan till höger).    
-```Exempel: Svenska Röda korset```  
-Läs mer:  
+Länka till entitet. Se:
   [Auktoritetsgruppens rekommendationer](https://kundo.se/org/librisxl/d/kbs-auktoritetsgrupp-informerar-jraz/)   
   [Lägga till Agent - Organisation](https://libris.kb.se/katalogisering/help/workflow-agent-org-instance)       
  
