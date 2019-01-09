@@ -31,7 +31,7 @@ I vissa fall fungerar det ännu inte fullt ut att lägga till alla uppgifter som
 | ----------- |  ----------- |  ----------- |
 | [Verkets titel](#verkets-titel) |  | [Ämne](#amne) | 
 | [Medverkan och funktion](#medverkan-och-funktion) |  | [Målgrupp](#malgrupp) | 
-| [Relationer till andra verk och ingående verk](#relationer-till-andra-verk-och-ingaende verk) |  | [Innehållstyp](#innehallstyp) | 
+| [Relationer till andra verk och ingående verk](#relationer-till-andra-verk-och-ingaende-verk) |  | [Innehållstyp](#innehallstyp) | 
 | [Språk](#sprak) |  | [Sammanfattning av innehåll](#sammanfattning-av-innehall) | 
 | [Genre](#genre) |  | [Anmärkning om akademisk avhandling](#anmarkning-om-akademisk-avhandling) | 
 | [Klassifikation](#klassifikation) |  |  | 
