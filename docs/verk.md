@@ -2,7 +2,7 @@
 section: Hjälptexter katalogisering
 title: Verk
 order: 17
-date: 2019-01-07
+date: 2019-01-09
 tags:
 - under arbete
 - verk
@@ -87,28 +87,25 @@ Under Instans av Verk/Text, lägg till Relation genom att klicka på plustecknet
 
 #### Medverkan och funktion  
 * Medverkan och funktion  
+  Under Medverkan och funktion anges relationer till de agenter som medverkar i verket, till exempel författare, översättare, illustratörer samt funktionskod för respektive agent. Relationer till utgivare (710) anges för närvarande också här.   
   Läs mer:  
   [Auktoritetsgruppens rekommendationer](https://kundo.se/org/librisxl/d/kbs-auktoritetsgrupp-informerar-jraz/)   
-  [Relationer till Agent i verksbeskrivningen](https://libris.kb.se/katalogisering/help/workflow-agent-org-instance)  
+  [Relationer till Agent](https://libris.kb.se/katalogisering/help/workflow-agent-org-instance)  
   
 * Medverkan och funktion/Primär medverkan/Agent/Person (contribution/PrimaryContribution/agent/Person = 100 1/- ‡a)  
-  Länka till entitet. Börja alltid med att söka efter om agenten redan finns. Vid behov, skapa ny entitet för agent (se Skapa ny agent i hjälpsektionen). I undantagsfall, skapa lokal entitet.
-<br/>```Exempel:```
- * ```Lindgren, Astrid, 1907-2002```
- * ```Jöran Persson, ca 1530-1568```
-  
+  Länka till entitet. Se [Relationer till Agent](https://libris.kb.se/katalogisering/help/workflow-agent-org-instance).  
+ 
 * Medverkan och funktion/Primär medverkan/Funktion (contribution/PrimaryContribution/role = 100 ‡4)  
-  Länka till entitet. Klicka på plustecknet vid Funktion (Lägg till funktion) och sök fram funktionskod. Skriv in kod eller utskriven form i sökrutan eller tryck på mellanslagstangenten för att se alla koder. Välj kod genom att klicka på plustecknet vid koden eller på koden.    
-För en sorterad lista på koder, se Formathandboken för Libris/Voyager: [Funktions- och relationskoder](http://www.kb.se/katalogisering/Formathandboken/Funktionskoder/)  
-  ```Exempel: relator/author (= Författare)```
+  Länka till entitet. Se [Relationer till Agent](https://libris.kb.se/katalogisering/help/workflow-agent-org-instance).  
   
 * Medverkan och funktion/Medverkan/Agent/Person (contribution/agent/Person = 700 1/- ‡a)  
-  Länka till entitet. Börja alltid med att söka efter om agenten redan finns. Vid behov, skapa ny entitet för agent (se Skapa ny agent i hjälpsektionen). I undantagsfall, skapa lokal entitet.   
-  ```Exempel: Skoglund, Svante, 1960-```  
-* Medverkan och funktion/Medverkan/Funktion (contribution/role = 700 ‡4)  
-  Länka till entitet. Klicka på plustecknet vid Funktion (Lägg till funktion) och sök fram funktionskod. Skriv in kod eller utskriven form i sökrutan eller tryck på mellanslagstangenten för att se alla koder. Välj kod genom att klicka på plustecknet vid koden eller på koden.    
-För en sorterad lista på koder, se Formathandboken för Libris/Voyager: [Funktions- och relationskoder](http://www.kb.se/katalogisering/Formathandboken/Funktionskoder/)    
-  ```Exempel: relator/trl (= översättare)```  
+  Länka till entitet. Se [Relationer till Agent](https://libris.kb.se/katalogisering/help/workflow-agent-org-instance).  
+  
+* Medverkan och funktion/Medverkan/Agent/Organisation (contribution/agent/Organisation = 710 2/- ‡a, ‡4 pbl)  
+  Länka till entitet. Se [Relationer till Agent](https://libris.kb.se/katalogisering/help/workflow-agent-org-instance). 
+  
+* Medverkan och funktion/Medverkan/Agent/Jurisdiktion (contribution/agent/Jurisdiktion = 710 1/- ‡a, ‡4 pbl)  
+  Länka till entitet. Se [Relationer till Agent](https://libris.kb.se/katalogisering/help/workflow-agent-org-instance). 
 
 #### Sprak 
 * Språk (language = 008/35-37)  
