@@ -106,6 +106,12 @@ Under Instans av Verk/Text, lägg till Relation genom att klicka på plustecknet
   
 * Medverkan och funktion/Medverkan/Agent/Jurisdiktion (contribution/agent/Jurisdiktion = 710 1/- ‡a, ‡4 pbl)  
   Länka till entitet. Se [Relationer till Agent](https://libris.kb.se/katalogisering/help/workflow-agent-org-instance). 
+ 
+#### Ingående verk och relationer till andra verk  
+* Ingående verk (700 1/2 ‡a, ǂd, ǂt)
+Se [Relationer till delar och verk](https://libris.kb.se/katalogisering/help/workflow-agent-relation).  
+* Relationer till andra verk (700 1/- ‡a, ǂd, ǂt)
+Se [Relationer till delar och verk](https://libris.kb.se/katalogisering/help/workflow-agent-relation).
 
 #### Sprak 
 * Språk (language = 008/35-37)  
