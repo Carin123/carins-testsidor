@@ -31,9 +31,10 @@ I vissa fall fungerar det ännu inte fullt ut att lägga till alla uppgifter som
 | ----------- |  ----------- |  ----------- |
 | [Verkets titel](#verkets-titel) |  | [Ämne](#amne) | 
 | [Medverkan och funktion](#medverkan-och-funktion) |  | [Målgrupp](#malgrupp) | 
-| [Språk](#sprak) |  | [Innehållstyp](#innehallstyp) | 
-| [Genre](#genre) |  | [Sammanfattning av innehåll](#sammanfattning-av-innehall) | 
-| [Klassifikation](#klassifikation) |  | [Anmärkning om akademisk avhandling](#anmarkning-om-akademisk-avhandling) | 
+| [Relationer till andra verk och ingående verk](#relationer-till-andra-verk-och-ingaende verk) |  | [Innehållstyp](#innehallstyp) | 
+| [Språk](#sprak) |  | [Sammanfattning av innehåll](#sammanfattning-av-innehall) | 
+| [Genre](#genre) |  | [Anmärkning om akademisk avhandling](#anmarkning-om-akademisk-avhandling) | 
+| [Klassifikation](#klassifikation) |  |  | 
 
 ### Verk   
  OM VERKSTYPER  
@@ -107,11 +108,11 @@ Under Instans av Verk/Text, lägg till Relation genom att klicka på plustecknet
 * Medverkan och funktion/Medverkan/Agent/Jurisdiktion (contribution/agent/Jurisdiktion = 710 1/- ‡a, ‡4 pbl)  
   Länka till entitet. Se [Relationer till Agent](https://libris.kb.se/katalogisering/help/workflow-agent-org-instance). 
  
-#### Ingående verk och relationer till andra verk  
-* Ingående verk (700 1/2 ‡a, ǂd, ǂt)
-Se [Relationer till delar och verk](https://libris.kb.se/katalogisering/help/workflow-agent-relation).  
+#### Relationer till andra verk och ingaende verk  
 * Relationer till andra verk (700 1/- ‡a, ǂd, ǂt)
 Se [Relationer till delar och verk](https://libris.kb.se/katalogisering/help/workflow-agent-relation).
+* Ingående verk (700 1/2 ‡a, ǂd, ǂt)
+Se [Relationer till delar och verk](https://libris.kb.se/katalogisering/help/workflow-agent-relation).  
 
 #### Sprak 
 * Språk (language = 008/35-37)  
