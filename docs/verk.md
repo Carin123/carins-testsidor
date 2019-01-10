@@ -2,7 +2,7 @@
 section: Hjälptexter katalogisering
 title: Verk
 order: 17
-date: 2019-01-09
+date: 2019-01-10
 tags:
 - under arbete
 - verk
@@ -87,10 +87,9 @@ Under Instans av Verk/Text, lägg till Relation genom att klicka på plustecknet
 #### Medverkan och funktion  
 * Medverkan och funktion  
   Under Medverkan och funktion anges relationer till de agenter som medverkar i verket, till exempel författare, översättare, illustratörer samt funktionskod för respektive agent. Relationer till utgivare (710) anges för närvarande också här.   
-  Läs mer:  
-  [Auktoritetsgruppens rekommendationer](https://kundo.se/org/librisxl/d/kbs-auktoritetsgrupp-informerar-jraz/)   
+  Följ dessa instruktioner:  
   [Relationer till Agent](https://libris.kb.se/katalogisering/help/workflow-agent-org-instance)  
-  
+    
 * Medverkan och funktion/Primär medverkan/Agent/Person (contribution/PrimaryContribution/agent/Person = 100 1/- ‡a)  
   Länka till entitet. Se [Relationer till Agent](https://libris.kb.se/katalogisering/help/workflow-agent-org-instance).  
  
@@ -108,9 +107,9 @@ Under Instans av Verk/Text, lägg till Relation genom att klicka på plustecknet
  
 #### Relationer till andra verk och ingaende verk  
 * Relationer till andra verk (700 1/- ‡a, ǂd, ǂt)
-Se [Relationer till delar och verk](https://libris.kb.se/katalogisering/help/workflow-agent-relation).
+  Se [Relationer till delar och verk](https://libris.kb.se/katalogisering/help/workflow-agent-relation).
 * Ingående verk (700 1/2 ‡a, ǂd, ǂt)
-Se [Relationer till delar och verk](https://libris.kb.se/katalogisering/help/workflow-agent-relation).  
+  Se [Relationer till delar och verk](https://libris.kb.se/katalogisering/help/workflow-agent-relation).  
 
 #### Sprak 
 * Språk (language = 008/35-37)  
@@ -219,14 +218,12 @@ Klicka sedan på plustecknet vid DDK-klassifikation (sekundär) (Lägg till ddk-
  
 #### Amne  
 * Ämne  
-  Läs mer:  
+  Länka  i första hand till entiteter för ämnesord. Följ instruktionerna på följande sidor:  
   [Länka till auktoriserat ämnesord](https://libris.kb.se/katalogisering/help/workflow-linked-entity-sh)   
   [Lägg till sammansatt men ej auktoriserat ämnesord](https://libris.kb.se/katalogisering/help/workflow-non-auth-sh)   
   [Lägg till kontrollerade men ej auktoriserade ämnesord](https://libris.kb.se/katalogisering/help/workflow-controlled-non-auth-sh)   
   [Lägg till okontrollerade ämnesord, t.ex. prel-termer i samband med ämnesordsförslag](https://libris.kb.se/katalogisering/help/workflow-uncontrolled-sh)
 
-
-GENERELLT OM ÄMNESORD + RUBRIKERNA, HÄNVISA TILL EVA-KARINS TEXT  
 ##### Allmänt ämnesord  
 * Ämne - sao-term  (subject = 650 -/7 ‡a, ‡2 sao)  
   Länka till entitet. Se ovan under Ämne.  
@@ -237,25 +234,37 @@ Länka till entitet. Se ovan under Ämne.
   
 ##### Geografiska ämnesord  
 * Geografiskt ämnesord (subject = 651 -/4 ‡a)  
- Länka till entitet. Se ovan under Ämne.  
+  
   
 ##### Geografiskt ämnesord med geografisk underindelning  
 * Geografiskt ämnesord (subject = 651 -/7 ‡a, ‡x, ‡2 sao)  
- Länka till entitet. Se ovan under Ämne.  
+  För auktoriserade geografiska ämnesordssträngar, följ denna instruktion:    
+ [Länka till auktoriserat ämnesord](https://libris.kb.se/katalogisering/help/workflow-linked-entity-sh)   
+  För ej auktoriserade geografiska ämnesordssträngar, följ denna instruktion:  
+ [Lägg till sammansatt men ej auktoriserat ämnesord](https://libris.kb.se/katalogisering/help/workflow-non-auth-sh) 
    
 ##### Kronologiskt ämnesord
 * Ämne/Kronologiskt ämnesord (subject = 648 7/- ‡a, ‡2 sao)  
-Länka till entitet. Se ovan under Ämne.  
+  Länka till entitet. Följ denna instruktion:    
+  [Länka till auktoriserat ämnesord](https://libris.kb.se/katalogisering/help/workflow-linked-entity-sh)   
   
 ##### Ämnesord Person  
 * Ämne/Agent/Person (subject = 600 1/4- ‡a)      
- Länka till entitet. Se [Relationer till Agent](https://libris.kb.se/katalogisering/help/workflow-agent-org-instance).  
-
+ Länka till entitet. Följ dessa instruktioner:  
+ [Relationer till Agent](https://libris.kb.se/katalogisering/help/workflow-agent-org-instance).   
+ Vid behov, skapa ny agent, enligt instruktion:  
+ [Skapa ny agent - person](https://libris.kb.se/katalogisering/help/workflow-agent-person-new) eller
+ [Redigera befintlig agent - person](https://libris.kb.se/katalogisering/help/workflow-agent-person-edit)  
+ I undantagsfall, skapa lokal entitet.  
+  
 ##### Ämnesord Organisation  
 * Ämne/Agent/Organisation (subject/agent/Organization = 610 2/- ‡a)  
-Länka till entitet. Se:
-  [Auktoritetsgruppens rekommendationer](https://kundo.se/org/librisxl/d/kbs-auktoritetsgrupp-informerar-jraz/)   
-  [Lägga till Agent - Organisation](https://libris.kb.se/katalogisering/help/workflow-agent-org-instance)       
+  Länka till entitet. Följ dessa instruktioner:  
+  [Relationer till Agent](https://libris.kb.se/katalogisering/help/workflow-agent-org-instance).   
+  Vid behov, skapa ny agent, enligt instruktion:  
+  [Skapa ny agent - organisation](https://libris.kb.se/katalogisering/help/workflow-agent-organisation-new) eller
+  [Redigera befintlig agent - organisation](https://libris.kb.se/katalogisering/help/workflow-agent-organisation-edit)  
+  I undantagsfall, skapa lokal entitet.  
  
 #### Malgrupp     
  * Målgrupp (intendedAudience = 008/22)  
@@ -268,7 +277,7 @@ Länka till entitet. Se:
   Länka till entitet.  
   ```Exempel: text (txt)```  
   För att lägga till ytterligare innehållstyp, till exempel "sti" = stillbild för en bilderbok med både text och bild, lägg till Har del under Instans av Verk, från plustecknet vid Text (Lägg till egenskaper under: Text). Skapa därefter Verk som lokal entitet genom att klicka på plustecknet vid Har del (Lägg till resurs). Välj Skapa lokal entitet och välj därefter ++ Verk i listan. Lägg därefter till Innehållstyp från plustecknet vid Verk (Lägg till egenskaper under: Verk). Sök fram och länka till entitet.  
-  EXEMPEL PÅ OLIKA INNEHÅLLSTYPER HÄNVISAT TILL FORMATHANDBOKEN  
+  EXEMPEL PÅ OLIKA INNEHÅLLSTYPER HÄNVISA TILL FORMATHANDBOKEN  
   
 #### Sammanfattning av innehall    
  * Sammanfattning av innehåll/Sammanfattning/Benämning (summary/Summary/label = 520 ‡a)  
