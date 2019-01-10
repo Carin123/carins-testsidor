@@ -70,11 +70,6 @@ Skriv in uppgiften under Huvudtitel.
 Lägg till eventuell deltitel (plustecknet vid Titel - lägg till egenskaper under: Titel, välj Deltitel).  
 Skriv in uppgiften.  
 ```Exempel: Nya testamentet```
-*	Uttryck av/Verk/Språk/Språk/Benämning  
-(expressionOf/Work/language/Language/label = 130 ‡l)  
-Lägg till eventuell benämning på språk som ska ingå i den föredragna titeln. Klicka på plustecknet vid Verk (Lägg till egenskaper under: Verk) och välj Språk. Klicka på plustecknet vid Språk (Lägg till språk) och välj Skapa lokal entitet. Lägg till Benämning (plustecknet vid Språk - Lägg till egenskaper under: Språk, välj Benämning.  
-Skriv in uppgiften.  
-```Exempel: Svenska```
 
 ##### Verkets titel - analytisk sökingång  
 För att ange verk som ingår i det beskrivna verket, motsvarande fält 730 0/2 (analytisk sökingång) i marc:  
@@ -119,11 +114,17 @@ Under Instans av Verk/Text, lägg till Relation genom att klicka på plustecknet
   För att ange att texten är på flera språk, ange ytterligare en språkkod genom att klicka på plustecknet vid Språk (Lägg till språk) och söka fram ytterligare en entitet för ett språk och länka till den.   
   
 ##### Översättning  
-För en översättning, ange även:  
+För en översättning med Medverkan och funktion/Primär medverkan, ange även:  
 * Språk/Språk/Benämning (Language/label = 240 ‡l)  
   Lägg till ytterligare en förekomst av Språk, under Språk (klicka på plustecknet vid Språk), skapa lokal entitet (klicka på Skapa lokal entitet längst ner i sidorutan till höger och lägg till Benämning (klicka på Lägg till egenskaper under: Språk).  
   Skriv in språket i klartext. Denna klartext - verkets (översättningens) språk - visas som ett tillägg till verkets titel i marcpostens 240 ‡l.  
   ```Exempel: Svenska```  
+  
+ * Uttryck av/Verk/Språk/Språk/Benämning  
+(expressionOf/Work/language/Language/label = 130 ‡l)  
+Lägg till eventuell benämning på språk som ska ingå i den föredragna titeln. Klicka på plustecknet vid Verk (Lägg till egenskaper under: Verk) och välj Språk. Klicka på plustecknet vid Språk (Lägg till språk) och välj Skapa lokal entitet. Lägg till Benämning (plustecknet vid Språk - Lägg till egenskaper under: Språk, välj Benämning.  
+Skriv in uppgiften.  
+```Exempel: Svenska```
 
 * Anmärkning: Språk (marc:LanguageNote = 041 i1: 1)  
   Ange om resursen är/innehåller en översättning.  
