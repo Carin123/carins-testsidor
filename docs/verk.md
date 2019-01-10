@@ -233,7 +233,7 @@ Klicka sedan på plustecknet vid DDK-klassifikation (sekundär) (Lägg till ddk-
   För ämnesord från andra kontrollerade listor, följ denna instruktion:  
   [Lägg till kontrollerade men ej auktoriserade ämnesord](https://libris.kb.se/katalogisering/help/workflow-controlled-non-auth-sh)  
   
-  * Ämne - okontrollerade (subject = 653 -/- ‡a)  
+* Ämne - okontrollerade (subject = 653 -/- ‡a)  
   För ämnesord från andra kontrollerade listor, följ denna instruktion:  
   [Lägg till kontrollerade men ej auktoriserade ämnesord](https://libris.kb.se/katalogisering/help/workflow-controlled-non-auth-sh)   
 
