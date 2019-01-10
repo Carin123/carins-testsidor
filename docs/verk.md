@@ -226,11 +226,22 @@ Klicka sedan på plustecknet vid DDK-klassifikation (sekundär) (Lägg till ddk-
 
 ##### Allmänt ämnesord  
 * Ämne - sao-term  (subject = 650 -/7 ‡a, ‡2 sao)  
-  Länka till entitet. Se ovan under Ämne.  
+  Länka till entitet från Svenska ämnesord, enligt instruktion: 
+  [Länka till auktoriserat ämnesord](https://libris.kb.se/katalogisering/help/workflow-linked-entity-sh)    
+   
+* Ämne - annan kontrollerad lista (subject = 650 -/7 ‡a, ‡2)  
+  För ämnesord från andra kontrollerade listor, följ denna instruktion:  
+  [Lägg till kontrollerade men ej auktoriserade ämnesord](https://libris.kb.se/katalogisering/help/workflow-controlled-non-auth-sh)  
+  
+  * Ämne - okontrollerade (subject = 653 -/- ‡a)  
+  För ämnesord från andra kontrollerade listor, följ denna instruktion:  
+  [Lägg till kontrollerade men ej auktoriserade ämnesord](https://libris.kb.se/katalogisering/help/workflow-controlled-non-auth-sh)   
 
 ##### Allmänt ämnesord med underindelning   
 * Ämne - sao-term  (subject = 650 -/7 ‡a, ‡x, ‡2 sao)  
-Länka till entitet. Se ovan under Ämne.  
+  Länka till entitet från Svenska ämnesord, enligt instruktion: 
+  [Länka till auktoriserat ämnesord](https://libris.kb.se/katalogisering/help/workflow-linked-entity-sh)  
+  
   
 ##### Geografiska ämnesord  
 * Geografiskt ämnesord (subject = 651 -/4 ‡a)  
