@@ -378,3 +378,9 @@ Observera att kodning av målgrupp, motsvarande 008/22, ska registreras under In
   Typanmärkning i samband med Annat bärarformat kan för närvarande inte läggas till.  
 * Annat bärarformat/Beskriven av/Post/Kontrollnummer (776 ‡w)  
   Beskriven av/Post/Kontrollnummer, motsvarande delfält w, är för närvarande låst för redigering. Det går därmed inte att lägga till egenskapen eller redigera den i befintliga beskrivningar.  
+  
+#### Annan relaterad resurs
+* Annan relaterad resurs/Elektronisk/URI (marc:versionOfResource = 856 4/1)   
+  För att länka till en resurs av resursen i annat format än instansbeskrivningens instanstyp, till exempel en länk till en elektronisk version av en tryckt resurs, lägg till Annan relaterad resurs. Om instansbeskrivningen gäller en elektronisk resurs (instanstyp: elektronisk), se istället instruktioner i hjälptexten för Digital resurs.  
+Klicka på plustecknet vid Annan relaterad resurs och välj Lägg till elektronisk. Lägg till egenskapen URI. Klistra in aktuell URI.  
+ 
