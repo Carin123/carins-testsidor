@@ -172,7 +172,30 @@ För att söka efter entiteter inom Genre/form, klicka på plustecknet vid Genre
  ```Exempel: Självbiografier```  
   Se [instruktionsfilm](https://www.youtube.com/watch?v=wrqs310Nt0M&list=PLZVkEICvA5-GRT2oJQmLgq_2Pksx6zYPy&index=7)  
   
-GENERELLT OM OM GENRE - OLIKA TYPER  
+##### Litterär genre  
+* Genre/form – litterär genre (genreForm = 008/33)  
+  Välj Litterär genre i listan över typer. Länka till entitet.  
+  ```Exempel: 0 ( = ej skönlitterärt verk)```
+  
+##### Biografiskt material  
+* Genre/form – biografiskt material (genreForm = 008/34)  
+  Välj Biografiskt material i listan över typer. Länka till entitet.  
+  ```Exempel: a (= självbiografi)```  
+    
+##### Festskrift     
+* Genre/form – festskrift (genreForm = 008/30)  
+  Välj Festskrift i listan över typer. Länka till entitet.    
+  ```Exempel: Ja, resursen är en festskrift```    
+    
+##### Konferenspublikation       
+* Genre/form – konferenspublikation (genreForm = 008/29)  
+  Välj Konferenspublikation i listan över typer. Länka till entitet.         
+  ```Exempel: Ja, resursen härrör från konferens```   
+     
+##### Akademisk avhandling      
+* Genre/form – akademisk avhandling (genreForm = 008/24-27)  
+  Välj Innehåll 1, Innehåll 3, Innehåll 2, i listan över typer. Skriv "avhandling" i sökrutan. Länka till entitet.      
+  ```Exempel: Akademisk avhandling```  
 
 #### Klassifikation  
 * DDK-klassifikation  
