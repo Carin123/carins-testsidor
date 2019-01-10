@@ -352,7 +352,6 @@ OBS! Om ISSN finns i både 490 och 830 och om volymbeteckningen är angiven på 
   Skriv in allmänna anmärkningar här.  
   För att lägga till Anmärkning, klicka på plustecknet i redigeringsvyn (den stora runda ikonen under Verktygsikonen - Lägg till egenskaper under: Instans) och välj Anmärkning (hasNote). Tryck Enter för att lägga till Anmärkning.  
   Skriv in uppgiften under Benämning.  
-   FLER EXEMPEL
    
 #### Innehallsanmarkning  
 * Har innehållsförteckning/Innehållsförteckning/Benämning (tableofContents = 505 8/_)  
@@ -383,4 +382,3 @@ Observera att kodning av målgrupp, motsvarande 008/22, ska registreras under In
 * Annan relaterad resurs/Elektronisk/URI (marc:versionOfResource = 856 4/1)   
   För att länka till en resurs av resursen i annat format än instansbeskrivningens instanstyp, till exempel en länk till en elektronisk version av en tryckt resurs, lägg till Annan relaterad resurs. Om instansbeskrivningen gäller en elektronisk resurs (instanstyp: elektronisk), se istället instruktioner i hjälptexten för Digital resurs.  
 Klicka på plustecknet vid Annan relaterad resurs och välj Lägg till elektronisk. Lägg till egenskapen URI. Klistra in aktuell URI.  
- 
