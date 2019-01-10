@@ -114,13 +114,14 @@ Under Instans av Verk/Text, lägg till Relation genom att klicka på plustecknet
   För att ange att texten är på flera språk, ange ytterligare en språkkod genom att klicka på plustecknet vid Språk (Lägg till språk) och söka fram ytterligare en entitet för ett språk och länka till den.   
   
 ##### Översättning  
-För en översättning med Medverkan och funktion/Primär medverkan, ange även:  
+För en översättning, ange även:  
 * Språk/Språk/Benämning (Language/label = 240 ‡l)  
   Lägg till ytterligare en förekomst av Språk, under Språk (klicka på plustecknet vid Språk), skapa lokal entitet (klicka på Skapa lokal entitet längst ner i sidorutan till höger och lägg till Benämning (klicka på Lägg till egenskaper under: Språk).  
   Skriv in språket i klartext. Denna klartext - verkets (översättningens) språk - visas som ett tillägg till verkets titel i marcpostens 240 ‡l.  
   ```Exempel: Svenska```  
   
- * Uttryck av/Verk/Språk/Språk/Benämning  
+För en översättning av ett anonymt verk (ingen Medverkan och funktion/Primär medverkan förekommer), ange även: 
+* Uttryck av/Verk/Språk/Språk/Benämning  
 (expressionOf/Work/language/Language/label = 130 ‡l)  
 Lägg till eventuell benämning på språk som ska ingå i den föredragna titeln. Klicka på plustecknet vid Verk (Lägg till egenskaper under: Verk) och välj Språk. Klicka på plustecknet vid Språk (Lägg till språk) och välj Skapa lokal entitet. Lägg till Benämning (plustecknet vid Språk - Lägg till egenskaper under: Språk, välj Benämning.  
 Skriv in uppgiften.  
