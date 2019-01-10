@@ -251,18 +251,18 @@ Länka till entitet. Se ovan under Ämne.
 ##### Ämnesord Person  
 * Ämne/Agent/Person (subject = 600 1/4- ‡a)      
  Länka till entitet. Följ dessa instruktioner:  
- [Relationer till Agent](https://libris.kb.se/katalogisering/help/workflow-agent-org-instance).   
+ [Relationer till Agent](https://libris.kb.se/katalogisering/help/workflow-agent-org-instance)   
  Vid behov, skapa ny agent, enligt instruktion:  
- [Skapa ny agent - person](https://libris.kb.se/katalogisering/help/workflow-agent-person-new) eller
+ [Skapa ny agent - person](https://libris.kb.se/katalogisering/help/workflow-agent-person-new) eller  
  [Redigera befintlig agent - person](https://libris.kb.se/katalogisering/help/workflow-agent-person-edit)  
  I undantagsfall, skapa lokal entitet.  
   
 ##### Ämnesord Organisation  
 * Ämne/Agent/Organisation (subject/agent/Organization = 610 2/- ‡a)  
   Länka till entitet. Följ dessa instruktioner:  
-  [Relationer till Agent](https://libris.kb.se/katalogisering/help/workflow-agent-org-instance).   
+  [Relationer till Agent](https://libris.kb.se/katalogisering/help/workflow-agent-org-instance)   
   Vid behov, skapa ny agent, enligt instruktion:  
-  [Skapa ny agent - organisation](https://libris.kb.se/katalogisering/help/workflow-agent-organisation-new) eller
+  [Skapa ny agent - organisation](https://libris.kb.se/katalogisering/help/workflow-agent-organisation-new) eller  
   [Redigera befintlig agent - organisation](https://libris.kb.se/katalogisering/help/workflow-agent-organisation-edit)  
   I undantagsfall, skapa lokal entitet.  
  
