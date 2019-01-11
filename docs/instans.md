@@ -36,7 +36,7 @@ I vissa fall fungerar det ännu inte fullt ut att lägga till alla uppgifter som
 | [Utgivning](#utgivning) | | [Innehållsanmärkning](#innehallsanmarkning)  | |
 | [Tillverkning](#tillverkning) | | [Målgruppsanmärkning](#malgruppsanmarkning) |
 | [Copyrightår](#copyrightar) | | [Annat bärarformat](#annat-bararformat) |
-| [Identifikator](#identifikator) | | |
+| [Identifikator](#identifikator) | | [Annan relaterad resurs](#annan-relaterad-resurs) |
 
 ### Instans
 För att lägga till egenskaper under Instans, klicka på plustecknet i redigeringsvyn (den stora runda plusikonen under Verktygsikonen - Lägg till egenskaper under: Instans). Sök fram egenskapen och välj den genom att klicka på plustecknet vid egenskapens namn.  
