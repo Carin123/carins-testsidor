@@ -187,8 +187,8 @@ Ej obligatorisk. Ange uppgiften som lokal entitet.
 Ej obligatorisk. Ange uppgiften som lokal entitet.
 
 ##### Produktionsår
-*	Datum (date = 264 -/0 ‡c) 
-Datum får innehålla text och interpunktionstecken.  
+*	Datum (date = 264 -/0 ‡c)  
+Datum får innehålla text och interpunktionstecken.
 <br/>```Exempel:```
   * ```[Ej efter 1900]```
   * ```[mellan 1780 och 1815?]```
