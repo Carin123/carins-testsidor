@@ -296,7 +296,7 @@ Ange ogiltiga ISBN här och inte under Identifikator/ISBN/Ogiltigt värde. För 
 
 #### Matt 
 * Mått/Mått/Benämning (hasDimensions/Dimensions/label = 300 ‡c)  
-  Skriv in uppgiften under Benämning.  
+  Skriv in uppgiften under Benämning.
   <br/>```Exempel:```
   * ```24 cm```
   * ```34 x 27 cm och  37 x 27 cm, på ark 40 x 30 cm```
