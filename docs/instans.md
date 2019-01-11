@@ -2,7 +2,7 @@
 section: Hjälptexter katalogisering
 title: Instans
 order: 17
-date: 2019-01-10
+date: 2019-01-11
 tags:
 - under arbete
 - instans
@@ -367,7 +367,7 @@ Upprepa, för ytterligare titel (Benämning) + upphovsuppgift, genom att lägga 
 * Målgrupp/Målgrupp/Benämning (intendedAudience/IntendedAudience/label = 521 ‡a)  
 För att lägga till målgruppsanmärkning, klicka på plustecknet Lägg till egenskaper under: Instans och välj Målgrupp.  
 Skapa Målgrupp som lokal entitet (plustecknet vid Målgrupp - Lägg till målgrupp. I rutan Skapa lokal entitet, längst ner i sidorutan till höger, skriv Målgrupp och välj det). Skriv in uppgiften under Benämning.  
-```Exempel: För årskurs 1```  
+  ```Exempel: För årskurs 1```  
 Observera att kodning av målgrupp, motsvarande 008/22, ska registreras under Instans av Verk/Genre.  
  
 #### Annat bararformat
@@ -379,6 +379,10 @@ Observera att kodning av målgrupp, motsvarande 008/22, ska registreras under In
   Beskriven av/Post/Kontrollnummer, motsvarande delfält w, är för närvarande låst för redigering. Det går därmed inte att lägga till egenskapen eller redigera den i befintliga beskrivningar.  
   
 #### Annan relaterad resurs
-* Annan relaterad resurs/Elektronisk/URI (marc:versionOfResource = 856 4/1)   
-  För att länka till en resurs av resursen i annat format än instansbeskrivningens instanstyp, till exempel en länk till en elektronisk version av en tryckt resurs, lägg till Annan relaterad resurs. Om instansbeskrivningen gäller en elektronisk resurs (instanstyp: elektronisk), se istället instruktioner i hjälptexten för Digital resurs.  
-Klicka på plustecknet vid Annan relaterad resurs och välj Lägg till elektronisk. Lägg till egenskapen URI. Klistra in aktuell URI.  
+* Annan relaterad resurs/Elektronisk/URI (marc:versionOfResource/Electronic/URI = 856 4/1 ‡u)   
+  För att länka till en resurs av resursen i annat format än instansbeskrivningens instanstyp, till exempel en länk till en elektronisk version av en tryckt resurs, lägg till Annan relaterad resurs. Om instansbeskrivningen gäller en elektronisk resurs (instanstyp: elektronisk), gör i första hand istället en beskrivning av den digitala resursen. Se instruktioner i hjälptexten för Digital resurs.   
+Klicka på plustecknet vid Annan relaterad resurs och välj Lägg till elektronisk. Välj Skapa lokal entitet. Lägg till egenskapen URI. Klistra in aktuell URI. 
+ * Annan relaterad resurs/Elektronisk/Offentlig anmärkning (marc:versionOfResource/Electronic/marc:publicNote = 856 4/1 ‡z)   
+  Vid behov, lägg till egenskapen Offentlig anmärkning. Skriv in anmärkningen.  
+ 
+  
