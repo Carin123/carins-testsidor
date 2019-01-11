@@ -33,10 +33,12 @@ I vissa fall fungerar det ännu inte fullt ut att lägga till alla uppgifter som
 | [Titel](#titel) | | [Bilagor](#bilagor) | |
 | [Upphovsuppgift](#upphovsuppgift) | | [Seriemedlemskap](#seriemedlemskap) |  |
 | [Upplageuppgift](#upplageuppgift) | | [Anmärkning](#anmarkning) | |
-| [Utgivning](#utgivning) | | [Innehållsanmärkning](#innehallsanmarkning)  | |
-| [Tillverkning](#tillverkning) | | [Målgruppsanmärkning](#malgruppsanmarkning) |
-| [Copyrightår](#copyrightar) | | [Annat bärarformat](#annat-bararformat) |
-| [Identifikator](#identifikator) | | [Annan relaterad resurs](#annan-relaterad-resurs) |
+| [Produktion](#produktion) | | [Innehållsanmärkning](#innehallsanmarkning)  | |
+| [Utgivning](#utgivning) | | [Målgruppsanmärkning](#malgruppsanmarkning) |
+| [Tillverkning](#tillverkning)| | [Annat bärarformat](#annat-bararformat) |
+| [Copyrightår](#copyrightar) | | [Annan relaterad resurs](#annan-relaterad-resurs) |
+| [Identifikator](#identifikator) | | |
+
 
 ### Instans
 För att lägga till egenskaper under Instans, klicka på plustecknet i redigeringsvyn (den stora runda plusikonen under Verktygsikonen - Lägg till egenskaper under: Instans). Sök fram egenskapen och välj den genom att klicka på plustecknet vid egenskapens namn.  
