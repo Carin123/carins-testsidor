@@ -283,7 +283,7 @@ Ange ogiltiga ISBN här och inte under Identifikator/ISBN/Ogiltigt värde. För 
   
 #### Omfang   
 * Omfång/Omfång/Benämning (extent/Extent/label = 300 ‡a)   
-  Skriv in uppgiften under Benämning.  
+  Skriv in uppgiften under Benämning. 
   <br/>```Exempel:```
   * ```319 sidor```
   * ```2 teckningar på 1 ark```
