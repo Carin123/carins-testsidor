@@ -172,6 +172,52 @@ Vid behov, klicka även på plustecknet vid Parallelltitel och lägg till Övrig
   Skriv in upplagebeteckning här.  
   ```Exempel: Första upplagan```  
   
+  XXXXXXXXXXXXXXX
+  
+#### Produktion  
+* Produktion (production)  
+  Används för opublicerat material. Kompletteras alltid med egenskapen Huvudsakligt tillgängliggörande. Välj typ Produktion från listan. 
+  
+##### Produktionsort 
+*	Plats/Plats/Benämning (place/label = 264 -/0 ‡a)  
+Ej obligatorisk. Ange uppgiften som lokal entitet.
+
+##### Producent
+*	Agent/Agent/Benämning (agent/label = 264 -/0 ‡b)  
+Ej obligatorisk. Ange uppgiften som lokal entitet.
+
+##### Produktionsår
+*	Datum (date = 264 -/0 ‡c) 
+Datum får innehålla text och interpunktionstecken.  
+<br/>```Exempel:```
+  * ```[Ej efter 1900]```
+  * ```[mellan 1780 och 1815?]```
+ 
+#### Huvudsakligt tillgängliggörande
+*	Huvudsakligt tillgängliggörande (marc:primaryProvisionActivity = 264 -/0 ‡b)  
+  Ta alltid med Huvudsakligt tillgängliggörande när  egenskapen Produktion används. Egenskapen används även tillsammans med Utgivningsår i de fall detta är osäkert men tidigaste och senaste år kan anges. 
+  
+  Välj typ från lista. Använd alltid Primär produktion för opublicerat material, och Primär utgivning för utgivet material som har osäkert utgivningsår men där tidigaste och senaste år kan anges. I stillbildsmallen är Primär utgivning förvalt. Ändra till Primär produktion när opublicerat material beskrivs. 
+  
+##### Land
+*	Land (country = 008/15-17)  
+  Länka till entitet.  
+  ```Exempel: Sverige (sw)``` 
+  
+##### År
+*	År (year = 008/07-10). 
+  År får endast innehålla siffror (0-9). Ange år, utan klamrar eller andra tecken, endast fyra positioner. Här anges produktionsår när detta enbart består av ett årtal. Här anges tidigaste år i de fall produktionsår/utgivningsår är osäkert men tidigaste och senaste utgivningsår/produktionsår är känt.  
+
+##### Kompletterande datum
+*	•	Kompletterande datum (other year = 008/07-10). 
+Använd Kompletterande datum för material  med osäkert utgivningsår/produktionsår där tidigaste och senaste år kan anges. Får endast innehålla siffror (0-9). Ange senaste år, utan klamrar eller andra tecken, endast fyra positioner
+
+##### Typ av utgivningsdatum
+*	•	Typ av utgivningsdatum. (marc/publicationStatus = 008/06)
+Använd egenskapen för material  med osäkert utgivningsår där tidigaste och senaste år kan anges. Välj typ Osäkert år från listan.   
+  
+XXXXXXXXXXXXXXXXXXX
+
 #### Utgivning  
 * Utgivning (publication)  
   Välj typ från lista. För monografier, använd Primär utgivning.  
