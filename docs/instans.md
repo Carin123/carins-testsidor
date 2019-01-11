@@ -216,14 +216,14 @@ Använd Kompletterande datum för material  med osäkert utgivningsår/produktio
 *	Typ av utgivningsdatum. (marc/publicationStatus = 008/06)
 Använd egenskapen för material  med osäkert utgivningsår där tidigaste och senaste år kan anges. Välj typ Osäkert år från listan.   
 
-```Exempel på registrering av produktionsår för opublicerat material:```  
-```#####Huvudsakligt tillgängliggörande```  
+#####Exempel på registrering av produktionsår för opublicerat material:
+```Huvudsakligt tillgängliggörande```  
   
-```Primär produktion:```  
+###### Primär produktion:
 ```Land: Sverige (sw)```  
 ```År: 1925```
 
-```#####Produktion:```  
+###### Produktion:
 ```Produktion:```  
 ```Datum: 1925```
   
