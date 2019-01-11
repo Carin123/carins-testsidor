@@ -173,12 +173,10 @@ Vid behov, klicka även på plustecknet vid Parallelltitel och lägg till Övrig
 * Upplageuppgift (editionStatement = 250 ‡a)  
   Skriv in upplagebeteckning här.  
   ```Exempel: Första upplagan```  
-  
-  XXXXXXXXXXXXXXX
-  
+   
 #### Produktion  
 * Produktion (production)  
-  Används för opublicerat material. Kompletteras alltid med egenskapen Huvudsakligt tillgängliggörande. Välj typ Produktion från listan. 
+  Används för opublicerat material. Komplettera alltid med egenskapen Huvudsakligt tillgängliggörande. Välj typ Produktion från listan. 
   
 ##### Produktionsort 
 *	Plats/Plats/Benämning (place/label = 264 -/0 ‡a)  
@@ -211,15 +209,13 @@ Datum får innehålla text och interpunktionstecken.
   År får endast innehålla siffror (0-9). Ange år, utan klamrar eller andra tecken, endast fyra positioner. Här anges produktionsår när detta enbart består av ett årtal. Här anges tidigaste år i de fall produktionsår/utgivningsår är osäkert men tidigaste och senaste utgivningsår/produktionsår är känt.  
 
 ##### Kompletterande datum
-*	•	Kompletterande datum (other year = 008/07-10). 
+*	Kompletterande datum (other year = 008/07-10). 
 Använd Kompletterande datum för material  med osäkert utgivningsår/produktionsår där tidigaste och senaste år kan anges. Får endast innehålla siffror (0-9). Ange senaste år, utan klamrar eller andra tecken, endast fyra positioner
 
 ##### Typ av utgivningsdatum
-*	•	Typ av utgivningsdatum. (marc/publicationStatus = 008/06)
+*	Typ av utgivningsdatum. (marc/publicationStatus = 008/06)
 Använd egenskapen för material  med osäkert utgivningsår där tidigaste och senaste år kan anges. Välj typ Osäkert år från listan.   
   
-XXXXXXXXXXXXXXXXXXX
-
 #### Utgivning  
 * Utgivning (publication)  
   Välj typ från lista. För monografier, använd Primär utgivning.  
