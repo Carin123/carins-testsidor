@@ -219,7 +219,7 @@ Använd egenskapen för material  med osäkert utgivningsår där tidigaste och 
 ##### Exempel på registrering av produktionsår för opublicerat material:
 ```Huvudsakligt tillgängliggörande```  
    <br/>```Primär produktion:```
-   <br/>```Land: Sverige (sw)```  
+   <br/>```Land: Sverige (sw)```
    <br/>```År: 1925```
    
 
