@@ -224,17 +224,6 @@ Använd egenskapen för material  med osäkert utgivningsår där tidigaste och 
    
    <br/>```Produktion:```
    <br/>```Datum: 1925```  
- 
-     
-   
-  
-###### Primär produktion:
-```Land: Sverige (sw)```  
-```År: 1925```
-
-###### Produktion:
-```Produktion:```  
-```Datum: 1925```
   
 #### Utgivning  
 * Utgivning (publication)  
