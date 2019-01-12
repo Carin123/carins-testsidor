@@ -222,7 +222,6 @@ Använd egenskapen för material  med osäkert utgivningsår där tidigaste och 
    <br/>```Land: Sverige (sw)```
    <br/>```År: 1925```
    
-
    <br/>```Produktion:```
    <br/>```Datum: 1925```  
  
