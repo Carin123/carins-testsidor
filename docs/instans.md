@@ -220,7 +220,7 @@ Använd egenskapen för material  med osäkert utgivningsår där tidigaste och 
 ```Huvudsakligt tillgängliggörande```  
    <br/>```Primär produktion:```
    <br/>```Land: Sverige (sw)```
-   <br/>```År: 1925```
+   <br/>```År: 1925```  
    <br/>```Produktion:```
    <br/>```Datum: 1925```  
   
