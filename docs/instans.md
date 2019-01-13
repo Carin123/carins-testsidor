@@ -218,15 +218,15 @@ Datum får innehålla text och interpunktionstecken.
   ```Exempel: Sverige (sw)``` 
   
 ##### År
-*	År (year = 008/07-10). 
+*	År (year = 008/07-10).  
   År får endast innehålla siffror (0-9). Ange år, utan klamrar eller andra tecken, endast fyra positioner. Här anges produktionsår när detta enbart består av ett årtal. Här anges tidigaste år i de fall produktionsår/utgivningsår är osäkert men tidigaste och senaste utgivningsår/produktionsår är känt.  
 
 ##### Kompletterande datum
-*	Kompletterande datum (other year = 008/07-10). 
+*	Kompletterande datum (other year = 008/07-10).  
 Använd Kompletterande datum för material  med osäkert utgivningsår/produktionsår där tidigaste och senaste år kan anges. Får endast innehålla siffror (0-9). Ange senaste år, utan klamrar eller andra tecken, endast fyra positioner
 
 ##### Typ av utgivningsdatum
-*	Typ av utgivningsdatum. (marc/publicationStatus = 008/06)
+*	Typ av utgivningsdatum. (marc/publicationStatus = 008/06)  
 Använd egenskapen för material  med osäkert utgivningsår där tidigaste och senaste år kan anges. Välj typ Osäkert år från listan.   
 
 ##### Exempel på registrering av produktionsår för opublicerat material:
