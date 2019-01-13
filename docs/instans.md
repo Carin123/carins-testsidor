@@ -1,7 +1,7 @@
 ---
 section: Hjälptexter katalogisering
 title: Instans
-order: 17
+order: 19
 date: 2019-01-11
 tags:
 - under arbete
