@@ -175,7 +175,8 @@ Vid behov, klicka även på plustecknet vid Parallelltitel och lägg till Övrig
   ```Exempel: Första upplagan```  
  
 
-
+| Opublicerat material |
+| ------ |
 | #### Produktion  
 * Produktion (production)  
   Används för opublicerat material. Komplettera alltid med egenskapen Huvudsakligt tillgängliggörande. Välj typ Produktion från listan. 
