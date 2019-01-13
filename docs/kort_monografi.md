@@ -12,131 +12,88 @@ tags:
 
 Beskrivningen av en tryckt monografi innefattar en beskrivning av instansen (kan också kallas utgåvan, upplagan, manifestationen) och en beskrivning av det verk som instansen är en instans av. Till varje beskrivning av instans och verk hör adminmetadata (administrativ data om beskrivningen).  
 
-
 För mer utförlig information om de egenskaper som anges, se [Adminmetadata](https://libris.kb.se/katalogisering/help/adminmetadata), [Instans](https://libris.kb.se/katalogisering/help/instance) och [Verk](https://libris.kb.se/katalogisering/help/work). Här nedan listas egenskaperna i korthet.  
 
 För instruktioner om att lägga till eller ta bort egenskap, länka till entitet, skapa lokal entitet och om hur formuläret fungerar i övrigt, se Redigering i vänstermenyn. För information om katalogregler, skrivregler och övriga katalogiseringsanvisningar, se [Anvisningar för katalogisering - RDA](http://www.kb.se/rdakatalogisering/Anvisningar/Arbetsfloden/Tryckta-monografier/ "Anvisningar för katalogisering - RDA").
 
 Se även [instruktionsfilmer](https://www.youtube.com/playlist?list=PLZVkEICvA5-GRT2oJQmLgq_2Pksx6zYPy) 
 
-### Innehåll  
+### Instans
+För att lägga till egenskaper under Instans, klicka på plustecknet i redigeringsvyn (den stora runda plusikonen under Verktygsikonen - Lägg till egenskaper under: Instans). Sök fram egenskapen och välj den genom att klicka på plustecknet vid egenskapens namn.  
 
-| [Adminmetadata](#adminmetadata) | |
-| ------ | ------ |
-| [Kontrollnummer](#kontrollnummer) | [Translitterering](#translitterering) |
-| [Skapad av](#skapad-av) | [Katalogiseringsspråk](#katalogiseringssprak) |
-| [Uppgraderad  eller importerad av](#uppgraderad-eller-importerad-av) | [Katalogiseringsregler](#katalogiseringsregler) |
-| [Entry map](#entry-map) | [Beskrivningsnivå](#beskrivningsniva)|
-| [Katalogiserande instans](#katalogiserande-instans) | [Bibliografikod](#bibliografikod) |
-| [Poststatus](#poststatus) |  [Systemteknisk anmärkning](#systemteknisk-anmarkning) |
-
-
-För att lägga till egenskaper under Adminmetadata, klicka på plustecknet i redigeringsvyn (den stora runda plusikonen under Verktygsikonen) - Lägg till egenskaper under: Post. Sök fram egenskapen och välj den genom att klicka på plustecknet vid egenskapens namn.  
-
-### Kontrollnummer
-* Kontrollnummer (controlNumber = 001)  
-Unikt alfanumeriskt ID i Libris, minimum 14 tecken, maximum 17 tecken. ID:n skapade före övergången till nya Libris innehåller endast siffror. Läs mer om [Nya ID i Libris](https://librisbloggen.kb.se/2018/04/25/nya-id-i-libris/)  
-
-### Skapad av  
-* Skapad av/Organisation/Namn (descriptionCreator/Organization/name = 040 ‡a)  
-  Förval: den sigel som skapat posten. Ska inte ändras.  
-  ```Exempel: BOKR```  
-  Vid postimport: för närvarande hamnar det importerande bibliotekets sigel här. Detta kommer att ses över.  
+#### Utgivningssatt
+* Utgivningssätt (issuanceType)   
+  Välj från lista.  
+  ```Exempel: Monografisk resurs```
   
-### Uppgraderad eller importerad av  
-* Uppgraderad eller importerad av/Bibliotek/Sigel (descriptionUpgrader/Library/sigel = 040 ‡d)  
-  Om beskrivningsnivån uppgraderas, lägg till denna uppgift. Lägg inte till uppgiften när posten endast ändras utan att beskrivningsnivån uppgraderas. Vid postimport, lägg till uppgiften.  
-  För att lägga till Uppgraderad eller importerad av, klicka på plustecknet Lägg till egenskaper under: Post. Klicka på plustecknet till vänster vid Uppgraderad eller importerad av (Lägg till agent). Välj Skapa lokal entitet (längst ner i sidorutan till höger). Välj Bibliotek.  
- Skriv in uppgiften under Sigel.       
-  ```Exempel: S```   
-   
-### Entry map  
-* Entry map (marc:entryMap = 000/20-23)  
-I vissa importerade poster förekommer Entry map. Låt det vara kvar oförändrat.  
-
-### Katalogiserande instans
-* Katalogiserande instans (marc:catalogingSource = 008/39)  
-  Normalvärdet för Libris-bibliotek är: Libris-bibliotek/Kooperativt katalogiseringsprogram
- (marc/CooperativeCatalogingProgram).   
-  ```Exempel: Libris-bibliotek/Kooperativt katalogiseringsprogram```   
-  För poster som skapas av NB (ej Bokinfoposter), ändra till Nationalbibliografi. För Bokinfo-poster, se nedan.  
-  ```Exempel: Nationalbibliografi```   
-  I Bokinfoposter och importerade poster, ändra inte postens ursprungliga kod.  
-  ```Exempel: Annan verksamhet```  
-
-### Bibliografikod
-* Bibliografi/Bibliotek/Sigel (bibliography/Library/sigel = 042 ‡9)  
-  Observera att bibliografikod ska läggas endast av de bibliotek som arbetar med respektive bibliografi. Som exempel läggs bibliografikod NB endast av NB. För äldre tryck finns koderna COL, SOT och SB17 som används av alla bibliotek som katalogiserar äldre tryck. För en fullständig lista över sigler, se [Biblioteksdatabasen](https://biblioteksdatabasen.libris.kb.se/).  
-  För att lägga till Bibliografi, klicka på plustecknet Lägg till egenskaper under: Post och välj Bibliografi. Klicka på Lägg till bibliotek (plustecknet vid Bibliografi), välj därefter Skapa lokal entitet (längst ner i sidorutan till höger).   
-  Skriv in uppgiften under Sigel.  
-  För att lägga in flera sigler, använd gärna Duplicera entitet och skriv in nästa sigel i den duplicerade entiteten.
- <br/>```Exempel:```
-  * ```NB```
-  * ```SAMB```
-  
-### Systemnummer  
-* Identifikator/Lokal identifikator/Värde (identifiedBy/SystemNumber/value = 035 ‡a)  
-  Om ett systemnummer finns i förhandspost, till exempel Bokinfos systemnummer eller ett annat biblioteks eller bibliotekskonsortiums systemnummer, låt det vara kvar oförändrat.
-<br/>```Exempel:```
-  * ```(BOKR)9789188107213```
-  * ```(OCoLC)on1042213159```  
-  
-  För att lägga till ett lokalt systemnummer, till exempel ett DIVA-urn som systemnummer, lägg till Identifikator (plustecknet Lägg till egenskap under: Post, i Adminmetadata). Välj typ Systemnummer, under Lokal identifikator. Lägg till Värde (plustecknet vid Lokal identifikator). Fyll i aktuellt systemnummer.  
-  ```Exempel: (DIVA)urn:nbn:se:su:diva-83163```  
-  
-Vid kopiering av post, ta bort den kopierade postens systemnummer.  
-
-För ISBN, se Identifikator under [Instans](#https://libris.kb.se/katalogisering/help/instans).
-  
-### Katalogiseringssprak  
-* Katalogiseringsspråk (descriptionLanguage = 040 ‡b)  
-  För att lägga till Katalogiseringsspråk, klicka på plustecknet Lägg till egenskaper under: Post.  
+#### Medietyp
+* Medietyp (mediaType/Mediatype = 337 ‡b)  
   Länka till entitet.  
-  ```Exempel: svenska (swe)```
+  ```Exempel: n (= omedierad)```
   
-### Katalogiseringsregler  
-* Katalogiseringsregler (descriptionConventions = 040 ‡e)  
-  För att lägga till Katalogiseringsregler, klicka på plustecknet Lägg till egenskaper under: Post.   
-  För en post katalogiserad enligt RDA, sök fram och länka till entitet: "i" (= marc/Isbd). När man söker fram entiteten visas den som "i". I en sparad post visas samma entitet som "ISBD-interpunktion finns * i". När man skapar ny post från mall visas entiteten som "marc/Isbd". Alla är rätt.   
-  Skapa också lokal entitet under Katalogiseringsregler. Klicka på plustecknet vid Katalogiseringsregler (Lägg till entitet). Välj Skapa lokal entitet (längst ner i sidorutan). Välj Katalogiseringsregler. Skriv in "rda" under Kod.      
-  ```Exempel: marc/Isbd (länkad entitet) + lokal entitet, Kod: rda```
+#### Barartyp
+* Bärartyp (carrierType/CarrierType = 338 ‡b)  
+  Länka till entitet.  
+  ```Exempel: nc (= volym)``
   
-#### Beskrivningsniva  
-* Beskrivningsnivå (encodingLevel = 000/17)  
-För att lägga till Beskrivningsnivå, klicka på plustecknet Lägg till egenskaper under: Post.   
-I samband med att du uppgraderar en Bokinfopost eller annan post med beskrivningsnivå: CIP-post (000/17: 8) eller Preliminär nivå (000/17: 5), ändra beskrivningsnivå till någon annan nivå (vanligen Miniminivå, Biblioteksnivå eller Nationalbibliografisk nivå), annars kan ändringar skrivas över.  
-I mallar är standardvärdet Biblioteksnivå. Ändra vid behov.  
-Vid postimport kan beskrivningsnivå ibland saknas eller sakna värde. Lägg då dit beskrivningsnivå och välj värde.    
-  Välj från lista.    
-  ```Exempel: Biblioteksnivå```
+### Titel  
+
+##### Huvudtitel    
+* Har titel/Titel/Huvudtitel (hasTitle/Title/mainTitle = 245 ‡a)  
+
+##### Övrig titelinformation (undertitel)
+* Har titel/Titel/Övrig titelinformation (= Undertitel) (hasTitle/Title/subtitle = 245 ‡b)  
+ ##### Varianttitel   
+Används till exempel för felaktigheter. Kan specificeras med Typanmärkning.  
+För att lägga till varianttitel, klicka på plustecknet vid Har titel (lägg till titel) och välj typ Varianttitel.  
+* Har titel/Varianttitel/Huvudtitel (hasTitle/VariantTitle/mainTitle = 246 ‡a)   
+  Skriv in uppgiften under Huvudtitel.    
+  ```Exempel: Hierarchy in organizations```   
+* Har titel/Varianttitel/Övrig titelinformation (= Undertitel) (hasTitle/VariantTitle/subtitle = 246 ‡b)  
+  Skriv in uppgiften under Övrig titelinformation. Om det finns flera undertitlar, skriv in dessa efter varandra i samma fält, åtskilda av mellanslag, kolon, mellanslag.   
+* Har titel/Varianttitel/Typanmärkning (hasTitle/VariantTitle/typeNote = 246 1/_ ‡i)  
+ Anmärkningstext som i ett sökgränssnitt ska föregå varianttiteln. Används också för att ange typ av varianttitel som inte finns i listan, t ex Titelrubrik. Lägg vid behov till Typanmärkning (plustecknet vid Varianttitel - lägg till egenskaper under: Varianttitel, välj Typanmärkning).  
+  Skriv in uppgiften.  
+  ```Exempel: Titeln felstavad, korrekt titel:```   
   
-### Poststatus     
-* Poststatus (recordStatus = 000/05)  
-  Uppdateras automatiskt. Ändra inte.
+##### Omslagstitel, Ryggtitel, Rubriktitel  
+* Omslagstitel, Ryggtitel, Rubriktitel etc - lägg till Har titel och välj typ, till exempel Omslagstitel. Ange Huvudtitel, eventuell Övrig titelinformation och Typanmärkning, enligt mönstret för Omslagstitel, se nedan.      
+
+##### Omslagstitel   
+* Har titel/Omslagstitel/Huvudtitel (hasTitle/CoverTitle/mainTitle = 246 1/4 ‡a)  
+ Skriv in uppgiften under huvudtitel.      
+ ```Exempel: Bergens väktare```  
+* Har titel/Omslagstitel/Övrig titelinformation (= Undertitel) (hasTitle/CoverTitle/subtitle = 246 1/4 ‡b)  
+För att lägga till Övrig titelinformation, klicka på plustecknet vid Omslagstitel (Lägg till egenskaper under: Omslagstitel), välj Övrig titelinformation (= subtitle).  
+Återge övrig titelinformation som återfinns i annan källa än huvudtiteln som en varianttitel, till exempel som omslagstitel.    
+  Skriv in uppgiften. Om det finns flera undertitlar, skriv in dessa efter varandra i samma fält, åtskilda av mellanslag, kolon, mellanslag.    
+```Exempel: Djingis Khan – historiens störste erövrare```
+
+  För att ange att omslagstiteln endast står på skyddsomslag, lägg till Typanmärkning (plustecknet vid Omslagstitel - lägg till egenskaper under: Omslagstitel, välj Typanmärkning).  
+  Skriv in uppgiften.
   <br/>```Exempel:```
-  * ```Ny post```
-  * ```Rättad eller reviderad post```
+  * ```Typanmärkning (246 ‡i): Skyddsomslag:```
+  * ```Omslagstitel/Huvudtitel (246 ‡a): På väg mot döden```
+  * ```Övrig titelinformation (246 ‡b): en Cooper och Fry-deckare```  
+    
+##### Delbeteckning
+* Har titel/Titel/Har del/Titeldel/Delbeteckning (hasTitle/Title/hasPart/TitlePart/partNumber = 245 ‡n)  
+Lägg till Har del (hasPart) under Har titel/Titel (plustecknet vid Titel - lägg till egenskaper under: Titel, välj Har del).  
+Under Har del, skapa Titeldel (TitlePart) som lokal entitet (plustecknet vid Har del - Lägg till resurs, välj Skapa lokal entitet, längst ner i sidorutan till höger. Skriv "titeldel" i rutan Skapa lokal entitet och välj * Titeldel. Titeldel läggs till under Har del. Klicka på Titeldel och det fälls ut.)   
+Om Har del/Titeldel/Deltitel redan finns, lägg till Delbeteckning under Titeldel (plustecknet vid Titeldel - Lägg till egenskaper under: Titeldel, välj Delbeteckning (partNumber)).   
+Skriv in uppgiften under Delbeteckning.  
+```Exempel: 1```   
+
+##### Deltitel  
+* Har titel/Titel/Har del/Titeldel/Deltitel (hasTitle/Title/hasPart/TitlePart/partName = 245 ‡p)  
+Lägg till Har del (hasPart) under Har titel/Titel (plustecknet vid Titel - Lägg till egenskaper under: Titel, välj Har del).   Under Har del, skapa Titeldel (TitlePart) som lokal entitet (plustecknet vid Har del - Lägg till resurs, välj Skapa lokal entitet, längst ner i sidorutan till höger. Skriv "titeldel" i rutan Skapa lokal entitet och välj * Titeldel. Titeldel läggs till under Har del. Klicka på Titeldel och det fälls ut.)   
+Om Har del/Titeldel/Delbeteckning redan finns, lägg till Deltitel under Titeldel (plustecknet vid Titeldel - Lägg till egenskaper under: Titeldel, välj Deltitel (partName)).   
+Skriv in uppgiften under Deltitel.  
+```Exempel: Träd och växter som resurs```  
+För att ange Delbeteckning och Deltitel i en annan ordning, till exempel en deltitel som har efterföljande delbeteckningar, upprepa Titeldel och ange Delbeteckning och Deltitel som det passar i det aktuella fallet.  
+
+ 
   
-### Translitterering
-* Institution som gjort translitterering (marc:transcribingAgency = 040 ‡c)  
-   Sigel för det bibliotek som translittererat posten till maskinläsbar form. Låt det vara kvar oförändrat.  
- 
-### Systemteknisk anmarkning  
-* Systemteknisk anmärkning/Benämning (technicalNote/label = 599 ‡a)  
-För att lägga till Systemteknisk anmärkning, klicka på plustecknet Lägg till egenskaper under: Post, välj Systemteknisk anmärkning. Lägg till Systemteknisk anmärkning (plustecknet till vänster vid Systemteknisk anmärkning). Lägg till Benämning (plustecknet till höger vid Systemteknisk anmärkning).  
-Låt anmärkning om postimport ligga kvar.  
-```Exempel: Imported from: z3950cat.bl.uk:9909/BNB03U (Do not remove)```  
-
-  I samband med att du uppgraderar en Bokinfopost eller annan post med beskrivningsnivå: CIP-post eller Preliminär nivå, ändra beskrivningsnivå till annan nivå (vanligen Miniminivå, Biblioteksnivå eller Nationalbibliografisk nivå), annars kan ändringar skrivas över. Ta därefter bort systemteknisk anmärkning med innehåll:  
-```Exempel: Maskinellt genererad post. Ändra kod för fullständighetsnivå (leader/17), annars kommer manuellt gjorda ändringar att försvinna.```   
- 
-Följande anmärkningar är under arbete och fungerar ännu inte fullt ut:  
- * Katalogisatörens anmärkning  
- * Anmärkning om katalogiseringskälla
-
-
-
-
 INSTANS:
 UTGIVNINGSSÄTT: MONOGRAFISK RESURS  
 ISBN
