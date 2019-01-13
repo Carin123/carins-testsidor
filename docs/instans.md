@@ -176,7 +176,7 @@ Vid behov, klicka även på plustecknet vid Parallelltitel och lägg till Övrig
   
 #### Produktion  
 * Produktion (production)  
-  Används för opublicerat material. Komplettera alltid med egenskapen Huvudsakligt tillgängliggörande. Välj typ Produktion från listan. 
+  Används för opublicerat material. Komplettera alltid med egenskapen Huvudsakligt tillgängliggörande. Välj typ Produktion från listan.  
 För publicerat material, se [Utgivning.](#utgivning)    
   
 ##### Produktionsort 
