@@ -181,11 +181,11 @@ För publicerat material, se [Utgivning.](#utgivning)
   
 ##### Produktionsort 
 *	Plats/Plats/Benämning (place/label = 264 -/0 ‡a)  
-Ej obligatorisk. Ange uppgiften som lokal entitet.
+Ej obligatoriskt. Ange uppgiften som lokal entitet.
 
 ##### Producent
 *	Agent/Agent/Benämning (agent/label = 264 -/0 ‡b)  
-Ej obligatorisk. Ange uppgiften som lokal entitet.
+Ej obligatoriskt. Ange uppgiften som lokal entitet.
 
 ##### Produktionsår
 *	Datum (date = 264 -/0 ‡c)  
@@ -193,10 +193,11 @@ Datum får innehålla text och interpunktionstecken.
 <br/>```Exempel:```
   * ```[Ej efter 1900]```
   * ```[mellan 1780 och 1815?]```
+  * ```1846```
  
 #### Huvudsakligt tillgängliggörande
 *	Huvudsakligt tillgängliggörande (marc:primaryProvisionActivity = 264 -/0 ‡b)  
-  Ta alltid med Huvudsakligt tillgängliggörande när  egenskapen Produktion används. Egenskapen används även tillsammans med Utgivningsår i de fall detta är osäkert men tidigaste och senaste år kan anges. 
+  Ta alltid med Huvudsakligt tillgängliggörande när egenskapen Produktion används. Egenskapen används även tillsammans med Utgivningsår i de fall detta är osäkert men tidigaste och senaste år kan anges. 
   
   Välj typ från lista. Använd alltid Primär produktion för opublicerat material, och Primär utgivning för utgivet material som har osäkert utgivningsår men där tidigaste och senaste år kan anges. I stillbildsmallen är Primär utgivning förvalt. Ändra till Primär produktion när opublicerat material beskrivs. 
   
