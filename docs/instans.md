@@ -173,7 +173,19 @@ Vid behov, klicka även på plustecknet vid Parallelltitel och lägg till Övrig
 * Upplageuppgift (editionStatement = 250 ‡a)  
   Skriv in upplagebeteckning här.  
   ```Exempel: Första upplagan```  
-   
+ 
+
+
+| #### Produktion  
+* Produktion (production)  
+  Används för opublicerat material. Komplettera alltid med egenskapen Huvudsakligt tillgängliggörande. Välj typ Produktion från listan. 
+  
+##### Produktionsort 
+*	Plats/Plats/Benämning (place/label = 264 -/0 ‡a)  
+Ej obligatorisk. Ange uppgiften som lokal entitet. |
+
+
+ 
 #### Produktion  
 * Produktion (production)  
   Används för opublicerat material. Komplettera alltid med egenskapen Huvudsakligt tillgängliggörande. Välj typ Produktion från listan. 
@@ -218,10 +230,11 @@ Använd egenskapen för material  med osäkert utgivningsår där tidigaste och 
 
 ##### Exempel på registrering av produktionsår för opublicerat material:
 ```Huvudsakligt tillgängliggörande```  
-   <br/>```Primär produktion:```
-   <br/>```Land: Sverige (sw)```
+<br/>```Primär produktion```
+ <br/>```Land: Sverige (sw)```
    <br/>```År: 1925```  
-   <br/>```Produktion:```
+  
+   <br/>```Produktion```
    <br/>```Datum: 1925```  
   
 #### Utgivning  
