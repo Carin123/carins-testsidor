@@ -14,7 +14,7 @@ Beskrivningen av ett verk återspeglar det konceptuella innehållet i en resurs.
 
 Ett verk är av en viss typ. Exempel på verkstyper är: text, ljud, stillbild, rörlig bild, multimedia, karta. Det går för närvarande inte att byta beskrivningens verkstyp.  
 
-Skapa verket som lokal entitet (bryt inte ut verket till en länkbar entitet). Vi rekommenderar att tills vidare skapa verket som lokal entitet. Vi återkommer med anvisningar för att skapa verk som länkbara entiteter. Denna hjälptext beskriver exempel på verk som lokal entitet. Det betyder att du anger de uppgifter som listas här nedan, under Instans av Verk, utan att klicka på länksymbolen (Länka entitet) vid Instans av Verk/Text.  
+Skapa verket som lokal entitet (bryt inte ut verket till en länkbar entitet). Vi återkommer med anvisningar för att skapa verk som länkbara entiteter. Denna hjälptext beskriver exempel på verk som lokal entitet. Det betyder att du anger de uppgifter som listas här nedan, under Instans av Verk, utan att klicka på länksymbolen (Länka entitet) vid Instans av Verk/Text.  
 Läs mer om [Verk och Instans](https://librisbloggen.kb.se/2018/05/30/verk-och-instans-i-startversionen/).  
 
 Denna hjälptext beskriver ett antal vanligt förekommande egenskaper, med utgångspunkt från exempel. För instruktioner om att länka till entitet, skapa lokal entitet och om hur formuläret fungerar i övrigt, se Redigering i vänstermenyn. För information om katalogregler, skrivregler och övriga katalogiseringsanvisningar, se [Anvisningar för katalogisering - RDA](http://www.kb.se/rdakatalogisering/Anvisningar/Arbetsfloden/Tryckta-monografier/ "Anvisningar för katalogisering - RDA").
@@ -38,12 +38,12 @@ I vissa fall fungerar det ännu inte fullt ut att lägga till alla uppgifter som
 
 ### Verk   
    
-#### Instans av Verk/Text  
-* Instans av Verk/Text (instanceOf/Work/Text)  
-  Skapa verket som lokal entitet (bryt inte ut verket till en länkbar entitet). Vi rekommenderar att tills vidare skapa verket som lokal entitet. Vi återkommer med anvisningar för att skapa verk som länkbara entiteter. Denna hjälptext beskriver exempel på verk som lokal entitet. Det betyder att du anger de uppgifter som listas här nedan, under Instans av Verk, utan att klicka på länksymbolen (Länka entitet) vid Instans av Verk/Text.  
+#### Instans av Verk
+* Instans av Verk (instanceOf/Work)  
+  Denna hjälptext beskriver exempel på verk som lokal entitet. Det betyder att du anger de uppgifter som listas här nedan, under Instans av Verk, utan att klicka på länksymbolen (Länka entitet) vid Instans av Verk/Text.  
 Läs mer om [Verk och Instans](https://librisbloggen.kb.se/2018/05/30/verk-och-instans-i-startversionen/).  
 
-För att lägga till egenskaper under Instans av Verk/Text, klicka på plustecknet vid Instans av Verk/Text - Lägg till egenskaper under: Text. Sök fram egenskapen och välj den genom att klicka på plustecknet vid egenskapens namn.  
+För att lägga till egenskaper under Instans av Verk, klicka på plustecknet vid Instans av Verk - Lägg till egenskaper under: Text. Sök fram egenskapen och välj den genom att klicka på plustecknet vid egenskapens namn.  
 
 #### Verkets titel
  
@@ -288,18 +288,12 @@ Klicka sedan på plustecknet vid DDK-klassifikation (sekundär) (Lägg till ddk-
 * Ämne/Agent/Person (subject = 600 1/4- ‡a)      
  Länka till entitet. Följ dessa instruktioner:  
  [Relationer till Agent](https://libris.kb.se/katalogisering/help/workflow-agent-org-instance)   
- Vid behov, skapa ny agent, enligt instruktion:  
- [Skapa ny agent - person](https://libris.kb.se/katalogisering/help/workflow-agent-person-new) eller  
- [Redigera befintlig agent - person](https://libris.kb.se/katalogisering/help/workflow-agent-person-edit)  
  I undantagsfall, skapa lokal entitet.  
   
 ##### Ämnesord Organisation  
 * Ämne/Agent/Organisation (subject/agent/Organization = 610 2/- ‡a)  
   Länka till entitet. Följ dessa instruktioner:  
   [Relationer till Agent](https://libris.kb.se/katalogisering/help/workflow-agent-org-instance)   
-  Vid behov, skapa ny agent, enligt instruktion:  
-  [Skapa ny agent - organisation](https://libris.kb.se/katalogisering/help/workflow-agent-organisation-new) eller  
-  [Redigera befintlig agent - organisation](https://libris.kb.se/katalogisering/help/workflow-agent-organisation-edit)  
   I undantagsfall, skapa lokal entitet.  
  
 #### Malgrupp     
