@@ -251,7 +251,7 @@ Klicka sedan på plustecknet vid DDK-klassifikation (sekundär) (Lägg till ddk-
 
 ##### Allmänt ämnesord  
 * Ämne - sao-term  (subject = 650 -/7 ‡a, ‡2 sao)  
-  Länka till entitet från Svenska ämnesord, enligt instruktion: 
+  Länka till entitet från Svenska ämnesord, enligt instruktion:  
   [Länka till auktoriserat ämnesord](https://libris.kb.se/katalogisering/help/workflow-linked-entity-sh)    
    
 * Ämne - annan kontrollerad lista (subject = 650 -/7 ‡a, ‡2)  
@@ -264,13 +264,13 @@ Klicka sedan på plustecknet vid DDK-klassifikation (sekundär) (Lägg till ddk-
 
 ##### Allmänt ämnesord med underindelning   
 * Ämne - sao-term  (subject = 650 -/7 ‡a, ‡x, ‡2 sao)  
-  Länka till entitet från Svenska ämnesord, enligt instruktion: 
+  Länka till entitet från Svenska ämnesord, enligt instruktion:  
   [Länka till auktoriserat ämnesord](https://libris.kb.se/katalogisering/help/workflow-linked-entity-sh)  
-  
   
 ##### Geografiska ämnesord  
 * Geografiskt ämnesord (subject = 651 -/4 ‡a)  
-  
+  Länka till entitet från Svenska ämnesord, enligt instruktion:  
+  [Länka till auktoriserat ämnesord](https://libris.kb.se/katalogisering/help/workflow-linked-entity-sh)
   
 ##### Geografiskt ämnesord med geografisk underindelning  
 * Geografiskt ämnesord (subject = 651 -/7 ‡a, ‡x, ‡2 sao)  
@@ -281,7 +281,7 @@ Klicka sedan på plustecknet vid DDK-klassifikation (sekundär) (Lägg till ddk-
    
 ##### Kronologiskt ämnesord
 * Ämne/Kronologiskt ämnesord (subject = 648 7/- ‡a, ‡2 sao)  
-  Länka till entitet. Följ denna instruktion:    
+  Länka till entitet. Följ denna instruktion:  
   [Länka till auktoriserat ämnesord](https://libris.kb.se/katalogisering/help/workflow-linked-entity-sh)   
   
 ##### Ämnesord Person  
@@ -305,9 +305,14 @@ Klicka sedan på plustecknet vid DDK-klassifikation (sekundär) (Lägg till ddk-
 #### Innehallstyp
 * Innehållstyp/Innehållstyp (contentType/ContentType = 336 ‡b)   
   Länka till entitet.  
-  ```Exempel: text (txt)```  
+  <br/>```Exempel:```
+  * ```kartografisk bild (cri)```
+  * ```framförd musik (prm)```
+  * ```stillbild (sti)```
+  * ```text (txt)```
+ <br>Läs mer om [innehållstyper](http://www.kb.se/katalogisering/Formathandboken/innehallstyper/innehall/).
+  
   För att lägga till ytterligare innehållstyp, till exempel "sti" = stillbild för en bilderbok med både text och bild, lägg till Har del under Instans av Verk, från plustecknet vid Text (Lägg till egenskaper under: Text). Skapa därefter Verk som lokal entitet genom att klicka på plustecknet vid Har del (Lägg till resurs). Välj Skapa lokal entitet och välj därefter ++ Verk i listan. Lägg därefter till Innehållstyp från plustecknet vid Verk (Lägg till egenskaper under: Verk). Sök fram och länka till entitet.  
-  EXEMPEL PÅ OLIKA INNEHÅLLSTYPER HÄNVISA TILL FORMATHANDBOKEN  
   
 #### Sammanfattning av innehall    
  * Sammanfattning av innehåll/Sammanfattning/Benämning (summary/Summary/label = 520 ‡a)  
