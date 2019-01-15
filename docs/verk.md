@@ -41,7 +41,7 @@ I vissa fall fungerar det ännu inte fullt ut att lägga till alla uppgifter som
 #### Instans av Verk
 * Instans av Verk (instanceOf/Work)  
   
-För att lägga till egenskaper under Instans av Verk, klicka på plustecknet till höger om Instans av Verk och verkstypen. Sök fram egenskapen och välj den genom att klicka på plustecknet vid egenskapens namn.  
+För att lägga till egenskaper under Instans av verk, klicka på plustecknet till höger om Instans av verk och verkstypen. Sök fram egenskapen och välj den genom att klicka på plustecknet vid egenskapens namn.  
 
 #### Verkets titel
 Ange den föredragna titeln för verket här, vid behov. Följ [Anvisningar för katalogisering - RDA](http://www.kb.se/rdakatalogisering/Anvisningar/Allmanna-anvisningar/Sokingangar-for-verk-och-uttryck "Anvisningar för katalogisering - RDA").  
@@ -70,11 +70,11 @@ Skriv in uppgiften.
 
 ##### Verkets titel - analytisk sökingång  
 För att ange verk som ingår i det beskrivna verket, motsvarande fält 730 0/2 (analytisk sökingång) i marc:  
-Under Instans av Verk, klicka på plustecknet till höger om Instans av Verk och verkstypen och välj Har del. Följ sedan stegen ovan, från ”Skapa verk som lokal entitet”.  
+Under Instans av Verk, klicka på plustecknet till höger om Instans av verk och verkstypen och välj Har del. Följ sedan stegen ovan, från ”Skapa verk som lokal entitet”.  
 
 ##### Verkets titel - relaterade verk  
 För att ange verk som är relaterade, men inte ingår i det beskrivna verket, motsvarande fält 730 0/_ (icke-analytisk sökingång) i marc:   
-Under Instans av Verk, lägg till Relation genom att klicka på plustecknet till höger om Instans av Verk och verkstypen och välja Relation. Välj typ Relation. Lägg till Entitet genom att klicka på plustecknet vid Relation (Lägg till egenskaper under: Relation), välj Entitet. Skapa verk som lokal entitet (plustecknet vid Entitet - Lägg till verk). Följ sedan stegen ovan, från ”Välj Skapa lokal entitet”.  
+Under Instans av Verk, lägg till Relation genom att klicka på plustecknet till höger om Instans av verk och verkstypen och välja Relation. Välj typ Relation. Lägg till Entitet genom att klicka på plustecknet vid Relation (Lägg till egenskaper under: Relation), välj Entitet. Skapa verk som lokal entitet (plustecknet vid Entitet - Lägg till verk). Följ sedan stegen ovan, från ”Välj Skapa lokal entitet”.  
 
 #### Medverkan och funktion  
 * Medverkan och funktion  
@@ -126,7 +126,7 @@ Skriv in uppgiften.
 
 * Anmärkning: Språk (marc:LanguageNote = 041 i1: 1)  
   Ange om resursen är/innehåller en översättning.  
-  För att lägga till uppgiften, klicka på plustecknet till höger om Instans av Verk och verkstypen och välj Anmärkning: Språk. Välj fras från lista.  
+  För att lägga till uppgiften, klicka på plustecknet till höger om Instans av verk och verkstypen och välj Anmärkning: Språk. Välj fras från lista.  
   ```Exempel: objektet är/innehåller översättning```  
   
 * Originalversion/Verk/Språk (originalversion/Work/language = 041 ‡h)  
@@ -149,8 +149,8 @@ För översättningar i flera led, länka först till det mellanliggande språke
   Anmärkning: Språk: Objektet är/innehåller översättning (marc:languageNote 041 1/-) +  
   Originalversion/Verk/Språk (originalVersion/Work/language = 041 ‡h) 
   
-  För att ange att texten delvis är översatt, till exempel när en publikation innehåller parallelltext, det vill säga är på två språk och den ena texten är en översättning: ange först Språk under Instans av Verk (se Språk ovan). Sök fram och länka till entiteten för det språk som inte är en översättning. Klicka sedan på plustecknet vid Verk och välj Anmärkning: Språk. Välj Objektet är/innehåller ej översättning.   
- Lägg sedan till Har del under Instans av Verk. Skapa verk som lokal entitet (plustecknet vid Har del - Lägg till resurs. I rutan Skapa lokal entitet, längst ner i sidorutan till höger, skriv Verk och välj ++++ Verk.) Klicka på plustecknet vid den lokala entiteten Verk (Lägg till egenskaper under: Verk) och välj Språk. Sök fram och länka till entiteten för språket som texten är översatt till. Under den lokala entiteten Verk, lägg till Anmärkning: Språk och ange att resursen är/innehåller en översättning. Under Har del, lägg till Originalversion/Verk/Språk (se ovan under Översättning). Länka till entiteten för språket som resursen delvis är en översättning från.  
+  För att ange att texten delvis är översatt, till exempel när en publikation innehåller parallelltext, det vill säga är på två språk och den ena texten är en översättning: ange först Språk under Instans av verk (se Språk ovan). Sök fram och länka till entiteten för det språk som inte är en översättning. Klicka sedan på plustecknet vid Verk och välj Anmärkning: Språk. Välj Objektet är/innehåller ej översättning.   
+ Lägg sedan till Har del under Instans av verk. Skapa verk som lokal entitet (plustecknet vid Har del - Lägg till resurs. I rutan Skapa lokal entitet, längst ner i sidorutan till höger, skriv Verk och välj ++++ Verk.) Klicka på plustecknet vid den lokala entiteten Verk (Lägg till egenskaper under: Verk) och välj Språk. Sök fram och länka till entiteten för språket som texten är översatt till. Under den lokala entiteten Verk, lägg till Anmärkning: Språk och ange att resursen är/innehåller en översättning. Under Har del, lägg till Originalversion/Verk/Språk (se ovan under Översättning). Länka till entiteten för språket som resursen delvis är en översättning från.  
  
 ##### Sammanfattningsspråk  
 Se Sammanfattning av innehåll   
@@ -200,7 +200,7 @@ För att söka efter entiteter inom Genre/form, klicka på plustecknet vid Genre
 * DDK-klassifikation  
   För att lägga till DDK-klassifikation:  
   * Om posten har Klassifikation/Klassifikation (till exempel SAB-klassifikation) men saknar Klassifikation/DDK-klassifikation, lägg till ytterligare en förekomst av Klassifikation (plustecknet vid Klassifikation - lägg till klassifikation). Välj Skapa lokal entitet (längst ner i sidorutan till höger) och välj DDK-klassifikation. Skriv in uppgiften under Kod.  
-  * Om posten helt saknar Klassifikation, lägg till Klassifikation genom att klicka på plustecknet till höger om Instans av Verk och verkstypen. Välj Klassifikation. Klicka på plustecknet vid Klassifikation (Lägg till klassifikation). Välj Skapa lokal entitet (längst ner i sidorutan till höger) och välj DDK-klassifikation.  
+  * Om posten helt saknar Klassifikation, lägg till Klassifikation genom att klicka på plustecknet till höger om Instans av verk och verkstypen. Välj Klassifikation. Klicka på plustecknet vid Klassifikation (Lägg till klassifikation). Välj Skapa lokal entitet (längst ner i sidorutan till höger) och välj DDK-klassifikation.  
    Skriv in uppgiften under Kod.  
 
 * Klassifikation/DDK-klassifikation/Kod (classification/ClassificationDdc/code = 082 0/4 ‡a)  
@@ -212,7 +212,7 @@ För att söka efter entiteter inom Genre/form, klicka på plustecknet vid Genre
   ```Exempel: 23/swe```  
   
 ##### Sekundär DDK-klassifikation  
-Lägg till DDK-klassifikation (sekundär) genom att klicka på plustecknet till höger om Instans av Verk och verkstypen och välja DDK-klassifikation (sekundär).  
+Lägg till DDK-klassifikation (sekundär) genom att klicka på plustecknet till höger om Instans av verk och verkstypen och välja DDK-klassifikation (sekundär).  
 Klicka sedan på plustecknet vid DDK-klassifikation (sekundär) (Lägg till ddk-klassifikation) och välj Skapa lokal entitet (längst ner i sidorutan till höger). Skriv in uppgiften under Kod.  
 * Klassifikation/DDK-klassifikation/Kod (additionalClassificationDdc/ClassificationDdc/code = 083 0/- ‡a)  
   Skriv in uppgiften.  
@@ -228,7 +228,7 @@ Klicka sedan på plustecknet vid DDK-klassifikation (sekundär) (Lägg till ddk-
 * SAB-klassifikation  
   För att lägga till annan klassifikation, till exempel SAB-klassifikation:  
   * Om posten har Klassifikation/DDK-klassifikation men saknar Klassifikation/Klassifikation (till exempel SAB-klassifikation), lägg till ytterligare en förekomst av Klassifikation (plustecknet vid Klassifikation - lägg till klassifikation). Välj Skapa lokal entitet (längst ner i sidorutan till höger) och välj Klassifikation. Skriv in uppgiften under Kod.  
-  * Om posten helt saknar Klassifikation, lägg till Klassifikation genom att klicka på plustecknet till höger om Instans av Verk och verkstypen. Välj Klassifikation. Klicka på plustecknet vid Klassifikation (Lägg till klassifikation). Välj Skapa lokal entitet (längst ner i sidorutan till höger) och välj Klassifikation.  
+  * Om posten helt saknar Klassifikation, lägg till Klassifikation genom att klicka på plustecknet till höger om Instans av verk och verkstypen. Välj Klassifikation. Klicka på plustecknet vid Klassifikation (Lägg till klassifikation). Välj Skapa lokal entitet (längst ner i sidorutan till höger) och välj Klassifikation.  
    Skriv in uppgiften under Kod.   
 * Klassifikation/Klassifikation/Kod (classification/Classification/code = 084 0/4 ‡a)  
      Skriv in uppgiften.  
@@ -309,11 +309,11 @@ Klicka sedan på plustecknet vid DDK-klassifikation (sekundär) (Lägg till ddk-
   * ```text (txt)```
  <br>Läs mer om [innehållstyper](http://www.kb.se/katalogisering/Formathandboken/innehallstyper/innehall/).
   
-  För att lägga till ytterligare innehållstyp, till exempel "sti" = stillbild för en bilderbok med både text och bild, lägg till Har del under Instans av Verk, från plustecknet vid Text (Lägg till egenskaper under: Text). Skapa därefter Verk som lokal entitet genom att klicka på plustecknet vid Har del (Lägg till resurs). Välj Skapa lokal entitet och välj därefter ++ Verk i listan. Lägg därefter till Innehållstyp från plustecknet vid Verk (Lägg till egenskaper under: Verk). Sök fram och länka till entitet.  
+  För att lägga till ytterligare innehållstyp, till exempel "sti" = stillbild för en bilderbok med både text och bild, lägg till Har del under Instans av verk. Skapa därefter Verk som lokal entitet genom att klicka på plustecknet vid Har del (Lägg till resurs). Välj Skapa lokal entitet och välj därefter ++ Verk i listan. Lägg därefter till Innehållstyp från plustecknet vid Verk (Lägg till egenskaper under: Verk). Sök fram och länka till entitet.  
   
 #### Sammanfattning av innehall    
  * Sammanfattning av innehåll/Sammanfattning/Benämning (summary/Summary/label = 520 ‡a)  
-För att lägga till Sammanfattning av innehåll, klicka på plustecknet till höger om Instans av Verk och verkstypen. Välj Sammanfattning av innehåll. Tryck Enter för att lägga till Samanfattning. Tryck Enter för att söka fram och lägga till Benämning (Lägg till egenskaper under: Sammanfattning).  
+För att lägga till Sammanfattning av innehåll, klicka på plustecknet till höger om Instans av verk och verkstypen. Välj Sammanfattning av innehåll. Tryck Enter för att lägga till Samanfattning. Tryck Enter för att söka fram och lägga till Benämning (Lägg till egenskaper under: Sammanfattning).  
  Skriv in uppgiften under Benämning.  
   ```Exempel: Åtskilliga utdrag af framledne … Axel v. Fersens bref till f.d. konungen av Swerige, Gustaf Adolph, 1806```  
   
@@ -323,5 +323,5 @@ För att lägga till Sammanfattning av innehåll, klicka på plustecknet till h�
  
 ##### Sammanfattningsspråk  
 * Sammanfattning av innehåll/Sammanfattning/Språk (summary/Summary/language = 041 ‡b)  
-För att lägga till sammanfattningsspråk, klicka på plustecknet till höger om Instans av Verk och verkstypen och välj Sammanfattning av innehåll. Lägg till Sammanfattning (tryck Enter eller klicka på plustecknet vid Sammanfattning av innehåll - Lägg till Sammanfattning). Ta bort Benämning. Lägg till Språk genom att klicka på plustecknet vid Sammanfattning (Lägg till egenskaper under: Sammanfattning) och välj Språk. Sök fram och länka till entiteten för sammanfattningens språk.  
+För att lägga till sammanfattningsspråk, klicka på plustecknet till höger om Instans av verk och verkstypen och välj Sammanfattning av innehåll. Lägg till Sammanfattning (tryck Enter eller klicka på plustecknet vid Sammanfattning av innehåll - Lägg till Sammanfattning). Ta bort Benämning. Lägg till Språk genom att klicka på plustecknet vid Sammanfattning (Lägg till egenskaper under: Sammanfattning) och välj Språk. Sök fram och länka till entiteten för sammanfattningens språk.  
   ```Exempel: Engelska```
