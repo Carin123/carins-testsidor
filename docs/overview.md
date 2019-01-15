@@ -25,7 +25,7 @@ För att se postens administrativa metadata klickar man på rubriken Adminmetada
 ### Sammanfattning av resursen
 För att snabbt kunna avläsa den viktigaste informationen i en post har alla poster en sammanfattning. Sammanfattningen innehåller resursens:
 
-  * Typ, exempelvis: Text, Manuskript, Person, .
+  * Typ, exempelvis: Text, Manuskript, Person, Seriell resurs.
   * Titel, namn eller annan föredragen benämning.
   * Övrig information för särskiljning av resursen.
   
