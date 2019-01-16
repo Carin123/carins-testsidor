@@ -24,7 +24,7 @@ Under rubriken “Visa som” kan man, utöver den grafiska vyn även granska in
 
 
 ### Expandera/minimera alla
-För att skapa en bättre översikt över posten samt för att enklare se vad posten innehåller, finns möjlighet att expandera och minimera alla postens egenskaper och delegenskaper med ett klick eller kortkommando.
+För att skapa en bättre översikt över posten samt för att lättare se vad posten innehåller, finns möjlighet att expandera och minimera alla postens egenskaper och underliggande egenskaper med ett klick eller kortkommando.
 
 ### Kopiera
 Knappen för att kopiera duplicerar hela beskrivningen in i en ny post. Det står då [Kopia] i postens rubrik. 
@@ -70,10 +70,10 @@ Längst till vänster finns postens egenskapsrubriker. För att lägga till en e
 För att ta bort en egenskap klickar du på soptunnan i anslutning till egenskapsrubriken. Markören visar vilka data som då raderas.   
 
 ## Entitetsfunktioner
-Till höger om varje lokal entitet finns tre funktioner där du kan lägga till delfält i entiteten, länka den (se avsnittet om entiteter), eller ta bort den.
+Till höger om varje lokal entitet finns tre funktioner där du kan lägga till underliggande egenskap till entiteten, länka den (se avsnittet om entiteter), eller ta bort den.
 
-## Ta bort delfält i entitet
-För att lägga till ett underordnad egenskap, klicka på +ikonen som finns i anslutning till entiteten till höger om den egenskap där du vill lägga till den underordnade egenskapen. För att ta bort en underordnad egenskap, klicka på soptunnan till höger om egenskapen du vill radera. 
+## Ta bort underliggande egenskap i entitet
+För att lägga till ett underliggande egenskap, klicka på +ikonen som finns i anslutning till entiteten till höger om den egenskap där du vill lägga till den underliggande egenskapen. För att ta bort en underliggande egenskap, klicka på soptunnan till höger om egenskapen du vill radera. 
 
 ## Kontextuell hjälp
 Vid vissa egenskaper i posten finns det kontextuell hjälp som nås via att du för muspekaren över frågetecken-ikonen.
