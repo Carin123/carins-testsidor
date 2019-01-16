@@ -24,7 +24,7 @@ Under rubriken “Visa som” kan man, utöver den grafiska vyn även granska in
 
 
 ### Expandera/minimera alla
-För att skapa en bättre översikt över posten samt för att enklare se vad posten innehåller, finns möjlighet att expandera och minimera alla postens fält och delfält med ett klick.
+För att skapa en bättre översikt över posten samt för att enklare se vad posten innehåller, finns möjlighet att expandera och minimera alla postens egenskaper och delegenskaper med ett klick eller kortkommando.
 
 ### Kopiera
 Knappen för att kopiera duplicerar hela beskrivningen in i en ny post. Det står då [Kopia] i postens rubrik. 
@@ -50,13 +50,13 @@ Klicka på Redigera för att göra ändringar i posten.
 (se visningsvy ovan)
 
 ## Lägg till egenskap
-+Fält-knappen lägger till ett nytt huvudfält/egenskap.
++Egenskap-knappen lägger till en ny egenskap.
 
 ## Ångra
 Du kan ångra text du skrivit i ett fält, men även ångra om du till exempel lagt till ett felaktigt fält i formuläret.
 
 ## Spara
-Spara-knappen sparar posten direkt till Libris databas, utan att ta dig ur redigeringsläget. Vid sparning uppdateras uppgifter för tidpunk och användare som utfört sparningen.
+Spara-knappen sparar posten direkt till Libris databas, utan att ta dig ur redigeringsläget. När du sparar uppdateras uppgifter för tidpunkt och användare som sparat posten.
 
 ## Klar
 Klar tar dig ur redigeringsläget och sparar dina ändringar. 
@@ -64,7 +64,7 @@ Klar tar dig ur redigeringsläget och sparar dina ändringar.
 # Redigeringsvy - funktioner i posten
 
 ## Lägg till entitet i egenskap
-Längst till vänster finns postens egenskapsrubriker. För att lägga till en entitet under respektive egenskap klickar du på plusset under egenskapens rubrik. Entiteten läggs då till i posten. 
+Längst till vänster finns postens egenskapsrubriker. För att lägga till en entitet under respektive egenskap klickar du på plus-tecknet under egenskapens rubrik. Entiteten läggs då till i posten. 
 
 ## Ta bort egenskap
 För att ta bort en egenskap klickar du på soptunnan i anslutning till egenskapsrubriken. Markören visar vilka data som då raderas.   
@@ -73,9 +73,8 @@ För att ta bort en egenskap klickar du på soptunnan i anslutning till egenskap
 Till höger om varje lokal entitet finns tre funktioner där du kan lägga till delfält i entiteten, länka den (se avsnittet om entiteter), eller ta bort den.
 
 ## Ta bort delfält i entitet
-För att lägga till ett delfält, klicka på +ikonen som finns i anslutning till entiteten till höger i vilken du vill lägga till delfältet. För att ta bort delfält, klicka på soptunnan till höger om delfältet du vill radera. 
-
+För att lägga till ett underordnad egenskap, klicka på +ikonen som finns i anslutning till entiteten till höger om den egenskap där du vill lägga till den underordnade egenskapen. För att ta bort en underordnad egenskap, klicka på soptunnan till höger om egenskapen du vill radera. 
 
 ## Kontextuell hjälp
-Vid vissa egenskaper i posten finns det kontextuell hjälp att tillgå som nås via mouse over på frågetecken-ikonen.
+Vid vissa egenskaper i posten finns det kontextuell hjälp som nås via att du för muspekaren över frågetecken-ikonen.
 
