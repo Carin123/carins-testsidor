@@ -78,7 +78,7 @@ Under Instans av Verk, lägg till Relation genom att klicka på plustecknet till
 
 #### Medverkan och funktion  
 * Medverkan och funktion  
-  Under Medverkan och funktion anges relationer till de agenter som medverkar i verket, till exempel författare, översättare, illustratörer samt funktionskod för respektive agent. Relationer till utgivare (710) anges för närvarande också här.   
+  Under Medverkan och funktion, ange relationer till de agenter som medverkar i verket, till exempel författare, översättare, illustratörer samt funktionskod för respektive agent. Relationer till utgivare (710) anges för närvarande också här.   
   Följ dessa instruktioner:  
   [Relationer till Agent](https://libris.kb.se/katalogisering/help/workflow-agent-org-instance)  
     
