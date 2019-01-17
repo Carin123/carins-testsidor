@@ -9,22 +9,13 @@ order: 13
 ---
 
 ## Skapa ny från mall
-När du ska lägga till en entitet är första steget att göra en sökning för att se om entiteten redan finns eller inte. Klicka på plustecknet vid entitetsrubriken. En sidorutan öppnas till höger - "Lägg till entitet/Agent". Högst upp i sidorutan finns en sökruta. 
-
-Sökningen görs antingen via:
-
-**Fritextsök:**  Gör en bred sökning genom att skriva in text i sökfältet i sidorutan och få fram ett sökresultat.
-
-**Sök i typer:** Välj en “typ” i listan i kombination med en fritextsökning. Då blir sökresultatet specifikt för den valda typen. För att se alla entiteter av en viss typ, tryck Enter eller skriv * i sökfältet.
+För att skapa en ny post, klicka på Skapa ny. En meny med mallar för till exempel Bok - tryckt monografi, Datorspel, Film med flera mallar öppnas. Välj relevant mall. Mallen innehåller de vanligaste egenskaperna för respektive typ.
+Fler egenskaper kan läggas till genom att lägga till egenskaperna från Lägg till egenskaper-knappen (eller kortkommando).
 
 
 ## Berika från mall
-Det går i vissa fall att duplicera en entitet. Klicka på ikonen med tre prickar, till höger om entiteten - "Hantera". Välj Duplicera entitet. Entiteten dupliceras och den nya entiteten lägger sig under den kopierade.
-
-
+Det går att lägga till flera egenskaper samtidigt i en post genom att välja Berika från mall. börja med att gå till Redigering och klicka på verktygsikonen. Välj sedan relevant mall. Posten berikas nu med de egenskaper i mallen som inte redan finns. 
+Underliggande egenskaper, till exempel Plats under Utgivning, får du dock lägga till manuellt.  
 
 Kopiera till urklipp:  
-![Kopiera till urklipp](kopieraurklipp.png)
-<br><br>
-Klistra in urklipp:  
-![Klistra in urklipp](klistraurklipp.png)
+![Berika från mall](berika.png)
