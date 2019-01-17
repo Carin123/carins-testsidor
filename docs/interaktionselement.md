@@ -44,7 +44,7 @@ Klicka på Redigera för att göra ändringar i posten.
 
 
 
-# Redigeringsvy - toolbar (till höger)
+# Redigeringsvy - verktygsmeny (till höger)
 
 ## Verktyg
 (se visningsvy ovan)
@@ -64,7 +64,7 @@ Klar tar dig ur redigeringsläget och sparar dina ändringar.
 # Redigeringsvy - funktioner i posten
 
 ## Lägg till entitet i egenskap
-Längst till vänster finns postens egenskapsrubriker. För att lägga till en entitet under respektive egenskap klickar du på plus-tecknet under egenskapens rubrik. Entiteten läggs då till i posten. 
+Längst till vänster finns postens egenskapsrubriker. För att lägga till en entitet under respektive egenskap klickar du på plustecknet under egenskapens rubrik. Entiteten läggs då till i posten. 
 
 ## Ta bort egenskap
 För att ta bort en egenskap klickar du på soptunnan i anslutning till egenskapsrubriken. Markören visar vilka data som då raderas.   
@@ -73,7 +73,7 @@ För att ta bort en egenskap klickar du på soptunnan i anslutning till egenskap
 Till höger om varje lokal entitet finns tre funktioner där du kan lägga till underliggande egenskap till entiteten, länka den (se avsnittet om entiteter), eller ta bort den.
 
 ## Ta bort underliggande egenskap i entitet
-För att lägga till ett underliggande egenskap, klicka på +ikonen som finns i anslutning till entiteten till höger om den egenskap där du vill lägga till den underliggande egenskapen. För att ta bort en underliggande egenskap, klicka på soptunnan till höger om egenskapen du vill radera. 
+För att lägga till ett underliggande egenskap, klicka på plustecknet som finns i anslutning till entiteten till höger om den egenskap där du vill lägga till den underliggande egenskapen. För att ta bort en underliggande egenskap, klicka på soptunnan till höger om egenskapen du vill radera. 
 
 ## Kontextuell hjälp
 Vid vissa egenskaper i posten finns det kontextuell hjälp som nås via att du för muspekaren över frågetecken-ikonen.
