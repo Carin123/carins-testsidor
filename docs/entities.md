@@ -27,7 +27,7 @@ Om du fått fram ett önskat sökresultat kan du lägga till den relevanta entit
 Om du inte hittar en relevant länkad entitet att lägga till, kan du i vissa fall i stället skapa en lokal entitet. Klicka på Skapa lokal entitet, längst ner till höger i sidorutan. Välj typ av entitet i listan eller sök direkt på entitetsrubriken och välj sedan.
 
 ## Duplicera entitet
+Det går i vissa fall att duplicera en entitet. Klicka på ikonen med tre prickar, till höger om entiteten - "Hantera". Välj Duplicera entitet. Entiteten dupliceras och den nya entiteten lägger sig under den kopierade.
 
-
-
-## Kopiera entiteter
+## Kopiera till urklipp
+Det går i vissa fall att kopiera en entitet till urklipp. Entiteten kopieras då till ett urklippKlicka på ikonen med tre prickar, till höger om entiteten - "Hantera". Välj Duplicera entitet. Entiteten dupliceras och den nya entiteten lägger sig under den kopierade.
