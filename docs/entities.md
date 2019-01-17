@@ -30,10 +30,10 @@ Om du inte hittar en relevant länkad entitet att lägga till, kan du i vissa fa
 Det går i vissa fall att duplicera en entitet. Klicka på ikonen med tre prickar, till höger om entiteten - "Hantera". Välj Duplicera entitet. Entiteten dupliceras och den nya entiteten lägger sig under den kopierade.
 
 ## Kopiera till urklipp
-Det går i vissa fall att kopiera en entitet till urklipp. Klicka på ikonen med tre prickar, till höger om entiteten - "Hantera". Välj Kopiera till urklipp. När du väljer kopiera till urklipp, sparas den lokala entiteten i tjänstens minne samtidigt som tjänsten känner av var entiteten kan klistras in där formatet tillåter. En klistra-in-ikon lägger sig där det går att klistra in urklippet. Du kan kopiera över entiteter mellan poster, om du till exempel har flera poster öppna i olika flikar.
+Det går i vissa fall att kopiera en entitet till urklipp. Klicka på ikonen med tre prickar, till höger om entiteten - "Hantera". Välj Kopiera till urklipp. När du väljer kopiera till urklipp, sparas den lokala entiteten i tjänstens minne samtidigt som tjänsten känner av var entiteten kan klistras in där formatet tillåter. En klistra-in-ikon lägger sig där det går att klistra in urklippet. Du kan kopiera en entitet från en post och klistra in i en annan post. Det fungerar ofta bra att använda olika flikar för posterna.  
 
 Kopiera till urklipp:  
 ![Kopiera till urklipp](kopieraurklipp.png)
-<br>
+<br><br>
 Klistra in urklipp:  
 ![Klistra in urklipp](klistraurklipp.png)
