@@ -11,6 +11,7 @@ tags:
 ## Ändringslogg
 
 På denna sida listas ändringar i hjälptexterna.
+LÄGG TILL LÄNKAR TILL SIDORNA NEDAN INNAN DETTA PUBLICERAS
 
 
 2019-01-18
