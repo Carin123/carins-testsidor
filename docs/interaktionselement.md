@@ -28,7 +28,7 @@ För att skapa en bättre översikt över posten samt för att lättare se vad p
 
 ### Kopiera
 Knappen för att kopiera duplicerar hela beskrivningen in i en ny post. Det står då [Kopia] i postens rubrik. 
-OBS! Dock har ingen post skapats förrän postens sparats. När posten sparats får den ett nytt ID. Om man avbryter utan att spara försvinner posten.
+OBS! Dock har ingen post skapats förrän posten sparats. När posten sparats får den ett nytt ID. Om man avbryter utan att spara försvinner posten.
 
 ### Ladda ner sammanslagen MARC21
 När du trycker på Ladda ner sammanslagen MARC21 laddar du ner en fil som du kan importera till ditt lokala bibliotekssystem. 
