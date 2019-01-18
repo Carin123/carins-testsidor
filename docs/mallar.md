@@ -18,4 +18,5 @@ Det går att lägga till flera egenskaper samtidigt i en post genom att välja B
 Berika från mall hämtar dock inte underliggande egenskaper, till exempel Plats under Utgivning.  
 
 Berika från mall:   
+
 ![Berika från mall](berika.png)
