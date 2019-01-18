@@ -9,7 +9,7 @@ tags:
 
 
 # Översikt
-Då gränssnittet är datadrivet så har posternas visningsvy och en redigeringsvy för alla olika typer av resurser i stort sett samma disposition. 
+Då gränssnittet är datadrivet så har posternas visningsvy och redigeringsvy för olika typer av resurser i stort sett samma disposition. 
 De övergripande element en post innehåller är: 
 
   * Administrativ metadata (adminmetadata)
