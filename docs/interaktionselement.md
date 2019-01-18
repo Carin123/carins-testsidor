@@ -31,7 +31,7 @@ Knappen för att kopiera duplicerar hela beskrivningen in i en ny post. Det stå
 OBS! Dock har ingen post skapats förrän postens sparats. När posten sparats får den ett nytt ID. Om man avbryter utan att spara försvinner posten.
 
 ### Ladda ner sammanslagen MARC21
-När du trycker på compiled MARC21 så laddar du ner en fil som du kan importera till ditt lokala bibliotekssystem. 
+När du trycker på Ladda ner sammanslagen MARC21 laddar du ner en fil som du kan importera till ditt lokala bibliotekssystem. 
 
 ### Förhandsgranska MARC21
 Som ett ytterligare stöd finns också möjlighet att granska sitt arbete genom att förhandsgranska det i MARC21-format. MARC21-vyn konverterar posten vid öppning och är inte editerbar.
