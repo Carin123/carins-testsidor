@@ -13,7 +13,7 @@ tags:
 På denna sida listas ändringar i hjälptexterna.
 
 
-2019-01-13
+2019-01-18
 
 * Ny struktur för hjälptexterna.
 * Katalogisering/Instans: Information om instanstyper och verkstyper tillagdInstansK atalogisering/Verk: Avsnittet om parallelltext förtydligat
@@ -21,4 +21,7 @@ På denna sida listas ändringar i hjälptexterna.
 * Katalogisering/Verk: Under Ämne hänvisas i första hand till Hjälptexter Ämnesord 
 * Katalogisering/Instans: Information om Annan relaterad resurs/Elektronisk/URI tillagd (länk till version i annat format)
 * Katalogisering/Instans: Information om Produktion (för opublicerade resurser) tillagd.
-
+* Redigering/Översikt - uppdaterad information
+* Redigering/Interaktionselement - uppdaterad information
+* Redigering/Entiteter - uppdaterad information
+* Redigering/Mallar - ny sida
