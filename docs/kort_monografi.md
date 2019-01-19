@@ -37,7 +37,7 @@ För att lägga till egenskaper under Instans, klicka på plustecknet i redigeri
   ```Exempel: nc (= volym)```
   
 #### År och datum 
-![År och datum](ar.pdf)  
+![ar](ar.pdf)  
 
   
 ##### Författarserie
