@@ -36,6 +36,10 @@ För att lägga till egenskaper under Instans, klicka på plustecknet i redigeri
   Länka till entitet.  
   ```Exempel: nc (= volym)```
   
+#### År och datum 
+![År och datum](Årtal i nya libris-monografier.pdf)  
+
+  
 ##### Författarserie
 * Seriemedlemskap/Ingår i serie/Instans/Instans av Verk/Verk/Har titel/Titel/Huvudtitel  
 (seriesMembership/inSeries/Instance/InstanceOf/Work/hasTitle/Title/mainTitle = 800 ‡t)  
