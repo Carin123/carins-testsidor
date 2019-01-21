@@ -45,7 +45,6 @@ Kopiera till urklipp:
 <br><br>
 
  En klistra-in-ikon lägger sig där det går att klistra in urklippet.  
- <br>
 Klistra in urklipp:  
 ![Klistra in urklipp](klistraurklipp.png)
 <br>
