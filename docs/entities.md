@@ -18,6 +18,7 @@ Sökningen görs antingen via:
 **Sök i typer:** Välj en “typ” i listan i kombination med en fritextsökning. Då blir sökresultatet specifikt för den valda typen.  
 <br>
 ![Länka till entitet](lankaentitet.png)  
+
 För att se alla entiteter av en viss typ, tryck Enter eller skriv * i sökfältet.  
 
 ### Lägg till entitet eller skapa lokal entitet
