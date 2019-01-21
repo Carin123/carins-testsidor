@@ -19,7 +19,7 @@ Sökningen görs antingen via:
 <br>
 ![Länka till entitet](lankaentitet.png)  
 
-För att se alla entiteter av en viss typ, tryck Enter eller skriv * i sökfältet.  
+För att se alla entiteter av en viss typ, tryck Enter när markören står i sökfältet eller skriv * i sökfältet.  
 
 ### Lägg till entitet eller skapa lokal entitet
 När du gjort en entitetssökning kan du: 
