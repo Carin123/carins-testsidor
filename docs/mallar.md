@@ -14,7 +14,7 @@ Fler egenskaper kan läggas till genom att lägga till egenskaperna från Lägg 
 
 
 ## Berika från mall
-Det går att lägga till flera egenskaper samtidigt i en post genom att välja Berika från mall. börja med att gå till Redigering och klicka på verktygsikonen. Välj sedan relevant mall. Posten berikas nu med egenskaper från mallen, om de inte redan finns i posten. 
+Det går att lägga till flera egenskaper samtidigt i en post genom att välja Berika från mall. Gå till Redigering och klicka på verktygsikonen. Välj sedan relevant mall. Posten berikas nu med egenskaper från mallen, om de inte redan finns i posten. 
 Berika från mall hämtar dock inte underliggande egenskaper, till exempel Plats under Utgivning.  
 
 Berika från mall:   
