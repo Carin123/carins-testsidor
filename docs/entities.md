@@ -47,4 +47,5 @@ Kopiera till urklipp:
  En klistra-in-ikon lägger sig där det går att klistra in urklippet. 
 Klistra in urklipp:  
 ![Klistra in urklipp](klistraurklipp.png)
+<br>
 Du kan kopiera en entitet från en post och klistra in i en annan post. Det fungerar ofta bra att använda olika flikar för posterna.  
