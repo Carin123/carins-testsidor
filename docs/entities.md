@@ -28,7 +28,12 @@ När du gjort en entitetssökning kan du:
 Om du fått fram ett önskat sökresultat kan du lägga till den relevanta entiteten genom att klicka på plustecknet till vänster om entiteten - “Lägg till". Entiteten lägger sig då i posten som en länk. Du kan även välja att granska entiteten innan du väljer att lägga till den. Klicka då på entitetens rubrik. Entiteten öppnas i ny flik.  
 
 **Skapa lokal entitet:**
-Om du inte hittar en relevant länkad entitet att lägga till, kan du i vissa fall i stället skapa en lokal entitet. Klicka på Skapa lokal entitet, längst ner till höger i sidorutan. Välj typ av entitet i listan eller sök direkt på entitetsrubriken och välj sedan.
+Om du inte hittar en relevant länkad entitet att lägga till, kan du i vissa fall i stället skapa en lokal entitet. Klicka på Skapa lokal entitet, längst ner till höger i sidorutan. Välj typ av entitet i listan eller sök direkt på entitetsrubriken och välj sedan.  
+Kopiera till urklipp:  
+![Lokal entitet steg 1](lokalentitet1.png)
+<br><br>
+Klistra in urklipp:  
+![Lokal entitet steg 2](lokalentitet2.png)
 
 ## Duplicera entitet
 Det går i vissa fall att duplicera en entitet. Klicka på ikonen med tre prickar, till höger om entiteten - "Hantera". Välj Duplicera entitet. Entiteten dupliceras och den nya entiteten lägger sig under den kopierade, inom samma post.
