@@ -9,7 +9,7 @@ order: 13
 ---
 
 ## Skapa ny från mall
-För att skapa en ny post, klicka på Skapa ny. En meny med mallar för till exempel Bok - tryckt monografi, Datorspel, Film med flera mallar öppnas. Välj relevant mall. Mallen innehåller de vanligaste egenskaperna för respektive typ.
+För att skapa en ny post, klicka på Skapa ny. En meny med mallar för Bok - tryckt monografi, Datorspel, Film med flera mallar öppnas. Välj relevant mall. Mallen innehåller de vanligaste egenskaperna för respektive typ.
 Fler egenskaper kan läggas till genom att lägga till egenskaperna från Lägg till egenskaper-knappen (eller kortkommando).
 
 
