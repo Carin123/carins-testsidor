@@ -33,6 +33,9 @@ OBS! Dock har ingen post skapats förrän posten sparats. När posten sparats f�
 ### Ladda ner sammanslagen MARC21
 När du trycker på Ladda ner sammanslagen MARC21 laddar du ner en fil som du kan importera till ditt lokala bibliotekssystem. 
 
+### Ladda ner JSON-LD
+Välj Ladda ner JSON-LD för att ladda ner en JSON-LD-fil.  
+
 ### Förhandsgranska MARC21
 Som ett ytterligare stöd finns också möjlighet att granska sitt arbete genom att förhandsgranska det i MARC21-format. MARC21-vyn konverterar posten vid öppning och är inte redigerbar.
 
