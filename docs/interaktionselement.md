@@ -22,6 +22,7 @@ Under rubriken “Visa som” kan man, utöver den grafiska vyn även granska in
 
 ## Verktyg
 
+![Verktyg](verktygsalternativ.png)  
 
 ### Expandera/minimera alla
 För att skapa en bättre översikt över posten samt för att lättare se vad posten innehåller, finns möjlighet att expandera och minimera alla postens egenskaper och underliggande egenskaper med ett klick eller kortkommando.
@@ -49,6 +50,8 @@ Klicka på Redigera för att göra ändringar i posten.
 
 # Redigeringsvy - verktygsmeny (till höger)
 
+![Redigeringsvy - verktygsmeny](redigeringsvy_verktyg.png)  
+
 ## Verktyg
 (se visningsvy ovan)
 
@@ -65,6 +68,8 @@ Spara-knappen sparar posten direkt till Libris databas, utan att ta dig ur redig
 Klar tar dig ur redigeringsläget och sparar dina ändringar. 
 
 # Redigeringsvy - funktioner i posten
+
+![Redigeringsvy - funktioner](redigeringsvy_funktioner.png)  
 
 ## Ta bort egenskap
 För att ta bort en egenskap klickar du på soptunnan i anslutning till egenskapsrubriken. Markören visar vilka data som då raderas.   
