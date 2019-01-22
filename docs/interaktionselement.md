@@ -70,7 +70,7 @@ Klar tar dig ur redigeringsläget och sparar dina ändringar.
 För att ta bort en egenskap klickar du på soptunnan i anslutning till egenskapsrubriken. Markören visar vilka data som då raderas.   
 
 ## Lägg till förekomst av egenskap
-Till vänster finns postens egenskapsrubriker. För att lägga till en ny förekomst av egenskapen klickar du på plustecknet till vänster om egenskapens rubrik. Ytterligare en förekomst av egenskapen läggs då till i posten. Jämför Duplicera egenskap.
+Till vänster finns postens egenskapsrubriker. För att lägga till en ny förekomst av egenskapen klickar du på plustecknet till vänster om egenskapens rubrik. Ytterligare en förekomst av egenskapen läggs då till i posten.  
 
 ## Kontextuell hjälp
 Vid vissa egenskaper i posten finns det kontextuell hjälp som nås via att du för muspekaren över frågetecken-ikonen.
