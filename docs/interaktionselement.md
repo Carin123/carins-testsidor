@@ -50,7 +50,7 @@ Klicka på Redigera för att göra ändringar i posten.
 
 # Redigeringsvy - verktygsmeny (till höger)
 
-![Redigeringsvy - verktygsmeny](redigeringsvyverktyg.png)  
+![Redigeringsvy](redigeringsvyverktyg.png)  
 
 ## Verktyg
 (se visningsvy ovan)
@@ -69,7 +69,7 @@ Klar tar dig ur redigeringsläget och sparar dina ändringar.
 
 # Redigeringsvy - funktioner i posten
 
-![Redigeringsvy - funktioner](redigeringsvyfunktioner.png)  
+![Redigeringsvy](redigeringsvyfunktioner.png)  
 
 ## Ta bort egenskap
 För att ta bort en egenskap klickar du på soptunnan i anslutning till egenskapsrubriken. Markören visar vilka data som då raderas.   
