@@ -1,10 +1,10 @@
 ---
 section: Redigering
 title: Mallar
-date: 2019-01-17
+date: 2019-01-23
 tags:
 - redigering
-- entiteter
+- mallar
 order: 13
 ---
 
