@@ -53,7 +53,7 @@ Klicka på Redigera för att göra ändringar i posten.
 
 # Redigeringsvy - verktygsmeny (till höger)
 
-![Redigeringsverktyg2](redigeringsverktyg2.png)  
+![Redigering2](redigering2.png)  
 
 ## Verktyg
 (se beskrivning av Verktyg ovan)
