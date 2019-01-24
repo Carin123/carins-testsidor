@@ -3,11 +3,11 @@ TESTAR NÅGRA OLIKA SAKER PÅ DENNA SIDA
 # Redigeringsvy - verktygsmeny (till höger)
 
 |![Redigeringsverktyg](redigeringsverktyg.png)|Verktyg|
-||bla|
-||bla|
-||bla|
-||bla|
-||bla|
+||bla|  
+||bla|  
+||bla|  
+||bla|  
+||bla|  
 ||bla|
 
 
