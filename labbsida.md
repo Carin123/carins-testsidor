@@ -1,5 +1,24 @@
 TESTAR NÅGRA OLIKA SAKER PÅ DENNA SIDA
 
+# Redigeringsvy - verktygsmeny (till höger)
+
+![Redigeringsverktyg](redigeringsverktyg.png)  
+
+## Verktyg
+(se beskrivning av Verktyg ovan)
+
+## Lägg till egenskap
++Egenskap-knappen lägger till en eller flera nya egenskaper. Välj egenskap i listan genom att klicka på plustecknet eller trycka Enter vid plustecknet vid egenskapen. Välj eventuellt fler egenskaper. Stäng sidorutan genom att trycka Escape.  
+
+## Ångra
+Du kan ångra text du skrivit i ett fält, men även ångra om du till exempel lagt till en felaktig egenskap i formuläret.
+
+## Spara
+Spara-knappen sparar posten direkt till Libris databas, utan att ta dig ur redigeringsläget. När du sparar uppdateras uppgifter för tidpunkt och användare som sparat posten.
+
+## Spara och sluta redigera
+Spara och sluta redigera tar dig ur redigeringsläget och sparar dina ändringar.
+
 SPRÅK MM NY VERSION
 
 #### Sprak 
