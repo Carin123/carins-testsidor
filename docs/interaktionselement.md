@@ -12,7 +12,7 @@ tags:
 # Visningsvy
 
 ## Lägg bestånd (endast från typen instans)
-Från instanser kan man lägga bestånd. Detta görs i postens visningsvy, där man når beståndsposten via beståndsknappen högst upp i posten. På beståndsknappen ser du vilket sigel beståndet läggs på. Från instansposten kan du även se hur många andra bibliotek som har bestånd på instansen.
+Från instanser kan man lägga bestånd. Detta görs i postens visningsvy, där man når beståndsposten via beståndsknappen högst upp i posten. På beståndsknappen syns vilket sigel beståndet läggs på. Från instansposten kan man även se hur många andra bibliotek som har bestånd på instansen.
 
 
 ## Visa som
@@ -35,7 +35,7 @@ Knappen för att kopiera duplicerar hela beskrivningen in i en ny post. Det stå
 OBS! Dock har ingen post skapats förrän posten sparats. När posten sparats får den ett nytt ID. Om man avbryter utan att spara försvinner posten.
 
 ### Ladda ner sammanslagen MARC21
-När du trycker på Ladda ner sammanslagen MARC21 laddar du ner en fil som du kan importera till ditt lokala bibliotekssystem. 
+Med funktionen Ladda ner sammanslagen MARC21 laddas en fil ner som kan importeras till lokala bibliotekssystem. 
 
 ### Ladda ner JSON-LD
 Välj Ladda ner JSON-LD för att ladda ner en JSON-LD-fil.  
@@ -56,7 +56,7 @@ Klicka på Redigera för att göra ändringar i posten.
 ![Redigeringsverktyg](redigeringsverktyg.png)  
 
 ## Verktyg
-(se visningsvy ovan)
+(se beskrivning av Verktyg ovan)
 
 ## Lägg till egenskap
 +Egenskap-knappen lägger till en eller flera nya egenskaper. Välj egenskap i listan genom att klicka på plustecknet eller trycka Enter vid plustecknet vid egenskapen. Välj eventuellt fler egenskaper. Stäng sidorutan genom att trycka Escape.  
@@ -67,8 +67,8 @@ Du kan ångra text du skrivit i ett fält, men även ångra om du till exempel l
 ## Spara
 Spara-knappen sparar posten direkt till Libris databas, utan att ta dig ur redigeringsläget. När du sparar uppdateras uppgifter för tidpunkt och användare som sparat posten.
 
-## Klar
-Klar tar dig ur redigeringsläget och sparar dina ändringar. 
+## Spara och sluta redigera
+Spara och sluta redigera tar dig ur redigeringsläget och sparar dina ändringar. 
 
 # Redigeringsvy - funktioner i posten
 
