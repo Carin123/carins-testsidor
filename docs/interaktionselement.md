@@ -84,10 +84,10 @@ För att ta bort en egenskap klickar du på soptunnan i anslutning till egenskap
 Till vänster finns postens egenskapsrubriker. För att lägga till en ny förekomst av egenskapen klickar du på plustecknet till vänster om egenskapens rubrik. Ytterligare en förekomst av egenskapen läggs då till i posten.  
 
 ## Hjälp i formuläret
-Vid vissa egenskaper i posten finns det inbyggd hjälp. För muspekaren över frågetecknet. För längre hjälptexter, se Hjälp (överst i formuläret).  LÄNKA TILL HJÄLPSEKTIONEN
+Vid vissa egenskaper i posten finns det inbyggd hjälp. För muspekaren över frågetecknet. För längre hjälptexter, se [Hjälp (överst i formuläret)](https://libris.kb.se/katalogisering/help).  
 
 ## Lägga till och ta bort underliggande egenskap
 Klicka på plustecknet som finns till höger om den egenskap där du vill lägga till den underliggande egenskapen. För att ta bort en underliggande egenskap, klicka på soptunnan till höger om egenskapen du vill radera. 
 
 ## Entitetsfunktioner
-Till höger om varje lokal entitet finns några funktioner där du kan länka den, lägga till underliggande egenskap till entiteten, ta bort den eller hantera den genom att duplicera eller kopiera (se Entiteter). LÄNKA TILL SIDAN ENTITETER  
+Till höger om varje lokal entitet finns några funktioner där du kan länka den, lägga till underliggande egenskap till entiteten, ta bort den eller hantera den genom att duplicera eller kopiera (se [Entiteter](https://libris.kb.se/katalogisering/help/entity-search)).  
