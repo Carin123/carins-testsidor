@@ -30,8 +30,8 @@ Under rubriken “Visa som” kan man, utöver den grafiska vyn även granska in
 
 ### Expandera/minimera alla
 För att skapa en bättre översikt över posten samt för att lättare se vad posten innehåller, finns möjlighet att expandera och minimera alla postens egenskaper och underliggande egenskaper med ett klick eller kortkommando.  
-Expandera: Alt(+)+  
-Minimera: Alt(+)-
+Expandera: Alt + Plus
+Minimera: Alt + Minus
 
 ### Kopiera
 Knappen för att kopiera duplicerar hela beskrivningen in i en ny post. Det står då [Kopia] i postens rubrik. 
