@@ -90,4 +90,4 @@ Vid vissa egenskaper i posten finns det inbyggd hjälp. För muspekaren över fr
 Klicka på plustecknet som finns till höger om den egenskap där du vill lägga till den underliggande egenskapen. För att ta bort en underliggande egenskap, klicka på soptunnan till höger om egenskapen du vill radera. 
 
 ## Entitetsfunktioner
-Till höger om varje lokal entitet finns några funktioner där du kan länka den, lägga till underliggande egenskap till entiteten, ta bort den eller hantera den genom att duplicera eller kopiera (se [Entiteter](https://libris.kb.se/katalogisering/help/entity-search)).  
+Till höger om varje lokal entitet finns några funktioner där du kan länka den, lägga till underliggande egenskap till entiteten, ta bort den eller hantera den genom att duplicera eller kopiera. Se [Entiteter](https://libris.kb.se/katalogisering/help/entity-search).  
