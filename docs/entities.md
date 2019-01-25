@@ -10,7 +10,7 @@ order: 13
 
 
 ## Entiteter
-En entitet är något som är en egen enhet och som man kan länka till, till exempel ämnesord, person, bärartyp.
+En entitet är något som är en egen enhet och som man kan länka till, till exempel ämnesord, person, bärartyp.  
 HJÄLP OSS FÖRKLARA VAD EN ENTITET ÄR !!
 
 ## Söka fram entiteter
