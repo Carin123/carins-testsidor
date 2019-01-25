@@ -10,7 +10,7 @@ tags:
 
 ## Verk
 
-Beskrivningen av ett verk återspeglar det konceptuella innehållet i en resurs. Till beskrivningen av verket knyts information som ämne, klassifikation, språk och innehållstyp. Ett verk kan sedan ha en eller flera instanser, till exempel utgåvor. Läs mer om [Instans](https://libris.kb.se/katalogisering/help/instance). 
+Beskrivningen av ett verk återspeglar det konceptuella innehållet i en resurs. Beskrivningen av verket innehåller information som ämne, klassifikation, språk och innehållstyp. Ett verk kan sedan ha en eller flera instanser, till exempel utgåvor. Läs mer om [Instans](https://libris.kb.se/katalogisering/help/instance). 
 
 Ett verk är av en viss typ. Exempel på verkstyper är: text, ljud, stillbild, rörlig bild, multimedia, karta. Det går för närvarande inte att byta beskrivningens verkstyp.  
 
