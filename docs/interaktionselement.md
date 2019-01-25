@@ -17,7 +17,7 @@ Från instanser kan man lägga bestånd. Detta görs i postens visningsvy, där 
 
 ## Visa som
 Under rubriken “Visa som” kan man, utöver den grafiska vyn även granska informationen i olika RDF format:
-  * Formell resurs (länkar till olika visningsvyer)  
+  * Formell resurs (resursens id samt länkar till olika visningsvyer)  
   * [Json-LD](https://www.w3.org/TR/json-ld/) (RDF anpassad för webbapplikationer) 
   * [Turtle](https://www.w3.org/TR/turtle/) (Den mest kompakta läsbara formen av RDF)
   * [RDF/XML](https://www.w3.org/TR/rdf-syntax-grammar/) (RDF i XML format)
