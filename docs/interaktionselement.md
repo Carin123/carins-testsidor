@@ -86,8 +86,8 @@ Till vänster finns postens egenskapsrubriker. För att lägga till en ny förek
 ## Hjälp i formuläret
 Vid vissa egenskaper i posten finns det inbyggd hjälp. För muspekaren över frågetecknet. För längre hjälptexter, se Hjälp (överst i formuläret).  LÄNKA TILL HJÄLPSEKTIONEN
 
-## Lägga till och ta bort underliggande egenskap i entitet
-För att lägga till en underliggande egenskap, klicka på plustecknet som finns till höger om den egenskap där du vill lägga till den underliggande egenskapen. För att ta bort en underliggande egenskap, klicka på soptunnan till höger om egenskapen du vill radera. 
+## Lägga till och ta bort underliggande egenskap
+Klicka på plustecknet som finns till höger om den egenskap där du vill lägga till den underliggande egenskapen. För att ta bort en underliggande egenskap, klicka på soptunnan till höger om egenskapen du vill radera. 
 
 ## Entitetsfunktioner
-Till höger om varje lokal entitet finns några funktioner där du kan länka den (se avsnittet om entiteter), lägga till underliggande egenskap till entiteten, ta bort den eller hantera den genom att duplicera eller kopiera (se Entiteter).  
+Till höger om varje lokal entitet finns några funktioner där du kan länka den, lägga till underliggande egenskap till entiteten, ta bort den eller hantera den genom att duplicera eller kopiera (se Entiteter). LÄNKA TILL SIDAN ENTITETER  
