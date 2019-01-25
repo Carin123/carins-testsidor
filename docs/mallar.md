@@ -23,4 +23,4 @@ Berika från mall:
 
 ![Berika från mall](berika.png)  
 
-När Berika från mall har använts visas en text som beskriver hur många egenskaper från mallen som har lagts till. Ange därefter korrekt metadata för respektive egenskap med hjälp av hjälptexter LÄNK TILL HJÄLPSEKTIONEN och spara posten.  
+När Berika från mall har använts visas en text som beskriver hur många egenskaper från mallen som har lagts till. Ange därefter korrekt metadata för respektive egenskap med hjälp av hjälptexterna LÄNK TILL HJÄLPSEKTIONEN och spara posten.  
