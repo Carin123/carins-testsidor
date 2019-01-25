@@ -39,6 +39,9 @@ Om du inte hittar en relevant länkad entitet att lägga till, kan du i vissa fa
 Välj typ av entitet i listan eller sök direkt på entitetsrubriken och välj sedan.
 ![Lokal entitet steg 2](lokalentitet2.png)
 
+## Länka entitet
+Om det finns en lokal entitet, kan man ersätta den med en länkad entitet. Börja alltid med att söka efter om entiteten redan finns. Ersätt den lokala entiteten med korrekt länkbar entitet. (För agenter: finns ingen länkbar entitet, skapa en auktoriserad entitet eller låt den lokala entiteten ligga kvar.)  
+
 ## Duplicera entitet
 Det går i vissa fall att duplicera en entitet. Klicka på ikonen med tre prickar, till höger om entiteten - "Hantera". Välj Duplicera entitet. Entiteten dupliceras och den nya entiteten lägger sig under den kopierade, inom samma post.
 
