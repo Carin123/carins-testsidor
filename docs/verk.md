@@ -45,6 +45,7 @@ För att lägga till egenskaper under Instans av verk, klicka på plustecknet ti
 ![Instans av verk](instansavverk.png)  
 
 Sök fram egenskapen och välj den genom att klicka på plustecknet vid egenskapens namn.  
+
 ![Instans av verk egenskap](instansavverkegenskap.png)  
 
 
