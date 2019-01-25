@@ -41,7 +41,7 @@ I vissa fall fungerar det ännu inte fullt ut att lägga till alla uppgifter som
 #### Instans av verk
 * Instans av verk (instanceOf/Work)  
   
-För att lägga till egenskaper under Instans av verk, klicka på plustecknet till höger om Instans av verk och verkstypen. 
+För att lägga till egenskaper under Instans av verk, klicka på plustecknet till höger om Instans av verk och verkstypen.  
 ![Instans av verk](instansavverk.png)  
 Sök fram egenskapen och välj den genom att klicka på plustecknet vid egenskapens namn.  
 
