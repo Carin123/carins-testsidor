@@ -20,7 +20,7 @@ Sökningen görs antingen via:
 
 **Fritextsök:**  Gör en bred sökning genom att skriva in text i sökfältet i sidorutan och få fram ett sökresultat.
 
-**Sök i typer:** Välj en “typ” i listan i kombination med en fritextsökning. Då blir sökresultatet specifikt för den valda typen.  
+**Sök i typer:** Välj “typ” i listan i kombination med en fritextsökning. Då blir sökresultatet specifikt för den valda typen.  
 <br>
 ![Länka till entitet](lankaentitet.png)  
 
