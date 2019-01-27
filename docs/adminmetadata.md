@@ -30,6 +30,7 @@ För att lägga till egenskaper under Adminmetadata, klicka på plustecknet i re
 ![Lägg till egenskap under: Post](plusegenskapadmin.png)  
 
 Sök fram egenskapen och välj den genom att klicka på plustecknet vid egenskapens namn.   
+![Lägg till egenskap under: Post](plusegenskapadmin.png)  
 
 
 ### Kontrollnummer
@@ -123,7 +124,6 @@ Vid postimport kan beskrivningsnivå ibland saknas eller sakna värde. Lägg då
  
 ### Systemteknisk anmarkning  
 * Systemteknisk anmärkning/Benämning (technicalNote/label = 599 ‡a)  
-För att lägga till Systemteknisk anmärkning, klicka på plustecknet Lägg till egenskaper under: Post, välj Systemteknisk anmärkning. Lägg till Systemteknisk anmärkning (plustecknet till vänster vid Systemteknisk anmärkning). Lägg till Benämning (plustecknet till höger vid Systemteknisk anmärkning).  
 Låt anmärkning om postimport ligga kvar.  
 ```Exempel: Imported from: z3950cat.bl.uk:9909/BNB03U (Do not remove)```  
 
