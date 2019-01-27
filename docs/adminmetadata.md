@@ -30,6 +30,8 @@ För att lägga till egenskaper under Adminmetadata, klicka på plustecknet i re
 ![Lägg till egenskap under: Post](plusegenskapadmin.png)  
 
 Sök fram egenskapen och välj den genom att klicka på plustecknet vid egenskapens namn.  
+![Välj egenskap under: Post](plusegenskapadmin2.png)   
+
 
 ### Kontrollnummer
 * Kontrollnummer (controlNumber = 001)  
