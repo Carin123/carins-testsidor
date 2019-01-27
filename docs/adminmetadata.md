@@ -26,7 +26,10 @@ Se även [instruktionsfilmer](https://www.youtube.com/playlist?list=PLZVkEICvA5-
 | [Poststatus](#poststatus) |  [Systemteknisk anmärkning](#systemteknisk-anmarkning) |
 
 
-För att lägga till egenskaper under Adminmetadata, klicka på plustecknet i redigeringsvyn (den stora runda plusikonen under Verktygsikonen) - Lägg till egenskaper under: Post. Sök fram egenskapen och välj den genom att klicka på plustecknet vid egenskapens namn.  
+För att lägga till egenskaper under Adminmetadata, klicka på plustecknet i redigeringsvyn (den stora runda plusikonen under Verktygsikonen) - Lägg till egenskaper under: Post.  
+![Lägg till egenskap under: Post](plusegenskapadmin.png)  
+
+Sök fram egenskapen och välj den genom att klicka på plustecknet vid egenskapens namn.  
 
 ### Kontrollnummer
 * Kontrollnummer (controlNumber = 001)  
