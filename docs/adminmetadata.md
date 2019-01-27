@@ -46,7 +46,7 @@ Unikt alfanumeriskt ID i Libris, minimum 14 tecken, maximum 17 tecken. ID:n skap
 ### Uppgraderad eller importerad av  
 * Uppgraderad eller importerad av/Bibliotek/Sigel (descriptionUpgrader/Library/sigel = 040 ‡d)  
   Om beskrivningsnivån uppgraderas, lägg till denna uppgift. Lägg inte till uppgiften när posten endast ändras utan att beskrivningsnivån uppgraderas. Vid postimport, lägg till uppgiften.  
-  Lägg till Uppgraderad eller importerad av. Välj Skapa lokal entitet. Välj Bibliotek.  
+  Lägg till Uppgraderad eller importerad av. Välj Lägg till entitet och välj Skapa lokal entitet. Välj Bibliotek.  
  Skriv in uppgiften under Sigel.       
   ```Exempel: S```   
    
