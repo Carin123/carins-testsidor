@@ -97,9 +97,11 @@ För ISBN, se Identifikator under [Instans](#https://libris.kb.se/katalogisering
   För en post katalogiserad enligt RDA, sök fram och länka till entitet: "i" (= marc/Isbd). I en sparad post visas samma entitet som "ISBD-interpunktion finns * i". När man skapar ny post från mall visas entiteten som "marc/Isbd". Båda är rätt.   
   Skapa också lokal entitet under Katalogiseringsregler. Klicka på plustecknet vid Katalogiseringsregler. Välj Föreslagna: Regler för deskriptiv katalogisering (bib).  
   ![Katalogiseringsregler](katalogiseringsregler.PNG)  
-  Lägg till Kod och Skriv in "rda".
+  Lägg till Kod och Skriv in "rda".  
+  ![Katalogiseringsregler ](katalogiseringsregler2.PNG)  
   ```Exempel: marc/Isbd (länkad entitet) + lokal entitet, Kod: rda```
   
+ 
 #### Beskrivningsniva  
 * Beskrivningsnivå (encodingLevel = 000/17)  
 För att lägga till Beskrivningsnivå, klicka på plustecknet Lägg till egenskaper under: Post.   
