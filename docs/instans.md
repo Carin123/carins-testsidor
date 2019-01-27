@@ -41,7 +41,8 @@ I vissa fall fungerar det ännu inte fullt ut att lägga till alla uppgifter som
 
 
 ### Instans
-För att lägga till egenskaper under Instans, klicka på plustecknet i redigeringsvyn (den stora runda plusikonen under Verktygsikonen - Lägg till egenskaper under: Instans). Sök fram egenskapen och välj den genom att klicka på plustecknet vid egenskapens namn.  
+För att lägga till egenskaper under Instans, klicka på plustecknet i redigeringsvyn (den stora runda plusikonen under Verktygsikonen) - Lägg till egenskaper under: Instans.  
+![Lägg till egenskap under: Instans](plusegenskapinstans.PNG)  
 
 #### Utgivningssatt
 * Utgivningssätt (issuanceType)   
