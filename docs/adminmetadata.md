@@ -29,8 +29,7 @@ Se även [instruktionsfilmer](https://www.youtube.com/playlist?list=PLZVkEICvA5-
 För att lägga till egenskaper under Adminmetadata, klicka på plustecknet i redigeringsvyn (den stora runda plusikonen under Verktygsikonen) - Lägg till egenskaper under: Post.  
 ![Lägg till egenskap under: Post](plusegenskapadmin.png)  
 
-Sök fram egenskapen och välj den genom att klicka på plustecknet vid egenskapens namn.  
-![Välj egenskap under: Post](plusegenskapadmin2.PNG)   
+Sök fram egenskapen och välj den genom att klicka på plustecknet vid egenskapens namn.   
 
 
 ### Kontrollnummer
@@ -46,7 +45,7 @@ Unikt alfanumeriskt ID i Libris, minimum 14 tecken, maximum 17 tecken. ID:n skap
 ### Uppgraderad eller importerad av  
 * Uppgraderad eller importerad av/Bibliotek/Sigel (descriptionUpgrader/Library/sigel = 040 ‡d)  
   Om beskrivningsnivån uppgraderas, lägg till denna uppgift. Lägg inte till uppgiften när posten endast ändras utan att beskrivningsnivån uppgraderas. Vid postimport, lägg till uppgiften.  
-  För att lägga till Uppgraderad eller importerad av, klicka på plustecknet Lägg till egenskaper under: Post. Klicka på plustecknet till vänster vid Uppgraderad eller importerad av (Lägg till agent). Välj Skapa lokal entitet (längst ner i sidorutan till höger). Välj Bibliotek.  
+  Lägg till Uppgraderad eller importerad av. Välj Skapa lokal entitet. Välj Bibliotek.  
  Skriv in uppgiften under Sigel.       
   ```Exempel: S```   
    
@@ -67,7 +66,7 @@ I vissa importerade poster förekommer Entry map. Låt det vara kvar oförändra
 ### Bibliografikod
 * Bibliografi/Bibliotek/Sigel (bibliography/Library/sigel = 042 ‡9)  
   Observera att bibliografikod ska läggas endast av de bibliotek som arbetar med respektive bibliografi. Som exempel läggs bibliografikod NB endast av NB. För äldre tryck finns koderna COL, SOT och SB17 som används av alla bibliotek som katalogiserar äldre tryck. För en fullständig lista över sigler, se [Biblioteksdatabasen](https://biblioteksdatabasen.libris.kb.se/).  
-  För att lägga till Bibliografi, klicka på plustecknet Lägg till egenskaper under: Post och välj Bibliografi. Klicka på Lägg till bibliotek (plustecknet vid Bibliografi), välj därefter Skapa lokal entitet (längst ner i sidorutan till höger).   
+  Lägg till Bibliografi. Klicka sedan på Lägg till bibliotek (plustecknet vid Bibliografi) och välj Skapa lokal entitet.   
   Skriv in uppgiften under Sigel.  
   För att lägga in flera sigler, använd gärna Duplicera entitet och skriv in nästa sigel i den duplicerade entiteten.
  <br/>```Exempel:```
@@ -81,7 +80,7 @@ I vissa importerade poster förekommer Entry map. Låt det vara kvar oförändra
   * ```(BOKR)9789188107213```
   * ```(OCoLC)on1042213159```  
   
-  För att lägga till ett lokalt systemnummer, till exempel ett DIVA-urn som systemnummer, lägg till Identifikator (plustecknet Lägg till egenskap under: Post, i Adminmetadata). Välj typ Systemnummer, under Lokal identifikator. Lägg till Värde (plustecknet vid Lokal identifikator). Fyll i aktuellt systemnummer.  
+  För att lägga till ett lokalt systemnummer, till exempel ett DIVA-urn som systemnummer, lägg till Identifikator. Välj typ Systemnummer, under Lokal identifikator. Lägg till Värde. Fyll i aktuellt systemnummer.  
   ```Exempel: (DIVA)urn:nbn:se:su:diva-83163```  
   
 Vid kopiering av post, ta bort den kopierade postens systemnummer.  
@@ -89,16 +88,16 @@ Vid kopiering av post, ta bort den kopierade postens systemnummer.
 För ISBN, se Identifikator under [Instans](#https://libris.kb.se/katalogisering/help/instans).
   
 ### Katalogiseringssprak  
-* Katalogiseringsspråk (descriptionLanguage = 040 ‡b)  
-  För att lägga till Katalogiseringsspråk, klicka på plustecknet Lägg till egenskaper under: Post.  
+* Katalogiseringsspråk (descriptionLanguage = 040 ‡b)   
   Länka till entitet.  
   ```Exempel: svenska (swe)```
   
 ### Katalogiseringsregler  
-* Katalogiseringsregler (descriptionConventions = 040 ‡e)  
-  För att lägga till Katalogiseringsregler, klicka på plustecknet Lägg till egenskaper under: Post.   
-  För en post katalogiserad enligt RDA, sök fram och länka till entitet: "i" (= marc/Isbd). När man söker fram entiteten visas den som "i". I en sparad post visas samma entitet som "ISBD-interpunktion finns * i". När man skapar ny post från mall visas entiteten som "marc/Isbd". Alla är rätt.   
-  Skapa också lokal entitet under Katalogiseringsregler. Klicka på plustecknet vid Katalogiseringsregler (Lägg till entitet). Välj Skapa lokal entitet (längst ner i sidorutan). Välj Katalogiseringsregler. Skriv in "rda" under Kod.      
+* Katalogiseringsregler (descriptionConventions = 040 ‡e)   
+  För en post katalogiserad enligt RDA, sök fram och länka till entitet: "i" (= marc/Isbd). I en sparad post visas samma entitet som "ISBD-interpunktion finns * i". När man skapar ny post från mall visas entiteten som "marc/Isbd". Båda är rätt.   
+  Skapa också lokal entitet under Katalogiseringsregler. Klicka på plustecknet vid Katalogiseringsregler. Välj Föreslagna: Regler för deskriptiv katalogisering (bib).  
+  ![Katalogiseringsregler](katalogiseringsregler.PNG)  
+  Lägg till Kod och Skriv in "rda".
   ```Exempel: marc/Isbd (länkad entitet) + lokal entitet, Kod: rda```
   
 #### Beskrivningsniva  
