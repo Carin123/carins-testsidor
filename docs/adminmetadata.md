@@ -99,7 +99,6 @@ För ISBN, se Identifikator under [Instans](#https://libris.kb.se/katalogisering
   ![Katalogiseringsregler](katalogiseringsregler.PNG)  
   Lägg till Kod och Skriv in "rda".  
   ![Katalogiseringsregler](katalogiseringsregler2.PNG)  
-  ```Exempel: marc/Isbd (länkad entitet) + lokal entitet, Kod: rda```
   
  
 #### Beskrivningsniva  
