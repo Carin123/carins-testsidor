@@ -98,7 +98,7 @@ För ISBN, se Identifikator under [Instans](#https://libris.kb.se/katalogisering
   Skapa också lokal entitet under Katalogiseringsregler. Klicka på plustecknet vid Katalogiseringsregler. Välj Föreslagna: Regler för deskriptiv katalogisering (bib).  
   ![Katalogiseringsregler](katalogiseringsregler.PNG)  
   Lägg till Kod och Skriv in "rda".  
-  ![Katalogiseringsregler ](katalogiseringsregler2.PNG)  
+  ![Katalogiseringsregler lokal](katalogiseringsregler2.PNG)  
   ```Exempel: marc/Isbd (länkad entitet) + lokal entitet, Kod: rda```
   
  
