@@ -44,7 +44,7 @@ I vissa fall fungerar det ännu inte fullt ut att lägga till alla uppgifter som
 För att lägga till egenskaper under Instans, klicka på plustecknet i redigeringsvyn (den stora runda plusikonen under Verktygsikonen) - Lägg till egenskaper under: Instans.  
 ![Lägg till egenskap under: Instans](plusegenskapinstans.png)  
 
-Sök fram egenskapen och välj den genom att klicka på plustecknet vid egenskapens namn.   
+Sök fram egenskapen och välj den genom att klicka på plustecknet vid egenskapens namn.    
 ![Välj egenskap](plusegenskapinstans2.png) 
 
 #### Utgivningssatt
@@ -78,7 +78,6 @@ Sök fram egenskapen och välj den genom att klicka på plustecknet vid egenskap
 
 ##### Huvudtitel    
 * Har titel/Titel/Huvudtitel (hasTitle/Title/mainTitle = 245 ‡a)  
-  Återge huvudtiteln från titelsidan eller annan föredragen källa så som den förekommer i källan. se [Anvisningar för katalogisering - RDA](http://www.kb.se/rdakatalogisering/Anvisningar/Arbetsfloden/Tryckta-monografier/#huvudtitel "Anvisningar för katalogisering - RDA").  
   Skriv in uppgiften.    
  ```Exempel: En arbetsdag i skriftsamhället```  
 För en titel som börjar med bestämd eller obestämd artikel, ska artikeln fileras bort. Ange fileringsvärde genom att lägga till fileringsvärde (plustecknet vid Titel - Lägg till egenskaper under: Titel) och ange en siffra.  
