@@ -63,9 +63,10 @@ För översättningar och för verk som har givits ut under olika titlar på sam
 *	Uttryck av/Verk/Har titel/Titel/Huvudtitel (expressionOf/Work/hasTitle/Title/mainTitle (= 130 ‡a)  
  "Originaltitel" för ett verk utan Medverkan och funktion/Primär medverkan anger du här.
 Under Instans av Verk, lägg till Uttryck av.
-Skapa verk som lokal entitet (plustecknet vid Uttryck av - Lägg till verk, välj Skapa lokal entitet, längst ner i sidorutan till höger), skriv "verk" i rutan Skapa lokal entitet. Klicka på Verk. Det läggs till under Uttryck av. Klicka på plustecknet vid Verk (Lägg till egenskaper under: Verk) och välj Har titel. Välj Titel.
+
+Skapa verk som lokal entitet (skriv ""verk"" i rutan Skapa lokal entitet och välj verk). Det läggs till under Uttryck av. Lägg till Har titel. Välj Titel.
 Skriv in uppgiften under Huvudtitel.  
-```Exempel: Bibeln```
+```Exempel: Bibeln``` 
 *	Uttryck av/Verk/Har titel/Titel/Deltitel  
 (expressionOf/Work/hasTitle/Title/partName = 130 ‡p)  
 Lägg till eventuell deltitel.    
@@ -74,11 +75,11 @@ Skriv in uppgiften.
 
 ##### Verkets titel - analytisk sökingång  
 För att ange verk som ingår i det beskrivna verket, motsvarande fält 730 0/2 (analytisk sökingång) i marc:  
-Under Instans av Verk, lägg till Har del. Följ sedan stegen ovan, från ”Skapa verk som lokal entitet”.  
+Under Instans av Verk, lägg till Har del. Lägg till Har titel och välj Titel.    
 
 ##### Verkets titel - relaterade verk  
 För att ange verk som är relaterade, men inte ingår i det beskrivna verket, motsvarande fält 730 0/_ (icke-analytisk sökingång) i marc:   
-Under Instans av Verk, lägg till Relation. Välj typ Relation. Lägg till Entitet och välj Entitet. Skapa verk som lokal entitet. Följ sedan stegen ovan, från ”Välj Skapa lokal entitet”.  
+Under Instans av Verk, lägg till Relation. Välj typ Relation. Lägg till Entitet och välj Entitet. Skapa verk som lokal entitet. Lägg till Har titel och välj Titel.   
 
 #### Medverkan och funktion  
 * Medverkan och funktion  
