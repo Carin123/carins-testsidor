@@ -111,12 +111,11 @@ För att lägga till varianttitel, klicka på plustecknet vid Har titel (lägg t
 ##### Omslagstitel   
 * Har titel/Omslagstitel/Huvudtitel (hasTitle/CoverTitle/mainTitle = 246 1/4 ‡a)  
  Skriv in uppgiften.        
- ```Exempel: Bergens väktare```  
- ![Omslagstitel](omslagstitel.png)  
 * Har titel/Omslagstitel/Övrig titelinformation (= Undertitel) (hasTitle/CoverTitle/subtitle = 246 1/4 ‡b)   
   Skriv in uppgiften.    
-```Exempel: Djingis Khan – historiens störste erövrare```
-  Om det finns flera undertitlar, skriv in dessa efter varandra i samma fält, åtskilda av mellanslag, kolon, mellanslag. 
+  Om det finns flera undertitlar, skriv in dessa efter varandra i samma fält, åtskilda av mellanslag, kolon, mellanslag.  
+  ```Exempel:```
+ ![Omslagstitel](omslagstitel.png)  
 
   För att ange att omslagstiteln endast står på skyddsomslag, lägg till Typanmärkning (plustecknet vid Omslagstitel - lägg till egenskaper under: Omslagstitel, välj Typanmärkning).  
   Skriv in uppgiften.
