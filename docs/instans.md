@@ -116,7 +116,6 @@ För att lägga till varianttitel, klicka på plustecknet vid Har titel (lägg t
   Om det finns flera undertitlar, skriv in dessa efter varandra i samma fält, åtskilda av mellanslag, kolon, mellanslag.  
   ```Exempel:```   
  ![Omslagstitel](omslagstitel.png)  
-
   För att ange att omslagstiteln endast står på skyddsomslag, lägg till Typanmärkning (plustecknet vid Omslagstitel - lägg till egenskaper under: Omslagstitel, välj Typanmärkning).  
   Skriv in uppgiften.
   <br/>```Exempel:```
