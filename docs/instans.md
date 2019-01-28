@@ -114,8 +114,7 @@ För att lägga till varianttitel, klicka på plustecknet vid Har titel (lägg t
 * Har titel/Omslagstitel/Övrig titelinformation (= Undertitel) (hasTitle/CoverTitle/subtitle = 246 1/4 ‡b)   
   Skriv in uppgiften.    
   Om det finns flera undertitlar, skriv in dessa efter varandra i samma fält, åtskilda av mellanslag, kolon, mellanslag.  
-  ```Exempel:```  
-  
+  ```Exempel:```   
  ![Omslagstitel](omslagstitel.png)  
 
   För att ange att omslagstiteln endast står på skyddsomslag, lägg till Typanmärkning (plustecknet vid Omslagstitel - lägg till egenskaper under: Omslagstitel, välj Typanmärkning).  
@@ -139,6 +138,9 @@ Lägg till Har del (hasPart) under Har titel/Titel (plustecknet vid Titel - Läg
 Om Har del/Titeldel/Delbeteckning redan finns, lägg till Deltitel under Titeldel (plustecknet vid Titeldel - Lägg till egenskaper under: Titeldel, välj Deltitel (partName)).   
 Skriv in uppgiften under Deltitel.  
 ```Exempel: Träd och växter som resurs```  
+
+![Titeldel](titeldel.png)  
+
 För att ange Delbeteckning och Deltitel i en annan ordning, till exempel en deltitel som har efterföljande delbeteckningar, upprepa Titeldel och ange Delbeteckning och Deltitel som det passar i det aktuella fallet.  
 
 #### Titel - alternativ stavning
