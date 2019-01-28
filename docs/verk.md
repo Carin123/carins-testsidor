@@ -10,7 +10,7 @@ tags:
 
 ## Verk
 
-Beskrivningen av ett verk återspeglar det konceptuella innehållet i en resurs. Beskrivningen av verket innehåller information som ämne, klassifikation, språk och innehållstyp. Ett verk kan sedan ha en eller flera instanser, till exempel utgåvor. Läs mer om [Instans](https://libris.kb.se/katalogisering/help/instance). 
+Beskrivningen av ett verk återspeglar innehållet i en resurs. Beskrivningen av verket innehåller information som ämne, klassifikation, språk och innehållstyp. Ett verk kan sedan ha en eller flera instanser, till exempel utgåvor. Läs mer om [Instans](https://libris.kb.se/katalogisering/help/instance). 
 
 Ett verk är av en viss typ. Exempel på verkstyper är: text, ljud, stillbild, rörlig bild, multimedia, karta. Det går för närvarande inte att byta beskrivningens verkstyp.  
 
@@ -22,8 +22,7 @@ Denna hjälptext beskriver de vanligast förekommande egenskaperna under Instans
 Se även [instruktionsfilmer](https://www.youtube.com/playlist?list=PLZVkEICvA5-GRT2oJQmLgq_2Pksx6zYPy)  
 
 I de flesta fall ska informationen delas upp i olika egenskaper (jfr fält) och underliggande egenskaper (jfr delfält). I några undantagsfall är det nödvändigt att använda ISBD-interpunktion inom en egenskap, för att separera uppgifter. Dessa fall visas genom exempel nedan. I övriga fall, lägg inte in ISBD-interpunktion för att avsluta en egenskap (fält). 
-
-I vissa fall fungerar det ännu inte fullt ut att lägga till alla uppgifter som beskrivs i denna hjälptext. Arbete pågår med förbättra gränssnittet. För att anmäla fel, använd formuläret för [felrapportering](https://docs.google.com/forms/d/e/1FAIpQLSfOChJOGDoHUQguSF83F5XyTZiQL-yU47nvcqb6qwNT9GX7Aw/viewform). För att lämna ändringsförslag, använd formuläret för [ändringsförslag](https://docs.google.com/forms/d/e/1FAIpQLScgz_0enebhBn6uB8xvowkDBB4ax_dbvaobLSFfqFMoty6eQg/viewform).  
+ 
 
 ### Innehåll  
 
@@ -59,28 +58,27 @@ För översättningar och för verk som har givits ut under olika titlar på sam
   Skriv in uppgiften.  
   ```Exempel: Soldier spy```  
   För en titel som börjar med bestämd eller obestämd artikel, ska artikeln fileras bort. Ange fileringsvärde genom att lägga till fileringsvärde och ange en siffra.  
-  ```Exempel: Huvudtitel: En arbetsdag i skriftsamhället, fileringsvärde: 3```  
  
 ##### Verkets titel - huvuduppslag
 *	Uttryck av/Verk/Har titel/Titel/Huvudtitel (expressionOf/Work/hasTitle/Title/mainTitle (= 130 ‡a)  
- "Originaltitel" för ett verk utan Medverkan och funktion/Primär medverkan anger du här.  
-Under Instans av Verk, lägg till Uttryck av.    
-Skapa verk som lokal entitet (plustecknet vid Uttryck av - Lägg till verk, välj Skapa lokal entitet, längst ner i sidorutan till höger), skriv "verk" i rutan Skapa lokal entitet. Klicka på Verk. Det läggs till under Uttryck av. Klicka på plustecknet vid Verk (Lägg till egenskaper under: Verk) och välj Har titel. Välj Titel.    
+ "Originaltitel" för ett verk utan Medverkan och funktion/Primär medverkan anger du här.
+Under Instans av Verk, lägg till Uttryck av.
+Skapa verk som lokal entitet (plustecknet vid Uttryck av - Lägg till verk, välj Skapa lokal entitet, längst ner i sidorutan till höger), skriv "verk" i rutan Skapa lokal entitet. Klicka på Verk. Det läggs till under Uttryck av. Klicka på plustecknet vid Verk (Lägg till egenskaper under: Verk) och välj Har titel. Välj Titel.
 Skriv in uppgiften under Huvudtitel.  
 ```Exempel: Bibeln```
 *	Uttryck av/Verk/Har titel/Titel/Deltitel  
 (expressionOf/Work/hasTitle/Title/partName = 130 ‡p)  
-Lägg till eventuell deltitel (plustecknet vid Titel - lägg till egenskaper under: Titel, välj Deltitel).  
+Lägg till eventuell deltitel.    
 Skriv in uppgiften.  
 ```Exempel: Nya testamentet```
 
 ##### Verkets titel - analytisk sökingång  
 För att ange verk som ingår i det beskrivna verket, motsvarande fält 730 0/2 (analytisk sökingång) i marc:  
-Under Instans av Verk, klicka på plustecknet till höger om Instans av verk och verkstypen och välj Har del. Följ sedan stegen ovan, från ”Skapa verk som lokal entitet”.  
+Under Instans av Verk, lägg till Har del. Följ sedan stegen ovan, från ”Skapa verk som lokal entitet”.  
 
 ##### Verkets titel - relaterade verk  
 För att ange verk som är relaterade, men inte ingår i det beskrivna verket, motsvarande fält 730 0/_ (icke-analytisk sökingång) i marc:   
-Under Instans av Verk, lägg till Relation genom att klicka på plustecknet till höger om Instans av verk och verkstypen och välja Relation. Välj typ Relation. Lägg till Entitet genom att klicka på plustecknet vid Relation (Lägg till egenskaper under: Relation), välj Entitet. Skapa verk som lokal entitet (plustecknet vid Entitet - Lägg till verk). Följ sedan stegen ovan, från ”Välj Skapa lokal entitet”.  
+Under Instans av Verk, lägg till Relation. Välj typ Relation. Lägg till Entitet och välj Entitet. Skapa verk som lokal entitet. Följ sedan stegen ovan, från ”Välj Skapa lokal entitet”.  
 
 #### Medverkan och funktion  
 * Medverkan och funktion  
