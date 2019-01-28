@@ -125,14 +125,14 @@ För att lägga till varianttitel, klicka på plustecknet vid Har titel (lägg t
     
 ##### Delbeteckning
 * Har titel/Titel/Har del/Titeldel/Delbeteckning (hasTitle/Title/hasPart/TitlePart/partNumber = 245 ‡n)  
-Lägg till Har del (hasPart) under Har titel/Titel. Under Har del, skapa Titeldel (TitlePart) som lokal entitet. Skriv "titeldel" i rutan Skapa lokal entitet och välj * Titeldel. Titeldel läggs till under Har del. Klicka på Titeldel och det fälls ut.   
+Lägg till Har del (hasPart) under Har titel/Titel. Under Har del, skapa Titeldel (TitlePart) som lokal entitet (skriv "titeldel" i rutan Skapa lokal entitet och välj * Titeldel). Titeldel läggs till under Har del. Klicka på Titeldel och det fälls ut.   
 Om Har del/Titeldel/Deltitel redan finns, lägg till Delbeteckning under Titeldel (plustecknet vid Titeldel - Lägg till egenskaper under: Titeldel, välj Delbeteckning (partNumber)).   
 Skriv in uppgiften under Delbeteckning.  
 ```Exempel: 1```   
 
 ##### Deltitel  
 * Har titel/Titel/Har del/Titeldel/Deltitel (hasTitle/Title/hasPart/TitlePart/partName = 245 ‡p)  
-Lägg till Har del (hasPart) under Har titel/Titel. Under Har del, skapa Titeldel (TitlePart) som lokal entitet. Skriv "titeldel" i rutan Skapa lokal entitet och välj * Titeldel. Titeldel läggs till under Har del. Klicka på Titeldel och det fälls ut.  
+Lägg till Har del (hasPart) under Har titel/Titel. Under Har del, skapa Titeldel (TitlePart) som lokal entitet (skriv "titeldel" i rutan Skapa lokal entitet och välj * Titeldel). Titeldel läggs till under Har del. Klicka på Titeldel och det fälls ut.  
 Om Har del/Titeldel/Delbeteckning redan finns, lägg till Deltitel under Titeldel (plustecknet vid Titeldel - Lägg till egenskaper under: Titeldel, välj Deltitel (partName)).   
 Skriv in uppgiften under Deltitel.  
 ```Exempel: Träd och växter som resurs```  
@@ -254,8 +254,7 @@ Om posten är katalogiserad enligt RDA kan även Copyright/Copyright/Datum (copy
   ```Exempel: NoNa```   
   Om flera utgivare ska anges, lägg till Har del (hasPart) under Primär utgivning. Skapa Utgivning som lokal entitet. I rutan Skapa lokal entitet, skriv Utgivning och välj *** Utgivning. Upprepa Utgivning som lokal entitet genom att duplicera entiteten Utgivning.  
 Ange Plats/Plats/Benämning och Agent/Agent/Benämning och vid behov Datum inom respektive utgivningsavsnitt (angående Datum, se anvisningar nedan). Samtliga utgivare med Plats och Agent ska ligga inom Har del/Utgivning.
-Land, År och eventuellt Datum  ska ligga inom Primär utgivning.  
-![Dubbla utgivare](dubblautgivare.png)  
+Land, År och eventuellt Datum  ska ligga inom Primär utgivning.   
   Se [exempel](https://libris.kb.se/katalogisering/w4rp4hlwtr5lctjr#it).
   
 ##### År och datum 
@@ -360,7 +359,7 @@ Ange ogiltiga ISBN här och inte under Identifikator/ISBN/Ogiltigt värde. För 
    
 #### Bilagor
 * Tillsammans med/Instans/Benämning (Bilagor) (accompaniedBy/Instance/label = 300 ‡e)   
-Lägg till Tillsammans med. Skapa Instans som lokal entitet (plustecknet vid Tillsammans med, välj Skapa lokal entitet, skriv Instans och välj ** Instans.) Lägg till Benämning.     
+Lägg till Tillsammans med. Skapa Instans som lokal entitet (skriv Instans i rutan Skapa lokal entitet och välj ** Instans.) Lägg till Benämning.     
 Skriv in uppgiften.  
   ```Exempel: 10 mönsterark```  
 
@@ -407,7 +406,7 @@ OBS! Om ISSN finns i både 490 och 830 och om volymbeteckningen är angiven på 
 #### Anmarkning
 * Anmärkning/Anmärkning/Benämning (hasNote/Note/label = 500 ‡a)  
   Skriv in allmänna anmärkningar här.  
-  För att lägga till Anmärkning, klicka på plustecknet i redigeringsvyn och välj Anmärkning (hasNote). Tryck Enter för att lägga till Anmärkning.  
+  För att lägga till Anmärkning, välj Anmärkning (hasNote) och lägg till Anmärkning.  
   Skriv in uppgiften under Benämning.  
    
 #### Innehallsanmarkning  
@@ -416,20 +415,19 @@ OBS! Om ISSN finns i både 490 och 830 och om volymbeteckningen är angiven på 
   ```Exempel: Culture at home -- Culture and the global -- Global youth -- Global music -- Territories of global globalization.```  
   
 * Har innehållsförteckning/Innehållsförteckning/Har del/Utökad innehållsanmärkning/Benämning/Upphovsuppgift (tableofContents = 505 8/0 ‡t, ‡r)  
-För en utökad innehållsanmärkning med titlar och upphovsuppgifter, lägg till Har innehållsförteckning (från Lägg till egenskaper under: Instans). Klicka på plustecknet under Har innehållsförteckning i vänstermenyn (Lägg till innehållsförteckning). Ta bort Benämning. Lägg till Har del (plustecknet vid Innehållsförteckning - Lägg till egenskaper under: Innehållsförteckning). Skriv Har del i sökrutan och välj det. Klicka på plustecknet vid Har del (Lägg till resurs) och välj Skapa lokal entitet (längst ner i sidorutan till höger). Skriv Utökad innehållsanmärkning i rutan för Skapa lokal entitet och välj * Utökad innehållsanmärkning. Utökad innehållsanmärkning läggs till under Har del. Klicka på Utökad innehållsanmärkning och det fälls ut. Lägg in titel under Benämning. Lägg in upphovsuppgift under Upphovsuppgift. Vid behov, lägg in Kommentar (med valfri information).  
+För en utökad innehållsanmärkning med titlar och upphovsuppgifter, lägg till Har innehållsförteckning (från Lägg till egenskaper under: Instans). Klicka på plustecknet under Har innehållsförteckning i vänstermenyn (Lägg till innehållsförteckning). Ta bort Benämning. Lägg till Har del (plustecknet vid Innehållsförteckning - Lägg till egenskaper under: Innehållsförteckning). Skriv Har del i sökrutan och välj det. Klicka på plustecknet vid Har del och välj Skapa lokal entitet. Skriv Utökad innehållsanmärkning i rutan för Skapa lokal entitet och välj * Utökad innehållsanmärkning. Utökad innehållsanmärkning läggs till under Har del. Klicka på Utökad innehållsanmärkning och det fälls ut. Lägg in titel under Benämning. Lägg in upphovsuppgift under Upphovsuppgift. Vid behov, lägg in Kommentar (med valfri information).  
 Upprepa, för ytterligare titel (Benämning) + upphovsuppgift, genom att lägga till ytterligare en Utökad innehållsanmärkning som lokal entitet (klicka på Duplicera entitet).  
- FLER EXEMPEL
+ Se [exempel](https://libris.kb.se/katalogisering/4mffks8g36rl8wm#it).
   
 #### Malgruppsanmarkning  
-* Målgrupp/Målgrupp/Benämning (intendedAudience/IntendedAudience/label = 521 ‡a)  
-För att lägga till målgruppsanmärkning, klicka på plustecknet Lägg till egenskaper under: Instans och välj Målgrupp.  
-Skapa Målgrupp som lokal entitet (plustecknet vid Målgrupp - Lägg till målgrupp. I rutan Skapa lokal entitet, längst ner i sidorutan till höger, skriv Målgrupp och välj det). Skriv in uppgiften under Benämning.  
+* Målgrupp/Målgrupp/Benämning (intendedAudience/IntendedAudience/label = 521 ‡a)   
+  Lägg till Målgrupp. Skapa Målgrupp som lokal entitet (skriv målgrupp i rutan Skapa lokal entitet och välj det). Skriv in uppgiften under Benämning.  
   ```Exempel: För årskurs 1```  
 Observera att kodning av målgrupp, motsvarande 008/22, ska registreras under Instans av Verk/Genre.  
  
 #### Annat bararformat
 * Annat bärarformat (otherPhysicalFormat = 776)  
-  För att länka till en utgåva i annat format, till exempel en elektronisk utgåva, lägg till Annat bärarformat (Lägg till egenskaper, välj Annat bärarformat). Sök upp och länka till instansen. Klicka på plustecknet vid Annat bärarformat (Lägg till instans). I sidorutan under Lägg till entitet/Instans, skriv in id eller annat sökbegrepp. Välj instansen genom att klicka på plustecknet vid instansen eller på instansens titel. Om instansen som länken går till har identifikator (ISBN), skapas i marcexporten 776 #t (Titel) och #z (Identifikator). I webbsök ger detta en länk i högermenyn under rubriken Sök vidare/Andra versioner.   
+  För att länka till en utgåva i annat format, till exempel en elektronisk utgåva, lägg till Annat bärarformat. Sök upp och länka till instansen. Klicka på plustecknet vid Annat bärarformat (Lägg till instans). I sidorutan under Lägg till entitet/Instans, skriv in id eller annat sökbegrepp. Välj instansen genom att klicka på plustecknet vid instansen eller på instansens titel. Om instansen som länken går till har identifikator (ISBN), skapas i marcexporten 776 #t (Titel) och #z (Identifikator). I webbsök ger detta en länk i högermenyn under rubriken Sök vidare/Andra versioner.   
 * Annat bärarformat/Typanmärkning (776 ‡i)  
   Typanmärkning i samband med Annat bärarformat kan för närvarande inte läggas till.  
 * Annat bärarformat/Beskriven av/Post/Kontrollnummer (776 ‡w)  
