@@ -112,6 +112,7 @@ För att lägga till varianttitel, klicka på plustecknet vid Har titel (lägg t
 * Har titel/Omslagstitel/Huvudtitel (hasTitle/CoverTitle/mainTitle = 246 1/4 ‡a)  
  Skriv in uppgiften.        
  ```Exempel: Bergens väktare```  
+ ![Omslagstitel](omslagstitel.png)  
 * Har titel/Omslagstitel/Övrig titelinformation (= Undertitel) (hasTitle/CoverTitle/subtitle = 246 1/4 ‡b)   
   Skriv in uppgiften.    
 ```Exempel: Djingis Khan – historiens störste erövrare```
