@@ -436,8 +436,8 @@ Observera att kodning av målgrupp, motsvarande 008/22, ska registreras under In
 #### Annan relaterad resurs
 * Annan relaterad resurs/Elektronisk/URI (marc:versionOfResource/Electronic/URI = 856 4/1 ‡u)   
   För att länka till en resurs av resursen i annat format än instansbeskrivningens instanstyp, till exempel en länk till en elektronisk version av en tryckt resurs, lägg till Annan relaterad resurs. Om instansbeskrivningen gäller en elektronisk resurs (instanstyp: elektronisk), gör i första hand istället en beskrivning av den digitala resursen. Se instruktioner i hjälptexten för Digital resurs.   
-Klicka på plustecknet vid Annan relaterad resurs och välj Lägg till elektronisk. Välj Skapa lokal entitet. Lägg till egenskapen URI. Klistra in aktuell URI. 
+Lägg till elektronisk under Annan relaterad resurs. Välj Skapa lokal entitet. Lägg till egenskapen URI. Klistra in aktuell URI. 
  * Annan relaterad resurs/Elektronisk/Offentlig anmärkning (marc:versionOfResource/Electronic/marc:publicNote = 856 4/1 ‡z)   
-  Vid behov, lägg till egenskapen Offentlig anmärkning. Skriv in anmärkningen.  
+  Vid behov, lägg till Offentlig anmärkning. Skriv in anmärkningen.  
  
   
