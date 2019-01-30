@@ -300,8 +300,7 @@ Klicka sedan på plustecknet vid DDK-klassifikation (sekundär) (Lägg till ddk-
  
 #### Malgrupp     
  * Målgrupp (intendedAudience = 008/22)  
-  Länka till entitet.  
-  Trunkera genom att trycka på mellanslagstangenten eller med * i sökrutan. Välj entitet genom att klicka på plustecknet vid entiteten eller på entiteten.    
+  Länka till entitet.    
   ```Exempel: j (= barn- och ungdom, 0-16 år)```  
   
 #### Innehallstyp
