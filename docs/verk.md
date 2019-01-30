@@ -120,7 +120,7 @@ För en översättning, ange även:
 * Språk/Språk/Benämning (Language/label = 240 ‡l)  
   Lägg till ytterligare en förekomst av Språk, under Språk, skapa lokal entitet och lägg till Benämning.  
   Skriv in språket i klartext. Denna klartext - verkets (översättningens) språk - visas som ett tillägg till verkets titel i marcpostens 240 ‡l.  
-  ```Exempel: Svenska```  
+  ![Språk](sprak.png)
   
 För en översättning av ett anonymt verk (ingen Medverkan och funktion/Primär medverkan förekommer), ange även: 
 * Uttryck av/Verk/Språk/Språk/Benämning  
