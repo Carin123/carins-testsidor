@@ -10,7 +10,7 @@ tags:
 
 ## Verk
 
-Beskrivningen av ett verk återspeglar innehållet i en resurs. Beskrivningen av verket innehåller information som ämne, klassifikation, språk och innehållstyp. Ett verk kan sedan ha en eller flera instanser, till exempel utgåvor. Läs mer om [Instans](https://libris.kb.se/katalogisering/help/instance). 
+Beskrivningen av ett verk återspeglar innehållet i en resurs. Beskrivningen av verket innehåller information som ämne, klassifikation, språk och innehållstyp. Ett verk kan ha en eller flera instanser, till exempel utgåvor. Läs mer om [Instans](https://libris.kb.se/katalogisering/help/instance). 
 
 Ett verk är av en viss typ. Exempel på verkstyper är: text, ljud, stillbild, rörlig bild, multimedia, karta. Det går för närvarande inte att byta beskrivningens verkstyp.  
 
@@ -167,7 +167,7 @@ Se Sammanfattning av innehåll
   
 #### Genre  
  Länka till entitet. 
- För att söka efter entiteter inom Genre/form, klicka på plustecknet vid Genre/form (lägg till entitet). I Lägg till entitet (längst upp i sidorutan till höger), välj typ i listan över typer. Skriv in sökbegrepp. Trunkera genom att trycka på mellanslagstangenten eller med * i sökrutan. Välj entitet genom att klicka på plustecknet vid entiteten (Lägg till). Vid behov, välj ytterligare entiteter i listan. Om sidorutan är stängd, klicka på plustecknet vid Genre/form (lägg till entitet) för att söka fram och välja fler entiteter.  
+ För att söka efter entiteter inom Genre/form, klicka på plustecknet vid Genre/form (lägg till entitet). I Lägg till entitet, välj typ. Skriv in sökbegrepp. Trunkera genom att trycka på mellanslagstangenten eller med * i sökrutan. Välj entitet genom att klicka på plustecknet vid entiteten (Lägg till). Vid behov, välj ytterligare entiteter i listan. 
 
 ##### Saogf-termer  
 * Genre/form – saogf-termer (genreForm = 655 -/7 ‡a, ‡2 saogf)  
