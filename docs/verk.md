@@ -71,7 +71,6 @@ Skriv in uppgiften under Huvudtitel.
 (expressionOf/Work/hasTitle/Title/partName = 130 ‡p)  
 Lägg till eventuell deltitel.    
 Skriv in uppgiften.  
-```Exempel: Nya testamentet```
 
 ##### Verkets titel - analytisk sökingång  
 För att ange verk som ingår i det beskrivna verket, motsvarande fält 730 0/2 (analytisk sökingång) i marc:  
@@ -117,9 +116,9 @@ Under Instans av Verk, lägg till Relation. Välj typ Relation. Lägg till Entit
   
 ##### Översättning  
 För en översättning, ange även:  
-* Språk/Språk/Benämning (Language/label = 240 ‡l)  
+* Språk/Språk/Benämning (Language/label = 130 ‡l, 240 ‡l)  
   Lägg till ytterligare en förekomst av Språk, under Språk, skapa lokal entitet och lägg till Benämning.  
-  Skriv in språket i klartext. Denna klartext - verkets (översättningens) språk - visas som ett tillägg till verkets titel i marcpostens 240 ‡l.  
+  Skriv in språket i klartext. Denna klartext - verkets (översättningens) språk - visas som ett tillägg till verkets titel i marcpostens 130 ‡l, 240 ‡l, 730 ‡l.  
   ![Språk](sprak.png)
   
 För en översättning av ett anonymt verk (ingen Medverkan och funktion/Primär medverkan förekommer), ange även: 
