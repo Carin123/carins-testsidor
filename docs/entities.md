@@ -8,11 +8,6 @@ tags:
 order: 13
 ---
 
-
-## Entiteter
-En entitet är en sak som är en egen enhet och som man kan länka till, till exempel ämne, agent eller bärartyp. I undantagsfall är entiteterna lokala och då kan man inte länka till dem.  
-HJÄLP OSS FÖRKLARA VAD EN ENTITET ÄR !!
-
 ## Söka fram entiteter
 När du ska lägga till en entitet är första steget att göra en sökning för att se om entiteten redan finns eller inte. Klicka på plustecknet vid entitetsrubriken. En sidoruta öppnas till höger - "Lägg till entitet". Högst upp i sidorutan finns en sökruta. 
 
