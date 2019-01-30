@@ -144,7 +144,7 @@ För översättningar i flera led, länka först till det mellanliggande språke
 (008/35-37 + 041 ‡a + ‡a)  
 * Språk (language = 008/35-37) +
    Anmärkning: Språk: Objektet är/innehåller ej översättning (marc:languageNote = 041 0/- ‡a)
-   Ange det första språket genom att länka till en entitet för språket, under Språk. Ange ytterligare en språkkod för parallelltexten genom att klicka på plustecknet vid Språk (Lägg till språk) och söka fram ytterligare en entitet för ett språk och länka till den. Ange sedan om parallelltexten är en översättning. Klicka på plustecknet vid Verk och välj Anmärkning: Språk. Välj Objektet är/innehåller ej översättning.    
+   Ange det första språket genom att länka till en entitet för språket, under Språk. Länka till ytterligare en språkkod för parallelltexten. Ange sedan om parallelltexten är en översättning. Klicka på plustecknet vid Verk och välj Anmärkning: Språk. Välj Objektet är/innehåller ej översättning.    
    
 ###### Parallelltext och texten delvis översatt 
 (008/35-37 + 041 0/- ‡a + 041 1/- #a ‡h)  
