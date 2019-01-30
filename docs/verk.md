@@ -75,12 +75,18 @@ Skriv in uppgiften.
 
 ##### Verkets titel - analytisk sökingång  
 För att ange verk som ingår i det beskrivna verket, motsvarande fält 730 0/2 (analytisk sökingång) i marc:  
-Under Instans av Verk, lägg till Har del. Lägg till Har titel och välj Titel.    
+Under Instans av Verk, lägg till Har del. Lägg till Har titel och välj Titel. Vid behov, lägg till Språk, skapa lokal entitet och lägg till Benämning. Skriv in språket.
 
 ##### Verkets titel - relaterade verk  
 För att ange verk som är relaterade, men inte ingår i det beskrivna verket, motsvarande fält 730 0/_ (icke-analytisk sökingång) i marc:   
-Under Instans av Verk, lägg till Relation. Välj typ Relation. Lägg till Entitet och välj Entitet. Skapa verk som lokal entitet. Lägg till Har titel och välj Titel.   
+Under Instans av Verk, lägg till Relation. Välj typ Relation. Lägg till Entitet och välj Entitet. Skapa verk som lokal entitet. Lägg till Har titel och välj Titel. Vid behov, lägg till Språk, skapa lokal entitet och lägg till Benämning. Skriv in språket.
 
+#### Relationer till andra verk och ingaende verk  
+* Relationer till andra verk (700 1/- ‡a, ǂd, ǂt)
+  Se [Relationer till delar och verk](https://libris.kb.se/katalogisering/help/workflow-agent-relation).
+* Ingående verk (700 1/2 ‡a, ǂd, ǂt)
+  Se [Relationer till delar och verk](https://libris.kb.se/katalogisering/help/workflow-agent-relation).  
+  
 #### Medverkan och funktion  
 * Medverkan och funktion  
   Under Medverkan och funktion, ange relationer till de agenter som medverkar i verket, till exempel författare, översättare, illustratörer samt funktionskod för respektive agent. Relationer till utgivare (710) anges för närvarande också här.   
@@ -101,31 +107,25 @@ Under Instans av Verk, lägg till Relation. Välj typ Relation. Lägg till Entit
   
 * Medverkan och funktion/Medverkan/Agent/Jurisdiktion (contribution/agent/Jurisdiktion = 710 1/- ‡a, ‡4 pbl)  
   Länka till entitet. Se [Relationer till Agent](https://libris.kb.se/katalogisering/help/workflow-agent-org-instance). 
- 
-#### Relationer till andra verk och ingaende verk  
-* Relationer till andra verk (700 1/- ‡a, ǂd, ǂt)
-  Se [Relationer till delar och verk](https://libris.kb.se/katalogisering/help/workflow-agent-relation).
-* Ingående verk (700 1/2 ‡a, ǂd, ǂt)
-  Se [Relationer till delar och verk](https://libris.kb.se/katalogisering/help/workflow-agent-relation).  
 
 #### Sprak 
 * Språk (language = 008/35-37)  
   Ange textens språk. För en text på svenska, ange svenska. För att ange originalspråk för ett översatt verk, se Originalversion/Verk/Språk.  
   Länka till entitet.  
   ```Exempel: svenska (swe)```   
-  För att ange att texten är på flera språk, ange ytterligare en språkkod genom att klicka på plustecknet vid Språk (Lägg till språk) och söka fram ytterligare en entitet för ett språk och länka till den.   
+  För att ange att texten är på flera språk, länka till ytterligare en språkkod.     
   
 ##### Översättning  
 För en översättning, ange även:  
 * Språk/Språk/Benämning (Language/label = 240 ‡l)  
-  Lägg till ytterligare en förekomst av Språk, under Språk (klicka på plustecknet vid Språk), skapa lokal entitet (klicka på Skapa lokal entitet längst ner i sidorutan till höger och lägg till Benämning (klicka på Lägg till egenskaper under: Språk).  
+  Lägg till ytterligare en förekomst av Språk, under Språk, skapa lokal entitet och lägg till Benämning.  
   Skriv in språket i klartext. Denna klartext - verkets (översättningens) språk - visas som ett tillägg till verkets titel i marcpostens 240 ‡l.  
   ```Exempel: Svenska```  
   
 För en översättning av ett anonymt verk (ingen Medverkan och funktion/Primär medverkan förekommer), ange även: 
 * Uttryck av/Verk/Språk/Språk/Benämning  
 (expressionOf/Work/language/Language/label = 130 ‡l)  
-Lägg till eventuell benämning på språk som ska ingå i den föredragna titeln. Klicka på plustecknet vid Verk (Lägg till egenskaper under: Verk) och välj Språk. Klicka på plustecknet vid Språk (Lägg till språk) och välj Skapa lokal entitet. Lägg till Benämning (plustecknet vid Språk - Lägg till egenskaper under: Språk, välj Benämning.  
+Lägg till eventuell benämning på språk som ska ingå i den föredragna titeln. Klicka på plustecknet vid Verk och välj Språk. Skapa lokal entitet. Lägg till Benämning.  
 Skriv in uppgiften.  
 ```Exempel: Svenska```
 
