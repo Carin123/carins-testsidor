@@ -136,7 +136,7 @@ Skriv in uppgiften.
 * Originalversion/Verk/Språk (originalversion/Work/language = 041 ‡h)  
   Ange det språk som en översatt text är översatt från. För en text som är översatt från engelska till svenska, ange engelska här.   
   Klicka på plustecknet vid Instans av verk, välj Originalversion, klicka på plustecknet vid Originalversion, välj Skapa lokal entitet. Skriv Verk i rutan för Skapa lokal entitet och välj * Verk. Lägg till Språk under verk. Sök fram språkentiteten och länka.  
-  ![Originalversion sprak](originalversionsprak.PNG)  
+  ![Originalversion sprak](originalversionsprak.png)  
 För översättningar i flera led, länka först till det mellanliggande språket och därefter till originalspråket.  
   
 ###### Parallelltext  
