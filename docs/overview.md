@@ -2,7 +2,7 @@
 section: Redigering
 title: Översikt
 order: 10
-date: 2019-01-23
+date: 2019-01-31
 tags:
 - editor
 - redigering
