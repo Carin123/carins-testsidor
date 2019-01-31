@@ -53,11 +53,13 @@ Det går i vissa fall att duplicera en entitet. Klicka på de tre prickarna till
 ## Kopiera till urklipp
 Det går i vissa fall att kopiera en entitet till urklipp. Klicka på de tre prickarna till höger om entiteten - "Hantera". Välj Kopiera till urklipp. När du väljer kopiera till urklipp, sparas den lokala entiteten i verktygets minne samtidigt som verktyget känner av var entiteten kan klistras in.  
 Kopiera till urklipp:  
+
 ![Kopiera till urklipp](kopieraurklipp.png)
 <br><br>
 
  En klistra-in-ikon visar var det går att klistra in urklippet.  
 Klistra in urklipp:  
+
 ![Klistra in urklipp](klistraurklipp.png)
 <br>
 Du kan kopiera en entitet från en post och klistra in i en annan post. Det fungerar ofta bra att använda olika flikar för posterna.  
