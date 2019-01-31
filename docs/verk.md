@@ -320,8 +320,8 @@ Lägg till Sammanfattning av innehåll. Välj Sammanfattning av innehåll. Lägg
  Skriv in uppgiften under Benämning.  
   ```Exempel: Åtskilliga utdrag af framledne … Axel v. Fersens bref till f.d. konungen av Swerige, Gustaf Adolph, 1806```  
   
- * Typ av innehållsbeskrivning/sammanfattning (marc:summaryType = 520 ind1)  
- Sök fram och lägg till Typ av innehållsbeskrivning/sammanfattning. Välj typ från lista.  
+ * Typ av sammanfattning/typ av innehållsbeskrivning (marc:summaryType = 520 ind1)  
+ Sök fram och lägg till Typ av sammanfattning. Välj typ från lista.  
  ```Exempel: Ej preciserad``` 
  
 ##### Sammanfattningsspråk  
