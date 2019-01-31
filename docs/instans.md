@@ -43,7 +43,7 @@ För att lägga till egenskaper under Instans, klicka på plustecknet i redigeri
 ![Lägg till egenskap under: Instans](plusegenskapinstans.png)  
 
 Sök fram egenskapen och välj den genom att klicka på plustecknet vid egenskapens namn.    
-![Välj egenskap](plusegenskapinstans2.png) 
+![Välj egenskap](plusegenskapinstans2.png)  
 SKRIV OM + NY  BILD - KAN KLICKA ANTINGEN PÅ PLUSTECKEN ELLER RUBRIK
 
 
