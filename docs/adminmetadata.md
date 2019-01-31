@@ -30,7 +30,7 @@ För att lägga till egenskaper under Adminmetadata, klicka på plustecknet i re
 ![Lägg till egenskap under: Post](plusegenskapadmin.png)  
 
 Sök fram egenskapen och välj den genom att klicka på plustecknet vid egenskapens namn.   
-![Välj egenskap](plusegenskapadmin2.PNG)  
+![Välj egenskap](plusegenskapadmin2.png)  
 
 
 ### Kontrollnummer
@@ -97,9 +97,9 @@ För ISBN, se Identifikator under [Instans](#https://libris.kb.se/katalogisering
 * Katalogiseringsregler (descriptionConventions = 040 ‡e)   
   För en post katalogiserad enligt RDA, sök fram och länka till entitet: "i" (= marc/Isbd). I en sparad post visas samma entitet som "ISBD-interpunktion finns * i". När man skapar ny post från mall visas entiteten som "marc/Isbd". Båda är rätt.   
   Skapa också lokal entitet under Katalogiseringsregler. Klicka på plustecknet vid Katalogiseringsregler. Välj Föreslagna: Regler för deskriptiv katalogisering (bib).  
-  ![Katalogiseringsregler](katalogiseringsregler.PNG)  
+  ![Katalogiseringsregler](katalogiseringsregler.png)  
   Lägg till Kod och Skriv in "rda".  
-  ![Katalogiseringsregler](katalogiseringsregler2.PNG)  
+  ![Katalogiseringsregler](katalogiseringsregler2.png)  
   
  
 #### Beskrivningsniva  
