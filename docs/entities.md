@@ -17,16 +17,17 @@ Sökningen görs antingen via:
 
 **Sök i typer:** Välj “typ” i listan i kombination med en fritextsökning. Då blir sökresultatet specifikt för den valda typen.  
 
+![Sök entitet](sokentitet.png)
+
 För att se alla entiteter av en viss typ, tryck Enter när markören står i sökfältet eller skriv * i sökfältet.  
 
-![Sök entitet](sokentitet.png)
 
 ### Lägg till entitet eller skapa lokal entitet
 När du gjort en entitetssökning kan du: 
 
 **Lägga till entitet:**
 Om du fått fram ett önskat sökresultat kan du lägga till den relevanta entiteten genom att klicka på plustecknet till vänster om entiteten - “Lägg till". Entiteten lägger sig då i posten som en länk. Du kan även välja att granska entiteten innan du väljer att lägga till den. Klicka då på entitetens rubrik. Entiteten öppnas i ny flik.  
-![Lägga till entitet](laggatillentitet.png)  
+![Lägg till entitet](laggtillentitet.png)  
 
 **Skapa lokal entitet:**
 Om du inte hittar en relevant länkad entitet att lägga till, kan du i vissa fall i stället skapa en lokal entitet. Klicka på Skapa lokal entitet, längst ner till höger i sidorutan.
