@@ -62,9 +62,7 @@ För översättningar och för verk som har givits ut under olika titlar på sam
 ##### Verkets titel - huvuduppslag
 *	Uttryck av/Verk/Har titel/Titel/Huvudtitel (expressionOf/Work/hasTitle/Title/mainTitle (= 130 ‡a)  
  "Originaltitel" för ett verk utan Medverkan och funktion/Primär medverkan anger du här.
-Under Instans av Verk, lägg till Uttryck av.
-
-Skapa verk som lokal entitet (skriv ""verk"" i rutan Skapa lokal entitet och välj verk). Det läggs till under Uttryck av. Lägg till Har titel. Välj Titel.
+Under Instans av Verk, lägg till Uttryck av. Skapa verk som lokal entitet (skriv ""verk"" i rutan Skapa lokal entitet och välj verk). Lägg till Har titel. Välj Titel.
 Skriv in uppgiften under Huvudtitel.  
 ```Exempel: Bibeln``` 
 *	Uttryck av/Verk/Har titel/Titel/Deltitel  
