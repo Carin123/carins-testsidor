@@ -18,6 +18,7 @@ Sökningen görs antingen via:
 **Sök i typer:** Välj “typ” i listan i kombination med en fritextsökning. Då blir sökresultatet specifikt för den valda typen.  
 
 ![Sök entitet](sokentitet.png)
+
 För att se alla entiteter av en viss typ, tryck Enter när markören står i sökfältet eller skriv * i sökfältet.  
 
 
