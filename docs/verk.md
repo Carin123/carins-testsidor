@@ -70,13 +70,15 @@ Skriv in uppgiften under Huvudtitel.
 Lägg till eventuell deltitel.    
 Skriv in uppgiften.  
 
-#### Relationer till ingaende verk  
+#### Relationer till ingaende verk och andra verk
+
+##### Relationer till ingående verk  
 * Ingående verk med primär medverkan (700 1/2 ‡a, ǂd, ǂt)  
   Se [Relationer till delar och verk](https://libris.kb.se/katalogisering/help/workflow-agent-relation).  
 * Ingående verk utan primär medverkan (730 0/2 ‡a, ǂl, analytisk sökingång) 
   Under Instans av Verk, lägg till Har del. Skapa verk som lokal entitet. Lägg till Har titel och välj Titel. Om det ingående verket är en översättning, lägg till Språk, skapa lokal entitet och lägg till Benämning. Skriv in språket.
  
-#### Relationer till andra verk
+##### Relationer till andra verk
   * Relationer till andra verk med primär medverkan (700 1/- ‡a, ǂd, ǂt)
    Se [Relationer till delar och verk](https://libris.kb.se/katalogisering/help/workflow-agent-relation).
 *  Relationer till andra verk utan primär medverkan (730 0/_ (icke-analytisk sökingång)  
