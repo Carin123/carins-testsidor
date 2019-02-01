@@ -10,7 +10,7 @@ tags:
 
 ## Instans
 
-En instans är en instans av ett verk, till exempel en viss utgåva av ett verk. Instans kallas manifestation i RDA. Instansen återspeglar information som utgivningsplats, utgivare och utgivningsår, bärartyp och omfång.  
+En instans är en instans av ett verk, till exempel en viss utgåva av ett verk. Instans kallas manifestation i RDA. Beskrivningen av instansen innehåller information som utgivningsplats, utgivare och utgivningsår, bärartyp och omfång.  
 
 En instans är av en viss instanstyp. Exempel på instanstyper är: instans, elektronisk, arkiv, handskrift, ljudinspelning. Det går för närvarande inte att byta beskrivningens instanstyp.  
 Till verket knyts information som ämne, klassifikation, språk och innehållstyp. Verksbeskrivningen ligger för närvarande lokalt inom varje instansbeskrivning, under Instans av verk. Läs mer om [Verk](https://libris.kb.se/katalogisering/help/work).  
