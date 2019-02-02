@@ -57,7 +57,7 @@ För översättningar och för verk som har givits ut under olika titlar på sam
   "Originaltitel" för ett verk med primär medverkan anger du här.  
   Skriv in uppgiften.  
   ```Exempel: Soldier spy```  
-  För en titel som börjar med bestämd eller obestämd artikel, ska artikeln fileras bort. Ange fileringsvärde genom att lägga till fileringsvärde och ange en siffra.  
+  För en titel som börjar med bestämd eller obestämd artikel, ska artikeln fileras bort. Lägg till fileringsvärde och ange en siffra.  
  
 ##### Verkets titel - huvuduppslag
 *	Uttryck av/Verk/Har titel/Titel/Huvudtitel (expressionOf/Work/hasTitle/Title/mainTitle (= 130 ‡a)  
