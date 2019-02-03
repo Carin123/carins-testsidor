@@ -10,7 +10,7 @@ tags:
 
 ## Verk
 
-Beskrivningen av ett verk innehåller information som ämne, klassifikation, språk och innehållstyp. Ett verk kan ha en eller flera instanser, till exempel olika upplagor och utgåvor. Läs mer om [Instans](https://libris.kb.se/katalogisering/help/instance). Instans av verk kopplar instansen till verket.  
+Beskrivningen av ett verk innehåller information som ämne, klassifikation, språk och innehållstyp. Ett verk kan ha en eller flera instanser, till exempel olika upplagor och utgåvor. Läs mer om [Instans](https://libris.kb.se/katalogisering/help/instance).  
 
 Ett verk är av en viss typ. Exempel på verkstyper är: text, ljud, stillbild, rörlig bild, multimedia, karta. Det går för närvarande inte att byta beskrivningens verkstyp.  
 
