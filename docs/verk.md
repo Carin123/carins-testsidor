@@ -76,13 +76,13 @@ Skriv in uppgiften.
 ##### Relationer till ingående verk  
 * Ingående verk med Primär medverkan (700 1/2 ‡a, ǂd, ǂt)  
   Se [Relationer till delar och verk](https://libris.kb.se/katalogisering/help/workflow-agent-relation).  
-* Ingående verk utan Primär medverkan (730 0/2 ‡a, ǂl, analytisk sökingång) 
+* Ingående verk utan Medverkan och funktion/Primär medverkan (730 0/2 ‡a, ǂl, analytisk sökingång) 
   Under Instans av Verk, lägg till Har del. Skapa verk som lokal entitet. Lägg till Har titel och välj Titel. Om det ingående verket är en översättning, lägg till Språk, skapa lokal entitet och lägg till Benämning. Skriv in språket.
  
 ##### Relationer till andra verk  
   * Relationer till andra verk med Primär medverkan (700 1/- ‡a, ǂd, ǂt)
    Se [Relationer till delar och verk](https://libris.kb.se/katalogisering/help/workflow-agent-relation).
-*  Relationer till andra verk utan Primär medverkan (730 0/_ , icke-analytisk sökingång)  
+*  Relationer till andra verk utan Medverkan och funktion/Primär medverkan (730 0/_ , icke-analytisk sökingång)  
    Under Instans av Verk, lägg till Relation. Välj typ Relation. Lägg till Entitet och välj Entitet. Skapa verk som lokal entitet. Lägg till Har titel och välj Titel. Om det relaterade verket är en översättning, lägg till Språk, skapa lokal entitet och lägg till Benämning. Skriv in språket.
   
 #### Medverkan och funktion  
@@ -119,13 +119,6 @@ För en översättning, ange även:
   Lägg till ytterligare en förekomst av Språk, under Språk, skapa lokal entitet och lägg till Benämning.  
   Skriv in språket i klartext. Denna klartext - verkets (översättningens) språk - visas som ett tillägg till verkets titel i marcpostens 130 ‡l, 240 ‡l, 730 ‡l.  
   ![Språk](sprak.png)
-  
-För en översättning av ett anonymt verk (ingen Medverkan och funktion/Primär medverkan förekommer), ange även: 
-* Uttryck av/Verk/Språk/Språk/Benämning  
-(expressionOf/Work/language/Language/label = 130 ‡l)  
-Lägg till eventuell benämning på språk som ska ingå i den föredragna titeln. Klicka på plustecknet vid Verk och välj Språk. Skapa lokal entitet. Lägg till Benämning.  
-Skriv in uppgiften.  
-```Exempel: Svenska```
 
 * Anmärkning: Språk (marc:LanguageNote = 041 i1: 1)  
   Ange om resursen är/innehåller en översättning.  
