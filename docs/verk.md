@@ -146,7 +146,7 @@ För översättningar i flera led, länka först till det mellanliggande språke
   Originalversion/Verk/Språk (originalVersion/Work/language = 041 ‡h) 
   
   För att ange att texten delvis är översatt, till exempel när en publikation innehåller parallelltext, det vill säga är på två språk och den ena texten är en översättning: ange först Språk under Instans av verk (se Språk ovan). Sök fram och länka till entiteten för det språk som inte är en översättning. Klicka sedan på plustecknet vid Verk och välj Anmärkning: Språk. Välj Objektet är/innehåller ej översättning.   
- Lägg sedan till Har del under Instans av verk. Skapa verk som lokal entitet (plustecknet vid Har del - Lägg till resurs. I rutan Skapa lokal entitet, längst ner i sidorutan till höger, skriv Verk och välj ++++ Verk.) Klicka på plustecknet vid den lokala entiteten Verk (Lägg till egenskaper under: Verk) och välj Språk. Sök fram och länka till entiteten för språket som texten är översatt till. Under den lokala entiteten Verk, lägg till Anmärkning: Språk och ange att resursen är/innehåller en översättning. Under Har del, lägg till Originalversion/Verk/Språk (se ovan under Översättning). Länka till entiteten för språket som resursen delvis är en översättning från.  
+ Lägg till Har del under Instans av verk. Skapa verk som lokal entitet. Lägg till Språk under Verk. Sök fram och länka till entiteten för språket som texten är översatt till. Lägg till Anmärkning: Språk och ange att resursen är/innehåller en översättning. Under Har del, lägg till Originalversion/Verk/Språk (se ovan under Översättning). Länka till entiteten för språket som resursen delvis är en översättning från.  
  
 ##### Sammanfattningsspråk  
 Se Sammanfattning av innehåll   
