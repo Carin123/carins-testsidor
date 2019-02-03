@@ -54,14 +54,13 @@ För översättningar och för verk som har givits ut under olika titlar på sam
 
 ##### Verkets titel
 * Har titel/Titel/Huvudtitel (hasTitle/Title/mainTitle = 240 1/0 ‡a)  
-  "Originaltitel" för ett verk med primär medverkan anger du här.  
+  "Originaltitel" för ett verk med Medverkan och funktion/Primär medverkan anges här.  
   Skriv in uppgiften.  
   ```Exempel: Soldier spy```  
   För en titel som börjar med bestämd eller obestämd artikel, ska artikeln fileras bort. Lägg till fileringsvärde och ange en siffra.  
  
-##### Verkets titel - huvuduppslag
 *	Uttryck av/Verk/Har titel/Titel/Huvudtitel (expressionOf/Work/hasTitle/Title/mainTitle (= 130 ‡a)  
- "Originaltitel" för ett verk utan Medverkan och funktion/Primär medverkan anger du här.
+ "Originaltitel" för ett verk utan Medverkan och funktion/Primär medverkan anges här.
 Under Instans av Verk, lägg till Uttryck av. Skapa verk som lokal entitet (skriv ""verk"" i rutan Skapa lokal entitet och välj verk). Lägg till Har titel. Välj Titel.
 Skriv in uppgiften under Huvudtitel.  
 ```Exempel: Bibeln``` 
