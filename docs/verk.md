@@ -10,7 +10,7 @@ tags:
 
 ## Verk
 
-Beskrivningen av ett verk innehåller information som ämne, klassifikation, språk och innehållstyp. Ett verk kan ha en eller flera instanser, till exempel olika upplagor och utgåvor. Läs mer om [Instans](https://libris.kb.se/katalogisering/help/instance). 
+Beskrivningen av ett verk innehåller information som ämne, klassifikation, språk och innehållstyp. Ett verk kan ha en eller flera instanser, till exempel olika upplagor och utgåvor. Läs mer om [Instans](https://libris.kb.se/katalogisering/help/instance). Instans av verk kopplar instansen till verket.  
 
 Ett verk är av en viss typ. Exempel på verkstyper är: text, ljud, stillbild, rörlig bild, multimedia, karta. Det går för närvarande inte att byta beskrivningens verkstyp.  
 
@@ -135,7 +135,7 @@ För översättningar i flera led, länka först till det mellanliggande språke
 (008/35-37 + 041 ‡a + ‡a)  
 * Språk (language = 008/35-37) +
    Anmärkning: Språk: Objektet är/innehåller ej översättning (marc:languageNote = 041 0/- ‡a)
-   Ange det första språket genom att länka till en entitet för språket, under Språk. Länka till ytterligare en språkkod för parallelltexten. Ange sedan om parallelltexten är en översättning. Klicka på plustecknet vid Verk och välj Anmärkning: Språk. Välj Objektet är/innehåller ej översättning.    
+   Ange det första språket genom att länka till språket, under Språk. Länka till ytterligare ett språk för parallelltexten. Ange sedan om parallelltexten är en översättning. Klicka på plustecknet vid Verk och välj Anmärkning: Språk. Välj Objektet är/innehåller ej översättning.    
    
 ###### Parallelltext och texten delvis översatt 
 (008/35-37 + 041 0/- ‡a + 041 1/- #a ‡h)  
@@ -145,8 +145,8 @@ För översättningar i flera led, länka först till det mellanliggande språke
   Anmärkning: Språk: Objektet är/innehåller översättning (marc:languageNote 041 1/-) +  
   Originalversion/Verk/Språk (originalVersion/Work/language = 041 ‡h) 
   
-  För att ange att texten delvis är översatt, till exempel när en publikation innehåller parallelltext, det vill säga är på två språk och den ena texten är en översättning: ange först Språk under Instans av verk. Sök fram och länka till entiteten för det språk som inte är en översättning. Klicka sedan på plustecknet vid Verk och välj Anmärkning: Språk. Välj Objektet är/innehåller ej översättning.   
- Lägg till Har del under Instans av verk. Skapa verk som lokal entitet. Lägg till Språk under Verk. Sök fram och länka till entiteten för språket som texten är översatt till. Lägg till Anmärkning: Språk och ange att resursen är/innehåller en översättning. Under Har del, lägg till Originalversion/Verk/Språk (se ovan under Översättning). Länka till entiteten för språket som resursen delvis är en översättning från.  
+  För att ange att texten delvis är översatt, till exempel när en publikation innehåller parallelltext där den ena texten är en översättning: aLägg först till Språk under Instans av verk. Sök fram och länka till det språk som inte är en översättning. Klicka sedan på plustecknet vid Verk och välj Anmärkning: Språk. Välj Objektet är/innehåller ej översättning.   
+ Lägg till Har del under Instans av verk. Skapa verk som lokal entitet. Lägg till Språk under Verk. Sök fram och länka till språket som texten är översatt till. Lägg till Anmärkning: Språk och ange att resursen är/innehåller en översättning. Under Har del, lägg till Originalversion/Verk/Språk (se ovan under Översättning). Länka till språket som resursen delvis är en översättning från.  
  
 ##### Sammanfattningsspråk  
 Se Sammanfattning av innehåll   
