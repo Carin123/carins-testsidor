@@ -53,12 +53,14 @@ Ange den föredragna titeln för verket här, vid behov. Följ [Anvisningar för
 För översättningar och för verk som har givits ut under olika titlar på samma språk eller när samma titel har använts för olika verk, ska den föredragna titeln för verket anges.    
 
 ##### Verkets titel
+###### Verk med Primär medverkan
 * Har titel/Titel/Huvudtitel (hasTitle/Title/mainTitle = 240 1/0 ‡a)  
   "Originaltitel" för ett verk med Medverkan och funktion/Primär medverkan anges här.  
   Skriv in uppgiften.  
   ```Exempel: Soldier spy```  
   För en titel som börjar med bestämd eller obestämd artikel, ska artikeln fileras bort. Lägg till fileringsvärde och ange en siffra.  
- 
+
+###### Verk utan Primär medverkan
 *	Uttryck av/Verk/Har titel/Titel/Huvudtitel (expressionOf/Work/hasTitle/Title/mainTitle (= 130 ‡a)  
  "Originaltitel" för ett verk utan Medverkan och funktion/Primär medverkan anges här.
 Under Instans av Verk, lägg till Uttryck av. Skapa verk som lokal entitet (skriv ""verk"" i rutan Skapa lokal entitet och välj verk). Lägg till Har titel. Välj Titel.
@@ -72,15 +74,15 @@ Skriv in uppgiften.
 #### Relationer till ingaende verk och andra verk
 
 ##### Relationer till ingående verk  
-* Ingående verk med primär medverkan (700 1/2 ‡a, ǂd, ǂt)  
+* Ingående verk med Primär medverkan (700 1/2 ‡a, ǂd, ǂt)  
   Se [Relationer till delar och verk](https://libris.kb.se/katalogisering/help/workflow-agent-relation).  
-* Ingående verk utan primär medverkan (730 0/2 ‡a, ǂl, analytisk sökingång) 
+* Ingående verk utan Primär medverkan (730 0/2 ‡a, ǂl, analytisk sökingång) 
   Under Instans av Verk, lägg till Har del. Skapa verk som lokal entitet. Lägg till Har titel och välj Titel. Om det ingående verket är en översättning, lägg till Språk, skapa lokal entitet och lägg till Benämning. Skriv in språket.
  
 ##### Relationer till andra verk  
-  * Relationer till andra verk med primär medverkan (700 1/- ‡a, ǂd, ǂt)
+  * Relationer till andra verk med Primär medverkan (700 1/- ‡a, ǂd, ǂt)
    Se [Relationer till delar och verk](https://libris.kb.se/katalogisering/help/workflow-agent-relation).
-*  Relationer till andra verk utan primär medverkan (730 0/_ , icke-analytisk sökingång)  
+*  Relationer till andra verk utan Primär medverkan (730 0/_ , icke-analytisk sökingång)  
    Under Instans av Verk, lägg till Relation. Välj typ Relation. Lägg till Entitet och välj Entitet. Skapa verk som lokal entitet. Lägg till Har titel och välj Titel. Om det relaterade verket är en översättning, lägg till Språk, skapa lokal entitet och lägg till Benämning. Skriv in språket.
   
 #### Medverkan och funktion  
