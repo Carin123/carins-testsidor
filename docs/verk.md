@@ -320,3 +320,9 @@ Lägg till Sammanfattning av innehåll. Välj Sammanfattning av innehåll. Lägg
 * Sammanfattning av innehåll/Sammanfattning/Språk (summary/Summary/language = 041 ‡b)  
 Lägg till sammanfattningsspråk. Lägg till Sammanfattning. Ta bort Benämning. Länka till entiteten för sammanfattningens språk.  
   ```Exempel: Engelska```
+  
+#### Anmarkning om akademisk avhandling    
+* Anmärkning/Anmärkning om akademisk avhandling/Benämning (dissertation/Dissertation/label = 502 ‡a)  
+  Lägg till Anmärkning om akademisk avhandling. Skapa lokal entitet.  
+Skriv in anmärkningen under Benämning.    
+  ```Exempel: Diss. Umeå : Umeå universitet, 2018```  
