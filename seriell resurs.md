@@ -258,7 +258,7 @@ Land, År och eventuellt Datum  ska ligga inom Primär utgivning.
   Skriv in uppgiften under Benämning.  
  
 #### Annat bararformat  
-För seriella resurser, skapa lokal entitet i stället för att länka direkt till annan instans. Att länka till annan instans ger felaktiga delfältskoder, vilket inte är tillåtet vid export till ISSN IC. 
+För seriella resurser, skapa Instans som lokal entitet under Annat bärarformat i stället för att länka direkt till annan instans. Att länka till annan instans ger felaktiga delfältskoder, vilket inte är tillåtet vid export till ISSN IC. 
 * Annat bärarformat/Instans/Har titel/Titel/Huvudtitel (otherPhysicalFormat/Instance/hasTitle/Title/mainTitle = 776 ‡t)  
 Lägg till Annat bärarformat. Skapa Instans som lokal entitet. Lägg till Har titel och välj Titel. Skriv in titeln under Huvudtitel.  
 * Annat bärarformat/Instans/Identifikator/ISSN/Värde (otherPhysicalFormat/Instance/identifiedBy/ISSN/value = 776 ‡x)  
