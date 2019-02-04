@@ -83,23 +83,32 @@ Följ dessa instruktioner:
   
 ### Verk
 
+Se Verk.
+
 #### Instans av verk
 * Instans av verk/Text (instanceOf/Work/Text)  
 För en tryckt monografi är verkstypen Text.  
 
 #### Verkets titel 
+Se Verk/Verkets titel.
 
 #### Medverkan och funktion
+Se Verk/Medverkan och funktion.
 
 #### Sprak
+Se Verk/Språk.
 
 #### Genre
+Se Verk/Genre.
 
 #### Klassifikation
+Se Verk/Klassifikation. 
 
 #### Amne
+Se Verk/Ämne.
 
 #### Malgrupp
+Se Verk/Målgrupp.
 
 #### Innehallstyp
 * Innehållstyp/Innehållstyp (contentType/ContentType = 336 ‡b)   
