@@ -2,7 +2,7 @@
 section: Hjälptexter katalogisering
 title: Tryckt monografi
 order: 17
-date: 2019-01-13
+date: 2019-02-04
 tags:
 - under arbete
 - monografi
@@ -36,10 +36,36 @@ För att lägga till egenskaper under Instans, klicka på plustecknet i redigeri
   Länka till entitet.  
   ```Exempel: nc (= volym)```
   
-#### År och datum 
-![ar](ar.pdf)  
+#### Titel
+Se Instans/Titel
 
-  
+#### Upphovsuppgift
+Se Instans/Upphovsuppgift
+
+#### Upplageuppgift
+Se Instans/Upplageuppgift
+
+#### Utgivning
+Se Instans/Utgivning
+
+#### Tillverkning
+Se Instans/Tillverkning
+
+#### Copyrightår
+Se Instans/Copyrightår
+
+#### Identifikator (ISBN)
+Se Instans/Identifikator
+
+#### Omfång
+Se Instans/Omfång
+
+#### Övriga fysiska detaljer
+Se Instans/Övriga fysiska detaljer
+
+#### Seriemedlemskap
+Se Instans/Seriemedlemskap  
+
 ##### Författarserie
 * Seriemedlemskap/Ingår i serie/Instans/Instans av Verk/Verk/Har titel/Titel/Huvudtitel  
 (seriesMembership/inSeries/Instance/InstanceOf/Work/hasTitle/Title/mainTitle = 800 ‡t)  
@@ -57,10 +83,28 @@ Följ dessa instruktioner:
   
 ### Verk
 
+#### Instans av verk
+* Instans av verk/Text (instanceOf/Work/Text)  
+För en tryckt monografi är verkstypen Text.  
 
+#### Verkets titel 
 
-VERK:
-VERKSTYP: TEXT  
+#### Medverkan och funktion
+
+#### Sprak
+
+#### Genre
+
+#### Klassifikation
+
+#### Amne
+
+#### Malgrupp
+
+#### Innehallstyp
+För en tryckt monografi är innehållstypen text.
+```Exempel: text (txt)```
+
 GENRER: KODNING: AKADEMISK AVHANDLING, FESTSKRIFT, LITTERÄR GENRE MM  
 ANMÄRKNING OM AVHANDLING
 
