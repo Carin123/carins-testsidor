@@ -234,6 +234,7 @@ Välj typ Osäkert år från listan.
 <br/>```År: 1780``` 
 <br/>```Kompletterande datum: 1815``` 
 <br/>```Typ av utgivningsdatum: Osäkert årtal```  
+
 ```Produktion/utgivning```  
 <br/>```Datum: [mellan 1780 och 1815?]``` 
 
