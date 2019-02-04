@@ -102,8 +102,11 @@ För en tryckt monografi är verkstypen Text.
 #### Malgrupp
 
 #### Innehallstyp
-För en tryckt monografi är innehållstypen text.
+* Innehållstyp/Innehållstyp (contentType/ContentType = 336 ‡b)   
+  Länka till entitet.  
 ```Exempel: text (txt)```
+
+ För att lägga till ytterligare innehållstyp, till exempel "sti" = stillbild för en bilderbok med både text och bild, lägg till Har del under Instans av verk. Skapa Verk som lokal entitet. Välj Skapa lokal entitet och välj därefter ++ Verk i listan. Lägg till Innehållstyp under Verk. Sök fram och länka till entitet.  
 
 GENRER: KODNING: AKADEMISK AVHANDLING, FESTSKRIFT, LITTERÄR GENRE MM  
 ANMÄRKNING OM AVHANDLING
