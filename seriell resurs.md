@@ -259,9 +259,9 @@ Land, År och eventuellt Datum  ska ligga inom Primär utgivning.
  
 #### Annat bararformat  
 För seriella resurser, skapa lokal entitet i stället för att länka direkt till annan instans. Att länka till annan instans ger felaktiga delfältskoder, vilket inte är tillåtet vid export till ISSN IC. 
-* Annat bärarformat/Instans/Har titel/Huvudtitel (otherPhysicalFormat = 776  ‡t)  
+* Annat bärarformat/Instans/Har titel/Huvudtitel (otherPhysicalFormat = 776 ‡t)  
 Lägg till Annat bärarformat. Skapa Instans som lokal entitet. Lägg till Har titel och välj Titel. Skriv in titeln under Huvudtitel.  
-* Annat bärarformat/Instans/Har titel/Huvudtitel (otherPhysicalFormat = 776  ‡t)  
+* Annat bärarformat/Instans/Identifikatorl/ISSN (otherPhysicalFormat = 776 ‡x)  
 Lägg till Identifikator och välj ISSN. Skriv in ISSN under Värde.  
  Typanmärkning i samband med Annat bärarformat kan för närvarande inte läggas till.
   Beskriven av/Post/Kontrollnummer, motsvarande delfält w, är för närvarande låst för redigering. Det går därmed inte att lägga till fältet eller redigera det i befintliga beskrivningar.  
