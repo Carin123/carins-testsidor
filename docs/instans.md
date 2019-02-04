@@ -227,7 +227,16 @@ Välj typ Osäkert år från listan.
 <br/>```År: 1925```    
 <br/>```Produktion/Produktion```
 <br/>```Datum: 1925```  
-  
+
+##### Exempel på osäkert utgivnings/produktionsår där tidigaste och senaste år kan anges:
+```Huvudsakligt tillgängliggörande```  
+<br/>```Land: Sverige (sw)```
+<br/>```År: 1780``` 
+<br/>```Kompletterande datum: 1815``` 
+<br/>```Typ av utgivningsdatum: Osäkert årtal```
+```Produktion/utgivning```  
+<br/>```Datum: [mellan 1780 och 1815?]``` 
+
 #### Utgivning  
 * Utgivning (publication)  
   Välj typ från lista. För monografier, använd Primär utgivning.  
