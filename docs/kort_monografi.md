@@ -101,6 +101,42 @@ Se Verk/Språk.
 #### Genre
 Se Verk/Genre.
 
+##### Exempel på användning av Genre/form
+
+**Roman**
+Haag, Martina: Det är något som inte stämmer
+Genre/form (saogf-term): Självbiografiska skildringar, Romaner
+Litterär genre (008): Roman
+
+**Diktsamling**
+Hallgren, Hanna: Vinterresan
+Genre/form (saogf-term): Poesi
+Litterär genre (008): Dikter
+
+**Bilderbok för barn**
+Genre/form (saogf-term): Svenska barnboksinstitutet (Sbi) ansvarar
+Litterär genre (008): Skönlitterärt verk, genre ej angiven
+
+**Fackbok för barn**
+Genre/form (saogf-term): Svenska barnboksinstitutet (Sbi) ansvarar
+Litterär genre (008): Ej skönlitterärt verk
+
+**Biografi**
+Genre/form (saogf-term): Biografi
+Biografiskt material (008): Biografi över en individ
+Litterär genre (008): Ej skönlitterärt verk
+
+**Självbiografi**
+Genre/form (saogf-term): Självbiografier
+Biografiskt material (008): Självbiografisk text, Självbiografi
+Litterär genre (008): Ej skönlitterärt verk
+
+**Fackbok, ej biografi**
+Genre/form (saogf-term): Lämplig saogfterm.
+Se även: http://www.kb.se/katalogisering/Svenska-amnesord/genrer-form/Allmanna-genreformtermer/
+Litterär genre (008): Ej skönlitterärt verk
+
+
 #### Klassifikation
 Se Verk/Klassifikation. 
 
@@ -115,7 +151,12 @@ Se Verk/Målgrupp.
   Länka till entitet.  
 ```Exempel: text (txt)```
 
- För att lägga till ytterligare innehållstyp, till exempel "sti" = stillbild för en bilderbok med både text och bild, lägg till Har del under Instans av verk. Skapa Verk som lokal entitet. Välj Skapa lokal entitet och välj därefter ++ Verk i listan. Lägg till Innehållstyp under Verk. Sök fram och länka till entitet.  
+För att lägga till ytterligare innehållstyp, till exempel "sti" = stillbild för en bilderbok med både text och bild, lägg till Har del under Instans av verk. Skapa Verk som lokal entitet. Välj Skapa lokal entitet och välj därefter ++ Verk i listan. Lägg till Innehållstyp under Verk. Sök fram och länka till entitet.  
+
+#### Anmarkning om akademisk avhandling    
+Se Verk/Anmarkning om akademisk avhandling.  
+
+ 
 
 GENRER: KODNING: AKADEMISK AVHANDLING, FESTSKRIFT, LITTERÄR GENRE MM  
 ANMÄRKNING OM AVHANDLING
