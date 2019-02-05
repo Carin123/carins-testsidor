@@ -106,9 +106,9 @@ Se Verk/Genre.
 **Roman**  
 Haag, Martina: Det är något som inte stämmer  
 Genre/form (saogf-term): Självbiografiska skildringar, Romaner  
-![Saogf-termer](genre_saogf_sjalvbiografi.png) 
+![Saogf termer](genre_saogf_sjalvbiografi.png) 
 Litterär genre (008): Roman
-![008_roman](genre_008_roman.png) 
+![008 roman](genre_008_roman.png) 
 
 **Diktsamling**  
 Hallgren, Hanna: Vinterresan  
