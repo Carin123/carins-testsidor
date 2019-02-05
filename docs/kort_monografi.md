@@ -106,7 +106,9 @@ Se Verk/Genre.
 **Roman**  
 Haag, Martina: Det är något som inte stämmer  
 Genre/form (saogf-term): Självbiografiska skildringar, Romaner  
+![Saogf-termer](genre_saogf_sjalvbiografi.png) 
 Litterär genre (008): Roman
+![008_roman](genre_008_roman.png) 
 
 **Diktsamling**  
 Hallgren, Hanna: Vinterresan  
@@ -132,7 +134,8 @@ Biografiskt material (008): Självbiografisk text, Självbiografi
 Litterär genre (008): Ej skönlitterärt verk
 
 **Fackbok, ej biografi**  
-Genre/form (saogf-term): Lämplig saogfterm. Se även [Svenska ämnesords översikt över Allmänna genreform-termer](http://www.kb.se/katalogisering/Svenska-amnesord/genrer-form/Allmanna-genreformtermer/).  
+Genre/form (saogf-term): Lämpliga saogf-termer.  
+Se även [Svenska ämnesords översikt över Allmänna genreform-termer](http://www.kb.se/katalogisering/Svenska-amnesord/genrer-form/Allmanna-genreformtermer/).  
 Litterär genre (008): Ej skönlitterärt verk  
 
 
