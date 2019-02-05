@@ -182,7 +182,7 @@ Vid behov, lägg till Övrig titelinformation (subtitle) under Parallelltitel.
 Uppgifter om Produktion och Huvudsakligt tillgängliggörande nedan anges endast för **opublicerade** resurser. För publicerat material, se [Utgivning.](#utgivning)  
 
 * Produktion (production)  
-  Används för opublicerade resurser. Komplettera alltid med egenskapen Huvudsakligt tillgängliggörande. Välj Produktion i listan.  
+  Används för opublicerade resurser. Välj Produktion i listan. Komplettera alltid med egenskapen Huvudsakligt tillgängliggörande.
   
 ##### Produktionsort 
 *	Plats/Plats/Benämning (place/label = 264 -/0 ‡a)  
