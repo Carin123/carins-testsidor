@@ -103,35 +103,35 @@ Se Verk/Genre.
 
 ##### Exempel på användning av Genre/form
 
-**Roman**
+**Roman**  
 Haag, Martina: Det är något som inte stämmer
 Genre/form (saogf-term): Självbiografiska skildringar, Romaner
 Litterär genre (008): Roman
 
-**Diktsamling**
+**Diktsamling**  
 Hallgren, Hanna: Vinterresan
 Genre/form (saogf-term): Poesi
 Litterär genre (008): Dikter
 
-**Bilderbok för barn**
+**Bilderbok för barn**  
 Genre/form (saogf-term): Svenska barnboksinstitutet (Sbi) ansvarar
 Litterär genre (008): Skönlitterärt verk, genre ej angiven
 
-**Fackbok för barn**
+**Fackbok för barn**  
 Genre/form (saogf-term): Svenska barnboksinstitutet (Sbi) ansvarar
 Litterär genre (008): Ej skönlitterärt verk
 
-**Biografi**
+**Biografi**  
 Genre/form (saogf-term): Biografi
 Biografiskt material (008): Biografi över en individ
 Litterär genre (008): Ej skönlitterärt verk
 
-**Självbiografi**
+**Självbiografi**  
 Genre/form (saogf-term): Självbiografier
 Biografiskt material (008): Självbiografisk text, Självbiografi
 Litterär genre (008): Ej skönlitterärt verk
 
-**Fackbok, ej biografi**
+**Fackbok, ej biografi**  
 Genre/form (saogf-term): Lämplig saogfterm.
 Se även: http://www.kb.se/katalogisering/Svenska-amnesord/genrer-form/Allmanna-genreformtermer/
 Litterär genre (008): Ej skönlitterärt verk
