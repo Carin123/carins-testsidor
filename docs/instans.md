@@ -42,9 +42,8 @@ Se även [instruktionsfilmer](https://www.youtube.com/playlist?list=PLZVkEICvA5-
 För att lägga till egenskaper under Instans, klicka på plustecknet i redigeringsvyn (den stora runda plusikonen under Verktygsikonen) - Lägg till egenskaper under: Instans.  
 ![Lägg till egenskap under: Instans](plusegenskapinstans.png)  
 
-Sök fram egenskapen och välj den genom att klicka på plustecknet vid egenskapens namn.    
+Sök fram egenskapen och välj den genom att klicka på plustecknet vid egenskapens namn eller på egenskapens namn.    
 ![Välj egenskap](plusegenskapinstans2.png)  
-SKRIV OM + NY  BILD - KAN KLICKA ANTINGEN PÅ PLUSTECKEN ELLER RUBRIK
 
 
 #### Utgivningssatt
