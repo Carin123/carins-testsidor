@@ -102,6 +102,9 @@ Se Verk/Språk.
 Se Verk/Genre.
 
 ##### Exempel på användning av Genre/form
+Under Genre/form, ange dels saogf-termer, dels termer som motsvarar marc-koder i 008. Här nedan visas några exempel.
+![Genre exempel](genre_exempel.png)  
+
 
 **Roman**  
 Haag, Martina: Det är något som inte stämmer  
