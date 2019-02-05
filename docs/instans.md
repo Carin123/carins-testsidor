@@ -179,7 +179,7 @@ Vid behov, lägg till Övrig titelinformation (subtitle) under Parallelltitel.
   
 #### Produktion  
 
-Uppgifter om Produktion och Huvudsakligt tillgängliggörande nedan anges endast för **opublicerade** resurser. För publicerat material, se [Utgivning.](#utgivning)  
+Uppgifter om Produktion anges endast för **opublicerade** resurser. För publicerat material, se [Utgivning.](#utgivning)  
 
 * Produktion (production)  
   Används för opublicerade resurser. Välj Produktion i listan. Komplettera alltid med egenskapen Huvudsakligt tillgängliggörande.
