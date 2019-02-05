@@ -75,7 +75,7 @@ Lägg till Medverkan och funktion under Verk (inom Seriemedlemskap) genom att kl
 Följ dessa instruktioner:  
   [Relationer till Agent](https://libris.kb.se/katalogisering/help/workflow-agent-org-instance)  
  ```Exempel: Larsson, Stieg, 1954-2004```  
-  Vid behov, skapa ny entitet för agent (se Skapa ny agent i hjälpsektionen). I undantagsfall, skapa lokal entitet.    
+  Vid behov, skapa ny entitet för agent, se [Skapa ny agent] (https://libris.kb.se/katalogisering/help/workflow-agent-person-new). I undantagsfall, skapa lokal entitet.    
   
 * Seriemedlemskap/Numrering inom serie (seriesMembership/seriesEnumeration = 800 ‡v)  
   Skriv in uppgiften.  
