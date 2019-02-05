@@ -178,9 +178,11 @@ Vid behov, lägg till Övrig titelinformation (subtitle) under Parallelltitel.
   ```Exempel: Första upplagan```  
   
 #### Produktion  
+
+Uppgifter om Produktion och Huvudsakligt tillgängliggörande nedan anges endast för opublicerade resurser. För publicerat material, se [Utgivning.](#utgivning)  
+
 * Produktion (production)  
-  Används för opublicerade resurser. Komplettera alltid med egenskapen Huvudsakligt tillgängliggörande. Välj typ Produktion från listan.  
-För publicerat material, se [Utgivning.](#utgivning)    
+  Används för opublicerade resurser. Komplettera alltid med egenskapen Huvudsakligt tillgängliggörande. Välj typ Produktion i listan.  
   
 ##### Produktionsort 
 *	Plats/Plats/Benämning (place/label = 264 -/0 ‡a)  
