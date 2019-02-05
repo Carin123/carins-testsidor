@@ -169,7 +169,7 @@ Vid behov, lägg till Övrig titelinformation (subtitle) under Parallelltitel.
 #### Upphovsuppgift
 * Upphovsuppgift (responsibilityStatement = 245 ‡c)    
   Skriv in uppgiften.  
-  ```Exempel: Tom Marcus ; översättning: Svante Skoglund```
+  ```Exempel: Tom Marcus ; översättning: Svante Skoglund```  
   Vid postimport: i vissa importerade poster saknas upphovsuppgift. Lägg då till det. 
   
 #### Upplageuppgift
