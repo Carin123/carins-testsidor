@@ -37,7 +37,7 @@ För att lägga till egenskaper under Instans, klicka på plustecknet i redigeri
   ```Exempel: nc (= volym)```
   
 #### Titel
-Se Instans/Titel
+Se [Instans/Titel](https://libris.kb.se/katalogisering/help/workflow-instance)
 
 #### Upphovsuppgift
 Se Instans/Upphovsuppgift
