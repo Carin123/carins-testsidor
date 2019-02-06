@@ -300,8 +300,10 @@ Klicka sedan på plustecknet vid DDK-klassifikation (sekundär) (Lägg till ddk-
  Länka till entitet.  
  <br/>```Exempel:```
   * ```Barn och ungdom (0-16 år) (008/22: j)```
+  Normalvärde för barn- och ungdomslitteratur.
+  
   * ```Barn (ca 10-12 år)/Läromedel (008/22: c)```  
-  Normalvärde för alla läromedel avsedda för skolbruk (till och med gymnasiet).  
+  Normalvärde för läromedel avsedda för skolbruk (till och med gymnasiet).  
 
   För att lägga till Målgruppsanmärkning (Målgrupp/Målgrupp/Benämning), se [Instans](https://libris.kb.se/katalogisering/help/workflow-instance).  
 
