@@ -80,32 +80,32 @@ För att lägga till egenskaper under Instans, klicka på plustecknet i redigeri
 ##### Titel
 ![Titel](monografi_titel.png) 
 
-Mer om Titel: [Instans/Titel](https://libris.kb.se/katalogisering/help/workflow-instance)  
+Mer om [Instans/Titel](https://libris.kb.se/katalogisering/help/workflow-instance).  
 
 ##### Upphovsuppgift
 ![Upphovsuppgift](monografi_upphov.png) 
 
-Mer om Upphovsuppgift: [Instans/Upphovsuppgift](https://libris.kb.se/katalogisering/help/workflow-instance) 
+Mer om [Instans/Upphovsuppgift](https://libris.kb.se/katalogisering/help/workflow-instance) 
 
 ##### Upplageuppgift
-Mer om Upplageuppgift: [Instans/Upplageuppgift](https://libris.kb.se/katalogisering/help/workflow-instance)
+Mer om [Instans/Upplageuppgift](https://libris.kb.se/katalogisering/help/workflow-instance)
 
 ##### Utgivning
 ![Utgivning](monografi_utgivning.png)
 
-Mer om Utgivning: [Instans/Utgivning](https://libris.kb.se/katalogisering/help/workflow-instance)
+Mer [Instans/Utgivning](https://libris.kb.se/katalogisering/help/workflow-instance)
 
 ##### Tillverkning
-Mer om Tillverkning: [Instans/Tillverkning](https://libris.kb.se/katalogisering/help/workflow-instance)
+Mer om [Instans/Tillverkning](https://libris.kb.se/katalogisering/help/workflow-instance)
 
 #### Copyrightår
-Mer om Copyrightår: [Instans/Copyrightår](https://libris.kb.se/katalogisering/help/workflow-instance)
+Mer om [Instans/Copyrightår](https://libris.kb.se/katalogisering/help/workflow-instance)
 
 ##### Identifikator
 **(ISBN)**
 ![Identifikator](monografi_identifikator.png)
 
-Mer om Identifikator: [Instans/Identifikator](https://libris.kb.se/katalogisering/help/workflow-instance)  
+Mer om [Instans/Identifikator](https://libris.kb.se/katalogisering/help/workflow-instance)  
 Notera att felaktigt eller ogiltigt ISBN ska anges under Indirekt identifierad av.  
 
 ##### Indirekt identifierad av
@@ -116,13 +116,13 @@ Felaktigt eller ogiltigt ISBN ska anges här.
 ##### Omfång
 ![Omfång](monografi_omfang.png)
 
-Mer om Omfång: [Instans/Omfång](https://libris.kb.se/katalogisering/help/workflow-instance)
+Mer om [Instans/Omfång](https://libris.kb.se/katalogisering/help/workflow-instance)
 
 ##### Övriga fysiska detaljer
-Mer om Övriga fysiska detaljer: [Instans/Övriga fysiska detaljer](https://libris.kb.se/katalogisering/help/workflow-instance)
+Mer om [Instans/Övriga fysiska detaljer](https://libris.kb.se/katalogisering/help/workflow-instance)
 
 ##### Seriemedlemskap
-Mer om Seriemedlemskap: [Instans/Seriemedlemskap](https://libris.kb.se/katalogisering/help/workflow-instance)
+Mer om [Instans/Seriemedlemskap](https://libris.kb.se/katalogisering/help/workflow-instance)
 
 ##### Författarserie
 * Seriemedlemskap/Ingår i serie/Instans/Instans av Verk/Verk/Har titel/Titel/Huvudtitel  
