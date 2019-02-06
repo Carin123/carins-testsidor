@@ -191,6 +191,7 @@ Se Sammanfattning av innehåll
 * Genre/form – akademisk avhandling (genreForm = 008/24-27)  
   Välj Innehåll, i listan över typer. Skriv "avhandling" i sökrutan. Länka till entitet.      
   ```Exempel: Akademisk avhandling```  
+  Se även [Anmärkning om akademisk avhandling](#anmarkning-om-akademisk-avhandling).  
 
 #### Klassifikation  
 * DDK-klassifikation  
