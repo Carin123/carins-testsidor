@@ -38,11 +38,11 @@ Läs mer om [Verk och Instans](https://librisbloggen.kb.se/2018/05/30/verk-och-i
 | [Bibliografikod](#bibliografikod) | [Övriga fysiska detaljer](#ovriga-fysiska-detaljer) | |
 | [Systemteknisk anmärkning](#systemteknisk-anmarkning) | [Mått](#matt) | |
 | | [Bilagor](#bilagor) | |
-| | [Seriemedlemskap](#seriemedlemskap) |
-| | [Anmärkning](#anmarkning) |
-| | [Innehållsanmärkning](#innehallsanmarkning) |
-| | [Målgruppsanmärkning](#malgruppsanmarkning) |
-| | [Annat bärarformat](#annat-bararformat) |
+| | [Seriemedlemskap](#seriemedlemskap) | |
+| | [Anmärkning](#anmarkning) | | 
+| | [Innehållsanmärkning](#innehallsanmarkning) | |
+| | [Målgruppsanmärkning](#malgruppsanmarkning) | |
+| | [Annat bärarformat](#annat-bararformat) | |
 
 För mer utförlig information om de egenskaper som anges, se [Adminmetadata](https://libris.kb.se/katalogisering/help/adminmetadata), [Instans](https://libris.kb.se/katalogisering/help/instance) och [Verk](https://libris.kb.se/katalogisering/help/work). Här nedan listas egenskaperna i korthet.  
 
