@@ -290,7 +290,7 @@ Klicka sedan på plustecknet vid DDK-klassifikation (sekundär) (Lägg till ddk-
   I undantagsfall, skapa lokal entitet.  
  
 #### Malgrupp     
- * Målgrupp (intendedAudience = 008/22)  
+ * Målgrupp (intendedAudience = 008/22)
   <br/>```Exempel:```
   * ```Barn och ungdom (0-16 år) (008/22: j)```
   * ```Barn (ca 10-12 år)/Läromedel (008/22: c).```
