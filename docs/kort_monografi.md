@@ -142,13 +142,13 @@ Se även [Svenska ämnesords översikt över Allmänna genreform-termer](http://
 Litterär genre (008): Ej skönlitterärt verk  
 
 #### Klassifikation
-Se Se [Verk/Klassifikation](https://libris.kb.se/katalogisering/help/workflow-work).
+Se [Verk/Klassifikation](https://libris.kb.se/katalogisering/help/workflow-work).
 
 #### Amne
 Se Se [Verk/Ämne](https://libris.kb.se/katalogisering/help/workflow-work).
 
 #### Malgrupp
-Se Se [Verk/Malgrupp](https://libris.kb.se/katalogisering/help/workflow-work).
+Se [Verk/Malgrupp](https://libris.kb.se/katalogisering/help/workflow-work).
 
 #### Innehallstyp
 * Innehållstyp/Innehållstyp (contentType/ContentType = 336 ‡b)   
