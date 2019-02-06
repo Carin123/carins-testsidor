@@ -131,7 +131,7 @@ Se [Verk/Genre/form](https://libris.kb.se/katalogisering/help/workflow-work).
 
 ##### Exempel på användning av Genre/form
 Under Genre/form, ange dels saogf-termer (genre/form-termer enligt Svenska ämnesord), dels termer som motsvarar marc-koder i 008.  
-För att länka till saogf-termer, välj Genre/form i listan.  
+För att länka till saogf-termer, välj Genre/form i listan (det första alternativet under Alla).  
 För att länka till termer som motsvarar marc-koder i 008, se övriga rubriker. De vanligaste finns under rubriken Föreslagna.  
 ![Genre exempel](genre_exempel.png)  
 
@@ -169,6 +169,15 @@ Genre/form (saogf-term): Lämpliga saogf-termer.
 Se även [Svenska ämnesords översikt över Allmänna genreform-termer](http://www.kb.se/katalogisering/Svenska-amnesord/genrer-form/Allmanna-genreformtermer/).  
 Litterär genre (008): Ej skönlitterärt verk  
 
+**Festskrift**
+Genre/form (saogf-term): Festskrifter
+Festskrift (008): Ja, resursen är en festskrift
+Litterär genre (008): Ej skönlitterärt verk  
+
+**Akademisk avhandling**
+Genre/form (saogf-term): Avhandlingar
+Innehåll: Avhandling
+
 #### Klassifikation
 Se [Verk/Klassifikation](https://libris.kb.se/katalogisering/help/workflow-work).
 
@@ -176,7 +185,7 @@ Se [Verk/Klassifikation](https://libris.kb.se/katalogisering/help/workflow-work)
 Se Se [Verk/Ämne](https://libris.kb.se/katalogisering/help/workflow-work).
 
 #### Malgrupp
-Ange Målgrupp via länkning till entitet (motsvarar marc 008/22), se [Verk/Malgrupp](https://libris.kb.se/katalogisering/help/workflow-work).
+Ange Målgrupp via länkning till entitet (motsvarar marc 008/22), se [Verk/Malgrupp](https://libris.kb.se/katalogisering/help/workflow-work).  
 Ange Målgruppsanmärkning (Målgrupp/Målgrupp/Benämning), se [Instans/Malgrupp](https://libris.kb.se/katalogisering/help/workflow-instance).
 
 #### Innehallstyp
