@@ -102,7 +102,7 @@ Se [Verk/Språk](https://libris.kb.se/katalogisering/help/workflow-work).
 Se [Verk/Genre/form](https://libris.kb.se/katalogisering/help/workflow-work).
 
 ##### Exempel på användning av Genre/form
-Under Genre/form, ange dels saogf-termer (genre/form-termer enligt Svenska ämnesord), dels termer som motsvarar marc-koder i 008. 
+Under Genre/form, ange dels saogf-termer (genre/form-termer enligt Svenska ämnesord), dels termer som motsvarar marc-koder i 008.  
 För att länka till saogf-termer, välj Genre/form i listan.  
 För att länka till termer som motsvarar marc-koder i 008, se övriga rubriker. De vanligaste finns under rubriken Föreslagna.  
 ![Genre exempel](genre_exempel.png)  
