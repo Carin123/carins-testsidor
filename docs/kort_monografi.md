@@ -17,29 +17,32 @@ Beskrivningen av en tryckt monografi innehåller:
 Läs mer om [Verk och Instans](https://librisbloggen.kb.se/2018/05/30/verk-och-instans-i-startversionen/).  
 
 
-### Innehåll  
+### Innehåll 
 
-| [Adminmetadata](#adminmetadata) | [Instans](#instans) | [Verk](#verk) | KOM IGÅNG GUIDE | 
+[LITEN INTRODUKTIONSGUIDE](#liten-introduktionsguide)
+- för dig som är ny
+
+| [Adminmetadata](#adminmetadata) | [Instans](#instans) | [Verk](#verk) | 
 | ------ | ----------- |  ----------- | ----------- | 
-| [Kontrollnummer](#kontrollnummer) | [Utgivningssätt](#utgivningssatt) | [Verkets titel](#verkets-titel) || 
-| [Skapad av](#skapad-av) | [Medietyp](#medietyp) | [Medverkan och funktion](#medverkan-och-funktion) || 
-| [Uppgraderad  eller importerad av](#uppgraderad-eller-importerad-av) | [Bärartyp](#barartyp) | [Språk](#sprak) || 
+| [Kontrollnummer](#kontrollnummer) | [Utgivningssätt](#utgivningssatt) | [Verkets titel](#verkets-titel) |
+| [Skapad av](#skapad-av) | [Medietyp](#medietyp) | [Medverkan och funktion](#medverkan-och-funktion) |
+| [Uppgraderad  eller importerad av](#uppgraderad-eller-importerad-av) | [Bärartyp](#barartyp) | [Språk](#sprak) |
 | [Entry map](#entry-map) | [Titel](#titel) | [Genre](#genre) || 
-| [Katalogiserande instans](#katalogiserande-instans) | [Upphovsuppgift](#upphovsuppgift) |[Klassifikation](#klassifikation) || 
-| [Poststatus](#poststatus) | [Upplageuppgift](#upplageuppgift) | [Ämne](#amne) || 
-| [Translitterering](#translitterering) | [Utgivning](#utgivning) | [Målgrupp](#malgrupp) || 
-| [Systemnummer](#systemnummer) | [Tillverkning](#tillverkning) | [Innehållstyp](#innehallstyp) || 
-| [Katalogiseringsspråk](#katalogiseringssprak) | [Copyrightår](#copyrightar) | [Sammanfattning av innehåll](#sammanfattning-av-innehall) || 
-|  [Katalogiseringsregler](#katalogiseringsregler) | [Identifikator](#identifikator) | [Anmärkning om akademisk avhandling](#anmarkning-om-akademisk-avhandling) || 
-| [Beskrivningsnivå](#beskrivningsniva) | [Omfång](#omfang) | || 
-| [Bibliografikod](#bibliografikod) | [Övriga fysiska detaljer](#ovriga-fysiska-detaljer) | || 
-| [Systemteknisk anmärkning](#systemteknisk-anmarkning) | [Mått](#matt) | | | 
-| | [Bilagor](#bilagor) | | | 
-| | [Seriemedlemskap](#seriemedlemskap) | | 
-| | [Anmärkning](#anmarkning) | | 
-| | [Innehållsanmärkning](#innehallsanmarkning) | |
-| | [Målgruppsanmärkning](#malgruppsanmarkning) | |
-| | [Annat bärarformat](#annat-bararformat) | |
+| [Katalogiserande instans](#katalogiserande-instans) | [Upphovsuppgift](#upphovsuppgift) |[Klassifikation](#klassifikation) | 
+| [Poststatus](#poststatus) | [Upplageuppgift](#upplageuppgift) | [Ämne](#amne) |
+| [Translitterering](#translitterering) | [Utgivning](#utgivning) | [Målgrupp](#malgrupp) |
+| [Systemnummer](#systemnummer) | [Tillverkning](#tillverkning) | [Innehållstyp](#innehallstyp) | 
+| [Katalogiseringsspråk](#katalogiseringssprak) | [Copyrightår](#copyrightar) | [Sammanfattning av innehåll](#sammanfattning-av-innehall) | 
+|  [Katalogiseringsregler](#katalogiseringsregler) | [Identifikator](#identifikator) | [Anmärkning om akademisk avhandling](#anmarkning-om-akademisk-avhandling) |
+| [Beskrivningsnivå](#beskrivningsniva) | [Omfång](#omfang) | |
+| [Bibliografikod](#bibliografikod) | [Övriga fysiska detaljer](#ovriga-fysiska-detaljer) | |
+| [Systemteknisk anmärkning](#systemteknisk-anmarkning) | [Mått](#matt) | |
+| | [Bilagor](#bilagor) | |
+| | [Seriemedlemskap](#seriemedlemskap) |
+| | [Anmärkning](#anmarkning) |
+| | [Innehållsanmärkning](#innehallsanmarkning) |
+| | [Målgruppsanmärkning](#malgruppsanmarkning) |
+| | [Annat bärarformat](#annat-bararformat) |
 
 För mer utförlig information om de egenskaper som anges, se [Adminmetadata](https://libris.kb.se/katalogisering/help/adminmetadata), [Instans](https://libris.kb.se/katalogisering/help/instance) och [Verk](https://libris.kb.se/katalogisering/help/work). Här nedan listas egenskaperna i korthet.  
 
@@ -197,4 +200,15 @@ Ange Målgruppsanmärkning (Målgrupp/Målgrupp/Benämning), se [Instans/Malgrup
 För att lägga till ytterligare innehållstyp, till exempel "sti" = stillbild för en bilderbok med både text och bild, lägg till Har del under Instans av verk. Skapa Verk som lokal entitet. Välj Skapa lokal entitet och välj därefter ++ Verk i listan. Lägg till Innehållstyp under Verk. Sök fram och länka till entitet.  
 
 #### Anmarkning om akademisk avhandling    
-Se [Verk/Anmärkning om akademisk avhandling](https://libris.kb.se/katalogisering/help/workflow-work).  
+Se [Verk/Anmärkning om akademisk avhandling](https://libris.kb.se/katalogisering/help/workflow-work). 
+
+
+### LITEN INTRODUKTIONSGUIDE
+- för dig som är ny
+
+|Börja här|
+|------|
+|1. Se våra instruktionsfilmer|
+|2. Läs hjälptexterna |
+
+
