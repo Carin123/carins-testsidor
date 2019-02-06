@@ -19,11 +19,8 @@ Läs mer om [Verk och Instans](https://librisbloggen.kb.se/2018/05/30/verk-och-i
 
 ### Innehåll 
 
-[LITEN INTRODUKTIONSGUIDE](#liten-introduktionsguide)
-- för dig som är ny
-
 | [Adminmetadata](#adminmetadata) | [Instans](#instans) | [Verk](#verk) | 
-| ------ | ----------- |  ----------- | ----------- | 
+| ----------- |  ----------- | ----------- | 
 | [Kontrollnummer](#kontrollnummer) | [Utgivningssätt](#utgivningssatt) | [Verkets titel](#verkets-titel) |
 | [Skapad av](#skapad-av) | [Medietyp](#medietyp) | [Medverkan och funktion](#medverkan-och-funktion) |
 | [Uppgraderad  eller importerad av](#uppgraderad-eller-importerad-av) | [Bärartyp](#barartyp) | [Språk](#sprak) |
