@@ -103,6 +103,7 @@ Mer om [Instans/Copyrightår](https://libris.kb.se/katalogisering/help/workflow-
 
 ##### Identifikator
 **(ISBN)**
+
 ![Identifikator](monografi_identifikator.png)
 
 Mer om [Instans/Identifikator](https://libris.kb.se/katalogisering/help/workflow-instance)  
