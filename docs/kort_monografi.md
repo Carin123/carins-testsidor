@@ -40,31 +40,31 @@ För att lägga till egenskaper under Instans, klicka på plustecknet i redigeri
 Se [Instans/Titel](https://libris.kb.se/katalogisering/help/workflow-instance)
 
 #### Upphovsuppgift
-Se Instans/Upphovsuppgift
+Se [Instans/Upphovsuppgift](https://libris.kb.se/katalogisering/help/workflow-instance)
 
 #### Upplageuppgift
-Se Instans/Upplageuppgift
+Se [Instans/Upplageuppgift](https://libris.kb.se/katalogisering/help/workflow-instance)
 
 #### Utgivning
-Se Instans/Utgivning
+Se [Instans/Utgivning](https://libris.kb.se/katalogisering/help/workflow-instance)
 
 #### Tillverkning
-Se Instans/Tillverkning
+Se [Instans/Tillverkning](https://libris.kb.se/katalogisering/help/workflow-instance)
 
 #### Copyrightår
-Se Instans/Copyrightår
+Se [Instans/Copyrightår](https://libris.kb.se/katalogisering/help/workflow-instance)
 
 #### Identifikator (ISBN)
-Se Instans/Identifikator
+Se [Instans/Identifikator](https://libris.kb.se/katalogisering/help/workflow-instance)
 
 #### Omfång
-Se Instans/Omfång
+Se [Instans/Omfång](https://libris.kb.se/katalogisering/help/workflow-instance)
 
 #### Övriga fysiska detaljer
-Se Instans/Övriga fysiska detaljer
+Se [Instans/Övriga fysiska detaljer](https://libris.kb.se/katalogisering/help/workflow-instance)
 
 #### Seriemedlemskap
-Se Instans/Seriemedlemskap  
+Se [Instans/Seriemedlemskap](https://libris.kb.se/katalogisering/help/workflow-instance)
 
 ##### Författarserie
 * Seriemedlemskap/Ingår i serie/Instans/Instans av Verk/Verk/Har titel/Titel/Huvudtitel  
