@@ -169,12 +169,12 @@ Genre/form (saogf-term): Lämpliga saogf-termer.
 Se även [Svenska ämnesords översikt över Allmänna genreform-termer](http://www.kb.se/katalogisering/Svenska-amnesord/genrer-form/Allmanna-genreformtermer/).  
 Litterär genre (008): Ej skönlitterärt verk  
 
-**Festskrift**
+**Festskrift**  
 Genre/form (saogf-term): Festskrifter  
 Festskrift (008): Ja, resursen är en festskrift  
 Litterär genre (008): Ej skönlitterärt verk  
 
-**Akademisk avhandling**
+**Akademisk avhandling**  
 Genre/form (saogf-term): Avhandlingar  
 Innehåll: Avhandling
 
@@ -182,7 +182,7 @@ Innehåll: Avhandling
 Se [Verk/Klassifikation](https://libris.kb.se/katalogisering/help/workflow-work).
 
 #### Amne
-Se Se [Verk/Ämne](https://libris.kb.se/katalogisering/help/workflow-work).
+Se [Verk/Ämne](https://libris.kb.se/katalogisering/help/workflow-work).
 
 #### Malgrupp
 Ange Målgrupp via länkning till entitet (motsvarar marc 008/22), se [Verk/Malgrupp](https://libris.kb.se/katalogisering/help/workflow-work).  
@@ -197,12 +197,6 @@ För att lägga till ytterligare innehållstyp, till exempel "sti" = stillbild f
 
 #### Anmarkning om akademisk avhandling    
 Se Verk/Anmarkning om akademisk avhandling.  
-
- 
-
-GENRER: KODNING: AKADEMISK AVHANDLING, FESTSKRIFT, LITTERÄR GENRE MM  
-ANMÄRKNING OM AVHANDLING
-
 
 
   
