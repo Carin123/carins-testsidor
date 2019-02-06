@@ -293,7 +293,7 @@ Klicka sedan på plustecknet vid DDK-klassifikation (sekundär) (Lägg till ddk-
  * Målgrupp (intendedAudience = 008/22)  
   Länka till entitet.    
   ```Exempel: j (= barn- och ungdom, 0-16 år)```  
- Målgruppsanmärkning (Målgrupp/Målgrupp/Benämning) ligger under [Instans](https://libris.kb.se/katalogisering/help/workflow-instance).  
+  För att lägga till Målgruppsanmärkning (Målgrupp/Målgrupp/Benämning, se [Instans](https://libris.kb.se/katalogisering/help/workflow-instance).  
   
 #### Innehallstyp
 * Innehållstyp/Innehållstyp (contentType/ContentType = 336 ‡b)   
