@@ -170,12 +170,12 @@ Se även [Svenska ämnesords översikt över Allmänna genreform-termer](http://
 Litterär genre (008): Ej skönlitterärt verk  
 
 **Festskrift**
-Genre/form (saogf-term): Festskrifter
-Festskrift (008): Ja, resursen är en festskrift
+Genre/form (saogf-term): Festskrifter  
+Festskrift (008): Ja, resursen är en festskrift  
 Litterär genre (008): Ej skönlitterärt verk  
 
 **Akademisk avhandling**
-Genre/form (saogf-term): Avhandlingar
+Genre/form (saogf-term): Avhandlingar  
 Innehåll: Avhandling
 
 #### Klassifikation
