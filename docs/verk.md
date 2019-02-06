@@ -293,10 +293,9 @@ Klicka sedan på plustecknet vid DDK-klassifikation (sekundär) (Lägg till ddk-
  * Målgrupp (intendedAudience = 008/22)
   <br/>```Exempel:```
   * ```Barn och ungdom (0-16 år) (008/22: j)```
-  * ```Barn (ca 10-12 år)/Läromedel (008/22: c).```
+  * ```Barn (ca 10-12 år)/Läromedel (008/22: c)```
   Normalvärde för alla läromedel avsedda för skolbruk (till och med gymnasiet).
   Länka till entitet.    
-  ```Exempel: j (= barn- och ungdom, 0-16 år)```  
   För att lägga till Målgruppsanmärkning (Målgrupp/Målgrupp/Benämning), se [Instans](https://libris.kb.se/katalogisering/help/workflow-instance).  
 
   
