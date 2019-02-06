@@ -290,13 +290,9 @@ Klicka sedan på plustecknet vid DDK-klassifikation (sekundär) (Lägg till ddk-
   I undantagsfall, skapa lokal entitet.  
  
 #### Malgrupp     
- * Målgrupp (intendedAudience = 008/22)
+* Målgrupp (intendedAudience = 008/22)
  För att lägga in flera sigler, använd gärna Duplicera entitet och skriv in nästa sigel i den duplicerade entiteten.
- <br/>```Exempel:```
-  * ```NB```
-  * ```SAMB```
-  test test
- <br/>```Exempel:```
+<br/>```Exempel:```
   * ```Barn och ungdom (0-16 år) (008/22: j)```
   * ```Barn (ca 10-12 år)/Läromedel (008/22: c)```
   Normalvärde för alla läromedel avsedda för skolbruk (till och med gymnasiet).  
