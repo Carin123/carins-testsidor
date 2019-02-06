@@ -77,35 +77,35 @@ För att lägga till egenskaper under Instans, klicka på plustecknet i redigeri
   Länka till entitet.  
   ```Exempel: nc (= volym)```
   
-##### Titel
+* Titel
 
-##### Upphovsuppgift
+* Upphovsuppgift
 
-##### Upplageuppgift
+* Upplageuppgift
 
-##### Utgivning
+* Utgivning
 
-##### Tillverkning
+* Tillverkning
 
-#### Copyrightår
+* Copyrightår
 
-##### Identifikator
+* Identifikator
 **(ISBN)**
   
 Notera att felaktigt eller ogiltigt ISBN ska anges under Indirekt identifierad av.  
 
-##### Indirekt identifierad av
+* Indirekt identifierad av
 **(Felaktigt eller ogiltigt ISBN)**
 BILD
 Felaktigt eller ogiltigt ISBN ska anges här.  
 
-##### Omfång
+* Omfång
 
-##### Övriga fysiska detaljer
+* Övriga fysiska detaljer
 
-##### Seriemedlemskap
+* Seriemedlemskap
 
-##### Författarserie
+** Författarserie
 * Seriemedlemskap/Ingår i serie/Instans/Instans av Verk/Verk/Har titel/Titel/Huvudtitel  
 (seriesMembership/inSeries/Instance/InstanceOf/Work/hasTitle/Title/mainTitle = 800 ‡t)  
   ```Exempel: Millenium```   
