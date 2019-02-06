@@ -47,9 +47,10 @@ För instruktioner om att lägga till eller ta bort egenskap, länka till entite
 
 Se även [instruktionsfilmer](https://www.youtube.com/playlist?list=PLZVkEICvA5-GRT2oJQmLgq_2Pksx6zYPy)  
 
-### Checklista
+### Checklista och exempel
 
-Använd gärna Berika från mall för lägga till de vanligaste egenskaperna. Välj att berika från mallen Bok. 
+Använd gärna Berika från mall för lägga till de vanligaste egenskaperna. Välj att berika från mallen Bok. Använd denna checklista för att få en överblick över dessa egenskaper.    
+Läs sedan de mer detaljerade anvisningarna för olika avsnitt under Adminmetadata, Instans och Verk.  
 
 #### Adminmetadata
 * Kontrollera beskrivningsnivån. Är nivån CIP-post eller preliminär post, ändra till annan nivå, annars kan ändringar skrivas över.  
@@ -78,15 +79,19 @@ För att lägga till egenskaper under Instans, klicka på plustecknet i redigeri
   
 ##### Titel
 Se [Instans/Titel](https://libris.kb.se/katalogisering/help/workflow-instance)
+![Titel](monografi_titel.png) 
 
 ##### Upphovsuppgift
 Se [Instans/Upphovsuppgift](https://libris.kb.se/katalogisering/help/workflow-instance)
+![Upphovsuppgift](monografi_upphovsuppgift.png) 
 
 ##### Upplageuppgift
 Se [Instans/Upplageuppgift](https://libris.kb.se/katalogisering/help/workflow-instance)
+![Upplageuppgift](monografi_upplageuppgift.png)
 
 ##### Utgivning
 Se [Instans/Utgivning](https://libris.kb.se/katalogisering/help/workflow-instance)
+![Utgivning](monografi_utgivning.png)
 
 ##### Tillverkning
 Se [Instans/Tillverkning](https://libris.kb.se/katalogisering/help/workflow-instance)
@@ -96,10 +101,11 @@ Se [Instans/Copyrightår](https://libris.kb.se/katalogisering/help/workflow-inst
 
 ##### Identifikator (ISBN)
 Se [Instans/Identifikator](https://libris.kb.se/katalogisering/help/workflow-instance)
-Notera att felaktigt eller ogiltigt ISBN ska anges under 
+Notera att felaktigt eller ogiltigt ISBN ska anges under XXXXXXXXXXXXXXXXXX
 
 ##### Omfång
 Se [Instans/Omfång](https://libris.kb.se/katalogisering/help/workflow-instance)
+![Omfång](monografi_omfang.png)
 
 ##### Övriga fysiska detaljer
 Se [Instans/Övriga fysiska detaljer](https://libris.kb.se/katalogisering/help/workflow-instance)
