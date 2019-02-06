@@ -49,7 +49,9 @@ Se även [instruktionsfilmer](https://www.youtube.com/playlist?list=PLZVkEICvA5-
 
 | STARTGUIDE | 
 | ----------- | 
-| Börja med att kontrollera Adminmetadata. Om Beskrivningsnivå är CIP-post eller preliminär nivå, uppgradera till annan nivå.  |
+| * Kontrollera Adminmetadata. Om Beskrivningsnivå är CIP-post eller preliminär nivå, uppgradera till annan nivå.
+  * sedan
+  * sedan |
 
 ### Instans
 För att lägga till egenskaper under Instans, klicka på plustecknet i redigeringsvyn (den stora runda plusikonen under Verktygsikonen - Lägg till egenskaper under: Instans). Sök fram egenskapen och välj den genom att klicka på plustecknet vid egenskapens namn.  
@@ -202,14 +204,3 @@ För att lägga till ytterligare innehållstyp, till exempel "sti" = stillbild f
 
 #### Anmarkning om akademisk avhandling    
 Se [Verk/Anmärkning om akademisk avhandling](https://libris.kb.se/katalogisering/help/workflow-work). 
-
-
-### LITEN INTRODUKTIONSGUIDE
-- för dig som är ny
-
-|Börja här|
-|------|
-|1. Se våra instruktionsfilmer|
-|2. Läs hjälptexterna |
-
-
