@@ -10,7 +10,11 @@ tags:
 
 ## Tryckt monografi - bok
 
-Beskrivningen av en tryckt monografi innefattar en beskrivning av instansen (kan också kallas utgåvan, upplagan, manifestationen) och en beskrivning av det verk som instansen är en instans av. Till varje beskrivning av instans och verk hör adminmetadata (administrativ data om beskrivningen).  
+Beskrivningen av en tryckt monografi innehåller:  
+* en beskrivning av instansen (kan också kallas utgåvan, upplagan, manifestationen)
+* en beskrivning av det verk som instansen är en instans av. Denna beskrivning ligger under rubriken Instans av verk. Vi har ännu inte börjat bryta ut verksbeskrivningarna till egna länkade entiteter.  
+* adminmetadata (administrativ data om beskrivningen) om instansbeskrivningen  
+Läs mer om [Verk och Instans](https://librisbloggen.kb.se/2018/05/30/verk-och-instans-i-startversionen/).  
 
 För mer utförlig information om de egenskaper som anges, se [Adminmetadata](https://libris.kb.se/katalogisering/help/adminmetadata), [Instans](https://libris.kb.se/katalogisering/help/instance) och [Verk](https://libris.kb.se/katalogisering/help/work). Här nedan listas egenskaperna i korthet.  
 
@@ -18,6 +22,30 @@ För instruktioner om att lägga till eller ta bort egenskap, länka till entite
 
 Se även [instruktionsfilmer](https://www.youtube.com/playlist?list=PLZVkEICvA5-GRT2oJQmLgq_2Pksx6zYPy) 
 
+
+### Innehåll  
+
+| [Adminmetadata](#adminmetadata) | [Instans](#instans) | [Verk](#verk) | 
+| ------ | ----------- |  ----------- |
+| [Kontrollnummer](#kontrollnummer) | [Utgivningssätt](#utgivningssatt) | [Verkets titel](#verkets-titel) |
+| [Skapad av](#skapad-av) | [Medietyp](#medietyp) | [Medverkan och funktion](#medverkan-och-funktion) |
+| [Uppgraderad  eller importerad av](#uppgraderad-eller-importerad-av) | [Bärartyp](#barartyp) | [Språk](#sprak) |
+| [Entry map](#entry-map) | [Titel](#titel) | [Genre](#genre) |
+| [Katalogiserande instans](#katalogiserande-instans) | [Upphovsuppgift](#upphovsuppgift) |[Klassifikation](#klassifikation) |
+| [Poststatus](#poststatus) | [Upplageuppgift](#upplageuppgift) | [Ämne](#amne) |
+| [Translitterering](#translitterering) | [Utgivning](#utgivning) | [Målgrupp](#malgrupp) |
+| [Systemnummer](#systemnummer) | [Tillverkning](#tillverkning) | [Innehållstyp](#innehallstyp) |
+| [Katalogiseringsspråk](#katalogiseringssprak) | [Copyrightår](#copyrightar) | [Sammanfattning av innehåll](#sammanfattning-av-innehall) |
+|  [Katalogiseringsregler](#katalogiseringsregler) | [Identifikator](#identifikator) | [Anmärkning om akademisk avhandling](#anmarkning-om-akademisk-avhandling) |
+| [Beskrivningsnivå](#beskrivningsniva) | [Omfång](#omfang) | |
+| [Bibliografikod](#bibliografikod) | [Övriga fysiska detaljer](#ovriga-fysiska-detaljer) | |
+| [Systemteknisk anmärkning](#systemteknisk-anmarkning) | [Mått](#matt) | | 
+| | [Bilagor](#bilagor) | | 
+| | [Seriemedlemskap](#seriemedlemskap) | | 
+| | [Anmärkning](#anmarkning) | | 
+| | [Innehållsanmärkning](#innehallsanmarkning) | |
+| | [Målgruppsanmärkning](#malgruppsanmarkning) | |
+| | [Annat bärarformat](#annat-bararformat) | |
 ### Instans
 För att lägga till egenskaper under Instans, klicka på plustecknet i redigeringsvyn (den stora runda plusikonen under Verktygsikonen - Lägg till egenskaper under: Instans). Sök fram egenskapen och välj den genom att klicka på plustecknet vid egenskapens namn.  
 
@@ -148,7 +176,8 @@ Se [Verk/Klassifikation](https://libris.kb.se/katalogisering/help/workflow-work)
 Se Se [Verk/Ämne](https://libris.kb.se/katalogisering/help/workflow-work).
 
 #### Malgrupp
-Se [Verk/Malgrupp](https://libris.kb.se/katalogisering/help/workflow-work).
+Ange Målgrupp via länkning till entitet (motsvarar marc 008/22), se [Verk/Malgrupp](https://libris.kb.se/katalogisering/help/workflow-work).
+Ange Målgruppsanmärkning (Målgrupp/Målgrupp/Benämning), se [Instans/Malgrupp](https://libris.kb.se/katalogisering/help/workflow-instance).
 
 #### Innehallstyp
 * Innehållstyp/Innehållstyp (contentType/ContentType = 336 ‡b)   
