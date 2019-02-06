@@ -78,19 +78,19 @@ För att lägga till egenskaper under Instans, klicka på plustecknet i redigeri
   ```Exempel: nc (= volym)```
   
 ##### Titel
-Se [Instans/Titel](https://libris.kb.se/katalogisering/help/workflow-instance)
 ![Titel](monografi_titel.png) 
+Se [Instans/Titel](https://libris.kb.se/katalogisering/help/workflow-instance)  
 
 ##### Upphovsuppgift
-Se [Instans/Upphovsuppgift](https://libris.kb.se/katalogisering/help/workflow-instance)
 ![Upphovsuppgift](monografi_upphovsuppgift.png) 
+Se [Instans/Upphovsuppgift](https://libris.kb.se/katalogisering/help/workflow-instance) 
 
 ##### Upplageuppgift
 Se [Instans/Upplageuppgift](https://libris.kb.se/katalogisering/help/workflow-instance)
 
 ##### Utgivning
-Se [Instans/Utgivning](https://libris.kb.se/katalogisering/help/workflow-instance)
 ![Utgivning](monografi_utgivning.png)
+Se [Instans/Utgivning](https://libris.kb.se/katalogisering/help/workflow-instance)
 
 ##### Tillverkning
 Se [Instans/Tillverkning](https://libris.kb.se/katalogisering/help/workflow-instance)
@@ -98,14 +98,21 @@ Se [Instans/Tillverkning](https://libris.kb.se/katalogisering/help/workflow-inst
 #### Copyrightår
 Se [Instans/Copyrightår](https://libris.kb.se/katalogisering/help/workflow-instance)
 
-##### Identifikator (ISBN)
-Se [Instans/Identifikator](https://libris.kb.se/katalogisering/help/workflow-instance)
-Notera att felaktigt eller ogiltigt ISBN ska anges under XXXXXXXXXXXXXXXXXX
+##### Identifikator
+**(ISBN)**
 ![Utgivning](monografi_identifikator.png)
 
+Se [Instans/Identifikator](https://libris.kb.se/katalogisering/help/workflow-instance)
+Notera att felaktigt eller ogiltigt ISBN ska anges under Indirekt identifierad av.  
+
+##### Indirekt identifierad av
+**(Felaktigt eller ogiltigt ISBN)**
+BILD
+Felaktigt eller ogiltigt ISBN ska anges här.  
+
 ##### Omfång
-Se [Instans/Omfång](https://libris.kb.se/katalogisering/help/workflow-instance)
 ![Omfång](monografi_omfang.png)
+Se [Instans/Omfång](https://libris.kb.se/katalogisering/help/workflow-instance)
 
 ##### Övriga fysiska detaljer
 Se [Instans/Övriga fysiska detaljer](https://libris.kb.se/katalogisering/help/workflow-instance)
