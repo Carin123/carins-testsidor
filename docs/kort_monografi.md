@@ -78,16 +78,12 @@ För att lägga till egenskaper under Instans, klicka på plustecknet i redigeri
   ```Exempel: nc (= volym)```
   
 ##### Titel
-![Titel](monografi_titel.png) 
-
 
 ##### Upphovsuppgift
-![Upphovsuppgift](monografi_upphov.png)  
 
 ##### Upplageuppgift
 
 ##### Utgivning
-![Utgivning](monografi_utgivning.png)
 
 ##### Tillverkning
 
@@ -95,8 +91,6 @@ För att lägga till egenskaper under Instans, klicka på plustecknet i redigeri
 
 ##### Identifikator
 **(ISBN)**
-
-![Identifikator](monografi_identifikator.png)
   
 Notera att felaktigt eller ogiltigt ISBN ska anges under Indirekt identifierad av.  
 
@@ -106,7 +100,6 @@ BILD
 Felaktigt eller ogiltigt ISBN ska anges här.  
 
 ##### Omfång
-![Omfång](monografi_omfang.png)
 
 ##### Övriga fysiska detaljer
 
