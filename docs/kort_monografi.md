@@ -14,7 +14,6 @@ Beskrivningen av en tryckt monografi innehåller:
 * adminmetadata (administrativ data om beskrivningen) om instansbeskrivningen  
 * en beskrivning av instansen (kan också kallas utgåvan, upplagan, manifestationen)
 * en beskrivning av det verk som instansen är en instans av. Denna beskrivning ligger under rubriken Instans av verk. Vi har ännu inte börjat bryta ut verksbeskrivningarna till egna länkade entiteter.  
-
 Läs mer om [Verk och Instans](https://librisbloggen.kb.se/2018/05/30/verk-och-instans-i-startversionen/).  
 
 För mer utförlig information om de egenskaper som anges, se [Adminmetadata](https://libris.kb.se/katalogisering/help/adminmetadata), [Instans](https://libris.kb.se/katalogisering/help/instance) och [Verk](https://libris.kb.se/katalogisering/help/work). Här nedan listas egenskaperna i korthet.  
