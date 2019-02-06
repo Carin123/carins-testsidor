@@ -12,7 +12,7 @@ tags:
 
 ### Innehåll  
 
-| Introduktion  | | |
+| Introduktion | | |
 | [Adminmetadata](#adminmetadata) | [Instans](#instans) | [Verk](#verk) | 
 | ------ | ----------- |  ----------- |
 | [Kontrollnummer](#kontrollnummer) | [Utgivningssätt](#utgivningssatt) | [Verkets titel](#verkets-titel) |
