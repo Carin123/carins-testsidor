@@ -12,10 +12,9 @@ tags:
 
 ### Innehåll  
 
-Introduktion 
-
-| [Adminmetadata](#adminmetadata) | [Instans](#instans) | [Verk](#verk) | 
+| Introduktion | | |
 | ------ | ----------- |  ----------- |
+| [Adminmetadata](#adminmetadata) | [Instans](#instans) | [Verk](#verk) | 
 | [Kontrollnummer](#kontrollnummer) | [Utgivningssätt](#utgivningssatt) | [Verkets titel](#verkets-titel) |
 | [Skapad av](#skapad-av) | [Medietyp](#medietyp) | [Medverkan och funktion](#medverkan-och-funktion) |
 | [Uppgraderad  eller importerad av](#uppgraderad-eller-importerad-av) | [Bärartyp](#barartyp) | [Språk](#sprak) |
