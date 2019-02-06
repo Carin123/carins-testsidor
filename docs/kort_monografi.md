@@ -47,58 +47,64 @@ För instruktioner om att lägga till eller ta bort egenskap, länka till entite
 
 Se även [instruktionsfilmer](https://www.youtube.com/playlist?list=PLZVkEICvA5-GRT2oJQmLgq_2Pksx6zYPy)  
 
-| STARTGUIDE | 
-| ----------- | 
-| * Kontrollera Adminmetadata. Om Beskrivningsnivå är CIP-post eller preliminär nivå, uppgradera till annan nivå.
-  * sedan
-  * sedan |
+### Checklista
 
-### Instans
+Använd gärna Berika från mall för lägga till de vanligaste egenskaperna. Välj att berika från mallen Bok. 
+
+#### Adminmetadata
+* Kontrollera beskrivningsnivån. Är nivån CIP-post eller preliminär post, ändra till annan nivå, annars kan ändringar skrivas över.  
+* Om nivån uppgraderas eller vid postimport, lägg till Uppgraderad eller importerad av.
+* Kontrollera Katalogiseringsregler och Katalogiseringsspråk.
+* Kontrollera övriga uppgifter under Adminmetadata, [Adminmetadata](https://libris.kb.se/katalogisering/help/workflow-adminmetadata).
+
+
+#### Instans
 För att lägga till egenskaper under Instans, klicka på plustecknet i redigeringsvyn (den stora runda plusikonen under Verktygsikonen - Lägg till egenskaper under: Instans). Sök fram egenskapen och välj den genom att klicka på plustecknet vid egenskapens namn.  
 
-#### Utgivningssatt
+##### Utgivningssatt
 * Utgivningssätt (issuanceType)   
   Välj från lista.  
   ```Exempel: Monografisk resurs```
   
-#### Medietyp
+##### Medietyp
 * Medietyp (mediaType/Mediatype = 337 ‡b)  
   Länka till entitet.  
   ```Exempel: n (= omedierad)```
   
-#### Barartyp
+##### Barartyp
 * Bärartyp (carrierType/CarrierType = 338 ‡b)  
   Länka till entitet.  
   ```Exempel: nc (= volym)```
   
-#### Titel
+##### Titel
 Se [Instans/Titel](https://libris.kb.se/katalogisering/help/workflow-instance)
 
-#### Upphovsuppgift
+##### Upphovsuppgift
 Se [Instans/Upphovsuppgift](https://libris.kb.se/katalogisering/help/workflow-instance)
 
-#### Upplageuppgift
+##### Upplageuppgift
 Se [Instans/Upplageuppgift](https://libris.kb.se/katalogisering/help/workflow-instance)
 
-#### Utgivning
+##### Utgivning
 Se [Instans/Utgivning](https://libris.kb.se/katalogisering/help/workflow-instance)
 
-#### Tillverkning
+##### Tillverkning
 Se [Instans/Tillverkning](https://libris.kb.se/katalogisering/help/workflow-instance)
 
 #### Copyrightår
 Se [Instans/Copyrightår](https://libris.kb.se/katalogisering/help/workflow-instance)
 
-#### Identifikator (ISBN)
+##### Identifikator (ISBN)
 Se [Instans/Identifikator](https://libris.kb.se/katalogisering/help/workflow-instance)
+Notera att felaktigt eller ogiltigt ISBN ska anges under 
 
-#### Omfång
+##### Omfång
 Se [Instans/Omfång](https://libris.kb.se/katalogisering/help/workflow-instance)
 
-#### Övriga fysiska detaljer
+##### Övriga fysiska detaljer
 Se [Instans/Övriga fysiska detaljer](https://libris.kb.se/katalogisering/help/workflow-instance)
 
-#### Seriemedlemskap
+##### Seriemedlemskap
 Se [Instans/Seriemedlemskap](https://libris.kb.se/katalogisering/help/workflow-instance)
 
 ##### Författarserie
@@ -116,27 +122,27 @@ Följ dessa instruktioner:
   Skriv in uppgiften.  
   ```Exempel: 1```  
   
-### Verk
+#### Verk
 
 Se Verk.
 
-#### Instans av verk
+##### Instans av verk
 * Instans av verk/Text (instanceOf/Work/Text)  
 För en tryckt monografi är verkstypen Text.  
 
-#### Verkets titel 
+##### Verkets titel 
 Se [Verk/Titel](https://libris.kb.se/katalogisering/help/workflow-work).
 
-#### Medverkan och funktion
+##### Medverkan och funktion
 Se [Verk/Medverkan och funktion](https://libris.kb.se/katalogisering/help/workflow-work).
 
-#### Sprak
+##### Sprak
 Se [Verk/Språk](https://libris.kb.se/katalogisering/help/workflow-work).
 
-#### Genre
+##### Genre
 Se [Verk/Genre/form](https://libris.kb.se/katalogisering/help/workflow-work).
 
-##### Exempel på användning av Genre/form
+###### Exempel på användning av Genre/form
 Under Genre/form, ange dels saogf-termer (genre/form-termer enligt Svenska ämnesord), dels termer som motsvarar marc-koder i 008.  
 För att länka till saogf-termer, välj Genre/form i listan (det första alternativet under Alla).  
 För att länka till termer som motsvarar marc-koder i 008, se övriga rubriker. De vanligaste finns under rubriken Föreslagna.  
@@ -185,22 +191,22 @@ Litterär genre (008): Ej skönlitterärt verk
 Genre/form (saogf-term): Avhandlingar  
 Innehåll: Avhandling
 
-#### Klassifikation
+##### Klassifikation
 Se [Verk/Klassifikation](https://libris.kb.se/katalogisering/help/workflow-work).
 
-#### Amne
+##### Amne
 Se [Verk/Ämne](https://libris.kb.se/katalogisering/help/workflow-work).
 
-#### Malgrupp
+##### Malgrupp
 Ange Målgrupp via länkning till entitet (motsvarar marc 008/22), se [Verk/Malgrupp](https://libris.kb.se/katalogisering/help/workflow-work).  
 Ange Målgruppsanmärkning (Målgrupp/Målgrupp/Benämning), se [Instans/Malgrupp](https://libris.kb.se/katalogisering/help/workflow-instance).
 
-#### Innehallstyp
+##### Innehallstyp
 * Innehållstyp/Innehållstyp (contentType/ContentType = 336 ‡b)   
   Länka till entitet.  
 ```Exempel: text (txt)```
 
 För att lägga till ytterligare innehållstyp, till exempel "sti" = stillbild för en bilderbok med både text och bild, lägg till Har del under Instans av verk. Skapa Verk som lokal entitet. Välj Skapa lokal entitet och välj därefter ++ Verk i listan. Lägg till Innehållstyp under Verk. Sök fram och länka till entitet.  
 
-#### Anmarkning om akademisk avhandling    
+##### Anmarkning om akademisk avhandling    
 Se [Verk/Anmärkning om akademisk avhandling](https://libris.kb.se/katalogisering/help/workflow-work). 
