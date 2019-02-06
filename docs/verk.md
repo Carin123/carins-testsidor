@@ -189,7 +189,7 @@ Se Sammanfattning av innehåll
      
 ##### Akademisk avhandling      
 * Genre/form – akademisk avhandling (genreForm = 008/24-27)  
-  Välj Innehåll 1, Innehåll 3, Innehåll 2, i listan över typer. Skriv "avhandling" i sökrutan. Länka till entitet.      
+  Välj Innehåll, i listan över typer. Skriv "avhandling" i sökrutan. Länka till entitet.      
   ```Exempel: Akademisk avhandling```  
 
 #### Klassifikation  
