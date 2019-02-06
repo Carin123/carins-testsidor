@@ -83,7 +83,7 @@ För att lägga till egenskaper under Instans, klicka på plustecknet i redigeri
 Mer om Titel: [Instans/Titel](https://libris.kb.se/katalogisering/help/workflow-instance)  
 
 ##### Upphovsuppgift
-![Upphovsuppgift](monografi_upphovsuppgift.png) 
+![Upphovsuppgift](monografi_upphov.png) 
 
 Mer om Upphovsuppgift: [Instans/Upphovsuppgift](https://libris.kb.se/katalogisering/help/workflow-instance) 
 
