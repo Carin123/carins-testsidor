@@ -93,7 +93,7 @@ Mer om [Upplageuppgift](https://libris.kb.se/katalogisering/help/workflow-instan
 ##### Utgivning
 ![Utgivning](monografi_utgivning.png)
 
-Mer [Utgivning](https://libris.kb.se/katalogisering/help/workflow-instance)
+Mer om [Utgivning](https://libris.kb.se/katalogisering/help/workflow-instance)
 
 ##### Tillverkning
 Mer om [Tillverkning](https://libris.kb.se/katalogisering/help/workflow-instance)
