@@ -87,7 +87,6 @@ Se [Instans/Upphovsuppgift](https://libris.kb.se/katalogisering/help/workflow-in
 
 ##### Upplageuppgift
 Se [Instans/Upplageuppgift](https://libris.kb.se/katalogisering/help/workflow-instance)
-![Upplageuppgift](monografi_upplageuppgift.png)
 
 ##### Utgivning
 Se [Instans/Utgivning](https://libris.kb.se/katalogisering/help/workflow-instance)
@@ -102,6 +101,7 @@ Se [Instans/Copyrightår](https://libris.kb.se/katalogisering/help/workflow-inst
 ##### Identifikator (ISBN)
 Se [Instans/Identifikator](https://libris.kb.se/katalogisering/help/workflow-instance)
 Notera att felaktigt eller ogiltigt ISBN ska anges under XXXXXXXXXXXXXXXXXX
+![Utgivning](monografi_identifikator.png)
 
 ##### Omfång
 Se [Instans/Omfång](https://libris.kb.se/katalogisering/help/workflow-instance)
