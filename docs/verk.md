@@ -156,8 +156,13 @@ Se Sammanfattning av innehåll
   ```Exempel: Parallelltext på svenska och engelska```  
   Anmärkningen är under arbete och fungerar tyvärr ännu inte.  
   
-#### Genre  
- Länka till entitet. 
+#### Genre 
+Länka till entiteter. 
+Under Genre/form, ange dels saogf-termer (genre/form-termer enligt Svenska ämnesord), dels termer som motsvarar marc-koder i 008.  
+För att länka till saogf-termer, välj Genre/form i listan (det första alternativet under Alla).  
+För att länka till termer som motsvarar marc-koder i 008, se övriga rubriker. De vanligaste finns under rubriken Föreslagna.  
+![Genre exempel](genre_exempel.png)  
+
  För att söka efter entiteter inom Genre/form, klicka på plustecknet vid Genre/form (lägg till entitet). I Lägg till entitet, välj typ. Skriv in sökbegrepp. Trunkera genom att trycka på mellanslagstangenten eller med * i sökrutan. Välj entitet genom att klicka på plustecknet vid entiteten (Lägg till). Vid behov, välj ytterligare entiteter i listan. 
 
 ##### Saogf-termer  
