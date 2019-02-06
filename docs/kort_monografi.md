@@ -105,7 +105,7 @@ Mer om Copyrightår: [Instans/Copyrightår](https://libris.kb.se/katalogisering/
 **(ISBN)**
 ![Identifikator](monografi_identifikator.png)
 
-Mer om Identifikator: [Instans/Identifikator](https://libris.kb.se/katalogisering/help/workflow-instance)
+Mer om Identifikator: [Instans/Identifikator](https://libris.kb.se/katalogisering/help/workflow-instance)  
 Notera att felaktigt eller ogiltigt ISBN ska anges under Indirekt identifierad av.  
 
 ##### Indirekt identifierad av
