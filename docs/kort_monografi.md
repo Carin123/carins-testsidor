@@ -196,8 +196,4 @@ Ange Målgruppsanmärkning (Målgrupp/Målgrupp/Benämning), se [Instans/Malgrup
 För att lägga till ytterligare innehållstyp, till exempel "sti" = stillbild för en bilderbok med både text och bild, lägg till Har del under Instans av verk. Skapa Verk som lokal entitet. Välj Skapa lokal entitet och välj därefter ++ Verk i listan. Lägg till Innehållstyp under Verk. Sök fram och länka till entitet.  
 
 #### Anmarkning om akademisk avhandling    
-Se Verk/Anmarkning om akademisk avhandling.  
-
-
-  
-  
+Se [Verk/Anmärkning om akademisk avhandling](https://libris.kb.se/katalogisering/help/workflow-work).  
