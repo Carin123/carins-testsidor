@@ -157,7 +157,7 @@ Se Sammanfattning av innehåll
   Anmärkningen är under arbete och fungerar tyvärr ännu inte.  
   
 #### Genre 
-Länka till entiteter. 
+Länka till entiteter.  
 Under Genre/form, ange dels saogf-termer (genre/form-termer enligt Svenska ämnesord), dels termer som motsvarar marc-koder i 008.  
 För att länka till saogf-termer, välj Genre/form i listan (det första alternativet under Alla).  
 För att länka till termer som motsvarar marc-koder i 008, se övriga rubriker. De vanligaste finns under rubriken Föreslagna.  
