@@ -90,16 +90,16 @@ Se Verk.
 För en tryckt monografi är verkstypen Text.  
 
 #### Verkets titel 
-Se [Verk/Titel](https://libris.kb.se/katalogisering/help/workflow-instance).
+Se [Verk/Titel](https://libris.kb.se/katalogisering/help/workflow-work).
 
 #### Medverkan och funktion
-Se [Verk/Titel](https://libris.kb.se/katalogisering/help/workflow-instance).
+Se [Verk/Medverkan och funktion](https://libris.kb.se/katalogisering/help/workflow-work).
 
 #### Sprak
-Se [Verk/Titel](https://libris.kb.se/katalogisering/help/workflow-instance).
+Se [Verk/Språk](https://libris.kb.se/katalogisering/help/workflow-work).
 
 #### Genre
-Se [Verk/Titel](https://libris.kb.se/katalogisering/help/workflow-instance).
+Se [Verk/Genre/form](https://libris.kb.se/katalogisering/help/workflow-work).
 
 ##### Exempel på användning av Genre/form
 Under Genre/form, ange dels saogf-termer (genre/form-termer enligt Svenska ämnesord), dels termer som motsvarar marc-koder i 008. 
@@ -142,13 +142,13 @@ Se även [Svenska ämnesords översikt över Allmänna genreform-termer](http://
 Litterär genre (008): Ej skönlitterärt verk  
 
 #### Klassifikation
-Se Se [Verk/Klassifikation](https://libris.kb.se/katalogisering/help/workflow-instance).
+Se Se [Verk/Klassifikation](https://libris.kb.se/katalogisering/help/workflow-work).
 
 #### Amne
-Se Se [Verk/Ämne](https://libris.kb.se/katalogisering/help/workflow-instance).
+Se Se [Verk/Ämne](https://libris.kb.se/katalogisering/help/workflow-work).
 
 #### Malgrupp
-Se Se [Verk/Malgrupp](https://libris.kb.se/katalogisering/help/workflow-instance).
+Se Se [Verk/Malgrupp](https://libris.kb.se/katalogisering/help/workflow-work).
 
 #### Innehallstyp
 * Innehållstyp/Innehållstyp (contentType/ContentType = 336 ‡b)   
