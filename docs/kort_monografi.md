@@ -77,33 +77,89 @@ För att lägga till egenskaper under Instans, klicka på plustecknet i redigeri
   Länka till entitet.  
   ```Exempel: nc (= volym)```
   
-* Har titel/Titel/Huvudtitel 
-  Har titel/Titel/Övrig titelinformation
-  
-* Upphovsuppgift
+##### Titel    
+* Har titel/Titel/Huvudtitel
+* Har titel/Titel/Övrig titelinformation
 
+##### Varianttitel  
+* Har titel/Varianttitel/Huvudtitel
+
+##### Omslagstitel   
+* Har titel/Omslagstitel/Huvudtitel
+* Har titel/Omslagstitel/Övrig titelinformation
+
+ ##### Omslagstitel   
+* Har titel/Ryggtitel/Huvudtitel
+* Har titel/Ryggtitel/Övrig titelinformation 
+
+##### Delbeteckning
+* Har titel/Titel/Har del/Titeldel/Delbeteckning 
+
+##### Deltitel  
+* Har titel/Titel/Har del/Titeldel/Deltitel
+
+#### Titel - alternativ stavning
+* Relation/Relation/Entitet/Verk/Har titel/Titel/Huvudtitel 
+
+##### Parallelltitel
+* Har titel/Parallelltitel/Huvudtitel
+* Har titel/Parallelltitel/Övrig titelinformation
+
+#### Upphovsuppgift
+* Upphovsuppgift 
+
+#### Upplageuppgift
 * Upplageuppgift
 
+#### Utgivning  
 * Primär utgivning/Utgivning
-  Plats/Plats/Benämning
-  Land
-  Agent/Agent/Benämning
-  År - obligatoriskt. Får endast innehålla siffror och bokstaven u.
-  Datum - används endast när andra tecken än siffror och bokstaven ska anges.
+
+##### Utgivningsplats
+* Plats/Plats/Benämning 
+
+##### Utgivningsland  
+* Land
+
+##### Utgivarnamn
+* Agent/Agent/Benämning
+
+##### År och datum 
+* År 
+ År får endast innehålla siffror (0-9) och bokstaven u.
+ Observera att År **måste** finnas med i beskrivningen, även om Datum finns med.   
+
+* Datum
+  Datum får innehålla text och interpunktionstecken. till exempel klamrar och frågetecken.
+  Datum används endast när andra tecken än siffror och bokstaven u ska anges.
   
+* Flera år (flerbandsverk)  
+  Använd Startår och Slutår (inte År).
+  
+#### Tillverkning 
 * Tillverkning
 
+##### Tillverkningsplats (Tillverkningsort) 
+* Plats/Plats/Benämning
+
+##### Tillverkningsnamn  
+* Agent/Agent/Benämning
+
+#### Copyrightar   
 * Copyright/Copyright/Datum
 
+#### Identifikator 
 * Identifikator
-**(ISBN)**
+
+* Identifikator/ISBN
+   
+* Identifikator/ISBN/Värde
   
 Notera att felaktigt eller ogiltigt ISBN ska anges under Indirekt identifierad av.  
 
-* Indirekt identifierad av
-**(Felaktigt eller ogiltigt ISBN)**
+* Identifikator/Särskiljande tillägg 
 
-Felaktigt eller ogiltigt ISBN ska anges här.  
+* Indirekt identifierad av
+**(Felaktigt eller ogiltigt ISBN)** ska anges här. Använd inte Ogiltigt värde under Identifikator/ISBN.
 
 * Omfång
 
