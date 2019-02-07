@@ -281,14 +281,45 @@ För en översättning, ange även:
 Anmärkningen är under arbete och fungerar tyvärr ännu inte.  
 
 ##### Genre
-Se [Verk/Genre/form](https://libris.kb.se/katalogisering/help/workflow-work).
+
+* Genre/form – saogf-termer
+ Välj Genre/form i listan över typer.  
+ 
+* Genre/form – termer som motsvarar marc-koder i 008
+Välj någon av övriga rubriker i listan.
+
+##### Biografiskt material  
+* Genre/form – biografiskt material (genreForm = 008/34)  
+  Välj Biografiskt material i listan över typer. Länka till entitet.  
+  ```Exempel: a (= självbiografi)```  
+  
+##### Festskrift     
+* Genre/form – festskrift (genreForm = 008/30)  
+  Välj Festskrift i listan över typer. Länka till entitet.    
+  ```Exempel: Ja, resursen är en festskrift```    
+  
+##### Litterär genre  
+* Genre/form – litterär genre (genreForm = 008/33)  
+  Välj Litterär genre i listan över typer. Länka till entitet.  
+  ```Exempel: 0 ( = ej skönlitterärt verk)```
+   
+##### Konferenspublikation       
+* Genre/form – konferenspublikation (genreForm = 008/29)  
+  Välj Konferenspublikation i listan över typer. Länka till entitet.         
+  ```Exempel: Ja, resursen härrör från konferens```   
+     
+##### Akademisk avhandling      
+* Genre/form – akademisk avhandling (genreForm = 008/24-27)  
+  Välj Innehåll, i listan över typer. Skriv "avhandling" i sökrutan. Länka till entitet.      
+  ```Exempel: Akademisk avhandling```  
+  Se även [Anmärkning om akademisk avhandling](#anmarkning-om-akademisk-avhandling).  
+
 
 ###### Exempel på användning av Genre/form
 Under Genre/form, ange dels saogf-termer (genre/form-termer enligt Svenska ämnesord), dels termer som motsvarar marc-koder i 008.  
 För att länka till saogf-termer, välj Genre/form i listan (det första alternativet under Alla).  
 För att länka till termer som motsvarar marc-koder i 008, se övriga rubriker. De vanligaste finns under rubriken Föreslagna.  
 ![Genre exempel](genre_exempel.png)  
-
 
 **Roman**  
 Haag, Martina: Det är något som inte stämmer  
