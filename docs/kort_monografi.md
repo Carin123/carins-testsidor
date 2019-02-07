@@ -47,7 +47,7 @@ Se även [instruktionsfilmer](https://www.youtube.com/playlist?list=PLZVkEICvA5-
 | | [Annat bärarformat](#annat-bararformat) | |
 
 
-### Checklista och exempel
+### Checklista
 
 Använd gärna Berika från mall för lägga till de vanligaste egenskaperna. Välj att berika från mallen Bok. Använd denna checklista för att få en överblick över dessa egenskaper.    
 Läs sedan de mer detaljerade anvisningarna för olika avsnitt under Adminmetadata, Instans och Verk.  
