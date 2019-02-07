@@ -150,12 +150,12 @@ För att lägga till egenskaper under Instans, klicka på plustecknet i redigeri
 
 #### Identifikator 
   
-* Identifikator/ISBN/Värde
+* Identifikator/ISBN/Värde  
   Notera att felaktigt eller ogiltigt ISBN ska anges under Indirekt identifierad av.  
 
 * Identifikator/Särskiljande tillägg 
 
-* Indirekt identifierad av
+* Indirekt identifierad av  
   **(Felaktigt eller ogiltigt ISBN)** ska anges här. Använd inte Ogiltigt värde under Identifikator/ISBN.
 
 #### Omfang   
