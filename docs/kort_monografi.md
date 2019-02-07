@@ -204,6 +204,16 @@ Följ dessa instruktioner:
   Skriv in uppgiften.  
   ```Exempel: 1```  
   
+#### Anmarkning
+* Anmärkning/Anmärkning/Benämning 
+
+#### Malgruppsanmarkning  
+* Målgrupp/Målgrupp/Benämning
+
+#### Annat bararformat
+* Annat bärarformat 
+Länka till instans.
+
 #### Verk
 
 Se Verk.
