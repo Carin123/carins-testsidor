@@ -217,8 +217,6 @@ Länka till instans.
 
 #### Verk
 
-Se Verk.
-
 ##### Instans av verk
 * Instans av verk/Text (instanceOf/Work/Text)  
 För en tryckt monografi är verkstypen Text.  
@@ -363,19 +361,49 @@ Litterär genre (008): Ej skönlitterärt verk
 Genre/form (saogf-term): Avhandlingar  
 Innehåll: Avhandling
 
-##### Klassifikation
-Se [Verk/Klassifikation](https://libris.kb.se/katalogisering/help/workflow-work).
+#### Klassifikation  
+* Klassifikation/DDK-klassifikation/Kod
 
-##### Amne
-Se [Verk/Ämne](https://libris.kb.se/katalogisering/help/workflow-work).
+* Klassifikation/DDK-klassifikation/Klassifikationsupplaga
 
-##### Malgrupp
-Ange Målgrupp via länkning till entitet (motsvarar marc 008/22), se [Verk/Malgrupp](https://libris.kb.se/katalogisering/help/workflow-work).  
-Ange Målgruppsanmärkning (Målgrupp/Målgrupp/Benämning), se [Instans/Malgrupp](https://libris.kb.se/katalogisering/help/workflow-instance).
+* Parallell upplagebeteckning/Upplagespecifik upphovsuppgift
+
+##### Sekundär DDK-klassifikation 
+* DDK-klassifikation (sekundär)/Klassifikation/DDK-klassifikation/Kod 
+
+* Klassifikation/DDK-klassifikation/Klassifikationsupplaga  
+
+*  Parallell upplagebeteckning/Upplagespecifik upphovsuppgift 
+
+##### SAB-klassifikation  
+* Klassifikation/Klassifikation/Kod
+
+* Klassifikation/Termlista/Termlista/Kod
+
+* Klassifikation/Termlista/Termlista/Version
+
+#### Amne  
+* Ämne 
+
+[Länka till auktoriserat ämnesord](https://libris.kb.se/katalogisering/help/workflow-linked-entity-sh)   
+[Lägg till sammansatt men ej auktoriserat ämnesord](https://libris.kb.se/katalogisering/help/workflow-non-auth-sh)   
+[Lägg till kontrollerade men ej auktoriserade ämnesord](https://libris.kb.se/katalogisering/help/workflow-controlled-non-auth-sh)   
+[Lägg till okontrollerade ämnesord, t.ex. prel-termer i samband med ämnesordsförslag](https://libris.kb.se/katalogisering/help/workflow-uncontrolled-sh)
+
+#### Malgrupp     
+* Målgrupp (008)
+ 
+<br/>```Exempel:```
+  * ```Barn och ungdom (0-16 år) (008/22: j)```
+  Normalvärde för barn- och ungdomslitteratur.
+  
+  * ```Barn (ca 10-12 år)/Läromedel (008/22: c)```  
+  Normalvärde för läromedel avsedda för skolbruk (till och med gymnasiet).  
+
+ Målgruppsanmärkning (Målgrupp/Målgrupp/Benämning), se Instans.  
 
 ##### Innehallstyp
-* Innehållstyp/Innehållstyp (contentType/ContentType = 336 ‡b)   
-  Länka till entitet.  
+* Innehållstyp/Innehållstyp   
 ```Exempel: text (txt)```
 
 För att lägga till ytterligare innehållstyp, till exempel "sti" = stillbild för en bilderbok med både text och bild, lägg till Har del under Instans av verk. Skapa Verk som lokal entitet. Välj Skapa lokal entitet och välj därefter ++ Verk i listan. Lägg till Innehållstyp under Verk. Sök fram och länka till entitet.  
