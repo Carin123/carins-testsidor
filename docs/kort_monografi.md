@@ -53,7 +53,7 @@ Använd gärna Berika från mall för lägga till de vanligaste egenskaperna. V�
 Läs sedan de mer detaljerade anvisningarna för olika avsnitt under Adminmetadata, Instans och Verk.  
 
 #### Adminmetadata
-* Kontrollera beskrivningsnivån. Är nivån CIP-post eller preliminär post, ändra till annan nivå, annars kan ändringar skrivas över.  
+* Kontrollera beskrivningsnivån. **Är nivån CIP-post eller preliminär post, ändra till annan nivå, annars kan ändringar skrivas över!** 
 * Om nivån uppgraderas eller vid postimport, lägg till Uppgraderad eller importerad av.
 * Kontrollera Katalogiseringsregler och Katalogiseringsspråk.
 * Kontrollera övriga uppgifter under Adminmetadata, [Adminmetadata](https://libris.kb.se/katalogisering/help/workflow-adminmetadata).
