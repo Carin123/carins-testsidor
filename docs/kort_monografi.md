@@ -149,26 +149,46 @@ För att lägga till egenskaper under Instans, klicka på plustecknet i redigeri
 * Copyright/Copyright/Datum
 
 #### Identifikator 
-* Identifikator
-
-* Identifikator/ISBN
-   
-* Identifikator/ISBN/Värde
   
-Notera att felaktigt eller ogiltigt ISBN ska anges under Indirekt identifierad av.  
+* Identifikator/ISBN/Värde
+  Notera att felaktigt eller ogiltigt ISBN ska anges under Indirekt identifierad av.  
 
 * Identifikator/Särskiljande tillägg 
 
 * Indirekt identifierad av
-**(Felaktigt eller ogiltigt ISBN)** ska anges här. Använd inte Ogiltigt värde under Identifikator/ISBN.
+  **(Felaktigt eller ogiltigt ISBN)** ska anges här. Använd inte Ogiltigt värde under Identifikator/ISBN.
 
-* Omfång
+#### Omfang   
+* Omfång/Omfång/Benämning
 
+#### Ovriga fysiska detaljer   
 * Övriga fysiska detaljer
 
-* Seriemedlemskap
+#### Matt 
+* Mått/Mått/Benämning
 
-** Författarserie
+#### Bilagor
+* Tillsammans med/Instans/Benämning
+
+#### Seriemedlemskap
+* Seriemedlemskap/Seriemedlemskap/Ingår i serie 
+
+#### Seriens titel (auktoriserad sökingång för serie)  
+* Seriemedlemskap/Ingår i serie/Instans av Verk/Verk/Har titel/Titel/Huvudtitel
+
+##### ISSN  
+* Seriemedlemskap/Ingår i serie/Instans/Identifikator/ISSN/Värde
+
+##### Serieuppgift  
+* Seriemedlemskap/Serieuppgift
+
+##### Numrering inom serie  
+* Seriemedlemskap/Numrering inom serie
+
+##### Indikator för seriebiuppslag   
+* Seriemedlemskap/Indikator för seriebiuppslag
+
+##### Författarserie
 * Seriemedlemskap/Ingår i serie/Instans/Instans av Verk/Verk/Har titel/Titel/Huvudtitel  
 (seriesMembership/inSeries/Instance/InstanceOf/Work/hasTitle/Title/mainTitle = 800 ‡t)  
   ```Exempel: Millenium```   
