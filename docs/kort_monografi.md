@@ -274,12 +274,14 @@ För en översättning, ange även:
 * Anmärkning: Språk (marc:LanguageNote = 041 i1: 1)  
   Ange om resursen är/innehåller en översättning.  
   
+##### Sammanfattningsspråk  
+Se Sammanfattning av innehåll   
+
 ##### Språkanmärkning     
 * Anmärkning/Anmärkning om språk/Anmärkning: Språk/Benämning
 Anmärkningen är under arbete och fungerar tyvärr ännu inte.  
 
 ##### Genre
-
 * Genre/form – saogf-termer
  Välj Genre/form i listan över typer.  
  
@@ -406,7 +408,11 @@ Innehåll: Avhandling
 * Innehållstyp/Innehållstyp   
 ```Exempel: text (txt)```
 
-För att lägga till ytterligare innehållstyp, till exempel "sti" = stillbild för en bilderbok med både text och bild, lägg till Har del under Instans av verk. Skapa Verk som lokal entitet. Välj Skapa lokal entitet och välj därefter ++ Verk i listan. Lägg till Innehållstyp under Verk. Sök fram och länka till entitet.  
+För att lägga till ytterligare innehållstyp, till exempel "sti" = stillbild för en bilderbok med både text och bild,
+* Har del/Verk/Innehållstyp
 
-##### Anmarkning om akademisk avhandling    
-Se [Verk/Anmärkning om akademisk avhandling](https://libris.kb.se/katalogisering/help/workflow-work). 
+##### Sammanfattningsspråk  
+* Sammanfattning av innehåll/Sammanfattning/Språk
+
+#### Anmarkning om akademisk avhandling    
+* Anmärkning/Anmärkning om akademisk avhandling/Benämning
