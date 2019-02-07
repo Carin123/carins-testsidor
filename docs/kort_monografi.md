@@ -173,7 +173,7 @@ För att lägga till egenskaper under Instans, klicka på plustecknet i redigeri
 #### Seriemedlemskap
 * Seriemedlemskap/Seriemedlemskap/Ingår i serie 
 
-#### Seriens titel (auktoriserad sökingång för serie)  
+##### Seriens titel (auktoriserad sökingång för serie)  
 * Seriemedlemskap/Ingår i serie/Instans av Verk/Verk/Har titel/Titel/Huvudtitel
 
 ##### ISSN  
@@ -197,8 +197,9 @@ Lägg till Medverkan och funktion under Verk (inom Seriemedlemskap) genom att kl
 Följ dessa instruktioner:  
   [Relationer till Agent](https://libris.kb.se/katalogisering/help/workflow-agent-org-instance)  
  ```Exempel: Larsson, Stieg, 1954-2004```  
-  Vid behov, skapa ny agent, se [Skapa ny agent](https://libris.kb.se/katalogisering/help/workflow-agent-person-new). I undantagsfall, skapa lokal entitet.    
+  Vid behov, skapa ny agent, se [Skapa ny agent](https://libris.kb.se/katalogisering/help/workflow-agent-person-new). I undantagsfall, skapa lokal entitet.   
   
+##### Numrering inom serie   
 * Seriemedlemskap/Numrering inom serie (seriesMembership/seriesEnumeration = 800 ‡v)  
   Skriv in uppgiften.  
   ```Exempel: 1```  
