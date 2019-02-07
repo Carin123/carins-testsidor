@@ -47,9 +47,9 @@ Se även [instruktionsfilmer](https://www.youtube.com/playlist?list=PLZVkEICvA5-
 | | [Annat bärarformat](#annat-bararformat) | |
 
 
-### Checklista
+### Introduktion
 
-Använd gärna Berika från mall för lägga till de vanligaste egenskaperna. Välj att berika från mallen Bok. Använd denna checklista för att få en överblick över dessa egenskaper.    
+Använd gärna Berika från mall för lägga till de vanligaste egenskaperna. Välj att berika från mallen Bok. Använd denna sida för att få en överblick över dessa egenskaper.    
 Läs sedan de mer detaljerade anvisningarna för olika avsnitt under Adminmetadata, Instans och Verk.  
 
 #### Adminmetadata
@@ -209,6 +209,7 @@ Följ dessa instruktioner:
 
 #### Malgruppsanmarkning  
 * Målgrupp/Målgrupp/Benämning
+Observera att kodning av målgrupp, motsvarande 008/22, ska registreras under Instans av Verk/Genre.  
 
 #### Annat bararformat
 * Annat bärarformat 
@@ -222,14 +223,62 @@ Se Verk.
 * Instans av verk/Text (instanceOf/Work/Text)  
 För en tryckt monografi är verkstypen Text.  
 
-##### Verkets titel 
-Se [Verk/Titel](https://libris.kb.se/katalogisering/help/workflow-work).
+##### Verkets titel
+Ange den föredragna titeln för verket här, vid behov. Följ [Anvisningar för katalogisering - RDA](http://www.kb.se/rdakatalogisering/Anvisningar/Allmanna-anvisningar/Sokingangar-for-verk-och-uttryck "Anvisningar för katalogisering - RDA").  
+Ange föredragen titel för översättningar, för verk som har givits ut under olika titlar på samma språk eller när samma titel har använts för olika verk.   
+
+###### Verk med Primär medverkan
+* Har titel/Titel/Huvudtitel
+ "Originaltitel" för ett verk med Medverkan och funktion/Primär medverkan anges här.  
+
+###### Verk utan Primär medverkan
+*	Uttryck av/Verk/Har titel/Titel/Huvudtitel
+ "Originaltitel" för ett verk utan Medverkan och funktion/Primär medverkan anges här.
+ 
+#### Relationer till ingaende verk och andra verk
+
+##### Relationer till ingående verk 
+* Ing
+ående verk med Primär medverkan (700 1/2 ‡a, ǂd, ǂt)  
+  Se [Relationer till delar och verk](https://libris.kb.se/katalogisering/help/workflow-agent-relation).  
+
+* Ingående verk utan Medverkan och funktion/Primär medverkan 
+
+##### Relationer till andra verk  
+  * Relationer till andra verk med Primär medverkan
+Se [Relationer till delar och verk](https://libris.kb.se/katalogisering/help/workflow-agent-relation).
+
+*  Relationer till andra verk utan Medverkan och funktion/Primär medverkan
 
 ##### Medverkan och funktion
-Se [Verk/Medverkan och funktion](https://libris.kb.se/katalogisering/help/workflow-work).
+Följ dessa instruktioner:  
+  [Relationer till Agent](https://libris.kb.se/katalogisering/help/workflow-agent-org-instance)  
+  
+* Medverkan och funktion/Primär medverkan/Agent/Person (100)
 
-##### Sprak
-Se [Verk/Språk](https://libris.kb.se/katalogisering/help/workflow-work).
+* Medverkan och funktion/Primär medverkan/Funktion
+
+* Medverkan och funktion/Medverkan/Agent/Person (700)
+
+* Medverkan och funktion/Medverkan/Agent/Organisation 
+
+* Medverkan och funktion/Medverkan/Agent/Jurisdiktion
+
+#### Sprak 
+* Språk
+
+För att ange originalspråk för ett översatt verk, se Originalversion/Verk/Språk.  
+
+##### Översättning  
+För en översättning, ange även:  
+* Språk/Språk/Benämning 
+
+* Anmärkning: Språk (marc:LanguageNote = 041 i1: 1)  
+  Ange om resursen är/innehåller en översättning.  
+  
+##### Språkanmärkning     
+* Anmärkning/Anmärkning om språk/Anmärkning: Språk/Benämning
+Anmärkningen är under arbete och fungerar tyvärr ännu inte.  
 
 ##### Genre
 Se [Verk/Genre/form](https://libris.kb.se/katalogisering/help/workflow-work).
