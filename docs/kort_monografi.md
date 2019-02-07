@@ -129,7 +129,7 @@ För att lägga till egenskaper under Instans, klicka på plustecknet i redigeri
  År får endast innehålla siffror (0-9) och bokstaven u.
  Observera att År **måste** finnas med i beskrivningen, även om Datum finns med.   
 
-* Datum
+* Datum  
   Datum får innehålla text och interpunktionstecken. till exempel klamrar och frågetecken.
   Datum används endast när andra tecken än siffror och bokstaven u ska anges.
   
