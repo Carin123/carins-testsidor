@@ -264,8 +264,7 @@ Se [Relationer till delar och verk](https://libris.kb.se/katalogisering/help/wor
    Om det ingående verket är en översättning, lägg till Språk/Språk/Benämning under Verk.
 
 ##### Medverkan och funktion
-Följ dessa instruktioner:  
-  [Relationer till Agent](https://libris.kb.se/katalogisering/help/workflow-agent-org-instance)  
+Följ dessa instruktioner: [Relationer till Agent](https://libris.kb.se/katalogisering/help/workflow-agent-org-instance)  
   
 * Medverkan och funktion/Primär medverkan/Agent/Person (100)
 
