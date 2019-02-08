@@ -13,15 +13,16 @@ Innehåll:
 | [Adminmetadata](#adminmetadata) | [Instans](#instans) | [Verk](#verk) | 
 | ------ | ----------- |  ----------- |
 | [Skapad av](#skapad-av) | [Utgivningssätt](#utgivningssatt) | [Verkets titel](#verkets-titel) | 
-| [Uppgraderad av](#uppgraderad-av) | [Titel](#titel) | [Språk](#sprak) |
-| [Katalogiserande instans](#katalogiserande-instans) | [Upphovsuppgift](#upphovsuppgift) | [Alfabet](#alfabet) |
-| [Poststatus](#poststatus) | [Identifikator](#identifikator) | [Medverkan och funktion](#medverkan-och-funktion) |
-| [Systemnummer](#systemnummer) | [Upplageuppgift](#upplageuppgift) | [Genre](#genre) |
-| [Katalogiseringsspråk](#katalogiseringssprak) | [Utgivning](#utgivning) |[Klassifikation](#klassifikation) |
-| [Katalogiseringsregler](#katalogiseringsregler) | [Frekvens](#frekvens) | [Ämne](#amne) |
-| [Beskrivningsnivå](#beskrivningsniva) | [Numrering av seriell resurs](#numrering-av-seriell-resurs) | [Innehållstyp](#innehallstyp) |
-| [Bibliografikod](#bibliografikod) | [Omfång](#omfang) | [Länkfält - relationer under verk](#relationer-under-verk) |
-| [Systemteknisk anmärkning](#systemteknisk-anmarkning) | [Medietyp](#medietyp) | |
+| [Uppgraderad av](#uppgraderad-av) | [Nyckeltitel](#nyckeltitel)| [Språk](#sprak) |
+| [Katalogiserande instans](#katalogiserande-instans) | [Titel](#titel) | [Alfabet](#alfabet) |
+| [Poststatus](#poststatus) | [Upphovsuppgift](#upphovsuppgift) | [Medverkan och funktion](#medverkan-och-funktion) |
+| [Systemnummer](#systemnummer) | [Identifikator](#identifikator) | [Genre](#genre) |
+| [Katalogiseringsspråk](#katalogiseringssprak) | [Upplageuppgift](#upplageuppgift) |[Klassifikation](#klassifikation) |
+| [Katalogiseringsregler](#katalogiseringsregler) | [Utgivning](#utgivning) | [Ämne](#amne) |
+| [Beskrivningsnivå](#beskrivningsniva) |) [Frekvens](#frekvens) | [Innehållstyp](#innehallstyp) |
+| [Bibliografikod](#bibliografikod) | [Numrering av seriell resurs](#numrering-av-seriell-resurs) | [Länkfält - relationer under verk](#relationer-under-verk) |
+| [Systemteknisk anmärkning](#systemteknisk-anmarkning) | [Omfång](#omfang) | |
+| | [Medietyp](#medietyp) | |
 | | [Bärartyp](#barartyp) | |
 | | [Anmärkning](#anmarkning) | |
 | | [Annat bärarformat](#annat-bararformat) | |
