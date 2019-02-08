@@ -20,10 +20,8 @@ Innehåll:
 | [Katalogiseringsspråk](#katalogiseringssprak) | [Frekvens](#frekvens) | [Klassifikation](#klassifikation) |
 | [Katalogiseringsregler](#katalogiseringsregler) | [Numrering av seriell resurs](#numrering-av-seriell-resurs) | [Ämne](#amne) |
 | [Beskrivningsnivå](#beskrivningsniva) | [Omfång](#omfang) | [Innehållstyp](#innehallstyp) |
-| [Bibliografikod](#bibliografikod) | | [Länkfält - relationer under verk](#relationer-under-verk) |
-| [Systemteknisk anmärkning](#systemteknisk-anmarkning) | | |
-| | [Medietyp](#medietyp) | |
-| | [Bärartyp](#barartyp) | |
+| [Bibliografikod](#bibliografikod) | [Medietyp](#medietyp) | [Länkfält - relationer under verk](#relationer-under-verk) |
+| [Systemteknisk anmärkning](#systemteknisk-anmarkning) | [Bärartyp](#barartyp) | |
 | | [Anmärkning](#anmarkning) | |
 | | [Annat bärarformat](#annat-bararformat) | |
 
