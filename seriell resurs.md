@@ -18,9 +18,9 @@ Innehåll:
 | [Poststatus](#poststatus) | [Identifikator](#identifikator) | [Medverkan och funktion](#medverkan-och-funktion) |
 | [Systemnummer](#systemnummer) | [Utgivning](#utgivning) | [Genre](#genre) |
 | [Katalogiseringsspråk](#katalogiseringssprak) | [Frekvens](#frekvens) | [Klassifikation](#klassifikation) |
-| [Katalogiseringsregler](#katalogiseringsregler) | | [Ämne](#amne) |
-| [Beskrivningsnivå](#beskrivningsniva) | [Numrering av seriell resurs](#numrering-av-seriell-resurs) | [Innehållstyp](#innehallstyp) |
-| [Bibliografikod](#bibliografikod) | [Omfång](#omfang | [Länkfält - relationer under verk](#relationer-under-verk) |
+| [Katalogiseringsregler](#katalogiseringsregler) | [Numrering av seriell resurs](#numrering-av-seriell-resurs) | [Ämne](#amne) |
+| [Beskrivningsnivå](#beskrivningsniva) | [Omfång](#omfang) | [Innehållstyp](#innehallstyp) |
+| [Bibliografikod](#bibliografikod) | | [Länkfält - relationer under verk](#relationer-under-verk) |
 | [Systemteknisk anmärkning](#systemteknisk-anmarkning) | | |
 | | [Medietyp](#medietyp) | |
 | | [Bärartyp](#barartyp) | |
