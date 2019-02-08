@@ -53,7 +53,7 @@ Se även [instruktionsfilmer](https://www.youtube.com/playlist?list=PLZVkEICvA5-
 **Observera: Om nivån är CIP-post eller preliminär post, ändra till annan nivå, annars kan ändringar skrivas över!** 
 * Om nivån uppgraderas eller vid postimport, lägg till Uppgraderad eller importerad av.
 * Kontrollera Katalogiseringsregler och Katalogiseringsspråk.
-* Kontrollera övriga uppgifter under Adminmetadata, [Adminmetadata](https://libris.kb.se/katalogisering/help/workflow-adminmetadata).
+* Kontrollera övriga uppgifter under [Adminmetadata](https://libris.kb.se/katalogisering/help/workflow-adminmetadata).
 
 
 #### Instans
