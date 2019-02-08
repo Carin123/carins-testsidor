@@ -2,7 +2,7 @@
 section: Hjälptexter katalogisering
 title: Tryckt monografi
 order: 17
-date: 2019-02-07
+date: 2019-02-08
 tags:
 - under arbete
 - monografi
@@ -11,7 +11,7 @@ tags:
 ## Tryckt monografi - bok
 
 Beskrivningen av en tryckt monografi innehåller:  
-* adminmetadata (administrativ data om beskrivningen) om instansbeskrivningen  
+* adminmetadata (administrativ data) om instansbeskrivningen  
 * en beskrivning av instansen (kan också kallas utgåvan, upplagan, manifestationen)
 * en beskrivning av det verk som instansen är en instans av. Denna beskrivning ligger under rubriken Instans av verk. Vi har ännu inte börjat bryta ut verksbeskrivningarna till egna länkade entiteter.  
 Läs mer om [Verk och Instans](https://librisbloggen.kb.se/2018/05/30/verk-och-instans-i-startversionen/).  
