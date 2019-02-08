@@ -404,6 +404,7 @@ Innehåll: Avhandling
 
   För att lägga till ytterligare innehållstyp, till exempel "sti" = stillbild för en bilderbok med både text och bild:
 * Har del/Verk/Innehållstyp
+```Exempel: still image (sti)```
 
 ##### Sammanfattningsspråk  
 * Sammanfattning av innehåll/Sammanfattning/Språk
