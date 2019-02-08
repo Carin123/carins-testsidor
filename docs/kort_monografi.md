@@ -28,16 +28,16 @@ Se även [instruktionsfilmer](https://www.youtube.com/playlist?list=PLZVkEICvA5-
 | ----------- |  ----------- | ----------- | 
 | [Kontrollnummer](#kontrollnummer) | [Utgivningssätt](#utgivningssatt) | [Verkets titel](#verkets-titel) |
 | [Skapad av](#skapad-av) | [Medietyp](#medietyp) | [Medverkan och funktion](#medverkan-och-funktion) |
-| [Uppgraderad  eller importerad av](#uppgraderad-eller-importerad-av) | [Bärartyp](#barartyp) | [Språk](#sprak) |
-| [Entry map](#entry-map) | [Titel](#titel) | [Genre](#genre) || 
-| [Katalogiserande instans](#katalogiserande-instans) | [Upphovsuppgift](#upphovsuppgift) |[Klassifikation](#klassifikation) | 
-| [Poststatus](#poststatus) | [Upplageuppgift](#upplageuppgift) | [Ämne](#amne) |
-| [Translitterering](#translitterering) | [Utgivning](#utgivning) | [Målgrupp](#malgrupp) |
-| [Systemnummer](#systemnummer) | [Tillverkning](#tillverkning) | [Innehållstyp](#innehallstyp) | 
-| [Katalogiseringsspråk](#katalogiseringssprak) | [Copyrightår](#copyrightar) | [Sammanfattning av innehåll](#sammanfattning-av-innehall) | 
-|  [Katalogiseringsregler](#katalogiseringsregler) | [Identifikator](#identifikator) | [Anmärkning om akademisk avhandling](#anmarkning-om-akademisk-avhandling) |
+| [Uppgraderad  eller importerad av](#uppgraderad-eller-importerad-av) | [Bärartyp](#barartyp) | [Relationer till ingående verk och andra verk](#relationer-till-ingaende-verk-och-andra-verk) |
+| [Entry map](#entry-map) | [Titel](#titel) | [Språk](#sprak) |
+| [Katalogiserande instans](#katalogiserande-instans) | [Upphovsuppgift](#upphovsuppgift) | [Genre](#genre) | 
+| [Poststatus](#poststatus) | [Upplageuppgift](#upplageuppgift) | [Klassifikation](#klassifikation) |
+| [Translitterering](#translitterering) | [Utgivning](#utgivning) | [Ämne](#amne) |
+| [Systemnummer](#systemnummer) | [Tillverkning](#tillverkning) | [Målgrupp](#malgrupp) | 
+| [Katalogiseringsspråk](#katalogiseringssprak) | [Copyrightår](#copyrightar) | [Innehållstyp](#innehallstyp) | 
+|  [Katalogiseringsregler](#katalogiseringsregler) | [Identifikator](#identifikator) | [Sammanfattning av innehåll](#sammanfattning-av-innehall) |
 | [Beskrivningsnivå](#beskrivningsniva) | [Omfång](#omfang) | |
-| [Bibliografikod](#bibliografikod) | [Övriga fysiska detaljer](#ovriga-fysiska-detaljer) | |
+| [Bibliografikod](#bibliografikod) | [Övriga fysiska detaljer](#ovriga-fysiska-detaljer) | [Anmärkning om akademisk avhandling](#anmarkning-om-akademisk-avhandling) |
 | [Systemteknisk anmärkning](#systemteknisk-anmarkning) | [Mått](#matt) | |
 | | [Bilagor](#bilagor) | |
 | | [Seriemedlemskap](#seriemedlemskap) | |
