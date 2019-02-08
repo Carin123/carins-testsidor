@@ -15,13 +15,13 @@ Innehåll:
 | [Skapad av](#skapad-av) | [Utgivningssätt](#utgivningssatt) | [Verkets titel](#verkets-titel) | 
 | [Uppgraderad av](#uppgraderad-av) | [Nyckeltitel](#nyckeltitel)| [Språk](#sprak) |
 | [Katalogiserande instans](#katalogiserande-instans) | [Titel](#titel) | [Alfabet](#alfabet) |
-| [Poststatus](#poststatus) | [Upphovsuppgift](#upphovsuppgift) | [Medverkan och funktion](#medverkan-och-funktion) |
-| [Systemnummer](#systemnummer) | [Identifikator](#identifikator) | [Genre](#genre) |
-| [Katalogiseringsspråk](#katalogiseringssprak) | [Upplageuppgift](#upplageuppgift) |[Klassifikation](#klassifikation) |
-| [Katalogiseringsregler](#katalogiseringsregler) | [Utgivning](#utgivning) | [Ämne](#amne) |
-| [Beskrivningsnivå](#beskrivningsniva) | [Frekvens](#frekvens) | [Innehållstyp](#innehallstyp) |
-| [Bibliografikod](#bibliografikod) | [Numrering av seriell resurs](#numrering-av-seriell-resurs) | [Länkfält - relationer under verk](#relationer-under-verk) |
-| [Systemteknisk anmärkning](#systemteknisk-anmarkning) | [Omfång](#omfang) | |
+| [Poststatus](#poststatus) | [Identifikator](#identifikator) | [Medverkan och funktion](#medverkan-och-funktion) |
+| [Systemnummer](#systemnummer) | [Utgivning](#utgivning) | [Genre](#genre) |
+| [Katalogiseringsspråk](#katalogiseringssprak) | [Frekvens](#frekvens) | [Klassifikation](#klassifikation) |
+| [Katalogiseringsregler](#katalogiseringsregler) | | [Ämne](#amne) |
+| [Beskrivningsnivå](#beskrivningsniva) | [Numrering av seriell resurs](#numrering-av-seriell-resurs) | [Innehållstyp](#innehallstyp) |
+| [Bibliografikod](#bibliografikod) | [Omfång](#omfang | [Länkfält - relationer under verk](#relationer-under-verk) |
+| [Systemteknisk anmärkning](#systemteknisk-anmarkning) | | |
 | | [Medietyp](#medietyp) | |
 | | [Bärartyp](#barartyp) | |
 | | [Anmärkning](#anmarkning) | |
@@ -152,8 +152,7 @@ För att lägga till varianttitel, klicka på plustecknet vid Har titel (lägg t
   ```Exempel: Titel felstavad i nummer 1 (2006):```  
 * Har titel/Varianttitel/Huvudtitel (hasTitle/VariantTitle/mainTitle = 246 1/_ ‡a)  
   Skriv in uppgiften under Huvudtitel.    
-  ```Exempel: Housing sarts```  
-  
+  ```Exempel: Housing sarts```    
  
 ##### Akronymer/Del av huvudtitel  
 Används för akronymer som är en del av huvudtiteln.  
