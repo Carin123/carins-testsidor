@@ -248,7 +248,7 @@ Ange föredragen titel för översättningar, för verk som har givits ut under 
 #### Relationer till ingaende verk och andra verk
 
 ##### Relationer till ingående verk 
-* Ingående verk med Primär medverkan (700 1/2 ‡a, ǂd, ǂt)  
+* Ingående verk med Primär medverkan
   Se [Relationer till delar och verk](https://libris.kb.se/katalogisering/help/workflow-agent-relation).  
 
 * Ingående verk utan Medverkan och funktion/Primär medverkan  
