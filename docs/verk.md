@@ -29,8 +29,8 @@ I de flesta fall ska informationen delas upp i olika egenskaper (jfr fält) och 
 | [Verk](#verk) |  |  | 
 | ----------- |  ----------- |  ----------- |
 | [Verkets titel](#verkets-titel) |  | [Ämne](#amne) | 
-| [Medverkan och funktion](#medverkan-och-funktion) |  | [Målgrupp](#malgrupp) | 
-| [Relationer till ingående verk och andra verk](#relationer-till-ingaende-verk-och-andra-verk) |  | [Innehållstyp](#innehallstyp) | 
+| [Relationer till ingående verk och andra verk](#relationer-till-ingaende-verk-och-andra-verk) |  | [Målgrupp](#malgrupp) | 
+| [Medverkan och funktion](#medverkan-och-funktion) |  | [Innehållstyp](#innehallstyp) | 
 | [Språk](#sprak) |  | [Sammanfattning av innehåll](#sammanfattning-av-innehall) | 
 | [Genre](#genre) |  | [Anmärkning om akademisk avhandling](#anmarkning-om-akademisk-avhandling) | 
 | [Klassifikation](#klassifikation) |  |  | 
