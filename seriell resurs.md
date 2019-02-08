@@ -19,7 +19,7 @@ Innehåll:
 | [Systemnummer](#systemnummer) | [Identifikator](#identifikator) | [Genre](#genre) |
 | [Katalogiseringsspråk](#katalogiseringssprak) | [Upplageuppgift](#upplageuppgift) |[Klassifikation](#klassifikation) |
 | [Katalogiseringsregler](#katalogiseringsregler) | [Utgivning](#utgivning) | [Ämne](#amne) |
-| [Beskrivningsnivå](#beskrivningsniva) |) [Frekvens](#frekvens) | [Innehållstyp](#innehallstyp) |
+| [Beskrivningsnivå](#beskrivningsniva) | [Frekvens](#frekvens) | [Innehållstyp](#innehallstyp) |
 | [Bibliografikod](#bibliografikod) | [Numrering av seriell resurs](#numrering-av-seriell-resurs) | [Länkfält - relationer under verk](#relationer-under-verk) |
 | [Systemteknisk anmärkning](#systemteknisk-anmarkning) | [Omfång](#omfang) | |
 | | [Medietyp](#medietyp) | |
