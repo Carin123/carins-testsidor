@@ -145,16 +145,15 @@ Läs mer om egenskaperna under [Instans](https://libris.kb.se/katalogisering/hel
 * Tillverkning
 
 ##### Tillverkningsplats (Tillverkningsort) 
-* Plats/Plats/Benämning
+* Tillverkning/Plats/Plats/Benämning
 
 ##### Tillverkningsnamn  
-* Agent/Agent/Benämning
+* Tillverkning/Agent/Agent/Benämning
 
 #### Copyrightar   
 * Copyright/Copyright/Datum
 
 #### Identifikator 
-  
 * Identifikator/ISBN/Värde  
   Notera att felaktigt eller ogiltigt ISBN ska anges under Indirekt identifierad av.  
 
@@ -220,6 +219,7 @@ Observera att kodning av målgrupp, motsvarande 008/22, ska registreras under In
 * Annat bärarformat 
 Länka till instans.
 
+
 #### Verk
 För att lägga till egenskaper under Instans av verk, klicka på plustecknet till höger om Instans av verk och verkstypen.  
 ![Instans av verk](instansavverk.png)  
@@ -233,7 +233,6 @@ Läs mer om egenskaperna under [Verk](https://libris.kb.se/katalogisering/help/w
 ##### Instans av verk
 * Instans av verk/Text (instanceOf/Work/Text)  
 För en tryckt monografi är verkstypen Text.  
-
 
 ##### Verkets titel
 Ange den föredragna titeln för verket här, vid behov. Följ [Anvisningar för katalogisering - RDA](http://www.kb.se/rdakatalogisering/Anvisningar/Allmanna-anvisningar/Sokingangar-for-verk-och-uttryck "Anvisningar för katalogisering - RDA").  
