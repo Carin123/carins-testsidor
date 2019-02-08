@@ -137,9 +137,9 @@ Läs mer om egenskaperna under [Instans](https://libris.kb.se/katalogisering/hel
   Datum används endast när andra tecken än siffror och bokstaven u ska anges.
   
 **Flera år (flerbandsverk):**  
+Använd Startår och Slutår (inte År).
 * Primär utgivning/Utgivning/Startår  
 * Primär utgivning/Utgivning/Slutår  
-  Använd Startår och Slutår (inte År).
   
 #### Tillverkning 
 * Tillverkning
