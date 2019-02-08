@@ -36,8 +36,8 @@ Se även [instruktionsfilmer](https://www.youtube.com/playlist?list=PLZVkEICvA5-
 | [Systemnummer](#systemnummer) | [Tillverkning](#tillverkning) | [Målgrupp](#malgrupp) | 
 | [Katalogiseringsspråk](#katalogiseringssprak) | [Copyrightår](#copyrightar) | [Innehållstyp](#innehallstyp) | 
 |  [Katalogiseringsregler](#katalogiseringsregler) | [Identifikator](#identifikator) | [Sammanfattning av innehåll](#sammanfattning-av-innehall) |
-| [Beskrivningsnivå](#beskrivningsniva) | [Omfång](#omfang) | |
-| [Bibliografikod](#bibliografikod) | [Övriga fysiska detaljer](#ovriga-fysiska-detaljer) | [Anmärkning om akademisk avhandling](#anmarkning-om-akademisk-avhandling) |
+| [Beskrivningsnivå](#beskrivningsniva) | [Omfång](#omfang) | [Anmärkning om akademisk avhandling](#anmarkning-om-akademisk-avhandling) |
+| [Bibliografikod](#bibliografikod) | [Övriga fysiska detaljer](#ovriga-fysiska-detaljer) | |
 | [Systemteknisk anmärkning](#systemteknisk-anmarkning) | [Mått](#matt) | |
 | | [Bilagor](#bilagor) | |
 | | [Seriemedlemskap](#seriemedlemskap) | |
