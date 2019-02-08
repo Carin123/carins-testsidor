@@ -251,13 +251,17 @@ Ange föredragen titel för översättningar, för verk som har givits ut under 
 * Ingående verk med Primär medverkan (700 1/2 ‡a, ǂd, ǂt)  
   Se [Relationer till delar och verk](https://libris.kb.se/katalogisering/help/workflow-agent-relation).  
 
-* Ingående verk utan Medverkan och funktion/Primär medverkan 
+* Ingående verk utan Medverkan och funktion/Primär medverkan  
+  Har del/Verk/Har titel/Titel
+  Om det ingående verket är en översättning, lägg till Språk/Språk/Benämning under Verk.
 
 ##### Relationer till andra verk  
   * Relationer till andra verk med Primär medverkan
 Se [Relationer till delar och verk](https://libris.kb.se/katalogisering/help/workflow-agent-relation).
 
 *  Relationer till andra verk utan Medverkan och funktion/Primär medverkan
+   Relation/Relation/Entitet/Entitet/Verk/Har titel/Titel
+   Om det ingående verket är en översättning, lägg till Språk/Språk/Benämning under Verk.
 
 ##### Medverkan och funktion
 Följ dessa instruktioner:  
