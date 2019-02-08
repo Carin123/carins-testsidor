@@ -152,7 +152,8 @@ För översättningar i flera led, länka först till det mellanliggande språke
 Se Sammanfattning av innehåll   
   
 ##### Språkanmärkning     
-* Anmärkning/Anmärkning om språk/Anmärkning: Språk/Benämning (hasNote/marc:LanguageNote/marc:LanguageNote/label = 546 ‡a)  
+* Anmärkning/Anmärkning om språk/Anmärkning: Språk/Benämning
+(hasNote/marc:LanguageNote/marc:LanguageNote/label = 546 ‡a)  
   ```Exempel: Parallelltext på svenska och engelska```  
   Anmärkningen är under arbete och fungerar tyvärr ännu inte.  
   
