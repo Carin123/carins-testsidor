@@ -123,7 +123,7 @@ Följande anmärkningar är under arbete och fungerar ännu inte fullt ut:
 ##### Nyckeltitel
 * Har titel/Nyckeltitel/Huvudtitel (hasTitle/KeyTitle/mainTitle = 222 -/0 ‡a)  
 För svenska seriella resurser ansvarar ISSN Sverige för nyckeltiteln.  
-Skriv in uppgiften.
+Skriv in uppgiften.  
  ```Exempel:  Kammarmusik-nytt ```
   
 ##### Huvudtitel    
