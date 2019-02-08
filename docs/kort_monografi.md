@@ -56,7 +56,13 @@ Se även [instruktionsfilmer](https://www.youtube.com/playlist?list=PLZVkEICvA5-
 
 
 #### Instans
-För att lägga till egenskaper under Instans, klicka på plustecknet i redigeringsvyn (den stora runda plusikonen under Verktygsikonen - Lägg till egenskaper under: Instans). Sök fram egenskapen och välj den genom att klicka på plustecknet vid egenskapens namn.  
+För att lägga till egenskaper under Instans, klicka på plustecknet i redigeringsvyn (den stora runda plusikonen under Verktygsikonen) - Lägg till egenskaper under: Instans.  
+![Lägg till egenskap under: Instans](plusegenskapinstans.png)  
+
+Sök fram egenskapen och välj den genom att klicka på plustecknet vid egenskapens namn eller på egenskapens namn.    
+![Välj egenskap](plusegenskapinstans2.png)  
+
+Läs mer om egenskaperna under [Instans](https://libris.kb.se/katalogisering/help/instance).  
 
 ##### Utgivningssatt
 * Utgivningssätt (issuanceType)   
@@ -211,10 +217,19 @@ Observera att kodning av målgrupp, motsvarande 008/22, ska registreras under In
 Länka till instans.
 
 #### Verk
+För att lägga till egenskaper under Instans av verk, klicka på plustecknet till höger om Instans av verk och verkstypen.  
+![Instans av verk](instansavverk.png)  
+
+Sök fram egenskapen och välj den genom att klicka på plustecknet vid egenskapens namn.  
+
+![Instans av verk egenskap](instansavverkegenskap.png)  
+
+Läs mer om egenskaperna under [Verk](https://libris.kb.se/katalogisering/help/work).  
 
 ##### Instans av verk
 * Instans av verk/Text (instanceOf/Work/Text)  
 För en tryckt monografi är verkstypen Text.  
+
 
 ##### Verkets titel
 Ange den föredragna titeln för verket här, vid behov. Följ [Anvisningar för katalogisering - RDA](http://www.kb.se/rdakatalogisering/Anvisningar/Allmanna-anvisningar/Sokingangar-for-verk-och-uttryck "Anvisningar för katalogisering - RDA").  
