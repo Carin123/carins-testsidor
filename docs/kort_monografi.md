@@ -248,7 +248,7 @@ Ange föredragen titel för översättningar, för verk som har givits ut under 
 #### Relationer till ingaende verk och andra verk
 
 ##### Relationer till ingående verk 
-* Ingående verk med Primär medverkan
+* Ingående verk med Primär medverkan  
   Se [Relationer till delar och verk](https://libris.kb.se/katalogisering/help/workflow-agent-relation).  
 
 * Ingående verk utan Medverkan och funktion/Primär medverkan  
@@ -256,7 +256,7 @@ Ange föredragen titel för översättningar, för verk som har givits ut under 
   Om det ingående verket är en översättning, lägg till Språk/Språk/Benämning under Verk.
 
 ##### Relationer till andra verk  
-  * Relationer till andra verk med Primär medverkan
+  * Relationer till andra verk med Primär medverkan  
 Se [Relationer till delar och verk](https://libris.kb.se/katalogisering/help/workflow-agent-relation).
 
 *  Relationer till andra verk utan Medverkan och funktion/Primär medverkan
