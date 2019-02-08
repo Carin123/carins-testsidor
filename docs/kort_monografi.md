@@ -402,7 +402,7 @@ Innehåll: Avhandling
 * Innehållstyp/Innehållstyp   
 ```Exempel: text (txt)```
 
-För att lägga till ytterligare innehållstyp, till exempel "sti" = stillbild för en bilderbok med både text och bild,
+  För att lägga till ytterligare innehållstyp, till exempel "sti" = stillbild för en bilderbok med både text och bild:
 * Har del/Verk/Innehållstyp
 
 ##### Sammanfattningsspråk  
