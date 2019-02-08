@@ -126,15 +126,17 @@ Läs mer om egenskaperna under [Instans](https://libris.kb.se/katalogisering/hel
 * Primär utgivning/Utgivning/Agent/Agent/Benämning
 
 ##### År och datum 
+**År**
 * Primär utgivning/Utgivning/År  
  År får endast innehålla siffror (0-9) och bokstaven u.
  Observera att År **måste** finnas med i beskrivningen, även om Datum finns med.   
 
+**Datum**
 * Primär utgivning/Utgivning/Datum  
   Datum får innehålla text och interpunktionstecken. till exempel klamrar och frågetecken.
   Datum används endast när andra tecken än siffror och bokstaven u ska anges.
   
-Flera år (flerbandsverk):  
+**Flera år (flerbandsverk):**  
 * Primär utgivning/Utgivning/Startår  
 * Primär utgivning/Utgivning/Slutår  
   Använd Startår och Slutår (inte År).
