@@ -142,7 +142,6 @@ Använd Startår och Slutår (inte År).
 * Primär utgivning/Utgivning/Slutår  
   
 #### Tillverkning 
-* Tillverkning
 
 ##### Tillverkningsplats (Tillverkningsort) 
 * Tillverkning/Plats/Plats/Benämning
@@ -239,18 +238,17 @@ Ange den föredragna titeln för verket här, vid behov. Följ [Anvisningar för
 Ange föredragen titel för översättningar, för verk som har givits ut under olika titlar på samma språk eller när samma titel har använts för olika verk.   
 
 ###### Verk med Primär medverkan
-* Har titel/Titel/Huvudtitel
+* Har titel/Titel/Huvudtitel  
  "Originaltitel" för ett verk med Medverkan och funktion/Primär medverkan anges här.  
 
 ###### Verk utan Primär medverkan
-*	Uttryck av/Verk/Har titel/Titel/Huvudtitel
+*	Uttryck av/Verk/Har titel/Titel/Huvudtitel  
  "Originaltitel" för ett verk utan Medverkan och funktion/Primär medverkan anges här.
  
 #### Relationer till ingaende verk och andra verk
 
 ##### Relationer till ingående verk 
-* Ing
-ående verk med Primär medverkan (700 1/2 ‡a, ǂd, ǂt)  
+* Ingående verk med Primär medverkan (700 1/2 ‡a, ǂd, ǂt)  
   Se [Relationer till delar och verk](https://libris.kb.se/katalogisering/help/workflow-agent-relation).  
 
 * Ingående verk utan Medverkan och funktion/Primär medverkan 
