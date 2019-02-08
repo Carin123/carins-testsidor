@@ -160,7 +160,7 @@ Läs mer om egenskaperna under [Instans](https://libris.kb.se/katalogisering/hel
 * Identifikator/Särskiljande tillägg 
 
 * Indirekt identifierad av  
-  **(Felaktigt eller ogiltigt ISBN)** ska anges här. Använd inte Ogiltigt värde under Identifikator/ISBN.
+  **Felaktigt eller ogiltigt ISBN** ska anges här. Använd inte Ogiltigt värde under Identifikator/ISBN.
 
 #### Omfang   
 * Omfång/Omfång/Benämning
