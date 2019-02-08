@@ -292,14 +292,14 @@ För en översättning, ange även:
 Se Sammanfattning av innehåll   
 
 ##### Språkanmärkning     
-* Anmärkning/Anmärkning om språk/Anmärkning: Språk/Benämning
+* Anmärkning/Anmärkning om språk/Anmärkning: Språk/Benämning  
 Anmärkningen är under arbete och fungerar tyvärr ännu inte.  
 
 ##### Genre
-* Genre/form – saogf-termer
+* Genre/form – saogf-termer  
  Välj Genre/form i listan över typer.  
  
-* Genre/form – termer som motsvarar marc-koder i 008
+* Genre/form – termer som motsvarar marc-koder i 008  
 Välj någon av övriga rubriker i listan.
 
 ##### Biografiskt material  
@@ -398,7 +398,6 @@ Innehåll: Avhandling
 * Klassifikation/Termlista/Termlista/Version
 
 #### Amne  
-* Ämne 
 
 [Länka till auktoriserat ämnesord](https://libris.kb.se/katalogisering/help/workflow-linked-entity-sh)   
 [Lägg till sammansatt men ej auktoriserat ämnesord](https://libris.kb.se/katalogisering/help/workflow-non-auth-sh)   
