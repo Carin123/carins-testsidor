@@ -2,7 +2,7 @@
 section: Hjälptexter katalogisering
 title: Instans
 order: 17
-date: 2019-02-04
+date: 2019-02-08
 tags:
 - under arbete
 - instans
@@ -34,7 +34,7 @@ Se även [instruktionsfilmer](https://www.youtube.com/playlist?list=PLZVkEICvA5-
 | [Produktion](#produktion) | | [Innehållsanmärkning](#innehallsanmarkning)  | |
 | [Utgivning](#utgivning) | | [Målgruppsanmärkning](#malgruppsanmarkning) |
 | [Tillverkning](#tillverkning)| | [Annat bärarformat](#annat-bararformat) |
-| [Copyrightår](#copyrightar) | | [Annan relaterad resurs](#annan-relaterad-resurs) |
+| [Copyrightår](#copyrightar) | | [Elektronisk adress](#annan-relaterad-resurs) |
 | [Identifikator](#identifikator) | | |
 
 
@@ -422,7 +422,7 @@ OBS! Om ISSN finns i både 490 och 830 och om volymbeteckningen är angiven på 
   Skriv in allmänna anmärkningar här.  
   För att lägga till Anmärkning, välj Anmärkning (hasNote) och lägg till Anmärkning.  
   Skriv in uppgiften under Benämning.  
-   
+     
 #### Innehallsanmarkning  
 * Har innehållsförteckning/Innehållsförteckning/Benämning (tableofContents = 505 8/_)  
   För en enkel innehållsanmärkning (505 ‡a), lägg till Har innehållsförteckning. Lägg därefter till Innehållsförteckning. Skriv in uppgiften under Benämning.     
@@ -442,16 +442,34 @@ Observera att kodning av målgrupp, motsvarande 008/22, ska registreras under In
 #### Annat bararformat
 * Annat bärarformat (otherPhysicalFormat = 776)  
   För att länka till en utgåva i annat format, till exempel en elektronisk utgåva, lägg till Annat bärarformat. Sök upp och länka till instansen. Klicka på plustecknet vid Annat bärarformat (Lägg till instans). I sidorutan under Lägg till entitet/Instans, skriv in id eller annat sökbegrepp. Välj instansen genom att klicka på plustecknet vid instansen eller på instansens titel. Om instansen som länken går till har identifikator (ISBN), skapas i marcexporten 776 #t (Titel) och #z (Identifikator). I webbsök ger detta en länk i högermenyn under rubriken Sök vidare/Andra versioner.   
-* Annat bärarformat/Typanmärkning (776 ‡i)  
+* Annat bärarformat/Typanmärkning (776 ‡i)   
   Typanmärkning i samband med Annat bärarformat kan för närvarande inte läggas till.  
 * Annat bärarformat/Beskriven av/Post/Kontrollnummer (776 ‡w)  
   Beskriven av/Post/Kontrollnummer, motsvarande delfält w, är för närvarande låst för redigering. Det går därmed inte att lägga till egenskapen eller redigera den i befintliga beskrivningar.  
   
-#### Annan relaterad resurs
-* Annan relaterad resurs/Elektronisk/URI (marc:versionOfResource/Electronic/URI = 856 4/1 ‡u)   
-  För att länka till en resurs av resursen i annat format än instansbeskrivningens instanstyp, till exempel en länk till en elektronisk version av en tryckt resurs, lägg till Annan relaterad resurs. Om instansbeskrivningen gäller en elektronisk resurs (instanstyp: elektronisk), gör i första hand istället en beskrivning av den digitala resursen. Se instruktioner i hjälptexten för Digital resurs.   
-Lägg till elektronisk under Annan relaterad resurs. Välj Skapa lokal entitet. Lägg till egenskapen URI. Klistra in aktuell URI. 
- * Annan relaterad resurs/Elektronisk/Offentlig anmärkning (marc:versionOfResource/Electronic/marc:publicNote = 856 4/1 ‡z)   
+#### Elektronisk adress
+  
+##### Tillhörande media
+* Tillhörande media/Mediaobjekt/URI (associatedMedia/Mediaobject/uri = 856 4/0 ‡u) 
+Om instansbeskrivningen gäller en elektronisk resurs, använd Tillhörande media för att lägga in en elektronisk adress till resursen. Lägg till Mediaobjekt under Tillhörande media. Välj Skapa lokal entitet. Lägg till egenskapen URI. Klistra in aktuell URI.
+* Tillhörande media/Mediaobjekt/Offentlig anmärkning (marc:versionOfResource/Electronic/marc:publicNote = 856 4/0 ‡z)   
   Vid behov, lägg till Offentlig anmärkning. Skriv in anmärkningen.  
+  
+##### Relaterad beskrivning eller innehåll
+* Relaterad beskrivning eller innehåll/Dokument/URI (isPrimaryTopicOf/Dokument/uri = 856 4/2 ‡u)
+  För att lägga in en elektronisk adress till en relaterad resurs, till exempel delar, sammanfattningar (abstracts), innehållsförteckningar eller andra resurser som på något sätt hör samman med den resurs som beskrivs i instansbeskrivningen.
+  Skapa Dokument som lokal entitet under Relaterad beskrivning eller innehåll. Lägg till egenskapen URI. Klistra in aktuell URI.
+* Relaterad beskrivning eller innehåll/Dokument/Offentlig anmärkning (isPrimaryTopicOf/Dokument/marc:publicNote = 856 4/0 ‡z)   
+  Vid behov, lägg till Offentlig anmärkning. Skriv in anmärkningen. 
+  
+##### Annan relaterad resurs
+* Annan relaterad resurs/Elektronisk/URI (marc:versionOfResource/Electronic/URI = 856 4/1 ‡u)   
+  Om instansbeskrivningen gäller en tryckt resurs, använd Annat relaterad resurs för att lägga in en elektronisk adress till resursen i annat format. Lägg till elektronisk under Annan relaterad resurs. Välj Skapa lokal entitet. Lägg till egenskapen URI. Klistra in aktuell URI. 
+ * Annan relaterad resurs/Elektronisk/Offentlig anmärkning (marc:versionOfResource/Electronic/marc:publicNote = 856 4/1 ‡z)   
+  Vid behov, lägg till Offentlig anmärkning. Skriv in anmärkningen. 
+  
+  Gör i första hand en instansbeskrivning av den elektroniska resursen och använd Tillhörande media, i stället för att använda Annan relaterad resurs.  
+  
+  
  
   
