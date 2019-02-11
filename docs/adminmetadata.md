@@ -1,8 +1,8 @@
 ---
 section: Hjälptexter katalogisering
 title: Adminmetadata
-order: 16
-date: 2019-02-04
+order: 20
+date: 2019-02-11
 tags:
 - under arbete
 - adminmetadata
