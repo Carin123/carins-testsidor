@@ -1,3 +1,15 @@
+---
+section: Hjälptexter katalogisering
+title: Tryckt seriell resurs
+order: 24
+date: 2019-02-04
+tags:
+- under arbete
+- seriell resurs
+- tidskrift
+- monografiserie
+--- 
+
 ## Tryckt seriell resurs
 
 Denna hjälptext beskriver ett antal vanligt förekommande egenskaper, med utgångspunkt från exempel. För instruktioner om att länka till entitet, skapa lokal entitet och om hur formuläret fungerar i övrigt, se Redigering i vänstermenyn. För information om katalogregler, skrivregler och övriga katalogiseringsanvisningar, se [Anvisningar för katalogisering - RDA](http://www.kb.se/rdakatalogisering/Anvisningar/Arbetsfloden/Tryckta-seriella-resurser/ "Anvisningar för katalogisering - RDA").
