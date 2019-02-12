@@ -2,7 +2,7 @@
 section: Hjälptexter katalogisering
 title: Instans
 order: 22
-date: 2019-02-11
+date: 2019-02-12
 tags:
 - under arbete
 - instans
@@ -469,7 +469,3 @@ Om instansbeskrivningen gäller en elektronisk resurs, använd Tillhörande medi
    Vid behov, lägg till Offentlig anmärkning. Skriv in anmärkningen. 
   
     Gör i första hand en instansbeskrivning av den elektroniska resursen och använd Tillhörande media, i stället för att använda Annan relaterad resurs.  
-  
-  
- 
-  
