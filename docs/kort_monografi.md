@@ -18,9 +18,9 @@ tags:
 
 Beskrivningen av en tryckt monografi innehåller:  
 * adminmetadata (administrativ data) om instansbeskrivningen  
+* en beskrivning av instansen (kan också kallas utgåvan, upplagan, manifestationen)
 * en beskrivning av det verk som instansen är en instans av. Denna beskrivning ligger under rubriken Instans av verk. Vi har ännu inte börjat bryta ut verksbeskrivningarna till egna länkade entiteter.  
 Läs mer om [Verk och Instans](https://librisbloggen.kb.se/2018/05/30/verk-och-instans-i-startversionen/).  
-* en beskrivning av instansen (kan också kallas utgåvan, upplagan, manifestationen)
 
 För instruktioner om att lägga till eller ta bort egenskap, länka till entitet, skapa lokal entitet och om hur formuläret fungerar i övrigt, se Redigering i vänstermenyn. För information om katalogregler, skrivregler och övriga katalogiseringsanvisningar, se [Anvisningar för katalogisering - RDA](http://www.kb.se/rdakatalogisering/Anvisningar/Arbetsfloden/Tryckta-monografier/ "Anvisningar för katalogisering - RDA").
 
