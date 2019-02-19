@@ -2,7 +2,7 @@
 section: Hjälptexter katalogisering
 title: Instans
 order: 22
-date: 2019-02-18
+date: 2019-02-19
 tags:
 - under arbete
 - instans
@@ -348,7 +348,21 @@ Ange ogiltiga ISBN här och inte under Identifikator/ISBN/Ogiltigt värde. För 
   ```Exempel: 97891881072```
 * Indirekt identifierad av/Särskiljande tillägg (= Bestämning) (indirectlyIdentifiedBy/qualifier = 020 ‡q)  
   Skriv in uppgiften.  
-  ```Exempel: inbunden```  
+  ```Exempel: inbunden``` 
+  
+Vid postimport:
+Vid import från Andra källor kan posterna ibland innehålla många olika ISBN, både för tryckt och elektronisk utgåva. 
+För att inte skapa problem i Libris importflöden är det viktigt att tänka på följande:
+-	Om det finns ISBN i varsitt Identifikator/ISBN/Värde (två 020 a) och det ena syftar på inbunden och det andra på häftad utgåva, låt båda ligga kvar. I övriga fall ska endast ISBN för den beskrivna utgåvan ligga i Identifikator/ISBN/Värde (020 a).  
+
+* För en tryckt bok, får det inte finnas ISBN för en annan tryckt version i Indirekt identifierad av/ISBN/Värde (020z), utan enbart i Identifierad av/ISBN/Värde (020a). Flytta ISBN för tryckta versioner till Identifierad av och låt ISBN för elektroniska versioner ligga kvar under Indirekt identifierad av.  
+
+För elektroniska resurser gäller samma sak, fast tvärtom: Det får inte ligga ISBN för en annan elektronisk version under Indirekt identifierad av, utan där får endast ISBN för olika tryckta versioner ligga.  
+Om det är svårt att belägga vad det är för ISBN posten innehåller, är det bättre att radera alla, förutom de som hör till resursen som ska katalogiseras.  
+
+* Ibland ligger samma ISBN, tiosiffrigt och/eller trettonsiffrigt, i både Identifikator/ISBN/Värde (020 a) och Indirekt identifierad av/ISBN/Värde (020 z). Ta bort ISBN från Indirekt identifierad av och låt det ligga kvar under Identifikator/ISBN/Värde.  
+
+* Om det ligger ISBN till andra utgåvor i Indirekt identifierad av/ISBN/Värde (020 z), kan det särskiljande tillägget (020 q) ibland hamna fel, under Identifikator/ISBN/Värde. Flytta det särskiljande tillägget till Indirekt identifierad av, så att det hamnar i anslutning till det ISBN det gäller.  
   
 #### Omfang   
 * Omfång/Omfång/Benämning (extent/Extent/label = 300 ‡a)   
