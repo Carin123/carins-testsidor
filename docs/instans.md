@@ -357,7 +357,7 @@ För att inte skapa problem i Libris importflöden är det viktigt att tänka p�
 
 * För en tryckt bok, får det inte finnas ISBN för en annan tryckt version i Indirekt identifierad av/ISBN/Värde (020z), utan enbart i Identifierad av/ISBN/Värde (020a). Flytta ISBN för tryckta versioner till Identifierad av och låt ISBN för elektroniska versioner ligga kvar under Indirekt identifierad av.  
 
-För elektroniska resurser gäller samma sak, fast tvärtom: Det får inte ligga ISBN för en annan elektronisk version under Indirekt identifierad av, utan där får endast ISBN för olika tryckta versioner ligga.  
+  För elektroniska resurser gäller samma sak, fast tvärtom: Det får inte ligga ISBN för en annan elektronisk version under Indirekt identifierad av, utan där får endast ISBN för olika tryckta versioner ligga.  
 Om det är svårt att belägga vad det är för ISBN posten innehåller, är det bättre att radera alla, förutom de som hör till resursen som ska katalogiseras.  
 
 * Ibland ligger samma ISBN, tiosiffrigt och/eller trettonsiffrigt, i både Identifikator/ISBN/Värde (020 a) och Indirekt identifierad av/ISBN/Värde (020 z). Ta bort ISBN från Indirekt identifierad av och låt det ligga kvar under Identifikator/ISBN/Värde.  
