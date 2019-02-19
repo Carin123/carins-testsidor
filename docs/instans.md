@@ -350,7 +350,7 @@ Ange ogiltiga ISBN här och inte under Identifikator/ISBN/Ogiltigt värde. För 
   Skriv in uppgiften.  
   ```Exempel: inbunden``` 
   
-Vid postimport:
+**Vid postimport:**    
 Vid import från Andra källor kan posterna ibland innehålla många olika ISBN, både för tryckt och elektronisk utgåva. 
 För att inte skapa problem i Libris importflöden är det viktigt att tänka på följande:
 -	Om det finns ISBN i varsitt Identifikator/ISBN/Värde (två 020 a) och det ena syftar på inbunden och det andra på häftad utgåva, låt båda ligga kvar. I övriga fall ska endast ISBN för den beskrivna utgåvan ligga i Identifikator/ISBN/Värde (020 a).  
