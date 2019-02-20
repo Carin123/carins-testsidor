@@ -136,9 +136,9 @@ Läs mer om egenskaperna under [Instans](https://libris.kb.se/katalogisering/hel
 * Har titel/Omslagstitel/Huvudtitel
 * Har titel/Omslagstitel/Övrig titelinformation
 
- ##### Omslagstitel   
-* Har titel/Omslagstitel/Huvudtitel
-* Har titel/Omslagstitel/Övrig titelinformation 
+ ##### Ryggtitel   
+* Har titel/Ryggtitel/Huvudtitel
+* Har titel/Ryggtitel/Övrig titelinformation 
 
 ##### Delbeteckning
 * Har titel/Titel/Har del/Titeldel/Delbeteckning 
