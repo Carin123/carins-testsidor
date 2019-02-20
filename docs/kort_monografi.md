@@ -2,7 +2,7 @@
 section: Hjälptexter katalogisering
 title: Tryckt monografi
 order: 23
-date: 2019-02-12
+date: 2019-02-20
 tags:
 - under arbete
 - monografi
@@ -137,8 +137,8 @@ Läs mer om egenskaperna under [Instans](https://libris.kb.se/katalogisering/hel
 * Har titel/Omslagstitel/Övrig titelinformation
 
  ##### Omslagstitel   
-* Har titel/Ryggtitel/Huvudtitel
-* Har titel/Ryggtitel/Övrig titelinformation 
+* Har titel/Omslagstitel/Huvudtitel
+* Har titel/Omslagstitel/Övrig titelinformation 
 
 ##### Delbeteckning
 * Har titel/Titel/Har del/Titeldel/Delbeteckning 
