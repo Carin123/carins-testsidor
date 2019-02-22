@@ -61,3 +61,11 @@ För att söka på ogiltiga ISBN eller ISBN som hör till annan version (Indirek
 
 Det går att avgränsa sökningen till ISBN, ISSN eller titel. Välj alternativ i menyn vid sökrutan. Om man inte väljer någon avgränsning söker man som fritext.  
 
+### Sökning på specialtecken
+
+Det finns vissa problem med hantering av diakriter och andra specialtecken i nya Libris. Arbete med normalisering av tecken pågår. För att ändå få träff vid sökning där diakriter och specialtecken ingår, följ denna instruktion:
+
+1. Kopiera och klistra in sträng.
+2. Om det finns sammansatta tecken i strängen, ställ textmarkören efter ett sådant och tryck backsteg en gång. Detta ska resultera i att t.ex. "Ė" ändras till "E" och "ž" till "z" (ofta är det kanske uppenbart att det finns en "vanlig" latinsk bokstav att ändra till, då kan man även byta ut det sammansatta tecknet mot det "vanliga"). Om det blir två tecken vid inklistring (eller bara frågetecken), ta bort de "konstiga" bitarna.
+3. Skriv in en tilde, "~", efter varje ord där utbyte har gjorts.
+4. Sök.
