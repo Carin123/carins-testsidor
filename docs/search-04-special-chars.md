@@ -16,7 +16,7 @@ Uppdatera till Windows 10 (eller senare version)
 #### Installera flera språk/tangentbord 
 * Inställningar > Tid och språk > Region och språk > Språk/lägg till ett språk > Klicka på tillagt språk > Alternativ > + Lägg till tangentbord 
 
-#### För att aktivera tangentbord aktivitetsfältet
+#### För att aktivera tangentbord i aktivitetsfältet
 * Högerklicka på Aktivitetsfältet > aktivera Visa knappen Pektangentbord, eller
 * Inställningar > Anpassning > Aktivitetsfältet > Aktivera och inaktivera systemikoner > aktivera Pektangentbordet 
 
