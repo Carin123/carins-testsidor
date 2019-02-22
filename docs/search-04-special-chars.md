@@ -39,6 +39,5 @@ Infogar tecken för tecken.
 
 ## Google Input Tools för webben (Chrome)
 
-#### Chrome 
-* Installera Chrome för MAC/ WINDOWS/ LINUX [här](https://www.google.com/inputtools/try/)
-* Installera Google input tools Chrome-tillägg. 
+* Installera Chrome-tillägget [här](https://www.google.com/inputtools/try/)
+
