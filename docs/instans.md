@@ -461,19 +461,15 @@ Observera att kodning av målgrupp, motsvarande 008/22, ska registreras under In
   Beskriven av/Post/Kontrollnummer, motsvarande delfält w, är för närvarande låst för redigering. Det går därmed inte att lägga till egenskapen eller redigera den i befintliga beskrivningar.  
   
 #### Elektronisk adress
-  
+
+**Om beskrivningen gäller en elektronisk resurs:**
 ##### Tillhörande media
 * Tillhörande media/Mediaobjekt/URI (associatedMedia/Mediaobject/uri = 856 4/0 ‡u)  
 Om instansbeskrivningen gäller en elektronisk resurs, använd Tillhörande media för att lägga in en elektronisk adress till resursen. Lägg till Mediaobjekt under Tillhörande media. Välj Skapa lokal entitet. Lägg till egenskapen URI. Klistra in aktuell URI.
 * Tillhörande media/Mediaobjekt/Offentlig anmärkning (marc:versionOfResource/Electronic/marc:publicNote = 856 4/0 ‡z)   
-  Vid behov, lägg till Offentlig anmärkning. Skriv in anmärkningen.  
+  Vid behov, lägg till Offentlig anmärkning. Skriv in anmärkningen.   
   
-##### Relaterad beskrivning eller innehåll
-* Relaterad beskrivning eller innehåll/Dokument/URI (isPrimaryTopicOf/Dokument/uri = 856 4/2 ‡u)  
-  För att lägga in en elektronisk adress till en relaterad resurs, till exempel delar, sammanfattningar (abstracts), innehållsförteckningar eller andra resurser som på något sätt hör samman med den resurs som beskrivs i instansbeskrivningen, använd Relaterad beskrivning eller innehåll. Skapa Dokument som lokal entitet under Relaterad beskrivning eller innehåll. Lägg till egenskapen URI. Klistra in aktuell URI.
-* Relaterad beskrivning eller innehåll/Dokument/Offentlig anmärkning (isPrimaryTopicOf/Dokument/marc:publicNote = 856 4/0 ‡z)   
-  Vid behov, lägg till Offentlig anmärkning. Skriv in anmärkningen. 
-  
+**Om beskrivningen gäller en tryckt resurs:**
 ##### Annan relaterad resurs
 * Annan relaterad resurs/Elektronisk/URI (marc:versionOfResource/Electronic/URI = 856 4/1 ‡u)  
   Om instansbeskrivningen gäller en tryckt resurs, använd Annat relaterad resurs för att lägga in en elektronisk adress till resursen i annat format. Lägg till elektronisk under Annan relaterad resurs. Välj Skapa lokal entitet. Lägg till egenskapen URI. Klistra in aktuell URI. 
@@ -482,3 +478,13 @@ Om instansbeskrivningen gäller en elektronisk resurs, använd Tillhörande medi
    Vid behov, lägg till Offentlig anmärkning. Skriv in anmärkningen. 
   
   Gör i första hand en instansbeskrivning av den elektroniska resursen och använd Tillhörande media, i stället för att använda Annan relaterad resurs.  
+**Om beskrivningen gäller elektronisk eller tryckt resurs och länken ska gå till relaterat innehåll:**    
+##### Relaterad beskrivning eller innehåll
+* Relaterad beskrivning eller innehåll/Dokument/URI (isPrimaryTopicOf/Dokument/uri = 856 4/2 ‡u)  
+  För att lägga in en elektronisk adress till en relaterad resurs, till exempel delar, sammanfattningar (abstracts), innehållsförteckningar eller andra resurser som på något sätt hör samman med den resurs som beskrivs i instansbeskrivningen, använd Relaterad beskrivning eller innehåll. Skapa Dokument som lokal entitet under Relaterad beskrivning eller innehåll. Lägg till egenskapen URI. Klistra in aktuell URI.
+* Relaterad beskrivning eller innehåll/Dokument/Offentlig anmärkning (isPrimaryTopicOf/Dokument/marc:publicNote = 856 4/0 ‡z)   
+  Vid behov, lägg till Offentlig anmärkning. Skriv in anmärkningen. 
+
+##### Elektronisk adress
+
+MER INFO OM ELEKTRONISK ADRESS
