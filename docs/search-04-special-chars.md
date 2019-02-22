@@ -21,7 +21,7 @@ Uppdatera till Windows 10 (eller senare version)
 * Inställningar > Anpassning > Aktivitetsfältet > Aktivera och inaktivera systemikoner > aktivera Pektangentbordet 
 
 #### För att komma åt specialtecken på det virtuella tangentbordet (gäller även för olika språk) 
-* Håll in relevant knapp för att se olika variationer av det tecknet.
+* Håll in relevant knapp för att se olika variationer av tecknet.
 
 #### Teckenuppsättning
 Sök på teckenuppsättning i “Sök i windows” och öppna programmet. Mata in tecken för tecken när du står i ett inmatningsfält. 
