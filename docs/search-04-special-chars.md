@@ -37,11 +37,8 @@ Infogar tecken för tecken.
 #### Få fram specialtecken via tangentbordet
 * Håll in en tangent och specialtecken visas då på vissa tangenter.
 
-## Google Input Tools för webben (Chrome) och Windows 
+## Google Input Tools för webben (Chrome)
 
 #### Chrome 
 * Installera Chrome för MAC/ WINDOWS/ LINUX [här](https://www.google.com/inputtools/try/)
 * Installera Google input tools plugin. 
-
-#### Windows 
-* Läs mer och ladda ner [här](https://www.google.com/inputtools/windows/)
