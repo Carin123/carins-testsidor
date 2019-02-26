@@ -68,6 +68,7 @@ I Libris lagras all text i [Unicode - UTF-8]( https://sv.wikipedia.org/wiki/UTF-
 
 Vissa tecken kan vara kodade på olika sätt, prekomponerade (sammansatta) eller dekomponerade. Prekomponerade tecken innebär att grundbokstav och sammanhörande diakrit uppträder som ett sammanhållet tecken. Dekomponerade innebär att grundbokstav och sammanhörande diakrit uppträder som separata tecken.
 
+Vid sökning:
 1. Kopiera och klistra in sträng.
 2. Om det finns prekomponerade (sammansatta) tecken i strängen, ersätt tecknet med grundbokstaven.
 2. Om det finns dekomponerade tecken i strängen, ställ textmarkören efter ett sådant och tryck backsteg en gång. Detta ska resultera i att t.ex. "bokstav + diakrit" ändras till "bokstav". Om det blir två tecken vid inklistring (eller bara frågetecken), ta bort de "konstiga" bitarna.
