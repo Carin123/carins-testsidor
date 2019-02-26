@@ -64,9 +64,11 @@ För att söka på ogiltiga ISBN eller ISBN som hör till annan version (Indirek
 
 ### Sökning på specialtecken
 
-Det finns vissa problem med hantering av diakriter och andra specialtecken i nya Libris. Arbete med normalisering av tecken pågår. För att ändå få träff vid sökning där diakriter och specialtecken ingår, följ denna instruktion:
+I Libris lagras all text i [Unicode - UTF-8]( https://sv.wikipedia.org/wiki/UTF-8), den teckenkod som tillåter hantering av världens alla språk. Det finns trots det vissa problem med hantering av diakriter och andra specialtecken. Arbete med normalisering av tecken pågår. För att ändå få träff vid sökning där diakriter och specialtecken ingår, följ denna instruktion.
+
+Vissa tecken kan vara kodade på olika sätt, prekomponerade (sammansatta) eller dekomponerade. Prekomponerade tecken innebär att grundbokstav och sammanhörande diakrit uppträder som ett sammanhållet tecken. Dekomponerade innebär att grundbokstav och sammanhörande diakrit uppträder som separata tecken.
 
 1. Kopiera och klistra in sträng.
-2. Om det finns sammansatta tecken i strängen, ställ textmarkören efter ett sådant och tryck backsteg en gång. Detta ska resultera i att t.ex. "Ė" ändras till "E" och "ž" till "z" (ofta är det kanske uppenbart att det finns en "vanlig" latinsk bokstav att ändra till, då kan man även byta ut det sammansatta tecknet mot det "vanliga"). Om det blir två tecken vid inklistring (eller bara frågetecken), ta bort de "konstiga" bitarna.
+2. Om det finns dekomponerade tecken i strängen, ställ textmarkören efter ett sådant och tryck backsteg en gång. Detta ska resultera i att t.ex. "bokstav + diakrit" ändras till "bokstav" (ofta är det kanske uppenbart att det finns en "vanlig" latinsk bokstav att ändra till, då kan man även byta ut det sammansatta tecknet mot det "vanliga"). Om det blir två tecken vid inklistring (eller bara frågetecken), ta bort de "konstiga" bitarna.
 3. Skriv in en tilde, "~", efter varje ord där utbyte har gjorts.
 4. Sök.
