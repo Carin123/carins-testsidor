@@ -41,7 +41,11 @@ Om du vill gruppera termer och operatorer, använd `(` och `)`. Exempelvis ger e
 
 ### Trunkering
 
-Om du vill trunkera, använd `*`. Trunkering ger träff på alla ändelser efter prefixet. Exempelvis ger `sol*` träff på bland andra `solros` , `sola` och `solig`.
+Om du vill trunkera, använd `*`. Trunkering ger träff på alla ändelser efter prefixet. Exempelvis ger `sol*` träff på bland andra `solros` , `sola` och `solig`.  
+
+### Avgränsa sökningen
+
+Det går att avgränsa sökningen till ISBN, ISSN eller titel. Välj alternativ i menyn vid sökrutan. Om man inte väljer någon avgränsning söker man som fritext. 
 
 ### ISBN
 
@@ -57,10 +61,6 @@ För att söka på ISBN med eller utan bindestreck, välj att söka med  avgrän
     Exempel ISBN: `978-91-44-11307-4`
 
 För att söka på ogiltiga ISBN eller ISBN som hör till annan version (Indirekt identifierad av), sök ISBN som fritext, utan bindestreck.  
-
-### Avgränsa sökningen
-
-Det går att avgränsa sökningen till ISBN, ISSN eller titel. Välj alternativ i menyn vid sökrutan. Om man inte väljer någon avgränsning söker man som fritext.  
 
 ### Sökning på specialtecken
 
