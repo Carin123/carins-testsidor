@@ -2,7 +2,7 @@
 section: Sök
 title: Utforma sökfrågor
 order: 1
-date: 2019-02-21
+date: 2019-02-26
 tags:
 - search
 ---
