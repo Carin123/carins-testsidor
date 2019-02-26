@@ -70,5 +70,6 @@ Vissa tecken kan vara kodade på olika sätt, prekomponerade (sammansatta) eller
 
 1. Kopiera och klistra in sträng.
 2. Om det finns dekomponerade tecken i strängen, ställ textmarkören efter ett sådant och tryck backsteg en gång. Detta ska resultera i att t.ex. "bokstav + diakrit" ändras till "bokstav" (ofta är det kanske uppenbart att det finns en "vanlig" latinsk bokstav att ändra till, då kan man även byta ut det sammansatta tecknet mot det "vanliga"). Om det blir två tecken vid inklistring (eller bara frågetecken), ta bort de "konstiga" bitarna.
-3. Skriv in en tilde, "~", efter varje ord där utbyte har gjorts.
-4. Sök.
+3. Om det finns sammansatta tecken i strängen, ersätt tecknet med grundbokstaven.
+4. Skriv in en tilde, "~", efter varje ord där utbyte har gjorts.
+5. Sök.
