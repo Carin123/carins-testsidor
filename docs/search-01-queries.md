@@ -51,9 +51,10 @@ För att söka på ISBN i fritextsökning (utan avgränsning), ta bort bindestre
 
     Exempel fritextsökning: `9789144113074`
 
-För att söka på ISBN med bindestreck, välj att söka med  avgränsning ISBN.  
+För att söka på ISBN med eller utan bindestreck, välj att söka med  avgränsning ISBN.  
 
     Exempel ISBN: `9789144113074`
+    Exempel ISBN: `978-91-44-11307-4`
 
 För att söka på ogiltiga ISBN eller ISBN som hör till annan version (Indirekt identifierad av), sök ISBN som fritext, utan bindestreck.  
 
