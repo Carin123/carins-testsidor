@@ -478,6 +478,7 @@ Om instansbeskrivningen gäller en elektronisk resurs, använd Tillhörande medi
    Vid behov, lägg till Offentlig anmärkning. Skriv in anmärkningen. 
   
   Gör i första hand en instansbeskrivning av den elektroniska resursen och använd Tillhörande media, i stället för att använda Annan relaterad resurs.  
+  
 **Om beskrivningen gäller elektronisk eller tryckt resurs och länken ska gå till relaterat innehåll:**    
 ##### Relaterad beskrivning eller innehåll
 * Relaterad beskrivning eller innehåll/Dokument/URI (isPrimaryTopicOf/Dokument/uri = 856 4/2 ‡u)  
