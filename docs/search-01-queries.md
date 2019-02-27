@@ -2,7 +2,7 @@
 section: Sök
 title: Utforma sökfrågor
 order: 1
-date: 2019-02-26
+date: 2019-02-27
 tags:
 - search
 ---
@@ -44,6 +44,10 @@ Om du vill gruppera termer och operatorer, använd `(` och `)`. Exempelvis ger e
 ### Trunkering
 
 Om du vill trunkera, använd `*`. Trunkering ger träff på alla ändelser efter prefixet. Exempelvis ger `sol*` träff på bland andra `solros` , `sola` och `solig`.  
+
+### Oexakt sökning  
+
+Om du vill söka på ett ord, men är osäker på stavningen, kan du lägga till en tilde, "~", efter ordet. Denna sökning kan även användas för att söka på ord med specialtecken eller diakriter. Exempelvis kan du söka på Noren~ och få träff på Norén.  
 
 ### Avgränsa sökningen
 
