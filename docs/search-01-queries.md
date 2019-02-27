@@ -86,6 +86,7 @@ Inklistrad sträng med dekomponerade tecken:
 ![Inklistrad sträng med dekomponerade tecken](tecken1.png)  
 Inklistrad sträng efter backsteg och med tilde, "~":  
 ![Inklistrad sträng efter backsteg och med tilde, "~"](tecken2.png) 
+
 eller
 
 1. Skriv in sträng utan diakriter.  
