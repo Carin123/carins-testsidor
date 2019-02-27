@@ -9,7 +9,7 @@ tags:
 
 # Sök
 
-Sökning på specialtecken och diakriter, se [Specialtecken](#specialtecken) nedan.
+Sökning på specialtecken och diakriter, se [Sökning på specialtecken](#specialtecken) nedan.
 
 ## Operatorer för frågespråk
 
