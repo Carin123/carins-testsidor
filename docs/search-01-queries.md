@@ -8,23 +8,8 @@ tags:
 ---
 
 # Sök
-### Innehåll  
 
-| [Instans](#instans) | | |
-| ------ | ------ | ------ |
-| [Utgivningssätt](#utgivningssatt) | | [Omfång](#omfang) | 
-| [Medietyp](#medietyp) | | [Övriga fysiska detaljer](#ovriga-fysiska-detaljer) | |
-| [Bärartyp](#barartyp) | | [Mått](#matt) | |
-| [Titel](#titel) | | [Bilagor](#bilagor) | |
-| [Upphovsuppgift](#upphovsuppgift) | | [Seriemedlemskap](#seriemedlemskap) |  |
-| [Upplageuppgift](#upplageuppgift) | | [Anmärkning](#anmarkning) | |
-| [Produktion](#produktion) | | [Innehållsanmärkning](#innehallsanmarkning)  | |
-| [Utgivning](#utgivning) | | [Målgruppsanmärkning](#malgruppsanmarkning) |
-| [Tillverkning](#tillverkning)| | [Annat bärarformat](#annat-bararformat) |
-| [Copyrightår](#copyrightar) | | [Elektronisk adress](#annan-relaterad-resurs) |
-| [Identifikator](#identifikator) | | |
-
-
+Sökning på specialtecken och diakriter, se [nedan](#specialtecken).
 
 ## Operatorer för frågespråk
 
