@@ -76,8 +76,10 @@ Om du har sökt på tecknet med diakriter och inte fått träff, fortsätt med d
 1. Kopiera och klistra in sträng.
 2. Om det finns dekomponerade tecken i strängen, ställ textmarkören efter ett sådant och tryck backsteg en gång. Detta ska resultera i att t.ex. "bokstav + diakrit" ändras till "bokstav". Om det blir två tecken vid inklistring (eller bara frågetecken), ta bort de "konstiga" bitarna.
 3. Skriv in en tilde, "~", efter varje ord där ersättning har gjorts.
-4. Sök.
+4. Sök.  
 
+![Inklistrad sträng med dekomponerade tecken](tecken1.png)  
+![Inklistrad sträng efter backsteg och med tilde, "~"](tecken2.png) 
 eller
 
 1. Skriv in sträng utan diakriter.  
