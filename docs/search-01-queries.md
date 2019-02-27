@@ -48,7 +48,7 @@ Om du vill trunkera, använd `*`. Trunkering ger träff på alla ändelser efter
 
 ### Oexakt sökning  
 
-Om du vill söka på ett ord, men är osäker på stavningen, kan du lägga till en tilde, ```"~"```, efter ordet. Denna sökning kan även användas för att söka på ord med specialtecken eller diakriter. Exempelvis kan du söka på Noren~ och få träff på Norén.  
+Om du vill söka på ett ord, men är osäker på stavningen, kan du lägga till en tilde, `"~"`, efter ordet. Denna sökning kan även användas för att söka på ord med specialtecken eller diakriter. Exempelvis kan du söka på `Noren~` och få träff på Norén.  
 
 ### Avgränsa sökningen
 
