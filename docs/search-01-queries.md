@@ -62,7 +62,7 @@ För att söka på ISBN med eller utan bindestreck, välj att söka med  avgrän
 
 För att söka på ogiltiga ISBN eller ISBN som hör till annan version (Indirekt identifierad av), sök ISBN som fritext, utan bindestreck.  
 
-Flytta till Relationer till agent?
+AVSNITTET NEDAN UNDER ARBETE. GÄLLER INSTRUKTIONEN ALL SÖKNING ELLER BARA SÖKNING I SIDORUTAN? 
 ### Sökning på specialtecken
 
 I Libris lagras all text i [Unicode - UTF-8]( https://sv.wikipedia.org/wiki/UTF-8), den teckenkod som tillåter hantering av världens alla språk. Det finns trots det vissa problem med hantering av diakriter och andra specialtecken. Arbete med normalisering av tecken pågår. För att ändå få träff vid sökning där diakriter och specialtecken ingår, följ denna instruktion.
