@@ -18,6 +18,7 @@ tags:
    `-` innebär uteslutning  
    `"` används för frassökning  
    `*` innebär trunkering av en term  
+   `~` används för oexakt sökning
 
 ---
 
