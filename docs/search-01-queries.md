@@ -78,7 +78,9 @@ Om du har sökt på tecknet med diakriter och inte fått träff, fortsätt med d
 3. Skriv in en tilde, "~", efter varje ord där ersättning har gjorts.
 4. Sök.  
 
+Inklistrad sträng med dekomponerade tecken:  
 ![Inklistrad sträng med dekomponerade tecken](tecken1.png)  
+Inklistrad sträng efter backsteg och med tilde, "~":  
 ![Inklistrad sträng efter backsteg och med tilde, "~"](tecken2.png) 
 eller
 
