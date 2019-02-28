@@ -114,7 +114,7 @@ Skriv in uppgiften.
   För att ange att texten är på flera språk, länka till ytterligare en språkkod.     
   
 ##### Översättning  
-För en översättning, ange även språket i klartext. Denna klartext - verkets (översättningens) språk - visas i marcpostens delfält ‡l, som ett till verkets titel.   
+För en översättning, ange även språket i klartext. Denna klartext - verkets (översättningens) språk - visas i marcpostens delfält ‡l, som ett tillägg till verkets titel.   
 
 Om översättningen är ett verk som har Primär medverkan, ange:  
 * Språk/Språk/Benämning (Language/label = 240 ‡l)  
