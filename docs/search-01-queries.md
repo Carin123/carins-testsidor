@@ -61,12 +61,12 @@ I nya Libris sparas ISBN utan bindestreck.
 
 För att söka på ISBN i fritextsökning (utan avgränsning), ta bort bindestrecken.  
 
-    Exempel fritextsökning: `9789144113074`
+```Exempel fritextsökning: 9789144113074```
 
-För att söka på ISBN med eller utan bindestreck, välj att söka med  avgränsning ISBN.  
-
-    Exempel ISBN: `9789144113074`
-    Exempel ISBN: `978-91-44-11307-4`
+För att söka på ISBN med eller utan bindestreck, välj att söka med avgränsning ISBN.
+<br/>`Exempel:`
+  * `ISBN: 9789144113074`
+  * `ISBN: 978-91-44-11307-4`  
 
 För att söka på ogiltiga ISBN eller ISBN som hör till annan version (Indirekt identifierad av), sök ISBN som fritext, utan bindestreck.  
 
@@ -86,8 +86,8 @@ Om sökningen med diakriter inte ger träff, fortsätt med denna sökning:
 
 Inklistrad sträng med dekomponerade tecken:  
 ![Inklistrad sträng med dekomponerade tecken](tecken1.png)  
-Inklistrad sträng efter backsteg och med tilde, "~":  
-![Inklistrad sträng efter backsteg och med tilde, "~"](tecken2.png) 
+Inklistrad sträng efter backsteg och med tilde:  
+![Inklistrad sträng efter backsteg och med tilde](tecken2.png) 
 
 eller
 
