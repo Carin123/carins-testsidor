@@ -2,7 +2,7 @@
 section: Hjälptexter katalogisering
 title: Verk
 order: 21
-date: 2019-02-20
+date: 2019-02-28
 tags:
 - under arbete
 - verk
@@ -114,11 +114,21 @@ Skriv in uppgiften.
   För att ange att texten är på flera språk, länka till ytterligare en språkkod.     
   
 ##### Översättning  
-För en översättning, ange även:  
-* Språk/Språk/Benämning (Language/label = 130 ‡l, 240 ‡l)  
+För en översättning med Medverkan och funktion/Primär medverkan, ange även:  
+* Språk/Språk/Benämning (Language/label = 240 ‡l)  
   Lägg till ytterligare en förekomst av Språk, under Språk, skapa lokal entitet och lägg till Benämning.  
-  Skriv in språket i klartext. Denna klartext - verkets (översättningens) språk - visas som ett tillägg till verkets titel i marcpostens 130 ‡l, 240 ‡l, 730 ‡l.  
+  Skriv in språket i klartext. Denna klartext - verkets (översättningens) språk - visas som ett tillägg till verkets titel i marcpostens 240 ‡l.  
   ![Språk](sprak.png)
+  
+För en översättning utan Medverkan och funktion/Primär medverkan, ange även:  
+* Uttryck av/Verk/Språk/Språk/Benämning (Language/label = 130 ‡l)  
+  Lägg till ytterligare en förekomst av Språk, under Språk, skapa lokal entitet och lägg till Benämning.  
+  Skriv in språket i klartext. Denna klartext - verkets (översättningens) språk - visas som ett tillägg till verkets titel i marcpostens 130 ‡l.  
+  ![Språk](sprak.png)
+  
+Om översättningen är ett ingående verk, ange:  
+* Har del/Verk/Språk/Språk/Benämning (Language/label = 730 ‡l
+Skriv in språket i klartext. Denna klartext - verkets (översättningens) språk - visas som ett tillägg till verkets titel i marcpostens 730 ‡l.  
 
 * Anmärkning: Språk (marc:LanguageNote = 041 i1: 1)  
   Ange om resursen är/innehåller en översättning.  
