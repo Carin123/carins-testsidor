@@ -120,11 +120,11 @@ Om översättningen är ett verk som har Primär medverkan, ange språket i klar
   Lägg till ytterligare en förekomst av Språk, under Språk, skapa lokal entitet och lägg till Benämning.    
   ![Språk](sprak.png)  
 Om översättningen är ett anonymt verk, det vill säga saknar Primär medverkan, ange språket i klartext här:    
-* Uttryck av/Verk/Språk/Språk/Benämning (Language/label = 130 ‡l)  
+Uttryck av/Verk/Språk/Språk/Benämning (Language/label = 130 ‡l)  
   Lägg till ytterligare en förekomst av Språk, under Språk, skapa lokal entitet och lägg till Benämning.  
   Skriv in språket i klartext. Denna klartext - verkets (översättningens) språk - visas som ett tillägg till verkets titel i marcpostens 130 ‡l.  
 Om översättningen är ett ingående verk, ange språket i klartext här:  
-* Har del/Verk/Språk/Språk/Benämning (Language/label = 730 ‡l)  
+Har del/Verk/Språk/Språk/Benämning (Language/label = 730 ‡l)  
 
 * Anmärkning: Språk (marc:LanguageNote = 041 i1: 1)  
   Ange om resursen är/innehåller en översättning.  
