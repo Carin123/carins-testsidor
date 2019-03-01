@@ -40,7 +40,8 @@ Infogar tecken för tecken.
 
 ## Google inmatningsverktyg (Chrome)
 
-* Testa och installera Chrome-tillägget [här](https://www.google.com/inputtools/try/)
+* [Installera Chrome](https://support.google.com/chrome/answer/95346?co=GENIE.Platform%3DDesktop&hl=sv)
+* [Testa och installera Chrome-tillägget](https://www.google.com/inputtools/try/)
 
 #### Sökning på specialtecken
 Se [Utforma sökfrågor](https://libris.kb.se/katalogisering/help/search-01-queries)
