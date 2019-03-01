@@ -38,10 +38,10 @@ Infogar tecken för tecken.
 #### Få fram specialtecken via tangentbordet
 * Håll in en tangent och specialtecken visas då på vissa tangenter.
 
-## Google inmatningsverktyg (Chrome)
+## Google inmatningsverktyg (Chrometillägg)
 
 * [Installera Chrome](https://support.google.com/chrome/answer/95346?co=GENIE.Platform%3DDesktop&hl=sv)
-* [Testa och installera Chrome-tillägget](https://www.google.com/inputtools/try/)
+* [Testa och installera Chrometillägget](https://www.google.com/inputtools/try/)
 
 #### Sökning på specialtecken
 Se [Utforma sökfrågor](https://libris.kb.se/katalogisering/help/search-01-queries)
