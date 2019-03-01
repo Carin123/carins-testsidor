@@ -43,5 +43,5 @@ Infogar tecken för tecken.
 * [Installera Chrome](https://support.google.com/chrome/answer/95346?co=GENIE.Platform%3DDesktop&hl=sv)
 * [Testa och installera Chrometillägget](https://www.google.com/inputtools/try/)
 
-#### Sökning på specialtecken
+### Sökning på specialtecken
 Se [Utforma sökfrågor](https://libris.kb.se/katalogisering/help/search-01-queries)
