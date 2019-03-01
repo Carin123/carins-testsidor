@@ -2,8 +2,9 @@
 section: Sök
 title: Specialtecken
 order: 5
+date: 2019-03-01
 tags:
-- search
+- special characters
 ---
 
 # Specialtecken
@@ -41,3 +42,5 @@ Infogar tecken för tecken.
 
 * Testa och installera Chrome-tillägget [här](https://www.google.com/inputtools/try/)
 
+#### Sökning på specialtecken
+Se [Utforma sökfrågor](https://libris.kb.se/katalogisering/help/search-01-queries)
