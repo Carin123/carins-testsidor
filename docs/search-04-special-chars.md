@@ -10,7 +10,7 @@ tags:
 # Specialtecken
 För att komma åt specialtecken, samt tecken på olika språk rekommenderar vi att arbeta med de verktyg som finns i operativsystemet för PC och MAC. Instruktioner följer nedan.
 
-* [Här](https://unicode-table.com) kan du även hämta världens alla unicode‐tecken, samt deras unicode‐nummer.
+* Du kan även [hämta världens alla unicode‐tecken, samt deras unicode‐nummer](https://unicode-table.com).
 
 ## Windows 
 Uppdatera till Windows 10 (eller senare version)
