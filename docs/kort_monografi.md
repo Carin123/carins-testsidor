@@ -396,7 +396,7 @@ Genre/form (barngf-term): Barn- och ungdomslitteratur
 Litterär genre (008): Skönlitterärt verk, genre ej angiven
 
 **Fackbok för barn**  
-Genre/form (barngf-term): Faktabok  
+Genre/form (barngf-term): Faktaböcker   
 Litterär genre (008): Ej skönlitterärt verk
 
 **Biografi**  
