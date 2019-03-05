@@ -447,10 +447,9 @@ Innehåll: Avhandling
 #### Amne  
 
 [Ämnesord i Libris](https://libris.kb.se/katalogisering/help/workflow-general-sh)  
-  [Länka ämnesord](https://libris.kb.se/katalogisering/help/workflow-linked-entity-sh)   
-  [Ämnesord som lokal entitet](https://libris.kb.se/katalogisering/help/workflow-local-entity-sh)   
-  [Lägg till kontrollerade men ej auktoriserade ämnesord](https://libris.kb.se/katalogisering/help/workflow-controlled-non-auth-sh)   
-  [Okontrollerad term](https://libris.kb.se/katalogisering/help/workflow-uncontrolled-sh)  
+[Länka ämnesord](https://libris.kb.se/katalogisering/help/workflow-linked-entity-sh)   
+[Ämnesord som lokal entitet](https://libris.kb.se/katalogisering/help/workflow-local-entity-sh)    
+[Okontrollerad term](https://libris.kb.se/katalogisering/help/workflow-uncontrolled-sh)  
 
 #### Malgrupp     
 * Målgrupp (008)
