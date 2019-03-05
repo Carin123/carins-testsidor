@@ -392,7 +392,7 @@ Litterär genre (008): Dikter
 
 **Bilderbok för barn**  
 Genre/form (barngf-term): Bilderböcker  
-Genre/form (barngf-term): Barn- och ungdomslitteratur
+Genre/form (barngf-term): Barn- och ungdomslitteratur  
 Litterär genre (008): Skönlitterärt verk, genre ej angiven
 
 **Fackbok för barn**  
