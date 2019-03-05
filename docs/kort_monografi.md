@@ -446,10 +446,11 @@ Innehåll: Avhandling
 
 #### Amne  
 
-[Länka till auktoriserat ämnesord](https://libris.kb.se/katalogisering/help/workflow-linked-entity-sh)   
-[Lägg till sammansatt men ej auktoriserat ämnesord](https://libris.kb.se/katalogisering/help/workflow-non-auth-sh)   
-[Lägg till kontrollerade men ej auktoriserade ämnesord](https://libris.kb.se/katalogisering/help/workflow-controlled-non-auth-sh)   
-[Lägg till okontrollerade ämnesord, t.ex. prel-termer i samband med ämnesordsförslag](https://libris.kb.se/katalogisering/help/workflow-uncontrolled-sh)
+[Ämnesord i Libris](https://libris.kb.se/katalogisering/help/workflow-general-sh)  
+  [Länka ämnesord](https://libris.kb.se/katalogisering/help/workflow-linked-entity-sh)   
+  [Ämnesord som lokal entitet](https://libris.kb.se/katalogisering/help/workflow-local-entity-sh)   
+  [Lägg till kontrollerade men ej auktoriserade ämnesord](https://libris.kb.se/katalogisering/help/workflow-controlled-non-auth-sh)   
+  [Okontrollerad term](https://libris.kb.se/katalogisering/help/workflow-uncontrolled-sh)  
 
 #### Malgrupp     
 * Målgrupp (008)
