@@ -2,7 +2,7 @@
 section: Hjälptexter katalogisering
 title: Tryckt monografi
 order: 23
-date: 2019-02-20
+date: 2019-03-05
 tags:
 - under arbete
 - monografi
@@ -391,11 +391,12 @@ Genre/form (saogf-term): Poesi
 Litterär genre (008): Dikter
 
 **Bilderbok för barn**  
-Genre/form (saogf-term): Svenska barnboksinstitutet (Sbi) ansvarar  
+Genre/form (barngf-term): Bilderböcker  
+Genre/form (barngf-term): Barn- och ungdomslitteratur
 Litterär genre (008): Skönlitterärt verk, genre ej angiven
 
 **Fackbok för barn**  
-Genre/form (saogf-term): Svenska barnboksinstitutet (Sbi) ansvarar  
+Genre/form (barngf-term): Faktabok  
 Litterär genre (008): Ej skönlitterärt verk
 
 **Biografi**  
