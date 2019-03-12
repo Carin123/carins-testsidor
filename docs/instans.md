@@ -466,7 +466,7 @@ Använd egenskapen Elektronisk adress endast när ingen uppgift finns om vilken 
 
 ##### Tillhörande media
 * Tillhörande media/Mediaobjekt/URI (associatedMedia/Mediaobject/uri = 856 4/0 ‡u)  
-*Om instansbeskrivningen gäller en elektronisk resurs, använd Tillhörande media* för att lägga in en elektronisk adress till resursen. Lägg till Mediaobjekt under Tillhörande media. Välj Skapa lokal entitet. Lägg till egenskapen URI. Klistra in aktuell URI.
+**Om instansbeskrivningen gäller en elektronisk resurs, använd Tillhörande media** för att lägga in en elektronisk adress till resursen. Lägg till Mediaobjekt under Tillhörande media. Välj Skapa lokal entitet. Lägg till egenskapen URI. Klistra in aktuell URI.
 * Tillhörande media/Mediaobjekt/Offentlig anmärkning (marc:versionOfResource/Electronic/marc:publicNote = 856 4/0 ‡z)   
   Vid behov, lägg till Offentlig anmärkning. Skriv in anmärkningen.   
 * Del av materialet som avses/Resurs/Benämning (marc:versionOfResource/Electronic/appliesTo = 856 4/0 ‡3)  
@@ -474,7 +474,7 @@ Använd egenskapen Elektronisk adress endast när ingen uppgift finns om vilken 
   
 ##### Annan relaterad resurs
 * Annan relaterad resurs/Elektronisk/URI (marc:versionOfResource/Electronic/URI = 856 4/1 ‡u)  
-  *Om instansbeskrivningen inte gäller en elektronisk resurs, använd Annan relaterad resurs* för att lägga in en elektronisk adress till resursen i annat format. Lägg till elektronisk under Annan relaterad resurs. Välj Skapa lokal entitet. Lägg till egenskapen URI. Klistra in aktuell URI. 
+**Om instansbeskrivningen inte gäller en elektronisk resurs, använd Annan relaterad resurs** för att lägga in en elektronisk adress till resursen i annat format. Lägg till elektronisk under Annan relaterad resurs. Välj Skapa lokal entitet. Lägg till egenskapen URI. Klistra in aktuell URI. 
 * Annan relaterad resurs/Elektronisk/Offentlig anmärkning (marc:versionOfResource/Electronic/marc:publicNote  
  = 856 4/1 ‡z)   
    Vid behov, lägg till Offentlig anmärkning. Skriv in anmärkningen. 
