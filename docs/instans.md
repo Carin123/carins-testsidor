@@ -483,7 +483,8 @@ Gör i första hand en instansbeskrivning av den elektroniska resursen och anvä
 ##### Relaterad beskrivning eller innehåll
 * Relaterad beskrivning eller innehåll/Dokument/URI  
 (isPrimaryTopicOf/Dokument/uri = 856 4/2 ‡u)  
-  För att lägga in en elektronisk adress till en **relaterad resurs, till exempel delar, sammanfattningar (abstracts), innehållsförteckningar** eller andra resurser som på något sätt hör samman med den resurs som beskrivs i instansbeskrivningen, **använd Relaterad beskrivning eller innehåll**. Skapa Dokument som lokal entitet. Lägg till egenskapen URI. Klistra in aktuell URI.
+  För att lägga in en elektronisk adress till en **relaterad resurs, till exempel delar, sammanfattningar (abstracts), innehållsförteckningar** eller andra resurser som på något sätt hör samman med den resurs som beskrivs i instansbeskrivningen, **använd Relaterad beskrivning eller innehåll**.  
+  Skapa Dokument som lokal entitet. Lägg till egenskapen URI. Klistra in aktuell URI.
 * Relaterad beskrivning eller innehåll/Dokument/Offentlig anmärkning  
 (isPrimaryTopicOf/Dokument/marc:publicNote = 856 4/0 ‡z)   
   Vid behov, lägg till Offentlig anmärkning. Skriv in anmärkningen.  
