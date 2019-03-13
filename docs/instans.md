@@ -2,7 +2,7 @@
 section: Hjälptexter katalogisering
 title: Instans
 order: 22
-date: 2019-02-19
+date: 2019-03-13
 tags:
 - under arbete
 - instans
@@ -479,11 +479,10 @@ Använd egenskapen Elektronisk adress endast när ingen uppgift finns om vilken 
    Vid behov, lägg till Del av material som avses under Elektronisk och skapa Resurs som lokal entitet. Lägg till Benämning.  
   
   Gör i första hand en instansbeskrivning av den elektroniska resursen och använd Tillhörande media, i stället för att använda Annan relaterad resurs.  
-  
-**Om länken går till relaterat innehåll:**    
+    
 ##### Relaterad beskrivning eller innehåll
 * Relaterad beskrivning eller innehåll/Dokument/URI (isPrimaryTopicOf/Dokument/uri = 856 4/2 ‡u)  
-  För att lägga in en elektronisk adress till en relaterad resurs, till exempel delar, sammanfattningar (abstracts), innehållsförteckningar eller andra resurser som på något sätt hör samman med den resurs som beskrivs i instansbeskrivningen, använd Relaterad beskrivning eller innehåll. Skapa Dokument som lokal entitet. Lägg till egenskapen URI. Klistra in aktuell URI.
+  För att lägga in en elektronisk adress till en **relaterad resurs, till exempel delar, sammanfattningar (abstracts), innehållsförteckningar** eller andra resurser som på något sätt hör samman med den resurs som beskrivs i instansbeskrivningen, använd Relaterad beskrivning eller innehåll. Skapa Dokument som lokal entitet. Lägg till egenskapen URI. Klistra in aktuell URI.
 * Relaterad beskrivning eller innehåll/Dokument/Offentlig anmärkning (isPrimaryTopicOf/Dokument/marc:publicNote = 856 4/0 ‡z)   
   Vid behov, lägg till Offentlig anmärkning. Skriv in anmärkningen.  
 * Del av materialet som avses/Resurs/Benämning (marc:versionOfResource/Electronic/appliesTo = 856 4/1 ‡3)  
