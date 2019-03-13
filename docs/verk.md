@@ -155,11 +155,11 @@ För översättningar i flera led, länka först till det mellanliggande språke
 ##### Sammanfattningsspråk  
 Se Sammanfattning av innehåll   
   
-##### Språkanmärkning     
+##### Anmarkning om sprak    
 * Anmärkning/Anmärkning om språk/Anmärkning: Språk/Benämning
 (hasNote/marc:LanguageNote/marc:LanguageNote/label = 546 ‡a)  
   ```Exempel: Parallelltext på svenska och engelska```  
-  Anmärkningen är under arbete och fungerar tyvärr ännu inte.  
+  Anmärkningen finns i vissa mallar och kan läggas till med hjälp av Berikning från mall. Det går ännu inte att lägga till egenskapen från Lägg till egenskap.  
   
 #### Genre 
 Länka till entiteter.  
