@@ -93,9 +93,9 @@ För en titel som börjar med bestämd eller obestämd artikel, ska artikeln fil
   För att ange originaltitel, se Verk/Har titel/Titel/Huvudtitel.  
 
 ##### Varianttitel   
-Används till exempel för felaktigheter. Kan specificeras med Typanmärkning.  
 För att lägga till varianttitel, klicka på plustecknet vid Har titel (lägg till titel) och välj typ Varianttitel.  
 * Har titel/Varianttitel/Huvudtitel (hasTitle/VariantTitle/mainTitle = 246 ‡a)   
+Används till exempel för felaktigheter och för att öka sökbarheten för titlar som innehåller exempelvis specialtecken, siffror eller oväntade stavningar av ord. Kan specificeras med Typanmärkning.
   Skriv in uppgiften under Huvudtitel.    
   ```Exempel: Hierarchy in organizations```   
 * Har titel/Varianttitel/Övrig titelinformation (= Undertitel) (hasTitle/VariantTitle/subtitle = 246 ‡b)  
@@ -104,7 +104,11 @@ För att lägga till varianttitel, klicka på plustecknet vid Har titel (lägg t
  Anmärkningstext som i ett sökgränssnitt ska föregå varianttiteln. Används också för att ange typ av varianttitel som inte finns i listan, t ex Titelrubrik. Lägg vid behov till Typanmärkning (plustecknet vid Varianttitel - lägg till egenskaper under: Varianttitel, välj Typanmärkning).  
   Skriv in uppgiften.  
   ```Exempel: Titeln felstavad, korrekt titel:```   
-  
+För en titel som börjar med bestämd eller obestämd artikel, ska artikeln fileras bort. Lägg till fileringsvärde under Titel och ange en siffra.  
+ ```Exempel: Huvudtitel: En arbetsdag i skriftsamhället, fileringsvärde: 3```  
+ Se exempel i formathandboken för Libris/Voyager: 
+[Fileringsindikator]( http://www.kb.se/katalogisering/Formathandboken/Fileringsindikator/)
+     
 ##### Omslagstitel, Ryggtitel, Rubriktitel  
 * Omslagstitel, Ryggtitel, Rubriktitel etc - lägg till Har titel och välj typ, till exempel Omslagstitel. Ange Huvudtitel, eventuell Övrig titelinformation och Typanmärkning, enligt mönstret för Omslagstitel, se nedan.      
 
@@ -143,16 +147,7 @@ För att ange Delbeteckning och Deltitel i en annan ordning, till exempel en del
 #### Titel - alternativ stavning
 * Relation/Relation/Entitet/Verk/Har titel/Titel/Huvudtitel   
 (relationship/Relationship/entity/Work/hasTitle/Title/mainTitle = 740)  
-Ange alternativa titlar här för att öka sökbarheten för titlar som innehåller exempelvis specialtecken, siffror eller oväntade stavningar av ord.  
-
-  För att lägga till en alternativ sökingång för titeln, lägg till Relation. Lägg till Entitet. Skapa verk som lokal entitet. Klicka i rutan Skapa lokal entitet, längst ner i sidorutan till höger, och välj Verk. Lägg till Har titel (plustecknet vid Verk - lägg till egenskaper under: Verk). 
-Skriv in uppgiften under Huvudtitel.  
-```Exempel: Commentarii fratrum arvalium qui supersunt```  
-
-  För en titel som börjar med bestämd eller obestämd artikel, ska artikeln fileras bort. Lägg till fileringsvärde under Titel och ange en siffra.  
- ```Exempel: Huvudtitel: En arbetsdag i skriftsamhället, fileringsvärde: 3```  
- Se exempel i formathandboken för Libris/Voyager: 
-[Fileringsindikator]( http://www.kb.se/katalogisering/Formathandboken/Fileringsindikator/)
+I äldre poster kan titlar med alternativ stavning ligga här. Använd i stället Varianttitel.    
   
 ##### Parallelltitel  
 Ange parallelltitel här. Upprepa inte parallelltitel efter Har titel/Titel/Huvudtitel (245 ‡a) med interpunktion.   
