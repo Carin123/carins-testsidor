@@ -470,8 +470,7 @@ Använd egenskapen Elektronisk adress endast när ingen uppgift finns om vilken 
 ##### Annan relaterad resurs
 * Annan relaterad resurs/Elektronisk/URI  
 (marc:versionOfResource/Electronic/URI = 856 4/1 ‡u)  
-**Om instansbeskrivningen inte gäller en elektronisk resurs, använd Annan relaterad resurs** för att lägga in en elektronisk adress till resursen i annat format.  
-Lägg till elektronisk under Annan relaterad resurs. Välj Skapa lokal entitet. Lägg till egenskapen URI. Klistra in aktuell URI.  
+**Om instansbeskrivningen inte gäller en elektronisk resurs, använd Annan relaterad resurs** för att lägga in en elektronisk adress till resursen i annat format. Lägg till elektronisk under Annan relaterad resurs. Välj Skapa lokal entitet. Lägg till egenskapen URI. Klistra in aktuell URI.  
 * Annan relaterad resurs/Elektronisk/Offentlig anmärkning  
 (marc:versionOfResource/Electronic/marc:publicNote = 856 4/1 ‡z)  
 Vid behov, lägg till Offentlig anmärkning. Skriv in anmärkningen.  
@@ -484,8 +483,7 @@ Gör i första hand en instansbeskrivning av den elektroniska resursen och anvä
 ##### Relaterad beskrivning eller innehåll
 * Relaterad beskrivning eller innehåll/Dokument/URI  
 (isPrimaryTopicOf/Dokument/uri = 856 4/2 ‡u)  
-  För att lägga in en elektronisk adress till en **relaterad resurs, till exempel delar, sammanfattningar (abstracts), innehållsförteckningar** eller andra resurser som på något sätt hör samman med den resurs som beskrivs i instansbeskrivningen, **använd Relaterad beskrivning eller innehåll**.  
-  Skapa Dokument som lokal entitet. Lägg till egenskapen URI. Klistra in aktuell URI.
+  För att lägga in en elektronisk adress till en **relaterad resurs, till exempel delar, sammanfattningar (abstracts), innehållsförteckningar** eller andra resurser som på något sätt hör samman med den resurs som beskrivs i instansbeskrivningen, **använd Relaterad beskrivning eller innehåll**. Skapa Dokument som lokal entitet. Lägg till egenskapen URI. Klistra in aktuell URI.
 * Relaterad beskrivning eller innehåll/Dokument/Offentlig anmärkning  
 (isPrimaryTopicOf/Dokument/marc:publicNote = 856 4/0 ‡z)   
   Vid behov, lägg till Offentlig anmärkning. Skriv in anmärkningen.  
