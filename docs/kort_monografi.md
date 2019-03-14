@@ -60,45 +60,45 @@ Se även [instruktionsfilmer](https://www.youtube.com/playlist?list=PLZVkEICvA5-
 * Kontrollera Katalogiseringsregler och Katalogiseringsspråk.
 * Kontrollera övriga uppgifter under [Adminmetadata](https://libris.kb.se/katalogisering/help/workflow-adminmetadata).
 
-#### Kontrollnummer
-* Kontrollnummer    
+#### Kontrollnummer  
+* Kontrollnummer (controlNumber = 001)  
 
-#### Skapad av  
+#### Skapad av (descriptionCreator/Organization/name = 040 ‡a)  
 * Skapad av/Organisation/Namn  
   
-#### Uppgraderad eller importerad av  
+#### Uppgraderad eller importerad av (descriptionUpgrader/Library/sigel = 040 ‡d)
 * Uppgraderad eller importerad av/Bibliotek/Sigel  
    
-#### Entry map  
+#### Entry map (marc:entryMap = 000/20-23)
 * Entry map 
 
-#### Katalogiserande instans
+#### Katalogiserande instans (marc:catalogingSource = 008/39)  
 * Katalogiserande instans  
 
-#### Bibliografikod
+#### Bibliografikod (bibliography/Library/sigel = 042 ‡9)
 * Bibliografi/Bibliotek/Sigel  
   
-#### Systemnummer  
+#### Systemnummer (identifiedBy/SystemNumber/value = 035 ‡a)
 * Identifikator/Lokal identifikator/Värde   
 
 För ISBN, se [Identifikator](#identifikator) under Instans.
   
-#### Katalogiseringssprak  
+#### Katalogiseringssprak (descriptionLanguage = 040 ‡b)
 * Katalogiseringsspråk (descriptionLanguage = 040 ‡b)  
   
-#### Katalogiseringsregler  
+#### Katalogiseringsregler (descriptionConventions = 040 ‡e)
 * Katalogiseringsregler  
 
-#### Beskrivningsniva  
+#### Beskrivningsniva (encodingLevel = 000/17)
 * Beskrivningsnivå  
   
-#### Poststatus     
+#### Poststatus (recordStatus = 000/05)
 * Poststatus  
   
-#### Translitterering
+#### Translitterering (marc:transcribingAgency = 040 ‡c)
 * Institution som gjort translitterering  
  
-#### Systemteknisk anmarkning  
+#### Systemteknisk anmarkning (technicalNote/label = 599 ‡a)
 * Systemteknisk anmärkning/Benämning  
 
 #### Instans
@@ -110,132 +110,138 @@ Sök fram egenskapen och välj den genom att klicka på plustecknet vid egenskap
 
 Läs mer om egenskaperna under [Instans](https://libris.kb.se/katalogisering/help/workflow-instance).  
 
-##### Utgivningssatt
+##### Utgivningssatt 
 * Utgivningssätt (issuanceType)   
   Välj från lista.  
   ```Exempel: Monografisk resurs```
   
-##### Medietyp
+##### Medietyp (mediaType/Mediatype = 337 ‡b)
 * Medietyp (mediaType/Mediatype = 337 ‡b)  
   Länka till entitet.  
   ```Exempel: n (= omedierad)```
   
-##### Barartyp
+##### Barartyp (carrierType/CarrierType = 338 ‡b)
 * Bärartyp (carrierType/CarrierType = 338 ‡b)  
   Länka till entitet.  
   ```Exempel: nc (= volym)```
   
-##### Titel    
-* Har titel/Titel/Huvudtitel
-* Har titel/Titel/Övrig titelinformation
+##### Titel
+* Har titel/Titel/Huvudtitel (hasTitle/Title/mainTitle = 245 ‡a)
+* Har titel/Titel/Övrig titelinformation (hasTitle/Title/subtitle = 245 ‡b)
 
-##### Varianttitel  
-* Har titel/Varianttitel/Huvudtitel
+##### Varianttitel
+* Har titel/Varianttitel/Huvudtitel (hasTitle/VariantTitle/mainTitle = 246 ‡a)
 
 ##### Omslagstitel   
-* Har titel/Omslagstitel/Huvudtitel
-* Har titel/Omslagstitel/Övrig titelinformation
+* Har titel/Omslagstitel/Huvudtitel (hasTitle/CoverTitle/mainTitle = 246 1/4 ‡a)
+* Har titel/Omslagstitel/Övrig titelinformation (hasTitle/CoverTitle/subtitle = 246 1/4 ‡b)
 
  ##### Ryggtitel   
-* Har titel/Ryggtitel/Huvudtitel
-* Har titel/Ryggtitel/Övrig titelinformation 
+* Har titel/Ryggtitel/Huvudtitel (hasTitle/SpineTitle/mainTitle = 246 1/8 ‡a)
+* Har titel/Ryggtitel/Övrig titelinformation (hasTitle/SpineTitle/subtitle = 246 1/8 ‡b)
 
 ##### Delbeteckning
-* Har titel/Titel/Har del/Titeldel/Delbeteckning 
+* Har titel/Titel/Har del/Titeldel/Delbeteckning (hasTitle/Title/hasPart/TitlePart/partNumber = 245 ‡n)
 
 ##### Deltitel  
-* Har titel/Titel/Har del/Titeldel/Deltitel
+* Har titel/Titel/Har del/Titeldel/Deltitel (hasTitle/Title/hasPart/TitlePart/partName = 245 ‡p)
 
 #### Titel - alternativ stavning
-* Relation/Relation/Entitet/Verk/Har titel/Titel/Huvudtitel 
+* Relation/Relation/Entitet/Verk/Har titel/Titel/Huvudtitel  
+(relationship/Relationship/entity/Work/hasTitle/Title/mainTitle = 740)
+Används inte. Se Varianttitel (246).  
 
 ##### Parallelltitel
-* Har titel/Parallelltitel/Huvudtitel
-* Har titel/Parallelltitel/Övrig titelinformation
+* Har titel/Parallelltitel/Huvudtitel (hasTitle/ParallelTitle/mainTitle = 246 1/1 ‡a)
+* Har titel/Parallelltitel/Övrig titelinformation (hasTitle/ParallelTitle/subTitle = 246 1/1 ‡b)
 
 #### Upphovsuppgift
-* Upphovsuppgift 
+* Upphovsuppgift (responsibilityStatement = 245 ‡c)
 
 #### Upplageuppgift
-* Upplageuppgift
+* Upplageuppgift (editionStatement = 250 ‡a)
 
 #### Utgivning  
-* Primär utgivning/Utgivning
+* Primär utgivning/Utgivning (publication/PrimaryPublication)  
 
 ##### Utgivningsplats
-* Primär utgivning/Utgivning/Plats/Plats/Benämning 
+* Primär utgivning/Utgivning/Plats/Plats/Benämning (place/label = 264 -/1 ‡a)
 
 ##### Utgivningsland  
-* Primär utgivning/Utgivning/Land
+* Primär utgivning/Utgivning/Land (country = 008/15-17)
 
 ##### Utgivarnamn
-* Primär utgivning/Utgivning/Agent/Agent/Benämning
+* Primär utgivning/Utgivning/Agent/Agent/Benämning (agent/label = 264 -/1 ‡b)
 
 ##### År och datum 
 **År**
-* Primär utgivning/Utgivning/År  
- År får endast innehålla siffror (0-9) och bokstaven u.
+* Primär utgivning/Utgivning/År (date = 008/07-10, 264 -/1 ‡c)
+ År får endast innehålla siffror (0-9) och bokstaven u.  
  Observera att År **måste** finnas med i beskrivningen, även om Datum finns med.   
 
 **Datum**
-* Primär utgivning/Utgivning/Datum  
-  Datum får innehålla text och interpunktionstecken. till exempel klamrar och frågetecken.
+* Primär utgivning/Utgivning/Datum (date = 264 -/1 ‡c)  
+  Datum får innehålla text och interpunktionstecken. till exempel klamrar och frågetecken.  
   Datum används endast när man förutom årtalet ska använda andra tecken än siffror och bokstaven u.  
   
 **Flera år (flerbandsverk):**  
 Använd Startår och Slutår (inte År).
-* Primär utgivning/Utgivning/Startår  
-* Primär utgivning/Utgivning/Slutår  
+* Primär utgivning/Utgivning/Startår (008/07-10 + 264 -/1 ‡c)  
+* Primär utgivning/Utgivning/Slutår (008/11-14 + 264 -/1 ‡c) 
   
 #### Tillverkning 
 
 ##### Tillverkningsplats (Tillverkningsort) 
-* Tillverkning/Plats/Plats/Benämning
+* Tillverkning/Plats/Plats/Benämning (place/label = 264 -/3 ‡a)  
 
 ##### Tillverkningsnamn  
-* Tillverkning/Agent/Agent/Benämning
+* Tillverkning/Agent/Agent/Benämning (agent/label = 264 -/3 ‡b)  
 
 #### Copyrightar   
-* Copyright/Copyright/Datum
+* Copyright/Copyright/Datum (copyright/Copyright/date = 264 -/4 ‡c)  
 
 #### Identifikator 
-* Identifikator/ISBN/Värde  
-  Notera att felaktigt eller ogiltigt ISBN ska anges under Indirekt identifierad av.  
-
-* Identifikator/Särskiljande tillägg 
+* Identifikator/ISBN/Värde (identifiedBy/Isbn/value = 020 ‡a)  
+* Identifikator/Särskiljande tillägg  (identifiedBy/qualifier = 020 ‡q)
+Notera att felaktigt eller ogiltigt ISBN ska anges under Indirekt identifierad av. Använd inte Ogiltigt värde.  
 
 #### Indirekt identifierad av  
-  **Felaktigt eller ogiltigt ISBN** ska anges här. Använd inte Ogiltigt värde under Identifikator/ISBN.
+ **Felaktigt eller ogiltigt ISBN** ska anges här. Använd inte Ogiltigt värde under Identifikator/ISBN.  
+
+* Indirekt identifierad av/ISBN/Värde (indirectlyIdentifiedBy/Isbn/value = 020 ‡z)
+* Indirekt identifierad av/Särskiljande tillägg (= Bestämning) (indirectlyIdentifiedBy/qualifier = 020 ‡q)
 
 #### Omfang   
-* Omfång/Omfång/Benämning
+* Omfång/Omfång/Benämning (extent/Extent/label = 300 ‡a)
 
 #### Ovriga fysiska detaljer   
-* Övriga fysiska detaljer
+* Övriga fysiska detaljer (other physical details = 300 ‡b)
 
 #### Matt 
-* Mått/Mått/Benämning
+* Mått/Mått/Benämning (hasDimensions/Dimensions/label = 300 ‡c)
 
 #### Bilagor
-* Tillsammans med/Instans/Benämning
+* Tillsammans med/Instans/Benämning (accompaniedBy/Instance/label = 300 ‡e)
 
 #### Seriemedlemskap
-* Seriemedlemskap/Seriemedlemskap/Ingår i serie 
+* Seriemedlemskap/Seriemedlemskap/Ingår i serie  
 
 ##### Seriens titel (auktoriserad sökingång för serie)  
-* Seriemedlemskap/Ingår i serie/Instans av Verk/Verk/Har titel/Titel/Huvudtitel
+* Seriemedlemskap/Ingår i serie/Instans av Verk/Verk/Har titel/Titel/Huvudtitel  
+(seriesMembership/inSeries/InstanceofWork/Work/hasTitle/Title/mainTitle = 830 ‡a)
 
 ##### ISSN  
-* Seriemedlemskap/Ingår i serie/Instans/Identifikator/ISSN/Värde
+* Seriemedlemskap/Ingår i serie/Instans/Identifikator/ISSN/Värde  
+(seriesMembership/inSeries/Instance/identifiedBy/ISSN/Value = 490 ‡x, 830 ‡x) 
 
 ##### Serieuppgift  
-* Seriemedlemskap/Serieuppgift
+* Seriemedlemskap/Serieuppgift (seriesMembership/seriesStatement = 490 ‡a)
 
 ##### Numrering inom serie  
-* Seriemedlemskap/Numrering inom serie
+* Seriemedlemskap/Numrering inom serie (seriesMembership/seriesEnumeration = 490 ‡v, 830 ‡v)
 
 ##### Indikator för seriebiuppslag   
-* Seriemedlemskap/Indikator för seriebiuppslag
+* Seriemedlemskap/Indikator för seriebiuppslag (marc:seriesTracingPolicy = 490 i1: 0/1)
 
 ##### Författarserie
 * Seriemedlemskap/Ingår i serie/Instans/Instans av Verk/Verk/Har titel/Titel/Huvudtitel  
@@ -254,14 +260,14 @@ Följ dessa instruktioner:
   ```Exempel: 1```  
   
 #### Anmarkning
-* Anmärkning/Anmärkning/Benämning 
+* Anmärkning/Anmärkning/Benämning (hasNote/Note/label = 500 ‡a)
 
 #### Malgruppsanmarkning  
-* Målgrupp/Målgrupp/Benämning
+* Målgrupp/Målgrupp/Benämning (intendedAudience/IntendedAudience/label = 521 ‡a)
 Observera att kodning av målgrupp, motsvarande 008/22, ska registreras under Instans av Verk/Genre.  
 
 #### Annat bararformat
-* Annat bärarformat 
+* Annat bärarformat (otherPhysicalFormat = 776)
 Länka till instans.
 
 
@@ -284,11 +290,11 @@ Ange den föredragna titeln för verket här, vid behov. Följ [Anvisningar för
 Ange föredragen titel för översättningar, för verk som har givits ut under olika titlar på samma språk eller när samma titel har använts för olika verk.   
 
 ###### Verk med Primär medverkan
-* Har titel/Titel/Huvudtitel  
+* Har titel/Titel/Huvudtitel (hasTitle/Title/mainTitle = 240 1/0 ‡a)
  "Originaltitel" för ett verk med Medverkan och funktion/Primär medverkan anges här.  
 
 ###### Verk utan Primär medverkan
-*	Uttryck av/Verk/Har titel/Titel/Huvudtitel  
+*	Uttryck av/Verk/Har titel/Titel/Huvudtitel (expressionOf/Work/hasTitle/Title/mainTitle = 130 ‡a)
  "Originaltitel" för ett verk utan Medverkan och funktion/Primär medverkan anges här.
  
 #### Relationer till ingaende verk och andra verk
@@ -312,24 +318,24 @@ Se [Relationer till delar och verk](https://libris.kb.se/katalogisering/help/wor
 ##### Medverkan och funktion
 Följ dessa instruktioner: [Relationer till Agent](https://libris.kb.se/katalogisering/help/workflow-agent-org-instance)  
   
-* Medverkan och funktion/Primär medverkan/Agent/Person (100)
+* Medverkan och funktion/Primär medverkan/Agent/Person (contribution/PrimaryContribution/agent/Person = 100 1/- ‡a)
 
-* Medverkan och funktion/Primär medverkan/Funktion
+* Medverkan och funktion/Primär medverkan/Funktion (contribution/PrimaryContribution/role = 100 ‡4)
 
-* Medverkan och funktion/Medverkan/Agent/Person (700)
+* Medverkan och funktion/Medverkan/Agent/Person (contribution/agent/Person = 700 1/- ‡a)
 
-* Medverkan och funktion/Medverkan/Agent/Organisation 
+* Medverkan och funktion/Medverkan/Agent/Organisation (710 2/-)
 
-* Medverkan och funktion/Medverkan/Agent/Jurisdiktion
+* Medverkan och funktion/Medverkan/Agent/Jurisdiktion (710 1/-)
 
 #### Sprak 
-* Språk
+* Språk (language = 008/35-37)
 
 För att ange originalspråk för ett översatt verk, se Originalversion/Verk/Språk.  
 
 ##### Översättning  
 För en översättning, ange även:  
-* Språk/Språk/Benämning 
+* Språk/Språk/Benämning (Language/label = 240 ‡l)
 
 * Anmärkning: Språk (marc:LanguageNote = 041 i1: 1)  
   Ange om resursen är/innehåller en översättning.  
@@ -339,10 +345,11 @@ Se Sammanfattning av innehåll
 
 ##### Språkanmärkning     
 * Anmärkning/Anmärkning om språk/Anmärkning: Språk/Benämning  
-Anmärkningen är under arbete och fungerar tyvärr ännu inte.  
+(hasNote/marc:LanguageNote/marc:LanguageNote/label = 546 ‡a) 
+Anmärkningen finns i mallen Tryckt monografi och kan läggas till med hjälp av Berikning från mall. Det går ännu inte att lägga till egenskapen från Lägg till egenskaper.
 
 ##### Genre
-* Genre/form – saogf-termer  
+* Genre/form – saogf-termer (genreForm = 655 -/7 ‡a, ‡2 saogf)
  Välj Genre/form i listan över typer.  
  
 * Genre/form – termer som motsvarar marc-koder i 008  
@@ -381,46 +388,46 @@ För att länka till termer som motsvarar marc-koder i 008, se övriga rubriker.
 ![Genre exempel](genre_exempel.png)  
 
 **Roman**  
-Haag, Martina: Det är något som inte stämmer  
-Genre/form (saogf-term): Självbiografiska skildringar, Romaner  
+Exempel: Haag, Martina: Det är något som inte stämmer  
+Genre/form (saogf-term, 655): Självbiografiska skildringar, Romaner  
 Litterär genre (008): Roman  
 
 **Diktsamling**  
-Hallgren, Hanna: Vinterresan  
-Genre/form (saogf-term): Poesi  
-Litterär genre (008): Dikter
+Exempel: Hallgren, Hanna: Vinterresan  
+Genre/form (saogf-term, 655): Poesi  
+Litterär genre (008/33): Dikter
 
 **Bilderbok för barn**  
-Genre/form (barngf-term): Bilderböcker  
-Genre/form (barngf-term): Barn- och ungdomslitteratur  
-Litterär genre (008): Skönlitterärt verk, genre ej angiven
+Genre/form (barngf-term, 655): Bilderböcker  
+Genre/form (barngf-term, 655): Barn- och ungdomslitteratur  
+Litterär genre (008/33): Skönlitterärt verk, genre ej angiven
 
 **Fackbok för barn**  
-Genre/form (barngf-term): Faktaböcker   
-Litterär genre (008): Ej skönlitterärt verk
+Genre/form (barngf-term, 655): Faktaböcker   
+Litterär genre (008/33): Ej skönlitterärt verk
 
 **Biografi**  
-Genre/form (saogf-term): Biografi  
-Biografiskt material (008): Biografi över en individ  
-Litterär genre (008): Ej skönlitterärt verk
+Genre/form (saogf-term, 655): Biografi  
+Biografiskt material (008/34): Biografi över en individ  
+Litterär genre (008/33): Ej skönlitterärt verk
 
 **Självbiografi**  
-Genre/form (saogf-term): Självbiografier  
-Biografiskt material (008): Självbiografisk text, Självbiografi  
-Litterär genre (008): Ej skönlitterärt verk
+Genre/form (saogf-term, 655): Självbiografier  
+Biografiskt material (008/34): Självbiografisk text, Självbiografi  
+Litterär genre (008/33): Ej skönlitterärt verk
 
 **Fackbok, ej biografi**  
-Genre/form (saogf-term): Lämpliga saogf-termer.  
+Genre/form (saogf-term, 655): Lämpliga saogf-termer.  
 Se även [Svenska ämnesords översikt över Allmänna genreform-termer](http://www.kb.se/katalogisering/Svenska-amnesord/genrer-form/Allmanna-genreformtermer/).  
-Litterär genre (008): Ej skönlitterärt verk  
+Litterär genre (008/33): Ej skönlitterärt verk  
 
 **Festskrift**  
-Genre/form (saogf-term): Festskrifter  
-Festskrift (008): Ja, resursen är en festskrift  
-Litterär genre (008): Ej skönlitterärt verk  
+Genre/form (saogf-term, 655): Festskrifter  
+Festskrift (008/30): Ja, resursen är en festskrift  
+Litterär genre (008/33): Ej skönlitterärt verk  
 
 **Akademisk avhandling**  
-Genre/form (saogf-term): Avhandlingar  
+Genre/form (saogf-term, 655): Avhandlingar  
 Innehåll: Avhandling
 
 #### Klassifikation  
