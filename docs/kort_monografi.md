@@ -38,7 +38,7 @@ Se även [instruktionsfilmer](https://www.youtube.com/playlist?list=PLZVkEICvA5-
 | [Entry map](#entry-map) | [Titel](#titel) | [Språk](#sprak) |
 | [Katalogiserande instans](#katalogiserande-instans) | [Upphovsuppgift](#upphovsuppgift) | [Genre](#genre) | 
 | [Poststatus](#poststatus) | [Upplageuppgift](#upplageuppgift) | [Klassifikation](#klassifikation) |
-| [Translitterering](#translitterering) | [Utgivning](#utgivning) | [Ämne](#amne) |
+| [Translitterering](#translitterering) | [Utgivning](#utgivning) | [Ämne](https://libris.kb.se/katalogisering/help/workflow-general-sh) |
 | [Systemnummer](#systemnummer) | [Tillverkning](#tillverkning) | [Målgrupp](#malgrupp) | 
 | [Katalogiseringsspråk](#katalogiseringssprak) | [Copyrightår](#copyrightar) | [Innehållstyp](#innehallstyp) | 
 |  [Katalogiseringsregler](#katalogiseringsregler) | [Identifikator](#identifikator) | [Sammanfattning av innehåll](#sammanfattning-av-innehall) |
@@ -394,72 +394,76 @@ Litterär genre (008): Roman
 
 **Diktsamling**  
 Exempel: Hallgren, Hanna: Vinterresan  
-Genre/form (saogf-term, 655): Poesi  
-Litterär genre (008/33): Dikter
+Genre/form (saogf-term): Poesi  
+Litterär genre: Dikter
 
 **Bilderbok för barn**  
-Genre/form (barngf-term, 655): Bilderböcker  
-Genre/form (barngf-term, 655): Barn- och ungdomslitteratur  
-Litterär genre (008/33): Skönlitterärt verk, genre ej angiven
+Genre/form (barngf-term): Bilderböcker  
+Genre/form (barngf-term): Barn- och ungdomslitteratur  
+Litterär genre: Skönlitterärt verk, genre ej angiven
 
 **Fackbok för barn**  
-Genre/form (barngf-term, 655): Faktaböcker   
-Litterär genre (008/33): Ej skönlitterärt verk
+Genre/form (barngf-term): Faktaböcker   
+Litterär genre: Ej skönlitterärt verk
 
 **Biografi**  
-Genre/form (saogf-term, 655): Biografi  
-Biografiskt material (008/34): Biografi över en individ  
-Litterär genre (008/33): Ej skönlitterärt verk
+Genre/form (saogf-term): Biografi  
+Biografiskt material: Biografi över en individ  
+Litterär genre: Ej skönlitterärt verk
 
 **Självbiografi**  
-Genre/form (saogf-term, 655): Självbiografier  
-Biografiskt material (008/34): Självbiografisk text, Självbiografi  
-Litterär genre (008/33): Ej skönlitterärt verk
+Genre/form (saogf-term): Självbiografier  
+Biografiskt material: Självbiografisk text, Självbiografi  
+Litterär genre: Ej skönlitterärt verk
 
 **Fackbok, ej biografi**  
-Genre/form (saogf-term, 655): Lämpliga saogf-termer.  
+Genre/form (saogf-term): Lämpliga saogf-termer.  
 Se även [Svenska ämnesords översikt över Allmänna genreform-termer](http://www.kb.se/katalogisering/Svenska-amnesord/genrer-form/Allmanna-genreformtermer/).  
-Litterär genre (008/33): Ej skönlitterärt verk  
+Litterär genre: Ej skönlitterärt verk  
 
 **Festskrift**  
-Genre/form (saogf-term, 655): Festskrifter  
-Festskrift (008/30): Ja, resursen är en festskrift  
-Litterär genre (008/33): Ej skönlitterärt verk  
+Genre/form (saogf-term): Festskrifter  
+Festskrift: Ja, resursen är en festskrift  
+Litterär genre: Ej skönlitterärt verk  
 
 **Akademisk avhandling**  
-Genre/form (saogf-term, 655): Avhandlingar  
+Genre/form (saogf-term): Avhandlingar  
 Innehåll: Avhandling
 
 #### Klassifikation  
-* Klassifikation/DDK-klassifikation/Kod
-
-* Klassifikation/DDK-klassifikation/Klassifikationsupplaga
-
-* Parallell upplagebeteckning/Upplagespecifik upphovsuppgift
-
-##### Sekundär DDK-klassifikation 
-* DDK-klassifikation (sekundär)/Klassifikation/DDK-klassifikation/Kod 
+* Klassifikation/DDK-klassifikation/Kod (classification/ClassificationDdc/code = 082 0/4 ‡a)
 
 * Klassifikation/DDK-klassifikation/Klassifikationsupplaga  
+(classification/ClassificationDdc/edition = 082 i1)
 
-*  Parallell upplagebeteckning/Upplagespecifik upphovsuppgift 
+* Parallell upplagebeteckning/Upplagespecifik upphovsuppgift 
+(classification/ClassificationDdc/editionEnumeration = 082 ‡2)
+
+##### Sekundär DDK-klassifikation 
+* DDK-klassifikation (sekundär)/Klassifikation/DDK-klassifikation/Kod   
+(additionalClassificationDdc/ClassificationDdc/code = 083 0/- ‡a)
+
+* Klassifikation/DDK-klassifikation/Klassifikationsupplaga  
+(classification/ClassificationDdc/edition = 083 i1)
+
+* Parallell upplagebeteckning/Upplagespecifik upphovsuppgift  
+(classification/ClassificationDdc/editionEnumeration = 083 ‡2)
 
 ##### SAB-klassifikation  
-* Klassifikation/Klassifikation/Kod
+* Klassifikation/Klassifikation/Kod  
+(classification/Classification/code = 084 0/4 ‡a)
 
-* Klassifikation/Termlista/Termlista/Kod
+* Klassifikation/Termlista/Termlista/Kod  
+(classification/Classification/inScheme/ConceptScheme/code = 084 ‡2)
 
-* Klassifikation/Termlista/Termlista/Version
+* Klassifikation/Termlista/Termlista/Version  
+(classification/Classification/inScheme/ConceptScheme/version = 084 ‡2)
 
 #### Amne  
-
-[Ämnesord i Libris](https://libris.kb.se/katalogisering/help/workflow-general-sh)  
-[Länka ämnesord](https://libris.kb.se/katalogisering/help/workflow-linked-entity-sh)   
-[Ämnesord som lokal entitet](https://libris.kb.se/katalogisering/help/workflow-local-entity-sh)    
-[Okontrollerad term](https://libris.kb.se/katalogisering/help/workflow-uncontrolled-sh)  
+* [Ämne](https://libris.kb.se/katalogisering/help/workflow-general-sh)  
 
 #### Malgrupp     
-* Målgrupp (008)
+* Målgrupp (008/22)
 <br/>```Exempel:```
   * ```Barn och ungdom (0-16 år) (008/22: j)```  
   Normalvärde för barn- och ungdomslitteratur.
@@ -470,7 +474,7 @@ Innehåll: Avhandling
  Målgruppsanmärkning (Målgrupp/Målgrupp/Benämning), se Instans.  
 
 ##### Innehallstyp
-* Innehållstyp/Innehållstyp   
+* Innehållstyp/Innehållstyp (contentType/ContentType = 336 ‡b)   
 ```Exempel: text (txt)```
 
   För att lägga till ytterligare innehållstyp, till exempel "sti" = stillbild för en bilderbok med både text och bild:
@@ -481,4 +485,4 @@ Innehåll: Avhandling
 * Sammanfattning av innehåll/Sammanfattning/Språk
 
 #### Anmarkning om akademisk avhandling    
-* Anmärkning/Anmärkning om akademisk avhandling/Benämning
+* Anmärkning/Anmärkning om akademisk avhandling/Benämning (dissertation/Dissertation/label = 502 ‡a)  
