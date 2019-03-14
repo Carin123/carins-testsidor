@@ -224,7 +224,8 @@ För att länka till termer som motsvarar marc-koder i 008, se övriga rubriker.
 ##### Sekundär DDK-klassifikation  
 Lägg till DDK-klassifikation (sekundär) genom att klicka på plustecknet till höger om Instans av verk och verkstypen och välja DDK-klassifikation (sekundär).  
 Klicka sedan på plustecknet vid DDK-klassifikation (sekundär) (Lägg till ddk-klassifikation) och välj Skapa lokal entitet. Skriv in uppgiften under Kod.  
-* Klassifikation/DDK-klassifikation/Kod (additionalClassificationDdc/ClassificationDdc/code = 083 0/- ‡a)  
+* Klassifikation/DDK-klassifikation/Kod  
+(additionalClassificationDdc/ClassificationDdc/code = 083 0/- ‡a)  
   Skriv in uppgiften.  
   ```Exempel: 791.430233092```
 * Klassifikation/DDK-klassifikation/Klassifikationsupplaga  
