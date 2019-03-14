@@ -63,43 +63,43 @@ Se även [instruktionsfilmer](https://www.youtube.com/playlist?list=PLZVkEICvA5-
 #### Kontrollnummer  
 * Kontrollnummer (controlNumber = 001)  
 
-#### Skapad av (descriptionCreator/Organization/name = 040 ‡a)  
-* Skapad av/Organisation/Namn  
+#### Skapad av 
+* Skapad av/Organisation/Namn (descriptionCreator/Organization/name = 040 ‡a)  
   
-#### Uppgraderad eller importerad av (descriptionUpgrader/Library/sigel = 040 ‡d)
-* Uppgraderad eller importerad av/Bibliotek/Sigel  
+#### Uppgraderad eller importerad av 
+* Uppgraderad eller importerad av/Bibliotek/Sigel (descriptionUpgrader/Library/sigel = 040 ‡d)
    
-#### Entry map (marc:entryMap = 000/20-23)
-* Entry map 
+#### Entry map 
+* Entry map (marc:entryMap = 000/20-23)
 
-#### Katalogiserande instans (marc:catalogingSource = 008/39)  
-* Katalogiserande instans  
+#### Katalogiserande instans 
+* Katalogiserande instans (marc:catalogingSource = 008/39)  
 
-#### Bibliografikod (bibliography/Library/sigel = 042 ‡9)
-* Bibliografi/Bibliotek/Sigel  
+#### Bibliografikod 
+* Bibliografi/Bibliotek/Sigel (bibliography/Library/sigel = 042 ‡9)
   
-#### Systemnummer (identifiedBy/SystemNumber/value = 035 ‡a)
-* Identifikator/Lokal identifikator/Värde   
+#### Systemnummer 
+* Identifikator/Lokal identifikator/Värde (identifiedBy/SystemNumber/value = 035 ‡a)
 
 För ISBN, se [Identifikator](#identifikator) under Instans.
   
-#### Katalogiseringssprak (descriptionLanguage = 040 ‡b)
+#### Katalogiseringssprak
 * Katalogiseringsspråk (descriptionLanguage = 040 ‡b)  
   
-#### Katalogiseringsregler (descriptionConventions = 040 ‡e)
-* Katalogiseringsregler  
+#### Katalogiseringsregler
+* Katalogiseringsregler (descriptionConventions = 040 ‡e)
 
-#### Beskrivningsniva (encodingLevel = 000/17)
-* Beskrivningsnivå  
+#### Beskrivningsniva 
+* Beskrivningsnivå (encodingLevel = 000/17)
   
-#### Poststatus (recordStatus = 000/05)
-* Poststatus  
+#### Poststatus 
+* Poststatus (recordStatus = 000/05)
   
-#### Translitterering (marc:transcribingAgency = 040 ‡c)
-* Institution som gjort translitterering  
+#### Translitterering 
+* Institution som gjort translitterering (marc:transcribingAgency = 040 ‡c)
  
-#### Systemteknisk anmarkning (technicalNote/label = 599 ‡a)
-* Systemteknisk anmärkning/Benämning  
+#### Systemteknisk anmarkning 
+* Systemteknisk anmärkning/Benämning (technicalNote/label = 599 ‡a)
 
 #### Instans
 För att lägga till egenskaper under Instans, klicka på plustecknet i redigeringsvyn (den stora runda plusikonen under Verktygsikonen) - Lägg till egenskaper under: Instans.  
@@ -115,12 +115,12 @@ Läs mer om egenskaperna under [Instans](https://libris.kb.se/katalogisering/hel
   Välj från lista.  
   ```Exempel: Monografisk resurs```
   
-##### Medietyp (mediaType/Mediatype = 337 ‡b)
+##### Medietyp
 * Medietyp (mediaType/Mediatype = 337 ‡b)  
   Länka till entitet.  
   ```Exempel: n (= omedierad)```
   
-##### Barartyp (carrierType/CarrierType = 338 ‡b)
+##### Barartyp 
 * Bärartyp (carrierType/CarrierType = 338 ‡b)  
   Länka till entitet.  
   ```Exempel: nc (= volym)```
