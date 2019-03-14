@@ -241,12 +241,15 @@ Klicka sedan på plustecknet vid DDK-klassifikation (sekundär) (Lägg till ddk-
   * Om posten har Klassifikation/DDK-klassifikation men saknar Klassifikation/Klassifikation (till exempel SAB-klassifikation), lägg till ytterligare en förekomst av Klassifikation (plustecknet vid Klassifikation - lägg till klassifikation). Välj Skapa lokal entitet och välj Klassifikation. Skriv in uppgiften under Kod.  
   * Om posten helt saknar Klassifikation, lägg till Klassifikation genom att klicka på plustecknet till höger om Instans av verk och verkstypen. Välj Klassifikation. Klicka på plustecknet vid Klassifikation (Lägg till klassifikation). Välj Skapa lokal entitet och välj Klassifikation.  
    Skriv in uppgiften under Kod.   
-* Klassifikation/Klassifikation/Kod (classification/Classification/code = 084 0/4 ‡a)  
+* Klassifikation/Klassifikation/Kod  
+(classification/Classification/code = 084 0/4 ‡a)  
      Skriv in uppgiften.  
   ```Exempel: Sei-e```   
-* Klassifikation/Termlista/Termlista/Kod (classification/Classification/inScheme/ConceptScheme/code = 084 ‡2)  
+* Klassifikation/Termlista/Termlista/Kod 
+(classification/Classification/inScheme/ConceptScheme/code = 084 ‡2)  
  ```Exempel: kssb```  
-* Klassifikation/Termlista/Termlista/Version (classification/Classification/inScheme/ConceptScheme/version = 084 ‡2)  
+* Klassifikation/Termlista/Termlista/Version  
+(classification/Classification/inScheme/ConceptScheme/version = 084 ‡2)  
  ```Exempel: 8``` 
  
 #### Amne  
