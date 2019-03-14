@@ -225,7 +225,7 @@ Klicka sedan på plustecknet vid DDK-klassifikation (sekundär) (Lägg till ddk-
   Skriv in uppgiften.  
   ```Exempel: 791.430233092```
 * Klassifikation/DDK-klassifikation/Klassifikationsupplaga  
-  (classification/ClassificationDdc/edition = 083 ‡2)  
+  (classification/ClassificationDdc/edition = 083 i1)  
   ```Exempel: full```  
 *  Parallell upplagebeteckning/Upplagespecifik upphovsuppgift  
  (classification/ClassificationDdc/editionEnumeration = 083 ‡2)  
