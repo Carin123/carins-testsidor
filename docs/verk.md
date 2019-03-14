@@ -245,7 +245,7 @@ Klicka sedan på plustecknet vid DDK-klassifikation (sekundär) (Lägg till ddk-
 (classification/Classification/code = 084 0/4 ‡a)  
      Skriv in uppgiften.  
   ```Exempel: Sei-e```   
-* Klassifikation/Termlista/Termlista/Kod 
+* Klassifikation/Termlista/Termlista/Kod  
 (classification/Classification/inScheme/ConceptScheme/code = 084 ‡2)  
  ```Exempel: kssb```  
 * Klassifikation/Termlista/Termlista/Version  
