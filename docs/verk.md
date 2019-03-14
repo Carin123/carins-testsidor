@@ -210,12 +210,15 @@ För att länka till termer som motsvarar marc-koder i 008, se övriga rubriker.
   * Om posten helt saknar Klassifikation, lägg till Klassifikation genom att klicka på plustecknet till höger om Instans av verk och verkstypen. Välj Klassifikation. Klicka på plustecknet vid Klassifikation (Lägg till klassifikation). Välj Skapa lokal entitet och välj DDK-klassifikation.  
    Skriv in uppgiften under Kod.  
 
-* Klassifikation/DDK-klassifikation/Kod (classification/ClassificationDdc/code = 082 0/4 ‡a)  
+* Klassifikation/DDK-klassifikation/Kod 
+(classification/ClassificationDdc/code = 082 0/4 ‡a)  
   Skriv in uppgiften.  
   ```Exempel: 327.12092```
-* Klassifikation/DDK-klassifikation/Klassifikationsupplaga (classification/ClassificationDdc/edition = 082 i1)  
+* Klassifikation/DDK-klassifikation/Klassifikationsupplaga  
+(classification/ClassificationDdc/edition = 082 i1)  
   ```Exempel: full```  
-*  Parallell upplagebeteckning/Upplagespecifik upphovsuppgift (classification/ClassificationDdc/editionEnumeration = 082 ‡2)  
+*  Parallell upplagebeteckning/Upplagespecifik upphovsuppgift  
+(classification/ClassificationDdc/editionEnumeration = 082 ‡2)  
   ```Exempel: 23/swe```  
   
 ##### Sekundär DDK-klassifikation  
@@ -227,7 +230,7 @@ Klicka sedan på plustecknet vid DDK-klassifikation (sekundär) (Lägg till ddk-
 * Klassifikation/DDK-klassifikation/Klassifikationsupplaga  
   (classification/ClassificationDdc/edition = 083 i1)  
   ```Exempel: full```  
-*  Parallell upplagebeteckning/Upplagespecifik upphovsuppgift  
+*  Parallell upplagebeteckning/Upplagespecifik upphovsuppgift   
  (classification/ClassificationDdc/editionEnumeration = 083 ‡2)  
   ```Exempel: 23/swe``` 
    
