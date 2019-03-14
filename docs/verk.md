@@ -210,7 +210,7 @@ För att länka till termer som motsvarar marc-koder i 008, se övriga rubriker.
   * Om posten helt saknar Klassifikation, lägg till Klassifikation genom att klicka på plustecknet till höger om Instans av verk och verkstypen. Välj Klassifikation. Klicka på plustecknet vid Klassifikation (Lägg till klassifikation). Välj Skapa lokal entitet och välj DDK-klassifikation.  
    Skriv in uppgiften under Kod.  
 
-* Klassifikation/DDK-klassifikation/Kod 
+* Klassifikation/DDK-klassifikation/Kod  
 (classification/ClassificationDdc/code = 082 0/4 ‡a)  
   Skriv in uppgiften.  
   ```Exempel: 327.12092```
