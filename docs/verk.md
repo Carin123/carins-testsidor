@@ -259,7 +259,7 @@ Klicka sedan på plustecknet vid DDK-klassifikation (sekundär) (Lägg till ddk-
 * Målgrupp (intendedAudience = 008/22)
  Länka till entitet.  
  <br/>```Exempel:```
-  * ```Barn och ungdom (0-16 år) (008/22: j)```
+  * ```Barn och ungdom (0-16 år) (008/22: j)```  
   Normalvärde för barn- och ungdomslitteratur.
   
   * ```Barn (ca 10-12 år)/Läromedel (008/22: c)```  
