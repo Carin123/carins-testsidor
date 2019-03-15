@@ -173,7 +173,7 @@ Vid behov, lägg till Övrig titelinformation (subtitle) under Parallelltitel.
 Uppgifter om Produktion anges endast för **opublicerade** resurser. För publicerat material, se [Utgivning.](#utgivning)  
 
 * Produktion (production)  
-  Används för opublicerade resurser. Välj Produktion i listan. Komplettera alltid med egenskapen Huvudsakligt tillgängliggörande.
+  Används för opublicerade resurser. Välj Produktion i listan. Komplettera med egenskapen Huvudsakligt tillgängliggörande. Undantaget är samlingsposter. I dessa anges täckningstiden som Primär produktion med egenskaperna Startår och Slutår.  
   
 ##### Produktionsort 
 *	Plats/Plats/Benämning (place/label = 264 -/0 ‡a)  
@@ -193,7 +193,7 @@ Datum får innehålla text och interpunktionstecken.
  
 #### Huvudsakligt tillgängliggörande
 *	Huvudsakligt tillgängliggörande (marc:primaryProvisionActivity = 264 -/0 ‡b)  
-  Ta alltid med Huvudsakligt tillgängliggörande när egenskapen Produktion används. Egenskapen används även tillsammans med Utgivningsår i de fall detta är osäkert men tidigaste och senaste år kan anges.
+  Ta med Huvudsakligt tillgängliggörande när egenskapen Produktion används och det inte gäller en samlingspost. Egenskapen används även tillsammans med Utgivningsår i de fall detta är osäkert men tidigaste och senaste år kan anges.
   <br><br>Välj typ från lista. Använd alltid Primär produktion för opublicerat material, och Primär utgivning för utgivet material som har osäkert utgivningsår men där tidigaste och senaste år kan anges. I stillbildsmallen är Primär utgivning förvalt. Ändra till Primär produktion när opublicerat material beskrivs. 
   
 ##### Land
