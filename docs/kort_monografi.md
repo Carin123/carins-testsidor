@@ -2,7 +2,7 @@
 section: Hjälptexter katalogisering
 title: Tryckt monografi
 order: 23
-date: 2019-03-12
+date: 2019-03-15
 tags:
 - under arbete
 - monografi
@@ -148,7 +148,7 @@ Läs mer om egenskaperna under [Instans](https://libris.kb.se/katalogisering/hel
 
 #### Titel - alternativ stavning
 * Relation/Relation/Entitet/Verk/Har titel/Titel/Huvudtitel  
-(relationship/Relationship/entity/Work/hasTitle/Title/mainTitle = 740)
+(relationship/Relationship/entity/Work/hasTitle/Title/mainTitle = 740)  
 Används inte. Se Varianttitel (246).  
 
 ##### Parallelltitel
@@ -175,14 +175,14 @@ Används inte. Se Varianttitel (246).
 
 ##### År och datum 
 **År**
-* Primär utgivning/Utgivning/År (date = 008/07-10, 264 -/1 ‡c)
+* Primär utgivning/Utgivning/År (date = 008/07-10, 264 -/1 ‡c)  
  År får endast innehålla siffror (0-9) och bokstaven u.  
  Observera att År **måste** finnas med i beskrivningen, även om Datum finns med.   
 
 **Datum**
 * Primär utgivning/Utgivning/Datum (date = 264 -/1 ‡c)  
   Datum får innehålla text och interpunktionstecken. till exempel klamrar och frågetecken.  
-  Datum används endast när man förutom årtalet ska använda andra tecken än siffror och bokstaven u.  
+  Datum används endast när man förutom årtal ska använda andra tecken än siffror och bokstaven u.  
   
 **Flera år (flerbandsverk):**  
 Använd Startår och Slutår (inte År).
@@ -202,11 +202,11 @@ Använd Startår och Slutår (inte År).
 
 #### Identifikator 
 * Identifikator/ISBN/Värde (identifiedBy/Isbn/value = 020 ‡a)  
-* Identifikator/Särskiljande tillägg  (identifiedBy/qualifier = 020 ‡q)
+* Identifikator/Särskiljande tillägg  (identifiedBy/qualifier = 020 ‡q)  
 Notera att felaktigt eller ogiltigt ISBN ska anges under Indirekt identifierad av. Använd inte Ogiltigt värde.  
 
 #### Indirekt identifierad av  
- **Felaktigt eller ogiltigt ISBN** ska anges här. Använd inte Ogiltigt värde under Identifikator/ISBN.  
+Felaktigt eller ogiltigt ISBN ska anges här. Använd inte Ogiltigt värde under Identifikator/ISBN.  
 
 * Indirekt identifierad av/ISBN/Värde (indirectlyIdentifiedBy/Isbn/value = 020 ‡z)
 * Indirekt identifierad av/Särskiljande tillägg (= Bestämning) (indirectlyIdentifiedBy/qualifier = 020 ‡q)
@@ -263,11 +263,11 @@ Följ dessa instruktioner:
 * Anmärkning/Anmärkning/Benämning (hasNote/Note/label = 500 ‡a)
 
 #### Malgruppsanmarkning  
-* Målgrupp/Målgrupp/Benämning (intendedAudience/IntendedAudience/label = 521 ‡a)
+* Målgrupp/Målgrupp/Benämning (intendedAudience/IntendedAudience/label = 521 ‡a)  
 Observera att kodning av målgrupp, motsvarande 008/22, ska registreras under Instans av Verk/Genre.  
 
 #### Annat bararformat
-* Annat bärarformat (otherPhysicalFormat = 776)
+* Annat bärarformat (otherPhysicalFormat = 776)  
 Länka till instans.
 
 
@@ -290,7 +290,7 @@ Ange den föredragna titeln för verket här, vid behov. Följ [Anvisningar för
 Ange föredragen titel för översättningar, för verk som har givits ut under olika titlar på samma språk eller när samma titel har använts för olika verk.   
 
 ###### Verk med Primär medverkan
-* Har titel/Titel/Huvudtitel (hasTitle/Title/mainTitle = 240 1/0 ‡a)
+* Har titel/Titel/Huvudtitel (hasTitle/Title/mainTitle = 240 1/0 ‡a)  
  "Originaltitel" för ett verk med Medverkan och funktion/Primär medverkan anges här.  
 
 ###### Verk utan Primär medverkan
@@ -300,19 +300,19 @@ Ange föredragen titel för översättningar, för verk som har givits ut under 
 #### Relationer till ingaende verk och andra verk
 
 ##### Relationer till ingående verk 
-* Ingående verk med Primär medverkan  
+* Ingående verk med Primär medverkan (700 1/2 ‡a, ǂd, ǂt)
   Se [Relationer till delar och verk](https://libris.kb.se/katalogisering/help/workflow-agent-relation).  
 
-* Ingående verk utan Medverkan och funktion/Primär medverkan  
-  Har del/Verk/Har titel/Titel  
+* Ingående verk utan Medverkan och funktion/Primär medverkan 
+  Har del/Verk/Har titel/Titel (730 0/2 ‡a)
   Om det ingående verket är en översättning, lägg till Språk/Språk/Benämning under Verk.
 
 ##### Relationer till andra verk  
-  * Relationer till andra verk med Primär medverkan  
-Se [Relationer till delar och verk](https://libris.kb.se/katalogisering/help/workflow-agent-relation).
+  * Relationer till andra verk med Primär medverkan (700 1/- ‡a, ǂd, ǂt)
+  Se [Relationer till delar och verk](https://libris.kb.se/katalogisering/help/workflow-agent-relation).
 
 *  Relationer till andra verk utan Medverkan och funktion/Primär medverkan  
-   Relation/Relation/Entitet/Entitet/Verk/Har titel/Titel  
+   Relation/Relation/Entitet/Entitet/Verk/Har titel/Titel (730 0/_)
    Om det ingående verket är en översättning, lägg till Språk/Språk/Benämning under Verk.
 
 ##### Medverkan och funktion
@@ -345,11 +345,11 @@ Se Sammanfattning av innehåll
 
 ##### Språkanmärkning     
 * Anmärkning/Anmärkning om språk/Anmärkning: Språk/Benämning  
-(hasNote/marc:LanguageNote/marc:LanguageNote/label = 546 ‡a) 
+(hasNote/marc:LanguageNote/marc:LanguageNote/label = 546 ‡a)  
 Anmärkningen finns i mallen Tryckt monografi och kan läggas till med hjälp av Berikning från mall. Det går ännu inte att lägga till egenskapen från Lägg till egenskaper.
 
 ##### Genre
-* Genre/form – saogf-termer (genreForm = 655 -/7 ‡a, ‡2 saogf)
+* Genre/form – saogf-termer (genreForm = 655 -/7 ‡a, ‡2 saogf)  
  Välj Genre/form i listan över typer.  
  
 * Genre/form – termer som motsvarar marc-koder i 008  
@@ -390,45 +390,45 @@ För att länka till termer som motsvarar marc-koder i 008, se övriga rubriker.
 **Roman**  
 Exempel: Haag, Martina: Det är något som inte stämmer  
 Genre/form (saogf-term, 655): Självbiografiska skildringar, Romaner  
-Litterär genre (008): Roman  
+Litterär genre (008/33): Roman  
 
 **Diktsamling**  
 Exempel: Hallgren, Hanna: Vinterresan  
-Genre/form (saogf-term): Poesi  
-Litterär genre: Dikter
+Genre/form (saogf-term, 655): Poesi  
+Litterär genre (008/33): Dikter
 
 **Bilderbok för barn**  
-Genre/form (barngf-term): Bilderböcker  
-Genre/form (barngf-term): Barn- och ungdomslitteratur  
-Litterär genre: Skönlitterärt verk, genre ej angiven
+Genre/form (barngf-term, 655): Bilderböcker  
+Genre/form (barngf-term, 655): Barn- och ungdomslitteratur  
+Litterär genre (008/33): Skönlitterärt verk, genre ej angiven
 
 **Fackbok för barn**  
-Genre/form (barngf-term): Faktaböcker   
-Litterär genre: Ej skönlitterärt verk
+Genre/form (barngf-term, 655): Faktaböcker   
+Litterär genre (008/33): Ej skönlitterärt verk
 
 **Biografi**  
-Genre/form (saogf-term): Biografi  
-Biografiskt material: Biografi över en individ  
-Litterär genre: Ej skönlitterärt verk
+Genre/form (saogf-term, 655): Biografi  
+Biografiskt material (008/34): Biografi över en individ  
+Litterär genre (008/33): Ej skönlitterärt verk
 
 **Självbiografi**  
-Genre/form (saogf-term): Självbiografier  
-Biografiskt material: Självbiografisk text, Självbiografi  
-Litterär genre: Ej skönlitterärt verk
+Genre/form (saogf-term, 655): Självbiografier  
+Biografiskt material (008/34): Självbiografisk text, Självbiografi  
+Litterär genre (008/33): Ej skönlitterärt verk
 
 **Fackbok, ej biografi**  
-Genre/form (saogf-term): Lämpliga saogf-termer.  
+Genre/form (saogf-term, 655): Lämpliga saogf-termer.  
 Se även [Svenska ämnesords översikt över Allmänna genreform-termer](http://www.kb.se/katalogisering/Svenska-amnesord/genrer-form/Allmanna-genreformtermer/).  
-Litterär genre: Ej skönlitterärt verk  
+Litterär genre (008/33): Ej skönlitterärt verk  
 
 **Festskrift**  
-Genre/form (saogf-term): Festskrifter  
-Festskrift: Ja, resursen är en festskrift  
-Litterär genre: Ej skönlitterärt verk  
+Genre/form (saogf-term, 655): Festskrifter  
+Festskrift (008/30): Ja, resursen är en festskrift  
+Litterär genre (008/33): Ej skönlitterärt verk  
 
 **Akademisk avhandling**  
-Genre/form (saogf-term): Avhandlingar  
-Innehåll: Avhandling
+Genre/form (saogf-term, 655): Avhandlingar  
+Innehåll (008/24-27): Avhandling
 
 #### Klassifikation  
 * Klassifikation/DDK-klassifikation/Kod (classification/ClassificationDdc/code = 082 0/4 ‡a)
