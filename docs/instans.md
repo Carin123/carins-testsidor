@@ -216,7 +216,7 @@ Välj typ Osäkert år från listan.
 
 ##### Exempel på registrering av produktionsår för opublicerat material
 ###### Huvudsakligt tillgängliggörande
-<br/>```Primär produktion```
+```Primär produktion```
 <br/>```Land: Sverige (sw)```
 <br/>```År: 1925```    
 <br/>```Produktion/Produktion```
@@ -224,13 +224,13 @@ Välj typ Osäkert år från listan.
 
 ##### Exempel på osäkert utgivnings/produktionsår där tidigaste och senaste år kan anges:
 ###### Huvudsakligt tillgängliggörande
-<br/>```Land: Sverige (sw)```
+```Land: Sverige (sw)```
 <br/>```År: 1780``` 
 <br/>```Kompletterande datum: 1815``` 
 <br/>```Typ av utgivningsdatum: Osäkert årtal```  
 
 ###### Produktion/utgivning
-<br/>```Datum: [mellan 1780 och 1815?]``` 
+```Datum: [mellan 1780 och 1815?]``` 
 
 #### Utgivning  
 * Utgivning (publication)  
