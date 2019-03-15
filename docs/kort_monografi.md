@@ -436,7 +436,7 @@ Innehåll (008/24-27): Avhandling
 * Klassifikation/DDK-klassifikation/Klassifikationsupplaga  
 (classification/ClassificationDdc/edition = 082 i1)
 
-* Parallell upplagebeteckning/Upplagespecifik upphovsuppgift 
+* Parallell upplagebeteckning/Upplagespecifik upphovsuppgift  
 (classification/ClassificationDdc/editionEnumeration = 082 ‡2)
 
 ##### Sekundär DDK-klassifikation 
