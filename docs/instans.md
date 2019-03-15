@@ -2,7 +2,7 @@
 section: Hjälptexter katalogisering
 title: Instans
 order: 22
-date: 2019-03-14
+date: 2019-03-15
 tags:
 - under arbete
 - instans
@@ -223,13 +223,13 @@ Huvudsakligt tillgängliggörande
 <br/>```Datum: 1925```  
 
 ##### Exempel på osäkert utgivnings/produktionsår där tidigaste och senaste år kan anges:
-Huvudsakligt tillgängliggörande
+###### Huvudsakligt tillgängliggörande
 <br/>```Land: Sverige (sw)```
 <br/>```År: 1780``` 
 <br/>```Kompletterande datum: 1815``` 
 <br/>```Typ av utgivningsdatum: Osäkert årtal```  
 
-Produktion/utgivning
+###### Produktion/utgivning
 <br/>```Datum: [mellan 1780 och 1815?]``` 
 
 #### Utgivning  
