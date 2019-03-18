@@ -2,7 +2,7 @@
 section: Hjälptexter katalogisering
 title: Adminmetadata
 order: 20
-date: 2019-02-11
+date: 2019-03-18
 tags:
 - under arbete
 - adminmetadata
@@ -25,7 +25,7 @@ Se även [instruktionsfilmer](https://www.youtube.com/playlist?list=PLZVkEICvA5-
 | [Entry map](#entry-map) | [Beskrivningsnivå](#beskrivningsniva)|
 | [Katalogiserande instans](#katalogiserande-instans) | [Bibliografikod](#bibliografikod) |
 | [Poststatus](#poststatus) |  [Systemteknisk anmärkning](#systemteknisk-anmarkning) |
-
+| [Systemnummer](#systemnummer) |  |
 
 För att lägga till egenskaper under Adminmetadata, klicka på plustecknet i redigeringsvyn (den stora runda plusikonen under Verktygsikonen) - Lägg till egenskaper under: Post.  
 ![Lägg till egenskap under: Post](plusegenskapadmin.png)  
