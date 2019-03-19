@@ -1,3 +1,38 @@
+### Innehåll  
+
+| [Instans](#instans) | | |
+| ------ | ------ | ------ |
+| [Utgivningssätt](#utgivningssatt) | | [Omfång](#omfang) | 
+| [Medietyp](#medietyp) | | [Övriga fysiska detaljer](#ovriga-fysiska-detaljer) | |
+| [Bärartyp](#barartyp) | | [Mått](#matt) | |
+| [Titel](#titel) | | [Bilagor](#bilagor) | |
+| [Upphovsuppgift](#upphovsuppgift) | | [Seriemedlemskap](#seriemedlemskap) |  |
+| [Upplageuppgift](#upplageuppgift) | | [Anmärkning](#anmarkning) | |
+| [Produktion](#produktion) | | [Innehållsanmärkning](#innehallsanmarkning)  | |
+| [Utgivning](#utgivning) | | [Målgruppsanmärkning](#malgruppsanmarkning) |
+| [Tillverkning](#tillverkning)| | [Annat bärarformat](#annat-bararformat) |
+| [Copyrightår](#copyrightar) | | [Elektronisk adress](#annan-relaterad-resurs) |
+| [Identifikator](#identifikator) | | |
+
+
+| [Instans](#instans) | | |
+| ------ | ------ | ------ |
+| [Utgivningssätt](#utgivningssatt) | | [Identifikator](#identifikator) | 
+| [Medietyp](#medietyp) | | [Omfång](#omfang) | 
+| [Bärartyp](#barartyp) | | [Övriga fysiska detaljer](#ovriga-fysiska-detaljer) |
+| [Titel](#titel) | | [Mått](#matt) |
+| [Upphovsuppgift](#upphovsuppgift) | | [Bilagor](#bilagor) | 
+| [Upplageuppgift](#upplageuppgift) | | [Seriemedlemskap](#seriemedlemskap)|
+| [Produktion](#produktion) | | [Anmärkning](#anmarkning) |
+| [Huvudsakligt tillgängliggörande](#huvudsakligt-tillgangliggorande) | | [Innehållsanmärkning](#innehallsanmarkning) |
+| [Utgivning](#utgivning) | | [Målgruppsanmärkning](#malgruppsanmarkning) |
+| [Tillverkning](#tillverkning) | | [Annat bärarformat](#annat-bararformat) |
+| [Copyrightår](#copyrightar) | | [Elektronisk adress](#annan-relaterad-resurs) |
+
+
+
+
+
 TESTAR NÅGRA OLIKA SAKER PÅ DENNA SIDA
 
 # Redigeringsvy - verktygsmeny (till höger)
