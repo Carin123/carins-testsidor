@@ -220,7 +220,7 @@ Välj typ Osäkert år från listan.
 <br/>```Land: Sverige (sw)```
 <br/>```År: 1925```    
 ###### Produktion
-<br/>```Produktion```
+```Produktion```
 <br/>```Datum: 1925```  
 
 ##### Exempel på osäkert utgivnings/produktionsår där tidigaste och senaste år kan anges:
