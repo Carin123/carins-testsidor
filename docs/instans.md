@@ -215,7 +215,7 @@ Använd egenskapen för material  med osäkert utgivningsår där tidigaste och 
 Välj typ Osäkert år från listan.   
 
 ##### Exempel på registrering av produktionsår för opublicerat material
-![Produktion](produktion.png)  
+![Produktion](produktion1.png)  
 
 ##### Exempel på osäkert utgivnings/produktionsår där tidigaste och senaste år kan anges:
 ![Produktion](produktion2.png)  
