@@ -1,8 +1,8 @@
 ---
-section: Hjälptexter katalogisering
+section: Generell beskrivning
 title: Verk
 order: 21
-date: 2019-03-14
+date: 2019-03-20
 tags:
 - under arbete
 - verk
