@@ -215,23 +215,10 @@ Använd egenskapen för material  med osäkert utgivningsår där tidigaste och 
 Välj typ Osäkert år från listan.   
 
 ##### Exempel på registrering av produktionsår för opublicerat material
-###### Huvudsakligt tillgängliggörande
-```Primär produktion```
-<br/>```Land: Sverige (sw)```
-<br/>```År: 1925```    
-###### Produktion
-```Produktion```
-<br/>```Datum: 1925```  
+![Produktion](produktion.png)  
 
 ##### Exempel på osäkert utgivnings/produktionsår där tidigaste och senaste år kan anges:
-###### Huvudsakligt tillgängliggörande
-```Land: Sverige (sw)```
-<br/>```År: 1780``` 
-<br/>```Kompletterande datum: 1815``` 
-<br/>```Typ av utgivningsdatum: Osäkert årtal```  
-
-###### Produktion/utgivning
-```Datum: [mellan 1780 och 1815?]``` 
+![Produktion](produktion2.png)  
 
 #### Utgivning  
 * Utgivning (publication)  
