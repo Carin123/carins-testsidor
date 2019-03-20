@@ -217,7 +217,7 @@ Välj typ Osäkert år från listan.
 ##### Exempel på registrering av produktionsår för opublicerat material
 ![Produktion](produktion1.png)  
 
-##### Exempel på osäkert utgivnings/produktionsår där tidigaste och senaste år kan anges:
+##### Exempel på osäkert utgivnings/produktionsår där tidigaste och senaste år kan anges
 ![Produktion](produktion2.png)  
 
 #### Utgivning  
@@ -286,10 +286,12 @@ Land, År och eventuellt Datum  ska ligga inom Primär utgivning.
 ##### Tillverkningsplats (Tillverkningsort) 
 * Plats/Plats/Benämning (place/label = 264 -/3 ‡a)  
   ```Exempel: Falun```  
+  
 ##### Tillverkningsnamn  
 * Agent/Agent/Benämning (agent/label = 264 -/3 ‡b)  
   Skriv in uppgiften.   
   ```Exempel: Scandbook```   
+  
 ##### Tillverkningstid   
 * Datum (= Tillverkningstid) (date = 264 -/3 ‡c)  
   Skriv in uppgiften. Klamra vid behov.
