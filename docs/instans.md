@@ -479,6 +479,6 @@ Vid behov, lägg till Del av material som avses under Elektronisk och skapa Resu
 * Relaterad beskrivning eller innehåll/Dokument/Offentlig anmärkning  
 (isPrimaryTopicOf/Dokument/marc:publicNote = 856 4/0 ‡z)   
   Vid behov, lägg till Offentlig anmärkning. Skriv in anmärkningen.  
-* Del av materialet som avses/Dokument/Benämning  
+* Del av materialet som avses/Resurs/Benämning  
 (appliesTo/Resource/label = 856 4/1 ‡3)  
   Vid behov, lägg till Del av material som avses under Relaterad beskrivning eller innehåll och skapa Dokument som lokal entitet. Lägg till Benämning.
