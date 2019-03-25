@@ -32,8 +32,8 @@ Innehåll:
 | [Katalogiseringsspråk](#katalogiseringssprak) | [Identifikator](#identifikator) | [Ämne](#amne) |
 | [Katalogiseringsregler](#katalogiseringsregler) | [Omfång](#omfang) | [Länkfält - relationer under verk](#relationer-under-verk) |
 | [Beskrivningsnivå](#beskrivningsniva) | [Frekvens](#frekvens) | [Innehållstyp](#innehallstyp) |
-| [Bibliografikod](#bibliografikod) | [Numrering av seriell resurs](#numrering-av-seriell-resurs) |  |
-| [Systemteknisk anmärkning](#systemteknisk-anmarkning) | [Behandling vid titeländring](#behandling-vid-titelandring) | [Titel](#titel) |
+| [Bibliografikod](#bibliografikod) | [Numrering av seriell resurs](#numrering-av-seriell-resurs) | [Titel](#titel) |
+| [Systemteknisk anmärkning](#systemteknisk-anmarkning) | [Behandling vid titeländring](#behandling-vid-titelandring) |  |
 | | [Alfabet](#alfabet) | |
 | | [Behandling vid titeländring](#behandling-vid-titelandring) | |
 
