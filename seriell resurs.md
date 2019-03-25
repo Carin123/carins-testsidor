@@ -24,18 +24,18 @@ Innehåll:
 
 | [Adminmetadata](#adminmetadata) | [Instans](#instans) | [Verk](#verk) | 
 | ------ | ----------- |  ----------- |
-| [Skapad av](#skapad-av) | [Utgivningssätt](#utgivningssatt) | [Verkets titel](#verkets-titel) | 
-| [Uppgraderad av](#uppgraderad-av) | [Nyckeltitel](#nyckeltitel)| [Språk](#sprak) |
-| [Katalogiserande instans](#katalogiserande-instans) | [Titel](#titel) | [Medverkan och funktion](#medverkan-och-funktion)  |
-| [Poststatus](#poststatus) | [Identifikator](#identifikator) | [Genre](#genre) |
+| [Skapad av](#skapad-av) | [Utgivningssätt](#utgivningssatt) | [Medverkan och funktion](#medverkan-och-funktion) | 
+| [Uppgraderad av](#uppgraderad-av) | [Medietyp](#medietyp) | [Språk](#sprak) |
+| [Katalogiserande instans](#katalogiserande-instans) | [Bärartyp](#barartyp) | [Genre](#genre) |
+| [Poststatus](#poststatus) | [Titel](#titel) | [Klassifikation](#klassifikation) |
 | [Systemnummer](#systemnummer) | [Utgivning](#utgivning) | [Klassifikation](#klassifikation) |
-| [Katalogiseringsspråk](#katalogiseringssprak) | [Frekvens](#frekvens) | [Ämne](#amne) |
-| [Katalogiseringsregler](#katalogiseringsregler) | [Numrering av seriell resurs](#numrering-av-seriell-resurs) | [Innehållstyp](#innehallstyp) |
-| [Beskrivningsnivå](#beskrivningsniva) | [Alfabet](#alfabet) | [Länkfält - relationer under verk](#relationer-under-verk) |
-| [Bibliografikod](#bibliografikod) | [Behandling vid titeländring](#behandling-vid-titelandring) |  |
-| [Systemteknisk anmärkning](#systemteknisk-anmarkning) | [Omfång](#omfang)  | |
-| | [Anmärkning](#anmarkning) | [Medietyp](#medietyp) |
-| | [Annat bärarformat](#annat-bararformat) | [Bärartyp](#barartyp)|
+| [Katalogiseringsspråk](#katalogiseringssprak) | [Identifikator](#identifikator) | [Ämne](#amne) |
+| [Katalogiseringsregler](#katalogiseringsregler) | [Omfång](#omfang) | [Länkfält - relationer under verk](#relationer-under-verk) |
+| [Beskrivningsnivå](#beskrivningsniva) | [Frekvens](#frekvens) | [Länkfält - relationer under verk](#relationer-under-verk) |
+| [Bibliografikod](#bibliografikod) | [Numrering av seriell resurs](#numrering-av-seriell-resurs) | [Innehållstyp](#innehallstyp) |
+| [Systemteknisk anmärkning](#systemteknisk-anmarkning) | [Behandling vid titeländring](#behandling-vid-titelandring) | [Titel](#titel) |
+| | [Alfabet](#alfabet) | [Medietyp](#medietyp) |
+| | [Behandling vid titeländring](#behandling-vid-titelandring) | [Bärartyp](#barartyp)|
 
 
 ### Adminmetadata  
