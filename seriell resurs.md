@@ -332,12 +332,15 @@ För en sorterad lista på koder, se Formathandboken för Libris/Voyager: [Funkt
   * Om posten helt saknar Klassifikation, lägg till Klassifikation genom att klicka på plustecknet vid Instans av Verk/Text (Lägg till egenskaper under: Text). Välj Klassifikation. Klicka på plustecknet vid Klassifikation (Lägg till klassifikation).  Välj Skapa lokal entitet (längst ner i sidorutan till höger) och välj DDK-klassifikation.  
    Skriv in uppgiften under Kod.  
 
-* Klassifikation/DDK-klassifikation/Kod (classification/ClassificationDdc/code = 082 0/4 ‡a)  
+* Klassifikation/DDK-klassifikation/Kod  
+(classification/ClassificationDdc/code = 082 0/4 ‡a)  
   Skriv in uppgiften.  
   ```Exempel: 327.12092```
-* Klassifikation/DDK-klassifikation/Klassifikationsupplaga (classification/ClassificationDdc/edition = 082 ‡2)  
+* Klassifikation/DDK-klassifikation/Klassifikationsupplaga  
+(classification/ClassificationDdc/edition = 082 ‡2)  
   ```Exempel: full```  
-*  Parallell upplagebeteckning/Upplagespecifik upphovsuppgift (classification/ClassificationDdc/editionEnumeration = 082 ‡2)  
+*  Parallell upplagebeteckning/Upplagespecifik upphovsuppgift  
+(classification/ClassificationDdc/editionEnumeration = 082 ‡2)  
   ```Exempel: 23/swe```  
   
 ##### Sekundär DDK-klassifikation  
