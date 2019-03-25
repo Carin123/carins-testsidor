@@ -31,11 +31,11 @@ Innehåll:
 | [Systemnummer](#systemnummer) | [Utgivning](#utgivning) | [Klassifikation](#klassifikation) |
 | [Katalogiseringsspråk](#katalogiseringssprak) | [Identifikator](#identifikator) | [Ämne](#amne) |
 | [Katalogiseringsregler](#katalogiseringsregler) | [Omfång](#omfang) | [Länkfält - relationer under verk](#relationer-under-verk) |
-| [Beskrivningsnivå](#beskrivningsniva) | [Frekvens](#frekvens) | [Länkfält - relationer under verk](#relationer-under-verk) |
-| [Bibliografikod](#bibliografikod) | [Numrering av seriell resurs](#numrering-av-seriell-resurs) | [Innehållstyp](#innehallstyp) |
+| [Beskrivningsnivå](#beskrivningsniva) | [Frekvens](#frekvens) | [Innehållstyp](#innehallstyp) |
+| [Bibliografikod](#bibliografikod) | [Numrering av seriell resurs](#numrering-av-seriell-resurs) |  |
 | [Systemteknisk anmärkning](#systemteknisk-anmarkning) | [Behandling vid titeländring](#behandling-vid-titelandring) | [Titel](#titel) |
-| | [Alfabet](#alfabet) | [Medietyp](#medietyp) |
-| | [Behandling vid titeländring](#behandling-vid-titelandring) | [Bärartyp](#barartyp)|
+| | [Alfabet](#alfabet) | |
+| | [Behandling vid titeländring](#behandling-vid-titelandring) | |
 
 
 ### Adminmetadata  
