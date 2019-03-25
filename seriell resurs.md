@@ -2,7 +2,7 @@
 section: Hjälptexter katalogisering
 title: Tryckt seriell resurs
 order: 55
-date: 2019-03-15
+date: 2019-03-25
 tags:
 - under arbete
 - seriell resurs
@@ -26,16 +26,16 @@ Innehåll:
 | ------ | ----------- |  ----------- |
 | [Skapad av](#skapad-av) | [Utgivningssätt](#utgivningssatt) | [Verkets titel](#verkets-titel) | 
 | [Uppgraderad av](#uppgraderad-av) | [Nyckeltitel](#nyckeltitel)| [Språk](#sprak) |
-| [Katalogiserande instans](#katalogiserande-instans) | [Titel](#titel) | [Alfabet](#alfabet) |
-| [Poststatus](#poststatus) | [Identifikator](#identifikator) | [Medverkan och funktion](#medverkan-och-funktion) |
-| [Systemnummer](#systemnummer) | [Utgivning](#utgivning) | [Genre](#genre) |
-| [Katalogiseringsspråk](#katalogiseringssprak) | [Frekvens](#frekvens) | [Klassifikation](#klassifikation) |
-| [Katalogiseringsregler](#katalogiseringsregler) | [Numrering av seriell resurs](#numrering-av-seriell-resurs) | [Ämne](#amne) |
-| [Beskrivningsnivå](#beskrivningsniva) | [Omfång](#omfang) | [Innehållstyp](#innehallstyp) |
-| [Bibliografikod](#bibliografikod) | [Medietyp](#medietyp) | [Länkfält - relationer under verk](#relationer-under-verk) |
-| [Systemteknisk anmärkning](#systemteknisk-anmarkning) | [Bärartyp](#barartyp) | |
-| | [Anmärkning](#anmarkning) | |
-| | [Annat bärarformat](#annat-bararformat) | |
+| [Katalogiserande instans](#katalogiserande-instans) | [Titel](#titel) | [Medverkan och funktion](#medverkan-och-funktion)  |
+| [Poststatus](#poststatus) | [Identifikator](#identifikator) | [Genre](#genre) |
+| [Systemnummer](#systemnummer) | [Utgivning](#utgivning) | [Klassifikation](#klassifikation) |
+| [Katalogiseringsspråk](#katalogiseringssprak) | [Frekvens](#frekvens) | [Ämne](#amne) |
+| [Katalogiseringsregler](#katalogiseringsregler) | [Numrering av seriell resurs](#numrering-av-seriell-resurs) | [Innehållstyp](#innehallstyp) |
+| [Beskrivningsnivå](#beskrivningsniva) | [Alfabet](#alfabet) | [Länkfält - relationer under verk](#relationer-under-verk) |
+| [Bibliografikod](#bibliografikod) | [Behandling vid titeländring](#behandling-vid-titelandring) |  |
+| [Systemteknisk anmärkning](#systemteknisk-anmarkning) | [Omfång](#omfang)  | |
+| | [Anmärkning](#anmarkning) | [Medietyp](#medietyp) |
+| | [Annat bärarformat](#annat-bararformat) | [Bärartyp](#barartyp)|
 
 
 ### Adminmetadata  
@@ -257,6 +257,16 @@ Land, År och eventuellt Datum  ska ligga inom Primär utgivning.
   (hasNumberingofSerials/NumberingofSerials/label = 362 0/- ‡a)  
   Skriv in uppgiften under Benämning.    
   ```Exempel: 2011: 4-2013: 2```
+  
+#### Alfabet    
+* Alfabet/skriftart (marc:alphabet = 008/33)   
+  Länka till entitet.  
+  ```Exempel: b (= Extended roman = Latinskt alfabet med diakriter och specialtecken (a-ö))```
+  
+#### Behandling vid titelandring 
+* Behandling vid titeländring (marc:typeOfEntry = 008/34)  
+  Länka till entitet.  
+  ```Exempel: 0 (= Successive entry = Titeländring ger upphov till ny post)```
 
 #### Medietyp
 * Medietyp (mediaType/Mediatype = 337 ‡b)  
@@ -294,11 +304,7 @@ Läs mer om [Verk och Instans](https://librisbloggen.kb.se/2018/05/30/verk-och-i
 Skapa verk som lokal entitet (plustecknet vid Uttryck av - Lägg till verk, välj Skapa lokal entitet, längst ner i sidorutan till höger), skriv "verk" i rutan Skapa lokal entitet. Klicka på Verk. Det läggs till under Uttryck av. Klicka på plustecknet vid Verk (Lägg till egenskaper under: Verk) och välj Har titel. Välj Titel. Ta bort Övrig titelinformation.    
 Skriv in uppgiften under Huvudtitel.  
 ```Exempel:  Architecture (Paris. 1888)```  
-  
-* Behandling vid titeländring (marc:typeOfEntry = 008/34)  
-  Länka till entitet.  
-  ```Exempel: 0 (= Successive entry = Titeländring ger upphov till ny post)```
-  
+    
 #### Medverkan och funktion     
 * Medverkan och funktion  
   Läs mer:  
@@ -435,12 +441,7 @@ Läs mer:
   Länka till entitet.  
   ```Exempel: svenska (swe)```  
    För att ange att texten är på flera språk, t ex parallelltext, ange ytterligare en språkkod genom att klicka på plustecknet vid Språk (Lägg till språk) och söka fram ytterligare en entitet för ett språk och länka till den.  
-  
-#### Alfabet    
-* Alfabet/skriftart (marc:alphabet = 008/33)   
-  Länka till entitet.  
-  ```Exempel: b (= Extended roman = Latinskt alfabet med diakriter och specialtecken (a-ö))```
-  
+    
 #### Innehallstyp
 * Innehållstyp (contentType/ContentType = 336 ‡b)  
   Länka till entitet.  
