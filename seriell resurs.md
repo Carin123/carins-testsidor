@@ -30,12 +30,12 @@ Innehåll:
 | [Poststatus](#poststatus) | [Titel](#titel) | [Klassifikation](#klassifikation) |
 | [Systemnummer](#systemnummer) | [Utgivning](#utgivning) | [Klassifikation](#klassifikation) |
 | [Katalogiseringsspråk](#katalogiseringssprak) | [Identifikator](#identifikator) | [Ämne](#amne) |
-| [Katalogiseringsregler](#katalogiseringsregler) | [Omfång](#omfang) | [Länkfält - relationer under verk](#relationer-under-verk) |
-| [Beskrivningsnivå](#beskrivningsniva) | [Frekvens](#frekvens) | [Innehållstyp](#innehallstyp) |
-| [Bibliografikod](#bibliografikod) | [Numrering av seriell resurs](#numrering-av-seriell-resurs) | [Titel](#titel) |
+| [Katalogiseringsregler](#katalogiseringsregler) | [Frekvens](#frekvens) | [Länkfält - relationer under verk](#relationer-under-verk) |
+| [Beskrivningsnivå](#beskrivningsniva) | [Numrering av seriell resurs](#numrering-av-seriell-resurs) | [Innehållstyp](#innehallstyp) |
+| [Bibliografikod](#bibliografikod) | [Alfabet](#alfabet) | [Titel](#titel) |
 | [Systemteknisk anmärkning](#systemteknisk-anmarkning) | [Behandling vid titeländring](#behandling-vid-titelandring) |  |
-| | [Alfabet](#alfabet) | |
-| | [Behandling vid titeländring](#behandling-vid-titelandring) | |
+| | [Anmärkning](#anmarkning)| |
+| | [Annat bärarformat](#annat-bararformat) | |
 
 
 ### Adminmetadata  
@@ -129,6 +129,16 @@ Följande anmärkningar är under arbete och fungerar ännu inte fullt ut:
   Välj från lista.  
   ```Exempel: Seriell resurs```
   
+#### Medietyp
+* Medietyp (mediaType/Mediatype = 337 ‡b)  
+  Länka till entitet.  
+  ```Exempel:  n (= omedierad)``` 
+  
+#### Barartyp  
+* Bärartyp (carrierType/CarrierType = 338 ‡b)  
+  Länka till entitet.  
+  ```Exempel:  nc (= volym)```
+  
 #### Titel 
 
 ##### Nyckeltitel
@@ -179,17 +189,6 @@ Används för akronymer som är en del av huvudtiteln.
 * Har titel/Titelvariant/Täckning eller tillkomst (hasTitle/DistinctiveTitle/coverage = 246 #f)  
   Skriv in uppgiften.  
   ```Exempel: 2011, nr 4-2012, nr 4``` 
-  
-#### Identifikator  
-* Identifikator/Typ (identifiedBy)  
-  Välj från lista.  
-  ```Exempel: ISSN```   
-* Identifikator/ISSN/Värde (identifiedBy/Issn/value = 022 ‡a)  
-  Skriv in uppgiften.  
-  ```Exempel: 2001-2721```  
-* Identifikator/Felaktigt ISSN (identifiedBy/marc:incorrectIssn = 022 ‡y)  
-  Skriv in uppgiften.   
-  ```Exempel: 1653-2945```   
   
 #### Utgivning
 * Utgivning  
@@ -242,7 +241,18 @@ Land, År och eventuellt Datum  ska ligga inom Primär utgivning.
   <br/>```Exempel:```
   * ```2012-2013```
   * ```[1988-]```
-
+  
+#### Identifikator  
+* Identifikator/Typ (identifiedBy)  
+  Välj från lista.  
+  ```Exempel: ISSN```   
+* Identifikator/ISSN/Värde (identifiedBy/Issn/value = 022 ‡a)  
+  Skriv in uppgiften.  
+  ```Exempel: 2001-2721```  
+* Identifikator/Felaktigt ISSN (identifiedBy/marc:incorrectIssn = 022 ‡y)  
+  Skriv in uppgiften.   
+  ```Exempel: 1653-2945```   
+  
 #### Frekvens   
 * Frekvens (frequency)  
   * Frekvensterm (008/18)  
@@ -267,16 +277,6 @@ Land, År och eventuellt Datum  ska ligga inom Primär utgivning.
 * Behandling vid titeländring (marc:typeOfEntry = 008/34)  
   Länka till entitet.  
   ```Exempel: 0 (= Successive entry = Titeländring ger upphov till ny post)```
-
-#### Medietyp
-* Medietyp (mediaType/Mediatype = 337 ‡b)  
-  Länka till entitet.  
-  ```Exempel:  n (= omedierad)``` 
-  
-#### Barartyp  
-* Bärartyp (carrierType/CarrierType = 338 ‡b)  
-  Länka till entitet.  
-  ```Exempel:  nc (= volym)```
 
 #### Anmarkning
 * Anmärkning/Anmärkning/Benämning (hasNote/Note/label = 500 ‡a)  
