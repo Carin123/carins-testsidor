@@ -28,10 +28,10 @@ Innehåll:
 | [Uppgraderad av](#uppgraderad-av) | [Medietyp](#medietyp) | [Språk](#sprak) |
 | [Katalogiserande instans](#katalogiserande-instans) | [Bärartyp](#barartyp) | [Genre](#genre) |
 | [Poststatus](#poststatus) | [Titel](#titel) | [Klassifikation](#klassifikation) |
-| [Systemnummer](#systemnummer) | [Utgivning](#utgivning) | [Klassifikation](#klassifikation) |
-| [Katalogiseringsspråk](#katalogiseringssprak) | [Identifikator](#identifikator) | [Ämne](#amne) |
-| [Katalogiseringsregler](#katalogiseringsregler) | [Frekvens](#frekvens) | [Länkfält - relationer under verk](#relationer-under-verk) |
-| [Beskrivningsnivå](#beskrivningsniva) | [Numrering av seriell resurs](#numrering-av-seriell-resurs) | [Innehållstyp](#innehallstyp) |
+| [Systemnummer](#systemnummer) | [Utgivning](#utgivning) | [Ämne](#amne) |
+| [Katalogiseringsspråk](#katalogiseringssprak) | [Identifikator](#identifikator) | [Länkfält - relationer under verk](#relationer-under-verk) |
+| [Katalogiseringsregler](#katalogiseringsregler) | [Frekvens](#frekvens) |  |
+| [Beskrivningsnivå](#beskrivningsniva) | [Numrering av seriell resurs](#numrering-av-seriell-resurs) |  |
 | [Bibliografikod](#bibliografikod) | [Alfabet](#alfabet) | [Titel](#titel) |
 | [Systemteknisk anmärkning](#systemteknisk-anmarkning) | [Behandling vid titeländring](#behandling-vid-titelandring) |  |
 | | [Anmärkning](#anmarkning)| |
