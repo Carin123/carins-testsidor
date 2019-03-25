@@ -38,89 +38,53 @@ Innehåll:
 | | [Annat bärarformat](#annat-bararformat) | |
 
 
-### Adminmetadata  
-#### Skapad av, Uppgraderad av
+#### Adminmetadata
+* Kontrollera beskrivningsnivån. I mallen är standardvärdet Biblioteksnivå (normalvärde för Librisbiblioteken). Ändra vid behov.
+**Observera: Om nivån är CIP-post eller preliminär post, ändra till annan nivå, annars kan ändringar skrivas över!** 
+* Om nivån uppgraderas eller vid postimport, lägg till Uppgraderad eller importerad av.
+* Kontrollera Katalogiseringsregler och Katalogiseringsspråk.
+* Kontrollera övriga uppgifter under [Adminmetadata](https://libris.kb.se/katalogisering/help/workflow-adminmetadata).
+
+#### Kontrollnummer  
+* Kontrollnummer (controlNumber = 001)  
+
+#### Skapad av 
 * Skapad av/Organisation/Namn (descriptionCreator/Organization/name = 040 ‡a)  
-  Förval: den sigel som skapat posten. Ska inte ändras.  
-  ```Exempel: S```  
   
-#### Uppgraderad av  
-* Uppgraderad eller importerad av/Bibliotek/Sigel (descriptionUpgrader/Library/sigel = 040 ‡d)  
-  Om beskrivningsnivån uppgraderas, lägg till denna uppgift. Vid postimport, lägg till uppgiften. Lägg inte till uppgiften när posten endast ändras utan att beskrivningsnivån uppgraderas.  
-  För att lägga till Uppgraderad eller importerad av, klicka på plustecknet Lägg till egenskaper under: Post. Klicka på plustecknet till vänster vid Uppgraderad eller importerad av (Lägg till agent). Välj Skapa lokal entitet (längst ner i sidorutan till höger). Välj Bibliotek.  
-  Lägg till Sigel (plustecknet Lägg till egenskap under: Bibliotek). Skriv in uppgiften.     
-  ```Exempel: S``` 
-  
-#### Katalogiserande instans
+#### Uppgraderad eller importerad av 
+* Uppgraderad eller importerad av/Bibliotek/Sigel (descriptionUpgrader/Library/sigel = 040 ‡d)
+   
+#### Entry map 
+* Entry map (marc:entryMap = 000/20-23)
+
+#### Katalogiserande instans 
 * Katalogiserande instans (marc:catalogingSource = 008/39)  
-  Normalvärdet för Libris-bibliotek är: Libris-bibliotek/Kooperativt katalogiseringsprogram
- (marc/CooperativeCatalogingProgram).   
-  ```Exempel: Libris-bibliotek/Kooperativt katalogiseringsprogram```   
-  För poster som skapas av NB (ej Bokinfoposter), ändra till Nationalbibliografi. För Bokinfo-poster, se nedan.  
-  ```Exempel: Nationalbibliografi```   
-  I Bokinfoposter och importerade poster, ändra inte postens ursprungliga kod.  
-  ```Exempel: Annan verksamhet```  
-  
-#### Bibliografikod
-* Bibliografi/Bibliotek/Sigel (bibliography/Library/sigel = 042 ‡9)  
-  Observera att bibliografikod ska läggas endast av de bibliotek som arbetar med respektive bibliografi. Som exempel läggs bibliografikod NB endast av NB. För äldre tryck finns koderna COL, SOT och SB17 som används av alla bibliotek som katalogiserar äldre tryck. För en fullständig lista över sigler, se [Biblioteksdatabasen](https://biblioteksdatabasen.libris.kb.se/).  
-  För att lägga till Bibliografi, klicka på plustecknet Lägg till egenskaper under: Post och välj Bibliografi. Klicka på Lägg till bibliotek (plustecknet vid Bibliografi), välj därefter Skapa lokal entitet (längst ner i sidorutan till höger).   
-  Skriv in uppgiften under Sigel.  
-  För att lägga in flera sigler, använd gärna Duplicera entitet och skriv in nästa sigel i den duplicerade entiteten.
- <br/>```Exempel:```
-  * ```NB```
-  * ```SAMB```
-  
-#### Systemnummer  
-* Identifikator/Lokal identifikator/Värde (identifiedBy/SystemNumber/value = 035 ‡a)  
-  Om ett systemnummer finns i förhandspost, till exempel Bokinfos systemnummer eller ett annat biblioteks eller bibliotekskonsortiums systemnummer, låt det vara kvar oförändrat.
-  <br/>```Exempel:```
-  * ```(BOKR)9789188107213```
-  * ```(OCoLC)on1042213159```  
-  
-  För att lägga till ett lokalt systemnummer, till exempel ett DIVA-urn som systemnummer, lägg till Identifikator (plustecknet Lägg till egenskap under: Post, i Adminmetadata). Välj typ Systemnummer, under Lokal identifikator. Lägg till Värde (plustecknet vid Lokal identifikator). Fyll i aktuellt systemnummer.  
-  ```Exempel: (DIVA)urn:nbn:se:su:diva-83163```  
 
-För ISBN, se [Identifikator](#identifikator) under Instans.
+#### Bibliografikod 
+* Bibliografi/Bibliotek/Sigel (bibliography/Library/sigel = 042 ‡9)
   
-#### Katalogiseringssprak  
+#### Systemnummer 
+* Identifikator/Lokal identifikator/Värde (identifiedBy/SystemNumber/value = 035 ‡a)
+
+För ISSN, se [Identifikator](#identifikator) under Instans.
+  
+#### Katalogiseringssprak
 * Katalogiseringsspråk (descriptionLanguage = 040 ‡b)  
-  För att lägga till Katalogiseringsspråk, klicka på plustecknet Lägg till egenskaper under: Post.  
-  Länka till entitet.  
-  ```Exempel: svenska (swe)```
-
-#### Katalogiseringsregler  
-* Katalogiseringsregler (descriptionConventions = 040 ‡e)  
-  För att lägga till Katalogiseringsregler, klicka på plustecknet Lägg till egenskaper under: Post.   
-  För en post katalogiserad enligt RDA, sök fram och länka till entitet: "i" (= marc/Isbd). När man söker fram entiteten visas den som "i". I en sparad post visas samma entitet som "ISBD-interpunktion finns * i". När man skapar ny post från mall visas entiteten som "marc/Isbd". Alla är rätt.   
-  Skapa också lokal entitet under Katalogiseringsregler. Klicka på plustecknet vid Katalogiseringsregler (Lägg till entitet). Välj Skapa lokal entitet (längst ner i sidorutan). Välj Katalogiseringsregler. Skriv in "rda" under Kod.      
-  ```Exempel: marc/Isbd (länkad entitet) + lokal entitet, Kod: rda```
-
-#### Beskrivningsniva  
-* Beskrivningsnivå (encodingLevel = 000/17)  
-För att lägga till Beskrivningsnivå, klicka på plustecknet Lägg till egenskaper under: Post.   
-I samband med att du uppgraderar en Bokinfopost eller annan post med beskrivningsnivå: CIP-post eller Preliminär nivå, ändra beskrivningsnivå till annan nivå, annars kan ändringar skrivas över.  
-I mallar är Miniminivå förvalt. Ändra vid behov.   
-  Välj från lista.    
-  ```Exempel: Biblioteksnivå```
   
-#### Poststatus     
-* Poststatus (000/05)  
-  Uppdateras automatiskt. Ändra inte.
-  <br/>```Exempel:```
-  * ```Ny post```
-  * ```Rättad eller reviderad post```
+#### Katalogiseringsregler
+* Katalogiseringsregler (descriptionConventions = 040 ‡e)
+
+#### Beskrivningsniva 
+* Beskrivningsnivå (encodingLevel = 000/17)
   
-#### Systemteknisk anmarkning  
-* Systemteknisk anmärkning/Benämning (technicalNote/label = 599 ‡a)  
-För att lägga till Systemteknisk anmärkning, klicka på plustecknet Lägg till egenskaper under: Post, välj Systemteknisk anmärkning. Lägg till Systemteknisk anmärkning (plustecknet till vänster vid Systemteknisk anmärkning). Lägg till Benämning (plustecknet till höger vid Systemteknisk anmärkning).  
-Låt anmärkning om postimport ligga kvar.  
-```Exempel: Imported from: z3950cat.bl.uk:9909/BNB03U (Do not remove)``` 
+#### Poststatus 
+* Poststatus (recordStatus = 000/05)
+  
+#### Translitterering 
+* Institution som gjort translitterering (marc:transcribingAgency = 040 ‡c)
  
-Följande anmärkningar är under arbete och fungerar ännu inte fullt ut:  
- * Katalogisatörens anmärkning  
- * Anmärkning om katalogiseringskälla  
-
+#### Systemteknisk anmarkning 
+* Systemteknisk anmärkning/Benämning (technicalNote/label = 599 ‡a)
 
 ### Instans
 
