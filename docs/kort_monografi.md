@@ -312,17 +312,20 @@ Ange föredragen titel för översättningar, för verk som har givits ut under 
   Se [Relationer till delar och verk](https://libris.kb.se/katalogisering/help/workflow-agent-relation).
 
 *  Relationer till andra verk utan Medverkan och funktion/Primär medverkan  
-   Relation/Relation/Entitet/Entitet/Verk/Har titel/Titel (730 0/_)
+   Relation/Relation/Entitet/Entitet/Verk/Har titel/Titel (730 0/_)  
    Om det ingående verket är en översättning, lägg till Språk/Språk/Benämning under Verk.
 
 ##### Medverkan och funktion
 Följ dessa instruktioner: [Relationer till Agent](https://libris.kb.se/katalogisering/help/workflow-agent-org-instance)  
   
-* Medverkan och funktion/Primär medverkan/Agent/Person (contribution/PrimaryContribution/agent/Person = 100 1/- #a)
+* Medverkan och funktion/Primär medverkan/Agent/Person  
+(contribution/PrimaryContribution/agent/Person = 100 1/- #a)
 
-* Medverkan och funktion/Primär medverkan/Funktion (contribution/PrimaryContribution/role = 100 #4)
+* Medverkan och funktion/Primär medverkan/Funktion  
+(contribution/PrimaryContribution/role = 100 #4)
 
-* Medverkan och funktion/Medverkan/Agent/Person (contribution/agent/Person = 700 1/- #a)
+* Medverkan och funktion/Medverkan/Agent/Person  
+(contribution/agent/Person = 700 1/- #a)
 
 * Medverkan och funktion/Medverkan/Agent/Organisation (710 2/-)
 
