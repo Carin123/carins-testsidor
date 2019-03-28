@@ -118,13 +118,13 @@ För en översättning ska språket också läggas till i klartext i marcpostens
 
 Om översättningen är ett verk som har Primär medverkan, ska språket läggas till här:  
 * Språk/Språk/Benämning (Language/label = 240 #l)  
-**Från och med version 1.7 skapas detta språktillägg automatiskt, för 240 #l. Språktillägget skapas även när det inte är en översättning, vilket kommer att korrigeras i en kommande release av Libris katalogisering.**
+**Från och med version 1.7 skapas språktillägget automatiskt, för 240 #l. Språktillägget skapas även när det inte är en översättning, vilket kommer att korrigeras i en kommande release av Libris katalogisering.**
   
 Om översättningen är ett anonymt verk, det vill säga saknar Primär medverkan, ange språket i klartext här:    
 Uttryck av/Verk/Språk/Språk/Benämning (Language/label = 130 #l)  
 Om översättningen är ett ingående verk, ange språket i klartext här:  
 Har del/Verk/Språk/Språk/Benämning (Language/label = 730 #l)  
-**Från och med version 1.7 skapas detta språktillägg automatiskt, för 240 #l. Språktillägget skapas inte automatiskt för 130 #l eller 730 #l.**
+**Från och med version 1.7 skapas språktillägget automatiskt, för 240 #l. Språktillägget skapas inte automatiskt för 130 #l eller 730 #l.**
 
 * Anmärkning: Språk (marc:LanguageNote = 041 i1: 1)  
   Ange om resursen är/innehåller en översättning.  
