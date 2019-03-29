@@ -122,10 +122,10 @@ Om översättningen är ett verk som har Primär medverkan, ska språket läggas
 **Från och med version 1.7 skapas språktillägget automatiskt, för 240 #l. Språktillägget skapas även när det inte är en översättning, vilket kommer att korrigeras i en kommande release av Libris katalogisering.**   
 
 Om översättningen är ett anonymt verk, det vill säga saknar Primär medverkan, ange språket som ska visas i klartext här:  
-Uttryck av/Verk/Språk/Språk (Language/label = 130 #l)  
+Uttryck av/Verk/Språk (Language/label = 130 #l)  
 Länka till entitet.  
 Om översättningen är ett ingående verk, ange språket språket som ska visas i klartext här:  
-Har del/Verk/Språk/Språk (Language/label = 730 #l)  
+Har del/Verk/Språk (Language/label = 730 #l)  
 Länka till entitet.  
 
 * Anmärkning: Språk (marc:LanguageNote = 041 i1: 1)  
