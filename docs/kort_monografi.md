@@ -24,6 +24,7 @@ Se även [instruktionsfilmer](https://www.youtube.com/playlist?list=PLZVkEICvA5-
 
 ### Innehåll 
 [Adminmetadata](#adminmetadata)
+
 | [Instans](#instans) | [Verk](#verk) | 
 |  ----------- | ----------- | 
 | [Utgivningssätt](#utgivningssatt) | [Verkets titel](#verkets-titel) |
