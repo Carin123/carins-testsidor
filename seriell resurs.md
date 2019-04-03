@@ -347,8 +347,10 @@ Klicka sedan på plustecknet vid DDK-klassifikation (sekundär) (Lägg till ddk-
 * Genre/form - typ av fortlöpande resurs (genreForm/marc:Periodical = 008/21)  
   Länka till entitet.  
   För att söka efter entiteter inom Typ av fortlöpande resurs, välj Typ av fortlöpande resurs i listan över typer, under Genre/form. Trunkera genom att trycka på mellanslagstangenten eller med * i sökrutan. Välj rätt entitet genom att klicka på Lägg till.  
-  ```Exempel: p (Tidskrift = marc/Periodical)```  
-    
+  <br/>```Exempel:```
+  * ```p (Tidskrift = marc/Periodical)```
+  * ```m (Monografiserie = marc/MonographicSeries```
+     
 ##### Konferenspublikation  
 * Genre/form – konferenspublikation (genreForm = 008/29)  
   Länka till entitet.  
