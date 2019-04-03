@@ -23,7 +23,6 @@ För information om katalogregler, skrivregler och övriga katalogiseringsanvisn
 Se även [instruktionsfilmer](https://www.youtube.com/playlist?list=PLZVkEICvA5-GRT2oJQmLgq_2Pksx6zYPy).   
 
 ### Innehåll 
-[Adminmetadata](#adminmetadata)
 
 | [Adminmetadata](#adminmetadata) | [Instans](#instans) | [Verk](#verk) | 
 | ----------- |  ----------- | ----------- | 
