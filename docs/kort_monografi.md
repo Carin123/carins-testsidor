@@ -53,7 +53,7 @@ Använd generell hjälptext för [Adminmetadata](https://libris.kb.se/katalogise
 
 * Kontrollera beskrivningsnivån. I mallen är standardvärdet Biblioteksnivå (normalvärde för Librisbiblioteken). Ändra vid behov.
 **Observera: Om nivån är CIP-post eller preliminär post, ändra till annan nivå, annars kan ändringar skrivas över!** 
-* Om nivån uppgraderas eller vid postimport, lägg till Uppgraderad eller importerad av.
+
 
 #### Instans
 För att lägga till egenskaper under Instans, klicka på plustecknet i redigeringsvyn (den stora runda plusikonen under Verktygsikonen) - Lägg till egenskaper under: Instans.  
