@@ -292,7 +292,7 @@ För en sorterad lista på koder, se Formathandboken för Libris/Voyager: [Funkt
 * Genre/form - typ av fortlöpande resurs (genreForm/marc:Periodical = 008/21)  
   Länka till entitet.  
   För att söka efter entiteter inom Typ av fortlöpande resurs, välj Typ av fortlöpande resurs i listan över typer, under Genre/form. Trunkera genom att trycka på mellanslagstangenten eller med * i sökrutan. Välj rätt entitet genom att klicka på Lägg till.  
-  <br/>```Exempel:```
+<br/>```Exempel:```
   * ```p (Tidskrift = marc/Periodical)```
   * ```m (Monografiserie = marc/MonographicSeries```
          
@@ -359,9 +359,9 @@ Klicka sedan på plustecknet vid DDK-klassifikation (sekundär) (Lägg till ddk-
   Under Instans av Verk, lägg till egenskaper genom att klicka på plustecknet vid Instans av Verk/Text (Lägg till egenskaper under: Text). Välj till exempel Fortsätter (eller Fortsättes av eller annan relation) och lägg till det. Skapa ett verk som lokal entitet genom att klicka på plustecknet vid Fortsätter. Klicka på Skapa lokal entitet. Välj Verk i listan. Skapa en instans av verket genom att klicka på plustecknet vid Verk (Lägg till egenskaper under: Verk) och lägg till Har instans. Klicka på plustecknet vid Har instans och skapa instansen som lokal entitet (klicka på Skapa lokal entitet och välj Instans). 
   
 * Fortsätter/Verk/Har instans/Instans/Har titel/Titel (780 0/0 #t)  
-  För att lägga till titel under Fortsätter, Fortsättes av, Ersätter, med flera:  
-  Klicka på plustecknet vid Instans (Lägg till egenskaper under: Instans) och lägg till Har titel. Välj Titel. Ta bort Övrig titelinformation. Under Huvudtitel, skriv in uppgiften.
-<br/>```Exempel:```
+ För att lägga till titel under Fortsätter, Fortsättes av, Ersätter, med flera:  
+  Klicka på plustecknet vid Instans (Lägg till egenskaper under: Instans) och lägg till Har titel. Välj Titel. Ta bort Övrig   titelinformation. Skriv in uppgiften under Huvudtitel.
+ <br/>```Exempel:```
   * ```Aktuellt magazin```
   * ```Medlemstidning (Svenska Schweisshundklubben)```
   
