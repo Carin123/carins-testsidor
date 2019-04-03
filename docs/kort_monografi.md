@@ -12,14 +12,12 @@ tags:
 
 Beskrivningen av en tryckt monografi innehåller:  
 * [Adminmetadata](https://libris.kb.se/katalogisering/help/workflow-adminmetadata) - (administrativ data) om instansbeskrivningen  
-* [Verk](https://libris.kb.se/katalogisering/help/workflow-work) - en beskrivning av instansen (kan också kallas utgåvan, upplagan, manifestationen)
-* [Instans](https://libris.kb.se/katalogisering/help/workflow-instance) - en beskrivning av det verk som instansen är en instans av. Denna beskrivning ligger under rubriken Instans av verk.  
+* [Verk](https://libris.kb.se/katalogisering/help/workflow-work) - en beskrivning av det verk som instansen är en instans av. Denna beskrivning ligger under rubriken Instans av verk.  
+* [Instans](https://libris.kb.se/katalogisering/help/workflow-instance) - en beskrivning av det verk som instansen är en instans av. Denna beskrivning ligger under rubriken Instans av verk.    
 
 Denna hjälptext beskriver kortfattat de vanligaste egenskaperna för en tryckt monografi. För utförliga instruktioner, se de generella hjälptexterna för Adminmetadata, Verk och Instans, se ovan.  
 
-För instruktioner om att lägga till eller ta bort egenskaper, länka till entitet, skapa lokal entitet och om hur formuläret fungerar i övrigt, se Redigering i vänstermenyn. Använd gärna Berika från mall och välj mallen Bok. Använd denna sida för att få en överblick över dessa egenskaper. Läs sedan de mer detaljerade anvisningarna på de separata sidorna [Adminmetadata](https://libris.kb.se/katalogisering/help/workflow-adminmetadata), [Verk](https://libris.kb.se/katalogisering/help/workflow-work) och [Instans](https://libris.kb.se/katalogisering/help/workflow-instance).
-
-För information om katalogregler, skrivregler och övriga katalogiseringsanvisningar, se [Anvisningar för katalogisering - RDA](http://www.kb.se/rdakatalogisering/Anvisningar/Arbetsfloden/Tryckta-monografier/ "Anvisningar för katalogisering - RDA") och [RDA Toolkit](#https://access.rdatoolkit.org/).
+För instruktioner om att lägga till eller ta bort egenskaper, länka till entitet, skapa lokal entitet och om hur formuläret fungerar i övrigt, se Redigering i vänstermenyn. För en förhandspost, använd gärna Berika från mall och välj Bok. För information om katalogregler, skrivregler och övriga katalogiseringsanvisningar, se [Anvisningar för katalogisering - RDA](http://www.kb.se/rdakatalogisering/Anvisningar/Arbetsfloden/Tryckta-monografier/ "Anvisningar för katalogisering - RDA") och [RDA Toolkit](#https://access.rdatoolkit.org/).
 
 Se även [instruktionsfilmer](https://www.youtube.com/playlist?list=PLZVkEICvA5-GRT2oJQmLgq_2Pksx6zYPy).   
 
