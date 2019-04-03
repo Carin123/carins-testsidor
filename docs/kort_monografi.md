@@ -23,7 +23,7 @@ Använd gärna Berika från mall för lägga till de vanligaste egenskaperna. V�
 Se även [instruktionsfilmer](https://www.youtube.com/playlist?list=PLZVkEICvA5-GRT2oJQmLgq_2Pksx6zYPy).   
 
 ### Innehåll 
-
+[Adminmetadata](#adminmetadata)
 | [Instans](#instans) | [Verk](#verk) | 
 |  ----------- | ----------- | 
 | [Utgivningssätt](#utgivningssatt) | [Verkets titel](#verkets-titel) |
