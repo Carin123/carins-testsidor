@@ -24,27 +24,27 @@ Se även [instruktionsfilmer](https://www.youtube.com/playlist?list=PLZVkEICvA5-
 
 ### Innehåll 
 
-| [Adminmetadata](#adminmetadata) | [Instans](#instans) | [Verk](#verk) | 
-| ----------- |  ----------- | ----------- | 
-| [Generell hjälptext för Adminmetadata](#adminmetadata) | [Utgivningssätt](#utgivningssatt) | [Verkets titel](#verkets-titel) |
-| | [Medietyp](#medietyp) | [Medverkan och funktion](#medverkan-och-funktion) |
-| | [Bärartyp](#barartyp) | [Relationer till ingående verk och andra verk](#relationer-till-ingaende-verk-och-andra-verk) |
-| | [Titel](#titel) | [Språk](#sprak) |
-| | [Upphovsuppgift](#upphovsuppgift) | [Genre](#genre) | 
-| | [Upplageuppgift](#upplageuppgift) | [Klassifikation](#klassifikation) |
-| | [Utgivning](#utgivning) | [Ämne](https://libris.kb.se/katalogisering/help/workflow-general-sh) |
-| | [Tillverkning](#tillverkning) | [Målgrupp](#malgrupp) | 
-| | [Copyrightår](#copyrightar) | [Innehållstyp](#innehallstyp) | 
-| | [Identifikator](#identifikator) | [Sammanfattning av innehåll](#sammanfattning-av-innehall) |
-| | [Omfång](#omfang) | [Anmärkning om akademisk avhandling](#anmarkning-om-akademisk-avhandling) |
-| | [Övriga fysiska detaljer](#ovriga-fysiska-detaljer) | |
-| | [Mått](#matt) | |
-| | [Bilagor](#bilagor) | |
-| | [Seriemedlemskap](#seriemedlemskap) | |
-| | [Anmärkning](#anmarkning) | | 
-| | [Innehållsanmärkning](#innehallsanmarkning) | |
-| | [Målgruppsanmärkning](#malgruppsanmarkning) | |
-| | [Annat bärarformat](#annat-bararformat) | |
+| [Instans](#instans) | [Verk](#verk) | 
+|  ----------- | ----------- | 
+| [Utgivningssätt](#utgivningssatt) | [Verkets titel](#verkets-titel) |
+| [Medietyp](#medietyp) | [Medverkan och funktion](#medverkan-och-funktion) |
+| [Bärartyp](#barartyp) | [Relationer till ingående verk och andra verk](#relationer-till-ingaende-verk-och-andra-verk) |
+| [Titel](#titel) | [Språk](#sprak) |
+| [Upphovsuppgift](#upphovsuppgift) | [Genre](#genre) | 
+| [Upplageuppgift](#upplageuppgift) | [Klassifikation](#klassifikation) |
+| [Utgivning](#utgivning) | [Ämne](https://libris.kb.se/katalogisering/help/workflow-general-sh) |
+| [Tillverkning](#tillverkning) | [Målgrupp](#malgrupp) | 
+| [Copyrightår](#copyrightar) | [Innehållstyp](#innehallstyp) | 
+| [Identifikator](#identifikator) | [Sammanfattning av innehåll](#sammanfattning-av-innehall) |
+| [Omfång](#omfang) | [Anmärkning om akademisk avhandling](#anmarkning-om-akademisk-avhandling) |
+| [Övriga fysiska detaljer](#ovriga-fysiska-detaljer) | |
+| [Mått](#matt) | |
+| [Bilagor](#bilagor) | |
+| [Seriemedlemskap](#seriemedlemskap) | |
+| [Anmärkning](#anmarkning) | | 
+| [Innehållsanmärkning](#innehallsanmarkning) | |
+| [Målgruppsanmärkning](#malgruppsanmarkning) | |
+| [Annat bärarformat](#annat-bararformat) | |
 
 
 #### Adminmetadata
