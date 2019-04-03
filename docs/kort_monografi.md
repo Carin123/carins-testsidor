@@ -12,8 +12,8 @@ tags:
 
 Beskrivningen av en tryckt monografi innehåller:  
 * [Adminmetadata](https://libris.kb.se/katalogisering/help/workflow-adminmetadata) - (administrativ data) om instansbeskrivningen
-* [Verk](https://libris.kb.se/katalogisering/help/workflow-work) - en beskrivning av det verk som instansen är en instans av. Denna beskrivning ligger under rubriken Instans av verk
 * [Instans](https://libris.kb.se/katalogisering/help/workflow-instance) - en beskrivning av instansen (kan också kallas utgåvan, upplagan, manifestationen)
+* [Verk](https://libris.kb.se/katalogisering/help/workflow-work) - en beskrivning av det verk som instansen är en instans av. Denna beskrivning ligger under rubriken Instans av verk
 
 Denna hjälptext beskriver kortfattat de vanligaste egenskaperna för en tryckt monografi. För utförliga instruktioner, se de generella hjälptexterna för Adminmetadata, Verk och Instans, se ovan.  
 
