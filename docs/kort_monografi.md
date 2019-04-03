@@ -37,8 +37,8 @@ Se även [instruktionsfilmer](https://www.youtube.com/playlist?list=PLZVkEICvA5-
 | | [Copyrightår](#copyrightar) | [Innehållstyp](#innehallstyp) | 
 | | [Identifikator](#identifikator) | [Sammanfattning av innehåll](#sammanfattning-av-innehall) |
 | | [Omfång](#omfang) | [Anmärkning om akademisk avhandling](#anmarkning-om-akademisk-avhandling) |
-| [Bibliografikod](#bibliografikod) | [Övriga fysiska detaljer](#ovriga-fysiska-detaljer) | |
-| [Systemteknisk anmärkning](#systemteknisk-anmarkning) | [Mått](#matt) | |
+| | [Övriga fysiska detaljer](#ovriga-fysiska-detaljer) | |
+| | [Mått](#matt) | |
 | | [Bilagor](#bilagor) | |
 | | [Seriemedlemskap](#seriemedlemskap) | |
 | | [Anmärkning](#anmarkning) | | 
