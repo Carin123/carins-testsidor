@@ -26,7 +26,8 @@ Se även [instruktionsfilmer](https://www.youtube.com/playlist?list=PLZVkEICvA5-
 
 | [Adminmetadata](#adminmetadata) | [Instans](#instans) | [Verk](#verk) | 
 | ----------- |  ----------- | ----------- | 
-| [Generell text om Adminmetadata](#adminmetadata)  | [Utgivningssätt](#utgivningssatt) | [Verkets titel](#verkets-titel) |
+|  [Generell hjälptext för Adminmetadata](#adminmetadata) | [Generell hjälptext för Instans](#instans) | [Generell hjälptext för Verk](#verk) |
+| | [Utgivningssätt](#utgivningssatt) | [Verkets titel](#verkets-titel) |
 | | [Medietyp](#medietyp) | [Medverkan och funktion](#medverkan-och-funktion) |
 | | [Bärartyp](#barartyp) | [Relationer till ingående verk och andra verk](#relationer-till-ingaende-verk-och-andra-verk) |
 | | [Titel](#titel) | [Språk](#sprak) |
