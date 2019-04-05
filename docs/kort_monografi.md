@@ -11,11 +11,11 @@ tags:
 ## Tryckt monografi - bok
 
 Beskrivningen av en tryckt monografi innehåller:  
-* [Adminmetadata](https://libris.kb.se/katalogisering/help/workflow-adminmetadata) - (administrativ data) såsom kontrollnummer, beskrivningsnivå
-* [Verk](https://libris.kb.se/katalogisering/help/workflow-work) – en beskrivning av det verk som instansen är en instans av. Innehåller de egenskaper som beskriver den ”abstrakta” intellektuella skapelsen, såsom medverkan och funktion (t. ex. författare), ämne, klassifikation, språk och innehållstyp. Denna beskrivning är placerad under rubriken Instans av verk.
-* [Instans](https://libris.kb.se/katalogisering/help/workflow-instance) - en beskrivning av instansen (kan också kallas utgåvan, upplagan, manifestationen). Innehåller information såsom utgivningsplats, utgivare och utgivningsår, bärartyp, omfång.
+* [Adminmetadata](https://libris.kb.se/katalogisering/help/workflow-adminmetadata) - (administrativ data) om instansbeskrivningen, såsom kontrollnummer och beskrivningsnivå
+* [Verk](https://libris.kb.se/katalogisering/help/workflow-work) – en beskrivning av det verk som instansen är en instans av. Verket beskrivs med egenskaper såsom medverkan och funktion (t. ex. författare), ämne, klassifikation, språk och innehållstyp. Verksbeskrivningen ligger under rubriken Instans av verk.
+* [Instans](https://libris.kb.se/katalogisering/help/workflow-instance) - en beskrivning av instansen (kan också kallas utgåvan, upplagan, manifestationen). Här beskrivs utgivningsplats, utgivare och utgivningsår, bärartyp, omfång.
 
-Denna hjälptext beskriver kortfattat de vanligaste egenskaperna för en tryckt monografi. För utförliga instruktioner, se de generella hjälptexterna för Adminmetadata, Verk och Instans, se ovan.  
+Denna hjälptext ger kortfattade instruktioner för de vanligaste egenskaperna för en tryckt monografi. För utförliga instruktioner, se de generella hjälptexterna för Adminmetadata, Verk och Instans, se ovan.  
 
 Många av egenskaperna finns redan i mallen Tryckt monografi (Bok), andra kan behöva läggas till. För instruktioner om att lägga till eller ta bort egenskaper, länka till entitet, skapa lokal entitet och om hur formuläret fungerar i övrigt, se Redigering i vänstermenyn. För en förhandspost, använd gärna Berika från mall och välj Bok.  
 
