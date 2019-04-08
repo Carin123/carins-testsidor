@@ -30,67 +30,23 @@ Innehåll:
 | [Adminmetadata](#adminmetadata) | [Instans](#instans) | [Verk](#verk) | 
 | ------ | ----------- |  ----------- |
 [Generell hjälptext för Adminmetadata](https://libris.kb.se/katalogisering/help/workflow-adminmetadata) | [Generell hjälptext för Instans](https://libris.kb.se/katalogisering/help/workflow-instance) | [Generell hjälptext för Verk](https://libris.kb.se/katalogisering/help/workflow-work) |
-| [Skapad av](#skapad-av) | [Utgivningssätt](#utgivningssatt) | [Medverkan och funktion](#medverkan-och-funktion) | 
-| [Uppgraderad av](#uppgraderad-av) | [Medietyp](#medietyp) | [Språk](#sprak) |
-| [Katalogiserande instans](#katalogiserande-instans) | [Bärartyp](#barartyp) | [Genre](#genre) |
-| [Poststatus](#poststatus) | [Titel](#titel) | [Klassifikation](#klassifikation) |
-| [Systemnummer](#systemnummer) | [Utgivning](#utgivning) | [Ämne](https://libris.kb.se/katalogisering/help/workflow-general-sh) |
-| [Katalogiseringsspråk](#katalogiseringssprak) | [Identifikator](#identifikator) | [Länkfält - relationer under verk](#relationer-under-verk) |
-| [Katalogiseringsregler](#katalogiseringsregler) | [Frekvens](#frekvens) | [Innehållstyp](#innehallstyp) |
-| [Beskrivningsnivå](#beskrivningsniva) | [Numrering av seriell resurs](#numrering-av-seriell-resurs) | [Verkets titel](#verkets-titel) |
-| [Bibliografikod](#bibliografikod) | [Alfabet](#alfabet) | |
-| [Systemteknisk anmärkning](#systemteknisk-anmarkning) | [Behandling vid titeländring](#behandling-vid-titelandring) |  |
+| | [Utgivningssätt](#utgivningssatt) | [Medverkan och funktion](#medverkan-och-funktion) | 
+| | [Medietyp](#medietyp) | [Språk](#sprak) |
+| | [Bärartyp](#barartyp) | [Genre](#genre) |
+| | [Titel](#titel) | [Klassifikation](#klassifikation) |
+| | [Utgivning](#utgivning) | [Ämne](https://libris.kb.se/katalogisering/help/workflow-general-sh) |
+| | [Identifikator](#identifikator) | [Länkfält - relationer under verk](#relationer-under-verk) |
+| | [Frekvens](#frekvens) | [Innehållstyp](#innehallstyp) |
+| | [Numrering av seriell resurs](#numrering-av-seriell-resurs) | [Verkets titel](#verkets-titel) |
+| | [Alfabet](#alfabet) | |
+| | [Behandling vid titeländring](#behandling-vid-titelandring) |  |
 | | [Anmärkning](#anmarkning)| |
 | | [Annat bärarformat](#annat-bararformat) | |
 
 
 #### Adminmetadata
-* Kontrollera beskrivningsnivån. I mallen är standardvärdet Biblioteksnivå (normalvärde för Librisbiblioteken). Ändra vid behov.
-**Observera: Om nivån är CIP-post eller preliminär post, ändra till annan nivå, annars kan ändringar skrivas över!** 
-* Om nivån uppgraderas eller vid postimport, lägg till Uppgraderad eller importerad av.
-* Kontrollera Katalogiseringsregler och Katalogiseringsspråk.
-* Kontrollera övriga uppgifter under [Adminmetadata](https://libris.kb.se/katalogisering/help/workflow-adminmetadata).
 
-#### Kontrollnummer  
-* Kontrollnummer (controlNumber = 001)  
-
-#### Skapad av 
-* Skapad av/Organisation/Namn (descriptionCreator/Organization/name = 040 #a)  
-  
-#### Uppgraderad eller importerad av 
-* Uppgraderad eller importerad av/Bibliotek/Sigel (descriptionUpgrader/Library/sigel = 040 #d)
-   
-#### Entry map 
-* Entry map (marc:entryMap = 000/20-23)
-
-#### Katalogiserande instans 
-* Katalogiserande instans (marc:catalogingSource = 008/39)  
-
-#### Bibliografikod 
-* Bibliografi/Bibliotek/Sigel (bibliography/Library/sigel = 042 #9)
-  
-#### Systemnummer 
-* Identifikator/Lokal identifikator/Värde (identifiedBy/SystemNumber/value = 035 #a)
-
-För ISSN, se [Identifikator](#identifikator) under Instans.
-  
-#### Katalogiseringssprak
-* Katalogiseringsspråk (descriptionLanguage = 040 #b)  
-  
-#### Katalogiseringsregler
-* Katalogiseringsregler (descriptionConventions = 040 #e)
-
-#### Beskrivningsniva 
-* Beskrivningsnivå (encodingLevel = 000/17)
-  
-#### Poststatus 
-* Poststatus (recordStatus = 000/05)
-  
-#### Translitterering 
-* Institution som gjort translitterering (marc:transcribingAgency = 040 #c)
- 
-#### Systemteknisk anmarkning 
-* Systemteknisk anmärkning/Benämning (technicalNote/label = 599 #a)
+Använd generell hjälptext för [Adminmetadata](https://libris.kb.se/katalogisering/help/workflow-adminmetadata).
 
 ### Instans
 
