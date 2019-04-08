@@ -29,6 +29,7 @@ Innehåll:
 
 | [Adminmetadata](#adminmetadata) | [Instans](#instans) | [Verk](#verk) | 
 | ------ | ----------- |  ----------- |
+[Generell hjälptext för Adminmetadata](https://libris.kb.se/katalogisering/help/workflow-adminmetadata) | [Generell hjälptext för Instans](https://libris.kb.se/katalogisering/help/workflow-instance) | [Generell hjälptext för Verk](https://libris.kb.se/katalogisering/help/workflow-work) |
 | [Skapad av](#skapad-av) | [Utgivningssätt](#utgivningssatt) | [Medverkan och funktion](#medverkan-och-funktion) | 
 | [Uppgraderad av](#uppgraderad-av) | [Medietyp](#medietyp) | [Språk](#sprak) |
 | [Katalogiserande instans](#katalogiserande-instans) | [Bärartyp](#barartyp) | [Genre](#genre) |
