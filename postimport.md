@@ -43,6 +43,7 @@ Saknas egenskapen:
 -	Klicka på plustecknet Lägg till egenskaper under: Post
 -	Välj Katalogiserande instans
 -	Lägg till entitet, sök fram och välj Annan verksamhet, d
+
 #### Systemteknisk anmärkning (599 #a)
 Låt ”importanmärkningen” ligga kvar.
 OBS! Vid uppgradering av förhandsposter och preliminära poster (då Beskrivningsnivån uppgraderas), ta bort anmärkningen om att posten är maskinellt skapad.  
@@ -51,14 +52,17 @@ OBS! Vid uppgradering av förhandsposter och preliminära poster (då Beskrivnin
 I vissa importerade poster förekommer Entry map. Låt uppgiften stå.  
 
 #### Identifikator/Lokal identifikator/Värde (035 #a)
-Systemnummer från andra bibliotek, bibliotekskonsortier eller system (till exempel Bokinfos systemnummer) kan förekomma. Låt uppgiften stå.
-_marcuncompleted
-Data som inte hanteras av systemet visas som _marcuncompleted i MARC21-format. Kontrollera om det innehåller information som bör vara med i beskrivningen och radera sen datan.
-Instans
-Titel
-Kontrollera att beskrivningen är korrekt.
-OBS! Korrekt egenskap för undertitel (245 #b) är hasTitle/Title/subtitle men i importerade poster ligger den ibland istället i hasTitle/Title/titleRemainder.
-För att kontrollera om det är korrekt ställ markören på Övrig titelinformation och om titleRemainder blir synligt istället för subtitle, ändra uppgiften:
+Systemnummer från andra bibliotek, bibliotekskonsortier eller system (till exempel Bokinfos systemnummer) kan förekomma. Låt uppgiften stå.  
+
+####  marcuncompleted  
+Data som inte hanteras av systemet visas som `_marcuncompleted` i MARC21-format. Kontrollera om det innehåller information som bör vara med i beskrivningen och radera sedan uppgifterna.  
+
+## Instans
+
+### Titel
+Kontrollera att beskrivningen är korrekt.  
+OBS! Korrekt egenskap för undertitel (245 #b) är hasTitle/Title/subtitle men i importerade poster ligger den ibland istället i hasTitle/Title/titleRemainder.  
+För att kontrollera om det är korrekt, ställ markören på Övrig titelinformation och om titleRemainder blir synligt istället för subtitle, ändra uppgiften:  
 -	Klicka på Lägg till egenskaper under: Titel
 -	Välj Övrig titelinformation/subtitle och skriv in undertiteln
 -	Radera Övrig titelinformation/titleRemainder  
@@ -92,7 +96,7 @@ Vid import från Andra källor kan posterna ibland innehålla flera olika ISBN, 
 -	För elektroniska resurser gäller samma sak, fast tvärtom: Det får inte ligga ISBN för en annan elektronisk version under Indirekt identifierad av, utan där får endast ISBN för olika tryckta versioner ligga.  
 -	Om det är svårt att belägga de ISBN som ligger i en katalogpost är det bättre att radera dem. Låt endast de som hör till resursen som ska katalogiseras vara kvar.  
 -	Ibland ligger samma ISBN, tiosiffrigt och/eller trettonsiffrigt, i både Identifikator/ISBN/Värde (020 a) och Indirekt identifierad av/ISBN/Värde (020 #z). Ta bort ISBN från Indirekt identifierad av och låt det ligga kvar under Identifikator/ISBN/Värde.  
--	Om det ligger ISBN till andra utgåvor i Indirekt identifierad av/ISBN/Värde (020 #z), kan det särskiljande tillägget (020 #q) ibland hamna fel, under Identifikator/ISBN/Värde. Flytta det särskiljande tillägget till Indirekt identifierad av, så att det hamnar i anslutning till det ISBN det gäller.  
+-	Om det ligger ISBN till andra utgåvor i Indirekt identifierad av/ISBN/Värde (020 #z), kan det särskiljande tillägget (020 #q) ibland hamna fel, under Identifikator/ISBN/Värde. Flytta det särskiljande tillägget till Indirekt identifierad av, så att det hamnar i anslutning till det ISBN det gäller.   
 
 ### Seriemedlemskap/Seriemedlemskap/Ingår i serie (490 #a och 830 #a)  
 Om motsvarande fält 490 #a och 830 #a matchar, läggs de vid import i samma Seriemedlemskap.  
@@ -107,7 +111,7 @@ Kontrollera att beskrivningen är korrekt.
 OBS! Om egenskapen Språk saknas och läggs till via funktionen Berika från mall, länkas den automatiskt till svenska. Ändra vid behov.  
 
 ### Agenter  
-Validera namnformer (skapa auktoriteter vid behov, enligt Riktlinjer för löpande auktoritetsarbete i Libris).  
+Validera namnformer (skapa auktoriteter vid behov, enligt Riktlinjer för löpande auktoritetsarbete i Libris).    
 #### Funktionskoder (#4)  
 Lägg till funktionskoder (#4) för medverkande agenter om de inte finns eller om endast funktionstermer (#e) finns.   Funktionstermerna kan ligga kvar oförändrade.  
 
@@ -119,7 +123,7 @@ Lägg till Svenska ämnesord och Genre/formtermer (enligt Riktlinjer för indexe
 
 ### DDK-klassifikation
 Lägg till klassifikationskod från DDK eller kontrollera att den befintliga koden är korrekt. Efter kontroll ändra Parallell upplagebeteckning/Upplagespecifik upphovsuppgift till ”23/swe”.
-OBS! Egenskapen Parallell upplagebeteckning går inte att lägga till manuellt. Om den saknas måste en ny DDK-kod läggas till:
--	Klicka på Lägg till entitet (plustecknet vid Klassifikation)
--	Välj Skapa lokal entitet och välj DDK-klassifikation.
+OBS! Egenskapen Parallell upplagebeteckning går inte att lägga till manuellt. Om den saknas måste en ny DDK-kod läggas till:   
+-	Klicka på Lägg till entitet (plustecknet vid Klassifikation)  
+-	Välj Skapa lokal entitet och välj DDK-klassifikation.  
 -	Fyll i uppgifterna och radera den ofullständiga DDK-klassifikationen.
