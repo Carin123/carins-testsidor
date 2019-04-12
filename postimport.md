@@ -1,9 +1,13 @@
 ## Checklista vid postimport
 
-Beroende på vilka katalogiseringsregler som har använts i den post man önskar importera bör olika anvisningar följas: 
-*	För poster gjorda enligt AACR2, följ riktlinjerna för [Minimikrav på importerade bibliografiska poster](http://www.kb.se/katalogisering/Katalogisering/Minimikrav-pa-importerade-bibliografiska-poster/) i Katalogisatörens verktygslåda.
-* För poster gjorda enligt RDA, följ riktlinjerna för [Importerade poster](http://www.kb.se/rdakatalogisering/Postimport/) i Anvisningar för katalogisering (RDA)
-*	För preliminära poster, följ riktlinjerna för [Minimikrav vid uppgradering av förhandsposter och Förhandsposter från Bokinfo](http://www.kb.se/katalogisering/Katalogisering/Preliminara-poster/Uppgradering-Bokrondellen/) i Katalogisatörens verktygslåda.
+Beroende på vilka katalogiseringsregler som har använts i den post man önskar importera bör olika anvisningar följas:  
+
+*	För poster gjorda enligt AACR2, följ riktlinjerna för [Minimikrav på importerade bibliografiska poster](http://www.kb.se/katalogisering/Katalogisering/Minimikrav-pa-importerade-bibliografiska-poster/) i Katalogisatörens verktygslåda.   
+
+* För poster gjorda enligt RDA, följ riktlinjerna för [Importerade poster](http://www.kb.se/rdakatalogisering/Postimport/) i Anvisningar för katalogisering (RDA)  
+
+*	För preliminära poster, följ riktlinjerna för [Minimikrav vid uppgradering av förhandsposter och Förhandsposter från Bokinfo](http://www.kb.se/katalogisering/Katalogisering/Preliminara-poster/Uppgradering-Bokrondellen/) i Katalogisatörens verktygslåda.  
+
 Eftersom anvisningarna inte är anpassade till det nya katalogiseringsverktyget eller det nya formatet följer här en lista på de viktigaste sakerna att tänka på.  
 
 OBS! Innan den importerade posten sparas i Libris syns de länkade entiteterna med den engelska benämningen. De får automatiskt den svenska benämningen efter att posten sparats. 
@@ -22,8 +26,10 @@ Förval: den sigel som skapat posten. Ska inte ändras.
 Vid postimport hamnar för närvarande det importerande bibliotekets sigel här. Detta kommer att ses över.  
 
 #### Uppgraderad eller importerad av/Bibliotek/Sigel (040 #d)
-Lägg alltid till uppgiften om ditt bibliotek är det första som importerar posten till Libris. Lägg även till sigel om ett annat bibliotek har importerat posten men du uppgraderar beskrivningsnivån.
-OBS! Egenskapen kan inte läggas till via funktionen Berika från mall.
+Lägg alltid till uppgiften om ditt bibliotek är det första som importerar posten till Libris. Lägg även till sigel om ett annat bibliotek har importerat posten men du uppgraderar beskrivningsnivån.  
+
+OBS! Egenskapen kan inte läggas till via funktionen Berika från mall.  
+
 För att lägga till egenskapen:
 -	Klicka på plustecknet Lägg till egenskaper under: Post  
 -	Lägg till entitet och välj Skapa lokal entitet.  
