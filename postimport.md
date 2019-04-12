@@ -125,7 +125,7 @@ Kontrollera att beskrivningen är korrekt.
 OBS! Om egenskapen Språk saknas och läggs till via funktionen Berika från mall, länkas den automatiskt till svenska. Ändra vid behov.  
 
 ### Agenter  
-Validera namnformer (skapa auktoriteter vid behov, enligt [Riktlinjer för löpande auktoritetsarbete i Libris](http://www.kb.se/dokument/Riktlinjer%20f%C3%B6r%20det%20l%C3%B6pande%20auktoritetsarbetet%20i%20Libris.pdf).   
+Validera namnformer (skapa auktoriteter vid behov, enligt [Riktlinjer för löpande auktoritetsarbete i Libris](http://www.kb.se/dokument/Riktlinjer%20f%C3%B6r%20det%20l%C3%B6pande%20auktoritetsarbetet%20i%20Libris.pdf)).
 
 #### Funktionskoder (#4)  
 Lägg till funktionskoder (#4) för medverkande agenter om de inte finns eller om endast funktionstermer (#e) finns.   Funktionstermerna kan ligga kvar oförändrade.  
