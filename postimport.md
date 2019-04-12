@@ -98,20 +98,26 @@ Vid import från Andra källor kan posterna ibland innehålla flera olika ISBN, 
 Om motsvarande fält 490 #a och 830 #a matchar, läggs de vid import i samma Seriemedlemskap.  
 Om de inte matchar, skapas två Seriemedlemskap: ett med enbart Seriemedlemskap/Serieuppgift (490 #a) och ett med enbart Seriemedlemskap/Ingår i serie/Instans av Verk/Verk/Har titel/Titel/Huvudtitel (830 #a).  
 När man redigerar importerade poster med två Seriemedlemskap får man, om man bedömer det nödvändigt, slå ihop dem till ett.
-OBS! Om ISSN finns i både 490 och 830 och om volymbeteckningen är angiven på olika sätt i 490 och 830, dubbleras dessa inom Seriemedlemskapet. Radera en av de dubblerade ISSN- och/eller voIymbeteckningarna.
-Instans av verk
-Språk, litterär genre m.m.
+OBS! Om ISSN finns i både 490 och 830 och om volymbeteckningen är angiven på olika sätt i 490 och 830, dubbleras dessa inom Seriemedlemskapet. Radera en av de dubblerade ISSN- och/eller voIymbeteckningarna.  
+
+## Instans av verk 
+
+### Språk, litterär genre m.m.
 Kontrollera att beskrivningen är korrekt.
-OBS! Om egenskapen Språk saknas och läggs till via funktionen Berika från mall, länkas den automatiskt till svenska. Ändra vid behov.
-Agenter
-Validera namnformer (skapa auktoriteter vid behov, enligt Riktlinjer för löpande auktoritetsarbete i Libris).
-Funktionskoder (#4) 
-Lägg till funktionskoder (#4) för medverkande agenter om de inte finns eller om endast funktionstermer (#e) finns. Funktionstermerna kan ligga kvar oförändrade.
-Uniforma titlar 
-Kontrollera att titelformen för eventuella uniforma titlar stämmer med svensk praxis.
-Svenska ämnesord och Genre/formtermer
-Lägg till Svenska ämnesord och Genre/formtermer (enligt Riktlinjer för indexering med Svenska ämnesord)
-DDK-klassifikation
+OBS! Om egenskapen Språk saknas och läggs till via funktionen Berika från mall, länkas den automatiskt till svenska. Ändra vid behov.  
+
+### Agenter  
+Validera namnformer (skapa auktoriteter vid behov, enligt Riktlinjer för löpande auktoritetsarbete i Libris).  
+#### Funktionskoder (#4)  
+Lägg till funktionskoder (#4) för medverkande agenter om de inte finns eller om endast funktionstermer (#e) finns.   Funktionstermerna kan ligga kvar oförändrade.  
+
+### Uniforma titlar 
+Kontrollera att titelformen för eventuella uniforma titlar stämmer med svensk praxis.  
+
+### Svenska ämnesord och Genre/formtermer  
+Lägg till Svenska ämnesord och Genre/formtermer (enligt Riktlinjer för indexering med Svenska ämnesord)  
+
+### DDK-klassifikation
 Lägg till klassifikationskod från DDK eller kontrollera att den befintliga koden är korrekt. Efter kontroll ändra Parallell upplagebeteckning/Upplagespecifik upphovsuppgift till ”23/swe”.
 OBS! Egenskapen Parallell upplagebeteckning går inte att lägga till manuellt. Om den saknas måste en ny DDK-kod läggas till:
 -	Klicka på Lägg till entitet (plustecknet vid Klassifikation)
