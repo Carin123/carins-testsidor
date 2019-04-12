@@ -1,8 +1,9 @@
-Checklista vid postimport
+## Checklista vid postimport
+
 Beroende på vilka katalogiseringsregler som har använts i den post man önskar importera bör olika anvisningar följas: 
--	För poster gjorda enligt AACR2 följ riktlinjerna för Minimikrav på importerade bibliografiska poster i Katalogisatörens verktygslåda.
--	För poster gjorda enligt RDA följ riktlinjerna för Importerade poster i Anvisningar för katalogisering (RDA)
--	För preliminära poster följ riktlinjerna för Minimikrav vid uppgradering av förhandsposter och Förhandsposter från Bokinfo i Katalogisatörens verktygslåda.
+*	För poster gjorda enligt AACR2, följ riktlinjerna för [Minimikrav på importerade bibliografiska poster](http://www.kb.se/katalogisering/Katalogisering/Minimikrav-pa-importerade-bibliografiska-poster/) i Katalogisatörens verktygslåda.
+* För poster gjorda enligt RDA, följ riktlinjerna för [Importerade poster](http://www.kb.se/rdakatalogisering/Postimport/) i Anvisningar för katalogisering (RDA)
+*	För preliminära poster, följ riktlinjerna för [Minimikrav vid uppgradering av förhandsposter och Förhandsposter från Bokinfo](http://www.kb.se/katalogisering/Katalogisering/Preliminara-poster/Uppgradering-Bokrondellen/) i Katalogisatörens verktygslåda.
 Eftersom anvisningarna inte är anpassade till det nya katalogiseringsverktyget eller det nya formatet följer här en lista på de viktigaste sakerna att tänka på.
 OBS! Innan den importerade posten sparas i Libris syns de länkade entiteterna med den engelska benämningen. De får automatiskt den svenska benämningen efter att posten sparats. 
 Adminmetadata
