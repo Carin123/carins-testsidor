@@ -80,7 +80,8 @@ OBS! Om egenskapen Utgivning/Primär utgivning saknas och läggs till via funkti
 
 ### Omfång, mått m.m.
 Kontrollera att beskrivningen är korrekt.  
-Egenskaper som länkar till andra databaser och instanser som inte finns i Libris.  
+
+### Egenskaper som länkar till andra databaser och instanser som inte finns i Libris.  
 Låt uppgiften stå:  
 -	Tillhörande media/Mediaobjekt (856 4/0)  
 -	Annan relaterad resurs/Elektronisk (856 4/1)  
