@@ -135,7 +135,7 @@ Kontrollera att titelformen för eventuella uniforma titlar stämmer med svensk 
 
 ### Svenska ämnesord och Genre/formtermer  
 Lägg till Svenska ämnesord och Genre/formtermer enligt
-[Riktlinjer för indexering med Svenska ämnesord](http://www.kb.se/katalogisering/Svenska-amnesord/riktlinjer/)  
+[Riktlinjer för indexering med Svenska ämnesord](http://www.kb.se/dokument/Verktygsladan/Svenska%20%C3%A4mnesord/Riktlinjer/Riktlinjer%20SAO%202019-03-15.pdf)  
 
 ### DDK-klassifikation
 Lägg till klassifikationskod från DDK eller kontrollera att den befintliga koden är korrekt. Efter kontroll ändra Parallell upplagebeteckning/Upplagespecifik upphovsuppgift till ”23/swe”.  
