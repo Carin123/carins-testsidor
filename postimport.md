@@ -145,8 +145,9 @@ Lägg till funktionskoder (#4) för medverkande agenter om de inte finns eller o
 Kontrollera att titelformen för eventuella uniforma titlar stämmer med svensk praxis.  
 
 ### Svenska ämnesord och Genre/formtermer  
-Lägg till Svenska ämnesord och Genre/formtermer enligt
-[Riktlinjer för indexering med Svenska ämnesord](http://www.kb.se/dokument/Verktygsladan/Svenska%20%C3%A4mnesord/Riktlinjer/Riktlinjer%20SAO%202019-03-15.pdf).  
+Lägg till Svenska ämnesord enligt [Riktlinjer för indexering med Svenska ämnesord](http://www.kb.se/dokument/Verktygsladan/Svenska%20%C3%A4mnesord/Riktlinjer/Riktlinjer%20SAO%202019-03-15.pdf).  
+samt hjälptext för [Ämnesord i Libris](https://libris.kb.se/katalogisering/help/workflow-general-sh)
+Lägg till Genre/formtermer enligt anvisningar i hjälptexten för [Verk](https://libris.kb.se/katalogisering/help/workflow-work).
 
 ### DDK-klassifikation
 Lägg till klassifikationskod från DDK eller kontrollera att den befintliga koden är korrekt. Efter kontroll ändra Parallell upplagebeteckning/Upplagespecifik upphovsuppgift till ”23/swe”.  
