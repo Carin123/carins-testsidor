@@ -2,7 +2,7 @@
 section: Generell beskrivning
 title: Verk
 order: 21
-date: 2019-03-29
+date: 2019-04-15
 tags:
 - under arbete
 - verk
@@ -247,10 +247,10 @@ Klicka sedan på plustecknet vid DDK-klassifikation (sekundär) (Lägg till ddk-
 (classification/Classification/code = 084 0/4 #a)  
      Skriv in uppgiften.  
   ```Exempel: Sei-e```   
-* Klassifikation/Termlista/Termlista/Kod  
+* Klassifikation/Ingår i system/Konceptsystem/Kod  
 (classification/Classification/inScheme/ConceptScheme/code = 084 #2)  
  ```Exempel: kssb```  
-* Klassifikation/Termlista/Termlista/Version  
+* Klassifikation/Ingår i system/Konceptsystem/Version  
 (classification/Classification/inScheme/ConceptScheme/version = 084 #2)  
  ```Exempel: 8``` 
  
