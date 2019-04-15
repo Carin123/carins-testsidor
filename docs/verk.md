@@ -91,19 +91,24 @@ Skriv in uppgiften.
   Följ dessa instruktioner:  
   [Relationer till Agent](https://libris.kb.se/katalogisering/help/workflow-agent-org-instance)  
     
-* Medverkan och funktion/Primär medverkan/Agent/Person (contribution/PrimaryContribution/agent/Person = 100 1/- #a)   
+* Medverkan och funktion/Primär medverkan/Agent/Person  
+(contribution/PrimaryContribution/agent/Person = 100 1/- #a)   
   Länka till entitet. Se [Relationer till Agent](https://libris.kb.se/katalogisering/help/workflow-agent-org-instance).  
  
-* Medverkan och funktion/Primär medverkan/Funktion (contribution/PrimaryContribution/role = 100 #4)  
+* Medverkan och funktion/Primär medverkan/Funktion  
+(contribution/PrimaryContribution/role = 100 #4)  
   Länka till entitet. Se [Relationer till Agent](https://libris.kb.se/katalogisering/help/workflow-agent-org-instance).  
   
-* Medverkan och funktion/Medverkan/Agent/Person (contribution/agent/Person = 700 1/- #a)  
+* Medverkan och funktion/Medverkan/Agent/Person  
+(contribution/agent/Person = 700 1/- #a)  
   Länka till entitet. Se [Relationer till Agent](https://libris.kb.se/katalogisering/help/workflow-agent-org-instance).  
   
-* Medverkan och funktion/Medverkan/Agent/Organisation (contribution/agent/Organisation = 710 2/- #a, #4 pbl)  
+* Medverkan och funktion/Medverkan/Agent/Organisation  
+(contribution/agent/Organisation = 710 2/- #a, #4 pbl)  
   Länka till entitet. Se [Relationer till Agent](https://libris.kb.se/katalogisering/help/workflow-agent-org-instance). 
   
-* Medverkan och funktion/Medverkan/Agent/Jurisdiktion (contribution/agent/Jurisdiktion = 710 1/- #a, #4 pbl)   
+* Medverkan och funktion/Medverkan/Agent/Jurisdiktion  
+(contribution/agent/Jurisdiktion = 710 1/- #a, #4 pbl)   
   Länka till entitet. Se [Relationer till Agent](https://libris.kb.se/katalogisering/help/workflow-agent-org-instance). 
 
 #### Sprak 
