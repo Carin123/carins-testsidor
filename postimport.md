@@ -1,3 +1,14 @@
+---
+section: Redigering
+title: Checklista Andra källor
+date: 2019-04-15
+tags:
+- redigering
+- postimport
+order: 16
+---
+
+
 ## Checklista vid postimport
 
 Beroende på vilka katalogiseringsregler som har använts i den post man önskar importera bör olika anvisningar följas:  
