@@ -171,9 +171,9 @@ OBS! Egenskapen Parallell upplagebeteckning går inte att lägga till manuellt. 
 
 #### SAB-klassifikation
 För att lägga till klassifikationskod:  
-•	Klicka på Lägg till entitet (plustecknet vid Klassifikation)
-•	Välj Skapa lokal entitet och välj Klassifikation
-•	Fyll i uppgifterna
+-	Klicka på Lägg till entitet (plustecknet vid Klassifikation)  
+-	Välj Skapa lokal entitet och välj Klassifikation  
+-	Fyll i uppgifterna
 
 
 
