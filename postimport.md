@@ -1,7 +1,7 @@
 ---
 section: Redigering
 title: Checklista Andra källor
-date: 2019-04-15
+date: 2019-04-24
 tags:
 - redigering
 - postimport
@@ -25,7 +25,7 @@ OBS! Innan den importerade posten sparas i Libris syns de länkade entiteterna m
 #### Beskrivningsnivå (000/17)
 Vid postimport händer det att egenskapen saknar värde eller saknas helt.  
 Om egenskapen finns men saknar värde:  
--	Välj värde från listan  
+-	Välj värde från listan   
 Om egenskapen saknas:  
 -	Klicka på plustecknet Lägg till egenskaper under: Post  
 -	Välj typ Beskrivningsnivå och välj värde från lista   
