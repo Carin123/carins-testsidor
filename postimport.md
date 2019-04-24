@@ -8,7 +8,6 @@ tags:
 order: 16
 ---
 
-
 ## Checklista vid postimport
 
 Beroende på vilka katalogiseringsregler som har använts i den post man önskar importera bör olika anvisningar följas:  
@@ -124,7 +123,7 @@ Vid import från Andra källor kan posterna ibland innehålla flera olika ISBN, 
 -	För elektroniska resurser gäller samma sak, fast tvärtom: Det får inte ligga ISBN för en annan elektronisk version under Indirekt identifierad av, utan där får endast ISBN för olika tryckta versioner ligga.  
 -	Om det är svårt att belägga de ISBN som ligger i en katalogpost är det bättre att radera dem. Låt endast de som hör till resursen som ska katalogiseras vara kvar.  
 -	Ibland ligger samma ISBN, tiosiffrigt och/eller trettonsiffrigt, i både Identifikator/ISBN/Värde (020 a) och Indirekt identifierad av/ISBN/Värde (020 #z). Ta bort ISBN från Indirekt identifierad av och låt det ligga kvar under Identifikator/ISBN/Värde.  
--	Om det ligger ISBN till andra utgåvor i Indirekt identifierad av/ISBN/Värde (020 #z), kan det särskiljande tillägget (020 #q) ibland hamna fel, under Identifikator/Nothing/Särskiljande tillägg. Flytta det särskiljande tillägget till Indirekt identifierad av, så att det hamnar i anslutning till det ISBN det gäller.   
+-	Om det ligger ISBN till andra utgåvor i Indirekt identifierad av/ISBN/Värde (020 #z), kan det särskiljande tillägget (020 #q) ibland hamna fel, under Identifikator/Nothing/Särskiljande tillägg. Lägg till det särskiljande tillägget under Indirekt identifierad av/ISBN, kopplat till det värde det gäller, och radera Nothing/Särskiljande tillägg under Identifikator.    
 
 ### Seriemedlemskap/Seriemedlemskap/Ingår i serie (490 #a och 830 #a)  
 Om motsvarande fält 490 #a och 830 #a matchar, läggs de vid import i samma Seriemedlemskap.  
