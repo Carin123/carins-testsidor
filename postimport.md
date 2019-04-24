@@ -114,8 +114,6 @@ Låt uppgiften stå:
 
 Radera uppgiften:  
 -	Beskriven av/Post/Kontrollnummer (#w) som innehåller id:n för annan bibliografisk post i den databas man importerat från. Kan förekomma t.ex. i Annat bärarformat (776), i Seriemedlemskap (830). OBS! Kan även förekomma inom egenskaper i Instans av verk.  
--	(#0) AuktID för sammanhörande auktoritetspost (i den auktoritetsdatabas som är kopplad till den bibliografiska databasen posten importerats från)
--	(#5) Institution för vilken fältet gäller (länkar till den bibliografiska databasen posten importerats från)
 
 ### Identifikator/ISBN (020 #a) och Indirekt identifierad av/ISBN (020 #z)  
 **OBS! Måste ses över! Anvisningarna nedan är upprättade med tanke på matchningsproblematik vid automatiska flöden. Behov av att kunna lägga felaktiga ISBN i Indirekt identifierad av finns.**
@@ -126,14 +124,14 @@ Vid import från Andra källor kan posterna ibland innehålla flera olika ISBN, 
 -	För elektroniska resurser gäller samma sak, fast tvärtom: Det får inte ligga ISBN för en annan elektronisk version under Indirekt identifierad av, utan där får endast ISBN för olika tryckta versioner ligga.  
 -	Om det är svårt att belägga de ISBN som ligger i en katalogpost är det bättre att radera dem. Låt endast de som hör till resursen som ska katalogiseras vara kvar.  
 -	Ibland ligger samma ISBN, tiosiffrigt och/eller trettonsiffrigt, i både Identifikator/ISBN/Värde (020 a) och Indirekt identifierad av/ISBN/Värde (020 #z). Ta bort ISBN från Indirekt identifierad av och låt det ligga kvar under Identifikator/ISBN/Värde.  
--	Om det ligger ISBN till andra utgåvor i Indirekt identifierad av/ISBN/Värde (020 #z), kan det särskiljande tillägget (020 #q) ibland hamna fel, under Identifikator/ISBN/Värde. Flytta det särskiljande tillägget till Indirekt identifierad av, så att det hamnar i anslutning till det ISBN det gäller.   
+-	Om det ligger ISBN till andra utgåvor i Indirekt identifierad av/ISBN/Värde (020 #z), kan det särskiljande tillägget (020 #q) ibland hamna fel, under Identifikator/Nothing/Särskiljande tillägg. Flytta det särskiljande tillägget till Indirekt identifierad av, så att det hamnar i anslutning till det ISBN det gäller.   
 
 ### Seriemedlemskap/Seriemedlemskap/Ingår i serie (490 #a och 830 #a)  
 Om motsvarande fält 490 #a och 830 #a matchar, läggs de vid import i samma Seriemedlemskap.  
 
 Om de inte matchar, skapas två Seriemedlemskap: ett med enbart Seriemedlemskap/Serieuppgift (490 #a) och ett med enbart Seriemedlemskap/Ingår i serie/Instans av Verk/Verk/Har titel/Titel/Huvudtitel (830 #a).  
 
-När man redigerar importerade poster med två Seriemedlemskap får man, om man bedömer det nödvändigt, slå ihop dem till ett.  
+När man redigerar importerade poster med två Seriemedlemskap kan man, om man bedömer det nödvändigt, slå ihop dem till ett.  
 
 OBS! Om ISSN finns i både 490 och 830 och om volymbeteckningen är angiven på olika sätt i 490 och 830, dubbleras dessa inom Seriemedlemskapet. Radera en av de dubblerade ISSN- och/eller voIymbeteckningarna.  
 
@@ -159,10 +157,17 @@ Kontrollera att titelformen för eventuella uniforma titlar stämmer med svensk 
 Lägg till Svenska ämnesord enligt [Riktlinjer för indexering med Svenska ämnesord](http://www.kb.se/dokument/Verktygsladan/Svenska%20%C3%A4mnesord/Riktlinjer/Riktlinjer%20SAO%202019-03-15.pdf) samt hjälptext för [Ämnesord i Libris](https://libris.kb.se/katalogisering/help/workflow-general-sh).  
 Lägg till Genre/formtermer enligt anvisningar i hjälptexten för [Verk](https://libris.kb.se/katalogisering/help/workflow-work).
 
-### DDK-klassifikation
+### Klassifikation
+   
+Läs mer om Klassifikation på sidan [Verk](https://libris.kb.se/katalogisering/help/workflow-work).
+
+#### DDK-klassifikation
 Lägg till klassifikationskod från DDK eller kontrollera att den befintliga koden är korrekt. Efter kontroll ändra Parallell upplagebeteckning/Upplagespecifik upphovsuppgift till ”23/swe”.  
 
 OBS! Egenskapen Parallell upplagebeteckning går inte att lägga till manuellt. Om den saknas måste en ny DDK-kod läggas till:   
 -	Klicka på Lägg till entitet (plustecknet vid Klassifikation)   
 -	Välj Skapa lokal entitet och välj DDK-klassifikation.  
 -	Fyll i uppgifterna och radera den ofullständiga DDK-klassifikationen.
+
+
+
