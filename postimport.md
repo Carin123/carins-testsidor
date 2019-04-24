@@ -169,5 +169,11 @@ OBS! Egenskapen Parallell upplagebeteckning går inte att lägga till manuellt. 
 -	Välj Skapa lokal entitet och välj DDK-klassifikation.  
 -	Fyll i uppgifterna och radera den ofullständiga DDK-klassifikationen.
 
+#### SAB-klassifikation
+För att lägga till klassifikationskod:  
+•	Klicka på Lägg till entitet (plustecknet vid Klassifikation)
+•	Välj Skapa lokal entitet och välj Klassifikation
+•	Fyll i uppgifterna
+
 
 
