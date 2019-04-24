@@ -159,7 +159,7 @@ Lägg till Genre/formtermer enligt anvisningar i hjälptexten för [Verk](https:
 
 ### Klassifikation
    
-Läs mer om Klassifikation på sidan [Verk](https://libris.kb.se/katalogisering/help/workflow-work).
+Läs mer om Klassifikation i hjälptexten för [Verk](https://libris.kb.se/katalogisering/help/workflow-work).
 
 #### DDK-klassifikation
 Lägg till klassifikationskod från DDK eller kontrollera att den befintliga koden är korrekt. Efter kontroll ändra Parallell upplagebeteckning/Upplagespecifik upphovsuppgift till ”23/swe”.  
