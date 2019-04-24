@@ -22,6 +22,9 @@ Eftersom anvisningarna inte är anpassade till det nya katalogiseringsverktyget 
 OBS! Innan den importerade posten sparas i Libris syns de länkade entiteterna med den engelska benämningen. De får automatiskt den svenska benämningen efter att posten sparats. 
 
 ### Adminmetadata
+
+Läs mer om egenskaperna under [Adminmetadata](https://libris.kb.se/katalogisering/help/workflow-adminmetadata).
+
 #### Beskrivningsnivå (000/17)
 Vid postimport händer det att egenskapen saknar värde eller saknas helt.  
 Om egenskapen finns men saknar värde:  
@@ -62,19 +65,22 @@ Saknas egenskapen:
 -	Lägg till entitet, sök fram och välj Annan verksamhet
 
 #### Systemteknisk anmärkning (599 #a)
-Låt ”importanmärkningen” ligga kvar.  
+Låt anmärkningen ”Imported from” ligga kvar.  
 OBS! Vid uppgradering av förhandsposter och preliminära poster (då Beskrivningsnivån uppgraderas), ta bort anmärkningen om att posten är maskinellt skapad.  
 
 #### Entry map (000/20-23)
-I vissa importerade poster förekommer Entry map. Låt uppgiften stå.  
+I vissa importerade poster förekommer Entry map. Radera uppgiften.    
 
 #### Identifikator/Lokal identifikator/Värde (035 #a)
 Systemnummer från andra bibliotek, bibliotekskonsortier eller system (till exempel Bokinfos systemnummer) kan förekomma. Låt uppgiften stå.  
 
-#### marcuncompleted  
-Data som inte hanteras av systemet visas som `_marcuncompleted` i MARC21-format. Kontrollera om det innehåller information som bör vara med i beskrivningen och radera sedan uppgifterna.  
+#### marcuncompleted och marcfailedfixedfields
+Data som inte hanteras av systemet visas som `_marcuncompleted` eller `_marcfailedfixedfields` i MARC21-format. Kontrollera om de innehåller information som bör vara med i beskrivningen och radera sedan uppgifterna.  
+
 
 ## Instans
+
+Läs mer om egenskaperna under [Instans](https://libris.kb.se/katalogisering/help/workflow-instance).  
 
 ### Titel
 Kontrollera att beskrivningen är korrekt.  
@@ -91,7 +97,7 @@ Vid postimport saknas ibland upphovsuppgiften. Om egenskapen saknas:
 
 ### Utgivning
 Vid postimport medföljer ibland två avsnitt: Primär utgivning med År och Land, och Utgivning med Plats, Agent och Datum.
-Vid redigering får man, om man bedömer det nödvändigt, flytta uppgifterna om Plats, Agent och Datum till Primär utgivning och ta bort Utgivning.   
+Vid redigering kan man, om man bedömer det nödvändigt, flytta uppgifterna om Plats, Agent och Datum till Primär utgivning och ta bort Utgivning.   
 
 Vid postimport förekommer ibland både År och Copyrightår inom Utgivning (008/06: t, 008/07-10: År och 008/11-14: Copyrightår).    Låt uppgiften ligga kvar oförändrad. Ej att förväxla med egenskapen Copyright/Copyright/Datum (264 -/4 #c).   
 
@@ -108,6 +114,8 @@ Låt uppgiften stå:
 
 Radera uppgiften:  
 -	Beskriven av/Post/Kontrollnummer (#w) som innehåller id:n för annan bibliografisk post i den databas man importerat från. Kan förekomma t.ex. i Annat bärarformat (776), i Seriemedlemskap (830). OBS! Kan även förekomma inom egenskaper i Instans av verk.  
+-	(#0) AuktID för sammanhörande auktoritetspost (i den auktoritetsdatabas som är kopplad till den bibliografiska databasen posten importerats från)
+-	(#5) Institution för vilken fältet gäller (länkar till den bibliografiska databasen posten importerats från)
 
 ### Identifikator/ISBN (020 #a) och Indirekt identifierad av/ISBN (020 #z)  
 **OBS! Måste ses över! Anvisningarna nedan är upprättade med tanke på matchningsproblematik vid automatiska flöden. Behov av att kunna lägga felaktiga ISBN i Indirekt identifierad av finns.**
@@ -130,6 +138,8 @@ När man redigerar importerade poster med två Seriemedlemskap får man, om man 
 OBS! Om ISSN finns i både 490 och 830 och om volymbeteckningen är angiven på olika sätt i 490 och 830, dubbleras dessa inom Seriemedlemskapet. Radera en av de dubblerade ISSN- och/eller voIymbeteckningarna.  
 
 ## Instans av verk 
+
+Läs mer om egenskaperna under [Verk](https://libris.kb.se/katalogisering/help/workflow-work). 
 
 ### Språk, litterär genre m.m.
 Kontrollera att beskrivningen är korrekt.  
