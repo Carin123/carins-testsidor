@@ -2,7 +2,7 @@
 section: Generell beskrivning
 title: Adminmetadata
 order: 20
-date: 2019-03-19
+date: 2019-04-25
 tags:
 - under arbete
 - adminmetadata
@@ -98,7 +98,7 @@ För ISBN, se Identifikator under [Instans](#https://libris.kb.se/katalogisering
 * Katalogiseringsregler (descriptionConventions = 040 #e)   
   För en post katalogiserad enligt RDA, sök fram och länka till entitet: "ISBD-interpunktion finns".  
   
-  Skapa också lokal entitet under Katalogiseringsregler. Klicka på plustecknet vid Katalogiseringsregler. Välj Föreslagna: Regler för deskriptiv katalogisering (bib).  
+  Skapa också lokal entitet under Katalogiseringsregler. Klicka på plustecknet vid Katalogiseringsregler. Välj Katalogiseringsregler.  
   
   ![Katalogiseringsregler](katalogiseringsregler.png)  
   
