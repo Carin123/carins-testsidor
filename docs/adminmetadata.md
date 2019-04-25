@@ -98,7 +98,7 @@ För ISBN, se Identifikator under [Instans](#https://libris.kb.se/katalogisering
 * Katalogiseringsregler (descriptionConventions = 040 #e)   
   För en post katalogiserad enligt RDA, sök fram och länka till entitet: "ISBD-interpunktion finns".  
   
-  Skapa också lokal entitet under Katalogiseringsregler. Klicka på plustecknet vid Katalogiseringsregler. Välj Katalogiseringsregler.  
+  Skapa också lokal entitet under Katalogiseringsregler. Klicka på plustecknet vid Katalogiseringsregler. Välj Skapa lokal entitet. Välj Katalogiseringsregler.  
   
   ![Katalogiseringsregler](katregler.png)  
   
