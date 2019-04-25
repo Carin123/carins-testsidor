@@ -102,7 +102,7 @@ För ISBN, se Identifikator under [Instans](#https://libris.kb.se/katalogisering
   
   ![Katalogiseringsregler](katalogiseringsregler.png)  
   
-  Lägg till Kod och Skriv in "rda".  
+ Skriv in "rda".  
   ![Katalogiseringsregler](katalogiseringsregler2.png)  
   
  
