@@ -28,17 +28,16 @@ OBS! Innan den importerade posten sparas i Libris syns de länkade entiteterna m
 | [Adminmetadata](#adminmetadata) | [Instans](#instans) | [Verk](#verk) | 
 | ----------- |  ----------- | ----------- | 
 |  [Generell hjälptext för Adminmetadata](https://libris.kb.se/katalogisering/help/workflow-adminmetadata) | [Generell hjälptext för Instans](https://libris.kb.se/katalogisering/help/workflow-instance) | [Generell hjälptext för Verk](https://libris.kb.se/katalogisering/help/workflow-work) |
-| [Beskrivningsnivå](#beskrivningsniva) | [Titel](#titel) | [Verkets titel](#verkets-titel) |
+| [Beskrivningsnivå](#beskrivningsniva) | [Titel](#titel) |  |
 | [Skapad av](#skapad-av) | [Upphovsuppgift](#upphovsuppgift) | [Medverkan och funktion](#medverkan-och-funktion) |
-| [Uppgraderad  eller importerad av](#uppgraderad-eller-importerad-av) | [Utgivning](#utgivning) | [Relationer till ingående verk och andra verk](#relationer-till-ingaende-verk-och-andra-verk) |
-| [Katalogiseringsregler](#katalogiseringsregler) | [Omfång, övriga fysiska detaljer, mått](#omfang) | [Språk](#sprak) |
-| [Katalogiseringsspråk](#katalogiseringssprak) | [Egenskaper som länkar till andra databaser och instanser som inte finns i Libris](#andra-databaser) | [Genre](#genre) | 
+| [Uppgraderad  eller importerad av](#uppgraderad-eller-importerad-av) | [Utgivning](#utgivning) |  |
+| [Katalogiseringsregler](#katalogiseringsregler) | [Omfång, övriga fysiska detaljer, mått](#omfang) |  |
+| [Katalogiseringsspråk](#katalogiseringssprak) | [Egenskaper som länkar till andra databaser och instanser som inte finns i Libris](#andra-databaser) | [Språk och genre](#sprak-och-genre) | 
 | [Katalogiserande instans](#katalogiserande-instans) | [Identifikator och Indirekt identifierad av](#identifikator-och-indirekt-identifierad-av) | [Klassifikation](#klassifikation) |
 | [Systemteknisk anmärkning](#systemteknisk-anmarkning) | [Seriemedlemskap](#seriemedlemskap) | [Ämne](https://libris.kb.se/katalogisering/help/workflow-general-sh) |
-| [Entry map](#entry-map) | | [Målgrupp](#malgrupp) | 
-| [Systemnummer](#systemnummer) | | [Innehållstyp](#innehallstyp) | 
-| [marcuncompleted och marcfailedfixedfields](#marcuncompleted-och-marcfailedfixedfields) | | [Sammanfattning av innehåll](#sammanfattning-av-innehall) |
-| |  | [Anmärkning om akademisk avhandling](#anmarkning-om-akademisk-avhandling) |
+| [Entry map](#entry-map) | | | 
+| [Systemnummer](#systemnummer) | | | 
+| [marcuncompleted och marcfailedfixedfields](#marcuncompleted-och-marcfailedfixedfields) | | |
 
 
 ## Adminmetadata 
@@ -185,7 +184,8 @@ OBS! Om ISSN finns i både 490 och 830 och om volymbeteckningen är angiven på 
 ## Instans av verk 
 Läs mer om egenskaperna under [Verk](https://libris.kb.se/katalogisering/help/workflow-work). 
 
-### Språk, litterär genre m.m. 
+### Sprak och genre
+**Språk, litterär genre m.m.**
 Kontrollera att beskrivningen är korrekt. 
 
 OBS! Om egenskapen Språk (language = 008/35-37) saknas och läggs till via funktionen Berika från mall, länkas den automatiskt till svenska. Ändra vid behov. 
@@ -194,8 +194,9 @@ Läs mer under [Relationer till Agent](https://libris.kb.se/katalogisering/help/
 - Validera alltid namnformer och, vid behov, skapa auktoriteter enligt [Riktlinjer för löpande auktoritetsarbete i Libris](http://www.kb.se/dokument/Riktlinjer%20f%C3%B6r%20det%20l%C3%B6pande%20auktoritetsarbetet%20i%20Libris.pdf)  
 - Lägg till funktionskoder (#4) för medverkande agenter om de inte finns eller om endast funktionstermer (#e) finns. Funktionstermerna kan ligga kvar oförändrade. 
  
-### Uniforma titlar 
-Kontrollera att titelformen för eventuella uniforma titlar stämmer med svensk praxis. 
+### Titel
+**Föredragen titel**
+Kontrollera att titelformen för föredragen titel stämmer med svensk praxis. 
 
 ### Svenska ämnesord och Genre/formtermer 
 Lägg till Svenska ämnesord och Genre/formtermer enligt [Riktlinjer för indexering med Svenska ämnesord](http://www.kb.se/dokument/Verktygsladan/Svenska%20%C3%A4mnesord/Riktlinjer/Riktlinjer%20SAO.pdf]) 
