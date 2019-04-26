@@ -33,16 +33,12 @@ OBS! Innan den importerade posten sparas i Libris syns de länkade entiteterna m
 | [Uppgraderad  eller importerad av](#uppgraderad-eller-importerad-av) | [Utgivning](#utgivning) | [Relationer till ingående verk och andra verk](#relationer-till-ingaende-verk-och-andra-verk) |
 | [Katalogiseringsregler](#katalogiseringsregler) | [Omfång, övriga fysiska detaljer, mått](#omfang) | [Språk](#sprak) |
 | [Katalogiseringsspråk](#katalogiseringssprak) | [Egenskaper som länkar till andra databaser och instanser som inte finns i Libris](#andra-databaser) | [Genre](#genre) | 
-| [Katalogiserande instans](#katalogiserande-instans) | [Identifikator](#identifikator) | [Klassifikation](#klassifikation) |
-| [Systemteknisk anmärkning](#systemteknisk-anmarkning) | | [Ämne](https://libris.kb.se/katalogisering/help/workflow-general-sh) |
+| [Katalogiserande instans](#katalogiserande-instans) | [Identifikator och Indirekt identifierad av](#identifikator-och-indirekt-identifierad-av) | [Klassifikation](#klassifikation) |
+| [Systemteknisk anmärkning](#systemteknisk-anmarkning) | [Seriemedlemskap](#seriemedlemskap) | [Ämne](https://libris.kb.se/katalogisering/help/workflow-general-sh) |
 | [Entry map](#entry-map) | | [Målgrupp](#malgrupp) | 
 | [Systemnummer](#systemnummer) | | [Innehållstyp](#innehallstyp) | 
 | [marcuncompleted och marcfailedfixedfields](#marcuncompleted-och-marcfailedfixedfields) | | [Sammanfattning av innehåll](#sammanfattning-av-innehall) |
 | |  | [Anmärkning om akademisk avhandling](#anmarkning-om-akademisk-avhandling) |
-| | | |
-| | | |
-| | | |
-| | [Seriemedlemskap](#seriemedlemskap) | |
 
 
 ## Adminmetadata 
