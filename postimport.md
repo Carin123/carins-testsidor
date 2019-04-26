@@ -31,14 +31,14 @@ OBS! Innan den importerade posten sparas i Libris syns de länkade entiteterna m
 | [Beskrivningsnivå](#beskrivningsniva) | [Titel](#titel) | [Verkets titel](#verkets-titel) |
 | [Skapad av](#skapad-av) | [Upphovsuppgift](#upphovsuppgift) | [Medverkan och funktion](#medverkan-och-funktion) |
 | [Uppgraderad  eller importerad av](#uppgraderad-eller-importerad-av) | [Utgivning](#utgivning) | [Relationer till ingående verk och andra verk](#relationer-till-ingaende-verk-och-andra-verk) |
-| [Katalogiseringsregler](#katalogiseringsregler) |  | [Språk](#sprak) |
+| [Katalogiseringsregler](#katalogiseringsregler) | [Omfång, övriga fysiska detaljer, mått](#omfang) | [Språk](#sprak) |
 | [Katalogiseringsspråk](#katalogiseringssprak) | | [Genre](#genre) | 
 | [Katalogiserande instans](#katalogiserande-instans) | | [Klassifikation](#klassifikation) |
 | [Systemteknisk anmärkning](#systemteknisk-anmarkning) | | [Ämne](https://libris.kb.se/katalogisering/help/workflow-general-sh) |
 | [Entry map](#entry-map) | | [Målgrupp](#malgrupp) | 
 | [Systemnummer](#systemnummer) | | [Innehållstyp](#innehallstyp) | 
 | [marcuncompleted och marcfailedfixedfields](#marcuncompleted-och-marcfailedfixedfields) | [Identifikator](#identifikator) | [Sammanfattning av innehåll](#sammanfattning-av-innehall) |
-| | [Omfång, övriga fysiska detaljer, mått](#omfang) | [Anmärkning om akademisk avhandling](#anmarkning-om-akademisk-avhandling) |
+| |  | [Anmärkning om akademisk avhandling](#anmarkning-om-akademisk-avhandling) |
 | | [Egenskaper som länkar till andra databaser och instanser som inte finns i Libris](#andra-databaser) | |
 | | | |
 | | | |
