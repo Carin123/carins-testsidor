@@ -182,11 +182,11 @@ När man redigerar importerade poster med två Seriemedlemskap kan man, om man b
 
 OBS! Om ISSN finns i både 490 och 830 och om volymbeteckningen är angiven på olika sätt i 490 och 830, dubbleras dessa inom Seriemedlemskapet. Radera en av de dubblerade ISSN- och/eller voIymbeteckningarna.  
 
-## Instans av verk 
+## Instans av verk  
 Läs mer om egenskaperna under [Verk](https://libris.kb.se/katalogisering/help/workflow-work). 
 
 ### Sprak och litterar genre
-**Språk, litterär genre m.m.**
+**Språk, litterär genre m.m.**   
 Kontrollera att beskrivningen är korrekt. 
 
 OBS! Om egenskapen Språk (language = 008/35-37) saknas och läggs till via funktionen Berika från mall, länkas den automatiskt till svenska. Ändra vid behov. 
@@ -197,7 +197,7 @@ Läs mer under [Relationer till Agent](https://libris.kb.se/katalogisering/help/
 - Lägg till funktionskoder (#4) för medverkande agenter om de inte finns eller om endast funktionstermer (#e) finns. Funktionstermerna kan ligga kvar oförändrade. 
  
 ### Titel
-**Föredragen titel**
+**Föredragen titel**  
 Kontrollera att titelformen för föredragen titel stämmer med svensk praxis. 
 
 ### Svenska amnesord och genre
@@ -206,6 +206,7 @@ Lägg till Svenska ämnesord och Genre/formtermer enligt [Riktlinjer för indexe
 
 ### Klassifikation 
 Läs mer om Klassifikation i hjälptexten för [Verk](https://libris.kb.se/katalogisering/help/workflow-work). 
+
 #### DDK-klassifikation 
 Lägg till klassifikationskod från DDK eller kontrollera att den befintliga koden är korrekt. Efter kontroll ändra Parallell upplagebeteckning/Upplagespecifik upphovsuppgift till ”23/swe”. 
 
