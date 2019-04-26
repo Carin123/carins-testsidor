@@ -39,9 +39,9 @@ OBS! Innan den importerade posten sparas i Libris syns de länkade entiteterna m
 | [Systemnummer](#systemnummer) | | [Innehållstyp](#innehallstyp) | 
 | [marcuncompleted och marcfailedfixedfields](#marcuncompleted-och-marcfailedfixedfields) | [Identifikator](#identifikator) | [Sammanfattning av innehåll](#sammanfattning-av-innehall) |
 | | [Omfång, övriga fysiska detaljer, mått](#omfang) | [Anmärkning om akademisk avhandling](#anmarkning-om-akademisk-avhandling) |
-| | [Övriga fysiska detaljer](#ovriga-fysiska-detaljer) | |
-| | [Mått](#matt) | |
-| | [Bilagor](#bilagor) | |
+| | [Egenskaper som länkar till andra databaser och instanser som inte finns i Libris](#andra-databaser) | |
+| | | |
+| | | |
 | | [Seriemedlemskap](#seriemedlemskap) | |
 | | [Anmärkning](#anmarkning) | | 
 | | [Innehållsanmärkning](#innehallsanmarkning) | |
@@ -157,7 +157,8 @@ OBS! Om egenskapen Utgivning/Primär utgivning saknas och läggs till via funkti
 **Omfång, övriga fysiska detaljer, mått**  
 Kontrollera att beskrivningen är korrekt. 
 
-### Egenskaper som länkar till andra databaser och instanser som inte finns i Libris 
+### Andra databaser
+**Egenskaper som länkar till andra databaser och instanser som inte finns i Libris**
 Låt uppgifterna stå: 
 - Tillhörande media/Mediaobjekt (associatedMedia/Mediaobject = 856 4/0) 
 - Annan relaterad resurs/Elektronisk (marc:versionOfResource/Electronic = 856 4/1) 
