@@ -9,7 +9,10 @@ order: 16
 ---
 
 
-# Checklista vid redigering av importerade poster från Andra källor
+# Checklista vid redigering av importerade poster
+
+Denna checklista kan användas vid redigering av importerade poster från Andra källor.  
+
 Beroende på vilka katalogiseringsregler som har använts i den post man importerat bör olika anvisningar följas: 
 - För poster gjorda enligt AACR2, följ riktlinjerna för [Minimikrav på importerade bibliografiska poster](http://www.kb.se/katalogisering/Katalogisering/Minimikrav-pa-importerade-bibliografiska-poster/) i Katalogisatörens verktygslåda. 
 - För poster gjorda enligt RDA, följ riktlinjerna för [Importerade poster](http://www.kb.se/rdakatalogisering/Postimport/) i Anvisningar för katalogisering (RDA) 
@@ -25,12 +28,12 @@ OBS! Innan den importerade posten sparas i Libris syns de länkade entiteterna m
 | [Adminmetadata](#adminmetadata) | [Instans](#instans) | [Verk](#verk) | 
 | ----------- |  ----------- | ----------- | 
 |  [Generell hjälptext för Adminmetadata](https://libris.kb.se/katalogisering/help/workflow-adminmetadata) | [Generell hjälptext för Instans](https://libris.kb.se/katalogisering/help/workflow-instance) | [Generell hjälptext för Verk](https://libris.kb.se/katalogisering/help/workflow-work) |
-|[Beskrivningsnivå](#beskrivningsniva) | [Utgivningssätt](#utgivningssatt) | [Verkets titel](#verkets-titel) |
-|[Skapad av](#skapad-av) | [Medietyp](#medietyp) | [Medverkan och funktion](#medverkan-och-funktion) |
-| | [Bärartyp](#barartyp) | [Relationer till ingående verk och andra verk](#relationer-till-ingaende-verk-och-andra-verk) |
-| | [Titel](#titel) | [Språk](#sprak) |
-| | [Upphovsuppgift](#upphovsuppgift) | [Genre](#genre) | 
-| | [Upplageuppgift](#upplageuppgift) | [Klassifikation](#klassifikation) |
+| [Beskrivningsnivå](#beskrivningsniva) | [Utgivningssätt](#utgivningssatt) | [Verkets titel](#verkets-titel) |
+| [Skapad av](#skapad-av) | [Medietyp](#medietyp) | [Medverkan och funktion](#medverkan-och-funktion) |
+| [Uppgraderad  eller importerad av](#uppgraderad-eller-importerad-av) | [Bärartyp](#barartyp) | [Relationer till ingående verk och andra verk](#relationer-till-ingaende-verk-och-andra-verk) |
+| [Katalogiseringsregler](#katalogiseringsregler) | [Titel](#titel) | [Språk](#sprak) |
+| [Katalogiseringsspråk](#katalogiseringssprak) | [Upphovsuppgift](#upphovsuppgift) | [Genre](#genre) | 
+| [Katalogiserande instans](#katalogiserande-instans) | [Upplageuppgift](#upplageuppgift) | [Klassifikation](#klassifikation) |
 | | [Utgivning](#utgivning) | [Ämne](https://libris.kb.se/katalogisering/help/workflow-general-sh) |
 | | [Tillverkning](#tillverkning) | [Målgrupp](#malgrupp) | 
 | | [Copyrightår](#copyrightar) | [Innehållstyp](#innehallstyp) | 
