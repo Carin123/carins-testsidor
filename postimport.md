@@ -43,10 +43,7 @@ OBS! Innan den importerade posten sparas i Libris syns de länkade entiteterna m
 | | | |
 | | | |
 | | [Seriemedlemskap](#seriemedlemskap) | |
-| | [Anmärkning](#anmarkning) | | 
-| | [Innehållsanmärkning](#innehallsanmarkning) | |
-| | [Målgruppsanmärkning](#malgruppsanmarkning) | |
-| | [Annat bärarformat](#annat-bararformat) | |
+
 
 ## Adminmetadata 
 Läs mer om egenskaperna under [Adminmetadata](https://libris.kb.se/katalogisering/help/workflow-adminmetadata). 
