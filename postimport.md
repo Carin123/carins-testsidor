@@ -32,9 +32,9 @@ OBS! Innan den importerade posten sparas i Libris syns de länkade entiteterna m
 | [Skapad av](#skapad-av) | [Upphovsuppgift](#upphovsuppgift) | [Medverkan och funktion](#medverkan-och-funktion) |
 | [Uppgraderad  eller importerad av](#uppgraderad-eller-importerad-av) | [Utgivning](#utgivning) |  |
 | [Katalogiseringsregler](#katalogiseringsregler) | [Omfång, övriga fysiska detaljer, mått](#omfang) |  |
-| [Katalogiseringsspråk](#katalogiseringssprak) | [Egenskaper som länkar till andra databaser och instanser som inte finns i Libris](#andra-databaser) | [Språk och genre](#sprak-och-genre) | 
+| [Katalogiseringsspråk](#katalogiseringssprak) | [Egenskaper som länkar till andra databaser och instanser som inte finns i Libris](#andra-databaser) | [Språk och litterär genre](#sprak-och-litterar-genre) | 
 | [Katalogiserande instans](#katalogiserande-instans) | [Identifikator och Indirekt identifierad av](#identifikator-och-indirekt-identifierad-av) | [Klassifikation](#klassifikation) |
-| [Systemteknisk anmärkning](#systemteknisk-anmarkning) | [Seriemedlemskap](#seriemedlemskap) | [Ämne](https://libris.kb.se/katalogisering/help/workflow-general-sh) |
+| [Systemteknisk anmärkning](#systemteknisk-anmarkning) | [Seriemedlemskap](#seriemedlemskap) | [Svenska amnesord och genre](#svenska-amnesord-och-genre)|
 | [Entry map](#entry-map) | | | 
 | [Systemnummer](#systemnummer) | | | 
 | [marcuncompleted och marcfailedfixedfields](#marcuncompleted-och-marcfailedfixedfields) | | |
@@ -51,6 +51,7 @@ Om egenskapen finns men saknar värde:
 Om egenskapen saknas: 
 - Klicka på plustecknet Lägg till egenskaper under: Post 
 - Välj typ Beskrivningsnivå och välj värde från lista  
+
 ### Skapad av 
 Skapad av/Organisation/Namn (descriptionCreator/Organization/name = 040 #a) 
  
@@ -184,11 +185,12 @@ OBS! Om ISSN finns i både 490 och 830 och om volymbeteckningen är angiven på 
 ## Instans av verk 
 Läs mer om egenskaperna under [Verk](https://libris.kb.se/katalogisering/help/workflow-work). 
 
-### Sprak och genre
+### Sprak och litterar genre
 **Språk, litterär genre m.m.**
 Kontrollera att beskrivningen är korrekt. 
 
 OBS! Om egenskapen Språk (language = 008/35-37) saknas och läggs till via funktionen Berika från mall, länkas den automatiskt till svenska. Ändra vid behov. 
+
 ### Medverkan och funktion 
 Läs mer under [Relationer till Agent](https://libris.kb.se/katalogisering/help/workflow-agent-org-instance). 
 - Validera alltid namnformer och, vid behov, skapa auktoriteter enligt [Riktlinjer för löpande auktoritetsarbete i Libris](http://www.kb.se/dokument/Riktlinjer%20f%C3%B6r%20det%20l%C3%B6pande%20auktoritetsarbetet%20i%20Libris.pdf)  
@@ -198,7 +200,8 @@ Läs mer under [Relationer till Agent](https://libris.kb.se/katalogisering/help/
 **Föredragen titel**
 Kontrollera att titelformen för föredragen titel stämmer med svensk praxis. 
 
-### Svenska ämnesord och Genre/formtermer 
+### Svenska amnesord och genre
+**Svenska ämnesord och Genre/formtermer** 
 Lägg till Svenska ämnesord och Genre/formtermer enligt [Riktlinjer för indexering med Svenska ämnesord](http://www.kb.se/dokument/Verktygsladan/Svenska%20%C3%A4mnesord/Riktlinjer/Riktlinjer%20SAO.pdf]) 
 
 ### Klassifikation 
