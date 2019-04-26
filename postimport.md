@@ -201,8 +201,9 @@ Läs mer under [Relationer till Agent](https://libris.kb.se/katalogisering/help/
 Kontrollera att titelformen för föredragen titel stämmer med svensk praxis. 
 
 ### Svenska amnesord och genre
-**Svenska ämnesord och Genre/formtermer** 
-Lägg till Svenska ämnesord och Genre/formtermer enligt [Riktlinjer för indexering med Svenska ämnesord](http://www.kb.se/dokument/Verktygsladan/Svenska%20%C3%A4mnesord/Riktlinjer/Riktlinjer%20SAO.pdf]) 
+**Svenska ämnesord och Genre/formtermer**  
+Lägg till Svenska ämnesord och Genre/formtermer enligt [Riktlinjer för indexering med Svenska ämnesord]
+(http://www.kb.se/dokument/Verktygsladan/Svenska%20%C3%A4mnesord/Riktlinjer/Riktlinjer%20SAO.pdf]) 
 
 ### Klassifikation 
 Läs mer om Klassifikation i hjälptexten för [Verk](https://libris.kb.se/katalogisering/help/workflow-work). 
