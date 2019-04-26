@@ -28,13 +28,13 @@ OBS! Innan den importerade posten sparas i Libris syns de länkade entiteterna m
 | [Adminmetadata](#adminmetadata) | [Instans](#instans) | [Verk](#verk) | 
 | ----------- |  ----------- | ----------- | 
 |  [Generell hjälptext för Adminmetadata](https://libris.kb.se/katalogisering/help/workflow-adminmetadata) | [Generell hjälptext för Instans](https://libris.kb.se/katalogisering/help/workflow-instance) | [Generell hjälptext för Verk](https://libris.kb.se/katalogisering/help/workflow-work) |
-| [Beskrivningsnivå](#beskrivningsniva) | | [Verkets titel](#verkets-titel) |
-| [Skapad av](#skapad-av) | | [Medverkan och funktion](#medverkan-och-funktion) |
-| [Uppgraderad  eller importerad av](#uppgraderad-eller-importerad-av) | | [Relationer till ingående verk och andra verk](#relationer-till-ingaende-verk-och-andra-verk) |
-| [Katalogiseringsregler](#katalogiseringsregler) | [Titel](#titel) | [Språk](#sprak) |
-| [Katalogiseringsspråk](#katalogiseringssprak) | [Upphovsuppgift](#upphovsuppgift) | [Genre](#genre) | 
+| [Beskrivningsnivå](#beskrivningsniva) | [Titel](#titel) | [Verkets titel](#verkets-titel) |
+| [Skapad av](#skapad-av) | [Upphovsuppgift](#upphovsuppgift) | [Medverkan och funktion](#medverkan-och-funktion) |
+| [Uppgraderad  eller importerad av](#uppgraderad-eller-importerad-av) | [Utgivning](#utgivning) | [Relationer till ingående verk och andra verk](#relationer-till-ingaende-verk-och-andra-verk) |
+| [Katalogiseringsregler](#katalogiseringsregler) |  | [Språk](#sprak) |
+| [Katalogiseringsspråk](#katalogiseringssprak) | | [Genre](#genre) | 
 | [Katalogiserande instans](#katalogiserande-instans) | | [Klassifikation](#klassifikation) |
-| [Systemteknisk anmärkning](#systemteknisk-anmarkning) | [Utgivning](#utgivning) | [Ämne](https://libris.kb.se/katalogisering/help/workflow-general-sh) |
+| [Systemteknisk anmärkning](#systemteknisk-anmarkning) | | [Ämne](https://libris.kb.se/katalogisering/help/workflow-general-sh) |
 | [Entry map](#entry-map) | | [Målgrupp](#malgrupp) | 
 | [Systemnummer](#systemnummer) | | [Innehållstyp](#innehallstyp) | 
 | [marcuncompleted och marcfailedfixedfields](#marcuncompleted-och-marcfailedfixedfields) | [Identifikator](#identifikator) | [Sammanfattning av innehåll](#sammanfattning-av-innehall) |
