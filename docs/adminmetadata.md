@@ -22,7 +22,7 @@ Se även [instruktionsfilmer](https://www.youtube.com/playlist?list=PLZVkEICvA5-
 | [Kontrollnummer](#kontrollnummer) | [Translitterering](#translitterering) |
 | [Skapad av](#skapad-av) | [Katalogiseringsspråk](#katalogiseringssprak) |
 | [Uppgraderad  eller importerad av](#uppgraderad-eller-importerad-av) | [Katalogiseringsregler](#katalogiseringsregler) |
-| [Entry map](#entry-map) | [Beskrivningsnivå](#beskrivningsniva)|
+| [Entry map](#entry-map) | [Beskrivningsnivå](#beskrivningsniva) |
 | [Katalogiserande instans](#katalogiserande-instans) | [Bibliografikod](#bibliografikod) |
 | [Poststatus](#poststatus) |  [Systemteknisk anmärkning](#systemteknisk-anmarkning) |
 | [Systemnummer](#systemnummer) |  |
