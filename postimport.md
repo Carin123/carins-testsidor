@@ -151,13 +151,13 @@ OBS! Om egenskapen Utgivning/Primär utgivning saknas och läggs till via funkti
 Kontrollera att beskrivningen är korrekt. 
 
 ### Andra databaser
-**Egenskaper som länkar till andra databaser och instanser som inte finns i Libris**
-Låt uppgifterna stå: 
+**Egenskaper som länkar till andra databaser och instanser som inte finns i Libris**  
+Låt uppgifterna stå:  
 - Tillhörande media/Mediaobjekt (associatedMedia/Mediaobject = 856 4/0) 
 - Annan relaterad resurs/Elektronisk (marc:versionOfResource/Electronic = 856 4/1) 
-- Relaterad beskrivning eller innehåll/Dokument (isPrimaryTopicOf/Document = 856 4/2) 
+- Relaterad beskrivning eller innehåll/Dokument (isPrimaryTopicOf/Document = 856 4/2)  
 Radera uppgifterna: 
-- Beskriven av/Post/Kontrollnummer (= #w). Innehåller id:n för annan bibliografisk post i den databas man importerat från. Kan förekomma t.ex. i Annat bärarformat (otherPhysicalFormat = 776), i Seriemedlemskap (seriesMembership = 830). OBS! Kan även förekomma inom egenskaper i Instans av verk 
+- Beskriven av/Post/Kontrollnummer (= #w).Innehåller id:n för annan bibliografisk post i den databas man importerat från. Kan förekomma t.ex. i Annat bärarformat (otherPhysicalFormat = 776), i Seriemedlemskap (seriesMembership = 830). OBS! Kan även förekomma inom egenskaper i Instans av verk 
 
 ### Identifikator och Indirekt identifierad av 
 Identifikator/ISBN/Värde (identifiedBy/Isbn/value = 020 #a) och Indirekt identifierad av/ISBN/Värde (indirectlyIdentifiedBy/Isbn/value = 020 #z) 
@@ -203,7 +203,7 @@ Kontrollera att titelformen för föredragen titel stämmer med svensk praxis.
 ### Svenska amnesord och genre
 **Svenska ämnesord och Genre/formtermer**  
 Lägg till Svenska ämnesord och Genre/formtermer enligt [Riktlinjer för indexering med Svenska ämnesord]
-(http://www.kb.se/dokument/Verktygsladan/Svenska%20%C3%A4mnesord/Riktlinjer/Riktlinjer%20SAO%202019-03-15.pdf]) 
+(http://www.kb.se/dokument/Verktygsladan/Svenska%20%C3%A4mnesord/Riktlinjer/Riktlinjer%20SAO%202019-03-15.pdf) 
 
 ### Klassifikation 
 Läs mer om Klassifikation i hjälptexten för [Verk](https://libris.kb.se/katalogisering/help/workflow-work). 
