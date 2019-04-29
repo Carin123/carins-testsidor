@@ -142,7 +142,7 @@ I andra fall finns endast entiteten Utgivning med. Vid redigering:
 - Välj typ Primär utgivning 
 - Fyll i uppgifterna i Primär utgivning och ta sedan bort Utgivning  
 
-Vid postimport förekommer ibland både År och Copyrightår inom Primär utgivning (008/06: t, 008/07-10: År och 008/11-14: Copyrightår). Låt uppgiften ligga kvar oförändrad. Ej att förväxla med egenskapen Copyright/Copyright/Datum (264 -/4 #c). 
+Vid postimport förekommer ibland både År och Copyrightår inom Primär utgivning (= 008/06: t, 008/07-10: År och 008/11-14: Copyrightår). Låt uppgiften ligga kvar oförändrad. Ej att förväxla med egenskapen Copyright/Copyright/Datum (= 264 -/4 #c). 
 
 OBS! Om egenskapen Utgivning/Primär utgivning saknas och läggs till via funktionen Berika från mall, länkas utgivningslandet automatiskt till Sverige. Ändra vid behov. 
 
