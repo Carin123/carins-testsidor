@@ -135,9 +135,9 @@ Vid postimport saknas ibland upphovsuppgiften. Om egenskapen saknas:
 ### Utgivning 
 Utgivning (publication = 008/07-10, 008/15-17, 260, 264 -/1) 
 
-Vid postimport medföljer ibland två avsnitt: Primär utgivning med År och Land, och Utgivning med Plats, Agent och Datum (beror på att årtal i 008 avviker från årtal i 264). Vid redigering: 
-- Flytta, om det bedöms nödvändigt, uppgifterna om Plats, Agent och Datum till Primär utgivning och ta bort Utgivning 
-I andra fall finns endast entiteten Utgivning med (beror på att typ av utgivningsdatum i 008 saknas). Vid redigering: 
+Vid postimport medföljer ibland två avsnitt: Primär utgivning med År och Land, och Utgivning med Plats, Agent och Datum. Vid redigering: 
+- Flytta, om det bedöms nödvändigt, uppgifterna om Plats, Agent och Datum till Primär utgivning och ta bort Utgivning.  
+I andra fall finns endast entiteten Utgivning med. Vid redigering: 
 - Klicka på plustecknet Lägg till entitet vid Utgivning 
 - Välj typ Primär utgivning 
 - Fyll i uppgifterna i Primär utgivning och ta sedan bort Utgivning  
