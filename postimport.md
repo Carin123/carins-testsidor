@@ -31,7 +31,7 @@ OBS! Innan den importerade posten sparas i Libris syns de länkade entiteterna m
 | [Beskrivningsnivå](#beskrivningsniva) | [Titel](#titel) | [Språk och litterär genre](#sprak-och-litterar-genre) |
 | [Skapad av](#skapad-av) | [Upphovsuppgift](#upphovsuppgift) | [Medverkan och funktion](#medverkan-och-funktion) |
 | [Uppgraderad  eller importerad av](#uppgraderad-eller-importerad-av) | [Utgivning](#utgivning) | [Föredragen titel](#foredragen-titel) |
-| [Katalogiseringsregler](#katalogiseringsregler) | [Forväntad utgivningstid](#Forvantad utgivningstid) |  [Svenska amnesord och genre](#svenska-amnesord-och-genre) |
+| [Katalogiseringsregler](#katalogiseringsregler) | [Forväntad utgivningstid](#forvantad-utgivningstid) |  [Svenska amnesord och genre](#svenska-amnesord-och-genre) |
 | [Katalogiseringsspråk](#katalogiseringssprak) | [Omfång, övriga fysiska detaljer, mått](#omfang) | [Klassifikation](#klassifikation) | 
 | [Katalogiserande instans](#katalogiserande-instans) | [Egenskaper som länkar till andra databaser och instanser som inte finns i Libris](#andra-databaser) |  |
 | [Systemteknisk anmärkning](#systemteknisk-anmarkning) | [Identifikator och Indirekt identifierad av](#identifikator-och-indirekt-identifierad-av) | |
