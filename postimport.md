@@ -1,7 +1,7 @@
 ---
 section: Redigering
 title: Checklista postimport
-date: 2019-04-29
+date: 2019-04-30
 tags:
 - redigering
 - postimport
