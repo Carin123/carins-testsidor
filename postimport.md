@@ -31,11 +31,11 @@ OBS! Innan den importerade posten sparas i Libris syns de länkade entiteterna m
 | [Beskrivningsnivå](#beskrivningsniva) | [Titel](#titel) | [Språk och litterär genre](#sprak-och-litterar-genre) |
 | [Skapad av](#skapad-av) | [Upphovsuppgift](#upphovsuppgift) | [Medverkan och funktion](#medverkan-och-funktion) |
 | [Uppgraderad  eller importerad av](#uppgraderad-eller-importerad-av) | [Utgivning](#utgivning) | [Föredragen titel](#foredragen-titel) |
-| [Katalogiseringsregler](#katalogiseringsregler) | [Omfång, övriga fysiska detaljer, mått](#omfang) |  [Svenska amnesord och genre](#svenska-amnesord-och-genre) |
-| [Katalogiseringsspråk](#katalogiseringssprak) | [Egenskaper som länkar till andra databaser och instanser som inte finns i Libris](#andra-databaser) | [Klassifikation](#klassifikation)  | 
-| [Katalogiserande instans](#katalogiserande-instans) | [Identifikator och Indirekt identifierad av](#identifikator-och-indirekt-identifierad-av) |  |
-| [Systemteknisk anmärkning](#systemteknisk-anmarkning) | [Seriemedlemskap](#seriemedlemskap) | |
-| [Entry map](#entry-map) | | | 
+| [Katalogiseringsregler](#katalogiseringsregler) | [Forväntad utgivningstid](#Forvantad utgivningstid) |  [Svenska amnesord och genre](#svenska-amnesord-och-genre) |
+| [Katalogiseringsspråk](#katalogiseringssprak) | [Omfång, övriga fysiska detaljer, mått](#omfang) | [Klassifikation](#klassifikation) | 
+| [Katalogiserande instans](#katalogiserande-instans) | [Egenskaper som länkar till andra databaser och instanser som inte finns i Libris](#andra-databaser) |  |
+| [Systemteknisk anmärkning](#systemteknisk-anmarkning) | [Identifikator och Indirekt identifierad av](#identifikator-och-indirekt-identifierad-av) | |
+| [Entry map](#entry-map) | [Seriemedlemskap](#seriemedlemskap) | | 
 | [Systemnummer](#systemnummer) | | | 
 | [marcuncompleted och marcfailedfixedfields](#marcuncompleted-och-marcfailedfixedfields) | | |
 
@@ -147,6 +147,11 @@ I andra fall finns endast avsnittet Utgivning med. Vid redigering:
 Vid postimport förekommer ibland både År och Copyrightår inom Primär utgivning (= 008/06: t, 008/07-10: År och 008/11-14: Copyrightår). Låt uppgiften ligga kvar oförändrad. Ej att förväxla med egenskapen Copyright/Copyright/Datum (= 264 -/4 #c). 
 
 OBS! Om egenskapen Utgivning/Primär utgivning saknas och läggs till via funktionen Berika från mall, länkas utgivningslandet automatiskt till Sverige. Ändra vid behov. 
+
+### Forvantad utgivningstid  
+Förväntad utgivningstid (projectedProvisionDate = 263)  
+
+Kan förekomma i preliminära poster. Radera egenskapen.  
 
 ### Omfang
 **Omfång, övriga fysiska detaljer, mått**  
