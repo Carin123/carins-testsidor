@@ -10,4 +10,4 @@
    * Öppna redigeringsläge och välj "Berika från post" --> "från fil" i verktygsmenyn.
    * Leta upp och välj rätt fil (den sparade post A) i utforskaren. Post B berikas med metadata från A.
  
-   Berika från fil kan användas även för bestånd enligt ovanstående instruktion. För att berika en beståndspost, tag dessutom först bort Har komponent. Öppna sedan redigeringsläge och välj "Berika från post" --> "från fil" i verktygsmenyn.  
+   Berika från fil kan användas även för bestånd enligt ovanstående instruktion. För att berika en beståndspost, tag dessutom först bort Har komponent i posten som ska berikas. Öppna sedan redigeringsläge och välj "Berika från post" --> "från fil" i verktygsmenyn.  
