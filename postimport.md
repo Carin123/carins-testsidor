@@ -1,7 +1,7 @@
 ---
 section: Redigering
 title: Checklista postimport
-date: 2019-05-03
+date: 2019-05-17
 tags:
 - redigering
 - postimport
@@ -228,3 +228,10 @@ För att lägga till klassifikationskod:
 - Klicka på Lägg till entitet (plustecknet vid Klassifikation) 
 - Välj Skapa lokal entitet och välj Klassifikation 
 - Fyll i uppgifterna 
+
+#### Innehallstyp
+Innehållstyp/Innehållstyp (contentType/ContentType = 336 #b)  
+
+* Kontrollera att beskrivningen är korrekt och länka vid behov:  
+   * Om beskrivningen innehåller koder och/eller termer på engelska behöver entiteterna inte länkas. Länk skapas automatiskt då instansen sparas.  
+   * Om beskrivningen innehåller termer på annat språk än engelska måste entiteterna länkas.
