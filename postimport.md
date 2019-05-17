@@ -33,7 +33,7 @@ OBS! Innan den importerade posten sparas i Libris syns de länkade entiteterna m
 | [Uppgraderad  eller importerad av](#uppgraderad-eller-importerad-av) | [Utgivning](#utgivning) | [Föredragen titel](#foredragen-titel) |
 | [Katalogiseringsregler](#katalogiseringsregler) | [Forväntad utgivningstid](#forvantad-utgivningstid) |  [Svenska amnesord och genre](#svenska-amnesord-och-genre) |
 | [Katalogiseringsspråk](#katalogiseringssprak) | [Omfång, övriga fysiska detaljer, mått](#omfang) | [Klassifikation](#klassifikation) | 
-| [Katalogiserande instans](#katalogiserande-instans) | [Egenskaper som länkar till andra databaser och instanser som inte finns i Libris](#andra-databaser) | [Innehallstyp](#innehallstyp) |
+| [Katalogiserande instans](#katalogiserande-instans) | [Egenskaper som länkar till andra databaser och instanser som inte finns i Libris](#andra-databaser) | [Innehållstyp](#innehallstyp) |
 | [Systemteknisk anmärkning](#systemteknisk-anmarkning) | [Identifikator och Indirekt identifierad av](#identifikator-och-indirekt-identifierad-av) | |
 | [Entry map](#entry-map) | [Seriemedlemskap](#seriemedlemskap) | | 
 | [Systemnummer](#systemnummer) | | | 
