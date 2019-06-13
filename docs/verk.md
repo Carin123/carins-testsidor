@@ -61,7 +61,7 @@ Ibland finns behov av att ändra verkstyp, t ex från Text till Noterad musik. D
 ELLER  
 om du vill berika från mall för att få fram de vanligaste egenskaperna (Klicka på Verktyg och välj Berika från mall och välj typ, till exempel Noterad musik).  
 
-(OBS! Om du väljer att berika posten med metadata från den gamla verkstypen behöver du sedan också ändra Innehållstyp.)  
+**Observera:** Om du väljer att berika posten med metadata från den gamla verkstypen behöver du sedan också ändra Innehållstyp.  
 
 #### Verkets titel
 Ange den föredragna titeln för verket här, vid behov. Följ [Anvisningar för katalogisering - RDA](http://www.kb.se/rdakatalogisering/Anvisningar/Allmanna-anvisningar/Sokingangar-for-verk-och-uttryck "Anvisningar för katalogisering - RDA").  
