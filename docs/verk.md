@@ -28,12 +28,12 @@ I de flesta fall ska informationen delas upp i olika egenskaper (jfr fält) och 
 
 | [Verk](#verk) |  |  | 
 | ----------- |  ----------- |  ----------- |
+| [Byta verkstyp](#byta-verkstyp) |  | [Klassifikation](#klassifikation) | 
 | [Verkets titel](#verkets-titel) |  | [Ämne](https://libris.kb.se/katalogisering/help/workflow-general-sh) | 
 | [Relationer till ingående verk och andra verk](#relationer-till-ingaende-verk-och-andra-verk) |  | [Målgrupp](#malgrupp) | 
 | [Medverkan och funktion](#medverkan-och-funktion) |  | [Innehållstyp](#innehallstyp) | 
 | [Språk](#sprak) |  | [Sammanfattning av innehåll](#sammanfattning-av-innehall) | 
 | [Genre/form](#genre-form) |  | [Anmärkning om akademisk avhandling](#anmarkning-om-akademisk-avhandling) | 
-| [Klassifikation](#klassifikation) |  |  | 
 
 ### Verk   
    
