@@ -51,7 +51,7 @@ Sök fram egenskapen och välj den genom att klicka på plustecknet vid egenskap
 
 Ibland finns behov av att ändra verkstyp, t ex från Text till Noterad musik. Det kan gälla förhandsposter från Bokinfo eller andra poster där den katalogiserande instansen har valt en annan verkstyp.  
 
-**Observera:** Ta fram posten i ytterligare ett webbläsarfönster innan du raderar verkstypen, om du vill kunna kopiera uppgifter från den gamla posten till den nya, eller jämföra posten före och efter. Och spara inte posten förrän du är helt klar med byte av verkstyp och postberikning.  
+**Observera:** Ta fram posten i ytterligare ett webbläsarfönster innan du raderar verkstypen, om du vill kunna kopiera uppgifter från den gamla posten till den nya, eller jämföra posten före och efter. Spara inte posten förrän du är helt klar med byte av verkstyp och postberikning.  
 
 * Steg 1: Kopiera postens ID som finns längst uppe till höger i postens sammanfattning (förutsatt att du senare vill berika posten med metadata från den gamla posten – annars hoppar du över detta steg).  
 
