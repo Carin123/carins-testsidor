@@ -2,7 +2,7 @@
 section: Generell beskrivning
 title: Instans
 order: 22
-date: 2019-06-13
+date: 2019-06-28
 tags:
 - under arbete
 - instans
@@ -332,6 +332,7 @@ Land, År och eventuellt Datum  ska ligga inom Primär utgivning.
 
 För ogiltiga ISBN, använd Indirekt identifierad av, direkt under Instans. Använd inte Ogiltigt värde under Identifikator/ISBN (identifiedBy/marc:hiddenValue).  
 För ISSN, se Tryckt seriell resurs. För andra identifikatorer, se respektive hjälptext.  
+Felaktiga ISSN i en monografi anges i en anmärkning. Se [Anvisningar för katalogisering (RDA)](http://www.kb.se/rdakatalogisering/Anvisningar/Arbetsfloden/Tryckta-monografier/#series_issn), Series ISSN.
 
 #### Indirekt identifierad av  
 Ange ogiltiga ISBN här och inte under Identifikator/ISBN/Ogiltigt värde. För ISSN, se Tryckt seriell resurs. För andra identifikatorer, se respektive hjälptext.  
