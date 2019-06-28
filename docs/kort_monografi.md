@@ -188,7 +188,7 @@ Felaktigt eller ogiltigt ISBN ska anges här. Använd inte Ogiltigt värde under
 
 ##### ISSN  
 * Seriemedlemskap/Ingår i serie/Instans/Identifikator/ISSN/Värde  
-(seriesMembership/inSeries/Instance/identifiedBy/ISSN/Value = 490 #x, 830 #x) 
+(seriesMembership/inSeries/Instance/identifiedBy/ISSN/Value = 490 #x, 830 #x)  
 Felaktiga ISSN i en instans återges under [Anmärkning](#anmarkning). Se [Anvisningar för katalogisering (RDA), Series ISSN](http://www.kb.se/rdakatalogisering/Anvisningar/Arbetsfloden/Tryckta-monografier/#series_issn).  
 
 ##### Serieuppgift  
