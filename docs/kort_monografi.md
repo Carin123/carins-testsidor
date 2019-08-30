@@ -221,10 +221,9 @@ Följ dessa instruktioner:
 
 #### Innehallsforteckning
 * Har innehållsförteckning/Innehållsförteckning/Benämning (tableofContents = 505 8/_)  
-Skriv in uppgiften under Benämning.  
+ 
 * Har innehållsförteckning/Innehållsförteckning/Har del/Utökad innehållsanmärkning/Benämning/Upphovsuppgift  
 (tableofContents = 505 8/0 #t, #r)  
-Skriv in uppgifterna på respektive plats.  
 
 #### Malgruppsanmarkning  
 * Målgrupp/Målgrupp/Benämning (intendedAudience/IntendedAudience/label = 521 #a)  
@@ -459,7 +458,7 @@ I äldre poster har ytterligare innehållstyp lagts i Har del/Verk. Dessa behöv
 * Sammanfattning av innehåll/Sammanfattning/Benämning (summary/Summary/label = 520 #a)
 
 ##### Sammanfattningsspråk  
-* Sammanfattning av innehåll/Sammanfattning/Språk
+* Sammanfattning av innehåll/Sammanfattning/Språk (summary/Summary/language = 041 #b)    
 
 #### Anmarkning om akademisk avhandling    
 * Anmärkning/Anmärkning om akademisk avhandling/Benämning  
