@@ -2,7 +2,7 @@
 section: Materialtyper
 title: Tryckt monografi
 order: 54
-date: 2019-08-30
+date: 2019-09-02
 tags:
 - under arbete
 - monografi
@@ -177,7 +177,7 @@ Felaktigt eller ogiltigt ISBN ska anges här. Använd inte Ogiltigt värde under
 * Mått/Mått/Benämning (hasDimensions/Dimensions/label = 300 #c)
 
 #### Bilagor
-* Tillsammans med/Instans/Benämning (accompaniedBy/Instance/label = 300 #e)
+* Medföljs av/Instans/Benämning (accompaniedBy/Instance/label = 300 #e)
 
 #### Seriemedlemskap
 * Seriemedlemskap/Seriemedlemskap/Ingår i serie  
