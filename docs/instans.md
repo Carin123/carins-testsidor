@@ -30,7 +30,7 @@ Se även [instruktionsfilmer](https://www.youtube.com/playlist?list=PLZVkEICvA5-
 | [Medietyp](#medietyp) | | [Omfång](#omfang) | 
 | [Bärartyp](#barartyp) | | [Övriga fysiska detaljer](#ovriga-fysiska-detaljer) |
 | [Titel](#titel) | | [Mått](#matt) |
-| [Upphovsuppgift](#upphovsuppgift) | | [Medföljs av](#medfoljs-av) | 
+| [Upphovsuppgift](#upphovsuppgift) | | [Medföljande material](#medfoljande-material) | 
 | [Upplageuppgift](#upplageuppgift) | | [Seriemedlemskap](#seriemedlemskap)|
 | [Produktion](#produktion) | | [Anmärkning](#anmarkning) |
 | [Huvudsakligt tillgängliggörande](#huvudsakligt-tillgangliggorande) | | [Innehållsförteckning](#innehallsforteckning) |
