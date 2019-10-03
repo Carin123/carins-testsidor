@@ -331,6 +331,7 @@ Klicka sedan på plustecknet vid DDK-klassifikation (sekundär) (Lägg till ddk-
 ```Exempel: 1402-1250```  
 
 Exempel:  
+
 ![Exempel relation](fortsatter.png)  
 
 * Fortsätter/Verk/Har instans/Instans/Beskriven av/Post/Kontrollnummer (780 0/0 #w)  
