@@ -297,7 +297,7 @@ Land, År och eventuellt Datum  ska ligga inom Primär utgivning.
 ![Faksimil](faksimil.png)   
 
 * Flera år (osäkra år)  
-  Se Huvudsakligt tillgänggliggörande/Kompletterande datum   
+  Se [Huvudsakligt tillgänggliggörande/Kompletterande datum](#huvudsakligt-tillgangliggorande) .   
   
  Läs mer om [År och Datum](https://kundo.se/org/librisxl/d/falt-for-utgivningsar/)  
    
