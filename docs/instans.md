@@ -296,7 +296,7 @@ Land, År och eventuellt Datum  ska ligga inom Primär utgivning.
   Använd Omtryck/återutgivning och originalutgivning i stället för Primär utgivning. LPlats, Land, Agent, Datum samt MARC:ORIGINALYEAR och MARC:REPRINTYEAR.  
 ![Faksimil](faksimil.png)   
 
-* Flera år (osäkra år)
+* Flera år (osäkra år)  
   Se Huvudsakligt tillgänggliggörande/Kompletterande datum   
   
  Läs mer om [År och Datum](https://kundo.se/org/librisxl/d/falt-for-utgivningsar/)  
