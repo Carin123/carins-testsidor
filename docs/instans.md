@@ -2,7 +2,7 @@
 section: Generell beskrivning
 title: Instans
 order: 22
-date: 2019-09-03
+date: 2019-10-08
 tags:
 - under arbete
 - instans
@@ -291,7 +291,13 @@ Land, År och eventuellt Datum  ska ligga inom Primär utgivning.
   * ```Slutår: 1756```
   * ```Datum: [1753?]-1756```
   * ```Typ av utgivningsdatum: Flera årtal (monografisk resurs)``` 
+  
+* Flera år (faksimil)  
+  Använd Omtryck/återutgivning och originalutgivning i stället för Primär utgivning. LPlats, Land, Agent, Datum samt MARC:ORIGINALYEAR och MARC:REPRINTYEAR.  
+![Faksimil](faksimil.png)   
 
+* Flera år (osäkra år)
+  Se Huvudsakligt tillgänggliggörande/Kompletterande datum   
  Läs mer om [År och Datum](https://kundo.se/org/librisxl/d/falt-for-utgivningsar/)  
    
 #### Tillverkning 
