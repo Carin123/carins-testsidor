@@ -294,6 +294,7 @@ Land, År och eventuellt Datum  ska ligga inom Primär utgivning.
   
 * Flera år (faksimil)  
   Använd Omtryck/återutgivning och originalutgivning i stället för Primär utgivning. LPlats, Land, Agent, Datum samt MARC:ORIGINALYEAR och MARC:REPRINTYEAR.  
+  
 ![Faksimil](faksimil.png)   
 
 * Flera år (osäkra år)  
