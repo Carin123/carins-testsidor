@@ -292,7 +292,7 @@ Land, År och eventuellt Datum  ska ligga inom Primär utgivning.
   * ```Typ av utgivningsdatum: Flera årtal (monografisk resurs)``` 
   
 * Flera år (faksimil)  
-  Använd Omtryck/återutgivning och originalutgivning i stället för Primär utgivning. LPlats, Land, Agent, Datum samt MARC:ORIGINALYEAR och MARC:REPRINTYEAR.  
+  Använd Omtryck/återutgivning och originalutgivning i stället för Primär utgivning. Lägg till Plats, Land, Agent, Datum samt MARC:ORIGINALYEAR och MARC:REPRINTYEAR.  
   
 ![Faksimil](faksimil.png)   
 
