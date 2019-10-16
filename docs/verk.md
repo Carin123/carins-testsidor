@@ -47,22 +47,7 @@ Sök fram egenskapen och välj den genom att klicka på plustecknet vid egenskap
 
 ![Instans av verk egenskap](instansavverkegenskap.png)  
 
-#### Byta verkstyp
-
-Ibland finns behov av att ändra verkstyp, t ex från Text till Noterad musik. Det kan gälla förhandsposter från Bokinfo eller andra poster där den katalogiserande instansen har valt en annan verkstyp.  
-
-**Observera:** Ta fram posten i ett nytt fönster i webbläsaren, innan du raderar verkstypen, om du vill kunna kopiera uppgifter från den gamla posten till den nya, eller jämföra posten före och efter. Spara inte posten förrän du är helt klar med byte av verkstyp och postberikning.  
-
-* Steg 1: Kopiera postens ID som finns längst uppe till höger i postens sammanfattning (förutsatt att du senare vill berika posten med metadata från den gamla posten – annars hoppar du över detta steg).  
-
-* Steg 2: För att ändra verkstyp måste du radera den befintliga verkstypen och lägga till en ny. Börja med att ta bort verkstypen, till exempel Text, genom att klicka på papperskorgen till höger om Text (eller annan verkstyp som du vill ändra). Lägg till en ny verkstyp genom att klicka på plustecknet till vänster om Instans av verk. Välj Skapa lokal entitet och välj verkstyp, till exempel Noterad musik.  
-
-* Steg 3: Välj sedan om du vill berika posten med metadata som fanns i den gamla posten (klicka på Verktyg och välj Berika från post - Från ID och klistra in det ID som du kopierade i Steg 1)  
-ELLER  
-om du vill berika från mall för att få fram de vanligaste egenskaperna (Klicka på Verktyg och välj Berika från mall och välj typ, till exempel Noterad musik).  
-
-**Observera:** Om du väljer att berika posten med metadata från den gamla verkstypen behöver du sedan också ändra Innehållstyp.  
-
+ 
 #### Verkets titel
 Ange den föredragna titeln för verket här, vid behov. Följ [Anvisningar för katalogisering - RDA](http://www.kb.se/rdakatalogisering/Anvisningar/Allmanna-anvisningar/Sokingangar-for-verk-och-uttryck "Anvisningar för katalogisering - RDA").  
 Ange föredragen titel för översättningar, för verk som har givits ut under olika titlar på samma språk eller när samma titel har använts för olika verk.   
