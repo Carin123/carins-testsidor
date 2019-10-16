@@ -14,6 +14,8 @@
 | [Copyrightår](#copyrightar) | | [Elektronisk adress](#annan-relaterad-resurs) |
 | [Identifikator](#identifikator) | | |
 
+[Byta verks- och instanstyp](#byta-verks--och-instanstyp)
+
 
 | [Instans](#instans) | | |
 | ------ | ------ | ------ |
@@ -44,6 +46,13 @@ TESTAR NÅGRA OLIKA SAKER PÅ DENNA SIDA
 ||bla|  
 ||bla|  
 ||bla|
+
+
+
+
+## Byta verks- och instanstyp
+testar testar testar
+
 
 
 
