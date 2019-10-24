@@ -10,9 +10,8 @@ tags:
 
 ## Verk
 
-### Innehåll  
 
-|  |  |  | 
+| Innehåll  |  |  | 
 | ----------- |  ----------- |  ----------- |
 | [Inledning](#inledning)  |  | [Klassifikation](#klassifikation) | 
 | [Verkets titel](#verkets-titel)  |  | [Ämne](https://libris.kb.se/katalogisering/help/workflow-general-sh) | 
