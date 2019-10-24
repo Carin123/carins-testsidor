@@ -12,12 +12,14 @@ tags:
 
 | Innehåll | |
 | ------ | ------ |
-| [Kontrollnummer](#kontrollnummer) | [Translitterering](#translitterering) |
-| [Skapad av](#skapad-av) | [Katalogiseringsspråk](#katalogiseringssprak) |
-| [Uppgraderad  eller importerad av](#uppgraderad-eller-importerad-av) | [Katalogiseringsregler](#katalogiseringsregler) |
-| [Katalogiserande instans](#katalogiserande-instans) | [Beskrivningsnivå](#beskrivningsniva) |
-| [Poststatus](#poststatus) | [Bibliografikod](#bibliografikod) |
-| [Systemnummer](#systemnummer) | [Systemteknisk anmärkning](#systemteknisk-anmarkning) |
+| [Inledning](#inledning) | [Translitterering](#translitterering) |
+| [Kontrollnummer](#kontrollnummer) | [Katalogiseringsspråk](#katalogiseringssprak) |
+| [Skapad av](#skapad-av) | [Katalogiseringsregler](#katalogiseringsregler) |
+| [Uppgraderad  eller importerad av](#uppgraderad-eller-importerad-av) | [Beskrivningsnivå](#beskrivningsniva) |
+| [Katalogiserande instans](#katalogiserande-instans) | [Bibliografikod](#bibliografikod) |
+| [Poststatus](#poststatus) | [Systemteknisk anmärkning](#systemteknisk-anmarkning) |
+| [Systemnummer](#systemnummer) |  |
+
 
 ### Inledning
 
