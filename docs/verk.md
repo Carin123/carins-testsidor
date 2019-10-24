@@ -12,7 +12,7 @@ tags:
 
 ### Innehåll  
 
-| [Verk](#verk) |  |  | 
+
 | ----------- |  ----------- |  ----------- |
 | [Inledning](#inledning)  |  | [Klassifikation](#klassifikation) | 
 | [Verkets titel](#verkets-titel)  |  | [Ämne](https://libris.kb.se/katalogisering/help/workflow-general-sh) | 
@@ -22,7 +22,8 @@ tags:
 | [Genre/form](#genre-form) |  |  [Anmärkning om akademisk avhandling](#anmarkning-om-akademisk-avhandling) | 
 
 
-#### Inledning
+### Inledning
+| [Verk](#verk) |  |  | 
 
 Beskrivningen av ett verk innehåller information som ämne, klassifikation, språk och innehållstyp. Ett verk kan ha en eller flera instanser, till exempel olika upplagor och utgåvor. Läs mer om [Instans](https://libris.kb.se/katalogisering/help/workflow-instance).  
 
