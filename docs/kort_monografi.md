@@ -14,7 +14,7 @@ tags:
 
 | [Inledning](#inledning) | | |
 | ----------- |  ----------- | ----------- | 
-| ** [Adminmetadata](#adminmetadata) | [Instans](#instans) | [Verk](#verk) | 
+| **[Adminmetadata](#adminmetadata)** | [Instans](#instans) | [Verk](#verk) | 
 |  [Generell hjälptext för Adminmetadata](https://libris.kb.se/katalogisering/help/workflow-adminmetadata) | [Generell hjälptext för Instans](https://libris.kb.se/katalogisering/help/workflow-instance) | [Generell hjälptext för Verk](https://libris.kb.se/katalogisering/help/workflow-work) |
 | | [Utgivningssätt](#utgivningssatt) | [Verkets titel](#verkets-titel) |
 | | [Medietyp](#medietyp) | [Medverkan och funktion](#medverkan-och-funktion) |
