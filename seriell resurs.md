@@ -23,7 +23,7 @@ Innehåll:
 | | [Bärartyp](#barartyp) | [Genre](#genre) |
 | | [Titel](#titel) | [Klassifikation](#klassifikation) |
 | | [Utgivning](#utgivning) | [Ämne](https://libris.kb.se/katalogisering/help/workflow-general-sh) |
-| | [Identifikator](#identifikator) | [Relationer under verk (fortsätter, ersätter etc)](#relationer-under-verk) |
+| | [Identifikator](#identifikator) | [Relationer under verk (Fortsätter, Ersätter etc)](#relationer-under-verk) |
 | | [Frekvens](#frekvens) | [Innehållstyp](#innehallstyp) |
 | | [Numrering av seriell resurs](#numrering-av-seriell-resurs) | [Verkets titel](#verkets-titel) |
 | | [Alfabet](#alfabet) | |
