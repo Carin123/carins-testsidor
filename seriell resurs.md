@@ -2,7 +2,7 @@
 section: Materialtyper
 title: Tryckt seriell resurs
 order: 55
-date: 2019-10-03
+date: 2019-12-18
 tags:
 - under arbete
 - seriell resurs
@@ -35,7 +35,7 @@ Innehåll:
 | | [Bärartyp](#barartyp) | [Genre](#genre) |
 | | [Titel](#titel) | [Klassifikation](#klassifikation) |
 | | [Utgivning](#utgivning) | [Ämne](https://libris.kb.se/katalogisering/help/workflow-general-sh) |
-| | [Identifikator](#identifikator) | [Länkfält - relationer under verk](#relationer-under-verk) |
+| | [Identifikator](#identifikator) | [relationer under verk (fortsätter, ersätter etc)](#relationer-under-verk) |
 | | [Frekvens](#frekvens) | [Innehållstyp](#innehallstyp) |
 | | [Numrering av seriell resurs](#numrering-av-seriell-resurs) | [Verkets titel](#verkets-titel) |
 | | [Alfabet](#alfabet) | |
