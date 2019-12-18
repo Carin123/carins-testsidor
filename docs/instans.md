@@ -283,16 +283,16 @@ Land, År och eventuellt Datum  ska ligga inom Primär utgivning.
      * ```Datum: 2019-```
      * ```Typ av utgivningsdatum: Flera årtal (monografisk resurs)``` 
      
-     <br/>```Exempel avslutat flerbandsverk:```
-     * ```Startår: 1999```
-     * ```Slutår: 2017```
-     * ```Typ av utgivningsdatum: Flera årtal (monografisk resurs)```
+    <br/>```Exempel avslutat flerbandsverk:```
+    * ```Startår: 1999```
+    * ```Slutår: 2017```
+    * ```Typ av utgivningsdatum: Flera årtal (monografisk resurs)```
   
-     <br/>```Exempel avslutat flerbandsverk, osäkert startår:```
-     * ```Startår: 1753```
-     * ```Slutår: 1756```
-     * ```Datum: [1753?]-1756```
-     * ```Typ av utgivningsdatum: Flera årtal (monografisk resurs)``` 
+    <br/>```Exempel avslutat flerbandsverk, osäkert startår:```
+    * ```Startår: 1753```
+    * ```Slutår: 1756```
+    * ```Datum: [1753?]-1756```
+    * ```Typ av utgivningsdatum: Flera årtal (monografisk resurs)``` 
     
 * Flera år (faksimil)  
   Lägg till entitet under Utgivning och välj Omtryck/återutgivning och originalutgivning (= 008/06: r). Lägg till Årtal för ursprunglig utgivning (= 008/07-10) och Årtal för ny utgivning (= 008/11-14). Lägg sedan till Plats, Land, Agent och Datum (= 264 #c).     
