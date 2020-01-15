@@ -12,7 +12,7 @@ tags:
 ## Skapa ny
 ### Checklista Librispraxis
 Följ Checklista Librispraxis [LÄNK] när du skapar en ny post. Följ också anvisningarna för katalogisering samt anvisningar för klassifikation, genre och ämnesord.
-Se också rubrikerna Generell beskrivning, Materialtyper, Agenter och Ämnesord nedan.
+Se även rubrikerna Generell beskrivning, Materialtyper, Agenter och Ämnesord nedan.
 
 ### Söka
 Sök först noga innan du skapar en ny post i Libris. I de flesta fall finns det redan en post att utgå ifrån. För mer information om Libris metadataflöden, se Libris informationssidor.
@@ -24,9 +24,9 @@ Om du har gjort en uttömmande sökning och inte hittat någon post för den res
 För att skapa en ny post, klicka på Skapa ny. En meny med mallar visas. Mallen innehåller de vanligaste egenskaperna för respektive typ. Fler egenskaper kan läggas till via knappen Lägg till egenskaper (eller kortkommando Alt + F).
 Välj typ av post:
 -	Instans  
-Här finns mallar för Bok, Datorspel, Ljudbok, Musik-CD etc.
+Här finns mallar för Bok, Datorspel, Ljudbok, Musik-CD med flera materialtyper. Läs mer under Materialtyper i vänstermenyn.
 -	Verk  
-(Används ej.)
+(Används ej)
 -	Koncept  
 (Används endast av redaktionen för Svenska ämnesord)
 -	Agent  
