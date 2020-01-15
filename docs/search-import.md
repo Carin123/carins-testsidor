@@ -11,7 +11,7 @@ tags:
 
 ## Import av poster från andra källor
 
-Libris katalogisering erbjuder sök i andra källor än Libris. Genom att klicka på fliken Andra källor under Sök kan du söka direkt i nationalbibliotekskataloger, specialinriktade databaser eller samlingar av databaser. 
+Libris katalogisering erbjuder sök i andra källor än Libris. Via Andra källor under Sök kan du söka direkt i nationalbibliotekskataloger, specialinriktade databaser eller samlingar av databaser. 
 
 Klicka på Sök. Sök först noga i Libris innan du importerar. Om du har gjort en uttömmande sökning i Libris och inte hittat någon post för den resurs du ska beskriva, kan du växla flik i sökningen till Andra källor. Välj databas i listan genom att klicka på plustecknet vid databasens namn. OCLC är förvald.  
 
