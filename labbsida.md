@@ -47,7 +47,7 @@ TESTAR NÅGRA OLIKA SAKER PÅ DENNA SIDA
 ||bla|  
 ||bla|
 
-
+![Redigeringsfunktioner](redigeringsfunktioner.png)
 
 
 ## Byta verks- och instanstyp
