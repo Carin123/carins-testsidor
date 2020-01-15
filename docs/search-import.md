@@ -13,14 +13,13 @@ tags:
 
 Libris katalogisering erbjuder sök i andra källor än Libris. Via Andra källor under Sök kan du söka direkt i nationalbibliotekskataloger, specialinriktade databaser eller samlingar av databaser. 
 
-Klicka på Sök. Sök först noga i Libris innan du importerar. Om du har gjort en uttömmande sökning i Libris och inte hittat någon post för den resurs du ska beskriva, kan du växla flik till Andra källor. Välj databas i listan genom att klicka på plustecknet vid databasens namn. OCLC är förvald.  
+Klicka på Sök. Sök först noga i Libris innan du importerar. Om du har gjort en uttömmande sökning i Libris och inte hittat någon post för den resurs du ska beskriva, kan du växla flik till Andra källor. Välj databas i listan genom att klicka på plustecknet vid databasens namn. OCLC är förvald. Det går bra att välja flera databaser.  
 
-För att importera en post, klicka på posten i träfflistan. Följ Checklista för postimport. Spara sedan posten till Libris databas genom att klicka på Spara.
+För att importera en post, klicka på posten i träfflistan. Följ Checklista för postimport. Importen rensar och rättar posten men kräver en noggrann kontroll. Spara sedan posten till Libris databas genom att klicka på Spara.
+ 
 
 ### Innehåll
-Listan av databaser innehåller dels enskilda databaser och söktjänster, dels samlingar av databaser. Via informationsikonen vid databasens namn i listan finns specifik information om databasen. För mer fullständig information om databaserna, se [Libris informationssidor](https://www.kb.se/samverkan-och-utveckling/libris/katalogisering-i-libris/andra-kallor.html#item-42705879d169b8ba882abf1)
-
-Libris informationssidor. 
+Listan av databaser innehåller dels enskilda databaser och söktjänster, dels samlingar av databaser. Via informationsikonen vid databasens namn i listan finns specifik information om databasen. För mer fullständig information om databaserna, se [Libris informationssidor](https://www.kb.se/samverkan-och-utveckling/libris/katalogisering-i-libris/andra-kallor.html#item-42705879d169b8ba882abf1).  
 
 Samlingarna är benämnda enligt följande: Anglosax 1-4, Metasök Asien, Metasök Latin, Metasök Mellaneuropa och Metasök Norden. 
 
@@ -38,7 +37,6 @@ Samlingarna är benämnda enligt följande: Anglosax 1-4, Metasök Asien, Metas�
 * Mellaneuropa
 * Norden
 
-## Allmänt
-Importen rensar och rättar posten men kräver en noggrann kontroll före beståndsregistrering.
-
+## Söktips
+Se [Libris informationssidor](https://www.kb.se/samverkan-och-utveckling/libris/katalogisering-i-libris/andra-kallor.html#item-42705879d169b8ba882abf1).  
 
