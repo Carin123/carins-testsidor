@@ -20,16 +20,16 @@ För att importera en post, klicka på posten i träfflistan. Följ [Checklista 
 ### Innehåll
 Andra källor innehåller dels enskilda databaser och söktjänster, dels samlingar av databaser. Via informationsikonen vid databasens namn i databaslistan finns specifik information om databasen. För mer fullständig information om databaserna, se [Libris informationssidor](https://www.kb.se/samverkan-och-utveckling/libris/katalogisering-i-libris/andra-kallor.html#item-42705879d169b8ba882abf1).  
 
-Samlingarna är benämnda enligt följande: Anglosax 1-4, Metasök Asien, Metasök Latin, Metasök Mellaneuropa och Metasök Norden. 
+Samlingarna av databaser är grupperade:
 
-**Allsök innehåller databaser från anglosaxiska områden:**
+**Databaser från anglosaxiska områden:**
 
 * Anglosax1: Anglosaxiska databaser från USA
 * Anglosax2: Anglosaxiska databaser från USA
 * Anglosax3: Anglosaxiska databaser från Kanada
 * Anglosax4: Anglosaxiska databaser från övriga världen
 
-**Metasök erbjuder databaser utanför de engelskspråkiga områdena**
+**Databaser utanför de engelskspråkiga områdena**
 
 * Asien
 * Latin
