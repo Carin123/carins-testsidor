@@ -37,6 +37,6 @@ Samlingarna är benämnda enligt följande: Anglosax 1-4, Metasök Asien, Metas�
 * Mellaneuropa
 * Norden
 
-## Söktips
+### Söktips
 Se [Libris informationssidor](https://www.kb.se/samverkan-och-utveckling/libris/katalogisering-i-libris/andra-kallor.html#item-42705879d169b8ba882abf1).  
 
