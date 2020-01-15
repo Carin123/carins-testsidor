@@ -18,7 +18,7 @@ Klicka på Sök. Sök först noga i Libris innan du importerar. Om du har gjort 
 För att importera en post, klicka på posten i träfflistan. Följ [Checklista för postimport](https://libris.kb.se/katalogisering/help/editor-checklist-import). Spara sedan posten till Libris databas genom att klicka på Spara och lägg på bestånd.
  
 ### Innehåll
-Andra källor innehåller dels enskilda databaser och söktjänster, dels samlingar av databaser. Via informationsikonen vid databasens namn i databaslistan finns specifik information om databasen eller samlingen. För mer fullständig information om databaserna, se [Libris informationssidor](https://www.kb.se/samverkan-och-utveckling/libris/katalogisering-i-libris/andra-kallor.html#item-42705879d169b8ba882abf1).  
+Andra källor innehåller dels enskilda databaser och söktjänster, dels samlingar av databaser. Via informationsikonen vid databasens namn i databaslistan finns specifik information om databasen eller samlingen. För mer fullständig information om databaserna, se [Libris informationssidor](https://www.kb.se/samverkan-och-utveckling/libris/katalogisering-i-libris/andra-kallor.html).  
 
 Samlingarna av databaser är grupperade:
 
