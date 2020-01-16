@@ -19,7 +19,7 @@ Se också rubrikerna Generell beskrivning, Materialtyper, Agenter och Ämnesord 
 Läs under Att använda verktyget, Redigeringsläge [LÄNK].
 
 ### Uppgradera
-Med uppgradera menas att komplettera och redigera posten enligt anvisningar (se Checklista Librispraxis) [LÄNK] och därefter ändra beskrivningsnivå. Många poster kommer in i Libris som förhandsinformation eller på preliminär nivå. Katalogisatören uppgraderar posten när ett exemplar finns tillgängligt och ändrar till godkänd beskrivningsnivå. Därefter lägger man på bestånd (se Hjälptexter Bestånd i vänstermenyn). Läs mer om beskrivningsnivå under Adminmetadata, Beskrivningsnivå.
+Med uppgradera menas att komplettera och redigera posten enligt anvisningar (se Checklista Librispraxis) [LÄNK] och därefter ändra beskrivningsnivå. Många poster kommer in i Libris som förhandsinformation eller på preliminär nivå. Katalogisatören uppgraderar posten när ett exemplar finns tillgängligt och ändrar till godkänd beskrivningsnivå. Därefter lägger man på bestånd (se Hjälptexter Bestånd i vänstermenyn). Läs mer om beskrivningsnivå under [Adminmetadata](https://libris.kb.se/katalogisering/help/workflow-adminmetadata).
 Använd gärna funktionen Berika från mall vid uppgradering av förhandsposter.
 
 ## Berika från mall
