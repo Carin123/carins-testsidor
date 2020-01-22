@@ -2,7 +2,7 @@
 section: Redigering
 title: Skapa ny
 order: 12
-date: 2020-01-15
+date: 2020-01-22
 tags:
 - search
 - import
@@ -20,7 +20,7 @@ tags:
 
 ## Skapa ny
 ### Checklista Librispraxis
-Följ Checklista Librispraxis [LÄNK] när du skapar en ny post. Följ också anvisningarna för katalogisering samt anvisningar för klassifikation, genre och ämnesord.
+Följ Checklista Librispraxis [LÄNK] när du skapar en ny post. Följ också [Anvisningar för katalogisering enligt RDA](http://www.kb.se/rdakatalogisering/) samt anvisningar för [klassifikation](http://www.kb.se/katalogisering/Klassifikation/), [genre](http://www.kb.se/katalogisering/Svenska-amnesord/genrer-form/) och [ämnesord](http://www.kb.se/katalogisering/Svenska-amnesord/riktlinjer/).
 Se även rubrikerna Generell beskrivning, Materialtyper, Agenter och Ämnesord nedan.
 
 ### Soka
@@ -63,7 +63,7 @@ Upprepa punkt 2 och 3 för att skapa fler poster utifrån samma fil/mall.
 
 #### Importera fran Andra kallor
 Klicka på Sök. Sök först noga i Libris innan du importerar, se Söka ovan. Om du har gjort en uttömmande sökning i Libris och inte hittat någon post för den resurs du ska beskriva, kan du växla flik till Andra källor. Välj databas i listan genom att klicka på plustecknet vid databasens namn. OCLC är förvald. Läs mer om [sökning i Andra källor](https://libris.kb.se/katalogisering/help/search-import).
-För att importera en post, klicka på posten i träfflistan. Följ [Checklista för postimport](https://libris.kb.se/katalogisering/help/editor-checklist-import). Spara sedan posten till Libris databas genom att klicka på Spara.
+För att importera en post, klicka på posten i träfflistan. Följ [Checklista import Andra källor](https://libris.kb.se/katalogisering/help/editor-checklist-import). Spara sedan posten till Libris databas genom att klicka på Spara.
 
 ### Kopiera
 Sök först noga i Libris innan du skapar en ny post genom att kopiera, se Söka ovan. Kopiera-funktionen finns i visningsläge. Gå till Verktygsmenyn i visningsläge och klicka på Verktyg. Välj Kopiera. Uppdatera posten enligt instruktioner i hjälptexter och anvisningar för katalogisering. Spara sedan posten till Libris databas genom att klicka på Spara.
