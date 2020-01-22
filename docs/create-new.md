@@ -14,7 +14,7 @@ tags:
 | Innehåll  | | |
 | ------ | ------ | ------ |
 | [Checklista Librispraxis](#checklista-librispraxis) | | [Skapa ny från fil](#skapa-ny-fran-fil) | 
-| [Söka](#soka) | | [Importera från Andra källor](#importera-fran-Andra-kallor) | 
+| [Söka](#soka) | | [Importera från Andra källor](#importera-fran-andra-kallor) | 
 | [Skapa ny från mall](#skapa-ny-fran-mall) | | [Kopiera](#kopiera) |
 
 
@@ -61,7 +61,7 @@ och välj ok för att spara filen/mallen.
 
 Upprepa punkt 2 och 3 för att skapa fler poster utifrån samma fil/mall.
 
-#### Importera från Andra kallor
+#### Importera fran Andra kallor
 Klicka på Sök. Sök först noga i Libris innan du importerar, se Söka ovan. Om du har gjort en uttömmande sökning i Libris och inte hittat någon post för den resurs du ska beskriva, kan du växla flik till Andra källor. Välj databas i listan genom att klicka på plustecknet vid databasens namn. OCLC är förvald. Läs mer om [sökning i Andra källor](https://libris.kb.se/katalogisering/help/search-import).
 För att importera en post, klicka på posten i träfflistan. Följ [Checklista för postimport](https://libris.kb.se/katalogisering/help/editor-checklist-import). Spara sedan posten till Libris databas genom att klicka på Spara.
 
