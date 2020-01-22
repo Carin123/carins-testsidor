@@ -10,15 +10,24 @@ tags:
 ---
 
 ## Skapa ny
+
+| Innehåll  | | |
+| ------ | ------ | ------ |
+| [Checklista Librispraxis](#checklista-librispraxis) | | [Skapa ny från fil](#skapa-ny-fran-fil) | 
+| [Söka](#soka) | | [Importera från Andra källor](#importera-fran-andra-kallor) | 
+| [Skapa ny från mall](#skapa-ny-fran-mall) | | [Kopiera](#kopiera) |
+
+
+## Skapa ny
 ### Checklista Librispraxis
 Följ Checklista Librispraxis [LÄNK] när du skapar en ny post. Följ också anvisningarna för katalogisering samt anvisningar för klassifikation, genre och ämnesord.
 Se även rubrikerna Generell beskrivning, Materialtyper, Agenter och Ämnesord nedan.
 
-### Söka
+### Soka
 Sök först noga innan du skapar en ny post i Libris. I de flesta fall finns det redan en post att utgå ifrån. För mer information om Libris metadataflöden, se Libris informationssidor.
 Undvik att skapa dubbletter. Läs mer under Sök i vänstermenyn.
 
-### Skapa ny – från mall
+### Skapa ny – fran mall
 Om du har gjort en uttömmande sökning och inte hittat någon post för den resurs du ska beskriva, kan du skapa en ny post från mall.
 
 För att skapa en ny post, klicka på Skapa ny. En meny med mallar visas. Mallen innehåller de vanligaste egenskaperna för respektive typ. Fler egenskaper kan läggas till via knappen Lägg till egenskaper (eller kortkommando Alt + F).
@@ -33,7 +42,7 @@ Här finns mallar för Bok, Datorspel, Ljudbok, Musik-CD med flera materialtyper
 Här finns mallar för Jurisdiktion, Organisation, Person. Läs mer under Hjälptexter Agenter i vänstermenyn.
 -	Från fil
 
-#### Skapa ny - Från fil
+#### Skapa ny - Fran fil
 Funktionen Skapa ny - från fil är användbar om man t.ex. ska skapa ett antal helt nya poster som har en del egenskaper gemensamt och en del egenskaper som är helt olika. Själva arbetsgången blir att man först skapar en egen mallpost som sedan kan användas som utgångspunkt för nya poster. *Observera att det kan vara nödvändigt att spara om sin fil som fungerar som mall efter varje ny release av katalogiseringsverktyget ifall att det har gjorts formatändringar eller andra uppdateringar som påverkar funktionaliteten.*
 
 1. Förbered genom att skapa mallpost. Enklast är att utgå från en befintlig post.
@@ -52,7 +61,7 @@ och välj ok för att spara filen/mallen.
 
 Upprepa punkt 2 och 3 för att skapa fler poster utifrån samma fil/mall.
 
-### Importera från Andra källor
+### Importera från Andra kallor
 Klicka på Sök. Sök först noga i Libris innan du importerar, se Söka ovan. Om du har gjort en uttömmande sökning i Libris och inte hittat någon post för den resurs du ska beskriva, kan du växla flik till Andra källor. Välj databas i listan genom att klicka på plustecknet vid databasens namn. OCLC är förvald. Läs mer om [sökning i Andra källor](https://libris.kb.se/katalogisering/help/search-import).
 För att importera en post, klicka på posten i träfflistan. Följ [Checklista för postimport](https://libris.kb.se/katalogisering/help/editor-checklist-import). Spara sedan posten till Libris databas genom att klicka på Spara.
 
