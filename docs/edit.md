@@ -2,7 +2,7 @@
 section: Redigering
 title: Skapa ny
 order: 13
-date: 2020-01-16
+date: 2020-01-22
 tags:
 - search
 - import
@@ -10,6 +10,13 @@ tags:
 ---
 
 ## Redigera och uppgradera
+
+| Innehåll  | | |
+| ------ | ------ | ------ |
+| [Checklista Librispraxis](#checklista-librispraxis) | | [Berika från mall](#berika-fran-mall) | 
+| [Redigera](#redigera) | | [Berika från post](#berika-fran-post) | 
+| [Uppgradera](#uppgradera) | | |
+
 
 ### Checklista Librispraxis
 Följ Checklista Librispraxis [LÄNK] när du redigerar och/eller uppgraderar en post. Följ också anvisningarna för katalogisering samt anvisningar för klassifikation, genre och ämnesord.
