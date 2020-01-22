@@ -37,7 +37,7 @@ Här finns mallar för Bok, Datorspel, Ljudbok, Musik-CD med flera materialtyper
 -	Verk  
 (Används ej)
 -	Koncept  
-(Används endast av redaktionen för Svenska ämnesord)
+(Används endast av redaktionen för Svenska ämnesord och redaktionen för barnämnesord)
 -	Agent  
 Här finns mallar för Jurisdiktion, Organisation, Person. Läs mer under Hjälptexter Agenter i vänstermenyn.
 -	Från fil
