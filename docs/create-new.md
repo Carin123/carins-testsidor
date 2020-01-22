@@ -43,6 +43,7 @@ Här finns mallar för Jurisdiktion, Organisation, Person. Läs mer under Hjälp
 -	Från fil
 
 #### Skapa ny fran fil
+Om du har gjort en uttömmande sökning och inte hittat någon post för den resurs du ska beskriva, kan du skapa en ny post från fil.
 Funktionen Skapa ny - från fil är användbar om man t.ex. ska skapa ett antal helt nya poster som har en del egenskaper gemensamt och en del egenskaper som är helt olika. Själva arbetsgången blir att man först skapar en egen mallpost som sedan kan användas som utgångspunkt för nya poster. *Observera att det kan vara nödvändigt att spara om sin fil som fungerar som mall efter varje ny release av katalogiseringsverktyget ifall att det har gjorts formatändringar eller andra uppdateringar som påverkar funktionaliteten.*
 
 1. Förbered genom att skapa mallpost. Enklast är att utgå från en befintlig post.
@@ -62,7 +63,7 @@ och välj ok för att spara filen/mallen.
 Upprepa punkt 2 och 3 för att skapa fler poster utifrån samma fil/mall.
 
 #### Importera fran Andra kallor
-Klicka på Sök. Sök först noga i Libris innan du importerar, se Söka ovan. Om du har gjort en uttömmande sökning i Libris och inte hittat någon post för den resurs du ska beskriva, kan du växla flik till Andra källor. Välj databas i listan genom att klicka på plustecknet vid databasens namn. OCLC är förvald. Läs mer om [sökning i Andra källor](https://libris.kb.se/katalogisering/help/search-import).
+Klicka på Sök. Sök först noga i Libris innan du importerar, se Söka ovan. Om du har gjort en uttömmande sökning i Libris och inte hittat någon post för den resurs du ska beskriva, kan du växla flik till Andra källor. Välj databas i listan genom att klicka på plustecknet vid databasens namn. OCLC är förvald. Läs mer om LÄNK SKA ÄNDRAS [sökning i Andra källor](https://libris.kb.se/katalogisering/help/search-import).
 För att importera en post, klicka på posten i träfflistan. Följ [Checklista import Andra källor](https://libris.kb.se/katalogisering/help/editor-checklist-import). Spara sedan posten till Libris databas genom att klicka på Spara.
 
 ### Kopiera
