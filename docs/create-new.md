@@ -21,10 +21,10 @@ tags:
 ## Skapa ny
 ### Checklista Librispraxis
 Följ Checklista Librispraxis [LÄNK] när du skapar en ny post. Följ också [Anvisningar för katalogisering enligt RDA](http://www.kb.se/rdakatalogisering/) samt anvisningar för [klassifikation](http://www.kb.se/katalogisering/Klassifikation/), [genre](http://www.kb.se/katalogisering/Svenska-amnesord/genrer-form/) och [ämnesord](http://www.kb.se/katalogisering/Svenska-amnesord/riktlinjer/).
-Se även rubrikerna Generell beskrivning, Materialtyper, Agenter och Ämnesord nedan.
+Se även rubrikerna Generell beskrivning, Materialtyper, Agenter och Ämnesord i vänstermenyn.
 
 ### Soka
-Sök först noga innan du skapar en ny post i Libris. I de flesta fall finns det redan en post att utgå ifrån. För mer information om Libris metadataflöden, se Libris informationssidor.
+Sök först noga innan du skapar en ny post i Libris. I de flesta fall finns det redan en post att utgå ifrån. För mer information om Libris metadataflöden, se [Libris informationssidor](https://www.kb.se/samverkan-och-utveckling/libris/att-anvanda-librisdata.html).
 Undvik att skapa dubbletter. Läs mer under Sök i vänstermenyn.
 
 ### Skapa ny fran mall
