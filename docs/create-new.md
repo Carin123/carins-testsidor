@@ -14,7 +14,7 @@ tags:
 | Innehåll  | | |
 | ------ | ------ | ------ |
 | [Checklista Librispraxis](#checklista-librispraxis) | | [Skapa ny från fil](#skapa-ny-fran-fil) | 
-| [Söka](#soka) | | [Importera från Andra källor](#importera-fran-andra-kallor) | 
+| [Söka](#soka) | | [Importera från Andra källor](#importera-fran-Andra-kallor) | 
 | [Skapa ny från mall](#skapa-ny-fran-mall) | | [Kopiera](#kopiera) |
 
 
