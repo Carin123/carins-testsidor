@@ -27,7 +27,7 @@ Se även rubrikerna Generell beskrivning, Materialtyper, Agenter och Ämnesord n
 Sök först noga innan du skapar en ny post i Libris. I de flesta fall finns det redan en post att utgå ifrån. För mer information om Libris metadataflöden, se Libris informationssidor.
 Undvik att skapa dubbletter. Läs mer under Sök i vänstermenyn.
 
-### Skapa ny – fran mall
+### Skapa ny fran mall
 Om du har gjort en uttömmande sökning och inte hittat någon post för den resurs du ska beskriva, kan du skapa en ny post från mall.
 
 För att skapa en ny post, klicka på Skapa ny. En meny med mallar visas. Mallen innehåller de vanligaste egenskaperna för respektive typ. Fler egenskaper kan läggas till via knappen Lägg till egenskaper (eller kortkommando Alt + F).
@@ -42,7 +42,7 @@ Här finns mallar för Bok, Datorspel, Ljudbok, Musik-CD med flera materialtyper
 Här finns mallar för Jurisdiktion, Organisation, Person. Läs mer under Hjälptexter Agenter i vänstermenyn.
 -	Från fil
 
-#### Skapa ny - Fran fil
+#### Skapa ny fran fil
 Funktionen Skapa ny - från fil är användbar om man t.ex. ska skapa ett antal helt nya poster som har en del egenskaper gemensamt och en del egenskaper som är helt olika. Själva arbetsgången blir att man först skapar en egen mallpost som sedan kan användas som utgångspunkt för nya poster. *Observera att det kan vara nödvändigt att spara om sin fil som fungerar som mall efter varje ny release av katalogiseringsverktyget ifall att det har gjorts formatändringar eller andra uppdateringar som påverkar funktionaliteten.*
 
 1. Förbered genom att skapa mallpost. Enklast är att utgå från en befintlig post.
