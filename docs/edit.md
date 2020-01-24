@@ -2,7 +2,7 @@
 section: Redigering
 title: Skapa ny
 order: 13
-date: 2020-01-22
+date: 2020-01-24
 tags:
 - search
 - import
@@ -19,14 +19,14 @@ tags:
 
 
 ### Checklista Librispraxis
-Följ Checklista Librispraxis [LÄNK] när du redigerar och/eller uppgraderar en post. Följ också anvisningarna för katalogisering samt anvisningar för klassifikation, genre och ämnesord.
+Följ Checklista Librispraxis - CHECKLISTAN ÄR UNDER ARBETE - när du redigerar och/eller uppgraderar en post. Följ också anvisningarna för katalogisering samt anvisningar för klassifikation, genre och ämnesord.
 Se också rubrikerna Generell beskrivning, Materialtyper, Agenter och Ämnesord nedan.
 
 ### Redigera
-Läs under Att använda verktyget, Redigeringsläge [LÄNK].
+Läs under [Att använda verktyget](https://libris.kb.se/katalogisering/help/use-the-editor), Redigeringsläge.
 
 ### Uppgradera
-Med uppgradera menas att komplettera och redigera posten enligt anvisningar (se Checklista Librispraxis) [LÄNK] och därefter ändra beskrivningsnivå. Många poster kommer in i Libris som förhandsinformation eller på preliminär nivå. Katalogisatören uppgraderar posten när ett exemplar finns tillgängligt och ändrar till godkänd beskrivningsnivå. Därefter lägger man på bestånd (se Hjälptexter Bestånd i vänstermenyn). Läs mer om beskrivningsnivå under [Adminmetadata](https://libris.kb.se/katalogisering/help/workflow-adminmetadata).
+Med uppgradera menas att komplettera och redigera posten enligt anvisningar (se Checklista Librispraxis - CHECKLISTAN ÄR UNDER ARBETE) - och därefter ändra beskrivningsnivå. Många poster kommer in i Libris som förhandsinformation eller på preliminär nivå. Katalogisatören uppgraderar posten när ett exemplar finns tillgängligt och ändrar till godkänd beskrivningsnivå. Därefter lägger man på bestånd (se Hjälptexter Bestånd i vänstermenyn). Läs mer om beskrivningsnivå under [Adminmetadata](https://libris.kb.se/katalogisering/help/workflow-adminmetadata).
 Använd gärna funktionen Berika från mall vid uppgradering av förhandsposter.
 
 ### Berika fran mall
