@@ -4,9 +4,8 @@ title: Skapa ny
 order: 17
 date: 2020-01-24
 tags:
-- search
-- import
-- under arbete
+- redigering
+- uppgradering
 ---
 
 ## Redigera och uppgradera
