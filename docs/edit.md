@@ -1,5 +1,5 @@
 ---
-section: Redigering
+section: Katalogiseringsverktyget
 title: Skapa ny
 order: 17
 date: 2020-01-24
