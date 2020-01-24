@@ -19,8 +19,8 @@ tags:
 
 
 ### Checklista Librispraxis
-Följ Checklista Librispraxis - CHECKLISTAN ÄR UNDER ARBETE - när du redigerar och/eller uppgraderar en post. Följ också anvisningarna för katalogisering samt anvisningar för klassifikation, genre och ämnesord.
-Se också rubrikerna Generell beskrivning, Materialtyper, Agenter och Ämnesord nedan.
+Följ Checklista Librispraxis - CHECKLISTAN ÄR UNDER ARBETE - när du redigerar och/eller uppgraderar en post. Följ också [Anvisningar för katalogisering enligt RDA](http://www.kb.se/rdakatalogisering/) samt anvisningar för [klassifikation](http://www.kb.se/katalogisering/Klassifikation/), [genre](http://www.kb.se/katalogisering/Svenska-amnesord/genrer-form/) och [ämnesord](http://www.kb.se/katalogisering/Svenska-amnesord/riktlinjer/).
+Se även rubrikerna Generell beskrivning, Materialtyper, Agenter och Ämnesord i vänstermenyn.
 
 ### Redigera
 Läs under [Att använda verktyget](https://libris.kb.se/katalogisering/help/use-the-editor), välj Verktygsmeny i redigeringsläge.
