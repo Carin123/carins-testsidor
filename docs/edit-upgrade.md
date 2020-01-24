@@ -62,4 +62,3 @@ När Berika från mall har använts visas en text som beskriver hur många egens
     </br>![Berika från ID](BerikafranID.png)
    * Klistra in ID från (A). De egenskaper som inte redan finns i (B) läggs till. Länkade egenskaper visas i klartext först när du har sparat. 
    * Redigera och spara.
-
