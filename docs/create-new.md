@@ -4,9 +4,8 @@ title: Skapa ny
 order: 15
 date: 2020-01-24
 tags:
-- search
-- import
-- under arbete
+- create new
+- skapa ny
 ---
 
 ## Skapa ny
