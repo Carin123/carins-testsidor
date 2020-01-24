@@ -1,7 +1,7 @@
 ---
 section: Redigering
 title: Skapa ny
-order: 12
+order: 15
 date: 2020-01-24
 tags:
 - search
