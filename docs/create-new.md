@@ -12,12 +12,12 @@ tags:
 
 | Innehåll  | | |
 | ------ | ------ | ------ |
-| [Checklista Librispraxis](#checklista-librispraxis) | | [Skapa ny från fil](#skapa-ny-fran-fil) | 
+| [Anvisningar och praxis](#anvisningar-och-praxis) | | [Skapa ny från fil](#skapa-ny-fran-fil) | 
 | [Söka](#soka) | | [Importera från Andra källor](#importera-fran-andra-kallor) | 
 | [Skapa ny från mall](#skapa-ny-fran-mall) | | [Kopiera](#kopiera) |
 
 
-### Checklista Librispraxis
+### Anvisningar och praxis
 Följ [Anvisningar för katalogisering (RDA)](http://www.kb.se/rdakatalogisering/) när du skapar en ny post. Se översikten över [Kärnelement och obligatoriska element](http://www.kb.se/rdakatalogisering/Karnlement-och-obligatoriska-element/). Följ också anvisningar för [klassifikation](http://www.kb.se/katalogisering/Klassifikation/), [genre/form](http://www.kb.se/katalogisering/Svenska-amnesord/genrer-form/) och [ämnesord](http://www.kb.se/katalogisering/Svenska-amnesord/riktlinjer/).
 Se även rubrikerna Generell beskrivning, Materialtyper, Agenter och Ämnesord i vänstermenyn.
 
