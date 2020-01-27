@@ -18,7 +18,7 @@ tags:
 
 
 ### Checklista Librispraxis
-Följ [Anvisningar för katalogisering (RDA)](http://www.kb.se/rdakatalogisering/)när du skapar en ny post. Se översikten över [Kärnelement och obligatoriska element](http://www.kb.se/rdakatalogisering/Karnlement-och-obligatoriska-element/). Följ också anvisningar för [klassifikation](http://www.kb.se/katalogisering/Klassifikation/), [genre/form](http://www.kb.se/katalogisering/Svenska-amnesord/genrer-form/) och [ämnesord](http://www.kb.se/katalogisering/Svenska-amnesord/riktlinjer/).
+Följ [Anvisningar för katalogisering (RDA)](http://www.kb.se/rdakatalogisering/) när du skapar en ny post. Se översikten över [Kärnelement och obligatoriska element](http://www.kb.se/rdakatalogisering/Karnlement-och-obligatoriska-element/). Följ också anvisningar för [klassifikation](http://www.kb.se/katalogisering/Klassifikation/), [genre/form](http://www.kb.se/katalogisering/Svenska-amnesord/genrer-form/) och [ämnesord](http://www.kb.se/katalogisering/Svenska-amnesord/riktlinjer/).
 Se även rubrikerna Generell beskrivning, Materialtyper, Agenter och Ämnesord i vänstermenyn.
 
 ### Soka
