@@ -2,7 +2,7 @@
 section: Katalogiseringsverktyget
 title: Skapa ny
 order: 15
-date: 2020-01-24
+date: 2020-01-28
 tags:
 - create new
 - skapa ny
@@ -18,7 +18,13 @@ tags:
 
 
 ### Anvisningar och praxis
-c Följ också anvisningar för [klassifikation](http://www.kb.se/katalogisering/Klassifikation/), [genre/form](http://www.kb.se/katalogisering/Svenska-amnesord/genrer-form/) och [ämnesord](http://www.kb.se/katalogisering/Svenska-amnesord/riktlinjer/).
+Följ gällande anvisninga när du skapar en ny post.
+
+* [Anvisningar för katalogisering (RDA)](http://www.kb.se/rdakatalogisering/)
+* [Kärnelement och obligatoriska element](http://www.kb.se/rdakatalogisering/Karnlement-och-obligatoriska-element/)
+* [Klassifikation](http://www.kb.se/katalogisering/Klassifikation/)
+* Genre/form [genre/form](http://www.kb.se/katalogisering/Svenska-amnesord/genrer-form/)
+* [Ämnesord](http://www.kb.se/katalogisering/Svenska-amnesord/riktlinjer/).
 Se även rubrikerna Generell beskrivning, Materialtyper, Agenter och Ämnesord i vänstermenyn.
 
 ### Soka
