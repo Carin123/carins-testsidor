@@ -20,14 +20,13 @@ tags:
 ### Anvisningar och praxis
 Följ gällande anvisningar när du skapar en ny post.
 
-* [Anvisningar för katalogisering (RDA)](http://www.kb.se/rdakatalogisering/)  
-Exemplen är i MARC21 så innehållet måste kompletteras av hjälptexterna i katalogiseringsverktyget (se rubrikerna Generell beskrivning, Materialtyper, Agenter och Ämnesord i vänstermenyn.  
+* [Anvisningar för katalogisering (RDA)](http://www.kb.se/rdakatalogisering/)   
 * [Kärnelement och obligatoriska element](http://www.kb.se/rdakatalogisering/Karnlement-och-obligatoriska-element/)
 * [Katalogisatörens verktygslåda](http://www.kb.se/katalogisering/).  
   Innehåller information om 
 * [Ämnesord](http://www.kb.se/katalogisering/Svenska-amnesord/riktlinjer/)
 * [Genre/form](http://www.kb.se/katalogisering/Svenska-amnesord/genrer-form/)
-* [Klassifikation](http://www.kb.se/katalogisering/Klassifikation/)
+* [Klassifikation](http://www.kb.se/katalogisering/Klassifikation/)  
 Se även rubrikerna Generell beskrivning, Materialtyper, Agenter och Ämnesord i vänstermenyn.
 
 ### Soka
