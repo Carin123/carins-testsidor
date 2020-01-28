@@ -24,7 +24,7 @@ Följ gällande anvisninga när du skapar en ny post.
 * [Kärnelement och obligatoriska element](http://www.kb.se/rdakatalogisering/Karnlement-och-obligatoriska-element/)
 * [Klassifikation](http://www.kb.se/katalogisering/Klassifikation/)
 * [Genre/form](http://www.kb.se/katalogisering/Svenska-amnesord/genrer-form/)
-* [Ämnesord](http://www.kb.se/katalogisering/Svenska-amnesord/riktlinjer/).
+* [Ämnesord](http://www.kb.se/katalogisering/Svenska-amnesord/riktlinjer/).  
 Se även rubrikerna Generell beskrivning, Materialtyper, Agenter och Ämnesord i vänstermenyn.
 
 ### Soka
