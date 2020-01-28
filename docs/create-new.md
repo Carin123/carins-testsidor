@@ -20,7 +20,7 @@ tags:
 ### Anvisningar och praxis
 Följ gällande anvisningar när du skapar en ny post.
 
-* [Anvisningar för katalogisering (RDA)](http://www.kb.se/rdakatalogisering/)
+* [Anvisningar för katalogisering (RDA)](http://www.kb.se/rdakatalogisering/)  
   Exemplen är i MARC21. För anvisningar i Libris nuvarande format, se rubrikerna Generell beskrivning, Materialtyper, Agenter och Ämnesord i vänstermenyn.
 * [Kärnelement och obligatoriska element](http://www.kb.se/rdakatalogisering/Karnlement-och-obligatoriska-element/)
 * [Katalogisatörens verktygslåda](http://www.kb.se/katalogisering/)   
