@@ -20,14 +20,14 @@ tags:
 ### Anvisningar och praxis
 Följ gällande anvisningar när du skapar en ny post.
 
-* [Anvisningar för katalogisering (RDA)](http://www.kb.se/rdakatalogisering/)   
+* [Anvisningar för katalogisering (RDA)](http://www.kb.se/rdakatalogisering/)
+  Exemplen är i MARC21. För anvisningar i Libris nuvarande format, se rubrikerna Generell beskrivning, Materialtyper, Agenter och Ämnesord i vänstermenyn.
 * [Kärnelement och obligatoriska element](http://www.kb.se/rdakatalogisering/Karnlement-och-obligatoriska-element/)
-* [Katalogisatörens verktygslåda](http://www.kb.se/katalogisering/).  
+* [Katalogisatörens verktygslåda](http://www.kb.se/katalogisering/)   
   Innehåller information om 
 * [Ämnesord](http://www.kb.se/katalogisering/Svenska-amnesord/riktlinjer/)
 * [Genre/form](http://www.kb.se/katalogisering/Svenska-amnesord/genrer-form/)
 * [Klassifikation](http://www.kb.se/katalogisering/Klassifikation/)  
-Se även rubrikerna Generell beskrivning, Materialtyper, Agenter och Ämnesord i vänstermenyn.
 
 ### Soka
 Sök först noga innan du skapar en ny post i Libris. I de flesta fall finns det redan en post att utgå ifrån. För mer information om Libris metadataflöden, se [Libris informationssidor](https://www.kb.se/samverkan-och-utveckling/libris/att-anvanda-librisdata.html).
