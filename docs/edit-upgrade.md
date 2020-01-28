@@ -2,7 +2,7 @@
 section: Katalogiseringsverktyget
 title: Redigera och uppgradera
 order: 17
-date: 2020-01-24
+date: 2020-01-28
 tags:
 - redigering
 - uppgradering
@@ -17,9 +17,17 @@ tags:
 | [Uppgradera](#uppgradera) | | |
 
 
-### Checklista Librispraxis
-Följ Checklista Librispraxis - CHECKLISTAN ÄR UNDER ARBETE - när du redigerar och/eller uppgraderar en post. Följ också [Anvisningar för katalogisering (RDA)](http://www.kb.se/rdakatalogisering/) samt anvisningar för [klassifikation](http://www.kb.se/katalogisering/Klassifikation/), [genre/form](http://www.kb.se/katalogisering/Svenska-amnesord/genrer-form/) och [ämnesord](http://www.kb.se/katalogisering/Svenska-amnesord/riktlinjer/).
-Se även rubrikerna Generell beskrivning, Materialtyper, Agenter och Ämnesord i vänstermenyn.
+### Anvisningar och praxis
+Följ gällande anvisningar när du redigerar och uppgraderar en post.
+
+* [Anvisningar för katalogisering (RDA)](http://www.kb.se/rdakatalogisering/)  
+  Exemplen är i MARC21. För anvisningar i Libris nuvarande format, se rubrikerna Generell beskrivning, Materialtyper, Agenter och Ämnesord i vänstermenyn.
+* [Kärnelement och obligatoriska element](http://www.kb.se/rdakatalogisering/Karnlement-och-obligatoriska-element/)
+* [Katalogisatörens verktygslåda](http://www.kb.se/katalogisering/)   
+  Innehåller information om:  
+* [Ämnesord](http://www.kb.se/katalogisering/Svenska-amnesord/riktlinjer/)
+* [Genre/form](http://www.kb.se/katalogisering/Svenska-amnesord/genrer-form/)
+* [Klassifikation](http://www.kb.se/katalogisering/Klassifikation/)  
 
 ### Redigera
 Läs under [Att använda verktyget](https://libris.kb.se/katalogisering/help/use-the-editor), välj Verktygsmeny i redigeringsläge.
