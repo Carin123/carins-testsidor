@@ -1,8 +1,8 @@
 ---
 section: Generell beskrivning
 title: Instans
-order: 22
-date: 2019-12-18
+order: 27
+date: 2020-01-31
 tags:
 - under arbete
 - instans
