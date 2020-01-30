@@ -108,8 +108,8 @@ För att lägga till varianttitel, klicka på plustecknet vid Har titel (lägg t
   ```Exempel: Housing sarts```    
 
 ##### Delbeteckning
-* Har titel/Titel/Har del/Titeldel/Delbeteckning (hasTitle/Title/hasPart/TitlePart/partNumber = 245 #n)
-
+* Har titel/Titel/Har del/Titeldel/Delbeteckning (hasTitle/Title/hasPart/TitlePart/partNumber = 245 #n)  
+ 
 ##### Deltitel  
 * Har titel/Titel/Har del/Titeldel/Deltitel (hasTitle/Title/hasPart/TitlePart/partName = 245 #p)
 
