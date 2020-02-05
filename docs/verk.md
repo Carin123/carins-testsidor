@@ -172,11 +172,9 @@ Länka till entiteter.
  
 Under Genre/form, ange dels termer som motsvarar marc-koder i 008, dels saogf-termer (genre/form-termer enligt Svenska ämnesord).   
 
-För att länka till termer som motsvarar marc-koder i 008, se rubriken Föreslagna (eller vid behov välj en annan rubrik längre ner i listan). Läs också instruktioner nedan i denna text under rubriker som Konferenspublikation och så vidare.   
-![Genre exempel](genre_exempel.png)  
-
-För att länka till saogf-termer, se nedan under Saogf-termer. På motsvarande sätt, länka vid behov till termer från andra listor, till exempel barngf-termer för barn- och ungdomslitteratur. Mer [information om listkoder](http://www.kb.se/katalogisering/Svenska-amnesord/genrer-form/). 
-
+##### Marc-koder i 008
+För att länka till genretermer som motsvarar marc-koder i 008, välj rubrik under Föreslagna (eller vid behov välj en annan rubrik längre ner i listan).  
+ 
 ##### Föreslagna
 
 ###### Konferenspublikation       
@@ -204,12 +202,16 @@ För att länka till saogf-termer, se nedan under Saogf-termer. På motsvarande 
   Välj Innehåll, i listan över typer. Skriv "avhandling" i sökrutan. Länka till entitet.      
   ```Exempel: Akademisk avhandling```  
   Se även [Anmärkning om akademisk avhandling](#anmarkning-om-akademisk-avhandling).  
-  
+    
 ##### Saogf-termer  
 * Genre/form – saogf-termer (genreForm = 655 -/7 #a, #2 saogf)  
 Sök direkt efter genre/form-termer i sökrutan. Länka till entitet.   
  ```Exempel: Självbiografier```  
-Träfflistan vid sökning på entiteter är för närvarande inte sorterad. Var därför uppmärksam på att det finns liknande genre/form-termer med olika listkoder, till exempel saogf, barngf, gmgpc/swe. Välj kod från rätt lista. För att söka på koder från en specifik lista, lägg till listkoden efter sökordet och mellanslag, t.ex. "tecknade serier saogf". Mer [information om listkoder](http://www.kb.se/katalogisering/Svenska-amnesord/genrer-form/).  
+ 
+Träfflistan vid sökning på entiteter är för närvarande inte sorterad. Var därför uppmärksam på att det finns liknande genre/form-termer med olika listkoder, till exempel saogf, barngf, gmgpc/swe. Välj kod från rätt lista. För att söka på koder från en specifik lista, lägg till listkoden efter sökordet och mellanslag, t.ex. "tecknade serier saogf". För att söka fram en barngf-term, lägg på motsvarande sätt till koden barngf, t.ex. "bilderböcker barngf".  
+Mer [information om listkoder](http://www.kb.se/katalogisering/Svenska-amnesord/genrer-form/). 
+![Genre exempel](genre_exempel.png) 
+
 Se [instruktionsfilm](https://youtu.be/aAMzfkh_ycA)  
 
 #### Klassifikation  
