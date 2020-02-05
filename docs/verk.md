@@ -177,27 +177,27 @@ För att länka till genretermer som motsvarar marc-koder i 008, välj rubrik un
  
 ###### Konferenspublikation       
 * Genre/form – konferenspublikation (genreForm = 008/29)  
-  Välj Konferenspublikation i listan över typer. Länka till entitet.         
+  Välj Konferenspublikation under Föreslagna. Länka till entitet.         
   ```Exempel: Ja, resursen härrör från konferens```   
      
 ###### Festskrift     
 * Genre/form – festskrift (genreForm = 008/30)  
-  Välj Festskrift i listan över typer. Länka till entitet.    
+  Välj Festskrift under Föreslagna. Länka till entitet.    
   ```Exempel: Ja, resursen är en festskrift```    
   
 ###### Litterär genre  
 * Genre/form – litterär genre (genreForm = 008/33)  
-  Välj Litterär genre i listan över typer. Länka till entitet.  
+  Välj Litterär genre under Föreslagna. Länka till entitet.  
   ```Exempel: f ( = roman)```
   
 ###### Biografiskt material  
 * Genre/form – biografiskt material (genreForm = 008/34)  
-  Välj Biografiskt material i listan över typer. Länka till entitet.  
+  Välj Biografiskt material under Föreslagna. Länka till entitet.  
   ```Exempel: a (= självbiografi)```  
    
 ###### Akademisk avhandling      
 * Genre/form – akademisk avhandling (genreForm = 008/24-27)  
-  Välj Innehåll, i listan över typer. Skriv "avhandling" i sökrutan. Länka till entitet.      
+  Välj Innehåll under Föreslagna. Skriv "avhandling" i sökrutan. Länka till entitet.      
   ```Exempel: Akademisk avhandling```  
   Se även [Anmärkning om akademisk avhandling](#anmarkning-om-akademisk-avhandling).  
     
@@ -205,8 +205,7 @@ För att länka till genretermer som motsvarar marc-koder i 008, välj rubrik un
 * Genre/form – saogf-termer (genreForm = 655 -/7 #a, #2 saogf)  
 Sök direkt efter genre/form-termer i sökrutan. Länka till entitet.   
  ```Exempel: Självbiografier```  
- 
-Träfflistan vid sökning på entiteter är för närvarande inte sorterad. Var därför uppmärksam på att det finns liknande genre/form-termer med olika listkoder, till exempel saogf, barngf, gmgpc/swe. Välj kod från rätt lista. För att söka på koder från en specifik lista, lägg till listkoden efter sökordet och mellanslag, t.ex. "tecknade serier saogf". För att söka fram en barngf-term, lägg på motsvarande sätt till koden barngf, t.ex. "bilderböcker barngf".  
+ Träfflistan vid sökning på entiteter är för närvarande inte sorterad. Var därför uppmärksam på att det finns liknande genre/form-termer med olika listkoder, till exempel saogf, barngf, gmgpc/swe. Välj kod från rätt lista. För att söka på koder från en specifik lista, lägg till listkoden efter sökordet och mellanslag, t.ex. "tecknade serier saogf". För att söka fram en barngf-term, lägg på motsvarande sätt till koden barngf efter säkordet, t.ex. "bilderböcker barngf".  
 Mer [information om listkoder](http://www.kb.se/katalogisering/Svenska-amnesord/genrer-form/). 
 ![Genre exempel](genre_exempel.png) 
 
