@@ -172,7 +172,7 @@ Länka till entiteter.
  
 Under Genre/form, ange dels saogf-termer (genre/form-termer enligt Svenska ämnesord), dels termer som motsvarar marc-koder i 008. För att länka till saogf-termer, se nedan under Saogf-termer. På motsvarande sätt, länka vid behov till termer från andra listor, till exempel barngf-termer för barn- och ungdomslitteratur. Mer [information om listkoder](http://www.kb.se/katalogisering/Svenska-amnesord/genrer-form/).   
 
-För att länka till termer som motsvarar marc-koder i 008, se övriga rubriker under Lägg till entitet, Visa, se bilden nedan. De vanligaste finns under rubriken Föreslagna.  
+För att länka till termer som motsvarar marc-koder i 008, se övriga rubriker under Lägg till entitet, Visa, se bilden nedan. De vanligaste finns under rubriken Föreslagna. Läs också instruktioner nedan under rubriker som Biografiskt material och så vidare.   
 ![Genre exempel](genre_exempel.png)  
 
 ##### Saogf-termer  
