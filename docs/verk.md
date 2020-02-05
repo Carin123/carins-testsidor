@@ -173,7 +173,7 @@ Länka till entiteter.
 Under Genre/form, ange dels termer som motsvarar marc-koder i 008, dels saogf-termer (genre/form-termer enligt Svenska ämnesord).   
 
 ##### Marc-koder i 008
-För att länka till genretermer som motsvarar marc-koder i 008, välj rubrik under Föreslagna (eller vid behov välj en annan rubrik längre ner i listan).  
+För att länka till genretermer som motsvarar marc-koder i 008, välj rubrik under Föreslagna (eller vid behov välj en annan rubrik längre ner i listan). Trunkera med * för att se listan över typer under varje rubrik.  
  
 ###### Konferenspublikation       
 * Genre/form – konferenspublikation (genreForm = 008/29)  
