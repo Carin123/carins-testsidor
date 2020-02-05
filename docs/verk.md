@@ -172,43 +172,45 @@ Länka till entiteter.
  
 Under Genre/form, ange dels termer som motsvarar marc-koder i 008, dels saogf-termer (genre/form-termer enligt Svenska ämnesord).   
 
-För att länka till termer som motsvarar marc-koder i 008, se övriga rubriker under Lägg till entitet, Visa, se bilden nedan. De vanligaste finns under rubriken Föreslagna. Läs också instruktioner nedan under rubriker som Konferenspublikation och så vidare.   
+För att länka till termer som motsvarar marc-koder i 008, se rubriken Föreslagna (eller vid behov välj en annan rubrik längre ner i listan). Läs också instruktioner nedan i denna text under rubriker som Konferenspublikation och så vidare.   
 ![Genre exempel](genre_exempel.png)  
 
 För att länka till saogf-termer, se nedan under Saogf-termer. På motsvarande sätt, länka vid behov till termer från andra listor, till exempel barngf-termer för barn- och ungdomslitteratur. Mer [information om listkoder](http://www.kb.se/katalogisering/Svenska-amnesord/genrer-form/). 
 
+##### Föreslagna
+
+###### Konferenspublikation       
+* Genre/form – konferenspublikation (genreForm = 008/29)  
+  Välj Konferenspublikation i listan över typer. Länka till entitet.         
+  ```Exempel: Ja, resursen härrör från konferens```   
+     
+###### Festskrift     
+* Genre/form – festskrift (genreForm = 008/30)  
+  Välj Festskrift i listan över typer. Länka till entitet.    
+  ```Exempel: Ja, resursen är en festskrift```    
+  
+###### Litterär genre  
+* Genre/form – litterär genre (genreForm = 008/33)  
+  Välj Litterär genre i listan över typer. Länka till entitet.  
+  ```Exempel: f ( = roman)```
+  
+###### Biografiskt material  
+* Genre/form – biografiskt material (genreForm = 008/34)  
+  Välj Biografiskt material i listan över typer. Länka till entitet.  
+  ```Exempel: a (= självbiografi)```  
+   
+###### Akademisk avhandling      
+* Genre/form – akademisk avhandling (genreForm = 008/24-27)  
+  Välj Innehåll, i listan över typer. Skriv "avhandling" i sökrutan. Länka till entitet.      
+  ```Exempel: Akademisk avhandling```  
+  Se även [Anmärkning om akademisk avhandling](#anmarkning-om-akademisk-avhandling).  
+  
 ##### Saogf-termer  
 * Genre/form – saogf-termer (genreForm = 655 -/7 #a, #2 saogf)  
 Sök direkt efter genre/form-termer i sökrutan. Länka till entitet.   
  ```Exempel: Självbiografier```  
 Träfflistan vid sökning på entiteter är för närvarande inte sorterad. Var därför uppmärksam på att det finns liknande genre/form-termer med olika listkoder, till exempel saogf, barngf, gmgpc/swe. Välj kod från rätt lista. För att söka på koder från en specifik lista, lägg till listkoden efter sökordet och mellanslag, t.ex. "tecknade serier saogf". Mer [information om listkoder](http://www.kb.se/katalogisering/Svenska-amnesord/genrer-form/).  
 Se [instruktionsfilm](https://youtu.be/aAMzfkh_ycA)  
-
-##### Konferenspublikation       
-* Genre/form – konferenspublikation (genreForm = 008/29)  
-  Välj Konferenspublikation i listan över typer. Länka till entitet.         
-  ```Exempel: Ja, resursen härrör från konferens```   
-     
-##### Festskrift     
-* Genre/form – festskrift (genreForm = 008/30)  
-  Välj Festskrift i listan över typer. Länka till entitet.    
-  ```Exempel: Ja, resursen är en festskrift```    
-  
-##### Litterär genre  
-* Genre/form – litterär genre (genreForm = 008/33)  
-  Välj Litterär genre i listan över typer. Länka till entitet.  
-  ```Exempel: f ( = roman)```
-  
-##### Biografiskt material  
-* Genre/form – biografiskt material (genreForm = 008/34)  
-  Välj Biografiskt material i listan över typer. Länka till entitet.  
-  ```Exempel: a (= självbiografi)```  
-   
-##### Akademisk avhandling      
-* Genre/form – akademisk avhandling (genreForm = 008/24-27)  
-  Välj Innehåll, i listan över typer. Skriv "avhandling" i sökrutan. Länka till entitet.      
-  ```Exempel: Akademisk avhandling```  
-  Se även [Anmärkning om akademisk avhandling](#anmarkning-om-akademisk-avhandling).  
 
 #### Klassifikation  
 * DDK-klassifikation  
