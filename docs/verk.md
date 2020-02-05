@@ -178,7 +178,7 @@ För att länka till termer som motsvarar marc-koder i 008, se övriga rubriker 
 * Genre/form – saogf-termer (genreForm = 655 -/7 #a, #2 saogf)  
 Sök direkt efter genre/form-termer i sökrutan. Länka till entitet.   
  ```Exempel: Självbiografier```  
-Träfflistan vid sökning på entiteter är för närvarande inte sorterad. Var därför uppmärksam på att det finns liknande genre/form-termer med olika listkoder, till exempel saogf, barngf, gmgpc/swe. Välj kod från rätt lista. För att söka på koder från en specifik lista, lägg till listkoden efter sökordet och mellanslag, t.ex. "tecknade serier barngf". Mer [information om listkoder](http://www.kb.se/katalogisering/Svenska-amnesord/genrer-form/).  
+Träfflistan vid sökning på entiteter är för närvarande inte sorterad. Var därför uppmärksam på att det finns liknande genre/form-termer med olika listkoder, till exempel saogf, barngf, gmgpc/swe. Välj kod från rätt lista. För att söka på koder från en specifik lista, lägg till listkoden efter sökordet och mellanslag, t.ex. "tecknade serier saogf". Mer [information om listkoder](http://www.kb.se/katalogisering/Svenska-amnesord/genrer-form/).  
 Se [instruktionsfilm](https://youtu.be/aAMzfkh_ycA)  
   
 ##### Biografiskt material  
