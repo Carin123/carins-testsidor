@@ -168,11 +168,11 @@ Anmärkningen finns i vissa mallar och kan läggas till med hjälp av Berikning 
   
 #### Genre form
 Länka till entiteter.  
- För att söka efter entiteter inom Genre/form, klicka på plustecknet vid Genre/form (lägg till entitet). I Lägg till entitet, välj typ. Skriv in sökbegrepp. Trunkera genom att trycka på mellanslagstangenten eller med * i sökrutan. Välj entitet genom att klicka på plustecknet vid entiteten (Lägg till). Vid behov, välj ytterligare entiteter i listan. 
+ För att söka efter entiteter inom Genre/form, klicka på plustecknet vid Genre/form (lägg till entitet). Skriv in sökbegrepp. Vid behov, välj typ. Trunkera genom att trycka på mellanslagstangenten eller med * i sökrutan. Välj entitet genom att klicka på plustecknet vid entiteten (Lägg till). Vid behov, välj ytterligare entiteter i listan. 
  
 Under Genre/form, ange dels saogf-termer (genre/form-termer enligt Svenska ämnesord), dels termer som motsvarar marc-koder i 008.  
-För att länka till saogf-termer, välj Genre/form i listan (det första alternativet under Alla).  
-För att länka till termer som motsvarar marc-koder i 008, se övriga rubriker. De vanligaste finns under rubriken Föreslagna.  
+För att länka till saogf-termer, se nedan under Saogf-termer. På motsvarande sätt, länka vid behov till termer från andra listor, till exempel "barngf" för barn- och ungdomslitteratur. Mer [information om listkoder](http://www.kb.se/katalogisering/Svenska-amnesord/genrer-form/).   
+För att länka till termer som motsvarar marc-koder i 008, se övriga rubriker under Lägg till entitet, Visa i sidorutan. De vanligaste finns under rubriken Föreslagna.  
 ![Genre exempel](genre_exempel.png)  
 
 ##### Saogf-termer  
