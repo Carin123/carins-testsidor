@@ -173,32 +173,28 @@ Länka till entiteter.
 Under Genre/form, ange dels termer som motsvarar marc-koder i 008, dels saogf-termer (genre/form-termer enligt Svenska ämnesord).   
 
 ##### Marc-koder i 008
-För att länka till genretermer som motsvarar marc-koder i 008, välj rubrik under Föreslagna (eller vid behov välj en annan rubrik längre ner i listan). Trunkera med * för att se listan över typer under varje rubrik.  
+För att länka till genretermer som motsvarar marc-koder i 008, välj rubrik under Föreslagna (eller vid behov välj en annan rubrik längre ner i listan). Trunkera med * för att se listan över typer under varje rubrik. Länka till entitet.  
  
 ###### Konferenspublikation       
-* Genre/form – konferenspublikation (genreForm = 008/29)  
-  Välj Konferenspublikation under Föreslagna. Länka till entitet.         
+* Genre/form – konferenspublikation (genreForm = 008/29)       
   ```Exempel: Ja, resursen härrör från konferens```   
      
 ###### Festskrift     
-* Genre/form – festskrift (genreForm = 008/30)  
-  Välj Festskrift under Föreslagna. Länka till entitet.    
+* Genre/form – festskrift (genreForm = 008/30)     
   ```Exempel: Ja, resursen är en festskrift```    
   
 ###### Litterär genre  
-* Genre/form – litterär genre (genreForm = 008/33)  
-  Välj Litterär genre under Föreslagna. Länka till entitet.  
+* Genre/form – litterär genre (genreForm = 008/33)    
   ```Exempel: f ( = roman)```
   
 ###### Biografiskt material  
-* Genre/form – biografiskt material (genreForm = 008/34)  
-  Välj Biografiskt material under Föreslagna. Länka till entitet.  
+* Genre/form – biografiskt material (genreForm = 008/34)   
   ```Exempel: a (= självbiografi)```  
    
 ###### Akademisk avhandling      
 * Genre/form – akademisk avhandling (genreForm = 008/24-27)  
-  Välj Innehåll under Föreslagna. Skriv "avhandling" i sökrutan. Länka till entitet.      
-  ```Exempel: Akademisk avhandling```  
+ Skriv "avhandling" i sökrutan.  
+ ```Exempel: Akademisk avhandling```  
   Se även [Anmärkning om akademisk avhandling](#anmarkning-om-akademisk-avhandling).  
     
 ##### Saogf-termer  
