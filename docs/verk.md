@@ -181,12 +181,12 @@ Sök direkt efter genre/form-termer i sökrutan. Länka till entitet.
  ```Exempel: Självbiografier```  
 Träfflistan vid sökning på entiteter är för närvarande inte sorterad. Var därför uppmärksam på att det finns liknande genre/form-termer med olika listkoder, till exempel saogf, barngf, gmgpc/swe. Välj kod från rätt lista. För att söka på koder från en specifik lista, lägg till listkoden efter sökordet och mellanslag, t.ex. "tecknade serier saogf". Mer [information om listkoder](http://www.kb.se/katalogisering/Svenska-amnesord/genrer-form/).  
 Se [instruktionsfilm](https://youtu.be/aAMzfkh_ycA)  
-  
-##### Biografiskt material  
-* Genre/form – biografiskt material (genreForm = 008/34)  
-  Välj Biografiskt material i listan över typer. Länka till entitet.  
-  ```Exempel: a (= självbiografi)```  
-  
+
+##### Konferenspublikation       
+* Genre/form – konferenspublikation (genreForm = 008/29)  
+  Välj Konferenspublikation i listan över typer. Länka till entitet.         
+  ```Exempel: Ja, resursen härrör från konferens```   
+     
 ##### Festskrift     
 * Genre/form – festskrift (genreForm = 008/30)  
   Välj Festskrift i listan över typer. Länka till entitet.    
@@ -196,12 +196,12 @@ Se [instruktionsfilm](https://youtu.be/aAMzfkh_ycA)
 * Genre/form – litterär genre (genreForm = 008/33)  
   Välj Litterär genre i listan över typer. Länka till entitet.  
   ```Exempel: f ( = roman)```
+  
+##### Biografiskt material  
+* Genre/form – biografiskt material (genreForm = 008/34)  
+  Välj Biografiskt material i listan över typer. Länka till entitet.  
+  ```Exempel: a (= självbiografi)```  
    
-##### Konferenspublikation       
-* Genre/form – konferenspublikation (genreForm = 008/29)  
-  Välj Konferenspublikation i listan över typer. Länka till entitet.         
-  ```Exempel: Ja, resursen härrör från konferens```   
-     
 ##### Akademisk avhandling      
 * Genre/form – akademisk avhandling (genreForm = 008/24-27)  
   Välj Innehåll, i listan över typer. Skriv "avhandling" i sökrutan. Länka till entitet.      
