@@ -2,7 +2,7 @@
 section: Generell beskrivning
 title: Instans
 order: 27
-date: 2020-02-25
+date: 2020-02-27
 tags:
 - under arbete
 - instans
@@ -335,7 +335,7 @@ Land, År och eventuellt Datum  ska ligga inom Primär utgivning.
 * Identifikator/ISBN/Värde (identifiedBy/Isbn/value = 020 #a)  
   Skriv in uppgiften.  
   ```Exempel: 9789188107213```
-* Identifikator/Särskiljande tillägg (= Bestämning) (identifiedBy/qualifier = 020 #q)  
+* Identifikator/ISBN/Särskiljande tillägg (= Bestämning) (identifiedBy/qualifier = 020 #q)  
   Skriv in uppgiften.  
   ```Exempel: inbunden```  
 
