@@ -351,7 +351,7 @@ Ange ogiltiga ISBN här och inte under Identifikator/ISBN/Ogiltigt värde. För 
 * Indirekt identifierad av/ISBN/Värde (indirectlyIdentifiedBy/Isbn/value = 020 #z)  
   Skriv in uppgiften.  
   ```Exempel: 97891881072```
-* Indirekt identifierad av/Särskiljande tillägg (= Bestämning) (indirectlyIdentifiedBy/qualifier = 020 #q)  
+* Indirekt identifierad av/ISBN/Särskiljande tillägg (= Bestämning) (indirectlyIdentifiedBy/qualifier = 020 #q)  
   Skriv in uppgiften.  
   ```Exempel: inbunden``` 
     
