@@ -74,7 +74,7 @@ När Berika från mall har använts visas en text som beskriver hur många egens
 ## Detaljerad berikning
 Med funktionen _Detaljerad berikning_ kan du handplocka egenskaper från en post till en annan.
 
-För att göra detta behöver du tillgång till den berikande postens ID (URI), vilken du hittar i postens sammanfattning. Du kan också länka till posten genom att kopiera adressfältet i din webbläsare.
+Gå till Redigering och klicka på verktygsikonen. Välj Detaljerad berikning. Du behöver den berikande postens ID (URI), vilket du hittar i postens sammanfattning. Du kan också länka till posten genom att kopiera adressfältet i din webbläsare.
 
 Du kan välja mellan att  **utöka**  (+) eller  **ersätta**  (->) en egenskap. Att  **utöka**  innebär att information läggs till i den berikade posten.  **Ersätta**  resulterar i att den berikande posten skriver över egenskaper.
 
