@@ -45,7 +45,7 @@ Om det i posten som ska berikas finns uppenbara felaktigheter, är det bättre a
 
 Berika från mall:   
 
-![Berika från mall](berika.png)  
+![Berika från mall](berikafranmall.png)  
 
 När Berika från mall har använts visas en text som beskriver hur många egenskaper från mallen som har lagts till. Ange därefter korrekt metadata för respektive egenskap med hjälp av hjälptexterna och spara posten.  
 
@@ -68,7 +68,7 @@ När Berika från mall har använts visas en text som beskriver hur många egens
    * I post (A), klicka ID-numret som visas till höger i sammanfattningsrutan. Klicka på Kopiera ID till vänster om postens ID.
     </br>![Kopiera ID](KopieraID.PNG)
    * I post (B), välj Berika från post i verktygsmenyn. Välj Från ID. 
-    </br>![Berika från ID](BerikafranID.png)
+    </br>![Berika från ID](berikafranid.png)
    * Klistra in ID från (A). De egenskaper som inte redan finns i (B) läggs till. Länkade egenskaper visas i klartext först när du har sparat. 
    * Redigera och spara.
 
@@ -80,3 +80,7 @@ För att göra detta behöver du tillgång till den berikande postens ID (URI), 
 Du kan välja mellan att  **utöka**  (+) eller  **ersätta**  (->) en egenskap. Att  **utöka**  innebär att information läggs till i den berikade posten.  **Ersätta**  resulterar i att den berikande posten skriver över egenskaper.
 
 Observera att du inte kan använda detaljerad berikning inom Instans av verk. För vissa egenskaper inom Instans av verk kan du i stället använda funktionen Kopiera till urklipp om du vill plocka egenskaper från en post till en annan.
+
+Detaljerad berikning:   
+
+![Detaljerad berikning](detaljerad.png)  
