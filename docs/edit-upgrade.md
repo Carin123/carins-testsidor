@@ -14,7 +14,7 @@ tags:
 | ------ | ------ | ------ |
 | [Anvisningar och praxis](#anvisningar-och-praxis) | | [Berika från mall](#berika-fran-mall) | 
 | [Redigera](#redigera) | | [Berika från post](#berika-fran-post) | 
-| [Uppgradera](#uppgradera) | | |
+| [Uppgradera](#uppgradera) | |[Detaljerad berikning](#detaljerad-berikning)  |
 
 
 ## Anvisningar och praxis
