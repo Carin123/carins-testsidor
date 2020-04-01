@@ -82,7 +82,6 @@ Du kan välja mellan att  **utöka**  (+) eller  **ersätta**  (->) en egenskap.
 Observera att du inte kan använda detaljerad berikning inom Instans av verk. För vissa egenskaper inom Instans av verk kan du i stället använda funktionen Kopiera till urklipp om du vill plocka egenskaper från en post till en annan.
 
 Detaljerad berikning:   
-
-![Detaljerad berikning](detaljerad.png)  
-![Berika från ID](berikafranid.png)
+ 
+![Detaljerad berikning](detaljerad.png)
 
