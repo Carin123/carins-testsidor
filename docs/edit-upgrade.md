@@ -84,3 +84,5 @@ Observera att du inte kan använda detaljerad berikning inom Instans av verk. F�
 Detaljerad berikning:   
 
 ![Detaljerad berikning](detaljerad.png)  
+![Berika från ID](berikafranid.png)
+
