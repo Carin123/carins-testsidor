@@ -83,5 +83,4 @@ Observera att du inte kan anvÃ¤nda detaljerad berikning inom Instans av verk. FÃ
 
 Detaljerad berikning:   
  
-</br>![Detaljerad berikning](detaljerad.png)
-hej hej
+![Detaljerad berikning](detaljerad.png)
