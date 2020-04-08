@@ -11,8 +11,8 @@ date: 2020-04-08
 | ------ | 
 | [Dewey](#dewey) | 
 | [Libris](#libris)|
+| [RDA (Resursbeskrivning och åtkomst)](#rda)|
 | [Ämnesord](#amnesord) |
-| [Genre/form](#genre-form) | 
 
 ## Dewey
 [Filmade presentationer på svenska, om Dewey - sammanställning](http://www.kb.se/katalogisering/Klassifikation/DDK/Om-DDK/Webbkurser/)  
