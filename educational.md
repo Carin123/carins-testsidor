@@ -66,7 +66,7 @@ Under arbete:
 [Grundutbildning i RDA - sammanställning](http://www.kb.se/rdakatalogisering/RDA-redaktionen/Presentationer-och-informationsmaterial/)  
 (exemplen i utbildningen är inte anpassade till Libris nuvarande format)
 
-## Ämnesord
+## Amnesord
 [Riktlinjer för Svenska ämnesord (33:54 min)](http://youtu.be/yqihZsHLWaQ)  
 (exemplen i filmen är inte anpassade till Libris nuvarande format)  
   
