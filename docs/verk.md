@@ -2,7 +2,7 @@
 section: Generell beskrivning
 title: Verk
 order: 26
-date: 2020-04-03
+date: 2020-05-05
 tags:
 - under arbete
 - verk
@@ -118,6 +118,17 @@ Skriv in uppgiften.
   För att ange att texten är på flera språk, länka till ytterligare en språkkod.     
   
 #### Översättning   
+* Anmärkning: Språk (marc:LanguageNote = 041 i1: 1)  
+  Ange om resursen är/innehåller en översättning.  
+  För att lägga till uppgiften, klicka på plustecknet till höger om Instans av verk och verkstypen och välj Anmärkning: Språk. Välj fras från lista.  
+  ```Exempel: objektet är/innehåller översättning```  
+  
+* Originalversion/Verk/Språk (originalversion/Work/language = 041 #h)  
+  Ange det språk som en översatt text är översatt från. För en text som är översatt från engelska till svenska, ange engelska här.   
+  Klicka på plustecknet vid Instans av verk, välj Originalversion, klicka på plustecknet vid Originalversion, välj Skapa lokal entitet. Skriv Verk i rutan för Skapa lokal entitet och välj * Verk. Du behöver inte välja verkstyp här. Lägg till Språk under verk. Sök fram språkentiteten och länka.  
+  ![Uppgift om originalversionens språk](originalversionsprak.png)  
+För översättningar i flera led, länka först till det mellanliggande språket och därefter till originalspråket.  
+
 För en översättning ska översättningens språk också läggas till i klartext i marcpostens delfält #l, som ett tillägg till verkets titel.  
 
 Om översättningen är ett verk som har Primär medverkan, ska språket läggas till i 240 #l.  
@@ -129,17 +140,6 @@ Länka till entitet.
 Om översättningen är ett ingående verk, ange språket som ska visas i klartext här:  
 Har del/Verk/Språk (Language/label = 730 #l)  
 Länka till entitet.  
-
-* Anmärkning: Språk (marc:LanguageNote = 041 i1: 1)  
-  Ange om resursen är/innehåller en översättning.  
-  För att lägga till uppgiften, klicka på plustecknet till höger om Instans av verk och verkstypen och välj Anmärkning: Språk. Välj fras från lista.  
-  ```Exempel: objektet är/innehåller översättning```  
-  
-* Originalversion/Verk/Språk (originalversion/Work/language = 041 #h)  
-  Ange det språk som en översatt text är översatt från. För en text som är översatt från engelska till svenska, ange engelska här.   
-  Klicka på plustecknet vid Instans av verk, välj Originalversion, klicka på plustecknet vid Originalversion, välj Skapa lokal entitet. Skriv Verk i rutan för Skapa lokal entitet och välj * Verk. Lägg till Språk under verk. Sök fram språkentiteten och länka.  
-  ![Uppgift om originalversionens språk](originalversionsprak.png)  
-För översättningar i flera led, länka först till det mellanliggande språket och därefter till originalspråket.  
   
 ##### Parallelltext  
 (008/35-37 + 041 #a + #a)  
