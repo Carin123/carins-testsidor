@@ -115,7 +115,7 @@ Skriv in uppgiften.
   Ange textens språk. För en text på svenska, länka till svenska.   
   Länka till entitet.  
   ```Exempel: svenska (swe)```   
-  För att ange att texten är på flera språk, länka till ytterligare en språkkod. 
+  För att ange att texten är på flera språk, länka till ytterligare en språkkod.  
   För att ange originalspråk för ett översatt verk, se Översättning, nedan. 
   
 #### Översättning   
