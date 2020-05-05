@@ -306,7 +306,7 @@ Ange föredragen titel för översättningar, för verk som har givits ut under 
   Ange om resursen är/innehåller en översättning.  Välj fras från listan.  
   
 * Originalversion/Verk/Språk (originalversion/Work/language = 041 #h)  Ange originalspråk för ett översatt verk här.   
-Lägg till Originalversion under Instans av verk, skapa Verk som lokal entitet. Du behöver inte välja verkstyp här. Lägg till Språk och länka till entitet.
+Lägg till Originalversion under Instans av verk, skapa Verk som lokal entitet. Du behöver inte välja verkstyp här. Lägg till Språk och länka till entitet.  
  För översättningar i flera led, länka först till det mellanliggande språket och därefter till originalspråket.  
 
 För en översättning ska översättningens språk också läggas till i klartext i marcpostens delfält #l, som ett tillägg till verkets titel.  
