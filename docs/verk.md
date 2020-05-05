@@ -112,10 +112,11 @@ Skriv in uppgiften.
 
 ### Sprak 
 * Språk (language = 008/35-37)  
-  Ange textens språk. För en text på svenska, länka till svenska. För att ange originalspråk för ett översatt verk, se Originalversion/Verk/Språk.  
+  Ange textens språk. För en text på svenska, länka till svenska.   
   Länka till entitet.  
   ```Exempel: svenska (swe)```   
-  För att ange att texten är på flera språk, länka till ytterligare en språkkod.     
+  För att ange att texten är på flera språk, länka till ytterligare en språkkod. 
+  För att ange originalspråk för ett översatt verk, se Översättning, nedan. 
   
 #### Översättning   
 * Anmärkning: Språk (marc:LanguageNote = 041 i1: 1)  
