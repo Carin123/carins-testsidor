@@ -12,19 +12,18 @@ tags:
 
 | Innehåll  | | |
 | ------ | ------ | ------ |
-| [Inledning](#inledning) | |   | 
+| [Inledning](#inledning) | | [Copyrightår](#copyrightar)  | 
 | [Instanstyp](#instanstyp) | | [Identifikator](#identifikator) | 
-| [Utgivningssätt](#utgivningssatt)| | [Identifikator](#identifikator) | 
-| [Medietyp](#medietyp) | | [Omfång](#omfang) |
-| [Bärartyp](#barartyp) | | [Övriga fysiska detaljer](#ovriga-fysiska-detaljer) |
-| [Titel](#titel)| | [Mått](#matt) | 
-| [Upphovsuppgift](#upphovsuppgift) | | [Medföljande material](#medfoljande-material) |
-| [Upplageuppgift](#upplageuppgift) | | [Seriemedlemskap](#seriemedlemskap) |
-| [Produktion](#produktion) | | [Anmärkning](#anmarkning) |
-| [Huvudsakligt tillgängliggörande](#huvudsakligt-tillgangliggorande) | | [Innehållsförteckning](#innehallsforteckning) |
-| [Utgivning](#utgivning) | | [Målgruppsanmärkning](#malgruppsanmarkning) |
-| [Tillverkning](#tillverkning) | | [Annat bärarformat](#annat-bararformat) |
-| [Copyrightår](#copyrightar) | |[Elektronisk adress](#annan-relaterad-resurs) |
+| [Utgivningssätt](#utgivningssatt)| | [Omfång](#omfang) | 
+| [Medietyp](#medietyp) | | [Övriga fysiska detaljer](#ovriga-fysiska-detaljer) |
+| [Bärartyp](#barartyp) | | [Mått](#matt) |
+| [Titel](#titel)| | [Medföljande material](#medfoljande-material) | 
+| [Upphovsuppgift](#upphovsuppgift) | | [Seriemedlemskap](#seriemedlemskap) |
+| [Upplageuppgift](#upplageuppgift) | | [Anmärkning](#anmarkning) |
+| [Produktion](#produktion) | | [Innehållsförteckning](#innehallsforteckning) |
+| [Huvudsakligt tillgängliggörande](#huvudsakligt-tillgangliggorande) | | [Målgruppsanmärkning](#malgruppsanmarkning) |
+| [Utgivning](#utgivning) | | [Annat bärarformat](#annat-bararformat) |
+| [Tillverkning](#tillverkning) | | [Elektronisk adress](#annan-relaterad-resurs) |
 
 ## Inledning
 En instans är en instans av ett verk, till exempel en viss utgåva av ett verk. Instans kallas också manifestation. Beskrivningen av instansen innehåller information som utgivning, bärartyp och omfång. Vissa egenskaper, till exempel ämne, klassifikation, språk och innehållstyp, knyts i stället till verket. Läs mer om [Verk](https://libris.kb.se/katalogisering/help/workflow-work).   
