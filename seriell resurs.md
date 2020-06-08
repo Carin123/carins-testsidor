@@ -229,25 +229,29 @@ Lägg till Identifikator och välj ISSN. Skriv in ISSN under Värde.
   Beskriven av/Post/Kontrollnummer, motsvarande delfält w, är för närvarande låst för redigering. Det går därmed inte att lägga till fältet eller redigera det i befintliga beskrivningar.  
   
 ### Relationer mellan resurser
-* Relationer (länkfält): Fortsätter (780 0/0), Fortsättes av (785 0/0), Ersätter (780 0/2), med flera - konstrueras enligt följande mönster.   
-  Under Instans av Verk, lägg till egenskaper genom att klicka på plustecknet vid Instans av Verk/Text (Lägg till egenskaper under: Text). Välj till exempel Fortsätter (eller Fortsättes av eller annan relation) och lägg till det. Skapa ett verk som lokal entitet genom att klicka på plustecknet vid Fortsätter. Klicka på Skapa lokal entitet. Välj Verk i listan. Skapa en instans av verket genom att klicka på plustecknet vid Verk (Lägg till egenskaper under: Verk) och lägg till Har instans. Klicka på plustecknet vid Har instans och skapa instansen som lokal entitet (klicka på Skapa lokal entitet och välj Instans). Ange egenskaper för instansen, till exempel titel och identifikator, se nedan.  
-  
-* Fortsätter/Verk/Har instans/Instans/Har titel/Titel (780 0/0 #t)  
+* Relationer (länkfält): Fortsätter (780 0/0), Fortsättes av (785 0/0), Ersätter (780 0/2), med flera.
+Under Instans, lägg till typ av relation med plustecknet i verktygsmenyn (Lägg till egenskap under: Instans), sök upp och länka till den aktuella resursen. I marcexporten skapas följande delfält:  
+#t #x #w  
+
+I vissa fall fungerar marcexporten inte fullt ut. Man får då skapa lokal entitet, enligt exemplet nedan (exemplet Fortsätter).   
+För närvarande fungerar marcexporten inte när det finns parentestillägg (Särskiljande tillägg) i anslutning till nyckeltiteln i posten man länkar till.   
+ 
+* Fortsätter/Instans/Har titel/Titel (780 0/0 #t)  
  För att lägga till titel under Fortsätter, Fortsättes av, Ersätter, med flera:  
-  Klicka på plustecknet vid Instans (Lägg till egenskaper under: Instans) och lägg till Har titel. Välj Titel. Ta bort Övrig   titelinformation. Skriv in uppgiften under Huvudtitel.
+ Skapa Instans som lokal entitet. Man behöver inte välj Instanstyp här. Lägg till Har titel. Välj Titel. Skriv in uppgiften under Huvudtitel.
  <br/>```Exempel:```
   * ```Aktuellt magazin```
   * ```Medlemstidning (Svenska Schweisshundklubben)```
   
 * Fortsätter/Verk/Har instans/Instans/Identifikator/ISSN/Värde (780 0/0 #x)  
- För att lägga till ISSN för den resurs man länkar till, under Fortsätter, Fortsättes av, Ersätter, med flera, klicka på plustecknet vid Instans (lägg till egenskaoer under: Instans) och lägg till Identifikator (identifiedBy). Välj typ ISSN. Skriv in ISSN under Värde.  
+  Lägg till Identifikator vid Instans. Välj typ ISSN. Skriv in ISSN under Värde.  
 ```Exempel: 1402-1250```  
 
 Exempel:  
 
 ![Exempel på relationen Fortsättes av för seriell resurs](fortsatter.png)  
 
-* Fortsätter/Verk/Har instans/Instans/Beskriven av/Post/Kontrollnummer (780 0/0 #w)  
+* Fortsätter/Instans/Beskriven av/Post/Kontrollnummer (780 0/0 #w)  
   Beskriven av/Post/Kontrollnummer, motsvarande delfält w, är för närvarande låst för redigering. Det går därmed inte att lägga till egenskapen eller redigera den i befintliga beskrivningar.  
 
   Hör följer ett urval av de relationer som kan läggas till, enligt samma mönster som Fortsätter (se ovan), under Instans av Verk:  
