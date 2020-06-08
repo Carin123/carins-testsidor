@@ -30,8 +30,7 @@ Denna hjälptext ger kortfattade instruktioner för de vanligaste egenskaperna f
 | | [Behandling vid titeländring](#behandling-vid-titelandring) |  |
 | | [Anmärkning](#anmarkning)| |
 | | [Annat bärarformat](#annat-bararformat) | |
-| | [Annat bärarformat](#annat-bararformat) | |
-[Relationer under verk (Fortsätter, Ersätter etc)](#relationer-under-verk)
+| | Relationer mellan resurser (Fortsätter, Ersätter etc)](#relationer-mellan-resurser) | |
 
 ## Inledning
 Beskrivningen av en tryckt seriell resurs innehåller följande tre delar:  
@@ -229,7 +228,7 @@ Lägg till Identifikator och välj ISSN. Skriv in ISSN under Värde.
  Typanmärkning i samband med Annat bärarformat kan för närvarande inte läggas till.
   Beskriven av/Post/Kontrollnummer, motsvarande delfält w, är för närvarande låst för redigering. Det går därmed inte att lägga till fältet eller redigera det i befintliga beskrivningar.  
   
-### Relationer
+### Relationer mellan resurser
 * Relationer (länkfält): Fortsätter (780 0/0), Fortsättes av (785 0/0), Ersätter (780 0/2), med flera - konstrueras enligt följande mönster.   
   Under Instans av Verk, lägg till egenskaper genom att klicka på plustecknet vid Instans av Verk/Text (Lägg till egenskaper under: Text). Välj till exempel Fortsätter (eller Fortsättes av eller annan relation) och lägg till det. Skapa ett verk som lokal entitet genom att klicka på plustecknet vid Fortsätter. Klicka på Skapa lokal entitet. Välj Verk i listan. Skapa en instans av verket genom att klicka på plustecknet vid Verk (Lägg till egenskaper under: Verk) och lägg till Har instans. Klicka på plustecknet vid Har instans och skapa instansen som lokal entitet (klicka på Skapa lokal entitet och välj Instans). Ange egenskaper för instansen, till exempel titel och identifikator, se nedan.  
   
