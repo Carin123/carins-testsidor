@@ -30,7 +30,7 @@ Denna hjälptext ger kortfattade instruktioner för de vanligaste egenskaperna f
 | | [Behandling vid titeländring](#behandling-vid-titelandring) |  |
 | | [Anmärkning](#anmarkning)| |
 | | [Annat bärarformat](#annat-bararformat) | |
-| | Relationer mellan resurser (Fortsätter, Ersätter etc)](#relationer-mellan-resurser) | |
+| | [Relationer](#relationer) | | 
 
 ## Inledning
 Beskrivningen av en tryckt seriell resurs innehåller följande tre delar:  
