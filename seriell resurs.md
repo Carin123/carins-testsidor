@@ -2,9 +2,8 @@
 section: Materialtyper
 title: Tryckt seriell resurs
 order: 55
-date: 2020-06-10
+date: 2020-06-12
 tags:
-- under arbete
 - seriell resurs
 - tidskrift
 - monografiserie
@@ -31,6 +30,8 @@ Denna hjälptext ger kortfattade instruktioner för de vanligaste egenskaperna f
 | | [Anmärkning](#anmarkning)| |
 | | [Annat bärarformat](#annat-bararformat) | |
 | | [Relationer](#relationer) | | 
+
+NYTT FRÅN VERSION 1.17.2: Relationer (länkfält), till exempel Fortsätter, Fortsättes av, Ersätter, med flera, har flyttats från Verk till Instans.
 
 ## Inledning
 Beskrivningen av en tryckt seriell resurs innehåller följande tre delar:  
@@ -251,7 +252,7 @@ följ mönstret för Fortsätter, se nedan.
 
 Exempel:  
 
-![Exempel på relationen Fortsätter för seriell resurs](fortsatter_seriell.png)  
+![Exempel på relationen Fortsättes av för seriell resurs](fortsatter_seriell.png)  
 
 * Fortsätter/Instans/Beskriven av/Post/Kontrollnummer (780 0/0 #w)  
   Beskriven av/Post/Kontrollnummer, motsvarande delfält w, är för närvarande låst för redigering. Det går därmed inte att lägga till egenskapen eller redigera den i befintliga beskrivningar.  
