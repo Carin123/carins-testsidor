@@ -31,7 +31,7 @@ Denna hjälptext ger kortfattade instruktioner för de vanligaste egenskaperna f
 | | [Annat bärarformat](#annat-bararformat) | |
 | | [Relationer](#relationer) | | 
 
-NYTT FRÅN VERSION 1.17.2: Relationer (länkfält), till exempel Fortsätter, Fortsättes av, Ersätter, med flera, har flyttats från Verk till Instans.
+**NYTT FRÅN VERSION 1.17.2:** Relationer (länkfält), till exempel Fortsätter, Fortsättes av, Ersätter, med flera, har flyttats från Verk till Instans.
 
 ## Inledning
 Beskrivningen av en tryckt seriell resurs innehåller följande tre delar:  
