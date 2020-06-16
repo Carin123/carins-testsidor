@@ -130,7 +130,7 @@ Skriv in uppgiften.
 * Originalversion/Verk/Verkstyp/Språk (originalversion/Work/type: Work/language = 041 #h)  
   Ange det språk som en översatt text är översatt från. För en text som är översatt från engelska till svenska, ange engelska här.   
   Klicka på plustecknet vid Instans av verk, välj Originalversion, klicka på plustecknet vid Originalversion, välj Skapa lokal entitet. Skriv Verk i rutan för Skapa lokal entitet och välj * Verk. Man behöver inte välja verkstyp här. Lägg till Språk under verk. Sök fram språkentiteten och länka.  
-  ![Uppgift om originalversionens språk](originalversionsprak.png)  
+  ![Uppgift om originalversionens språk](originalversion.png)  
 För översättningar i flera led, länka först till det mellanliggande språket och därefter till originalspråket.  
 
 För en översättning ska översättningens språk också läggas till i klartext i marcpostens delfält #l, som ett tillägg till verkets titel.  
