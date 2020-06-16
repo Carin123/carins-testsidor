@@ -64,13 +64,13 @@ Ange föredragen titel för översättningar, för verk som har givits ut under 
   För en titel som börjar med bestämd eller obestämd artikel, ska artikeln fileras bort. Lägg till fileringsvärde och ange en siffra.  
 
 ##### Verk utan Primär medverkan
-*	Uttryck av/Verk/Har titel/Titel/Huvudtitel (expressionOf/Work/hasTitle/Title/mainTitle = 130 #a)  
+*	Uttryck av/Verk/Verkstyp/Har titel/Titel/Huvudtitel (expressionOf/Work/type: Work/hasTitle/Title/mainTitle = 130 #a)  
  "Originaltitel" för ett verk utan Medverkan och funktion/Primär medverkan anges här.
-Under Instans av Verk, lägg till Uttryck av. Skapa verk som lokal entitet (skriv "verk" i rutan Skapa lokal entitet och välj verk). Lägg till Har titel. Välj Titel.
+Under Instans av Verk, lägg till Uttryck av. Skapa verk som lokal entitet (skriv "verk" i rutan Skapa lokal entitet och välj verk). Man behöver inte välja verkstyp här. Lägg till Har titel. Välj Titel.
 Skriv in uppgiften under Huvudtitel.  
 ```Exempel: Bibeln``` 
-*	Uttryck av/Verk/Har titel/Titel/Deltitel  
-(expressionOf/Work/hasTitle/Title/partName = 130 #p)  
+*	Uttryck av/Verk/Verkstyp/Har titel/Titel/Deltitel  
+(expressionOf/Work/type: Work/hasTitle/Title/partName = 130 #p)  
 Lägg till eventuell deltitel.    
 Skriv in uppgiften.  
 
@@ -86,7 +86,7 @@ Skriv in uppgiften.
 * Relationer till andra verk med Primär medverkan (700 1/- #a, #d, #t)  
    [Se Relationer till delar och verk](https://libris.kb.se/katalogisering/help/workflow-agent-relation).
 *  Relationer till andra verk utan Medverkan och funktion/Primär medverkan (730 0/_ , icke-analytisk sökingång)  
-   Under Instans av Verk, lägg till Relation. Välj typ Relation. Lägg till Entitet och välj Entitet. Skapa verk som lokal entitet. Lägg till Har titel och välj Titel. Om det relaterade verket är en översättning, lägg till Språk under Verk och länka till entitet.  
+   Under Instans av Verk, lägg till Relation. Välj typ Relation. Lägg till Entitet och välj Entitet. Skapa verk som lokal entitet. Man behöver inte välja verkstyp här. Lägg till Har titel och välj Titel. Om det relaterade verket är en översättning, lägg till Språk under Verk och länka till entitet.  
   
 ### Medverkan och funktion  
 * Medverkan och funktion  
@@ -127,9 +127,9 @@ Skriv in uppgiften.
   För att lägga till uppgiften, klicka på plustecknet till höger om Instans av verk och verkstypen och välj Anmärkning: Språk. Välj fras från lista.  
   ```Exempel: objektet är/innehåller översättning```  
   
-* Originalversion/Verk/Språk (originalversion/Work/language = 041 #h)  
+* Originalversion/Verk/Verkstyp/Språk (originalversion/Work/type: Work/language = 041 #h)  
   Ange det språk som en översatt text är översatt från. För en text som är översatt från engelska till svenska, ange engelska här.   
-  Klicka på plustecknet vid Instans av verk, välj Originalversion, klicka på plustecknet vid Originalversion, välj Skapa lokal entitet. Skriv Verk i rutan för Skapa lokal entitet och välj * Verk. Du behöver inte välja verkstyp här. Lägg till Språk under verk. Sök fram språkentiteten och länka.  
+  Klicka på plustecknet vid Instans av verk, välj Originalversion, klicka på plustecknet vid Originalversion, välj Skapa lokal entitet. Skriv Verk i rutan för Skapa lokal entitet och välj * Verk. Man behöver inte välja verkstyp här. Lägg till Språk under verk. Sök fram språkentiteten och länka.  
   ![Uppgift om originalversionens språk](originalversionsprak.png)  
 För översättningar i flera led, länka först till det mellanliggande språket och därefter till originalspråket.  
 
@@ -139,10 +139,10 @@ Om översättningen är ett verk som har Primär medverkan, ska språket läggas
 **Från och med version 1.7 skapas språktillägget automatiskt, för 240 #l.**   
 
 Om översättningen är ett anonymt verk, det vill säga saknar Primär medverkan, ange språket som ska visas i klartext här:  
-Uttryck av/Verk/Språk (Language/label = 130 #l)  
+Uttryck av/Verk/Verkstyp/Språk (Language/label = 130 #l)  
 Länka till entitet.  
 Om översättningen är ett ingående verk, ange språket som ska visas i klartext här:  
-Har del/Verk/Språk (Language/label = 730 #l)  
+Har del/Verk/Verkstyp/Språk (Language/label = 730 #l)  
 Länka till entitet.  
   
 ##### Parallelltext  
@@ -155,12 +155,12 @@ Länka till entitet.
 (008/35-37 + 041 0/- #a + 041 1/- #a #h)  
 * Språk (language = 008/35-37) +
    Anmärkning: Språk: Objektet är/innehåller ej översättning (marc:languageNote = 041 0/- #a)   
-* Har del/Verk/Språk (hasPart/Work/language = 041 #a) +  
+* Har del/Verk/Verkstyp/Språk (hasPart/Work/type: Work/language = 041 #a) +  
   Anmärkning: Språk: Objektet är/innehåller översättning (marc:languageNote 041 1/-) +  
-  Originalversion/Verk/Språk (originalVersion/Work/language = 041 #h) 
+  Originalversion/Verk/Verkstyp/Språk (originalVersion/Work/type: Work/language = 041 #h) 
   
   För att ange att texten delvis är översatt, till exempel när en publikation innehåller parallelltext där den ena texten är en översättning: Lägg först till Språk under Instans av verk. Sök fram och länka till det språk som inte är en översättning. Klicka sedan på plustecknet vid Verk och välj Anmärkning: Språk. Välj Objektet är/innehåller ej översättning.   
- Lägg till Har del under Instans av verk. Skapa verk som lokal entitet. Lägg till Språk under Verk. Sök fram och länka till språket som texten är översatt till. Lägg till Anmärkning: Språk och ange att resursen är/innehåller en översättning. Under Har del/Verk, lägg till Originalversion/Verk/Språk (se ovan under Översättning). Länka till språket som resursen delvis är en översättning från.  
+ Lägg till Har del under Instans av verk. Skapa verk som lokal entitet. Man behöver inte välja verkstyp här. Lägg till Språk under Verk. Sök fram och länka till språket som texten är översatt till. Lägg till Anmärkning: Språk och ange att resursen är/innehåller en översättning. Under Har del/Verk, lägg till Originalversion/Verk/Verkstyp/Språk (se ovan under Översättning). Länka till språket som resursen delvis är en översättning från.  
  
 #### Sammanfattningsspråk  
 Se Sammanfattning av innehåll   
