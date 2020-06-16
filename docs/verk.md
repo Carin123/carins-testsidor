@@ -2,7 +2,7 @@
 section: Generell beskrivning
 title: Verk
 order: 26
-date: 2020-06-12
+date: 2020-06-16
 tags:
 - verk
 --- 
@@ -13,18 +13,17 @@ tags:
 | Innehåll  |  |  | 
 | ----------- |  ----------- |  ----------- |
 | [Inledning](#inledning)  |  | [Klassifikation](#klassifikation) | 
-| [Verkets titel](#verkets-titel)  |  | [Ämne](https://libris.kb.se/katalogisering/help/workflow-general-sh) | 
-| [Relationer till ingående verk och andra verk](#relationer-till-ingaende-verk-och-andra-verk) |  | [Målgrupp](#malgrupp) | 
-| [Medverkan och funktion](#medverkan-och-funktion) |  | [Innehållstyp](#innehallstyp) | 
-| [Språk](#sprak) |  | [Sammanfattning av innehåll](#sammanfattning-av-innehall) | 
-| [Genre/form](#genre-form) |  |  [Anmärkning om akademisk avhandling](#anmarkning-om-akademisk-avhandling) | 
+| [Verkstyp](#verkstyp)  |  | [Ämne](https://libris.kb.se/katalogisering/help/workflow-general-sh) | 
+| [Verkets titel](#verkets-titel) |  | [Målgrupp](#malgrupp) | 
+| [Relationer till ingående verk och andra verk](#relationer-till-ingaende-verk-och-andra-verk) |  | [Innehållstyp](#innehallstyp) | 
+| [Medverkan och funktion](#medverkan-och-funktion) |  | [Sammanfattning av innehåll](#sammanfattning-av-innehall) | 
+| [Språk](#sprak) |  |  [Anmärkning om akademisk avhandling](#anmarkning-om-akademisk-avhandling) | 
+| [Genre/form](#genre-form) |  |  | 
 
 **NYTT FRÅN VERSION 1.17.2:** Relationer (länkfält), till exempel Fortsätter, Fortsättes av, Ersätter, med flera, har flyttats från Verk till Instans.
 
 ## Inledning
 Beskrivningen av ett verk innehåller information som ämne, klassifikation, språk och innehållstyp. Ett verk kan ha en eller flera instanser, till exempel olika upplagor och utgåvor. Vissa egenskaper, till exempel utgivning, bärartyp och omfång, beskrivs i stället under instans. [Läs mer om Instans](https://libris.kb.se/katalogisering/help/workflow-instance).  
-
-Ett verk är av en viss typ. Exempel på verkstyper är: text, ljud, stillbild, rörlig bild, multimedia, karta. För instruktioner om att byta verkstyp, [se Att använda verktyget](https://libris.kb.se/katalogisering/help/use-the-editor).
 
 Skapa verket som lokal entitet (bryt inte ut verket till en länkbar entitet). Denna hjälptext beskriver exempel på verk som lokal entitet. Det betyder att du anger de uppgifter som listas här nedan under Instans av verk utan att klicka på länksymbolen (Länka entitet) vid Instans av verk. [Läs mer om Verk och Instans på Libris informationssidor på kb.se](https://www.kb.se/samverkan-och-utveckling/nytt-fran-kb/nyheter-samverkan-och-utveckling/2018-05-30-verk-och-instans-i-startversionen-av-nya-libris.html).  
 
@@ -35,7 +34,11 @@ Skapa verket som lokal entitet (bryt inte ut verket till en länkbar entitet). D
   * [Se även instruktionsfilmer](https://www.youtube.com/playlist?list=PLZVkEICvA5-GRT2oJQmLgq_2Pksx6zYPy)
 
 I de flesta fall ska informationen delas upp i olika egenskaper (jfr fält) och underliggande egenskaper (jfr delfält). I några undantagsfall är det nödvändigt att använda ISBD-interpunktion inom en egenskap, för att separera uppgifter. Dessa fall visas genom exempel nedan. I övriga fall, lägg inte in ISBD-interpunktion för att avsluta en egenskap (fält). 
- 
+
+## Verkstyp
+Ett verk är av en viss typ. Exempel på verkstyper är: text, ljud, stillbild, rörlig bild, multimedia, karta. För instruktioner om att byta verkstyp, [se Att använda verktyget](https://libris.kb.se/katalogisering/help/use-the-editor).  
+
+När man skapar Instans eller Verk som lokal entitet under en egenskap behöver man inte välja Instans- eller Verkstyp.
    
 ## Instans av verk
 * Instans av verk (instanceOf/Work)  
