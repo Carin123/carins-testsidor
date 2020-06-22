@@ -2,7 +2,7 @@
 section: Materialtyper
 title: Tryckt seriell resurs
 order: 55
-date: 2020-06-12
+date: 2020-06-22
 tags:
 - seriell resurs
 - tidskrift
@@ -28,7 +28,6 @@ Denna hjälptext ger kortfattade instruktioner för de vanligaste egenskaperna f
 | | [Alfabet](#alfabet) | |
 | | [Behandling vid titeländring](#behandling-vid-titelandring) |  |
 | | [Anmärkning](#anmarkning)| |
-| | [Annat bärarformat](#annat-bararformat) | |
 | | [Relationer](#relationer) | | 
 
 
@@ -220,22 +219,18 @@ Land, År och eventuellt Datum  ska ligga inom Primär utgivning.
 * Anmärkning/Anmärkning/Benämning (hasNote/Note/label = 500 #a)  
   Skriv in allmänna anmärkningar här.  
   Skriv in uppgiften under Benämning.  
- 
-### Annat bararformat  
-För seriella resurser, skapa Instans som lokal entitet under Annat bärarformat i stället för att länka direkt till annan instans. Att länka till annan instans ger felaktiga delfältskoder, vilket inte är tillåtet vid export till ISSN IC. 
-* Annat bärarformat/Instans/Har titel/Titel/Huvudtitel (otherPhysicalFormat/Instance/hasTitle/Title/mainTitle = 776 #t)  
-Lägg till Annat bärarformat. Skapa Instans som lokal entitet. Man behöver inte välja Instanstyp här. Lägg till Har titel och välj Titel. Skriv in titeln under Huvudtitel.  
-* Annat bärarformat/Instans/Identifikator/ISSN/Värde (otherPhysicalFormat/Instance/identifiedBy/ISSN/value = 776 #x)  
-Lägg till Identifikator och välj ISSN. Skriv in ISSN under Värde.  
- Typanmärkning i samband med Annat bärarformat kan för närvarande inte läggas till.
-  Beskriven av/Post/Kontrollnummer, motsvarande delfält w, är för närvarande låst för redigering. Det går därmed inte att lägga till fältet eller redigera det i befintliga beskrivningar.  
 
 ### Relationer
 För relationer (länkfält): Annat bärarformat (776), Fortsätter (780 0/0), Fortsättes av (785 0/0), Ersätter (780 0/2), med flera: 
-sök fram och lägg till relationen genom att klicka på plustecknet i verktygsmenyn. För seriella resurser, skapa lokal entitet i stället för att länka. Att länka till annan instans ger felaktiga delfältskoder, vilket inte är tillåtet vid export till ISSN IC (Internationella ISSN-centralen).   
+sök fram och lägg till relationen genom att klicka på plustecknet i verktygsmenyn. För seriella resurser, skapa lokal entitet i stället för att länka. Att länka till annan instans ger felaktiga delfältskoder, vilket inte är tillåtet vid export till ISSN IC (Internationella ISSN-centralen).  
 
-* Annat bärarformat (776)  
-För Annat bärarformat exporteras för närvarande felaktigt andraindikator 8. Typanmärkning (#i) i samband med Annat bärarformat kan för närvarande inte läggas till.  
+* Annat bärarformat (776)
+* Annat bärarformat/Instans/Instanstyp/Har titel/Titel/Huvudtitel (otherPhysicalFormat/Instance/type/hasTitle/Title/mainTitle = 776 #t)  
+Lägg till Annat bärarformat. Skapa Instans som lokal entitet. Man behöver inte välja Instanstyp här. Lägg till Har titel och välj Titel. Skriv in titeln under Huvudtitel.  
+* Annat bärarformat/Instans/Instanstyp/Identifikator/ISSN/Värde (otherPhysicalFormat/Instance/type/identifiedBy/ISSN/value = 776 #x)  
+Lägg till Identifikator och välj ISSN. Skriv in ISSN under Värde.  
+ Typanmärkning i samband med Annat bärarformat kan för närvarande inte läggas till.
+  Beskriven av/Post/Kontrollnummer, motsvarande delfält w, är för närvarande låst för redigering. Det går därmed inte att lägga till fältet eller redigera det i befintliga beskrivningar.   
 
 * Övriga relationer (länkfält): Fortsätter (780 0/0), Fortsättes av (785 0/0), Ersätter (780 0/2), med flera:  
 följ mönstret för Fortsätter, se nedan.
@@ -247,7 +242,7 @@ följ mönstret för Fortsätter, se nedan.
   * ```Aktuellt magazin```
   * ```Medlemstidning (Svenska Schweisshundklubben)```
   
-* Fortsätter/Verk/Har instans/Instans/Identifikator/ISSN/Värde (780 0/0 #x)  
+* Fortsätter/Verk/Har instans/Instans/Instanstyp/Identifikator/ISSN/Värde (780 0/0 #x)  
   Lägg till Identifikator vid Instans. Välj typ ISSN. Skriv in ISSN under Värde.  
 ```Exempel: 1402-1250```  
 
