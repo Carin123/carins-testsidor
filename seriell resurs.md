@@ -222,7 +222,7 @@ Land, År och eventuellt Datum  ska ligga inom Primär utgivning.
 
 ### Relationer
 För relationer (länkfält): Annat bärarformat (776), Fortsätter (780 0/0), Fortsättes av (785 0/0), Ersätter (780 0/2), med flera: 
-sök fram och lägg till relationen genom att klicka på plustecknet i verktygsmenyn. För seriella resurser, skapa lokal entitet i stället för att länka. Att länka till annan instans ger felaktiga delfältskoder, vilket inte är tillåtet vid export till ISSN IC (Internationella ISSN-centralen).  
+sök fram och lägg till egenskapen (relationen) genom att klicka på plustecknet i verktygsmenyn. För seriella resurser, skapa lokal entitet i stället för att länka. Att länka till annan instans ger felaktiga delfältskoder, vilket inte är tillåtet vid export till ISSN IC (Internationella ISSN-centralen).  
 
 * Annat bärarformat (776)
   Annat bärarformat/Instans/Instanstyp/Har titel/Titel/Huvudtitel (otherPhysicalFormat/Instance/type/hasTitle/Title/mainTitle = 776 #t)  
