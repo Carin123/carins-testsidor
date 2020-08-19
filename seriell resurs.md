@@ -227,61 +227,25 @@ sök fram och lägg till egenskapen (relationen) genom att klicka på plusteckne
 
 Använd Anmärkning för att vid behov förtydliga typen av relation.
 
-
-I undantagsfall, skapa lokal entitet enligt nedanstående mönster.
-
-* Annat bärarformat (776)  
-  Annat bärarformat/Instans/Instanstyp/Har titel/Titel/Huvudtitel  
-  (otherPhysicalFormat/Instance/type/hasTitle/Title/mainTitle = 776 #t)  
-Lägg till Annat bärarformat. Skapa Instans som lokal entitet. Man behöver inte välja Instanstyp här. Lägg till Har titel och välj Titel. Skriv in titeln under Huvudtitel.  
-* Annat bärarformat/Instans/Instanstyp/Identifikator/ISSN/Värde  
-(otherPhysicalFormat/Instance/type/identifiedBy/ISSN/value = 776 #x)  
-Lägg till Identifikator och välj ISSN. Skriv in ISSN under Värde.  
+Här följer ett urval av de relationer som kan läggas till:  
   
-  Beskriven av/Post/Kontrollnummer, motsvarande delfält w, är för närvarande låst för redigering. Det går därmed inte att lägga till fältet eller redigera det i befintliga beskrivningar.   
-
-* Övriga relationer (länkfält): Fortsätter (780 0/0), Fortsättes av (785 0/0), Ersätter (780 0/2), med flera:  
-följ mönstret för Fortsätter, se nedan.
- 
-* Fortsätter/Instans/Instanstyp/Har titel/Titel/Huvudtitel  
- (continues/Instance/type/hasTitle/Title/mainTitle = 780 0/0 #t)  
- För att lägga till titel under Fortsätter, Fortsättes av, Ersätter, med flera:  
- Skapa Instans som lokal entitet. Man behöver inte välja Instanstyp här. Lägg till Har titel. Välj Titel. Skriv in uppgiften under Huvudtitel.
- <br/>```Exempel:```
-  * ```Aktuellt magazin```
-  * ```Medlemstidning (Svenska Schweisshundklubben)```
+Fortsätter (continues = 780 0/0)  
+Fortsätter delvis (continuesInPartBy = 780 0/1)  
+Föregående (precededBy = 780 0/2)  
+Ersätter delvis (precededInPartBy = 780 0/3)  
+Sammanslagen med (mergerOf = 780 0/4) [Se exempelpost i Libris katalogisering](https://libris.kb.se/katalogisering/5ng67r2h49lzkl9#it))  
+Har införlivat (absorbed = 780 0/5)  
+Har delvis införlivat (absorbedInPart = 780 0/6)  
+Separerad från (separatedFrom = 780 0/7)  
   
-* Fortsätter/Instans/Instanstyp/Identifikator/ISSN/Värde  
- (continues/Instance/type/identifiedBy/ISSN/value = 780 0/0 #x)  
-  Lägg till Identifikator vid Instans. Välj typ ISSN. Skriv in ISSN under Värde.  
-```Exempel: 1402-1250```  
-
-Exempel:  
-
-![Exempel på relationen Fortsättes av för seriell resurs](fortsatter_seriell.png)  
-
-* Fortsätter/Instans/Instanstyp/Beskriven av/Post/Kontrollnummer (continues/Instance/type/describedBy = 780 0/0 #w)  
-  Beskriven av/Post/Kontrollnummer, motsvarande delfält w, är för närvarande låst för redigering. Det går därmed inte att lägga till egenskapen eller redigera den i befintliga beskrivningar.  
-
-  Hör följer ett urval av de relationer som kan läggas till, enligt samma mönster som Fortsätter (se ovan):  
-  
-  Fortsätter (continues = 780 0/0)  
-  Fortsätter delvis (continuesInPartBy = 780 0/1)  
-  Föregående (precededBy = 780 0/2)  
-  Ersätter delvis (precededInPartBy = 780 0/3)  
-  Sammanslagen med (mergerOf = 780 0/4) [Se exempelpost i Libris katalogisering](https://libris.kb.se/katalogisering/5ng67r2h49lzkl9#it))  
-  Har införlivat (absorbed = 780 0/5)  
-  Har delvis införlivat (absorbedInPart = 780 0/6)  
-  Separerad från (separatedFrom = 780 0/7)  
-  
-  Fortsättes av (continuedBy = 785 0/0)  
-  Fortsättes delvis av (continuedInPartBy = 785 0/1)  
-  Efterföljande (succeededBy = 785 0/2)  
-  Ersättes delvis av (succeededInPartBy = 785 0/3)  
-  Har uppgått i (absorbedBy = 785 0/4)  
-  Har delvis uppgått i (absorbedInPartBy = 785 0/5)  
-  Uppdelat på (splitInto = 785 0/6)  
-  Sammanslagen till (mergedToForm = 785 0/7) [Se exempelpost i Libris katalogisering](https://libris.kb.se/katalogisering/tb4vcdf54hzlsr3#it))  
+Fortsättes av (continuedBy = 785 0/0)  
+Fortsättes delvis av (continuedInPartBy = 785 0/1)  
+Efterföljande (succeededBy = 785 0/2)  
+Ersättes delvis av (succeededInPartBy = 785 0/3)  
+Har uppgått i (absorbedBy = 785 0/4)  
+Har delvis uppgått i (absorbedInPartBy = 785 0/5)  
+Uppdelat på (splitInto = 785 0/6)  
+Sammanslagen till (mergedToForm = 785 0/7) [Se exempelpost i Libris katalogisering](https://libris.kb.se/katalogisering/tb4vcdf54hzlsr3#it))  
   
 
 ## Verk
