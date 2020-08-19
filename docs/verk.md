@@ -133,12 +133,10 @@ Skriv in uppgiften.
   Ange det språk som en översatt text är översatt från. För en text som är översatt från engelska till svenska, ange engelska här.   
   Klicka på plustecknet vid Instans av verk, välj Översättning av, klicka på plustecknet vid Översättning av, välj Skapa lokal entitet. Skriv Verk i rutan för Skapa lokal entitet och välj * Verk. Man behöver inte välja verkstyp här. Lägg till Språk under verk. Sök fram språkentiteten och länka.  
   ![Uppgift om originalversionens språk](translationof.png)  
-  
- 
+   
 För översättningar i flera led, använd egenskapen Intermediärt språk.
 ![Intermediärt språk](intermediate.png)  
-  
-
+ 
 För en översättning ska översättningens språk också läggas till i klartext i marcpostens delfält #l, som ett tillägg till verkets titel.  
 
 Om översättningen är ett verk som har Primär medverkan, ska språket läggas till i 240 #l.  
