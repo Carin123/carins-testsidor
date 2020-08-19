@@ -222,7 +222,7 @@ Land, År och eventuellt Datum  ska ligga inom Primär utgivning.
 
 ### Relationer
 För relationer (länkfält): Annat bärarformat (776), Fortsätter (780 0/0), Fortsättes av (785 0/0), Ersätter (780 0/2), med flera: 
-sök fram och lägg till egenskapen (relationen) genom att klicka på plustecknet i verktygsmenyn (Lägg till egenskaper). Sök sedan fram och lägg till den seriella resursen som länken ska gå till. 
+sök fram och lägg till egenskapen (relationen) genom att klicka på plustecknet i verktygsmenyn (Lägg till egenskaper). Sök sedan fram och lägg till den seriella resursen som länken ska gå till.  
 ![Exempel på relationen Annat bärarformat, för seriell resurs](otherPhysicalFormat.png)  
 
 Använd Anmärkning för att vid behov förtydliga typen av relation.
