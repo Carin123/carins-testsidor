@@ -2,7 +2,7 @@
 section: Materialtyper
 title: Tryckt seriell resurs
 order: 55
-date: 2020-06-22
+date: 2020-08-19
 tags:
 - seriell resurs
 - tidskrift
@@ -222,7 +222,13 @@ Land, År och eventuellt Datum  ska ligga inom Primär utgivning.
 
 ### Relationer
 För relationer (länkfält): Annat bärarformat (776), Fortsätter (780 0/0), Fortsättes av (785 0/0), Ersätter (780 0/2), med flera: 
-sök fram och lägg till egenskapen (relationen) genom att klicka på plustecknet i verktygsmenyn. För seriella resurser, skapa lokal entitet i stället för att länka. Att länka till annan instans ger felaktiga delfältskoder, vilket inte är tillåtet vid export till ISSN IC (Internationella ISSN-centralen).  
+sök fram och lägg till egenskapen (relationen) genom att klicka på plustecknet i verktygsmenyn (Lägg till egenskaper). Sök sedan fram och lägg till den seriella resursen som länken ska gå till. 
+![Exempel på relationen Annat bärarformat, för seriell resurs](otherPhysicalFormat.png)  
+
+Använd Anmärkning för att vid behov förtydliga typen av relation.
+
+
+I undantagsfall, skapa lokal entitet enligt nedanstående mönster.
 
 * Annat bärarformat (776)  
   Annat bärarformat/Instans/Instanstyp/Har titel/Titel/Huvudtitel  
@@ -231,7 +237,7 @@ Lägg till Annat bärarformat. Skapa Instans som lokal entitet. Man behöver int
 * Annat bärarformat/Instans/Instanstyp/Identifikator/ISSN/Värde  
 (otherPhysicalFormat/Instance/type/identifiedBy/ISSN/value = 776 #x)  
 Lägg till Identifikator och välj ISSN. Skriv in ISSN under Värde.  
- Typanmärkning i samband med Annat bärarformat kan för närvarande inte läggas till.
+  
   Beskriven av/Post/Kontrollnummer, motsvarande delfält w, är för närvarande låst för redigering. Det går därmed inte att lägga till fältet eller redigera det i befintliga beskrivningar.   
 
 * Övriga relationer (länkfält): Fortsätter (780 0/0), Fortsättes av (785 0/0), Ersätter (780 0/2), med flera:  
@@ -240,7 +246,7 @@ följ mönstret för Fortsätter, se nedan.
 * Fortsätter/Instans/Instanstyp/Har titel/Titel/Huvudtitel  
  (continues/Instance/type/hasTitle/Title/mainTitle = 780 0/0 #t)  
  För att lägga till titel under Fortsätter, Fortsättes av, Ersätter, med flera:  
- Skapa Instans som lokal entitet. Man behöver inte välj Instanstyp här. Lägg till Har titel. Välj Titel. Skriv in uppgiften under Huvudtitel.
+ Skapa Instans som lokal entitet. Man behöver inte välja Instanstyp här. Lägg till Har titel. Välj Titel. Skriv in uppgiften under Huvudtitel.
  <br/>```Exempel:```
   * ```Aktuellt magazin```
   * ```Medlemstidning (Svenska Schweisshundklubben)```
