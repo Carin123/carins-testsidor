@@ -227,6 +227,7 @@ sök fram och lägg till egenskapen (relationen) genom att klicka på plusteckne
 ![Exempel på relationen Annat bärarformat, för seriell resurs](otherPhysicalFormat.png)  
 
 Använd Anmärkning (500) för att vid behov förtydliga typen av relation.  
+
 ![Exempel på Anmärkning, för seriell resurs](anmarkning_seriell.png)  
 
 Här följer ett urval av de relationer som kan läggas till:  
