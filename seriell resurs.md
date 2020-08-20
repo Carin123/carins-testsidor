@@ -228,7 +228,7 @@ sök fram och lägg till egenskapen (relationen) genom att klicka på plusteckne
 
 Använd Anmärkning (500) för att vid behov förtydliga typen av relation.  
 
-![Exempel på Anmärkning, för seriell resurs](anmarkning_seriell.png)  
+![Exempel på Anmärkning, för seriell resurs](anmarkning.png)  
 
 Här följer ett urval av de relationer som kan läggas till:  
   
