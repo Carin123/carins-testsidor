@@ -383,6 +383,7 @@ Några klassifikationssystem har flyttats från Verk till Instans i version 1.19
 * LC-klassifikation (050)  
 * NAL-klassifikation (060)  
 * NLM –klassifikation (070)  
+
 För SAB-klassifikation ska SAB-kod med medietillägg läggas in under Instans.  
 För övrig klassifikation se [Verk](https://libris.kb.se/katalogisering/help/workflow-work).  
 
