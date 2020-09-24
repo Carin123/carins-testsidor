@@ -256,7 +256,8 @@ Klicka sedan på plustecknet vid DDK-klassifikation (sekundär) (Lägg till ddk-
   ```Exempel: 23/swe``` 
    
 #### SAB-klassifikation  
-**VERSION 1.19:**  SAB-klassifikation har sedan version 1.19 delvis placerats under [Instans](https://libris.kb.se/katalogisering/help/workflow-instance). Det som har flyttats till instans är när SAB-koden har tillägg för medietyp, t ex Kc/VK. Kvar under verk finns SAB utan medietillägg.   
+**VERSION 1.19:**  SAB-klassifikation har sedan version 1.19 delvis placerats under [Instans](https://libris.kb.se/katalogisering/help/workflow-instance).  
+Det som har flyttats till Instans är när SAB-koden har tillägg för medietyp, t ex Kc/VK. Kvar under Verk finns SAB utan medietillägg.   
 
 * SAB-klassifikation  
   För att lägga till annan klassifikation, till exempel SAB-klassifikation:  
@@ -275,7 +276,7 @@ Klicka sedan på plustecknet vid DDK-klassifikation (sekundär) (Lägg till ddk-
  ```Exempel: 8```  
  
 För barnlitteratur ska målgrupp läggas till efter SAB-koden
-Exempel: Prab,uf
+```Exempel: Prab,uf```
 
  
 ### Amne  
