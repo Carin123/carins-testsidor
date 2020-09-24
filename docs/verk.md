@@ -267,17 +267,15 @@ Det som har flyttats till Instans är när SAB-koden har tillägg för medietyp,
 (classification/Classification/code = 084 0/4 #a)  
      Skriv in uppgiften.  
   ```Exempel: Sei-e```   
+  För barnlitteratur ska målgrupp läggas till efter SAB-koden.  
+```Exempel: Prab,uf```  
 * Klassifikation/Ingår i system/Konceptsystem/Kod  
 (classification/Classification/inScheme/ConceptScheme/code = 084 #2)  
  ```Exempel: kssb```  
 * Klassifikation/Ingår i system/Konceptsystem/Version  
 (classification/Classification/inScheme/ConceptScheme/version = 084 #2)  
  ```Exempel: 8```  
- 
-För barnlitteratur ska målgrupp läggas till efter SAB-koden.  
-```Exempel: Prab,uf```
-
- 
+  
 ### Amne  
 * [Se hjälptexten Ämnesord i Libris](https://libris.kb.se/katalogisering/help/workflow-general-sh)  
   
