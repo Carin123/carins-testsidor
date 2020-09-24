@@ -2,7 +2,7 @@
 section: Generell beskrivning
 title: Instans
 order: 27
-date: 2020-06-22
+date: 2020-09-24
 tags:
 - instans
 --- 
@@ -376,7 +376,28 @@ Ange ogiltiga ISBN här och inte under Identifikator/ISBN/Ogiltigt värde. För 
   <br/>```Exempel:```
   * ```24 cm```
   * ```34 x 27 cm och  37 x 27 cm, på ark 40 x 30 cm```
-   
+ 
+### Klassifikation  
+**VERSION 1.19:**  
+Några klassifikationssystem har flyttats från Verk till Instans i version 1.19. Det gäller:  
+* LC-klassifikation (050)  
+* NAL-klassifikation  (060)  
+* NLM –klassifikation (070)  
+För SAB-klassifikation ska SAB-kod med medietillägg läggas in under Instans.  
+För övrig klassifikation se [Verk](https://libris.kb.se/katalogisering/help/workflow-work).  
+
+*	SAB-klassifikation med medietillägg  
+*	Klassifikation/Klassifikation/Kod  
+(classification/Classification/code = 084 0/4 #a)  
+Skriv in uppgiften.  
+Exempel: Kc/VC  
+*	Klassifikation/Ingår i system/Konceptsystem/Kod  
+(classification/Classification/inScheme/ConceptScheme/code = 084 #2)  
+```Exempel: kssb```
+*	Klassifikation/Ingår i system/Konceptsystem/Version
+(classification/Classification/inScheme/ConceptScheme/version = 084 #2)
+```Exempel: 8```
+
 ### Medfoljande material
 * Medföljs av/Instans/Instanstyp/Benämning (Bilagor) (accompaniedBy/Instance/type/label = 300 #e)   
 Här anges medföljande material, som t ex bilagor. Lägg till Medföljs av. Skapa Instans som lokal entitet (skriv Instans i rutan Skapa lokal entitet och välj ** Instans). Man behöver inte välja Instanstyp här. Lägg till Benämning.     
