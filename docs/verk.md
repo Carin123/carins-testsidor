@@ -2,7 +2,7 @@
 section: Generell beskrivning
 title: Verk
 order: 26
-date: 2020-09-19
+date: 2020-09-24
 tags:
 - verk
 --- 
@@ -20,8 +20,8 @@ tags:
 | [Språk](#sprak) |  |  [Anmärkning om akademisk avhandling](#anmarkning-om-akademisk-avhandling) | 
 | [Genre/form](#genre-form) |  |  | 
 
-**VERSION 1.19:** Läs viktig information om arbetet med att bryta ut och länka till verk: [Länkning till verk i Libris](
-https://www.kb.se/samverkan-och-utveckling/nytt-fran-kb/nyheter-samverkan-och-utveckling/2020-09-22-lankning-till-verk-i-libris.html) !!
+**VERSION 1.19:** Mallen för att skapa nytt verk bör inte användas. Läs viktig information om arbetet med att bryta ut och länka till verk:</br>
+[Länkning till verk i Libris](https://www.kb.se/samverkan-och-utveckling/nytt-fran-kb/nyheter-samverkan-och-utveckling/2020-09-22-lankning-till-verk-i-libris.html)! 
 
 ## Inledning
 Beskrivningen av ett verk innehåller information som ämne, klassifikation, språk och innehållstyp. Ett verk kan ha en eller flera instanser, till exempel olika upplagor och utgåvor. Vissa egenskaper, till exempel utgivning, bärartyp och omfång, beskrivs i stället under instans. [Läs mer om Instans](https://libris.kb.se/katalogisering/help/workflow-instance).  
@@ -38,6 +38,9 @@ I de flesta fall ska informationen delas upp i olika egenskaper (jfr fält) och 
 
 ## Verkstyp
 Ett verk är av en viss typ. Exempel på verkstyper är: text, ljud, stillbild, rörlig bild, multimedia, karta. För instruktioner om att byta verkstyp, [se Att använda verktyget](https://libris.kb.se/katalogisering/help/use-the-editor).  
+
+Från version 1.19 av katalogiseringsverktyget är verkstyperna försedda med illustrerande ikoner:
+![Ikoner för de olika verksyperna](verkstypsikoner.png)
 
 När man skapar Instans eller Verk som lokal entitet under en egenskap behöver man inte välja Instans- eller Verkstyp.
    
@@ -131,9 +134,8 @@ Skriv in uppgiften.
 **Från och med version 1.18 anges originalspråk för översättningar under Översättning av, inte som tidigare under Originalversion. OBS! För närvarande ska titel och medverkan inte läggas till under Översättning av. Fortsätt att ange dem som tidigare direkt under Instans av verk.**   
 * Översättning av/Verk/Verkstyp/Språk (translationOf/Work/type: Work/language = 041 #h)  
   Ange det språk som en översatt text är översatt från. För en text som är översatt från engelska till svenska, ange engelska här.   
-  Klicka på plustecknet vid Instans av verk, välj Översättning av, klicka på plustecknet vid Översättning av, välj Skapa lokal entitet. Skriv Verk i rutan för Skapa lokal entitet och välj * Verk. Man behöver inte välja verkstyp här. Lägg till Språk under verk. Sök fram språkentiteten och länka.  
+  Klicka på plustecknet vid Instans av verk, välj Översättning av, klicka på plustecknet vid Översättning av, välj Skapa lokal entitet. Skriv Verk i rutan för Skapa lokal entitet och välj * Verk. Man behöver inte välja verkstyp här. Ange originalspråk genom att länka till språk här.  
   ![Uppgift om originalversionens språk](translationof.png)  
-Vid behov av att upprepa Språk, för att beskriva att det är en översättning från flera språk, skapa Skapa lokal entitet och välj Text i stället för Verk. Lägg sedan till Språk. Det går nu att upprepa Språk.  
    
 För översättningar i flera led, använd egenskapen Intermediärt språk till översättningar.  
 ![Intermediärt språk](intermediate_language.png)  
@@ -218,6 +220,10 @@ Sök direkt efter genre/form-termer i sökrutan. Länka till entitet.
 [Mer information om listkoder](http://www.kb.se/katalogisering/Svenska-amnesord/genrer-form/).  
 
 ### Klassifikation  
+**VERSION 1.19:**  
+Vissa klassifikationssystem har sedan version 1.19 flyttats till [Instans](https://libris.kb.se/katalogisering/help/workflow-instance)
+Kvar under Verk är DDK, Sekundär DDK-klassifikation, UDK samt SAB.  
+
 * DDK-klassifikation  
   För att lägga till DDK-klassifikation:  
   * Om posten har Klassifikation/Klassifikation (till exempel SAB-klassifikation) men saknar Klassifikation/DDK-klassifikation, lägg till ytterligare en förekomst av Klassifikation (plustecknet vid Klassifikation - lägg till klassifikation). Välj Skapa lokal entitet och välj DDK-klassifikation. Skriv in uppgiften under Kod.  
@@ -250,6 +256,8 @@ Klicka sedan på plustecknet vid DDK-klassifikation (sekundär) (Lägg till ddk-
   ```Exempel: 23/swe``` 
    
 #### SAB-klassifikation  
+**VERSION 1.19:**  SAB-klassifikation har sedan version 1.19 delvis placerats under [Instans](https://libris.kb.se/katalogisering/help/workflow-instance). Det som har flyttats till instans är när SAB-koden har tillägg för medietyp, t ex Kc/VK. Kvar under verk finns SAB utan medietillägg.   
+
 * SAB-klassifikation  
   För att lägga till annan klassifikation, till exempel SAB-klassifikation:  
   * Om posten har Klassifikation/DDK-klassifikation men saknar Klassifikation/Klassifikation (till exempel SAB-klassifikation), lägg till ytterligare en förekomst av Klassifikation (plustecknet vid Klassifikation - lägg till klassifikation). Välj Skapa lokal entitet och välj Klassifikation. Skriv in uppgiften under Kod.  
@@ -264,7 +272,11 @@ Klicka sedan på plustecknet vid DDK-klassifikation (sekundär) (Lägg till ddk-
  ```Exempel: kssb```  
 * Klassifikation/Ingår i system/Konceptsystem/Version  
 (classification/Classification/inScheme/ConceptScheme/version = 084 #2)  
- ```Exempel: 8``` 
+ ```Exempel: 8```  
+ 
+För barnlitteratur ska målgrupp läggas till efter SAB-koden
+Exempel: Prab,uf
+
  
 ### Amne  
 * [Se hjälptexten Ämnesord i Libris](https://libris.kb.se/katalogisering/help/workflow-general-sh)  
