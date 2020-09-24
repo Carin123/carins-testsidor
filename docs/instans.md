@@ -15,7 +15,7 @@ tags:
 | [Instanstyp](#instanstyp) | | [Omfång](#omfang) | 
 | [Utgivningssätt](#utgivningssatt)| | [Övriga fysiska detaljer](#ovriga-fysiska-detaljer) | 
 | [Medietyp](#medietyp) | | [Mått](#matt) |
-| [Bärartyp](#barartyp) | | Klassifikation](#klassifikation) |
+| [Bärartyp](#barartyp) | | [Klassifikation](#klassifikation) |
 | [Titel](#titel)| | [Medföljande material](#medfoljande-material) | 
 | [Upphovsuppgift](#upphovsuppgift) | | [Seriemedlemskap](#seriemedlemskap) |
 | [Upplageuppgift](#upplageuppgift) | | [Anmärkning](#anmarkning) |
