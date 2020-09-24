@@ -390,7 +390,7 @@ För övrig klassifikation se [Verk](https://libris.kb.se/katalogisering/help/wo
 *	Klassifikation/Klassifikation/Kod  
 (classification/Classification/code = 084 0/4 #a)  
 Skriv in uppgiften.  
-Exempel: Kc/VC  
+```Exempel: Kc/VC```
 *	Klassifikation/Ingår i system/Konceptsystem/Kod  
 (classification/Classification/inScheme/ConceptScheme/code = 084 #2)  
 ```Exempel: kssb```
