@@ -23,7 +23,7 @@ tags:
 | [Huvudsakligt tillgängliggörande](#huvudsakligt-tillgangliggorande) | | [Målgruppsanmärkning](#malgruppsanmarkning) |
 | [Utgivning](#utgivning) | | [Annat bärarformat](#annat-bararformat) |
 | [Tillverkning](#tillverkning) | | [Elektronisk adress](#annan-relaterad-resurs) |
-| [Copyrightår](#copyrightar | | [Elektronisk adress](#annan-relaterad-resurs) |
+| [Copyrightår](#copyrightar) | | [Elektronisk adress](#annan-relaterad-resurs) |
 
 
 **NYTT FRÅN VERSION 1.17.2:** Relationer (länkfält), till exempel Supplement, Fortsätter, Fortsättes av, Ersätter, med flera, har flyttats från Verk till Instans. Se [Tryckt seriell resurs](https://libris.kb.se/katalogisering/help/workflow-print-serial).
