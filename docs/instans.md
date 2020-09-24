@@ -395,7 +395,7 @@ Skriv in uppgiften.
 (classification/Classification/inScheme/ConceptScheme/code = 084 #2)  
 ```Exempel: kssb```
 *	Klassifikation/Ingår i system/Konceptsystem/Version
-(classification/Classification/inScheme/ConceptScheme/version = 084 #2)
+(classification/Classification/inScheme/ConceptScheme/version = 084 #2)  
 ```Exempel: 8```
 
 ### Medfoljande material
