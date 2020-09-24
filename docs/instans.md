@@ -11,11 +11,11 @@ tags:
 
 | Innehåll  | | |
 | ------ | ------ | ------ |
-| [Inledning](#inledning) | | [Copyrightår](#copyrightar)  | 
-| [Instanstyp](#instanstyp) | | [Identifikator](#identifikator) | 
-| [Utgivningssätt](#utgivningssatt)| | [Omfång](#omfang) | 
-| [Medietyp](#medietyp) | | [Övriga fysiska detaljer](#ovriga-fysiska-detaljer) |
-| [Bärartyp](#barartyp) | | [Mått](#matt) |
+| [Inledning](#inledning) | | [Identifikator](#identifikator) | 
+| [Instanstyp](#instanstyp) | | [Omfång](#omfang) | 
+| [Utgivningssätt](#utgivningssatt)| | [Övriga fysiska detaljer](#ovriga-fysiska-detaljer) | 
+| [Medietyp](#medietyp) | | [Mått](#matt) |
+| [Bärartyp](#barartyp) | | Klassifikation](#klassifikation) |
 | [Titel](#titel)| | [Medföljande material](#medfoljande-material) | 
 | [Upphovsuppgift](#upphovsuppgift) | | [Seriemedlemskap](#seriemedlemskap) |
 | [Upplageuppgift](#upplageuppgift) | | [Anmärkning](#anmarkning) |
@@ -23,6 +23,8 @@ tags:
 | [Huvudsakligt tillgängliggörande](#huvudsakligt-tillgangliggorande) | | [Målgruppsanmärkning](#malgruppsanmarkning) |
 | [Utgivning](#utgivning) | | [Annat bärarformat](#annat-bararformat) |
 | [Tillverkning](#tillverkning) | | [Elektronisk adress](#annan-relaterad-resurs) |
+| [Copyrightår](#copyrightar | | [Elektronisk adress](#annan-relaterad-resurs) |
+
 
 **NYTT FRÅN VERSION 1.17.2:** Relationer (länkfält), till exempel Supplement, Fortsätter, Fortsättes av, Ersätter, med flera, har flyttats från Verk till Instans. Se [Tryckt seriell resurs](https://libris.kb.se/katalogisering/help/workflow-print-serial).
 
