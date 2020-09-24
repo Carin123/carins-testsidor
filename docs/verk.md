@@ -274,7 +274,7 @@ Det som har flyttats till Instans är när SAB-koden har tillägg för medietyp,
 (classification/Classification/inScheme/ConceptScheme/version = 084 #2)  
  ```Exempel: 8```  
  
-För barnlitteratur ska målgrupp läggas till efter SAB-koden
+För barnlitteratur ska målgrupp läggas till efter SAB-koden.  
 ```Exempel: Prab,uf```
 
  
