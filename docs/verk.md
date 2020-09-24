@@ -220,7 +220,7 @@ Sök direkt efter genre/form-termer i sökrutan. Länka till entitet.
 
 ### Klassifikation  
 **VERSION 1.19:**  
-Vissa klassifikationssystem har sedan version 1.19 flyttats till [Instans](https://libris.kb.se/katalogisering/help/workflow-instance)
+Vissa klassifikationssystem har sedan version 1.19 flyttats till [Instans](https://libris.kb.se/katalogisering/help/workflow-instance)  
 Kvar under Verk är DDK, Sekundär DDK-klassifikation, UDK samt SAB.  
 
 * DDK-klassifikation  
