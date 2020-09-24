@@ -26,8 +26,6 @@ tags:
 | [Copyrightår](#copyrightar) | | [Elektronisk adress](#annan-relaterad-resurs) |
 
 
-**NYTT FRÅN VERSION 1.17.2:** Relationer (länkfält), till exempel Supplement, Fortsätter, Fortsättes av, Ersätter, med flera, har flyttats från Verk till Instans. Se [Tryckt seriell resurs](https://libris.kb.se/katalogisering/help/workflow-print-serial).
-
 ## Inledning
 En instans är en instans av ett verk, till exempel en viss utgåva av ett verk. Instans kallas också manifestation. Beskrivningen av instansen innehåller information som utgivning, bärartyp och omfång. Vissa egenskaper, till exempel ämne, klassifikation, språk och innehållstyp, knyts i stället till verket. Läs mer om [Verk](https://libris.kb.se/katalogisering/help/workflow-work).   
 
@@ -382,13 +380,13 @@ Ange ogiltiga ISBN här och inte under Identifikator/ISBN/Ogiltigt värde. För 
 ### Klassifikation  
 **VERSION 1.19:**  
 Några klassifikationssystem har flyttats från Verk till Instans i version 1.19. Det gäller:  
-* LC-klassifikation (050)  
-* NAL-klassifikation  (060)  
-* NLM –klassifikation (070)  
+LC-klassifikation (050)  
+NAL-klassifikation  (060)  
+NLM –klassifikation (070)  
 För SAB-klassifikation ska SAB-kod med medietillägg läggas in under Instans.  
 För övrig klassifikation se [Verk](https://libris.kb.se/katalogisering/help/workflow-work).  
 
-*	SAB-klassifikation med medietillägg  
+####	SAB-klassifikation med medietillägg  
 *	Klassifikation/Klassifikation/Kod  
 (classification/Classification/code = 084 0/4 #a)  
 Skriv in uppgiften.  
