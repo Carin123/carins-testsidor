@@ -137,7 +137,7 @@ Skriv in uppgiften.
   ![Uppgift om originalversionens språk](translationof.png)  
    
 För översättningar i flera led, använd egenskapen Intermediärt språk till översättningar.  
-![Intermediärt språk](intermediate.png)  
+![Intermediärt språk](intermediate_language.png)  
  
 För en översättning ska översättningens språk också läggas till i klartext i marcpostens delfält #l, som ett tillägg till verkets titel.  
 
